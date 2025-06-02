@@ -1,0 +1,4 @@
+baseURL = 'https://ifcalm.org/'
+languageCode = 'zh-cn'
+title = '李帅帅的博客'
+theme = 'devise'
