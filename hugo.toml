@@ -1,4 +1,62 @@
 baseURL = 'https://ifcalm.org/'
 languageCode = 'zh-cn'
 title = '李帅帅的博客'
-theme = 'devise'
+theme = 'paperMod'
+
+[params]
+  env = "production"
+  description = "一个基于 Hugo + PaperMod 的静态博客"
+  author = "ifcalm"
+  DateFormat = "2006-01-02"
+  ShowReadingTime = true   # 显示文章阅读时间
+  ShowToc = true
+  TocOpen = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  comments = false
+  defaultTheme = "auto"  # 可选值：light, dark, auto, 默认主题
+  disableScrollToTop = false
+
+[params.homeInfoParams]
+  Title = "你好，世界 👋"
+  Content = "欢迎来到我的博客，这里记录技术与思考。"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+defaultContentLanguage = "zh"
+
+[languages.zh]
+  languageName = "简体中文"
+  contentDir = "content/zh"
+  weight = 1
+
+[languages.en]
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 2
