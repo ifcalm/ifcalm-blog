@@ -5,11 +5,12 @@ tags: ["生活", "思考", "专注力"]
 categories: ["随笔"]
 draft: false
 summary: "这是一篇关于如何在喧嚣中保持内心安定的思考文章。"
-showToc: true
-tocOpen: true
+showToc: false
+tocOpen: false
+ShowShareButtons: false
 ---
 
-## 为什么需要专注
+### 为什么需要专注
 
 在当前信息爆炸的时代，保持深度专注是一项稀缺能力。
 
@@ -19,7 +20,7 @@ tocOpen: true
 
 ---
 
-## 我的实践方法
+### 我的实践方法
 
 1. 使用番茄工作法
 2. 屏蔽社交媒体通知
