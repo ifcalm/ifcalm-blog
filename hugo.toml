@@ -92,6 +92,13 @@ enableRobotsTXT = true    # 生成 robots.txt 供搜索引擎识别
     weight = 5
 
   [[menu.main]]
+    identifier = "web3"
+    name = "web3"
+    url = "/posts/web3/"
+    parent = "posts"
+    weight = 6
+
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"

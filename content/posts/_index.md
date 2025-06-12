@@ -1,5 +1,5 @@
 ---
-title: "文章"
+title: "博文板块"
 description: "这里是我的文章列表，记录所思、所学、所感。"
 summary: "欢迎阅读我发布的所有博客文章"
 layout: "list"  # 使用 PaperMod 的列表布局
