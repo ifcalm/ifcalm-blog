@@ -23,6 +23,20 @@ enableRobotsTXT = true    # 生成 robots.txt 供搜索引擎识别
   defaultTheme = "auto"  # 可选值：light, dark, auto, 默认主题
   disableScrollToTop = false
 
+[params.giscus]
+  repo = "ifcalm/ifcalm-blog-comments"
+  repoId = "R_kgDOO9OWzg"         # 从 Giscus 页面获取
+  category = "General"   # 或你选择的类别
+  categoryId = "DIC_kwDOO9OWzs4Crnjp"     # 从 Giscus 页面获取
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "zh-CN"
+  loading = "lazy"
+
 [taxonomies]   # 分类系统（标签、分类）
   tag = "tags"
   category = "categories"
@@ -55,20 +69,6 @@ enableRobotsTXT = true    # 生成 robots.txt 供搜索引擎识别
 
 [params.assets]                                # 静态资源设置
   favicon = "/favicon/favicon-lss-rounded.ico"  # 网站图标路径
-
-[params.giscus]
-  repo = "ifcalm/ifcalm-blog-comments"
-  repoId = "R_kgDOO9OWzg"         # 从 Giscus 页面获取
-  category = "General"   # 或你选择的类别
-  categoryId = "DIC_kwDOO9OWzs4Crnjp"     # 从 Giscus 页面获取
-  mapping = "pathname"
-  strict = "0"
-  reactionsEnabled = "1"
-  emitMetadata = "0"
-  inputPosition = "bottom"
-  theme = "preferred_color_scheme"
-  lang = "zh-CN"
-  loading = "lazy"
 
 [menu]  # 顶部导航栏菜单配置
 
