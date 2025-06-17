@@ -68,7 +68,7 @@ enableRobotsTXT = true    # 生成 robots.txt 供搜索引擎识别
   inputPosition = "bottom"
   theme = "preferred_color_scheme"
   lang = "zh-CN"
-  loading = "anonymous"
+  loading = "lazy"
 
 [menu]  # 顶部导航栏菜单配置
 
