@@ -6,6 +6,7 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
+        {{- print " · "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
@@ -13,6 +14,9 @@
         {{- print " · "}}
     {{- end }}
 
+    <span>
+        相逢好似初相识 , 到老终无怨恨心
+    </span>
 </footer>
 {{- end }}
 
