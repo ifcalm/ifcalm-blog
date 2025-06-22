@@ -1,6 +1,6 @@
 ---
-title: "005_区块链结构"
-date: 2025-06-12
+title: "005_去中心化应用（Dapp）"
+date: 2023-11-03
 tags: ["区块链", "web3"]
 categories: ["技术"]
 draft: false
@@ -9,3 +9,13 @@ showToc: false
 tocOpen: false
 ShowShareButtons: false
 ---
+
+### DApp 的结构：前端 + 智能合约 + 钱包连接
+
+### 使用 web3.js / ethers.js 与合约交互
+
+### 使用 MetaMask 实现钱包连接与交易签名
+
+### 实战：构建一个链上留言板 / 投票系统
+
+### 部署：Hardhat、Remix、Foundry 的使用

@@ -1,6 +1,6 @@
 ---
-title: "004_去中心化网络"
-date: 2025-06-12
+title: "004_智能合约"
+date: 2023-09-27
 tags: ["区块链", "web3"]
 categories: ["技术"]
 draft: false

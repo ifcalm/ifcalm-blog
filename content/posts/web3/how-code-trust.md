@@ -1,6 +1,6 @@
 ---
-title: "002_如何实现基于代码的信任"
-date: 2025-06-12
+title: "002_Solidity 语言学习日志"
+date: 2023-06-18
 tags: ["区块链", "web3"]
 categories: ["技术"]
 draft: false
@@ -9,3 +9,4 @@ showToc: false
 tocOpen: false
 ShowShareButtons: false
 ---
+

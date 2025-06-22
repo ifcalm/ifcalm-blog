@@ -1,6 +1,6 @@
 ---
-title: "007_DeFi 去中心化金融与链上交互"
-date: 2024-06-17
+title: "008_Layer2 与多链生态"
+date: 2024-09-19
 tags: ["区块链", "web3"]
 categories: ["技术"]
 draft: false
@@ -10,12 +10,10 @@ tocOpen: false
 ShowShareButtons: false
 ---
 
-### 什么是 DeFi：从去中心化交易所到借贷协议
+### 为什么需要 Layer2？Rollup、ZK、Optimistic 简析
 
-### 使用 Uniswap SDK 实现交易
+### Polygon、Arbitrum、Optimism 使用与开发对比
 
-### 链上数据分析：The Graph、Dune、Covalent 使用入门
+### 跨链桥与资产转移逻辑
 
-### Flashloan（闪电贷）原理与合约构建
-
-### 编写一个简化版 AMM（自动化做市商）
+### 多链部署实践与合约复用技巧

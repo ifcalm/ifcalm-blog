@@ -1,6 +1,6 @@
 ---
-title: "006_非对称密码学"
-date: 2025-06-12
+title: "006_Web3 登录与身份管理"
+date: 2024-02-25
 tags: ["区块链", "web3"]
 categories: ["技术"]
 draft: false
@@ -9,3 +9,11 @@ showToc: false
 tocOpen: false
 ShowShareButtons: false
 ---
+
+### Sign-in with Ethereum：原理与实现
+
+### 使用 EIP-4361 构建自定义登录流程
+
+### Web3 与 Web2 登录融合方案（钱包 + 邮箱）
+
+### 探索链上身份（DID、ENS、Lens Protocol）
