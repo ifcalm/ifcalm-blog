@@ -2,7 +2,6 @@
 title: "静心与专注：关于工作的几点体悟"
 date: 2025-06-07
 tags: ["生活", "思考", "专注力"]
-categories: ["随笔"]
 draft: false
 summary: "这是一篇关于如何在喧嚣中保持内心安定的思考文章。"
 showToc: false
