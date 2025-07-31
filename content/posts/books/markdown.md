@@ -204,3 +204,21 @@ ShowShareButtons: false
 
 ### 代码语法
 
+要将词语表示为代码，请将其包裹在反引号 (`) 中。
+
+I like reading `Zhuangzi`.
+```
+I like reading `Zhuangzi`.
+```
+
+#### 转义反引号
+
+如果要表示为代码词语中包含一个或多个反引号，则可以通过将词语包裹在双反引号(``)中。
+
+Friends, ``I like reading `Zhuangzi`.``
+```
+Friends, ``I like reading `Zhuangzi`.``
+```
+
+### 分隔线语法
+
