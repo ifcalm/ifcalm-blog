@@ -254,12 +254,12 @@ Friends, ``I like reading `Zhuangzi`.``
 
 使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
 
-<https://books.ifcalm.org/>   
-<ifcalm.ok@gmail.com>
+诸子百家：<https://books.ifcalm.org/>   
+我的邮箱：<ifcalm.ok@gmail.com>
 
 ```
-<https://books.ifcalm.org/>
-<ifcalm.ok@gmail.com>
+诸子百家：<https://books.ifcalm.org/>   
+我的邮箱：<ifcalm.ok@gmail.com>
 ```
 
 #### 带格式化的链接
@@ -275,4 +275,17 @@ Friends, ``I like reading `Zhuangzi`.``
 他也喜欢看 *[诸子百家](https://books.ifcalm.org)*   
 她也喜欢看 [`诸子百家`](https://books.ifcalm.org)
 ```
+
+### 图片语法
+
+要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。
+
+插入图片Markdown语法代码：`![图片alt](图片链接 "图片title")`。
+
+这是一张狗与蝴蝶嬉戏的图片：![狗与蝴蝶](/assets/images/posts-books/markdown-case01.png "狗与蝴蝶")
+```
+这是一张狗与蝴蝶嬉戏的图片：![狗与蝴蝶](/assets/images/posts-books/markdown-case01.png "狗与蝴蝶")
+```
+
+#### 超链接图片
 
