@@ -282,7 +282,7 @@ Friends, ``I like reading `Zhuangzi`.``
 
 插入图片Markdown语法代码：`![图片alt](图片链接 "图片title")`。
 
-这是一张狗与蝴蝶嬉戏的图片：![狗与蝴蝶](/assets/images/posts-books/markdown-case01.png "狗与蝴蝶")
+这是一张狗与蝴蝶嬉戏的图片：![狗与蝴蝶](https://static.chinese-classics.org/images/00018_tianDao-20250521.png "狗与蝴蝶")
 ```
 这是一张狗与蝴蝶嬉戏的图片：![狗与蝴蝶](/assets/images/posts-books/markdown-case01.png "狗与蝴蝶")
 ```
