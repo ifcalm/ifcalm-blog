@@ -291,9 +291,9 @@ Friends, ``I like reading `Zhuangzi`.``
 
 给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。
 
-庄周梦蝶的故事：![庄周梦蝶](https://static.ifcalm.org/blog/images/0002-markdown-case02.png "庄周梦蝶")
+庄周梦蝶的故事：[![庄周梦蝶](https://static.ifcalm.org/blog/images/0002-markdown-case02.png "庄周梦蝶")](https://books.ifcalm.org)
 ```
-庄周梦蝶的故事：![庄周梦蝶](https://static.ifcalm.org/blog/images/0002-markdown-case02.png "庄周梦蝶")
+庄周梦蝶的故事：[![庄周梦蝶](https://static.ifcalm.org/blog/images/0002-markdown-case02.png "庄周梦蝶")](https://books.ifcalm.org)
 ```
 
 ### 表格语法
