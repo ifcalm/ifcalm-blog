@@ -242,10 +242,37 @@ Friends, ``I like reading `Zhuangzi`.``
 ### 链接语法
 
 超链接语法代码：`[超链接显示名](超链接地址 "超链接title")`   
-链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
+链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。   
+链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。
 
 这是一个超链接：[诸子百家](https://books.ifcalm.org "诸子百家")
 ```
 这是一个超链接：[诸子百家](https://books.ifcalm.org "诸子百家")
+```
+
+#### 网址和Email地址
+
+使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
+
+<https://books.ifcalm.org/>   
+<ifcalm.ok@gmail.com>
+
+```
+<https://books.ifcalm.org/>
+<ifcalm.ok@gmail.com>
+```
+
+#### 带格式化的链接
+
+强调链接, 在链接语法前后增加星号。要将链接表示为代码，请在方括号中添加反引号。
+
+我喜欢看 **[诸子百家](https://books.ifcalm.org)**   
+他也喜欢看 *[诸子百家](https://books.ifcalm.org)*   
+她也喜欢看 [`诸子百家`](https://books.ifcalm.org)
+
+```
+我喜欢看 **[诸子百家](https://books.ifcalm.org)**   
+他也喜欢看 *[诸子百家](https://books.ifcalm.org)*   
+她也喜欢看 [`诸子百家`](https://books.ifcalm.org)
 ```
 
