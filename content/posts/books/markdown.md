@@ -376,3 +376,13 @@ Friends, ``I like reading `Zhuangzi`.``
 - [ ] 无用之用，方为大用
 ```
 
+### 使用 Emoji 表情
+
+有两种方法可以将表情符号添加到Markdown文件中：将表情符号复制并粘贴到Markdown格式的文本中，或者键入emoji shortcodes。
+
+#### 复制和粘贴表情符号
+
+可以简单地从 [Emojipedia](https://emojipedia.org "emoji") 等来源复制表情符号并将其粘贴到文档中。
+
+看看我这个无奈 🫠。
+
