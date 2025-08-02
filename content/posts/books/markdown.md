@@ -376,7 +376,7 @@ Friends, ``I like reading `Zhuangzi`.``
 - [ ] 无用之用，方为大用
 ```
 
-### 使用 Emoji 表情
+### 使用 Emoji 表情语法
 
 有两种方法可以将表情符号添加到Markdown文件中：将表情符号复制并粘贴到Markdown格式的文本中，或者键入emoji shortcodes。
 
@@ -391,7 +391,7 @@ Friends, ``I like reading `Zhuangzi`.``
 Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。这些以冒号开头和结尾，并包含表情符号的名称。   
 参考列表：[表情符号简码列表](https://gist.github.com/rxaviers/7360908 "表情符号简码列表")
 
-看看我这两行眼泪 :joy:。
+看看我这两行眼泪 :joy:。看起来这个方法不灵。
 ```
 看看我这两行眼泪 :joy:。
 ```
