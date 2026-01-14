@@ -1,9 +1,9 @@
 ---
-title: "001_区块链基础"
+title: "区块链基础(一)"
 date: 2023-06-12
 tags: ["区块链", "web3"]
 draft: false
-summary: "当你想让“信任”、“所有权”、“激励” 天然地嵌入系统底层，而不是依赖外部机构时，区块链能让这一切“自动发生"
+summary: "在 Web3 的世界里，用户对自己创造的内容和数据拥有真正的所有权，从而摆脱对传统中心化平台的依赖。"
 showToc: true
 tocOpen: false
 ShowShareButtons: false
