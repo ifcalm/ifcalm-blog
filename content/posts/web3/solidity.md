@@ -1,5 +1,5 @@
 ---
-title: "003_Solidity 语言学习日志"
+title: "004_Solidity 语言学习日志"
 date: 2023-06-18
 tags: ["区块链", "web3"]
 draft: false
