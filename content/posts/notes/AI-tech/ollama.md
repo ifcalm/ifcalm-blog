@@ -3,202 +3,174 @@ title: "Ollama：在本地跑起你的第一个大模型"
 date: 2026-04-18
 tags: ["AI", "工具"]
 draft: false
-summary: "Ollama 本地大模型部署工具的使用指南"
+summary: "不联网、不花钱、一行命令在本地运行大语言模型"
 showToc: true
 tocOpen: true
 ShowShareButtons: false
 ---
 
-## 简介
+## 它能干嘛
 
-Ollama 是一个让你在本地轻松运行大语言模型（LLM）的工具。无需云端 API，无需联网，一个命令就能下载并运行 Llama、Mistral、Qwen、DeepSeek、Gemma 等开源模型。所有数据都留在本地，适合隐私敏感场景和离线开发。
+Ollama 让你在自己的电脑上跑大语言模型。不用联网、不用 API Key、数据不出你的机器。Llama、DeepSeek、Qwen、Mistral——一行命令下载，一行命令跑起来。
+
+适合：想玩模型但不想花钱充 API、处理敏感数据不能上云、断网环境下想有个 AI 用。
 
 ## 安装
 
 ```bash
-# macOS
 brew install ollama
+```
 
-# Linux
+macOS 上装完它会在后台自动跑一个服务（端口 11434），不用手动启动。
+
+Linux：
+
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
-# 或下载 macOS 桌面应用
-# https://ollama.com/download
 ```
 
-安装后，Ollama 作为后台服务运行（默认端口 11434）。
+## 第一把就玩起来
 
 ```bash
-# 启动服务（macOS 桌面应用会自动启动）
-ollama serve
-```
+# 下模型
+ollama pull llama3.3
 
-## 基本使用
-
-### 拉取和运行模型
-
-```bash
-# 拉取模型
-ollama pull llama3.3          # Meta Llama 3.3
-ollama pull qwen3              # 阿里通义千问 3
-ollama pull deepseek-r1:7b     # DeepSeek R1 7B
-ollama pull mistral            # Mistral 7B
-ollama pull gemma3             # Google Gemma 3
-ollama pull codellama          # 代码专用模型
-
-# 列出现有模型
-ollama list
-
-# 运行模型（交互式对话）
+# 跑起来
 ollama run llama3.3
-ollama run deepseek-r1:7b
-
-# 查看模型详情
-ollama show llama3.3
 ```
 
-### 单次问答（非交互）
+然后就能直接聊天了。想退敲 `/bye`。
+
+如果不知道下哪个，推荐这几个：
 
 ```bash
-# 直接提问并退出
-ollama run llama3.3 "用 Go 写一个 HTTP 服务器"
-
-# 从文件读取 prompt
-ollama run llama3.3 < prompt.txt
+ollama pull llama3.3          # Meta 的，英文强
+ollama pull qwen3              # 阿里的，中英双语
+ollama pull deepseek-r1:7b     # DeepSeek 推理模型
+ollama pull codellama          # 专门写代码的
+ollama pull mistral            # 轻快，适合配置一般的机器
 ```
 
-### 删除模型
+## 日常操作
 
 ```bash
-ollama rm llama3.2    # 删除指定模型
-ollama rm $(ollama list | tail -n +2 | awk '{print $1}')  # 删除所有模型
-```
-
-## 模型管理
-
-### 查看已下载模型
-
-```bash
+# 看下了哪些模型
 ollama list
-# 输出示例:
-# NAME              ID              SIZE      MODIFIED
-# llama3.3:latest   1234abcd5678    4.7 GB    2 days ago
-# qwen3:latest      5678efgh9012    4.9 GB    5 days ago
+
+# 一句话提问不聊天
+ollama run llama3.3 "用 Go 写一个 HTTP server"
+
+# 看模型详情
+ollama show llama3.3
+
+# 删掉不用的
+ollama rm llama3.2
 ```
 
-### 模型标签和版本
+## 模型标签
 
-Ollama 模型使用 `name:tag` 格式，类似于 Docker 镜像：
+模型使用 `name:tag` 格式区分版本：
 
 ```bash
-ollama pull llama3.3              # :latest 标签
-ollama pull llama3.3:70b          # 70B 参数版本
-ollama pull deepseek-r1:7b        # 7B 版本
+ollama pull llama3.3          # :latest
+ollama pull llama3.3:70b      # 70B 大杯
+ollama pull deepseek-r1:7b    # 7B 小杯，配置低也能跑
 ```
 
-### 自定义 Modelfile
+机器内存不够就别碰 70B 了，7B-14B 日常玩玩完全够。
 
-可以基于现有模型创建自定义模型，类似 Dockerfile：
+## 调参数
+
+进了对话以后，`/set` 调各种参数：
+
+```bash
+>>> /set temperature 0.8     # 要不要创意，0-2，越高越放飞
+>>> /set num_ctx 8192        # 上下文窗口
+>>> /set num_predict 1024    # 最大输出长度
+>>> /show parameters         # 看当前是什么配置
+```
+
+## 定制自己的模型
+
+用 Modelfile 基于已有模型创建自定义模型：
 
 ```dockerfile
-# Modelfile
 FROM llama3.3
 
-# 设置系统提示词
-SYSTEM "你是一个精通 Go 语言的后端工程师，回答要简洁专业。"
+SYSTEM "你是一个精通 Go 的后端工程师，回答简洁，给代码不给废话。"
 
-# 设置温度
 PARAMETER temperature 0.7
-
-# 设置最大 token
-PARAMETER num_ctx 4096
+PARAMETER num_ctx 8192
 ```
 
 ```bash
-# 创建自定义模型
-ollama create my-assistant -f Modelfile
-
-# 运行自定义模型
-ollama run my-assistant
+ollama create my-coder -f Modelfile
+ollama run my-coder
 ```
 
-### 模型存储位置
-
-- **macOS**: `~/.ollama/models/`
-- **Linux**: `/usr/share/ollama/.ollama/models/`
-
-## 常用参数配置
-
-在运行模型时可以调整参数：
-
-```bash
-# 交互模式下设置参数
-ollama run llama3.3
->>> /set temperature 0.8    # 创意度 0-2
->>> /set num_ctx 8192       # 上下文窗口大小
->>> /set num_predict 1024   # 最大生成长度
->>> /set seed 42            # 随机种子
->>> /show parameters        # 查看当前参数
-```
+这样你就有了一个专属的编程助手，不需要每次对话都重新交代"你是后端工程师"。
 
 ## API 接口
 
-Ollama 提供与 OpenAI 兼容的 API，默认监听 `http://localhost:11434`。
-
-### Chat API
+Ollama 提供了 HTTP API，默认 `localhost:11434`，跟 OpenAI 的格式兼容：
 
 ```bash
+# Chat 风格
 curl http://localhost:11434/api/chat -d '{
   "model": "llama3.3",
-  "messages": [
-    {"role": "user", "content": "你好，请介绍一下 Go 语言的特点"}
-  ],
+  "messages": [{"role": "user", "content": "介绍一下 Go 语言"}],
   "stream": false
 }'
-```
 
-### Generate API
-
-```bash
+# 直接生成
 curl http://localhost:11434/api/generate -d '{
   "model": "llama3.3",
-  "prompt": "用 Go 写一个快速排序算法",
+  "prompt": "写一个快速排序",
   "stream": false
 }'
 ```
 
-### 列出模型（API）
-
-```bash
-curl http://localhost:11434/api/tags
-```
-
-### 在代码中调用
+代码里怎么用：
 
 ```python
-# Python 示例
 import requests
 
-response = requests.post(
-    "http://localhost:11434/api/chat",
-    json={
-        "model": "llama3.3",
-        "messages": [{"role": "user", "content": "你好"}],
-        "stream": False
-    }
-)
-print(response.json()["message"]["content"])
+r = requests.post("http://localhost:11434/api/chat", json={
+    "model": "llama3.3",
+    "messages": [{"role": "user", "content": "写一个冒泡排序"}],
+    "stream": False
+})
+print(r.json()["message"]["content"])
 ```
 
-```go
-// Go 示例
-import "github.com/ollama/ollama/api"
-// 使用官方 Go SDK 调用 Ollama
+## 局域网共享
+
+家里有多台电脑，不想每台都下一遍模型：
+
+```bash
+# 让 Ollama 监听所有网卡
+export OLLAMA_HOST=0.0.0.0:11434
 ```
 
-## 搭配 Open WebUI
+然后其他机器就能通过 `http://你电脑IP:11434` 调用了。
 
-Ollama 本身只有命令行和 API，配合 Open WebUI 可以获得类似 ChatGPT 的网页界面：
+几个有用的环境变量：
+
+```bash
+export OLLAMA_NUM_PARALLEL=4        # 同时处理几个请求
+export OLLAMA_MAX_LOADED_MODELS=2   # 最多同时驻留几个模型在内存
+```
+
+## 模型存哪里了
+
+- macOS: `~/.ollama/models/`
+- Linux: `/usr/share/ollama/.ollama/models/`
+
+磁盘告急时知道去哪砍。
+
+## 配 Open WebUI
+
+Ollama 本身只有命令行和 API，想要网页版界面就接 Open WebUI：
 
 ```bash
 docker run -d -p 3000:8080 \
@@ -208,50 +180,27 @@ docker run -d -p 3000:8080 \
   ghcr.io/open-webui/open-webui:main
 ```
 
-之后访问 `http://localhost:3000` 即可使用。
+然后浏览器打开 `http://localhost:3000` 就能用了。
 
-## 常用模型推荐
+## 选模型参考
 
-| 模型 | 参数量 | 适用场景 |
-|------|-------|---------|
-| llama3.3 | 70B/8B | 通用对话，Meta 旗舰 |
-| deepseek-r1 | 7B-671B | 深度推理，逻辑分析 |
-| qwen3 | 0.6B-235B | 中英文双语，阿里 |
-| codellama | 7B-70B | 代码生成和补全 |
-| mistral | 7B-8x22B | 通用推理，速度快 |
-| gemma3 | 1B-27B | Google 开源模型 |
-| nomic-embed-text | - | 文本嵌入向量 |
-| llava | 7B/13B | 多模态（图片理解） |
+| 模型 | 大小 | 适合 |
+|------|------|------|
+| llama3.3 | 8B/70B | 通用对话，英文强 |
+| deepseek-r1 | 7B-671B | 推理强，逻辑分析 |
+| qwen3 | 0.6B-235B | 中文最好 |
+| codellama | 7B-70B | 写代码 |
+| mistral | 7B-8x22B | 快，轻量 |
+| gemma3 | 1B-27B | Google 的 |
+| llava | 7B/13B | 能看图的 |
 
-## 进阶技巧
+## 性能贴士
 
-### 并发运行多个模型
+- 7B 模型大概吃 8GB 内存，70B 要 40GB+
+- Apple Silicon 自动用 GPU 加速，不用配
+- Linux 上有 NVIDIA 卡会自动用 CUDA
+- 模型默认 Q4_0 量化，精度和速度的折中
 
-```bash
-# 同时启动不同实例
-ollama serve --port 11435 &   # 第二个实例用不同端口
-OLLAMA_HOST=0.0.0.0:11435 ollama serve &
-```
+---
 
-### 设置环境变量
-
-```bash
-# macOS/Linux 配置
-export OLLAMA_HOST=0.0.0.0:11434    # 允许局域网访问
-export OLLAMA_NUM_PARALLEL=4         # 最大并行请求数
-export OLLAMA_MAX_LOADED_MODELS=2    # 同时加载的模型数
-```
-
-### 性能优化
-
-- **内存**: 7B 模型需约 8GB RAM，70B 模型需约 40GB+
-- **GPU**: Apple Silicon 自动利用 Metal GPU，Linux 支持 NVIDIA CUDA
-- **量化**: 模型自动使用 Q4_0 量化，需要更高精度可通过 Modelfile 指定
-
-## 常见问题
-
-**模型下载速度慢？**
-可以设置镜像加速或手动导入 GGUF 格式模型文件。
-
-**内存不足？**
-选择更小的量化版本，如 `llama3.3:7b` 替代 `llama3.3:70b`。
+没了。下次断网的时候试试，你会发现本地有个 AI 跑着还挺踏实的。
