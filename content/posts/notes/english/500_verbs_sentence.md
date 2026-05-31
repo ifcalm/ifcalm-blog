@@ -3,7 +3,7 @@ title: "520 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "500 个核心英语动词与句子模板"
+summary: "520 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -559,29 +559,29 @@ This change makes the system stable.
 | 495 | mind | 介意 | `A minds B. / A minds doing B.` | Do you mind reviewing this PR? | 你介意评审这个 PR 吗？ |
 | 496 | wear | 穿；磨损 | `A wears B.` | Heavy traffic wears the disk. | 高流量磨损磁盘。 |
 | 497 | collect | 收集 | `A collects B from C.` | The agent collects metrics every minute. | 代理每分钟收集指标。 |
-| 498 | do | 做；执行 | | `A does B. / A does.` | The script does the heavy lifting. | 脚本承担了繁重的工作。 |
-| 499 | make | 做；使；制造 | | `A makes B. / A makes B C.` | This change makes the system stable. | 这个改动让系统变得稳定。 |
-| 500 | put | 放；放置 | | `A puts B in/on C.` | Put the config file in this directory. | 把配置文件放在这个目录下。 |
-| 501 | try | 尝试；试图 | | `A tries B. / A tries to do B.` | Try a different approach. | 尝试另一种方法。 |
-| 502 | mean | 意思是；意味着 | | `A means B. / A means that S.` | A 503 error means the service is down. | 503 错误意味着服务挂了。 |
-| 503 | let | 让；允许 | | `A lets B do C.` | Let the pipeline finish before merging. | 等流水线完成再合并。 |
-| 504 | set | 设置；设定；放置 | | `A sets B. / A sets B to C.` | Set the timeout to 30 seconds. | 把超时设为 30 秒。 |
-| 505 | kill | 杀死；终止 | | `A kills B.` | Kill the stuck process. | 终止卡住的进程。 |
-| 506 | hit | 击中；达到；请求 | | `A hits B.` | The cache hit rate reached 95%. | 缓存命中率达到 95%。 |
-| 507 | cause | 导致；引起 | | `A causes B. / A causes B to do C.` | The bug caused data loss. | 这个缺陷导致了数据丢失。 |
-| 508 | force | 强制；强迫 | | `A forces B to do C.` | Don't force push to main. | 不要强制推送到主分支。 |
-| 509 | form | 形成；构成 | | `A forms B. / A forms.` | These three services form the core platform. | 这三个服务构成核心平台。 |
-| 510 | attend | 参加；出席 | | `A attends B.` | I attended the sprint review. | 我参加了迭代评审会。 |
-| 511 | treat | 对待；处理 | | `A treats B as C.` | Treat all input as untrusted. | 将所有输入视为不可信。 |
-| 512 | visit | 访问；拜访 | | `A visits B.` | The crawler visits the homepage first. | 爬虫首先访问首页。 |
-| 513 | hang | 悬挂；挂起 | | `A hangs. / A hangs B.` | The request hung until timeout. | 请求挂起直到超时。 |
-| 514 | cross | 穿过；交叉 | | `A crosses B.` | The request crossed multiple data centers. | 请求跨越了多个数据中心。 |
-| 515 | touch | 触碰；涉及 | | `A touches B.` | This PR touches three modules. | 这个 PR 涉及三个模块。 |
-| 516 | sing | 唱 | | `A sings B. / A sings.` | The team sang his praises at the demo. | 团队在演示中对他赞不绝口。 |
-| 517 | submit | 提交 | | `A submits B to C.` | Submit the PR for review. | 提交 PR 等待评审。 |
-| 518 | destroy | 销毁；破坏 | | `A destroys B.` | Terraform destroyed the test environment. | Terraform 销毁了测试环境。 |
-| 519 | reflect | 反映；反思 | | `A reflects B. / A reflects on B.` | The dashboard reflects real-time metrics. | 仪表盘反映实时指标。 |
-| 520 | render | 渲染；使成为 | | `A renders B. / A renders B C.` | The browser renders the page in milliseconds. | 浏览器在毫秒内渲染页面。 |
+| 498 | do | 做；执行 | `A does B. / A does.` | The script does the heavy lifting. | 脚本承担了繁重的工作。 |
+| 499 | make | 做；使；制造 | `A makes B. / A makes B C.` | This change makes the system stable. | 这个改动让系统变得稳定。 |
+| 500 | put | 放；放置 | `A puts B in/on C.` | Put the config file in this directory. | 把配置文件放在这个目录下。 |
+| 501 | try | 尝试；试图 | `A tries B. / A tries to do B.` | Try a different approach. | 尝试另一种方法。 |
+| 502 | mean | 意思是；意味着 | `A means B. / A means that S.` | A 503 error means the service is down. | 503 错误意味着服务挂了。 |
+| 503 | let | 让；允许 | `A lets B do C.` | Let the pipeline finish before merging. | 等流水线完成再合并。 |
+| 504 | set | 设置；设定；放置 | `A sets B. / A sets B to C.` | Set the timeout to 30 seconds. | 把超时设为 30 秒。 |
+| 505 | kill | 杀死；终止 | `A kills B.` | Kill the stuck process. | 终止卡住的进程。 |
+| 506 | hit | 击中；达到；请求 | `A hits B.` | The cache hit rate reached 95%. | 缓存命中率达到 95%。 |
+| 507 | cause | 导致；引起 | `A causes B. / A causes B to do C.` | The bug caused data loss. | 这个缺陷导致了数据丢失。 |
+| 508 | force | 强制；强迫 | `A forces B to do C.` | Don't force push to main. | 不要强制推送到主分支。 |
+| 509 | form | 形成；构成 | `A forms B. / A forms.` | These three services form the core platform. | 这三个服务构成核心平台。 |
+| 510 | attend | 参加；出席 | `A attends B.` | I attended the sprint review. | 我参加了迭代评审会。 |
+| 511 | treat | 对待；处理 | `A treats B as C.` | Treat all input as untrusted. | 将所有输入视为不可信。 |
+| 512 | visit | 访问；拜访 | `A visits B.` | The crawler visits the homepage first. | 爬虫首先访问首页。 |
+| 513 | hang | 悬挂；挂起 | `A hangs. / A hangs B.` | The request hung until timeout. | 请求挂起直到超时。 |
+| 514 | cross | 穿过；交叉 | `A crosses B.` | The request crossed multiple data centers. | 请求跨越了多个数据中心。 |
+| 515 | touch | 触碰；涉及 | `A touches B.` | This PR touches three modules. | 这个 PR 涉及三个模块。 |
+| 516 | sing | 唱 | `A sings B. / A sings.` | The team sang his praises at the demo. | 团队在演示中对他赞不绝口。 |
+| 517 | submit | 提交 | `A submits B to C.` | Submit the PR for review. | 提交 PR 等待评审。 |
+| 518 | destroy | 销毁；破坏 | `A destroys B.` | Terraform destroyed the test environment. | Terraform 销毁了测试环境。 |
+| 519 | reflect | 反映；反思 | `A reflects B. / A reflects on B.` | The dashboard reflects real-time metrics. | 仪表盘反映实时指标。 |
+| 520 | render | 渲染；使成为 | `A renders B. / A renders B C.` | The browser renders the page in milliseconds. | 浏览器在毫秒内渲染页面。 |
 
 ## 三、如何真正掌握这些动词？
 
