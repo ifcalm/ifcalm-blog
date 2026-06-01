@@ -1,9 +1,9 @@
 ---
-title: "1209 个核心英语动词与句子模板"
+title: "1246 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1209 个核心英语动词与句子模板"
+summary: "1246 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、985 个核心动词主表
+## 二、1022 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1047,6 +1047,43 @@ This change makes the system stable.
 | 983 | time | 计时；安排时间 | `A times B.` | Time the API call to see if the optimization worked. | 给 API 调用计时看优化是否生效。 |
 | 984 | tip | 倾斜；给小费；提示 | `A tips B. / A tips the balance.` | A single bottleneck tipped the entire system over. | 单个瓶颈就让整个系统翻了。 |
 | 985 | value | 重视；评估 | `A values B.` | The team values code simplicity over cleverness. | 团队重视代码简洁胜过聪明。 |
+| 986 | contact | 联系；接触 | `A contacts B.` | Contact the on-call engineer if the alert persists. | 如果告警持续，联系值班工程师。 |
+| 987 | admit | 承认；接纳 | `A admits B. / A admits that S.` | The team admitted the timeline was unrealistic. | 团队承认时间线不切实际。 |
+| 988 | affect | 影响；作用于 | `A affects B.` | This config change affects all production instances. | 这个配置变更影响所有生产实例。 |
+| 989 | attach | 附上；连接；附加 | `A attaches B to C.` | Attach the debugger to the running process. | 将调试器附加到运行中的进程。 |
+| 990 | beat | 打败；跳动；超越 | `A beats B.` | The new index beat the old one by 10x in benchmarks. | 新索引在基准测试中以 10 倍优势打败了旧的。 |
+| 991 | bend | 弯曲；改变规则 | `A bends B.` | Don't bend the coding standards just to ship faster. | 别为了赶发布而放宽编码规范。 |
+| 992 | bet | 打赌；确信 | `A bets on B. / A bets that S.` | I bet the bug is in the caching layer. | 我打赌这个 bug 在缓存层。 |
+| 993 | bow | 鞠躬；屈服；低头 | `A bows to B.` | The team bowed to pressure and cut scope. | 团队迫于压力砍了范围。 |
+| 994 | bury | 掩埋；隐藏；埋头于 | `A buries B in C.` | The critical alert was buried in a flood of warnings. | 关键告警被淹没在警告洪流中。 |
+| 995 | celebrate | 庆祝；赞美 | `A celebrates B.` | The team celebrated the launch with a demo day. | 团队用演示日庆祝上线。 |
+| 996 | chase | 追赶；追查 | `A chases B. / A chases down B.` | Chase down the root cause before it escalates. | 在升级之前追查到根因。 |
+| 997 | comfort | 安慰；使舒适 | `A comforts B.` | A familiar tech stack comforts the onboarding engineer. | 熟悉的技术栈让入职工程师感到舒适。 |
+| 998 | contrast | 对比；形成对照 | `A contrasts B with C.` | Contrast the monolith's simplicity with microservices' flexibility. | 对比单体的简洁与微服务的灵活。 |
+| 999 | correct | 纠正；改正 | `A corrects B.` | The linter corrects common mistakes automatically. | Linter 自动纠正常见错误。 |
+| 1000 | cure | 治愈；解决 | `A cures B.` | A rewrite won't cure a lack of tests. | 重写治不了缺少测试的病。 |
+| 1001 | debate | 辩论；讨论 | `A debates B. / A debates whether S.` | The team debated whether to adopt a monorepo. | 团队就是否采用 monorepo 进行了辩论。 |
+| 1002 | defeat | 打败；挫败 | `A defeats B.` | Don't let a single failure defeat the entire migration. | 别让单次失败挫败整个迁移。 |
+| 1003 | delight | 使高兴；取悦 | `A delights B.` | A fast CI pipeline delights the entire engineering team. | 快速的 CI 流水线让整个工程团队高兴。 |
+| 1004 | educate | 教育；培训 | `A educates B about C.` | Educate the team about secure coding practices. | 对团队进行安全编码实践培训。 |
+| 1005 | excite | 使兴奋；激发 | `A excites B about C.` | The new tech stack excited the engineering team. | 新技术栈让工程团队兴奋起来。 |
+| 1006 | exhibit | 展示；表现出 | `A exhibits B.` | The system exhibits degraded performance under peak load. | 系统在峰值负载下表现出性能下降。 |
+| 1007 | file | 提交；归档 | `A files B.` | File a detailed bug report with steps to reproduce. | 提交一份详细的缺陷报告并附上复现步骤。 |
+| 1008 | float | 漂浮；提出（想法） | `A floats B.` | Float the proposal in the next architecture review. | 在下次架构评审中提出这个提案。 |
+| 1009 | flow | 流动；流转 | `A flows through B. / A flows.` | Data flows from the producer to the consumer via Kafka. | 数据经由 Kafka 从生产者流向消费者。 |
+| 1010 | fold | 折叠；倒闭；合并 | `A folds B into C. / A folds.` | Fold the utility functions into the shared library. | 把工具函数合并到共享库中。 |
+| 1011 | frighten | 使害怕；吓唬 | `A frightens B.` | The complexity of the legacy code frightens new hires. | 遗留代码的复杂性吓到了新人。 |
+| 1012 | fry | 油炸；烧毁 | `A fries B. / A fries.` | A power surge fried the server's motherboard. | 电涌烧毁了服务器的主板。 |
+| 1013 | grab | 抓住；获取；快速做 | `A grabs B.` | Grab a coffee and then grab the latest logs. | 拿杯咖啡然后抓取最新日志。 |
+| 1014 | guard | 守卫；防范 | `A guards against B. / A guards B.` | Input validation guards against injection attacks. | 输入校验防范注入攻击。 |
+| 1015 | head | 领导；前往 | `A heads B. / A heads to B.` | The VP of Engineering heads the technical strategy. | 工程 VP 领导技术战略。 |
+| 1016 | heat | 加热；升温 | `A heats up B. / A heats up.` | The discussion heated up during the post-mortem. | 复盘期间讨论升温了。 |
+| 1017 | hire | 雇用；租用 | `A hires B.` | Hire for curiosity and adaptability, not just years of experience. | 招聘看重好奇心和适应力，而不仅仅是工作年限。 |
+| 1018 | host | 主办；托管；承载 | `A hosts B.` | We host the API on a managed Kubernetes cluster. | 我们在托管 Kubernetes 集群上承载 API。 |
+| 1019 | hunt | 狩猎；搜寻 | `A hunts for B. / A hunts down B.` | Hunt down the memory leak with a heap profiler. | 用堆分析器追踪内存泄漏。 |
+| 1020 | import | 导入；输入 | `A imports B into C.` | Import the CSV data into the analytics database. | 将 CSV 数据导入分析数据库。 |
+| 1021 | injure | 伤害；损害 | `A injures B.` | A hasty hotfix can injure the system's stability. | 仓促的热修复会损害系统稳定性。 |
+| 1022 | interest | 使感兴趣 | `A interests B.` | DevOps practices interest more engineers every year. | DevOps 实践每年吸引更多工程师的兴趣。 |
 
 
 
@@ -1370,7 +1407,8 @@ depend 必须常和 on 搭配
 | 第7阶段 | 601～700 | 掌握商务、产品和营销动词 |
 | 第8阶段 | 701～800 | 掌握系统设计、优化和架构动词 |
 | 第9阶段 | 801～900 | 补充日常交流、商务和职场场景动词 |
-| 第10阶段 | 901～985 | 巩固剩余高频和专项场景动词 |
+| 第10阶段 | 901～1000 | 巩固剩余高频和专项场景动词 |
+| 第11阶段 | 1001～1022 | 继续扩展动词覆盖范围 |
 
 ---
 
@@ -1385,7 +1423,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1209 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1246 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
