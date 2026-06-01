@@ -1597,3 +1597,41 @@ depend 必须常和 on 搭配
 
 当你熟悉这 1273 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
+---
+
+## 附录：高频动词补充
+
+> 以下是查漏补缺项，暂不并入前文 1273 个核心动词编号。
+
+### A. 情态与助动词
+
+| Verb | 中文含义 | 核心句子模板 | 示例 | 中文例句 |
+|---|---|---|---|---|
+| can | 能；可以 | `A can do B.` | This tool can generate a report automatically. | 这个工具可以自动生成报告。 |
+| could | 能够；可能；可以（委婉） | `A could do B.` | We could cache the response to reduce latency. | 我们可以缓存响应来降低延迟。 |
+| will | 将会；愿意 | `A will do B.` | The service will restart after the deploy. | 服务会在部署后重启。 |
+| would | 会；愿意；将会（假设或委婉） | `A would do B.` | A retry would solve most transient failures. | 一次重试会解决大多数瞬时故障。 |
+| should | 应该 | `A should do B.` | You should validate input before saving it. | 保存前应该验证输入。 |
+| may | 可能；可以 | `A may do B.` | The request may fail if the token expires. | 如果令牌过期，请求可能会失败。 |
+| might | 可能 | `A might do B.` | This change might affect older clients. | 这个改动可能影响旧客户端。 |
+| must | 必须 | `A must do B.` | Users must confirm their email before login. | 用户登录前必须确认邮箱。 |
+| shall | 应当；将要（正式/规范） | `A shall do B.` | The system shall reject invalid signatures. | 系统应当拒绝无效签名。 |
+
+### B. 基础动词补充
+
+| Verb | 中文含义 | 核心句子模板 | 示例 | 中文例句 |
+|---|---|---|---|---|
+| act | 行动；充当 | `A acts. / A acts as B. / A acts on B.` | The gateway acts as a reverse proxy. | 网关充当反向代理。 |
+| base | 以……为基础 | `A bases B on C. / B is based on C.` | We based the estimate on historical data. | 我们基于历史数据做了估算。 |
+| care | 关心；在意 | `A cares. / A cares about B.` | Customers care about reliability more than features. | 客户比起功能更关心可靠性。 |
+| consist | 由……组成 | `A consists of B.` | The platform consists of three core services. | 这个平台由三个核心服务组成。 |
+| deal | 处理；应对 | `A deals with B.` | The handler deals with expired sessions. | 处理器应对过期会话。 |
+| depend | 依赖；取决于 | `A depends on B.` | The release depends on the security review. | 发布取决于安全评审。 |
+| lay | 放置；铺设；提出 | `A lays B. / A lays out B.` | Lay out the migration plan before coding. | 编码前先列出迁移计划。 |
+| point | 指向；指出 | `A points to B. / A points out B.` | The metric points to a database bottleneck. | 这个指标指向数据库瓶颈。 |
+| press | 按；压；催促 | `A presses B. / A presses on with B.` | Press Enter to continue the installation. | 按回车继续安装。 |
+| refer | 指的是；参考 | `A refers to B.` | This field refers to the user's primary email. | 这个字段指用户的主邮箱。 |
+| relate | 相关；联系 | `A relates to B.` | This bug relates to the cache invalidation logic. | 这个缺陷和缓存失效逻辑有关。 |
+| result | 导致；结果是 | `A results in B.` | Invalid input results in a validation error. | 无效输入会导致校验错误。 |
+| shut | 关闭；合上 | `A shuts B. / A shuts down B.` | Shut the connection before releasing the resource. | 释放资源前关闭连接。 |
+| touch | 触碰；涉及；接触 | `A touches B. / A touches base with B.` | This patch touches the authentication module. | 这个补丁涉及认证模块。 |
