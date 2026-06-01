@@ -1,9 +1,9 @@
 ---
-title: "520 个核心英语动词与句子模板"
+title: "601 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "520 个核心英语动词与句子模板"
+summary: "601 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、520 个核心动词主表
+## 二、601 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -582,6 +582,87 @@ This change makes the system stable.
 | 518 | destroy | 销毁；破坏 | `A destroys B.` | Terraform destroyed the test environment. | Terraform 销毁了测试环境。 |
 | 519 | reflect | 反映；反思 | `A reflects B. / A reflects on B.` | The dashboard reflects real-time metrics. | 仪表盘反映实时指标。 |
 | 520 | render | 渲染；使成为 | `A renders B. / A renders B C.` | The browser renders the page in milliseconds. | 浏览器在毫秒内渲染页面。 |
+| 521 | arrive | 到达；抵达 | `A arrives. / A arrives at B.` | The response arrived within 200ms. | 响应在 200 毫秒内到达。 |
+| 522 | clean | 清理；清洁 | `A cleans B. / A cleans up B.` | Clean up unused dependencies. | 清理未使用的依赖。 |
+| 523 | climb | 爬；攀升 | `A climbs. / A climbs to B.` | The error rate climbed to 5%. | 错误率攀升到 5%。 |
+| 524 | cook | 烹饪；运行过热 | `A cooks B. / A cooks.` | Don't let the CPU cook at 100%. | 别让 CPU 烧到 100%。 |
+| 525 | count | 数；计数 | `A counts B.` | The middleware counts API requests. | 中间件统计 API 请求次数。 |
+| 526 | cry | 哭；叫 | `A cries. / A cries for B.` | Don't cry over a failed deploy. | 别为一次失败的部署懊恼。 |
+| 527 | dance | 跳舞 | `A dances.` | The microservices dance around each other. | 微服务互相配合运转。 |
+| 528 | draw | 画；绘制；得出 | `A draws B. / A draws B from C.` | Draw a conclusion from the metrics. | 从指标中得出结论。 |
+| 529 | dream | 梦想；做梦 | `A dreams of B.` | We dream of zero-downtime deploys. | 我们梦想零宕机部署。 |
+| 530 | feed | 喂；输入 | `A feeds B into C.` | Feed the log file into the analyzer. | 把日志文件输入分析器。 |
+| 531 | fight | 战斗；对抗 | `A fights B. / A fights against B.` | The team fights tech debt each sprint. | 团队每个迭代对抗技术债。 |
+| 532 | forgive | 原谅 | `A forgives B for doing C.` | Forgive the late reply. | 请见谅回复晚了。 |
+| 533 | freeze | 冻结；凝固 | `A freezes. / A freezes B.` | The UI froze after the API call. | API 调用后界面冻结了。 |
+| 534 | hurt | 伤害；损害 | `A hurts B. / A hurts.` | Hasty refactors hurt the architecture. | 仓促的重构损害架构。 |
+| 535 | imagine | 想象；设想 | `A imagines B. / A imagines that S.` | Imagine the system under peak load. | 想象系统在峰值负载下的情况。 |
+| 536 | laugh | 笑 | `A laughs. / A laughs at B.` | Don't laugh at legacy code — it pays the bills. | 别嘲笑遗留代码，是它在养家。 |
+| 537 | lie | 躺；位于 | `A lies in B.` | The real problem lies in the data layer. | 真正的问题在数据层。 |
+| 538 | rain | 下雨；如雨般落下 | `It rains B.` | It rains alerts during Black Friday. | 黑五期间告警如雨下。 |
+| 539 | ride | 骑；乘；经受 | `A rides B. / A rides out B.` | The service rode out the traffic spike. | 服务扛过了流量高峰。 |
+| 540 | ring | 响铃；打电话 | `A rings. / A rings B.` | The alert rings at 3 AM. | 告警在凌晨 3 点响起。 |
+| 541 | shake | 摇晃；震动 | `A shakes B. / A shakes.` | The outage shook the team's confidence. | 这次故障动摇了团队的信心。 |
+| 542 | shoot | 射击；快速发送 | `A shoots B to C.` | Shoot me a message on Slack. | 在 Slack 上给我发个消息。 |
+| 543 | shout | 喊叫；大声说 | `A shouts. / A shouts about B.` | The error logs are shouting at us. | 错误日志在对我们喊叫。 |
+| 544 | smell | 闻；察觉 | `A smells B. / A smells of B.` | This approach smells of over-engineering. | 这个方案有过度设计的味道。 |
+| 545 | smile | 微笑 | `A smiles. / A smiles at B.` | The client smiled at the demo. | 客户看到演示笑了。 |
+| 546 | spell | 拼写；意味着 | `A spells B. / A spells out B.` | A missing semicolon spells trouble. | 遗漏一个分号意味着麻烦。 |
+| 547 | steal | 偷；窃取 | `A steals B from C.` | An attacker stole session tokens. | 攻击者窃取了会话令牌。 |
+| 548 | study | 学习；研究 | `A studies B.` | We studied the root cause for hours. | 我们研究了数小时根因。 |
+| 549 | swim | 游泳 | `A swims. / A swims through B.` | The team swam through a sea of bugs. | 团队在缺陷海洋中挣扎前行。 |
+| 550 | travel | 旅行；传播 | `A travels. / A travels through B.` | Data travels through three proxies. | 数据经过三层代理传输。 |
+| 551 | wake | 醒来；唤醒 | `A wakes. / A wakes B up.` | The on-call woke up to 50 alerts. | 值班被 50 条告警叫醒。 |
+| 552 | worry | 担心 | `A worries about B. / A worries that S.` | Don't worry about the traffic spike, it's expected. | 别担心流量峰值，这是预期的。 |
+| 553 | repeat | 重复；重做 | `A repeats B. / A repeats.` | The bug repeats on every cold start. | 这个缺陷在每次冷启动时重现。 |
+| 554 | argue | 争论；论证 | `A argues that S. / A argues for B.` | She argued for a simpler architecture. | 她论证了更简单的架构。 |
+| 555 | blame | 责备；归咎于 | `A blames B for C.` | Don't blame the tool — check the config first. | 别怪工具，先检查配置。 |
+| 556 | interrupt | 打断；中断 | `A interrupts B. / A interrupts.` | The signal interrupted the graceful shutdown. | 信号中断了优雅关闭。 |
+| 557 | welcome | 欢迎 | `A welcomes B.` | We welcome contributions to the project. | 我们欢迎对项目的贡献。 |
+| 558 | greet | 问候；迎接 | `A greets B with C.` | The API greets new users with a welcome email. | API 用欢迎邮件迎接新用户。 |
+| 559 | insist | 坚持；强调 | `A insists on B. / A insists that S.` | The lead insisted on writing tests first. | 负责人坚持先写测试。 |
+| 560 | suspect | 怀疑；觉得 | `A suspects B. / A suspects that S.` | I suspect a memory leak in the new build. | 我怀疑新构建有内存泄漏。 |
+| 561 | recall | 回忆；回想 | `A recalls B. / A recalls that S.` | I can't recall the exact error message. | 我记不清确切的错误信息了。 |
+| 562 | dare | 敢；敢于 | `A dares to do B.` | Few developers dare to touch that legacy module. | 没几个开发者敢碰那个遗留模块。 |
+| 563 | obtain | 获得；获取 | `A obtains B from C.` | Obtain an API key from the dashboard. | 从仪表盘获取 API 密钥。 |
+| 564 | establish | 建立；设立 | `A establishes B.` | The client establishes a TLS connection first. | 客户端首先建立 TLS 连接。 |
+| 565 | contribute | 贡献；有助于 | `A contributes to B.` | Heavy logging contributed to the slowdown. | 大量日志导致了变慢。 |
+| 566 | conduct | 进行；实施 | `A conducts B.` | We conducted a post-mortem after the outage. | 故障后我们进行了复盘。 |
+| 567 | seek | 寻找；寻求 | `A seeks B. / A seeks to do B.` | We're seeking a simpler solution. | 我们正在寻找更简单的方案。 |
+| 568 | attempt | 尝试；企图 | `A attempts B. / A attempts to do B.` | The server attempts to reconnect every 5 seconds. | 服务器每 5 秒尝试重连一次。 |
+| 569 | adopt | 采纳；采用 | `A adopts B.` | The team adopted a new branching strategy. | 团队采用了新的分支策略。 |
+| 570 | concern | 涉及；担忧 | `A concerns B. / A is concerned about B.` | This change concerns the authentication layer. | 这个改动涉及认证层。 |
+| 571 | participate | 参与；参加 | `A participates in B.` | Everyone participates in the daily stand-up. | 每个人都参与每日站会。 |
+| 572 | overcome | 克服；战胜 | `A overcomes B.` | We overcame the rate limit with batching. | 我们用批量处理克服了速率限制。 |
+| 573 | suffer | 遭受；受苦 | `A suffers from B.` | The service suffers from high latency at peak. | 服务在高峰期遭受高延迟。 |
+| 574 | separate | 分离；分开 | `A separates B from C.` | Separate the config from the code. | 把配置和代码分离。 |
+| 575 | eliminate | 消除；淘汰 | `A eliminates B.` | Caching eliminated the bottleneck entirely. | 缓存彻底消除了瓶颈。 |
+| 576 | distribute | 分发；分配 | `A distributes B to C.` | The CDN distributes content to edge nodes globally. | CDN 向全球边缘节点分发内容。 |
+| 577 | adapt | 适应；改编 | `A adapts to B. / A adapts B.` | The system adapts to changing traffic patterns. | 系统适应不断变化的流量模式。 |
+| 578 | adjust | 调整；适应 | `A adjusts B.` | Adjust the heap size to reduce GC pauses. | 调整堆大小以减少 GC 暂停。 |
+| 579 | manufacture | 制造；生产 | `A manufactures B.` | The factory manufactures custom server racks. | 工厂制造定制服务器机架。 |
+| 580 | register | 注册；登记 | `A registers B. / A registers for B.` | The service registers itself with the gateway. | 服务向网关注册自己。 |
+| 581 | represent | 代表；表示 | `A represents B.` | Each node in the graph represents a server instance. | 图中每个节点代表一个服务器实例。 |
+| 582 | express | 表达；表示 | `A expresses B.` | The log format expresses events in structured JSON. | 日志格式用结构化 JSON 表达事件。 |
+| 583 | control | 控制；管理 | `A controls B.` | This feature flag controls the rollout. | 这个功能标志控制灰度发布。 |
+| 584 | involve | 涉及；包含 | `A involves B. / A involves doing B.` | The fix involves updating three microservices. | 这个修复涉及更新三个微服务。 |
+| 585 | survive | 幸存；存活 | `A survives B. / A survives.` | The system survived the DDoS attack. | 系统在 DDoS 攻击中存活下来。 |
+| 586 | struggle | 挣扎；奋斗 | `A struggles with B. / A struggles to do B.` | The team struggled with flaky integration tests. | 团队与不稳定的集成测试作斗争。 |
+| 587 | wash | 洗；清洗 | `A washes B.` | The CI pipeline washes stale build artifacts. | CI 流水线清洗过期的构建产物。 |
+| 588 | park | 停放；搁置 | `A parks B in C.` | Park this task in the backlog for now. | 先把这任务搁在待办列表里。 |
+| 589 | pack | 打包；包装 | `A packs B into C.` | Webpack packs all modules into a single bundle. | Webpack 把所有模块打包成一个 bundle。 |
+| 590 | rest | 休息 | `A rests. / A rests on B.` | Let the server rest between stress tests. | 压力测试之间让服务器休息一下。 |
+| 591 | hate | 讨厌；恨 | `A hates B. / A hates doing B.` | Developers hate flaky tests. | 开发者讨厌不稳定的测试。 |
+| 592 | surprise | 使吃惊；惊讶 | `A surprises B. / A is surprised by B.` | Don't be surprised if the deploy fails on a Friday. | 如果周五部署失败了，别惊讶。 |
+| 593 | taste | 品尝；体验 | `A tastes B. / A has a taste of B.` | The new hire got a taste of on-call life. | 新人体验了值班的滋味。 |
+| 594 | burn | 燃烧；烧毁；耗尽 | `A burns B. / A burns out.` | Don't burn yourself out before the launch. | 别在发布前把自己累垮。 |
+| 595 | blow | 吹；爆炸 | `A blows B. / A blows up.` | A typo in the config blew up the pipeline. | 配置里的一个拼写错误炸掉了流水线。 |
+| 596 | dig | 挖；深入 | `A digs into B. / A digs B.` | Dig into the logs to find the root cause. | 深入日志找到根本原因。 |
+| 597 | bite | 咬；反噬 | `A bites B. / A bites back.` | Tech debt always bites back at the worst time. | 技术债总在最糟的时候反咬一口。 |
+| 598 | jump | 跳；快速跳转 | `A jumps. / A jumps to B.` | The latency jumped from 50ms to 500ms. | 延迟从 50ms 跳到了 500ms。 |
+| 599 | kick | 踢；启动 | `A kicks B. / A kicks off B.` | The cron job kicks off every hour. | 定时任务每小时启动一次。 |
+| 600 | knock | 敲；击倒 | `A knocks B. / A knocks B out.` | A bad config knocked the service offline. | 一个错误配置把服务打下线了。 |
+| 601 | dive | 潜水；深入 | `A dives into B.` | Let's dive into the source code. | 让我们深入源代码看看。 |
 
 ## 三、如何真正掌握这些动词？
 
@@ -670,6 +751,8 @@ depend 必须常和 on 搭配
 | 第三阶段 | 201～300 | 掌握项目管理和软件开发动词 |
 | 第四阶段 | 301～400 | 掌握数据、网络、运维、安全动词 |
 | 第五阶段 | 401～520 | 掌握商务、产品和常用短语动词 |
+| 第六阶段 | 521～552 | 补充第一批日常高频动词 |
+| 第七阶段 | 553～601 | 补充第二批高频动词（交流+商务+生活） |
 
 ---
 
@@ -684,7 +767,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 520 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 601 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
