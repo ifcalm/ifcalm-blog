@@ -1,9 +1,9 @@
 ---
-title: "1180 个核心英语动词与句子模板"
+title: "1191 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1180 个核心英语动词与句子模板"
+summary: "1191 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、974 个核心动词主表
+## 二、985 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1036,6 +1036,17 @@ This change makes the system stable.
 | 972 | unmount | 卸载（挂载点） | `A unmounts B.` | Unmount the persistent volume before detaching the disk. | 分离磁盘前先卸载持久卷。 |
 | 973 | vet | 审查；考察 | `A vets B.` | Vet every third-party dependency before adding it. | 添加前审查每个第三方依赖。 |
 | 974 | warrant | 保证；需要；授权 | `A warrants B. / A warrants doing B.` | The severity of the bug warrants an immediate hotfix. | 这个缺陷的严重性需要立即热修复。 |
+| 975 | bother | 打扰；费心 | `A bothers B. / A bothers to do B.` | Don't bother with manual testing — automate it. | 别费心手动测试了，自动化吧。 |
+| 976 | invent | 发明；创造 | `A invents B.` | Don't invent a new protocol when HTTP suffices. | HTTP 够用就别发明新协议。 |
+| 977 | last | 持续；维持 | `A lasts. / A lasts for B.` | The access token lasts for one hour after issue. | 访问令牌签发后持续一小时。 |
+| 978 | name | 命名；取名 | `A names B C.` | Name the variable descriptively, not just x or tmp. | 给变量起描述性的名字，别只用 x 或 tmp。 |
+| 979 | practise | 练习；实践 | `A practises B.` | Practise test-driven development until it becomes habit. | 练习 TDD 直到它变成习惯。 |
+| 980 | pronounce | 发音；宣称 | `A pronounces B.` | Can you pronounce the name of this library correctly? | 你能正确念出这个库的名字吗？ |
+| 981 | rent | 租用；出租 | `A rents B from C.` | Rent cloud instances instead of buying physical servers. | 租用云实例而不是买物理服务器。 |
+| 982 | swear | 发誓；咒骂 | `A swears by B. / A swears that S.` | The SRE team swears by infrastructure as code. | SRE 团队坚信基础设施即代码。 |
+| 983 | time | 计时；安排时间 | `A times B.` | Time the API call to see if the optimization worked. | 给 API 调用计时看优化是否生效。 |
+| 984 | tip | 倾斜；给小费；提示 | `A tips B. / A tips the balance.` | A single bottleneck tipped the entire system over. | 单个瓶颈就让整个系统翻了。 |
+| 985 | value | 重视；评估 | `A values B.` | The team values code simplicity over cleverness. | 团队重视代码简洁胜过聪明。 |
 
 
 ## 三、206 个短语动词速查
@@ -1340,7 +1351,7 @@ depend 必须常和 on 搭配
 | 第7阶段 | 601～700 | 掌握商务、产品和营销动词 |
 | 第8阶段 | 701～800 | 掌握系统设计、优化和架构动词 |
 | 第9阶段 | 801～900 | 补充日常交流、商务和职场场景动词 |
-| 第10阶段 | 901～974 | 巩固剩余高频和专项场景动词 |
+| 第10阶段 | 901～985 | 巩固剩余高频和专项场景动词 |
 
 ---
 
@@ -1355,7 +1366,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1180 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1191 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
