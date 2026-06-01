@@ -1,9 +1,9 @@
 ---
-title: "1243 个核心英语动词与句子模板"
+title: "1263 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1243 个核心英语动词与句子模板"
+summary: "1263 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、1019 个核心动词主表
+## 二、1039 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1081,6 +1081,26 @@ This change makes the system stable.
 | 1017 | import | 导入；输入 | `A imports B into C.` | Import the CSV data into the analytics database. | 将 CSV 数据导入分析数据库。 |
 | 1018 | injure | 伤害；损害 | `A injures B.` | A hasty hotfix can injure the system's stability. | 仓促的热修复会损害系统稳定性。 |
 | 1019 | interest | 使感兴趣 | `A interests B.` | DevOps practices interest more engineers every year. | DevOps 实践每年吸引更多工程师的兴趣。 |
+| 1020 | link | 连接；关联 | `A links B to C.` | Link the shared library at compile time. | 编译时链接共享库。 |
+| 1021 | locate | 找到；定位 | `A locates B.` | The profiler locates the exact bottleneck in seconds. | 分析器几秒内定位到确切的瓶颈。 |
+| 1022 | place | 放置；下（单） | `A places B in/on C.` | Place a callback on the event queue. | 将回调放入事件队列。 |
+| 1023 | quit | 退出；停止 | `A quits B. / A quits.` | Quit the process gracefully with a SIGTERM. | 用 SIGTERM 优雅退出进程。 |
+| 1024 | record | 记录；录制 | `A records B.` | The middleware records every request for auditing. | 中间件记录每个请求用于审计。 |
+| 1025 | revert | 恢复；回退 | `A reverts B.` | Revert the breaking commit before it reaches production. | 在到达生产环境前回退这个破坏性提交。 |
+| 1026 | screen | 筛选；审查 | `A screens B.` | Screen all third-party dependencies for vulnerabilities. | 筛查所有第三方依赖的漏洞。 |
+| 1027 | sense | 感知；察觉 | `A senses B.` | The circuit breaker senses failures and opens automatically. | 断路器感知故障并自动断开。 |
+| 1028 | shape | 塑造；影响 | `A shapes B.` | Senior engineers shape the technical direction of the team. | 高级工程师塑造团队的技术方向。 |
+| 1029 | signal | 发信号；表明 | `A signals B. / A signals that S.` | The health endpoint signals whether the service is ready. | 健康端点表明服务是否就绪。 |
+| 1030 | slide | 滑动；滑入 | `A slides into B.` | The feature toggled and traffic slid from v1 to v2. | 功能切换后流量从 v1 滑入 v2。 |
+| 1031 | spot | 发现；认出 | `A spots B.` | Spot the regression before the canary goes to 100%. | 在金丝雀 100% 铺开前发现回归。 |
+| 1032 | stretch | 拉伸；延伸；超出 | `A stretches B.` | Don't stretch the sprint beyond its capacity. | 别让迭代超出容量。 |
+| 1033 | transport | 传输；运输 | `A transports B to C.` | The protocol transports binary data over a WebSocket. | 该协议通过 WebSocket 传输二进制数据。 |
+| 1034 | vary | 变化；不同 | `A varies. / A varies from B.` | Response times vary depending on the query complexity. | 响应时间因查询复杂度而不同。 |
+| 1035 | venture | 冒险；敢于 | `A ventures into B.` | The startup ventured into the developer tools space. | 这家创业公司冒险进入了开发者工具领域。 |
+| 1036 | vote | 投票；表决 | `A votes on B. / A votes to do B.` | The team voted to adopt a four-day work week trial. | 团队投票通过了四天工作周试行。 |
+| 1037 | wave | 挥手；波动 | `A waves B. / A waves at B.` | Wave away the flaky test and investigate later. | 先挥手放过这个不稳定测试，稍后排查。 |
+| 1038 | whisper | 轻声说；耳语 | `A whispers B to C.` | The debug log whispers hints about the memory leak. | 调试日志轻声透露了内存泄漏的线索。 |
+| 1039 | yell | 大喊；叫嚷 | `A yells at B. / A yells.` | The error logs are yelling at us to fix the config. | 错误日志在对我们大喊快修配置。 |
 
 
 
@@ -1420,7 +1440,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1243 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1263 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
