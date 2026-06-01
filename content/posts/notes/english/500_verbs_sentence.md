@@ -1,9 +1,9 @@
 ---
-title: "1132 个核心英语动词与句子模板"
+title: "1180 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1132 个核心英语动词与句子模板"
+summary: "1180 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、952 个核心动词主表
+## 二、974 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1014,194 +1014,242 @@ This change makes the system stable.
 | 950 | suit | 适合；满足 | `A suits B.` | Choose the database that suits your access pattern. | 选择适合你访问模式的数据库。 |
 | 951 | text | 发短信；文本 | `A texts B about C.` | Text the team when the deploy is complete. | 部署完成后给团队发消息。 |
 | 952 | type | 打字；分类 | `A types B. / A types B as C.` | TypeScript types every variable at compile time. | TypeScript 在编译时对每个变量进行类型标注。 |
+| 953 | automate | 自动化 | `A automates B.` | Automate the entire CI/CD pipeline to save time. | 自动化整条 CI/CD 流水线以节省时间。 |
+| 954 | chair | 主持（会议） | `A chairs B.` | The tech lead chairs the weekly architecture review. | 技术负责人主持每周架构评审。 |
+| 955 | collaborate | 协作；合作 | `A collaborates with B on C.` | The frontend team collaborates closely with the API team. | 前端团队与 API 团队紧密协作。 |
+| 956 | communicate | 沟通；传达 | `A communicates B to C.` | Communicate the outage status clearly to stakeholders. | 向利益相关者清晰传达故障状态。 |
+| 957 | downsize | 裁员；缩减规模 | `A downsizes B.` | The startup downsized the engineering team by 20%. | 创业公司将工程团队缩减了 20%。 |
+| 958 | dry | 变干；耗尽 | `A dries up. / A dries out B.` | The data stream dried up after the API change. | API 变更后数据流枯竭了。 |
+| 959 | kiss | 亲吻；轻触 | `A kisses B.` | Keep it simple, stupid — the KISS principle. | 保持简单——KISS 原则。 |
+| 960 | liaise | 联络；对接 | `A liaises with B.` | The PM liaises between engineering and marketing. | 产品经理在工程和市场之间联络对接。 |
+| 961 | marry | 结婚；结合 | `A marries B with C.` | Marry the legacy system with the new platform via an adapter. | 通过适配器将遗留系统与新平台结合。 |
+| 962 | mentor | 指导；辅导 | `A mentors B.` | Senior engineers mentor new hires during their first sprint. | 高级工程师在第一个迭代指导新人。 |
+| 963 | pledge | 承诺；保证 | `A pledges to do B. / A pledges B.` | The company pledged to fix all critical bugs within 24 hours. | 公司承诺在 24 小时内修复所有严重缺陷。 |
+| 964 | procure | 采购；获得 | `A procures B.` | Procure the necessary cloud resources before the migration. | 迁移前采购必要的云资源。 |
+| 965 | reconcile | 对账；调和；使一致 | `A reconciles B with C.` | Reconcile the local branch with the remote before pushing. | 推送前将本地分支与远程保持一致。 |
+| 966 | refuse | 拒绝 | `A refuses B. / A refuses to do B.` | The server refused the connection due to an invalid cert. | 服务器因证书无效拒绝了连接。 |
+| 967 | regulate | 监管；调节 | `A regulates B.` | Rate limiting regulates the flow of incoming requests. | 速率限制调节入站请求的流量。 |
+| 968 | restructure | 重组；重构 | `A restructures B.` | Restructure the monolith into domain-driven modules. | 将单体重构为领域驱动的模块。 |
+| 969 | reveal | 揭示；透露；显示 | `A reveals B. / A reveals that S.` | The flame graph revealed the CPU bottleneck instantly. | 火焰图立刻揭示了 CPU 瓶颈。 |
+| 970 | sponsor | 赞助；发起 | `A sponsors B.` | The company sponsors several open-source projects. | 公司赞助了多个开源项目。 |
+| 971 | underline | 强调；在...下划线 | `A underlines B.` | This incident underlines the need for better monitoring. | 这次故障强调了加强监控的必要性。 |
+| 972 | unmount | 卸载（挂载点） | `A unmounts B.` | Unmount the persistent volume before detaching the disk. | 分离磁盘前先卸载持久卷。 |
+| 973 | vet | 审查；考察 | `A vets B.` | Vet every third-party dependency before adding it. | 添加前审查每个第三方依赖。 |
+| 974 | warrant | 保证；需要；授权 | `A warrants B. / A warrants doing B.` | The severity of the bug warrants an immediate hotfix. | 这个缺陷的严重性需要立即热修复。 |
 
-## 三、180 个短语动词速查
 
-> 短语动词（phrasal verb）由"动词 + 介词/副词"构成，整体表达一个动作。以下按字母顺序排列。
+## 三、206 个短语动词速查
+
+> 短语动词（phrasal verb）由动词 + 介词/副词构成，整体表达一个动作。以下按字母顺序排列。
 
 | No. | Phrasal Verb | 中文含义 | 核心句子模板 | 示例 | 中文例句 |
 |---:|---|---|---|---|---|
-| 1 | back off | 退避（重试策略） | `A backs off. / A backs off from B.` | The client backs off exponentially after repeated failures. | 客户端在反复失败后指数退避。 |
-| 2 | back up | 备份；支持 | `A backs up B.` | Back up the database before running the migration. | 运行迁移前备份数据库。 |
-| 3 | belong to | 属于 | `A belongs to B.` | This repository belongs to our team. | 这个仓库属于我们团队。 |
-| 4 | block out | 屏蔽；划出（时间） | `A blocks out B.` | Block out two hours of focus time on the calendar. | 在日历上划出两小时的专注时间。 |
-| 5 | boil down | 归结为 | `A boils down to B.` | The performance issue boils down to a missing index. | 这个性能问题归结为一个缺失的索引。 |
-| 6 | bottom out | 触底；停止恶化 | `A bottoms out.` | The latency spike bottomed out after the rollback. | 回滚后延迟尖峰触底停止恶化。 |
-| 7 | branch out | 拓展（新领域） | `A branches out into B.` | The platform branched out from payments into lending. | 该平台从支付拓展到借贷领域。 |
-| 8 | break down | 分解；出故障 | `A breaks down B. / A breaks down.` | Break down the epic into smaller user stories. | 将史诗分解为更小的用户故事。 |
-| 9 | break out | 爆发；分离出 | `A breaks out of B. / A breaks out B.` | Break out the shared logic into a separate library. | 将共享逻辑分离到独立的库中。 |
-| 10 | bring up | 提出 | `A brings up B.` | She brought up a security concern. | 她提出了一个安全担忧。 |
-| 11 | bubble up | 向上浮现 | `A bubbles up to B.` | Unhandled errors bubble up to the global error handler. | 未处理的错误向上冒泡到全局错误处理器。 |
-| 12 | burn out | 耗尽；过度疲劳 | `A burns out. / A burns B out.` | On-call rotations help prevent engineers from burning out. | 值班轮换有助于防止工程师过度疲劳。 |
-| 13 | call off | 取消 | `A calls off B.` | The team called off the deploy due to the storm. | 团队因风暴取消了部署。 |
-| 14 | care about | 关心 | `A cares about B.` | Customers care about stability. | 客户关心稳定性。 |
-| 15 | carry on | 继续 | `A carries on with B.` | The pipeline carries on despite warnings. | 流水线虽有警告但继续运行。 |
-| 16 | carry out | 执行 | `A carries out B.` | Carry out the test plan. | 执行测试计划。 |
-| 17 | carry over | 延续；结转 | `A carries over B to C.` | Carry over the unused budget to the next quarter. | 将未使用的预算结转到下个季度。 |
-| 18 | catch up | 赶上；追上 | `A catches up with B.` | The replica caught up with the primary after the lag. | 延迟后副本追上了主库。 |
-| 19 | check out | 检出（代码）；调查 | `A checks out B.` | Check out the feature branch before making changes. | 做改动前先检出功能分支。 |
-| 20 | clean up | 清理 | `A cleans up B.` | Clean up temporary files. | 清理临时文件。 |
-| 21 | clear out | 清空；清理 | `A clears out B.` | Clear out the stale feature flags after the release. | 发布后清理过时的功能标志。 |
-| 22 | clock in | 打卡上班 | `A clocks in.` | Remote workers clock in by joining the daily stand-up. | 远程员工通过加入每日站会打卡上班。 |
-| 23 | clock out | 打卡下班 | `A clocks out.` | Encourage the team to clock out on time during crunch weeks. | 赶工周鼓励团队按时下班。 |
-| 24 | come from | 来自 | `A comes from B.` | The problem comes from the network. | 问题来自网络。 |
-| 25 | come up | 出现；提出 | `A comes up. / A comes up with B.` | The team came up with a clever workaround. | 团队想出了一个巧妙的工作方案。 |
-| 26 | come with | 附带 | `A comes with B.` | The SDK comes with examples. | SDK 附带示例。 |
-| 27 | consist of | 由……组成 | `A consists of B.` | The system consists of three services. | 系统由三个服务组成。 |
-| 28 | count on | 指望；依靠 | `A counts on B.` | The team counts on the CI pipeline to catch regressions. | 团队指望 CI 流水线捕获回归。 |
-| 29 | cut back | 削减；缩减 | `A cuts back on B.` | We cut back on third-party dependencies to reduce risk. | 我们削减了第三方依赖以减少风险。 |
-| 30 | cut off | 切断；中断 | `A cuts off B.` | The firewall cut off the malicious connection. | 防火墙切断了恶意连接。 |
-| 31 | cut over | 切换（迁移的最后一步） | `A cuts over from B to C.` | The team cut over from the old database to the new one at midnight. | 团队在凌晨从旧数据库切换到新数据库。 |
-| 32 | deal with | 处理 | `A deals with B.` | We need to deal with this risk. | 我们需要处理这个风险。 |
-| 33 | depend on | 依赖 | `A depends on B.` | This feature depends on Redis. | 这个功能依赖 Redis。 |
-| 34 | drag on | 拖延；拖很久 | `A drags on. / A drags on B.` | The migration dragged on for six months. | 迁移拖了六个月。 |
-| 35 | draw up | 起草；拟定 | `A draws up B.` | Draw up a rollback plan before the deploy. | 部署前拟定回滚方案。 |
-| 36 | drill down | 深入钻取（数据） | `A drills down into B.` | Drill down into the trace to find the slowest span. | 深入钻取追踪以找到最慢的 span。 |
-| 37 | drop out | 退出；掉线 | `A drops out. / A drops out of B.` | The node dropped out of the cluster after a network split. | 网络分裂后该节点退出了集群。 |
-| 38 | end up | 最终；以...告终 | `A ends up doing B. / A ends up C.` | Without monitoring, small issues end up as outages. | 没有监控，小问题最终会变成宕机。 |
-| 39 | factor in | 考虑进去 | `A factors in B.` | Factor in the network latency when setting timeouts. | 设置超时时要考虑网络延迟。 |
-| 40 | fall back | 降级/回退（兜底方案） | `A falls back to B.` | Fall back to the default config if the file is missing. | 如果文件缺失，回退到默认配置。 |
-| 41 | fan out | 扇出 | `A fans out B to C.` | The message queue fans out events to multiple consumers. | 消息队列将事件扇出到多个消费者。 |
-| 42 | figure out | 弄清楚 | `A figures out B.` | We figured out the root cause. | 我们弄清楚了根因。 |
-| 43 | fill in | 填写 | `A fills in B.` | Fill in the required fields. | 填写必填字段。 |
-| 44 | fill out | 填写（表格） | `A fills out B.` | Fill out the incident report within 24 hours. | 在 24 小时内填写故障报告。 |
-| 45 | filter out | 过滤掉 | `A filters out B.` | Filter out the bot traffic from the analytics. | 从分析中过滤掉机器人流量。 |
-| 46 | flesh out | 充实；完善 | `A fleshes out B.` | Flesh out the user story with acceptance criteria. | 用验收标准充实用户故事。 |
-| 47 | flip through | 快速翻阅 | `A flips through B.` | Flip through the logs to spot the anomaly. | 快速翻阅日志以找出异常。 |
-| 48 | follow through | 坚持到底；执行到底 | `A follows through on B.` | The team followed through on every action item. | 团队对每个行动项都执行到底。 |
-| 49 | follow up | 跟进 | `A follows up on B.` | I will follow up on this issue. | 我会跟进这个问题。 |
-| 50 | get across | 传达清楚；使理解 | `A gets B across to C.` | It's hard to get the urgency across in a Slack message. | Slack 消息很难把紧急性传达清楚。 |
-| 51 | get around | 规避；绕过 | `A gets around B.` | A clever hack got around the API rate limit. | 一个巧妙的方法绕过了 API 速率限制。 |
-| 52 | get back | 回来；回复 | `A gets back to B.` | I'll get back to you after investigating the error log. | 调查完错误日志后回复你。 |
-| 53 | get through | 完成；熬过；接通 | `A gets through B.` | We got through the entire agenda in 30 minutes. | 我们 30 分钟内完成了全部议程。 |
-| 54 | give up | 放弃 | `A gives up B.` | Do not give up learning English. | 不要放弃学习英语。 |
-| 55 | go through | 经历；仔细检查 | `A goes through B.` | Go through the entire PR before approving. | 批准前仔细检查整个 PR。 |
-| 56 | hand in | 提交；上交 | `A hands in B.` | Hand in the security review before the release. | 发布前提交安全审查。 |
-| 57 | hand over | 移交；交出 | `A hands over B to C.` | Hand over the on-call duties to the next shift. | 将值班职责移交给下一个班次。 |
-| 58 | hang out | 挂起；逗留 | `A hangs out. / A hangs out in B.` | The request hung out in the pending state for too long. | 请求在等待状态挂起太久了。 |
-| 59 | hold back | 保留；抑制 | `A holds back B.` | Don't hold back feedback during the code review. | 代码评审时不要保留反馈。 |
-| 60 | hold off | 暂缓；推迟 | `A holds off on B.` | Hold off on the deploy until the traffic spike passes. | 等流量高峰过去再部署。 |
-| 61 | hold up | 支撑；延迟 | `A holds up B. / A holds up.` | The index holds up well under heavy read traffic. / Don't let a review hold up the deploy. | 索引在大量读流量下支撑得很好。/ 别让评审延误部署。 |
-| 62 | hone in | 瞄准；集中 | `A hones in on B.` | The profiler honed in on the memory leak. | 分析器瞄准了内存泄漏。 |
-| 63 | iron out | 解决（细节问题） | `A irons out B.` | Iron out the edge cases before the release. | 发布前解决边界情况。 |
-| 64 | keep up | 跟上；保持 | `A keeps up with B.` | The system keeps up with 10,000 requests per second. | 系统跟上了每秒 10000 次请求。 |
-| 65 | key in | 键入；输入 | `A keys in B.` | Key in the verification code to complete the login. | 输入验证码完成登录。 |
-| 66 | lay out | 布置；阐述 | `A lays out B.` | The RFC lays out the migration plan in detail. | RFC 详细阐述了迁移计划。 |
-| 67 | lead to | 导致 | `A leads to B.` | High latency leads to bad user experience. | 高延迟导致糟糕的用户体验。 |
-| 68 | lean into | 拥抱；积极面对 | `A leans into B.` | Lean into the discomfort of learning a new paradigm. | 积极面对学习新范式的阵痛。 |
-| 69 | let go | 放手；解雇 | `A lets B go.` | The company let go of 10% of the workforce. | 公司解雇了 10% 的员工。 |
-| 70 | line up | 排队；安排 | `A lines up B.` | Line up the dependencies before starting the sprint. | 开始迭代前排好依赖关系。 |
-| 71 | lock down | 锁定；封锁 | `A locks down B.` | Lock down the production environment after the breach. | 入侵后封锁生产环境。 |
-| 72 | log in | 登录 | `A logs in to B.` | The user logs in to the system. | 用户登录系统。 |
-| 73 | log out | 退出登录 | `A logs out of B.` | The user logged out of the portal. | 用户退出门户。 |
-| 74 | look for | 寻找 | `A looks for B.` | Look for errors in the logs. | 在日志中查找错误。 |
-| 75 | look into | 调查 | `A looks into B.` | We will look into this issue. | 我们会调查这个问题。 |
-| 76 | look up | 查阅；查找 | `A looks up B.` | Look up the error code in the documentation. | 在文档中查阅错误码。 |
-| 77 | make up | 弥补；组成 | `A makes up B. / A makes up for B.` | Microservices make up the core platform. / Speed makes up for lack of features. | 微服务构成核心平台。/ 速度弥补功能不足。 |
-| 78 | map out | 规划；详细安排 | `A maps out B.` | Map out the migration path from monolith to microservices. | 规划从单体到微服务的迁移路径。 |
-| 79 | mark down | 减价；记下 | `A marks down B.` | The team marked down the action items during the retro. | 团队在回顾会上记下了行动项。 |
-| 80 | measure up | 达标；符合标准 | `A measures up to B.` | The new hire's first PR measured up to the team's standards. | 新人第一个 PR 就达到了团队标准。 |
-| 81 | miss out | 错过；遗漏 | `A misses out on B.` | Don't miss out on the early-bird discount for the conference. | 别错过会议的早鸟折扣。 |
-| 82 | mix up | 混淆；混合 | `A mixes up B with C.` | I always mix up the staging and production URLs. | 我总把预发布和生产 URL 搞混。 |
-| 83 | move on | 继续前进；翻篇 | `A moves on from B.` | After the post-mortem, the team moved on quickly. | 复盘后团队迅速翻篇继续前进。 |
-| 84 | narrow down | 缩小范围 | `A narrows down B to C.` | Narrow down the root cause to a single commit. | 将根因缩小范围到一次提交。 |
-| 85 | open up | 打开；开放 | `A opens up B.` | Open up the internal API to trusted partners. | 向可信伙伴开放内部 API。 |
-| 86 | opt in | 选择加入 | `A opts in to B.` | Users must opt in to the beta program. | 用户必须选择加入 Beta 计划。 |
-| 87 | opt out | 选择退出 | `A opts out of B.` | Users can opt out of data collection in settings. | 用户可以在设置中选择退出数据收集。 |
-| 88 | own up | 承认；坦白 | `A owns up to B.` | The engineer owned up to the misconfiguration immediately. | 那位工程师立即承认了配置错误。 |
-| 89 | pan out | 结果；成功 | `A pans out.` | The microservices migration didn't pan out as expected. | 微服务迁移的结果不如预期。 |
-| 90 | pass on | 传递；转发 | `A passes on B to C.` | Pass on the context to the downstream service. | 将上下文传递到下游服务。 |
-| 91 | pay off | 回报；还清 | `A pays off. / A pays off B.` | The investment in testing paid off during the migration. | 测试上的投入在迁移期间得到了回报。 |
-| 92 | pencil in | 暂定；临时安排 | `A pencils in B.` | Pencil in the architecture review for Wednesday afternoon. | 暂定周三下午做架构评审。 |
-| 93 | phase out | 逐步淘汰 | `A phases out B.` | Phase out the deprecated API over three releases. | 用三个版本逐步淘汰弃用的 API。 |
-| 94 | pick out | 挑选；辨认出 | `A picks out B from C.` | Pick out the critical alerts from the noise. | 从噪音中挑出关键告警。 |
-| 95 | pick up | 拿起；学会；接人 | `A picks up B.` | New hires pick up the codebase quickly with pair programming. | 新人通过结队编程快速上手代码库。 |
-| 96 | pile up | 堆积；累积 | `A piles up.` | Unread Slack messages pile up during the weekend. | 周末未读的 Slack 消息堆积起来。 |
-| 97 | pin down | 确定；明确 | `A pins down B.` | Pin down the exact commit that introduced the bug. | 确定引入缺陷的确切提交。 |
-| 98 | plug in | 插入；接通 | `A plugs in B.` | Plug in your API key to start using the service. | 插入你的 API 密钥即可开始使用服务。 |
-| 99 | point out | 指出 | `A points out B.` | He pointed out a design flaw. | 他指出了一个设计缺陷。 |
-| 100 | press on | 继续；坚持 | `A presses on with B.` | Despite the setbacks, the team pressed on with the launch. | 尽管遇到挫折，团队坚持推进上线。 |
-| 101 | pull off | 完成（困难的事） | `A pulls off B.` | The team pulled off a zero-downtime migration. | 团队完成了零宕机迁移。 |
-| 102 | pull out | 抽出；退出 | `A pulls out B from C. / A pulls out of B.` | Pull out the shared components into a design system. | 将共享组件抽出到设计系统中。 |
-| 103 | push back | 推后；反对 | `A pushes back on B.` | The engineer pushed back on the unrealistic deadline. | 工程师反对不切实际的截止日期。 |
-| 104 | put off | 推迟 | `A puts off B.` | Don't put off the security patch until next sprint. | 别把安全补丁推迟到下个迭代。 |
-| 105 | put together | 组合；拼凑 | `A puts together B.` | Put together a quick prototype before the pitch meeting. | 推介会前快速拼一个原型出来。 |
-| 106 | ramp down | 逐步减少 | `A ramps down B.` | Ramp down the old service as traffic shifts to the new one. | 随着流量转移到新服务，逐步减少旧服务。 |
-| 107 | ramp up | 逐步增加（流量/负载） | `A ramps up B.` | Ramp up the canary traffic from 5% to 50% gradually. | 将金丝雀流量从 5% 逐步增加到 50%。 |
-| 108 | reach out | 联系；主动接触 | `A reaches out to B.` | Reach out to the platform team before building your own solution. | 在自建方案前先联系平台团队。 |
-| 109 | refer to | 指的是；参考 | `A refers to B.` | This field refers to user ID. | 这个字段指用户 ID。 |
-| 110 | relate to | 与……相关 | `A relates to B.` | This error relates to authentication. | 这个错误与认证有关。 |
-| 111 | rely on | 依靠 | `A relies on B.` | The app relies on the database. | 应用依赖数据库。 |
-| 112 | result in | 导致 | `A results in B.` | Invalid input results in an error. | 无效输入导致错误。 |
-| 113 | roll back | 回退 | `A rolls back B.` | Roll back the deploy if the error rate spikes. | 如果错误率飙升就回退部署。 |
-| 114 | roll out | 推出（新功能/版本） | `A rolls out B.` | Roll out the new feature to 10% of users initially. | 初步向 10% 用户推出新功能。 |
-| 115 | rule out | 排除（可能性） | `A rules out B.` | The ping test ruled out a network issue. | ping 测试排除了网络问题。 |
-| 116 | run by | 过一遍；给...看看 | `A runs B by C.` | Run the architecture proposal by the tech lead first. | 先把架构提案给技术负责人过一遍。 |
-| 117 | run out | 耗尽 | `A runs out of B.` | The server ran out of disk space during the backup. | 备份期间服务器耗尽磁盘空间。 |
-| 118 | run through | 快速过一遍；彩排 | `A runs through B.` | Run through the demo script once before the client call. | 客户电话前快速过一遍演示脚本。 |
-| 119 | scale back | 缩减规模 | `A scales back B.` | We scaled back the feature scope to meet the deadline. | 我们缩减了功能范围以赶上截止日期。 |
-| 120 | scope out | 考察；评估 | `A scopes out B.` | Scope out the third-party API before committing to it. | 承诺使用之前先评估第三方 API。 |
-| 121 | search for | 搜索 | `A searches for B.` | Search for the keyword. | 搜索关键词。 |
-| 122 | set up | 搭建；设置 | `A sets up B.` | Set up the local environment. | 搭建本地环境。 |
-| 123 | shake out | 抖出；淘汰出 | `A shakes out B.` | Load testing shakes out the hidden performance issues. | 负载测试抖出隐藏的性能问题。 |
-| 124 | shore up | 支撑；加强 | `A shores up B.` | The team shored up the monitoring before Black Friday. | 黑五前团队加强了监控。 |
-| 125 | show up | 出现；露面 | `A shows up. / A shows up in B.` | The error only shows up under high concurrency. | 这个错误只在高并发下出现。 |
-| 126 | shut down | 关闭 | `A shuts down B.` | Shut down unused containers. | 关闭未使用的容器。 |
-| 127 | sign up | 注册 | `A signs up for B.` | Users sign up for the service. | 用户注册该服务。 |
-| 128 | smooth out | 抚平；解决问题 | `A smooths out B.` | The hotfix smoothed out the latency spikes. | 热修复抚平了延迟尖峰。 |
-| 129 | sort out | 整理；解决 | `A sorts out B.` | Sort out the merge conflicts before the end of the day. | 今天之内解决合并冲突。 |
-| 130 | spin down | 关闭（实例/容器） | `A spins down B.` | Spin down the staging instances over the weekend to save cost. | 周末关闭预发布实例以节省成本。 |
-| 131 | spin up | 启动（实例/容器） | `A spins up B.` | The autoscaler spins up new pods when CPU exceeds 80%. | CPU 超过 80% 时自动扩缩器启动新 Pod。 |
-| 132 | square away | 处理妥当 | `A squares away B.` | Square away the legal review before the launch date. | 上线日前把法务审查处理妥当。 |
-| 133 | stamp out | 消灭；杜绝 | `A stamps out B.` | Stamp out flaky tests before they erode team trust. | 在不稳定测试侵蚀团队信任之前消灭它们。 |
-| 134 | stand out | 突出；显著 | `A stands out. / A stands out from B.` | The latency spike stood out on the dashboard. | 延迟尖峰在仪表盘上格外突出。 |
-| 135 | start over | 重新开始 | `A starts over.` | If the rebase goes wrong, start over from a clean branch. | 如果 rebase 出错，从干净分支重新开始。 |
-| 136 | step up | 加大；站出来 | `A steps up B. / A steps up to do B.` | Step up the retry frequency after the third failure. | 第三次失败后加大重试频率。 |
-| 137 | stick to | 坚持；遵守 | `A sticks to B.` | Stick to the coding standards even under time pressure. | 即使时间紧张也要遵守编码规范。 |
-| 138 | stock up | 囤积；备货 | `A stocks up on B.` | Stock up on snacks before the hackathon. | 黑客马拉松前囤好零食。 |
-| 139 | sum up | 总结；概括 | `A sums up B.` | Sum up the key takeaways in three bullet points. | 用三个要点总结关键结论。 |
-| 140 | swap out | 替换掉 | `A swaps out B for C.` | Swap out the old library for the new one in one PR. | 在一个 PR 里把旧库替换成新库。 |
-| 141 | switch over | 切换过去 | `A switches over to B.` | Switch over to the backup data center during the outage. | 故障期间切换到备用数据中心。 |
-| 142 | take apart | 拆开；剖析 | `A takes apart B.` | Take apart the monolithic service into independent modules. | 把单体服务拆分为独立模块。 |
-| 143 | take back | 收回；撤回 | `A takes back B.` | The developer took back the commit after noticing the bug. | 开发者注意到 bug 后撤回了提交。 |
-| 144 | take down | 记下；拆除 | `A takes down B.` | Take down the production notes during the incident call. | 故障电话期间记下处理记录。 |
-| 145 | take on | 承担；雇佣 | `A takes on B.` | The team took on three new projects this quarter. | 团队本季度承担了三个新项目。 |
-| 146 | take over | 接管；接手 | `A takes over B.` | The backup server takes over when the primary fails. | 主服务器故障时备份服务器接管。 |
-| 147 | take up | 占用；开始做 | `A takes up B.` | The batch job takes up too much CPU during peak hours. | 批处理任务在高峰期占用太多 CPU。 |
-| 148 | talk over | 讨论；商量 | `A talks over B with C.` | Talk over the API design before writing the spec. | 写规范之前先讨论 API 设计。 |
-| 149 | tap into | 利用；接入 | `A taps into B.` | Tap into the existing auth system instead of building a new one. | 接入现有认证系统而不是新建一个。 |
-| 150 | tear down | 拆除（环境/资源） | `A tears down B.` | Tear down the test environment after the CI run finishes. | CI 运行结束后拆除测试环境。 |
-| 151 | think over | 仔细考虑 | `A thinks over B.` | Think over the trade-offs before migrating to a new framework. | 迁移到新框架前仔细考虑取舍。 |
-| 152 | think through | 想透彻；全面考虑 | `A thinks through B.` | Think through all the edge cases before coding. | 编码前全面考虑所有边界情况。 |
-| 153 | throw away | 扔掉；浪费 | `A throws away B.` | Don't throw away the prototype — it might become a feature. | 别扔掉原型，它可能变成功能。 |
-| 154 | throw out | 扔掉；否决 | `A throws out B.` | The committee threw out the proposal due to security concerns. | 委员会因安全隐患否决了该提案。 |
-| 155 | tie up | 占用；绑住 | `A ties up B.` | The long-running transaction tied up the database connection. | 长事务占用了数据库连接。 |
-| 156 | top up | 补足；充值 | `A tops up B.` | Top up the cloud credits before the end of the quarter. | 季度末前充值云额度。 |
-| 157 | touch base | 沟通一下；碰个头 | `A touches base with B.` | Touch base with the security team before deploying. | 部署前和安全团队碰个头。 |
-| 158 | trade off | 权衡；取舍 | `A trades off B for C.` | We traded off some latency for stronger consistency. | 我们为更强的一致性牺牲了一些延迟。 |
-| 159 | trickle down | 渗透/下传 | `A trickles down to B.` | Architecture decisions trickle down to every line of code. | 架构决策渗透到每一行代码。 |
-| 160 | try out | 试用；尝试 | `A tries out B.` | Try out the new IDE plugin before the team adopts it. | 团队采用前先试用新的 IDE 插件。 |
-| 161 | turn around | 扭转；转好 | `A turns around B.` | The new SRE practices turned the reliability around. | 新的 SRE 实践扭转了可靠性。 |
-| 162 | turn down | 拒绝；关小 | `A turns down B.` | The team turned down the feature request due to scope creep. | 团队因范围蔓延拒绝了该功能请求。 |
-| 163 | turn off | 关闭 | `A turns off B.` | Turn off the old switch. | 关闭旧开关。 |
-| 164 | turn on | 打开 | `A turns on B.` | Turn on debug mode. | 打开调试模式。 |
-| 165 | turn over | 移交；翻转 | `A turns over B to C.` | Turn over the on-call duties to the next shift. | 将值班职责移交给下一班。 |
-| 166 | turn up | 出现；调大 | `A turns up.` | The bug only turned up under very specific conditions. | 这个 bug 只在非常特定的条件下出现。 |
-| 167 | use up | 用完；耗尽 | `A uses up B.` | The build job used up all the available disk space. | 构建任务用完了所有可用磁盘空间。 |
-| 168 | wait for | 等待 | `A waits for B.` | Wait for the build to finish. | 等待构建完成。 |
-| 169 | walk through | 逐步演示；走查 | `A walks through B.` | Walk through the deployment steps with the new hire. | 带新人逐步走一遍部署步骤。 |
-| 170 | warm up | 预热（缓存/连接池） | `A warms up B.` | Warm up the cache before putting the instance into rotation. | 将实例加入轮换前预热缓存。 |
-| 171 | weed out | 淘汰；清除 | `A weeds out B.` | Code review weeds out subtle bugs before they reach production. | 代码评审在 bug 到生产前就淘汰掉它们。 |
-| 172 | weigh in | 发表意见；参与讨论 | `A weighs in on B.` | The architect weighed in on the database design discussion. | 架构师参与了数据库设计的讨论。 |
-| 173 | wind down | 逐步减少；放松 | `A winds down B. / A winds down.` | Wind down the old API gradually over six months. | 用六个月逐步停掉旧 API。 |
-| 174 | wind up | 结束；最终 | `A winds up doing B.` | We wound up rewriting the module from scratch. | 我们最终从零重写了那个模块。 |
-| 175 | work on | 从事；处理 | `A works on B.` | I am working on the bug. | 我正在处理这个缺陷。 |
-| 176 | work out | 解决；锻炼；算出来 | `A works out B. / A works out.` | We worked out a compromise between the two approaches. | 我们找到了两种方案之间的折中。 |
-| 177 | work with | 与……合作 | `A works with B.` | We work with the QA team. | 我们与测试团队合作。 |
-| 178 | wrap up | 总结；完成 | `A wraps up B.` | Wrap up the sprint with a demo and a retro. | 以演示和回顾结束迭代。 |
-| 179 | zero in | 聚焦；瞄准 | `A zeros in on B.` | The investigation zeroed in on the caching layer. | 调查聚焦在了缓存层。 |
-| 180 | zip through | 快速完成 | `A zips through B.` | The script zips through 10,000 records in seconds. | 脚本在数秒内快速处理完 10000 条记录。 |
-## 四、如何真正掌握这些动词？
+| 1 | aim at | 瞄准；针对 | `A aims at B. / A is aimed at B.` | This optimization aims at reducing cold start time. | 这项优化旨在减少冷启动时间。 |
+| 2 | back off | 退避（重试策略） | `A backs off. / A backs off from B.` | The client backs off exponentially after repeated failures. | 客户端在反复失败后指数退避。 |
+| 3 | back up | 备份；支持 | `A backs up B.` | Back up the database before running the migration. | 运行迁移前备份数据库。 |
+| 4 | belong to | 属于 | `A belongs to B.` | This repository belongs to our team. | 这个仓库属于我们团队。 |
+| 5 | block out | 屏蔽；划出（时间） | `A blocks out B.` | Block out two hours of focus time on the calendar. | 在日历上划出两小时的专注时间。 |
+| 6 | boil down | 归结为 | `A boils down to B.` | The performance issue boils down to a missing index. | 这个性能问题归结为一个缺失的索引。 |
+| 7 | bottom out | 触底；停止恶化 | `A bottoms out.` | The latency spike bottomed out after the rollback. | 回滚后延迟尖峰触底停止恶化。 |
+| 8 | branch out | 拓展（新领域） | `A branches out into B.` | The platform branched out from payments into lending. | 该平台从支付拓展到借贷领域。 |
+| 9 | break down | 分解；出故障 | `A breaks down B. / A breaks down.` | Break down the epic into smaller user stories. | 将史诗分解为更小的用户故事。 |
+| 10 | break out | 爆发；分离出 | `A breaks out of B. / A breaks out B.` | Break out the shared logic into a separate library. | 将共享逻辑分离到独立的库中。 |
+| 11 | bring up | 提出 | `A brings up B.` | She brought up a security concern. | 她提出了一个安全担忧。 |
+| 12 | bubble up | 向上浮现 | `A bubbles up to B.` | Unhandled errors bubble up to the global error handler. | 未处理的错误向上冒泡到全局错误处理器。 |
+| 13 | burn out | 耗尽；过度疲劳 | `A burns out. / A burns B out.` | On-call rotations help prevent engineers from burning out. | 值班轮换有助于防止工程师过度疲劳。 |
+| 14 | call off | 取消 | `A calls off B.` | The team called off the deploy due to the storm. | 团队因风暴取消了部署。 |
+| 15 | care about | 关心 | `A cares about B.` | Customers care about stability. | 客户关心稳定性。 |
+| 16 | carry on | 继续 | `A carries on with B.` | The pipeline carries on despite warnings. | 流水线虽有警告但继续运行。 |
+| 17 | carry out | 执行 | `A carries out B.` | Carry out the test plan. | 执行测试计划。 |
+| 18 | carry over | 延续；结转 | `A carries over B to C.` | Carry over the unused budget to the next quarter. | 将未使用的预算结转到下个季度。 |
+| 19 | cash in | 兑现；获利 | `A cashes in on B.` | The competitor cashed in on our outage with a blog post. | 竞争对手趁我们故障发博文获利。 |
+| 20 | catch up | 赶上；追上 | `A catches up with B.` | The replica caught up with the primary after the lag. | 延迟后副本追上了主库。 |
+| 21 | check off | 勾选；完成 | `A checks off B.` | Check off each item on the deployment checklist. | 逐项勾选部署检查清单上的内容。 |
+| 22 | check out | 检出（代码）；调查 | `A checks out B.` | Check out the feature branch before making changes. | 做改动前先检出功能分支。 |
+| 23 | clean up | 清理 | `A cleans up B.` | Clean up temporary files. | 清理临时文件。 |
+| 24 | clear out | 清空；清理 | `A clears out B.` | Clear out the stale feature flags after the release. | 发布后清理过时的功能标志。 |
+| 25 | clock in | 打卡上班 | `A clocks in.` | Remote workers clock in by joining the daily stand-up. | 远程员工通过加入每日站会打卡上班。 |
+| 26 | clock out | 打卡下班 | `A clocks out.` | Encourage the team to clock out on time during crunch weeks. | 赶工周鼓励团队按时下班。 |
+| 27 | come around | 到来；改变主意 | `A comes around to B.` | The team eventually came around to the microservices approach. | 团队最终接受了微服务方案。 |
+| 28 | come from | 来自 | `A comes from B.` | The problem comes from the network. | 问题来自网络。 |
+| 29 | come up | 出现；提出 | `A comes up. / A comes up with B.` | The team came up with a clever workaround. | 团队想出了一个巧妙的工作方案。 |
+| 30 | come with | 附带 | `A comes with B.` | The SDK comes with examples. | SDK 附带示例。 |
+| 31 | consist of | 由……组成 | `A consists of B.` | The system consists of three services. | 系统由三个服务组成。 |
+| 32 | cook up | 想出；捏造 | `A cooks up B.` | The team cooked up a quick prototype over the weekend. | 团队周末赶出了一个快速原型。 |
+| 33 | count on | 指望；依靠 | `A counts on B.` | The team counts on the CI pipeline to catch regressions. | 团队指望 CI 流水线捕获回归。 |
+| 34 | cut back | 削减；缩减 | `A cuts back on B.` | We cut back on third-party dependencies to reduce risk. | 我们削减了第三方依赖以减少风险。 |
+| 35 | cut off | 切断；中断 | `A cuts off B.` | The firewall cut off the malicious connection. | 防火墙切断了恶意连接。 |
+| 36 | cut over | 切换（迁移的最后一步） | `A cuts over from B to C.` | The team cut over from the old database to the new one at midnight. | 团队在凌晨从旧数据库切换到新数据库。 |
+| 37 | deal with | 处理 | `A deals with B.` | We need to deal with this risk. | 我们需要处理这个风险。 |
+| 38 | depend on | 依赖 | `A depends on B.` | This feature depends on Redis. | 这个功能依赖 Redis。 |
+| 39 | drag on | 拖延；拖很久 | `A drags on. / A drags on B.` | The migration dragged on for six months. | 迁移拖了六个月。 |
+| 40 | draw up | 起草；拟定 | `A draws up B.` | Draw up a rollback plan before the deploy. | 部署前拟定回滚方案。 |
+| 41 | drill down | 深入钻取（数据） | `A drills down into B.` | Drill down into the trace to find the slowest span. | 深入钻取追踪以找到最慢的 span。 |
+| 42 | drop off | 下降；减少；掉线 | `A drops off. / A drops off B.` | Traffic dropped off sharply after the event ended. | 活动结束后流量急剧下降。 |
+| 43 | drop out | 退出；掉线 | `A drops out. / A drops out of B.` | The node dropped out of the cluster after a network split. | 网络分裂后该节点退出了集群。 |
+| 44 | end up | 最终；以...告终 | `A ends up doing B. / A ends up C.` | Without monitoring, small issues end up as outages. | 没有监控，小问题最终会变成宕机。 |
+| 45 | factor in | 考虑进去 | `A factors in B.` | Factor in the network latency when setting timeouts. | 设置超时时要考虑网络延迟。 |
+| 46 | fall back | 降级/回退（兜底方案） | `A falls back to B.` | Fall back to the default config if the file is missing. | 如果文件缺失，回退到默认配置。 |
+| 47 | fan out | 扇出 | `A fans out B to C.` | The message queue fans out events to multiple consumers. | 消息队列将事件扇出到多个消费者。 |
+| 48 | figure out | 弄清楚 | `A figures out B.` | We figured out the root cause. | 我们弄清楚了根因。 |
+| 49 | fill in | 填写 | `A fills in B.` | Fill in the required fields. | 填写必填字段。 |
+| 50 | fill out | 填写（表格） | `A fills out B.` | Fill out the incident report within 24 hours. | 在 24 小时内填写故障报告。 |
+| 51 | filter out | 过滤掉 | `A filters out B.` | Filter out the bot traffic from the analytics. | 从分析中过滤掉机器人流量。 |
+| 52 | flesh out | 充实；完善 | `A fleshes out B.` | Flesh out the user story with acceptance criteria. | 用验收标准充实用户故事。 |
+| 53 | flip through | 快速翻阅 | `A flips through B.` | Flip through the logs to spot the anomaly. | 快速翻阅日志以找出异常。 |
+| 54 | follow through | 坚持到底；执行到底 | `A follows through on B.` | The team followed through on every action item. | 团队对每个行动项都执行到底。 |
+| 55 | follow up | 跟进 | `A follows up on B.` | I will follow up on this issue. | 我会跟进这个问题。 |
+| 56 | get across | 传达清楚；使理解 | `A gets B across to C.` | It's hard to get the urgency across in a Slack message. | Slack 消息很难把紧急性传达清楚。 |
+| 57 | get around | 规避；绕过 | `A gets around B.` | A clever hack got around the API rate limit. | 一个巧妙的方法绕过了 API 速率限制。 |
+| 58 | get back | 回来；回复 | `A gets back to B.` | I'll get back to you after investigating the error log. | 调查完错误日志后回复你。 |
+| 59 | get out | 出去；发布；逃离 | `A gets out of B. / A gets B out.` | Get the hotfix out before the peak traffic window. | 在流量高峰窗口前把热修复发出去。 |
+| 60 | get through | 完成；熬过；接通 | `A gets through B.` | We got through the entire agenda in 30 minutes. | 我们 30 分钟内完成了全部议程。 |
+| 61 | give up | 放弃 | `A gives up B.` | Do not give up learning English. | 不要放弃学习英语。 |
+| 62 | go down | 下降；宕机；载入史册 | `A goes down.` | The site went down for 15 minutes during the deploy. | 部署期间网站宕了 15 分钟。 |
+| 63 | go through | 经历；仔细检查 | `A goes through B.` | Go through the entire PR before approving. | 批准前仔细检查整个 PR。 |
+| 64 | hand in | 提交；上交 | `A hands in B.` | Hand in the security review before the release. | 发布前提交安全审查。 |
+| 65 | hand over | 移交；交出 | `A hands over B to C.` | Hand over the on-call duties to the next shift. | 将值班职责移交给下一个班次。 |
+| 66 | hang out | 挂起；逗留 | `A hangs out. / A hangs out in B.` | The request hung out in the pending state for too long. | 请求在等待状态挂起太久了。 |
+| 67 | hold back | 保留；抑制 | `A holds back B.` | Don't hold back feedback during the code review. | 代码评审时不要保留反馈。 |
+| 68 | hold off | 暂缓；推迟 | `A holds off on B.` | Hold off on the deploy until the traffic spike passes. | 等流量高峰过去再部署。 |
+| 69 | hold up | 支撑；延迟 | `A holds up B. / A holds up.` | The index holds up well under heavy read traffic. / Don't let a review hold up the deploy. | 索引在大量读流量下支撑得很好。/ 别让评审延误部署。 |
+| 70 | hone in | 瞄准；集中 | `A hones in on B.` | The profiler honed in on the memory leak. | 分析器瞄准了内存泄漏。 |
+| 71 | iron out | 解决（细节问题） | `A irons out B.` | Iron out the edge cases before the release. | 发布前解决边界情况。 |
+| 72 | keep up | 跟上；保持 | `A keeps up with B.` | The system keeps up with 10,000 requests per second. | 系统跟上了每秒 10000 次请求。 |
+| 73 | key in | 键入；输入 | `A keys in B.` | Key in the verification code to complete the login. | 输入验证码完成登录。 |
+| 74 | lay out | 布置；阐述 | `A lays out B.` | The RFC lays out the migration plan in detail. | RFC 详细阐述了迁移计划。 |
+| 75 | lead to | 导致 | `A leads to B.` | High latency leads to bad user experience. | 高延迟导致糟糕的用户体验。 |
+| 76 | lean into | 拥抱；积极面对 | `A leans into B.` | Lean into the discomfort of learning a new paradigm. | 积极面对学习新范式的阵痛。 |
+| 77 | let go | 放手；解雇 | `A lets B go.` | The company let go of 10% of the workforce. | 公司解雇了 10% 的员工。 |
+| 78 | light up | 亮起；点亮 | `A lights up B. / A lights up.` | The monitoring dashboard lit up with red alerts. | 监控仪表盘亮起红色告警。 |
+| 79 | line up | 排队；安排 | `A lines up B.` | Line up the dependencies before starting the sprint. | 开始迭代前排好依赖关系。 |
+| 80 | lock down | 锁定；封锁 | `A locks down B.` | Lock down the production environment after the breach. | 入侵后封锁生产环境。 |
+| 81 | log in | 登录 | `A logs in to B.` | The user logs in to the system. | 用户登录系统。 |
+| 82 | log out | 退出登录 | `A logs out of B.` | The user logged out of the portal. | 用户退出门户。 |
+| 83 | look for | 寻找 | `A looks for B.` | Look for errors in the logs. | 在日志中查找错误。 |
+| 84 | look into | 调查 | `A looks into B.` | We will look into this issue. | 我们会调查这个问题。 |
+| 85 | look up | 查阅；查找 | `A looks up B.` | Look up the error code in the documentation. | 在文档中查阅错误码。 |
+| 86 | make up | 弥补；组成 | `A makes up B. / A makes up for B.` | Microservices make up the core platform. / Speed makes up for lack of features. | 微服务构成核心平台。/ 速度弥补功能不足。 |
+| 87 | map out | 规划；详细安排 | `A maps out B.` | Map out the migration path from monolith to microservices. | 规划从单体到微服务的迁移路径。 |
+| 88 | mark down | 减价；记下 | `A marks down B.` | The team marked down the action items during the retro. | 团队在回顾会上记下了行动项。 |
+| 89 | measure up | 达标；符合标准 | `A measures up to B.` | The new hire's first PR measured up to the team's standards. | 新人第一个 PR 就达到了团队标准。 |
+| 90 | miss out | 错过；遗漏 | `A misses out on B.` | Don't miss out on the early-bird discount for the conference. | 别错过会议的早鸟折扣。 |
+| 91 | mix up | 混淆；混合 | `A mixes up B with C.` | I always mix up the staging and production URLs. | 我总把预发布和生产 URL 搞混。 |
+| 92 | mock up | 打样；做模型 | `A mocks up B.` | Mock up the new UI before writing a single line of code. | 写代码前先把新 UI 做个模型出来。 |
+| 93 | move on | 继续前进；翻篇 | `A moves on from B.` | After the post-mortem, the team moved on quickly. | 复盘后团队迅速翻篇继续前进。 |
+| 94 | move up | 提前；上升 | `A moves up B. / A moves up.` | Move up the deployment to Tuesday to catch the window. | 将部署提前到周二以赶上窗口。 |
+| 95 | narrow down | 缩小范围 | `A narrows down B to C.` | Narrow down the root cause to a single commit. | 将根因缩小范围到一次提交。 |
+| 96 | open up | 打开；开放 | `A opens up B.` | Open up the internal API to trusted partners. | 向可信伙伴开放内部 API。 |
+| 97 | opt in | 选择加入 | `A opts in to B.` | Users must opt in to the beta program. | 用户必须选择加入 Beta 计划。 |
+| 98 | opt out | 选择退出 | `A opts out of B.` | Users can opt out of data collection in settings. | 用户可以在设置中选择退出数据收集。 |
+| 99 | own up | 承认；坦白 | `A owns up to B.` | The engineer owned up to the misconfiguration immediately. | 那位工程师立即承认了配置错误。 |
+| 100 | pan out | 结果；成功 | `A pans out.` | The microservices migration didn't pan out as expected. | 微服务迁移的结果不如预期。 |
+| 101 | pass on | 传递；转发 | `A passes on B to C.` | Pass on the context to the downstream service. | 将上下文传递到下游服务。 |
+| 102 | pay off | 回报；还清 | `A pays off. / A pays off B.` | The investment in testing paid off during the migration. | 测试上的投入在迁移期间得到了回报。 |
+| 103 | pencil in | 暂定；临时安排 | `A pencils in B.` | Pencil in the architecture review for Wednesday afternoon. | 暂定周三下午做架构评审。 |
+| 104 | phase out | 逐步淘汰 | `A phases out B.` | Phase out the deprecated API over three releases. | 用三个版本逐步淘汰弃用的 API。 |
+| 105 | pick out | 挑选；辨认出 | `A picks out B from C.` | Pick out the critical alerts from the noise. | 从噪音中挑出关键告警。 |
+| 106 | pick up | 拿起；学会；接人 | `A picks up B.` | New hires pick up the codebase quickly with pair programming. | 新人通过结队编程快速上手代码库。 |
+| 107 | pile up | 堆积；累积 | `A piles up.` | Unread Slack messages pile up during the weekend. | 周末未读的 Slack 消息堆积起来。 |
+| 108 | pin down | 确定；明确 | `A pins down B.` | Pin down the exact commit that introduced the bug. | 确定引入缺陷的确切提交。 |
+| 109 | pitch in | 出力；出钱 | `A pitches in.` | Everyone pitched in to resolve the production incident. | 每个人都在出力解决生产故障。 |
+| 110 | play down | 淡化；轻描淡写 | `A plays down B.` | Don't play down the severity of a data loss bug. | 别淡化数据丢失缺陷的严重性。 |
+| 111 | plug in | 插入；接通 | `A plugs in B.` | Plug in your API key to start using the service. | 插入你的 API 密钥即可开始使用服务。 |
+| 112 | point out | 指出 | `A points out B.` | He pointed out a design flaw. | 他指出了一个设计缺陷。 |
+| 113 | power down | 关机；断电 | `A powers down B.` | Power down the staging environment over the weekend. | 周末关掉预发布环境。 |
+| 114 | press on | 继续；坚持 | `A presses on with B.` | Despite the setbacks, the team pressed on with the launch. | 尽管遇到挫折，团队坚持推进上线。 |
+| 115 | pull off | 完成（困难的事） | `A pulls off B.` | The team pulled off a zero-downtime migration. | 团队完成了零宕机迁移。 |
+| 116 | pull out | 抽出；退出 | `A pulls out B from C. / A pulls out of B.` | Pull out the shared components into a design system. | 将共享组件抽出到设计系统中。 |
+| 117 | push back | 推后；反对 | `A pushes back on B.` | The engineer pushed back on the unrealistic deadline. | 工程师反对不切实际的截止日期。 |
+| 118 | put off | 推迟 | `A puts off B.` | Don't put off the security patch until next sprint. | 别把安全补丁推迟到下个迭代。 |
+| 119 | put together | 组合；拼凑 | `A puts together B.` | Put together a quick prototype before the pitch meeting. | 推介会前快速拼一个原型出来。 |
+| 120 | queue up | 排队；入队 | `A queues up B.` | The scheduler queues up jobs based on priority. | 调度器按优先级将作业入队。 |
+| 121 | ramp down | 逐步减少 | `A ramps down B.` | Ramp down the old service as traffic shifts to the new one. | 随着流量转移到新服务，逐步减少旧服务。 |
+| 122 | ramp up | 逐步增加（流量/负载） | `A ramps up B.` | Ramp up the canary traffic from 5% to 50% gradually. | 将金丝雀流量从 5% 逐步增加到 50%。 |
+| 123 | reach out | 联系；主动接触 | `A reaches out to B.` | Reach out to the platform team before building your own solution. | 在自建方案前先联系平台团队。 |
+| 124 | refer to | 指的是；参考 | `A refers to B.` | This field refers to user ID. | 这个字段指用户 ID。 |
+| 125 | rein in | 控制；收紧 | `A reins in B.` | Rein in the scope creep before the sprint derails. | 在迭代脱轨前收紧范围蔓延。 |
+| 126 | relate to | 与……相关 | `A relates to B.` | This error relates to authentication. | 这个错误与认证有关。 |
+| 127 | rely on | 依靠 | `A relies on B.` | The app relies on the database. | 应用依赖数据库。 |
+| 128 | result in | 导致 | `A results in B.` | Invalid input results in an error. | 无效输入导致错误。 |
+| 129 | roll back | 回退 | `A rolls back B.` | Roll back the deploy if the error rate spikes. | 如果错误率飙升就回退部署。 |
+| 130 | roll out | 推出（新功能/版本） | `A rolls out B.` | Roll out the new feature to 10% of users initially. | 初步向 10% 用户推出新功能。 |
+| 131 | rough out | 草拟；粗略画出 | `A roughs out B.` | Rough out the API contract before the integration meeting. | 集成会议前草拟 API 契约。 |
+| 132 | rule out | 排除（可能性） | `A rules out B.` | The ping test ruled out a network issue. | ping 测试排除了网络问题。 |
+| 133 | run by | 过一遍；给...看看 | `A runs B by C.` | Run the architecture proposal by the tech lead first. | 先把架构提案给技术负责人过一遍。 |
+| 134 | run out | 耗尽 | `A runs out of B.` | The server ran out of disk space during the backup. | 备份期间服务器耗尽磁盘空间。 |
+| 135 | run through | 快速过一遍；彩排 | `A runs through B.` | Run through the demo script once before the client call. | 客户电话前快速过一遍演示脚本。 |
+| 136 | scale back | 缩减规模 | `A scales back B.` | We scaled back the feature scope to meet the deadline. | 我们缩减了功能范围以赶上截止日期。 |
+| 137 | scope out | 考察；评估 | `A scopes out B.` | Scope out the third-party API before committing to it. | 承诺使用之前先评估第三方 API。 |
+| 138 | search for | 搜索 | `A searches for B.` | Search for the keyword. | 搜索关键词。 |
+| 139 | set up | 搭建；设置 | `A sets up B.` | Set up the local environment. | 搭建本地环境。 |
+| 140 | settle on | 决定；选定 | `A settles on B.` | After much debate, the team settled on PostgreSQL. | 经过大量讨论，团队选定了 PostgreSQL。 |
+| 141 | sew up | 缝合；搞定 | `A sews up B.` | Sew up the remaining edge cases before the release. | 发布前搞定剩余的边界情况。 |
+| 142 | shake out | 抖出；淘汰出 | `A shakes out B.` | Load testing shakes out the hidden performance issues. | 负载测试抖出隐藏的性能问题。 |
+| 143 | shore up | 支撑；加强 | `A shores up B.` | The team shored up the monitoring before Black Friday. | 黑五前团队加强了监控。 |
+| 144 | show up | 出现；露面 | `A shows up. / A shows up in B.` | The error only shows up under high concurrency. | 这个错误只在高并发下出现。 |
+| 145 | shut down | 关闭 | `A shuts down B.` | Shut down unused containers. | 关闭未使用的容器。 |
+| 146 | sign up | 注册 | `A signs up for B.` | Users sign up for the service. | 用户注册该服务。 |
+| 147 | smooth out | 抚平；解决问题 | `A smooths out B.` | The hotfix smoothed out the latency spikes. | 热修复抚平了延迟尖峰。 |
+| 148 | sort out | 整理；解决 | `A sorts out B.` | Sort out the merge conflicts before the end of the day. | 今天之内解决合并冲突。 |
+| 149 | spin down | 关闭（实例/容器） | `A spins down B.` | Spin down the staging instances over the weekend to save cost. | 周末关闭预发布实例以节省成本。 |
+| 150 | spin up | 启动（实例/容器） | `A spins up B.` | The autoscaler spins up new pods when CPU exceeds 80%. | CPU 超过 80% 时自动扩缩器启动新 Pod。 |
+| 151 | square away | 处理妥当 | `A squares away B.` | Square away the legal review before the launch date. | 上线日前把法务审查处理妥当。 |
+| 152 | stamp out | 消灭；杜绝 | `A stamps out B.` | Stamp out flaky tests before they erode team trust. | 在不稳定测试侵蚀团队信任之前消灭它们。 |
+| 153 | stand out | 突出；显著 | `A stands out. / A stands out from B.` | The latency spike stood out on the dashboard. | 延迟尖峰在仪表盘上格外突出。 |
+| 154 | start over | 重新开始 | `A starts over.` | If the rebase goes wrong, start over from a clean branch. | 如果 rebase 出错，从干净分支重新开始。 |
+| 155 | step up | 加大；站出来 | `A steps up B. / A steps up to do B.` | Step up the retry frequency after the third failure. | 第三次失败后加大重试频率。 |
+| 156 | stick to | 坚持；遵守 | `A sticks to B.` | Stick to the coding standards even under time pressure. | 即使时间紧张也要遵守编码规范。 |
+| 157 | stock up | 囤积；备货 | `A stocks up on B.` | Stock up on snacks before the hackathon. | 黑客马拉松前囤好零食。 |
+| 158 | stumble upon | 偶然发现 | `A stumbles upon B.` | The developer stumbled upon a critical security flaw. | 开发者偶然发现了一个严重安全漏洞。 |
+| 159 | sum up | 总结；概括 | `A sums up B.` | Sum up the key takeaways in three bullet points. | 用三个要点总结关键结论。 |
+| 160 | swap out | 替换掉 | `A swaps out B for C.` | Swap out the old library for the new one in one PR. | 在一个 PR 里把旧库替换成新库。 |
+| 161 | switch off | 关掉；停止思考 | `A switches off B.` | Switch off the feature flag after the canary succeeds. | 金丝雀验证成功后关掉功能标志。 |
+| 162 | switch over | 切换过去 | `A switches over to B.` | Switch over to the backup data center during the outage. | 故障期间切换到备用数据中心。 |
+| 163 | take apart | 拆开；剖析 | `A takes apart B.` | Take apart the monolithic service into independent modules. | 把单体服务拆分为独立模块。 |
+| 164 | take back | 收回；撤回 | `A takes back B.` | The developer took back the commit after noticing the bug. | 开发者注意到 bug 后撤回了提交。 |
+| 165 | take down | 记下；拆除 | `A takes down B.` | Take down the production notes during the incident call. | 故障电话期间记下处理记录。 |
+| 166 | take on | 承担；雇佣 | `A takes on B.` | The team took on three new projects this quarter. | 团队本季度承担了三个新项目。 |
+| 167 | take over | 接管；接手 | `A takes over B.` | The backup server takes over when the primary fails. | 主服务器故障时备份服务器接管。 |
+| 168 | take up | 占用；开始做 | `A takes up B.` | The batch job takes up too much CPU during peak hours. | 批处理任务在高峰期占用太多 CPU。 |
+| 169 | talk over | 讨论；商量 | `A talks over B with C.` | Talk over the API design before writing the spec. | 写规范之前先讨论 API 设计。 |
+| 170 | talk up | 赞扬；吹捧 | `A talks up B.` | Talk up the team's achievements during the sprint review. | 迭代评审时赞扬团队的成果。 |
+| 171 | tap into | 利用；接入 | `A taps into B.` | Tap into the existing auth system instead of building a new one. | 接入现有认证系统而不是新建一个。 |
+| 172 | taper off | 逐渐减少 | `A tapers off.` | The alert noise tapered off after the fix deployed. | 修复部署后告警噪音逐渐减少了。 |
+| 173 | tear down | 拆除（环境/资源） | `A tears down B.` | Tear down the test environment after the CI run finishes. | CI 运行结束后拆除测试环境。 |
+| 174 | think over | 仔细考虑 | `A thinks over B.` | Think over the trade-offs before migrating to a new framework. | 迁移到新框架前仔细考虑取舍。 |
+| 175 | think through | 想透彻；全面考虑 | `A thinks through B.` | Think through all the edge cases before coding. | 编码前全面考虑所有边界情况。 |
+| 176 | throw away | 扔掉；浪费 | `A throws away B.` | Don't throw away the prototype — it might become a feature. | 别扔掉原型，它可能变成功能。 |
+| 177 | throw out | 扔掉；否决 | `A throws out B.` | The committee threw out the proposal due to security concerns. | 委员会因安全隐患否决了该提案。 |
+| 178 | tie up | 占用；绑住 | `A ties up B.` | The long-running transaction tied up the database connection. | 长事务占用了数据库连接。 |
+| 179 | top up | 补足；充值 | `A tops up B.` | Top up the cloud credits before the end of the quarter. | 季度末前充值云额度。 |
+| 180 | touch base | 沟通一下；碰个头 | `A touches base with B.` | Touch base with the security team before deploying. | 部署前和安全团队碰个头。 |
+| 181 | trade off | 权衡；取舍 | `A trades off B for C.` | We traded off some latency for stronger consistency. | 我们为更强的一致性牺牲了一些延迟。 |
+| 182 | trickle down | 渗透/下传 | `A trickles down to B.` | Architecture decisions trickle down to every line of code. | 架构决策渗透到每一行代码。 |
+| 183 | trip over | 绊倒；遇到困难 | `A trips over B.` | The team tripped over an undocumented API behavior. | 团队遇到了一个未文档化的 API 行为。 |
+| 184 | try out | 试用；尝试 | `A tries out B.` | Try out the new IDE plugin before the team adopts it. | 团队采用前先试用新的 IDE 插件。 |
+| 185 | turn around | 扭转；转好 | `A turns around B.` | The new SRE practices turned the reliability around. | 新的 SRE 实践扭转了可靠性。 |
+| 186 | turn down | 拒绝；关小 | `A turns down B.` | The team turned down the feature request due to scope creep. | 团队因范围蔓延拒绝了该功能请求。 |
+| 187 | turn off | 关闭 | `A turns off B.` | Turn off the old switch. | 关闭旧开关。 |
+| 188 | turn on | 打开 | `A turns on B.` | Turn on debug mode. | 打开调试模式。 |
+| 189 | turn over | 移交；翻转 | `A turns over B to C.` | Turn over the on-call duties to the next shift. | 将值班职责移交给下一班。 |
+| 190 | turn up | 出现；调大 | `A turns up.` | The bug only turned up under very specific conditions. | 这个 bug 只在非常特定的条件下出现。 |
+| 191 | type out | 打出；完整输入 | `A types out B.` | Type out the full error message in the bug report. | 在缺陷报告中打出完整错误信息。 |
+| 192 | use up | 用完；耗尽 | `A uses up B.` | The build job used up all the available disk space. | 构建任务用完了所有可用磁盘空间。 |
+| 193 | wait for | 等待 | `A waits for B.` | Wait for the build to finish. | 等待构建完成。 |
+| 194 | walk away | 离开；放弃 | `A walks away from B.` | Don't walk away from a failing build — fix it immediately. | 别对失败的构建置之不理，立即修复。 |
+| 195 | walk through | 逐步演示；走查 | `A walks through B.` | Walk through the deployment steps with the new hire. | 带新人逐步走一遍部署步骤。 |
+| 196 | warm up | 预热（缓存/连接池） | `A warms up B.` | Warm up the cache before putting the instance into rotation. | 将实例加入轮换前预热缓存。 |
+| 197 | weed out | 淘汰；清除 | `A weeds out B.` | Code review weeds out subtle bugs before they reach production. | 代码评审在 bug 到生产前就淘汰掉它们。 |
+| 198 | weigh in | 发表意见；参与讨论 | `A weighs in on B.` | The architect weighed in on the database design discussion. | 架构师参与了数据库设计的讨论。 |
+| 199 | wind down | 逐步减少；放松 | `A winds down B. / A winds down.` | Wind down the old API gradually over six months. | 用六个月逐步停掉旧 API。 |
+| 200 | wind up | 结束；最终 | `A winds up doing B.` | We wound up rewriting the module from scratch. | 我们最终从零重写了那个模块。 |
+| 201 | work on | 从事；处理 | `A works on B.` | I am working on the bug. | 我正在处理这个缺陷。 |
+| 202 | work out | 解决；锻炼；算出来 | `A works out B. / A works out.` | We worked out a compromise between the two approaches. | 我们找到了两种方案之间的折中。 |
+| 203 | work with | 与……合作 | `A works with B.` | We work with the QA team. | 我们与测试团队合作。 |
+| 204 | wrap up | 总结；完成 | `A wraps up B.` | Wrap up the sprint with a demo and a retro. | 以演示和回顾结束迭代。 |
+| 205 | zero in | 聚焦；瞄准 | `A zeros in on B.` | The investigation zeroed in on the caching layer. | 调查聚焦在了缓存层。 |
+| 206 | zip through | 快速完成 | `A zips through B.` | The script zips through 10,000 records in seconds. | 脚本在数秒内快速处理完 10000 条记录。 |## 四、如何真正掌握这些动词？
 
 ### 1. 按“参数”记动词
 
@@ -1292,7 +1340,7 @@ depend 必须常和 on 搭配
 | 第7阶段 | 601～700 | 掌握商务、产品和营销动词 |
 | 第8阶段 | 701～800 | 掌握系统设计、优化和架构动词 |
 | 第9阶段 | 801～900 | 补充日常交流、商务和职场场景动词 |
-| 第10阶段 | 901～952 | 巩固剩余高频和专项场景动词 |
+| 第10阶段 | 901～974 | 巩固剩余高频和专项场景动词 |
 
 ---
 
@@ -1307,7 +1355,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1132 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1180 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
