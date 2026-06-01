@@ -1,9 +1,9 @@
 ---
-title: "1270 个核心英语动词与句子模板"
+title: "1273 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1270 个核心英语动词与句子模板"
+summary: "1273 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、1046 个核心动词主表
+## 二、1049 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1108,6 +1108,9 @@ This change makes the system stable.
 | 1044 | qualify | 使合格；限定；有资格 | `A qualifies B. / A qualifies for B.` | Three candidates qualified for the final interview round. | 三位候选人取得了终面资格。 |
 | 1045 | retire | 退休；淘汰；停用 | `A retires B.` | Retire the legacy API after all clients migrate to v2. | 所有客户端迁移到 v2 后停用旧 API。 |
 | 1046 | slip | 滑；溜走；错过 | `A slips. / A slips through B.` | The bug slipped through code review into production. | 这个缺陷溜过了代码评审进了生产环境。 |
+| 1047 | scare | 吓唬；使害怕 | `A scares B.` | A sudden traffic spike scared the on-call team at 3 AM. | 凌晨三点的突增流量吓到了值班团队。 |
+| 1048 | score | 得分；评分；赢得 | `A scores B. / A scores.` | The new release scored high marks in the performance audit. | 新版本在性能审计中得了高分。 |
+| 1049 | twist | 扭曲；扭转；缠绕 | `A twists B.` | Don't twist the requirement — implement what the spec says. | 别曲解需求，按规格说明实现。 |
 
 
 
@@ -1447,7 +1450,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1270 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1273 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
