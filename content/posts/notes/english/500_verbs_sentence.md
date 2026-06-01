@@ -1,9 +1,9 @@
 ---
-title: "1105 个核心英语动词与句子模板"
+title: "1132 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1105 个核心英语动词与句子模板"
+summary: "1132 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、925 个核心动词主表
+## 二、952 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -987,6 +987,33 @@ This change makes the system stable.
 | 923 | liquidate | 清算；变现 | `A liquidates B.` | The startup liquidated its assets after the shutdown. | 创业公司关闭后清算了资产。 |
 | 924 | reimburse | 报销；偿还 | `A reimburses B for C.` | The company reimburses employees for conference tickets. | 公司报销员工的会议门票费用。 |
 | 925 | vest | 归属（期权） | `A vests. / A vests B.` | Your stock options vest over a four-year period. | 你的股票期权分四年归属。 |
+| 926 | access | 访问；获取 | `A accesses B.` | The app accesses the camera after permission is granted. | 应用在获得权限后访问摄像头。 |
+| 927 | afford | 负担得起；能... | `A can afford B. / A can afford to do B.` | We can't afford any downtime during peak hours. | 高峰时段我们承受不起任何宕机。 |
+| 928 | bake | 烘焙；内置 | `A bakes B into C.` | Security is baked into the development process, not added later. | 安全内置在开发流程中，不是事后添加。 |
+| 929 | browse | 浏览；翻阅 | `A browses B.` | Browse the API documentation before opening a ticket. | 开工单前先浏览 API 文档。 |
+| 930 | click | 点击 | `A clicks B. / A clicks on B.` | Click the deploy button and monitor the logs. | 点击部署按钮并监控日志。 |
+| 931 | criticize | 批评；评论 | `A criticizes B for C.` | Don't criticize the code without offering a solution. | 不要只批评代码而不给出解决方案。 |
+| 932 | dress | 穿衣服；着装；处理 | `A dresses. / A dresses B.` | Dress the commit message properly before pushing. | 推送前把提交信息写规范。 |
+| 933 | email | 发邮件 | `A emails B about C.` | Email the security team before making firewall changes. | 修改防火墙规则前给安全团队发邮件。 |
+| 934 | empty | 清空；倒空 | `A empties B.` | Empty the log directory before the disk fills up. | 磁盘满之前清空日志目录。 |
+| 935 | fit | 适合；符合；容纳 | `A fits into B. / A fits B.` | The new module fits cleanly into the existing architecture. | 新模块干净地融入现有架构。 |
+| 936 | hurry | 匆忙；赶紧 | `A hurries to do B.` | Don't hurry the deploy — double-check the config first. | 别急着部署，先仔细检查配置。 |
+| 937 | login | 登录 | `A logins to B.` | Login to the server via SSH with your key. | 用你的密钥通过 SSH 登录服务器。 |
+| 938 | logout | 登出 | `A logouts of B.` | Logout of the admin panel when you're done. | 完成后从管理面板登出。 |
+| 939 | matter | 重要；有关系 | `A matters. / It matters that S.` | Consistency matters more than cleverness in a codebase. | 在代码库中，一致性比聪明更重要。 |
+| 940 | message | 发消息 | `A messages B about C.` | Message the on-call engineer if the alert persists. | 如果告警持续，给值班工程师发消息。 |
+| 941 | order | 命令；排序；订购 | `A orders B. / A orders B to do C.` | Order the search results by relevance descending. | 按相关性降序排列搜索结果。 |
+| 942 | owe | 欠；归功于 | `A owes B to C.` | The project owes its stability to thorough testing. | 这个项目的稳定性归功于充分测试。 |
+| 943 | paint | 画；描绘；涂漆 | `A paints B. / A paints a picture of B.` | The dashboard paints a clear picture of system health. | 仪表盘描绘了系统健康状况的清晰画面。 |
+| 944 | post | 发布；张贴 | `A posts B to C.` | Post a summary of the incident to the team channel. | 在团队频道发布故障总结。 |
+| 945 | praise | 赞美；表扬 | `A praises B for C.` | The tech lead praised the clean error handling. | 技术负责人表扬了清晰的错误处理。 |
+| 946 | refresh | 刷新；更新 | `A refreshes B.` | Refresh the access token before it expires. | 令牌过期前刷新访问令牌。 |
+| 947 | rush | 匆忙；仓促 | `A rushes B. / A rushes to do B.` | Don't rush the migration — plan each step carefully. | 别仓促迁移，每一步都要仔细规划。 |
+| 948 | scroll | 滚动；翻阅 | `A scrolls through B.` | Scroll through the logs to find the first error. | 翻阅日志找到第一个错误。 |
+| 949 | shop | 购物；选购 | `A shops for B.` | Shop around for the best cloud provider before committing. | 承诺使用之前货比三家选云服务商。 |
+| 950 | suit | 适合；满足 | `A suits B.` | Choose the database that suits your access pattern. | 选择适合你访问模式的数据库。 |
+| 951 | text | 发短信；文本 | `A texts B about C.` | Text the team when the deploy is complete. | 部署完成后给团队发消息。 |
+| 952 | type | 打字；分类 | `A types B. / A types B as C.` | TypeScript types every variable at compile time. | TypeScript 在编译时对每个变量进行类型标注。 |
 
 ## 三、180 个短语动词速查
 
@@ -1265,7 +1292,7 @@ depend 必须常和 on 搭配
 | 第7阶段 | 601～700 | 掌握商务、产品和营销动词 |
 | 第8阶段 | 701～800 | 掌握系统设计、优化和架构动词 |
 | 第9阶段 | 801～900 | 补充日常交流、商务和职场场景动词 |
-| 第10阶段 | 901～925 | 巩固剩余高频和专项场景动词 |
+| 第10阶段 | 901～952 | 巩固剩余高频和专项场景动词 |
 
 ---
 
@@ -1280,7 +1307,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1105 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1132 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
