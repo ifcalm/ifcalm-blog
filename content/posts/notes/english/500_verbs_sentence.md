@@ -1,9 +1,9 @@
 ---
-title: "740 个核心英语动词与句子模板"
+title: "953 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "740 个核心英语动词与句子模板"
+summary: "953 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、740 个核心动词主表
+## 二、872 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -269,541 +269,760 @@ This change makes the system stable.
 | 205 | track | 跟踪 | `A tracks B.` | We track progress every day. | 我们每天跟踪进展。 |
 | 206 | monitor | 监控 | `A monitors B.` | The platform monitors service health. | 平台监控服务健康状态。 |
 | 207 | follow | 跟随；遵循 | `A follows B.` | Follow the deployment guide. | 遵循部署指南。 |
-| 208 | follow up | 跟进 | `A follows up on B.` | I will follow up on this issue. | 我会跟进这个问题。 |
-| 209 | handle | 处理 | `A handles B.` | The service handles user requests. | 服务处理用户请求。 |
-| 210 | process | 处理 | `A processes B.` | The worker processes messages. | 工作线程处理消息。 |
-| 211 | perform | 执行；表现 | `A performs B.` | The system performs a security check. | 系统执行安全检查。 |
-| 212 | execute | 执行 | `A executes B.` | The script executes the command. | 脚本执行命令。 |
-| 213 | complete | 完成 | `A completes B.` | We completed the migration. | 我们完成了迁移。 |
-| 214 | achieve | 达成 | `A achieves B.` | The team achieved the target. | 团队达成了目标。 |
-| 215 | reach | 达到；到达 | `A reaches B.` | The CPU usage reached 90%. | CPU 使用率达到 90%。 |
-| 216 | meet | 满足；会面 | `A meets B.` | The design meets the requirements. | 设计满足需求。 |
-| 217 | miss | 错过；遗漏 | `A misses B.` | We missed one edge case. | 我们遗漏了一个边界场景。 |
-| 218 | delay | 延迟 | `A delays B.` | The dependency delayed the release. | 依赖问题延迟了发布。 |
-| 219 | postpone | 推迟 | `A postpones B.` | We postponed the meeting. | 我们推迟了会议。 |
-| 220 | cancel | 取消 | `A cancels B.` | The team canceled the old plan. | 团队取消了旧计划。 |
-| 221 | launch | 上线；启动 | `A launches B.` | We launched the new feature. | 我们上线了新功能。 |
-| 222 | release | 发布 | `A releases B.` | The team released version 2.0. | 团队发布了 2.0 版本。 |
-| 223 | deploy | 部署 | `A deploys B to C.` | We deployed the app to production. | 我们把应用部署到生产环境。 |
-| 224 | rollback | 回滚 | `A rolls back B to C.` | We rolled back the release. | 我们回滚了发布。 |
-| 225 | upgrade | 升级 | `A upgrades B to C.` | Upgrade the database to version 8. | 把数据库升级到 8 版本。 |
-| 226 | downgrade | 降级 | `A downgrades B to C.` | We downgraded the dependency. | 我们降级了依赖。 |
-| 227 | migrate | 迁移 | `A migrates B from C to D.` | We migrated data to the new database. | 我们把数据迁移到新数据库。 |
-| 228 | maintain | 维护 | `A maintains B.` | The team maintains this service. | 团队维护这个服务。 |
-| 229 | support | 支持 | `A supports B.` | The API supports pagination. | 接口支持分页。 |
-| 230 | operate | 操作；运营 | `A operates B.` | The team operates the platform. | 团队运营这个平台。 |
-| 231 | run | 运行；跑 | `A runs B. / A runs on C.` | The app runs on Docker. | 应用运行在 Docker 上。 |
-| 232 | build | 构建 | `A builds B.` | The pipeline builds the image. | 流水线构建镜像。 |
-| 233 | compile | 编译 | `A compiles B.` | The compiler compiles the source code. | 编译器编译源代码。 |
-| 234 | package | 打包 | `A packages B.` | The script packages the application. | 脚本打包应用。 |
-| 235 | install | 安装 | `A installs B.` | Install the latest SDK. | 安装最新 SDK。 |
-| 236 | uninstall | 卸载 | `A uninstalls B.` | Uninstall the old plugin. | 卸载旧插件。 |
-| 237 | configure | 配置 | `A configures B.` | Configure the database connection. | 配置数据库连接。 |
-| 238 | prepare | 准备 | `A prepares B.` | Prepare the release notes. | 准备发布说明。 |
-| 239 | document | 记录；写文档 | `A documents B.` | Document the new API. | 为新接口写文档。 |
-| 240 | archive | 归档 | `A archives B.` | Archive old logs monthly. | 每月归档旧日志。 |
-| 241 | backup | 备份 | `A backs up B.` | Back up the database before release. | 发布前备份数据库。 |
-| 242 | restore | 恢复 | `A restores B.` | Restore the data from backup. | 从备份恢复数据。 |
-| 243 | implement | 实现 | `A implements B.` | We implemented the login feature. | 我们实现了登录功能。 |
-| 244 | develop | 开发 | `A develops B.` | The team developed a new module. | 团队开发了一个新模块。 |
-| 245 | design | 设计 | `A designs B.` | We designed a simple API. | 我们设计了一个简单接口。 |
-| 246 | architect | 设计架构 | `A architects B.` | She architected the new platform. | 她设计了新平台架构。 |
-| 247 | code | 编码 | `A codes B.` | He coded the core logic. | 他编写了核心逻辑。 |
-| 248 | program | 编程 | `A programs B.` | The robot is programmed to stop. | 机器人被编程为停止。 |
-| 249 | refactor | 重构 | `A refactors B.` | We refactored the old module. | 我们重构了旧模块。 |
-| 250 | optimize | 优化 | `A optimizes B.` | We optimized the query. | 我们优化了查询。 |
-| 251 | improve | 改进 | `A improves B.` | This change improves performance. | 这个改动提升性能。 |
-| 252 | enhance | 增强 | `A enhances B.` | The patch enhances security. | 补丁增强了安全性。 |
-| 253 | simplify | 简化 | `A simplifies B.` | We simplified the workflow. | 我们简化了流程。 |
-| 254 | extend | 扩展 | `A extends B.` | The class extends the base class. | 这个类继承了基类。 |
-| 255 | customize | 定制 | `A customizes B.` | Users can customize the dashboard. | 用户可以定制仪表盘。 |
-| 256 | integrate | 集成 | `A integrates B with C.` | We integrated the app with OAuth. | 我们把应用与 OAuth 集成。 |
-| 257 | connect | 连接 | `A connects B to C.` | The client connects to the server. | 客户端连接到服务器。 |
-| 258 | disconnect | 断开连接 | `A disconnects B from C.` | The proxy disconnected the client. | 代理断开了客户端连接。 |
-| 259 | initialize | 初始化 | `A initializes B.` | The app initializes the cache. | 应用初始化缓存。 |
-| 260 | instantiate | 实例化 | `A instantiates B.` | The code instantiates a new object. | 代码实例化一个新对象。 |
-| 261 | generate | 生成 | `A generates B.` | The tool generates a report. | 工具生成报告。 |
-| 262 | produce | 产生；生产 | `A produces B.` | The service produces events. | 服务产生事件。 |
-| 263 | consume | 消费；消耗 | `A consumes B.` | The worker consumes messages. | 工作线程消费消息。 |
-| 264 | publish | 发布 | `A publishes B to C.` | The service publishes events to Kafka. | 服务向 Kafka 发布事件。 |
-| 265 | subscribe | 订阅 | `A subscribes to B.` | The client subscribes to the topic. | 客户端订阅该主题。 |
-| 266 | trigger | 触发 | `A triggers B.` | The button triggers a request. | 按钮触发请求。 |
-| 267 | invoke | 调用 | `A invokes B.` | The handler invokes the service. | 处理器调用服务。 |
-| 268 | call | 调用；打电话 | `A calls B.` | The client calls the API. | 客户端调用接口。 |
-| 269 | queue | 排队 | `A queues B.` | The system queues requests. | 系统将请求排队。 |
-| 270 | dequeue | 出队 | `A dequeues B.` | The worker dequeues a message. | 工作线程取出一条消息。 |
-| 271 | parse | 解析 | `A parses B.` | The parser parses the JSON file. | 解析器解析 JSON 文件。 |
-| 272 | serialize | 序列化 | `A serializes B.` | The library serializes the object. | 库将对象序列化。 |
-| 273 | deserialize | 反序列化 | `A deserializes B.` | The server deserializes the request body. | 服务器反序列化请求体。 |
-| 274 | encode | 编码 | `A encodes B.` | The client encodes the URL. | 客户端编码 URL。 |
-| 275 | decode | 解码 | `A decodes B.` | The server decodes the token. | 服务器解码令牌。 |
-| 276 | encrypt | 加密 | `A encrypts B.` | The service encrypts sensitive data. | 服务加密敏感数据。 |
-| 277 | decrypt | 解密 | `A decrypts B.` | The app decrypts the message. | 应用解密消息。 |
-| 278 | hash | 哈希 | `A hashes B.` | The system hashes the password. | 系统对密码做哈希。 |
-| 279 | sign | 签名 | `A signs B.` | The client signs the request. | 客户端对请求签名。 |
-| 280 | authenticate | 认证 | `A authenticates B.` | The system authenticates the user. | 系统认证用户。 |
-| 281 | authorize | 授权 | `A authorizes B to do C.` | The admin authorized him to access the database. | 管理员授权他访问数据库。 |
-| 282 | sanitize | 净化；清理 | `A sanitizes B.` | Sanitize user input. | 清理用户输入。 |
-| 283 | filter | 过滤 | `A filters B.` | The query filters invalid records. | 查询过滤无效记录。 |
-| 284 | sort | 排序 | `A sorts B.` | The system sorts results by time. | 系统按时间排序结果。 |
-| 285 | search | 搜索 | `A searches B for C.` | The app searches the database for users. | 应用在数据库中搜索用户。 |
-| 286 | index | 索引 | `A indexes B.` | The engine indexes documents. | 引擎索引文档。 |
-| 287 | query | 查询 | `A queries B.` | The service queries the database. | 服务查询数据库。 |
-| 288 | fetch | 获取 | `A fetches B from C.` | The client fetches data from the API. | 客户端从接口获取数据。 |
-| 289 | insert | 插入 | `A inserts B into C.` | Insert the record into the table. | 把记录插入表中。 |
-| 290 | update | 更新 | `A updates B.` | The job updates user status. | 任务更新用户状态。 |
-| 291 | join | 连接；加入 | `A joins B with C.` | The query joins two tables. | 查询连接两个表。 |
-| 292 | merge | 合并 | `A merges B into C.` | Merge the branch into main. | 把分支合并到主干。 |
-| 293 | split | 拆分 | `A splits B into C.` | Split the file into smaller parts. | 把文件拆成更小的部分。 |
-| 294 | map | 映射 | `A maps B to C.` | The function maps IDs to names. | 函数把 ID 映射到名称。 |
-| 295 | reduce | 减少；归约 | `A reduces B.` | The cache reduces database load. | 缓存减少数据库负载。 |
-| 296 | aggregate | 聚合 | `A aggregates B.` | The report aggregates daily data. | 报告聚合每日数据。 |
-| 297 | normalize | 规范化 | `A normalizes B.` | Normalize the input before saving. | 保存前规范化输入。 |
-| 298 | transform | 转换 | `A transforms B into C.` | The job transforms raw data into reports. | 任务把原始数据转换成报告。 |
-| 299 | convert | 转换 | `A converts B into C.` | Convert the file into JSON. | 把文件转换为 JSON。 |
-| 300 | format | 格式化 | `A formats B.` | The tool formats the code. | 工具格式化代码。 |
-| 301 | compress | 压缩 | `A compresses B.` | Compress the log files. | 压缩日志文件。 |
-| 302 | decompress | 解压 | `A decompresses B.` | The script decompresses the archive. | 脚本解压归档文件。 |
-| 303 | upload | 上传 | `A uploads B to C.` | Upload the image to the bucket. | 把图片上传到桶。 |
-| 304 | download | 下载 | `A downloads B from C.` | Download the package from the mirror. | 从镜像站下载包。 |
-| 305 | sync | 同步 | `A syncs B with C.` | Sync local files with the server. | 同步本地文件和服务器。 |
-| 306 | replicate | 复制；同步副本 | `A replicates B to C.` | The database replicates data to replicas. | 数据库向副本复制数据。 |
-| 307 | cache | 缓存 | `A caches B.` | The browser caches static files. | 浏览器缓存静态文件。 |
-| 308 | flush | 刷新；清空 | `A flushes B.` | Flush the Redis cache. | 清空 Redis 缓存。 |
-| 309 | clear | 清除 | `A clears B.` | Clear the temporary files. | 清除临时文件。 |
-| 310 | reset | 重置 | `A resets B.` | Reset the password. | 重置密码。 |
-| 311 | restart | 重启 | `A restarts B.` | Restart the service. | 重启服务。 |
-| 312 | boot | 启动 | `A boots B.` | The system boots quickly. | 系统启动很快。 |
-| 313 | shutdown | 关闭 | `A shuts down B.` | Shut down the server safely. | 安全关闭服务器。 |
-| 314 | crash | 崩溃 | `A crashes.` | The service crashed at midnight. | 服务在午夜崩溃。 |
-| 315 | fail | 失败 | `A fails. / A fails to do B.` | The build failed. | 构建失败。 |
-| 316 | succeed | 成功 | `A succeeds. / A succeeds in doing B.` | The deployment succeeded. | 部署成功。 |
-| 317 | recover | 恢复 | `A recovers from B.` | The service recovered from the failure. | 服务从故障中恢复。 |
-| 318 | heal | 自愈；修复 | `A heals B.` | The platform heals failed instances. | 平台修复失败实例。 |
-| 319 | scale | 扩缩容 | `A scales B.` | Scale the service to ten instances. | 把服务扩容到十个实例。 |
-| 320 | balance | 平衡 | `A balances B.` | The load balancer balances traffic. | 负载均衡器平衡流量。 |
-| 321 | route | 路由 | `A routes B to C.` | The gateway routes requests to services. | 网关把请求路由到服务。 |
-| 322 | proxy | 代理 | `A proxies B to C.` | Nginx proxies traffic to the app. | Nginx 把流量代理到应用。 |
-| 323 | forward | 转发 | `A forwards B to C.` | The server forwards requests to the backend. | 服务器把请求转发给后端。 |
-| 324 | redirect | 重定向 | `A redirects B to C.` | The site redirects HTTP to HTTPS. | 网站把 HTTP 重定向到 HTTPS。 |
-| 325 | bind | 绑定 | `A binds B to C.` | Bind the port to localhost. | 把端口绑定到本机。 |
-| 326 | listen | 监听 | `A listens on B.` | The server listens on port 8080. | 服务器监听 8080 端口。 |
-| 327 | block | 阻止 | `A blocks B.` | The rule blocks unsafe requests. | 规则阻止不安全请求。 |
-| 328 | allow | 允许 | `A allows B to do C.` | The policy allows users to upload files. | 策略允许用户上传文件。 |
-| 329 | permit | 允许 | `A permits B.` | The license permits commercial use. | 许可证允许商业使用。 |
-| 330 | protect | 保护 | `A protects B from C.` | Encryption protects data from leakage. | 加密保护数据不泄露。 |
-| 331 | secure | 保护；使安全 | `A secures B.` | Use HTTPS to secure traffic. | 使用 HTTPS 保护流量。 |
-| 332 | expose | 暴露 | `A exposes B.` | The container exposes port 80. | 容器暴露 80 端口。 |
-| 333 | hide | 隐藏 | `A hides B.` | The UI hides advanced options. | 界面隐藏高级选项。 |
-| 334 | mask | 遮蔽；脱敏 | `A masks B.` | The system masks sensitive fields. | 系统对敏感字段脱敏。 |
-| 335 | log | 记录日志 | `A logs B.` | The service logs every request. | 服务记录每个请求。 |
-| 336 | trace | 追踪 | `A traces B.` | The tool traces slow requests. | 工具追踪慢请求。 |
-| 337 | debug | 调试 | `A debugs B.` | We debugged the payment issue. | 我们调试了支付问题。 |
-| 338 | investigate | 调查；排查 | `A investigates B.` | We investigated the timeout. | 我们排查了超时问题。 |
-| 339 | diagnose | 诊断 | `A diagnoses B.` | The tool diagnosed a DNS issue. | 工具诊断出 DNS 问题。 |
-| 340 | reproduce | 复现 | `A reproduces B.` | I reproduced the bug locally. | 我在本地复现了缺陷。 |
-| 341 | fix | 修复 | `A fixes B.` | The patch fixed the bug. | 补丁修复了缺陷。 |
-| 342 | repair | 修理 | `A repairs B.` | The script repaired the damaged file. | 脚本修复了损坏文件。 |
-| 343 | patch | 打补丁 | `A patches B.` | Patch the vulnerable library. | 给有漏洞的库打补丁。 |
-| 344 | mitigate | 缓解 | `A mitigates B.` | Rate limiting mitigates the attack. | 限流缓解攻击。 |
-| 345 | prevent | 防止 | `A prevents B from doing C.` | Validation prevents invalid input. | 校验防止无效输入。 |
-| 346 | avoid | 避免 | `A avoids B. / A avoids doing B.` | Avoid storing secrets in code. | 避免把密钥存进代码。 |
-| 347 | increase | 增加 | `A increases B.` | Caching increases response speed. | 缓存提高响应速度。 |
-| 348 | decrease | 减少 | `A decreases B.` | Compression decreases file size. | 压缩减小文件大小。 |
-| 349 | degrade | 降低；退化 | `A degrades B.` | Network issues degraded performance. | 网络问题降低了性能。 |
-| 350 | break | 破坏；中断 | `A breaks B.` | The change broke compatibility. | 这个改动破坏了兼容性。 |
-| 351 | damage | 损坏 | `A damages B.` | The failure damaged the data. | 故障损坏了数据。 |
-| 352 | corrupt | 损坏 | `A corrupts B.` | The crash corrupted the file. | 崩溃损坏了文件。 |
-| 353 | leak | 泄露 | `A leaks B.` | The bug leaked memory. | 这个缺陷导致内存泄漏。 |
-| 354 | exhaust | 耗尽 | `A exhausts B.` | The process exhausted memory. | 进程耗尽了内存。 |
-| 355 | reserve | 保留 | `A reserves B.` | The system reserves memory for the kernel. | 系统为内核保留内存。 |
-| 356 | lock | 锁定 | `A locks B.` | The transaction locks the row. | 事务锁定该行。 |
-| 357 | unlock | 解锁 | `A unlocks B.` | The process unlocks the file. | 进程解锁文件。 |
-| 358 | wait | 等待 | `A waits for B.` | The client waits for a response. | 客户端等待响应。 |
-| 359 | timeout | 超时 | `A times out.` | The request timed out. | 请求超时了。 |
-| 360 | retry | 重试 | `A retries B.` | The client retries the request. | 客户端重试请求。 |
-| 361 | skip | 跳过 | `A skips B.` | Skip invalid records. | 跳过无效记录。 |
-| 362 | ignore | 忽略 | `A ignores B.` | Do not ignore this warning. | 不要忽略这个警告。 |
-| 363 | cover | 覆盖 | `A covers B.` | The tests cover this scenario. | 测试覆盖这个场景。 |
-| 364 | mock | 模拟 | `A mocks B.` | The test mocks the database. | 测试模拟数据库。 |
-| 365 | stub | 打桩 | `A stubs B.` | The unit test stubs the external API. | 单元测试为外部接口打桩。 |
-| 366 | assert | 断言 | `A asserts that S.` | The test asserts that the result is valid. | 测试断言结果有效。 |
-| 367 | benchmark | 基准测试 | `A benchmarks B.` | We benchmarked the new implementation. | 我们对新实现做了基准测试。 |
-| 368 | profile | 性能分析 | `A profiles B.` | The tool profiles CPU usage. | 工具分析 CPU 使用。 |
-| 369 | audit | 审计 | `A audits B.` | The team audited the access logs. | 团队审计了访问日志。 |
-| 370 | scan | 扫描 | `A scans B for C.` | The scanner scans images for vulnerabilities. | 扫描器扫描镜像漏洞。 |
-| 371 | certify | 认证；证明 | `A certifies B.` | The authority certifies the certificate. | 机构认证证书。 |
-| 372 | comply | 遵守 | `A complies with B.` | The system complies with the policy. | 系统符合该策略。 |
-| 373 | violate | 违反 | `A violates B.` | The request violates the rule. | 请求违反了规则。 |
-| 374 | enforce | 强制执行 | `A enforces B.` | The gateway enforces authentication. | 网关强制认证。 |
-| 375 | bypass | 绕过 | `A bypasses B.` | The attacker bypassed the check. | 攻击者绕过了检查。 |
-| 376 | exploit | 利用 | `A exploits B.` | The attacker exploited a vulnerability. | 攻击者利用了漏洞。 |
-| 377 | attack | 攻击 | `A attacks B.` | Bots attacked the login endpoint. | 机器人攻击登录接口。 |
-| 378 | defend | 防御 | `A defends B against C.` | The firewall defends the system against attacks. | 防火墙保护系统免受攻击。 |
-| 379 | serve | 服务 | `A serves B.` | The platform serves enterprise customers. | 平台服务企业客户。 |
-| 380 | help | 帮助 | `A helps B do C.` | This tool helps us find bugs. | 这个工具帮助我们发现缺陷。 |
-| 381 | assist | 协助 | `A assists B with C.` | I assisted the team with testing. | 我协助团队测试。 |
-| 382 | guide | 指导 | `A guides B through C.` | The document guides users through setup. | 文档指导用户完成设置。 |
-| 383 | satisfy | 满足 | `A satisfies B.` | The feature satisfies user needs. | 功能满足用户需求。 |
-| 384 | attract | 吸引 | `A attracts B.` | Good content attracts users. | 优质内容吸引用户。 |
-| 385 | retain | 留住 | `A retains B.` | Good service retains customers. | 良好服务留住客户。 |
-| 386 | engage | 吸引参与 | `A engages B.` | The campaign engages new users. | 活动吸引新用户参与。 |
-| 387 | promote | 推广；促进 | `A promotes B.` | We promoted the new feature. | 我们推广了新功能。 |
-| 388 | market | 营销 | `A markets B to C.` | The company markets services to operators. | 公司向运营商营销服务。 |
-| 389 | advertise | 广告宣传 | `A advertises B.` | The brand advertised its new product. | 品牌宣传了新产品。 |
-| 390 | brand | 塑造品牌 | `A brands B as C.` | They branded the app as a super app. | 他们把应用塑造成超级应用。 |
-| 391 | position | 定位 | `A positions B as C.` | We positioned the product as a cloud portal. | 我们把产品定位为云门户。 |
-| 392 | differentiate | 区分；差异化 | `A differentiates B from C.` | This feature differentiates us from competitors. | 这个功能让我们区别于竞争对手。 |
-| 393 | compete | 竞争 | `A competes with B.` | The product competes with local platforms. | 产品与本地平台竞争。 |
-| 394 | cooperate | 合作 | `A cooperates with B.` | We cooperate with local partners. | 我们与本地伙伴合作。 |
-| 395 | partner | 合作 | `A partners with B.` | The company partnered with an operator. | 公司与运营商合作。 |
-| 396 | contract | 订约 | `A contracts with B.` | The vendor contracted with the operator. | 供应商与运营商签约。 |
-| 397 | purchase | 采购 | `A purchases B.` | The team purchased cloud resources. | 团队采购云资源。 |
-| 398 | renew | 续订 | `A renews B.` | The customer renewed the contract. | 客户续签了合同。 |
-| 399 | charge | 收费 | `A charges B for C.` | The platform charges users for storage. | 平台向用户收取存储费用。 |
-| 400 | bill | 计费 | `A bills B for C.` | The system bills customers monthly. | 系统按月向客户计费。 |
-| 401 | invoice | 开票 | `A invoices B.` | The vendor invoiced the customer. | 供应商给客户开票。 |
-| 402 | refund | 退款 | `A refunds B to C.` | The platform refunded the fee to the user. | 平台把费用退给用户。 |
-| 403 | invest | 投资 | `A invests B in C.` | The company invested money in AI. | 公司投资 AI。 |
-| 404 | fund | 资助 | `A funds B.` | The program funds new projects. | 该计划资助新项目。 |
-| 405 | finance | 融资；资助 | `A finances B.` | The bank financed the project. | 银行为项目融资。 |
-| 406 | budget | 预算 | `A budgets B for C.` | We budgeted more money for security. | 我们为安全预算了更多资金。 |
-| 407 | expand | 扩张 | `A expands B.` | The company expanded its market. | 公司扩大了市场。 |
-| 408 | enter | 进入 | `A enters B.` | The product entered a new market. | 产品进入新市场。 |
-| 409 | exit | 退出 | `A exits B.` | The company exited the market. | 公司退出了市场。 |
-| 410 | target | 瞄准 | `A targets B.` | The campaign targets young users. | 活动面向年轻用户。 |
-| 411 | segment | 细分 | `A segments B.` | We segmented customers by usage. | 我们按使用量细分客户。 |
-| 412 | survey | 调查 | `A surveys B.` | We surveyed enterprise users. | 我们调研了企业用户。 |
-| 413 | interview | 访谈 | `A interviews B.` | The team interviewed key customers. | 团队访谈了关键客户。 |
-| 414 | research | 研究 | `A researches B.` | We researched local regulations. | 我们研究了本地法规。 |
-| 415 | pilot | 试点 | `A pilots B.` | We piloted the service in one city. | 我们在一个城市试点服务。 |
-| 416 | move | 移动 | `A moves B to C.` | Move the file to the backup folder. | 把文件移动到备份目录。 |
-| 417 | push | 推送；推动 | `A pushes B to C.` | Push the commit to GitHub. | 把提交推送到 GitHub。 |
-| 418 | pull | 拉取 | `A pulls B from C.` | Pull the latest image. | 拉取最新镜像。 |
-| 419 | clone | 克隆 | `A clones B.` | Clone the repository. | 克隆仓库。 |
-| 420 | fork | 派生 | `A forks B.` | Fork the open-source project. | 派生这个开源项目。 |
-| 421 | branch | 创建分支 | `A branches from B.` | Create a branch from main. | 从主分支创建一个分支。 |
-| 422 | commit | 提交 | `A commits B.` | Commit the code changes. | 提交代码改动。 |
-| 423 | tag | 打标签 | `A tags B as C.` | Tag the release as v1.0. | 把发布标记为 v1.0。 |
-| 424 | checkout | 检出 | `A checks out B.` | Check out the feature branch. | 检出功能分支。 |
-| 425 | rebase | 变基 | `A rebases B onto C.` | Rebase your branch onto main. | 把你的分支变基到主分支。 |
-| 426 | cherry-pick | 挑选提交 | `A cherry-picks B.` | Cherry-pick the hotfix commit. | 挑选这个热修复提交。 |
-| 427 | watch | 观察；观看 | `A watches B.` | Watch the service metrics. | 观察服务指标。 |
-| 428 | hear | 听见 | `A hears B.` | I heard the alert. | 我听到了告警。 |
-| 429 | see | 看见；理解 | `A sees B. / A sees that S.` | I see the problem now. | 我现在明白问题了。 |
-| 430 | view | 查看 | `A views B.` | View the container logs. | 查看容器日志。 |
-| 431 | look for | 寻找 | `A looks for B.` | Look for errors in the logs. | 在日志中查找错误。 |
-| 432 | search for | 搜索 | `A searches for B.` | Search for the keyword. | 搜索关键词。 |
-| 433 | wait for | 等待 | `A waits for B.` | Wait for the build to finish. | 等待构建完成。 |
-| 434 | care about | 关心 | `A cares about B.` | Customers care about stability. | 客户关心稳定性。 |
-| 435 | depend on | 依赖 | `A depends on B.` | This feature depends on Redis. | 这个功能依赖 Redis。 |
-| 436 | rely on | 依靠 | `A relies on B.` | The app relies on the database. | 应用依赖数据库。 |
-| 437 | belong to | 属于 | `A belongs to B.` | This repository belongs to our team. | 这个仓库属于我们团队。 |
-| 438 | consist of | 由……组成 | `A consists of B.` | The system consists of three services. | 系统由三个服务组成。 |
-| 439 | refer to | 指的是；参考 | `A refers to B.` | This field refers to user ID. | 这个字段指用户 ID。 |
-| 440 | relate to | 与……相关 | `A relates to B.` | This error relates to authentication. | 这个错误与认证有关。 |
-| 441 | lead to | 导致 | `A leads to B.` | High latency leads to bad user experience. | 高延迟导致糟糕的用户体验。 |
-| 442 | result in | 导致 | `A results in B.` | Invalid input results in an error. | 无效输入导致错误。 |
-| 443 | come from | 来自 | `A comes from B.` | The problem comes from the network. | 问题来自网络。 |
-| 444 | come with | 附带 | `A comes with B.` | The SDK comes with examples. | SDK 附带示例。 |
-| 445 | deal with | 处理 | `A deals with B.` | We need to deal with this risk. | 我们需要处理这个风险。 |
-| 446 | work on | 从事；处理 | `A works on B.` | I am working on the bug. | 我正在处理这个缺陷。 |
-| 447 | work with | 与……合作 | `A works with B.` | We work with the QA team. | 我们与测试团队合作。 |
-| 448 | turn on | 打开 | `A turns on B.` | Turn on debug mode. | 打开调试模式。 |
-| 449 | turn off | 关闭 | `A turns off B.` | Turn off the old switch. | 关闭旧开关。 |
-| 450 | set up | 搭建；设置 | `A sets up B.` | Set up the local environment. | 搭建本地环境。 |
-| 451 | shut down | 关闭 | `A shuts down B.` | Shut down unused containers. | 关闭未使用的容器。 |
-| 452 | clean up | 清理 | `A cleans up B.` | Clean up temporary files. | 清理临时文件。 |
-| 453 | figure out | 弄清楚 | `A figures out B.` | We figured out the root cause. | 我们弄清楚了根因。 |
-| 454 | point out | 指出 | `A points out B.` | He pointed out a design flaw. | 他指出了一个设计缺陷。 |
-| 455 | bring up | 提出 | `A brings up B.` | She brought up a security concern. | 她提出了一个安全担忧。 |
-| 456 | look into | 调查 | `A looks into B.` | We will look into this issue. | 我们会调查这个问题。 |
-| 457 | carry out | 执行 | `A carries out B.` | Carry out the test plan. | 执行测试计划。 |
-| 458 | fill in | 填写 | `A fills in B.` | Fill in the required fields. | 填写必填字段。 |
-| 459 | log in | 登录 | `A logs in to B.` | The user logs in to the system. | 用户登录系统。 |
-| 460 | log out | 退出登录 | `A logs out of B.` | The user logged out of the portal. | 用户退出门户。 |
-| 461 | sign up | 注册 | `A signs up for B.` | Users sign up for the service. | 用户注册该服务。 |
-| 462 | give up | 放弃 | `A gives up B.` | Do not give up learning English. | 不要放弃学习英语。 |
-| 463 | change | 改变；更换 | `A changes B. / A changes.` | The plan changed after the meeting. | 会议后计划变了。 |
-| 464 | live | 生活；居住 | `A lives in B. / A lives.` | The service lives in this namespace. | 该服务位于这个命名空间中。 |
-| 465 | play | 玩；播放；扮演 | `A plays B. / A plays with B.` | This component plays a key role. | 这个组件起着关键作用。 |
-| 466 | eat | 吃；消耗 | `A eats B.` | This job eats a lot of memory. | 这个任务消耗大量内存。 |
-| 467 | drink | 喝 | `A drinks B.` | The old server drinks power. | 旧服务器很耗电。 |
-| 468 | sleep | 睡觉；休眠 | `A sleeps.` | The process sleeps for 5 seconds. | 进程休眠 5 秒。 |
-| 469 | stand | 站立；承受 | `A stands. / A stands for B.` | The system can stand high traffic. | 系统能承受高流量。 |
-| 470 | sit | 坐；位于 | `A sits in B. / A sits between B and C.` | The proxy sits between client and server. | 代理位于客户端和服务器之间。 |
-| 471 | walk | 走；遍历 | `A walks through B.` | Let's walk through the deployment steps. | 我们走一遍部署步骤。 |
-| 472 | remember | 记住 | `A remembers B. / A remembers to do B.` | Remember to update the config. | 记得更新配置。 |
-| 473 | forget | 忘记 | `A forgets B. / A forgets to do B.` | Don't forget to restart the service. | 不要忘记重启服务。 |
-| 474 | enjoy | 享受；喜欢 | `A enjoys B. / A enjoys doing B.` | Users enjoy the fast response. | 用户喜欢快速响应。 |
-| 475 | love | 爱；喜欢 | `A loves B. / A loves doing B.` | Developers love clean APIs. | 开发者喜欢干净的接口。 |
-| 476 | fall | 落下；下降 | `A falls. / A falls to C.` | The request rate fell sharply. | 请求量急剧下降。 |
-| 477 | rise | 上升；增加 | `A rises. / A rises to C.` | CPU usage rose to 95%. | CPU 使用率上升到 95%。 |
-| 478 | die | 死；停止 | `A dies.` | The process died unexpectedly. | 进程意外终止了。 |
-| 479 | drive | 驾驶；驱动 | `A drives B.` | User feedback drives the roadmap. | 用户反馈驱动产品路线图。 |
-| 480 | fly | 飞；快速移动 | `A flies. / A flies through B.` | The data flies through the pipeline. | 数据快速流经管道。 |
-| 481 | fill | 填满 | `A fills B with C.` | The script fills the database with test data. | 脚本用测试数据填充数据库。 |
-| 482 | drop | 掉落；下降 | `A drops B. / A drops.` | The connection dropped after the timeout. | 超时后连接断开了。 |
-| 483 | cut | 切；削减 | `A cuts B.` | We cut the response time by half. | 我们把响应时间减半。 |
-| 484 | face | 面对 | `A faces B.` | The team faces a tight deadline. | 团队面临紧张的截止时间。 |
-| 485 | raise | 举起；提高；提出 | `A raises B.` | She raised a valid concern. | 她提出了一个合理的担忧。 |
-| 486 | apply | 应用；申请 | `A applies B to C.` | Apply this patch to the server. | 把这个补丁应用到服务器。 |
-| 487 | replace | 替换 | `A replaces B with C.` | We replaced the old library with a new one. | 我们用新库替换了旧库。 |
-| 488 | focus | 专注 | `A focuses on B.` | The team focuses on stability. | 团队专注于稳定性。 |
-| 489 | ensure | 确保 | `A ensures B. / A ensures that S.` | This check ensures data integrity. | 这个检查确保数据完整性。 |
-| 490 | store | 存储 | `A stores B in C.` | The app stores tokens in memory. | 应用将令牌存在内存中。 |
-| 491 | trust | 信任 | `A trusts B. / A trusts B to do C.` | Don't trust user input without validation. | 不要信任未经校验的用户输入。 |
-| 492 | encourage | 鼓励 | `A encourages B to do C.` | We encourage code review. | 我们鼓励代码评审。 |
-| 493 | explore | 探索 | `A explores B.` | We explored several solutions. | 我们探索了几种方案。 |
-| 494 | wonder | 想知道；好奇 | `A wonders whether S. / A wonders about B.` | I wonder if the fix worked. | 我想知道修复是否生效了。 |
-| 495 | mind | 介意 | `A minds B. / A minds doing B.` | Do you mind reviewing this PR? | 你介意评审这个 PR 吗？ |
-| 496 | wear | 穿；磨损 | `A wears B.` | Heavy traffic wears the disk. | 高流量磨损磁盘。 |
-| 497 | collect | 收集 | `A collects B from C.` | The agent collects metrics every minute. | 代理每分钟收集指标。 |
-| 498 | do | 做；执行 | `A does B. / A does.` | The script does the heavy lifting. | 脚本承担了繁重的工作。 |
-| 499 | make | 做；使；制造 | `A makes B. / A makes B C.` | This change makes the system stable. | 这个改动让系统变得稳定。 |
-| 500 | put | 放；放置 | `A puts B in/on C.` | Put the config file in this directory. | 把配置文件放在这个目录下。 |
-| 501 | try | 尝试；试图 | `A tries B. / A tries to do B.` | Try a different approach. | 尝试另一种方法。 |
-| 502 | mean | 意思是；意味着 | `A means B. / A means that S.` | A 503 error means the service is down. | 503 错误意味着服务挂了。 |
-| 503 | let | 让；允许 | `A lets B do C.` | Let the pipeline finish before merging. | 等流水线完成再合并。 |
-| 504 | set | 设置；设定；放置 | `A sets B. / A sets B to C.` | Set the timeout to 30 seconds. | 把超时设为 30 秒。 |
-| 505 | kill | 杀死；终止 | `A kills B.` | Kill the stuck process. | 终止卡住的进程。 |
-| 506 | hit | 击中；达到；请求 | `A hits B.` | The cache hit rate reached 95%. | 缓存命中率达到 95%。 |
-| 507 | cause | 导致；引起 | `A causes B. / A causes B to do C.` | The bug caused data loss. | 这个缺陷导致了数据丢失。 |
-| 508 | force | 强制；强迫 | `A forces B to do C.` | Don't force push to main. | 不要强制推送到主分支。 |
-| 509 | form | 形成；构成 | `A forms B. / A forms.` | These three services form the core platform. | 这三个服务构成核心平台。 |
-| 510 | attend | 参加；出席 | `A attends B.` | I attended the sprint review. | 我参加了迭代评审会。 |
-| 511 | treat | 对待；处理 | `A treats B as C.` | Treat all input as untrusted. | 将所有输入视为不可信。 |
-| 512 | visit | 访问；拜访 | `A visits B.` | The crawler visits the homepage first. | 爬虫首先访问首页。 |
-| 513 | hang | 悬挂；挂起 | `A hangs. / A hangs B.` | The request hung until timeout. | 请求挂起直到超时。 |
-| 514 | cross | 穿过；交叉 | `A crosses B.` | The request crossed multiple data centers. | 请求跨越了多个数据中心。 |
-| 515 | touch | 触碰；涉及 | `A touches B.` | This PR touches three modules. | 这个 PR 涉及三个模块。 |
-| 516 | sing | 唱 | `A sings B. / A sings.` | The team sang his praises at the demo. | 团队在演示中对他赞不绝口。 |
-| 517 | submit | 提交 | `A submits B to C.` | Submit the PR for review. | 提交 PR 等待评审。 |
-| 518 | destroy | 销毁；破坏 | `A destroys B.` | Terraform destroyed the test environment. | Terraform 销毁了测试环境。 |
-| 519 | reflect | 反映；反思 | `A reflects B. / A reflects on B.` | The dashboard reflects real-time metrics. | 仪表盘反映实时指标。 |
-| 520 | render | 渲染；使成为 | `A renders B. / A renders B C.` | The browser renders the page in milliseconds. | 浏览器在毫秒内渲染页面。 |
-| 521 | arrive | 到达；抵达 | `A arrives. / A arrives at B.` | The response arrived within 200ms. | 响应在 200 毫秒内到达。 |
-| 522 | clean | 清理；清洁 | `A cleans B. / A cleans up B.` | Clean up unused dependencies. | 清理未使用的依赖。 |
-| 523 | climb | 爬；攀升 | `A climbs. / A climbs to B.` | The error rate climbed to 5%. | 错误率攀升到 5%。 |
-| 524 | cook | 烹饪；运行过热 | `A cooks B. / A cooks.` | Don't let the CPU cook at 100%. | 别让 CPU 烧到 100%。 |
-| 525 | count | 数；计数 | `A counts B.` | The middleware counts API requests. | 中间件统计 API 请求次数。 |
-| 526 | cry | 哭；叫 | `A cries. / A cries for B.` | Don't cry over a failed deploy. | 别为一次失败的部署懊恼。 |
-| 527 | dance | 跳舞 | `A dances.` | The microservices dance around each other. | 微服务互相配合运转。 |
-| 528 | draw | 画；绘制；得出 | `A draws B. / A draws B from C.` | Draw a conclusion from the metrics. | 从指标中得出结论。 |
-| 529 | dream | 梦想；做梦 | `A dreams of B.` | We dream of zero-downtime deploys. | 我们梦想零宕机部署。 |
-| 530 | feed | 喂；输入 | `A feeds B into C.` | Feed the log file into the analyzer. | 把日志文件输入分析器。 |
-| 531 | fight | 战斗；对抗 | `A fights B. / A fights against B.` | The team fights tech debt each sprint. | 团队每个迭代对抗技术债。 |
-| 532 | forgive | 原谅 | `A forgives B for doing C.` | Forgive the late reply. | 请见谅回复晚了。 |
-| 533 | freeze | 冻结；凝固 | `A freezes. / A freezes B.` | The UI froze after the API call. | API 调用后界面冻结了。 |
-| 534 | hurt | 伤害；损害 | `A hurts B. / A hurts.` | Hasty refactors hurt the architecture. | 仓促的重构损害架构。 |
-| 535 | imagine | 想象；设想 | `A imagines B. / A imagines that S.` | Imagine the system under peak load. | 想象系统在峰值负载下的情况。 |
-| 536 | laugh | 笑 | `A laughs. / A laughs at B.` | Don't laugh at legacy code — it pays the bills. | 别嘲笑遗留代码，是它在养家。 |
-| 537 | lie | 躺；位于 | `A lies in B.` | The real problem lies in the data layer. | 真正的问题在数据层。 |
-| 538 | rain | 下雨；如雨般落下 | `It rains B.` | It rains alerts during Black Friday. | 黑五期间告警如雨下。 |
-| 539 | ride | 骑；乘；经受 | `A rides B. / A rides out B.` | The service rode out the traffic spike. | 服务扛过了流量高峰。 |
-| 540 | ring | 响铃；打电话 | `A rings. / A rings B.` | The alert rings at 3 AM. | 告警在凌晨 3 点响起。 |
-| 541 | shake | 摇晃；震动 | `A shakes B. / A shakes.` | The outage shook the team's confidence. | 这次故障动摇了团队的信心。 |
-| 542 | shoot | 射击；快速发送 | `A shoots B to C.` | Shoot me a message on Slack. | 在 Slack 上给我发个消息。 |
-| 543 | shout | 喊叫；大声说 | `A shouts. / A shouts about B.` | The error logs are shouting at us. | 错误日志在对我们喊叫。 |
-| 544 | smell | 闻；察觉 | `A smells B. / A smells of B.` | This approach smells of over-engineering. | 这个方案有过度设计的味道。 |
-| 545 | smile | 微笑 | `A smiles. / A smiles at B.` | The client smiled at the demo. | 客户看到演示笑了。 |
-| 546 | spell | 拼写；意味着 | `A spells B. / A spells out B.` | A missing semicolon spells trouble. | 遗漏一个分号意味着麻烦。 |
-| 547 | steal | 偷；窃取 | `A steals B from C.` | An attacker stole session tokens. | 攻击者窃取了会话令牌。 |
-| 548 | study | 学习；研究 | `A studies B.` | We studied the root cause for hours. | 我们研究了数小时根因。 |
-| 549 | swim | 游泳 | `A swims. / A swims through B.` | The team swam through a sea of bugs. | 团队在缺陷海洋中挣扎前行。 |
-| 550 | travel | 旅行；传播 | `A travels. / A travels through B.` | Data travels through three proxies. | 数据经过三层代理传输。 |
-| 551 | wake | 醒来；唤醒 | `A wakes. / A wakes B up.` | The on-call woke up to 50 alerts. | 值班被 50 条告警叫醒。 |
-| 552 | worry | 担心 | `A worries about B. / A worries that S.` | Don't worry about the traffic spike, it's expected. | 别担心流量峰值，这是预期的。 |
-| 553 | repeat | 重复；重做 | `A repeats B. / A repeats.` | The bug repeats on every cold start. | 这个缺陷在每次冷启动时重现。 |
-| 554 | argue | 争论；论证 | `A argues that S. / A argues for B.` | She argued for a simpler architecture. | 她论证了更简单的架构。 |
-| 555 | blame | 责备；归咎于 | `A blames B for C.` | Don't blame the tool — check the config first. | 别怪工具，先检查配置。 |
-| 556 | interrupt | 打断；中断 | `A interrupts B. / A interrupts.` | The signal interrupted the graceful shutdown. | 信号中断了优雅关闭。 |
-| 557 | welcome | 欢迎 | `A welcomes B.` | We welcome contributions to the project. | 我们欢迎对项目的贡献。 |
-| 558 | greet | 问候；迎接 | `A greets B with C.` | The API greets new users with a welcome email. | API 用欢迎邮件迎接新用户。 |
-| 559 | insist | 坚持；强调 | `A insists on B. / A insists that S.` | The lead insisted on writing tests first. | 负责人坚持先写测试。 |
-| 560 | suspect | 怀疑；觉得 | `A suspects B. / A suspects that S.` | I suspect a memory leak in the new build. | 我怀疑新构建有内存泄漏。 |
-| 561 | recall | 回忆；回想 | `A recalls B. / A recalls that S.` | I can't recall the exact error message. | 我记不清确切的错误信息了。 |
-| 562 | dare | 敢；敢于 | `A dares to do B.` | Few developers dare to touch that legacy module. | 没几个开发者敢碰那个遗留模块。 |
-| 563 | obtain | 获得；获取 | `A obtains B from C.` | Obtain an API key from the dashboard. | 从仪表盘获取 API 密钥。 |
-| 564 | establish | 建立；设立 | `A establishes B.` | The client establishes a TLS connection first. | 客户端首先建立 TLS 连接。 |
-| 565 | contribute | 贡献；有助于 | `A contributes to B.` | Heavy logging contributed to the slowdown. | 大量日志导致了变慢。 |
-| 566 | conduct | 进行；实施 | `A conducts B.` | We conducted a post-mortem after the outage. | 故障后我们进行了复盘。 |
-| 567 | seek | 寻找；寻求 | `A seeks B. / A seeks to do B.` | We're seeking a simpler solution. | 我们正在寻找更简单的方案。 |
-| 568 | attempt | 尝试；企图 | `A attempts B. / A attempts to do B.` | The server attempts to reconnect every 5 seconds. | 服务器每 5 秒尝试重连一次。 |
-| 569 | adopt | 采纳；采用 | `A adopts B.` | The team adopted a new branching strategy. | 团队采用了新的分支策略。 |
-| 570 | concern | 涉及；担忧 | `A concerns B. / A is concerned about B.` | This change concerns the authentication layer. | 这个改动涉及认证层。 |
-| 571 | participate | 参与；参加 | `A participates in B.` | Everyone participates in the daily stand-up. | 每个人都参与每日站会。 |
-| 572 | overcome | 克服；战胜 | `A overcomes B.` | We overcame the rate limit with batching. | 我们用批量处理克服了速率限制。 |
-| 573 | suffer | 遭受；受苦 | `A suffers from B.` | The service suffers from high latency at peak. | 服务在高峰期遭受高延迟。 |
-| 574 | separate | 分离；分开 | `A separates B from C.` | Separate the config from the code. | 把配置和代码分离。 |
-| 575 | eliminate | 消除；淘汰 | `A eliminates B.` | Caching eliminated the bottleneck entirely. | 缓存彻底消除了瓶颈。 |
-| 576 | distribute | 分发；分配 | `A distributes B to C.` | The CDN distributes content to edge nodes globally. | CDN 向全球边缘节点分发内容。 |
-| 577 | adapt | 适应；改编 | `A adapts to B. / A adapts B.` | The system adapts to changing traffic patterns. | 系统适应不断变化的流量模式。 |
-| 578 | adjust | 调整；适应 | `A adjusts B.` | Adjust the heap size to reduce GC pauses. | 调整堆大小以减少 GC 暂停。 |
-| 579 | manufacture | 制造；生产 | `A manufactures B.` | The factory manufactures custom server racks. | 工厂制造定制服务器机架。 |
-| 580 | register | 注册；登记 | `A registers B. / A registers for B.` | The service registers itself with the gateway. | 服务向网关注册自己。 |
-| 581 | represent | 代表；表示 | `A represents B.` | Each node in the graph represents a server instance. | 图中每个节点代表一个服务器实例。 |
-| 582 | express | 表达；表示 | `A expresses B.` | The log format expresses events in structured JSON. | 日志格式用结构化 JSON 表达事件。 |
-| 583 | control | 控制；管理 | `A controls B.` | This feature flag controls the rollout. | 这个功能标志控制灰度发布。 |
-| 584 | involve | 涉及；包含 | `A involves B. / A involves doing B.` | The fix involves updating three microservices. | 这个修复涉及更新三个微服务。 |
-| 585 | survive | 幸存；存活 | `A survives B. / A survives.` | The system survived the DDoS attack. | 系统在 DDoS 攻击中存活下来。 |
-| 586 | struggle | 挣扎；奋斗 | `A struggles with B. / A struggles to do B.` | The team struggled with flaky integration tests. | 团队与不稳定的集成测试作斗争。 |
-| 587 | wash | 洗；清洗 | `A washes B.` | The CI pipeline washes stale build artifacts. | CI 流水线清洗过期的构建产物。 |
-| 588 | park | 停放；搁置 | `A parks B in C.` | Park this task in the backlog for now. | 先把这任务搁在待办列表里。 |
-| 589 | pack | 打包；包装 | `A packs B into C.` | Webpack packs all modules into a single bundle. | Webpack 把所有模块打包成一个 bundle。 |
-| 590 | rest | 休息 | `A rests. / A rests on B.` | Let the server rest between stress tests. | 压力测试之间让服务器休息一下。 |
-| 591 | hate | 讨厌；恨 | `A hates B. / A hates doing B.` | Developers hate flaky tests. | 开发者讨厌不稳定的测试。 |
-| 592 | surprise | 使吃惊；惊讶 | `A surprises B. / A is surprised by B.` | Don't be surprised if the deploy fails on a Friday. | 如果周五部署失败了，别惊讶。 |
-| 593 | taste | 品尝；体验 | `A tastes B. / A has a taste of B.` | The new hire got a taste of on-call life. | 新人体验了值班的滋味。 |
-| 594 | burn | 燃烧；烧毁；耗尽 | `A burns B. / A burns out.` | Don't burn yourself out before the launch. | 别在发布前把自己累垮。 |
-| 595 | blow | 吹；爆炸 | `A blows B. / A blows up.` | A typo in the config blew up the pipeline. | 配置里的一个拼写错误炸掉了流水线。 |
-| 596 | dig | 挖；深入 | `A digs into B. / A digs B.` | Dig into the logs to find the root cause. | 深入日志找到根本原因。 |
-| 597 | bite | 咬；反噬 | `A bites B. / A bites back.` | Tech debt always bites back at the worst time. | 技术债总在最糟的时候反咬一口。 |
-| 598 | jump | 跳；快速跳转 | `A jumps. / A jumps to B.` | The latency jumped from 50ms to 500ms. | 延迟从 50ms 跳到了 500ms。 |
-| 599 | kick | 踢；启动 | `A kicks B. / A kicks off B.` | The cron job kicks off every hour. | 定时任务每小时启动一次。 |
-| 600 | knock | 敲；击倒 | `A knocks B. / A knocks B out.` | A bad config knocked the service offline. | 一个错误配置把服务打下线了。 |
-| 601 | dive | 潜水；深入 | `A dives into B.` | Let's dive into the source code. | 让我们深入源代码看看。 |
-| 602 | acknowledge | 确认收到；承认 | `A acknowledges B. / A acknowledges that S.` | The server acknowledges every request with an ACK. | 服务器用 ACK 确认每个请求。 |
-| 603 | address | 处理；解决；向...讲话 | `A addresses B.` | The patch addresses three security issues. | 这个补丁解决了三个安全问题。 |
-| 604 | advocate | 倡导；主张 | `A advocates B. / A advocates for B.` | She advocates for test-driven development. | 她倡导测试驱动开发。 |
-| 605 | cite | 引用；举例 | `A cites B.` | The report cited three major outages last quarter. | 报告引用了上季度三次重大故障。 |
-| 606 | comment | 评论；发表意见 | `A comments on B. / A comments that S.` | Please comment on the PR before merging. | 合并前请对 PR 发表意见。 |
-| 607 | compose | 撰写；组成 | `A composes B.` | The developer composes a detailed commit message. | 开发者撰写详细的提交信息。 |
-| 608 | draft | 起草；草拟 | `A drafts B.` | Draft the API spec before coding. | 编码前先起草 API 规范。 |
-| 609 | edit | 编辑；修改 | `A edits B.` | Edit the config file to change the timeout. | 编辑配置文件修改超时时间。 |
-| 610 | emphasize | 强调；着重 | `A emphasizes B. / A emphasizes that S.` | The post-mortem emphasized the need for better monitoring. | 复盘强调了加强监控的必要性。 |
-| 611 | illustrate | 说明；举例说明 | `A illustrates B. / A illustrates how S.` | The diagram illustrates the data flow. | 这张图说明了数据流转。 |
-| 612 | imply | 暗示；意味着 | `A implies B. / A implies that S.` | A 500 error implies the server crashed. | 500 错误意味着服务器崩溃了。 |
-| 613 | indicate | 表明；显示；指示 | `A indicates B. / A indicates that S.` | The logs indicate a memory leak. | 日志表明存在内存泄漏。 |
-| 614 | note | 注意；记录；指出 | `A notes B. / A notes that S.` | Note that the API key expires in 30 days. | 注意 API 密钥 30 天后过期。 |
-| 615 | outline | 概述；勾画轮廓 | `A outlines B.` | The RFC outlines the new architecture. | RFC 概述了新架构。 |
-| 616 | specify | 指定；明确说明 | `A specifies B.` | Specify the port number in the config file. | 在配置文件中指定端口号。 |
-| 617 | acquire | 获得；收购 | `A acquires B.` | The service acquires a lock before writing. | 服务在写入前先获取锁。 |
-| 618 | appreciate | 感激；欣赏；理解 | `A appreciates B.` | I appreciate the detailed code review. | 感谢细致的代码评审。 |
-| 619 | assure | 确保；使确信 | `A assures B. / A assures that S.` | The health check assures the service is alive. | 健康检查确保服务是活的。 |
-| 620 | benefit | 受益；得益于 | `A benefits from B.` | The team benefits from pair programming. | 团队从结队编程中受益。 |
-| 621 | challenge | 挑战；质疑 | `A challenges B.` | The edge case challenged our assumptions. | 这个边界情况挑战了我们的假设。 |
-| 622 | consult | 咨询；查阅 | `A consults B.` | Consult the docs before opening an issue. | 提 issue 前先查阅文档。 |
-| 623 | encounter | 遇到；遭遇 | `A encounters B.` | We encountered a race condition in production. | 我们在生产环境遇到了竞态条件。 |
-| 624 | exceed | 超过；超出 | `A exceeds B.` | The request rate exceeded the rate limit. | 请求速率超过了限流阈值。 |
-| 625 | extract | 提取；抽取 | `A extracts B from C.` | Extract the shared logic into a utility module. | 把共享逻辑提取到工具模块。 |
-| 626 | grant | 授予；准予 | `A grants B to C.` | Grant read-only access to the auditor. | 授予审计员只读权限。 |
-| 627 | guarantee | 保证；担保 | `A guarantees B. / A guarantees that S.` | A mutex guarantees exclusive access. | 互斥锁保证独占访问。 |
-| 628 | influence | 影响；左右 | `A influences B.` | User feedback directly influences the roadmap. | 用户反馈直接影响产品路线图。 |
-| 629 | lack | 缺乏；缺少 | `A lacks B.` | The legacy system lacks proper error handling. | 遗留系统缺乏恰当的错误处理。 |
-| 630 | modify | 修改；变更 | `A modifies B.` | The script modifies the database schema. | 脚本修改数据库模式。 |
-| 631 | motivate | 激励；驱使 | `A motivates B to do C.` | The outage motivated us to improve monitoring. | 那次故障促使我们改进监控。 |
-| 632 | pose | 提出；造成 | `A poses B.` | Unvalidated input poses a security risk. | 未校验的输入构成安全风险。 |
-| 633 | prompt | 提示；促使 | `A prompts B to do C.` | The error prompted us to re-examine the logic. | 这个错误促使我们重新检查逻辑。 |
-| 634 | pursue | 追求；从事 | `A pursues B.` | We're pursuing a microservices migration. | 我们在推动微服务迁移。 |
-| 635 | react | 反应；回应 | `A reacts to B.` | The circuit breaker reacts to consecutive failures. | 断路器对连续失败做出反应。 |
-| 636 | restrict | 限制；约束 | `A restricts B to C.` | Restrict API access to internal IPs only. | 将 API 访问限制为内网 IP。 |
-| 637 | reverse | 逆转；反转 | `A reverses B.` | The rollback reversed the breaking change. | 回滚逆转了那个破坏性变更。 |
-| 638 | shift | 转移；转变 | `A shifts B to C.` | We shifted traffic to the backup cluster. | 我们把流量转移到备用集群。 |
-| 639 | tackle | 处理；解决 | `A tackles B.` | The sprint tackled three performance issues. | 这个迭代处理了三个性能问题。 |
-| 640 | tend | 倾向于；照顾 | `A tends to do B.` | Microservices tend to increase operational complexity. | 微服务倾向于增加运维复杂度。 |
-| 641 | withdraw | 撤回；提取 | `A withdraws B.` | The team withdrew the deprecated endpoint. | 团队撤回了已弃用的端点。 |
-| 642 | utilize | 使用；利用 | `A utilizes B.` | The cache utilizes Redis for in-memory storage. | 缓存利用 Redis 做内存存储。 |
-| 643 | compensate | 补偿；弥补 | `A compensates for B.` | Retries compensate for transient network failures. | 重试弥补瞬时网络故障。 |
-| 644 | constitute | 构成；组成 | `A constitutes B.` | Three services constitute the core platform. | 三个服务构成核心平台。 |
-| 645 | dictate | 决定；支配 | `A dictates B.` | The SLA dictates the uptime requirements. | SLA 决定了正常运行时间要求。 |
-| 646 | differ | 不同；有区别 | `A differs from B.` | Production behavior often differs from staging. | 生产环境行为常与预发布环境不同。 |
-| 647 | direct | 指导；引导 | `A directs B to C.` | The load balancer directs traffic to healthy nodes. | 负载均衡器将流量导向健康节点。 |
-| 648 | dominate | 主导；支配 | `A dominates B.` | One slow query dominated the CPU profile. | 一个慢查询主导了 CPU 分析。 |
-| 649 | echo | 附和；回响 | `A echoes B.` | The team echoed the CTO's call for simpler systems. | 团队附和 CTO 对更简单系统的呼吁。 |
-| 650 | employ | 使用；雇用 | `A employs B.` | The system employs a pub-sub pattern. | 系统采用了发布-订阅模式。 |
-| 651 | exercise | 行使；运用 | `A exercises B.` | The tests exercise every code path. | 测试覆盖了每条代码路径。 |
-| 652 | facilitate | 促进；推动 | `A facilitates B.` | The API gateway facilitates service discovery. | API 网关促进了服务发现。 |
-| 653 | found | 创立；建立 | `A founds B.` | The team founded the project on solid principles. | 团队把项目建立在坚实的原则之上。 |
-| 654 | frame | 设计；表述 | `A frames B as C.` | Frame the proposal in terms of business value. | 从业务价值的角度表述这个提案。 |
-| 655 | govern | 治理；决定 | `A governs B.` | The IAM policy governs who can access the bucket. | IAM 策略治理谁能访问存储桶。 |
-| 656 | impose | 强加；施加 | `A imposes B on C.` | Rate limiting imposes a cap on API calls. | 限流对 API 调用施加了上限。 |
-| 657 | interpret | 解释；解读 | `A interprets B as C.` | The parser interprets JSON into a data structure. | 解析器将 JSON 解读为数据结构。 |
-| 658 | intervene | 干预；介入 | `A intervenes. / A intervenes in B.` | The on-call intervened when the alert fired. | 告警触发时值班介入了。 |
-| 659 | justify | 证明...合理 | `A justifies B.` | The performance gain justifies the added complexity. | 性能提升证明了增加复杂度的合理性。 |
-| 660 | mount | 安装；挂载；增加 | `A mounts B.` | Mount the persistent volume before starting the pod. | 启动 pod 前挂载持久卷。 |
-| 661 | perceive | 感知；认为 | `A perceives B as C.` | Users perceive latency above 200ms as slow. | 用户将 200ms 以上的延迟感知为慢。 |
-| 662 | persist | 坚持；持续存在 | `A persists. / A persists in B.` | The connection pool persists across requests. | 连接池在请求间持续存在。 |
-| 663 | preserve | 保留；维护 | `A preserves B.` | Preserve the original error context when re-throwing. | 重新抛出时保留原始错误上下文。 |
-| 664 | proceed | 继续；进行 | `A proceeds with B. / A proceeds to do B.` | The pipeline proceeds to the deploy stage. | 流水线进入部署阶段。 |
-| 665 | reckon | 认为；估计 | `A reckons that S. / A reckons B.` | I reckon the fix will take two hours. | 我估计这个修复要花两小时。 |
-| 666 | regard | 认为；看待 | `A regards B as C.` | We regard code review as essential, not optional. | 我们认为代码评审是必需的，不是可选的。 |
-| 667 | reinforce | 加强；强化 | `A reinforces B.` | The incident reinforced the importance of testing. | 这次事故强化了测试的重要性。 |
-| 668 | resist | 抵抗；抵制 | `A resists B.` | The team resisted the urge to rewrite from scratch. | 团队抵制了从零重写的冲动。 |
-| 669 | reward | 奖励；回报 | `A rewards B with C.` | Clean interfaces reward you with easier maintenance. | 清晰的接口用更易维护来回报你。 |
-| 670 | seize | 抓住；把握 | `A seizes B.` | Seize the opportunity to refactor during the migration. | 趁迁移之机把握重构的机会。 |
-| 671 | settle | 解决；定居 | `A settles B. / A settles on B.` | The team settled on a hybrid approach. | 团队最终确定了混合方案。 |
-| 672 | strengthen | 加强；强化 | `A strengthens B.` | Type checking strengthens the codebase against bugs. | 类型检查强化代码库以抵御缺陷。 |
-| 673 | strive | 努力；奋斗 | `A strives to do B. / A strives for B.` | We strive for 99.9% uptime. | 我们努力达成 99.9% 的正常运行时间。 |
-| 674 | supervise | 监督；管理 | `A supervises B.` | The orchestrator supervises all running containers. | 编排器管理所有运行中的容器。 |
-| 675 | suspend | 暂停；中止 | `A suspends B.` | The OS suspended the process due to OOM. | 操作系统因内存不足中止了进程。 |
-| 676 | terminate | 终止；结束 | `A terminates B.` | The load balancer terminates idle connections. | 负载均衡器终止空闲连接。 |
-| 677 | tolerate | 容忍；忍受 | `A tolerates B.` | The system tolerates up to two node failures. | 系统容忍最多两个节点故障。 |
-| 678 | undergo | 经历；经受 | `A undergoes B.` | The database undergoes a major version upgrade. | 数据库经历了一次主版本升级。 |
-| 679 | undermine | 削弱；破坏 | `A undermines B.` | Skipping tests undermines the team's confidence. | 跳过测试削弱团队的信心。 |
-| 680 | undertake | 承担；从事 | `A undertakes B.` | The team undertook a major refactoring effort. | 团队承担了一次重大重构工作。 |
-| 681 | voice | 表达；说出 | `A voices B.` | She voiced her concerns about the timeline. | 她表达了对时间表的担忧。 |
-| 682 | volunteer | 自愿；主动 | `A volunteers to do B.` | One developer volunteered to lead the migration. | 一位开发者主动请缨主导迁移。 |
-| 683 | withstand | 承受；经受住 | `A withstands B.` | The system withstood the Black Friday traffic spike. | 系统经受住了黑五流量高峰。 |
-| 684 | witness | 见证；目击 | `A witnesses B.` | We witnessed a 10x traffic increase after launch. | 发布后我们见证了 10 倍流量增长。 |
-| 685 | behave | 行为；表现 | `A behaves. / A behaves like B.` | The service behaves differently under load. | 服务在负载下表现不同。 |
-| 686 | drag | 拖；拽 | `A drags B.` | The slow query dragged down the entire page. | 慢查询拖慢了整个页面。 |
-| 687 | explode | 爆炸；激增 | `A explodes. / A explodes to B.` | The error count exploded after the deploy. | 部署后错误数激增。 |
-| 688 | scream | 尖叫 | `A screams. / A screams for B.` | The CPU fan screams during a full build. | 全量构建时 CPU 风扇尖啸。 |
-| 689 | weigh | 称重；权衡 | `A weighs B against C.` | Weigh the cost of refactoring against the benefits. | 权衡重构的成本与收益。 |
-| 690 | tear | 撕裂；撕破 | `A tears B. / A tears B down.` | Tear down the test environment after validation. | 验证后拆除测试环境。 |
-| 691 | belong | 属于 | `A belongs to B.` | This config belongs in the environment variables. | 这个配置属于环境变量。 |
-| 692 | anticipate | 预期；预料 | `A anticipates B. / A anticipates that S.` | We anticipate a traffic spike during the event. | 我们预期活动期间会有流量高峰。 |
-| 693 | classify | 分类；归类 | `A classifies B as C.` | The firewall classifies traffic as trusted or untrusted. | 防火墙将流量归类为可信或不可信。 |
-| 694 | collapse | 崩溃；倒塌 | `A collapses. / A collapses into B.` | The monolith collapsed under heavy load. | 单体在重负载下崩溃了。 |
-| 695 | command | 命令；指挥 | `A commands B to do C.` | The CLI tool commands the daemon to restart. | CLI 工具命令守护进程重启。 |
-| 696 | confront | 面对；对抗 | `A confronts B.` | The team confronted years of accumulated tech debt. | 团队面对多年累积的技术债。 |
-| 697 | cope | 应对；处理 | `A copes with B.` | The thread pool helps the server cope with bursts. | 线程池帮助服务器应对突发流量。 |
-| 698 | decline | 下降；拒绝 | `A declines. / A declines B.` | The request rate declined after the cache warmed up. | 缓存预热后请求速率下降了。 |
-| 699 | desire | 渴望；想要 | `A desires B. / A desires to do B.` | Every developer desires a fast CI pipeline. | 每个开发者都渴望快速的 CI 流水线。 |
-| 700 | dismiss | 驳回；解雇 | `A dismisses B.` | Don't dismiss the edge case — it will bite you. | 别忽略那个边界情况，它迟早会咬你。 |
-| 701 | display | 显示；展示 | `A displays B.` | The dashboard displays real-time latency metrics. | 仪表盘显示实时延迟指标。 |
-| 702 | disturb | 打扰；干扰 | `A disturbs B.` | Don't disturb the deploy with concurrent config changes. | 别在部署时用并发配置变更干扰它。 |
-| 703 | emerge | 出现；浮现 | `A emerges. / A emerges from B.` | A pattern emerged from the incident data. | 故障数据中浮现出一个模式。 |
-| 704 | escape | 逃脱；避免 | `A escapes B. / A escapes.` | The null value escaped validation and crashed the server. | 空值逃过了校验，导致服务器崩溃。 |
-| 705 | evolve | 演变；进化 | `A evolves. / A evolves into B.` | The architecture evolved from monolith to microservices. | 架构从单体演变为微服务。 |
-| 706 | fade | 消退；褪色 | `A fades. / A fades away.` | The alert storm faded after the incident resolved. | 故障解决后告警风暴消退了。 |
-| 707 | fulfill | 满足；完成 | `A fulfills B.` | The API response fulfills the GraphQL query. | API 响应满足了 GraphQL 查询。 |
-| 708 | grasp | 理解；抓住 | `A grasps B.` | New hires quickly grasped the deployment flow. | 新人很快掌握了部署流程。 |
-| 709 | hesitate | 犹豫 | `A hesitates to do B.` | Don't hesitate to escalate when the site is down. | 网站挂了就不要犹豫，立即升级。 |
-| 710 | inspire | 激励；启发 | `A inspires B to do C.` | The outage inspired a complete monitoring overhaul. | 那次故障启发了一次彻底的监控改造。 |
-| 711 | interfere | 干涉；干扰 | `A interferes with B.` | Background tasks should not interfere with user requests. | 后台任务不应干扰用户请求。 |
-| 712 | match | 匹配；相符 | `A matches B.` | The test output must match the expected snapshot. | 测试输出必须匹配预期快照。 |
-| 713 | neglect | 忽视；忽略 | `A neglects B.` | Neglecting error handling leads to silent failures. | 忽视错误处理会导致静默失败。 |
-| 714 | object | 反对 | `A objects to B.` | The reviewer objected to the tight coupling. | 评审者反对这种紧耦合。 |
-| 715 | pretend | 假装 | `A pretends to do B. / A pretends that S.` | Don't pretend the bug doesn't exist. | 别假装这个缺陷不存在。 |
-| 716 | question | 质疑；询问 | `A questions B.` | The auditor questioned the access control design. | 审计员质疑了访问控制设计。 |
-| 717 | rely | 依赖；依靠 | `A relies on B.` | The feature relies on a third-party API. | 这个功能依赖第三方 API。 |
-| 718 | sacrifice | 牺牲 | `A sacrifices B for C.` | We sacrificed some latency for stronger consistency. | 我们牺牲了一些延迟以换取更强的一致性。 |
-| 719 | scatter | 分散；散开 | `A scatters B across C.` | The log files scattered across three different servers. | 日志文件分散在三台不同的服务器上。 |
-| 720 | surround | 包围；围绕 | `A surrounds B.` | The debate surrounded the choice of database. | 讨论围绕着数据库的选择。 |
-| 721 | threaten | 威胁；危及 | `A threatens B.` | The memory leak threatened the system's stability. | 内存泄漏威胁到系统的稳定性。 |
-| 722 | upset | 打乱；使不安 | `A upsets B.` | A late requirement change upset the sprint plan. | 迟来的需求变更打乱了迭代计划。 |
-| 723 | abandon | 放弃；抛弃 | `A abandons B.` | We abandoned the old pipeline in favor of GitHub Actions. | 我们放弃了旧的流水线，改用 GitHub Actions。 |
-| 724 | arise | 出现；产生 | `A arises. / A arises from B.` | Problems always arise during integration testing. | 集成测试阶段总会出现问题。 |
-| 725 | bear | 承受；忍受 | `A bears B.` | The index bears the load of heavy read traffic. | 索引承受着大量读流量的负载。 |
-| 726 | capture | 捕获；捕捉 | `A captures B.` | The SDK captures all unhandled exceptions. | SDK 捕获所有未处理的异常。 |
-| 727 | fear | 害怕；担心 | `A fears B. / A fears that S.` | The team feared a data loss incident. | 团队担心数据丢失事件。 |
-| 728 | gather | 收集；聚集 | `A gathers B.` | The monitoring agent gathers metrics every minute. | 监控代理每分钟收集指标。 |
-| 729 | harm | 伤害；损害 | `A harms B.` | Hard-coded credentials harm the security posture. | 硬编码凭据损害安全态势。 |
-| 730 | highlight | 突出；强调 | `A highlights B.` | The error log highlights the exact line of failure. | 错误日志高亮了确切的失败行。 |
-| 731 | isolate | 隔离；孤立 | `A isolates B from C.` | Docker isolates the application from the host OS. | Docker 将应用与宿主机操作系统隔离开。 |
-| 732 | land | 着陆；获得；落地 | `A lands B. / A lands.` | The PR finally landed on main after three reviews. | PR 经过三次评审后终于合入主分支。 |
-| 733 | risk | 冒险；冒...的风险 | `A risks B. / A risks doing B.` | Deploying on Friday risks ruining the weekend. | 周五部署冒险毁掉周末。 |
-| 734 | rule | 统治；裁决 | `A rules out B. / A rules that S.` | We ruled out a network issue after the ping test. | ping 测试后我们排除了网络问题。 |
-| 735 | sample | 抽样；采样 | `A samples B.` | The profiler samples CPU usage every 10ms. | 分析器每 10ms 采样一次 CPU 使用。 |
-| 736 | spread | 传播；扩散 | `A spreads B across C.` | The CDN spreads content across edge locations worldwide. | CDN 将内容传播到全球边缘节点。 |
-| 737 | strike | 打击；罢工 | `A strikes B. / A strikes.` | The outage struck at midnight during peak traffic. | 故障在午夜流量高峰时袭来。 |
-| 738 | transfer | 转移；传输 | `A transfers B to C.` | Transfer the file to the remote server via SCP. | 通过 SCP 将文件传输到远程服务器。 |
-| 739 | trap | 困住；捕获 | `A traps B. / A is trapped in B.` | The team felt trapped in the legacy monolith. | 团队感觉被困在遗留单体中。 |
-| 740 | wander | 漫游；走神 | `A wanders. / A wanders through B.` | The discussion wandered into architecture territory. | 讨论跑题到了架构领域。 |
+| 208 | handle | 处理 | `A handles B.` | The service handles user requests. | 服务处理用户请求。 |
+| 209 | process | 处理 | `A processes B.` | The worker processes messages. | 工作线程处理消息。 |
+| 210 | perform | 执行；表现 | `A performs B.` | The system performs a security check. | 系统执行安全检查。 |
+| 211 | execute | 执行 | `A executes B.` | The script executes the command. | 脚本执行命令。 |
+| 212 | complete | 完成 | `A completes B.` | We completed the migration. | 我们完成了迁移。 |
+| 213 | achieve | 达成 | `A achieves B.` | The team achieved the target. | 团队达成了目标。 |
+| 214 | reach | 达到；到达 | `A reaches B.` | The CPU usage reached 90%. | CPU 使用率达到 90%。 |
+| 215 | meet | 满足；会面 | `A meets B.` | The design meets the requirements. | 设计满足需求。 |
+| 216 | miss | 错过；遗漏 | `A misses B.` | We missed one edge case. | 我们遗漏了一个边界场景。 |
+| 217 | delay | 延迟 | `A delays B.` | The dependency delayed the release. | 依赖问题延迟了发布。 |
+| 218 | postpone | 推迟 | `A postpones B.` | We postponed the meeting. | 我们推迟了会议。 |
+| 219 | cancel | 取消 | `A cancels B.` | The team canceled the old plan. | 团队取消了旧计划。 |
+| 220 | launch | 上线；启动 | `A launches B.` | We launched the new feature. | 我们上线了新功能。 |
+| 221 | release | 发布 | `A releases B.` | The team released version 2.0. | 团队发布了 2.0 版本。 |
+| 222 | deploy | 部署 | `A deploys B to C.` | We deployed the app to production. | 我们把应用部署到生产环境。 |
+| 223 | rollback | 回滚 | `A rolls back B to C.` | We rolled back the release. | 我们回滚了发布。 |
+| 224 | upgrade | 升级 | `A upgrades B to C.` | Upgrade the database to version 8. | 把数据库升级到 8 版本。 |
+| 225 | downgrade | 降级 | `A downgrades B to C.` | We downgraded the dependency. | 我们降级了依赖。 |
+| 226 | migrate | 迁移 | `A migrates B from C to D.` | We migrated data to the new database. | 我们把数据迁移到新数据库。 |
+| 227 | maintain | 维护 | `A maintains B.` | The team maintains this service. | 团队维护这个服务。 |
+| 228 | support | 支持 | `A supports B.` | The API supports pagination. | 接口支持分页。 |
+| 229 | operate | 操作；运营 | `A operates B.` | The team operates the platform. | 团队运营这个平台。 |
+| 230 | run | 运行；跑 | `A runs B. / A runs on C.` | The app runs on Docker. | 应用运行在 Docker 上。 |
+| 231 | build | 构建 | `A builds B.` | The pipeline builds the image. | 流水线构建镜像。 |
+| 232 | compile | 编译 | `A compiles B.` | The compiler compiles the source code. | 编译器编译源代码。 |
+| 233 | package | 打包 | `A packages B.` | The script packages the application. | 脚本打包应用。 |
+| 234 | install | 安装 | `A installs B.` | Install the latest SDK. | 安装最新 SDK。 |
+| 235 | uninstall | 卸载 | `A uninstalls B.` | Uninstall the old plugin. | 卸载旧插件。 |
+| 236 | configure | 配置 | `A configures B.` | Configure the database connection. | 配置数据库连接。 |
+| 237 | prepare | 准备 | `A prepares B.` | Prepare the release notes. | 准备发布说明。 |
+| 238 | document | 记录；写文档 | `A documents B.` | Document the new API. | 为新接口写文档。 |
+| 239 | archive | 归档 | `A archives B.` | Archive old logs monthly. | 每月归档旧日志。 |
+| 240 | backup | 备份 | `A backs up B.` | Back up the database before release. | 发布前备份数据库。 |
+| 241 | restore | 恢复 | `A restores B.` | Restore the data from backup. | 从备份恢复数据。 |
+| 242 | implement | 实现 | `A implements B.` | We implemented the login feature. | 我们实现了登录功能。 |
+| 243 | develop | 开发 | `A develops B.` | The team developed a new module. | 团队开发了一个新模块。 |
+| 244 | design | 设计 | `A designs B.` | We designed a simple API. | 我们设计了一个简单接口。 |
+| 245 | architect | 设计架构 | `A architects B.` | She architected the new platform. | 她设计了新平台架构。 |
+| 246 | code | 编码 | `A codes B.` | He coded the core logic. | 他编写了核心逻辑。 |
+| 247 | program | 编程 | `A programs B.` | The robot is programmed to stop. | 机器人被编程为停止。 |
+| 248 | refactor | 重构 | `A refactors B.` | We refactored the old module. | 我们重构了旧模块。 |
+| 249 | optimize | 优化 | `A optimizes B.` | We optimized the query. | 我们优化了查询。 |
+| 250 | improve | 改进 | `A improves B.` | This change improves performance. | 这个改动提升性能。 |
+| 251 | enhance | 增强 | `A enhances B.` | The patch enhances security. | 补丁增强了安全性。 |
+| 252 | simplify | 简化 | `A simplifies B.` | We simplified the workflow. | 我们简化了流程。 |
+| 253 | extend | 扩展 | `A extends B.` | The class extends the base class. | 这个类继承了基类。 |
+| 254 | customize | 定制 | `A customizes B.` | Users can customize the dashboard. | 用户可以定制仪表盘。 |
+| 255 | integrate | 集成 | `A integrates B with C.` | We integrated the app with OAuth. | 我们把应用与 OAuth 集成。 |
+| 256 | connect | 连接 | `A connects B to C.` | The client connects to the server. | 客户端连接到服务器。 |
+| 257 | disconnect | 断开连接 | `A disconnects B from C.` | The proxy disconnected the client. | 代理断开了客户端连接。 |
+| 258 | initialize | 初始化 | `A initializes B.` | The app initializes the cache. | 应用初始化缓存。 |
+| 259 | instantiate | 实例化 | `A instantiates B.` | The code instantiates a new object. | 代码实例化一个新对象。 |
+| 260 | generate | 生成 | `A generates B.` | The tool generates a report. | 工具生成报告。 |
+| 261 | produce | 产生；生产 | `A produces B.` | The service produces events. | 服务产生事件。 |
+| 262 | consume | 消费；消耗 | `A consumes B.` | The worker consumes messages. | 工作线程消费消息。 |
+| 263 | publish | 发布 | `A publishes B to C.` | The service publishes events to Kafka. | 服务向 Kafka 发布事件。 |
+| 264 | subscribe | 订阅 | `A subscribes to B.` | The client subscribes to the topic. | 客户端订阅该主题。 |
+| 265 | trigger | 触发 | `A triggers B.` | The button triggers a request. | 按钮触发请求。 |
+| 266 | invoke | 调用 | `A invokes B.` | The handler invokes the service. | 处理器调用服务。 |
+| 267 | call | 调用；打电话 | `A calls B.` | The client calls the API. | 客户端调用接口。 |
+| 268 | queue | 排队 | `A queues B.` | The system queues requests. | 系统将请求排队。 |
+| 269 | dequeue | 出队 | `A dequeues B.` | The worker dequeues a message. | 工作线程取出一条消息。 |
+| 270 | parse | 解析 | `A parses B.` | The parser parses the JSON file. | 解析器解析 JSON 文件。 |
+| 271 | serialize | 序列化 | `A serializes B.` | The library serializes the object. | 库将对象序列化。 |
+| 272 | deserialize | 反序列化 | `A deserializes B.` | The server deserializes the request body. | 服务器反序列化请求体。 |
+| 273 | encode | 编码 | `A encodes B.` | The client encodes the URL. | 客户端编码 URL。 |
+| 274 | decode | 解码 | `A decodes B.` | The server decodes the token. | 服务器解码令牌。 |
+| 275 | encrypt | 加密 | `A encrypts B.` | The service encrypts sensitive data. | 服务加密敏感数据。 |
+| 276 | decrypt | 解密 | `A decrypts B.` | The app decrypts the message. | 应用解密消息。 |
+| 277 | hash | 哈希 | `A hashes B.` | The system hashes the password. | 系统对密码做哈希。 |
+| 278 | sign | 签名 | `A signs B.` | The client signs the request. | 客户端对请求签名。 |
+| 279 | authenticate | 认证 | `A authenticates B.` | The system authenticates the user. | 系统认证用户。 |
+| 280 | authorize | 授权 | `A authorizes B to do C.` | The admin authorized him to access the database. | 管理员授权他访问数据库。 |
+| 281 | sanitize | 净化；清理 | `A sanitizes B.` | Sanitize user input. | 清理用户输入。 |
+| 282 | filter | 过滤 | `A filters B.` | The query filters invalid records. | 查询过滤无效记录。 |
+| 283 | sort | 排序 | `A sorts B.` | The system sorts results by time. | 系统按时间排序结果。 |
+| 284 | search | 搜索 | `A searches B for C.` | The app searches the database for users. | 应用在数据库中搜索用户。 |
+| 285 | index | 索引 | `A indexes B.` | The engine indexes documents. | 引擎索引文档。 |
+| 286 | query | 查询 | `A queries B.` | The service queries the database. | 服务查询数据库。 |
+| 287 | fetch | 获取 | `A fetches B from C.` | The client fetches data from the API. | 客户端从接口获取数据。 |
+| 288 | insert | 插入 | `A inserts B into C.` | Insert the record into the table. | 把记录插入表中。 |
+| 289 | update | 更新 | `A updates B.` | The job updates user status. | 任务更新用户状态。 |
+| 290 | join | 连接；加入 | `A joins B with C.` | The query joins two tables. | 查询连接两个表。 |
+| 291 | merge | 合并 | `A merges B into C.` | Merge the branch into main. | 把分支合并到主干。 |
+| 292 | split | 拆分 | `A splits B into C.` | Split the file into smaller parts. | 把文件拆成更小的部分。 |
+| 293 | map | 映射 | `A maps B to C.` | The function maps IDs to names. | 函数把 ID 映射到名称。 |
+| 294 | reduce | 减少；归约 | `A reduces B.` | The cache reduces database load. | 缓存减少数据库负载。 |
+| 295 | aggregate | 聚合 | `A aggregates B.` | The report aggregates daily data. | 报告聚合每日数据。 |
+| 296 | normalize | 规范化 | `A normalizes B.` | Normalize the input before saving. | 保存前规范化输入。 |
+| 297 | transform | 转换 | `A transforms B into C.` | The job transforms raw data into reports. | 任务把原始数据转换成报告。 |
+| 298 | convert | 转换 | `A converts B into C.` | Convert the file into JSON. | 把文件转换为 JSON。 |
+| 299 | format | 格式化 | `A formats B.` | The tool formats the code. | 工具格式化代码。 |
+| 300 | compress | 压缩 | `A compresses B.` | Compress the log files. | 压缩日志文件。 |
+| 301 | decompress | 解压 | `A decompresses B.` | The script decompresses the archive. | 脚本解压归档文件。 |
+| 302 | upload | 上传 | `A uploads B to C.` | Upload the image to the bucket. | 把图片上传到桶。 |
+| 303 | download | 下载 | `A downloads B from C.` | Download the package from the mirror. | 从镜像站下载包。 |
+| 304 | sync | 同步 | `A syncs B with C.` | Sync local files with the server. | 同步本地文件和服务器。 |
+| 305 | replicate | 复制；同步副本 | `A replicates B to C.` | The database replicates data to replicas. | 数据库向副本复制数据。 |
+| 306 | cache | 缓存 | `A caches B.` | The browser caches static files. | 浏览器缓存静态文件。 |
+| 307 | flush | 刷新；清空 | `A flushes B.` | Flush the Redis cache. | 清空 Redis 缓存。 |
+| 308 | clear | 清除 | `A clears B.` | Clear the temporary files. | 清除临时文件。 |
+| 309 | reset | 重置 | `A resets B.` | Reset the password. | 重置密码。 |
+| 310 | restart | 重启 | `A restarts B.` | Restart the service. | 重启服务。 |
+| 311 | boot | 启动 | `A boots B.` | The system boots quickly. | 系统启动很快。 |
+| 312 | shutdown | 关闭 | `A shuts down B.` | Shut down the server safely. | 安全关闭服务器。 |
+| 313 | crash | 崩溃 | `A crashes.` | The service crashed at midnight. | 服务在午夜崩溃。 |
+| 314 | fail | 失败 | `A fails. / A fails to do B.` | The build failed. | 构建失败。 |
+| 315 | succeed | 成功 | `A succeeds. / A succeeds in doing B.` | The deployment succeeded. | 部署成功。 |
+| 316 | recover | 恢复 | `A recovers from B.` | The service recovered from the failure. | 服务从故障中恢复。 |
+| 317 | heal | 自愈；修复 | `A heals B.` | The platform heals failed instances. | 平台修复失败实例。 |
+| 318 | scale | 扩缩容 | `A scales B.` | Scale the service to ten instances. | 把服务扩容到十个实例。 |
+| 319 | balance | 平衡 | `A balances B.` | The load balancer balances traffic. | 负载均衡器平衡流量。 |
+| 320 | route | 路由 | `A routes B to C.` | The gateway routes requests to services. | 网关把请求路由到服务。 |
+| 321 | proxy | 代理 | `A proxies B to C.` | Nginx proxies traffic to the app. | Nginx 把流量代理到应用。 |
+| 322 | forward | 转发 | `A forwards B to C.` | The server forwards requests to the backend. | 服务器把请求转发给后端。 |
+| 323 | redirect | 重定向 | `A redirects B to C.` | The site redirects HTTP to HTTPS. | 网站把 HTTP 重定向到 HTTPS。 |
+| 324 | bind | 绑定 | `A binds B to C.` | Bind the port to localhost. | 把端口绑定到本机。 |
+| 325 | listen | 监听 | `A listens on B.` | The server listens on port 8080. | 服务器监听 8080 端口。 |
+| 326 | block | 阻止 | `A blocks B.` | The rule blocks unsafe requests. | 规则阻止不安全请求。 |
+| 327 | allow | 允许 | `A allows B to do C.` | The policy allows users to upload files. | 策略允许用户上传文件。 |
+| 328 | permit | 允许 | `A permits B.` | The license permits commercial use. | 许可证允许商业使用。 |
+| 329 | protect | 保护 | `A protects B from C.` | Encryption protects data from leakage. | 加密保护数据不泄露。 |
+| 330 | secure | 保护；使安全 | `A secures B.` | Use HTTPS to secure traffic. | 使用 HTTPS 保护流量。 |
+| 331 | expose | 暴露 | `A exposes B.` | The container exposes port 80. | 容器暴露 80 端口。 |
+| 332 | hide | 隐藏 | `A hides B.` | The UI hides advanced options. | 界面隐藏高级选项。 |
+| 333 | mask | 遮蔽；脱敏 | `A masks B.` | The system masks sensitive fields. | 系统对敏感字段脱敏。 |
+| 334 | log | 记录日志 | `A logs B.` | The service logs every request. | 服务记录每个请求。 |
+| 335 | trace | 追踪 | `A traces B.` | The tool traces slow requests. | 工具追踪慢请求。 |
+| 336 | debug | 调试 | `A debugs B.` | We debugged the payment issue. | 我们调试了支付问题。 |
+| 337 | investigate | 调查；排查 | `A investigates B.` | We investigated the timeout. | 我们排查了超时问题。 |
+| 338 | diagnose | 诊断 | `A diagnoses B.` | The tool diagnosed a DNS issue. | 工具诊断出 DNS 问题。 |
+| 339 | reproduce | 复现 | `A reproduces B.` | I reproduced the bug locally. | 我在本地复现了缺陷。 |
+| 340 | fix | 修复 | `A fixes B.` | The patch fixed the bug. | 补丁修复了缺陷。 |
+| 341 | repair | 修理 | `A repairs B.` | The script repaired the damaged file. | 脚本修复了损坏文件。 |
+| 342 | patch | 打补丁 | `A patches B.` | Patch the vulnerable library. | 给有漏洞的库打补丁。 |
+| 343 | mitigate | 缓解 | `A mitigates B.` | Rate limiting mitigates the attack. | 限流缓解攻击。 |
+| 344 | prevent | 防止 | `A prevents B from doing C.` | Validation prevents invalid input. | 校验防止无效输入。 |
+| 345 | avoid | 避免 | `A avoids B. / A avoids doing B.` | Avoid storing secrets in code. | 避免把密钥存进代码。 |
+| 346 | increase | 增加 | `A increases B.` | Caching increases response speed. | 缓存提高响应速度。 |
+| 347 | decrease | 减少 | `A decreases B.` | Compression decreases file size. | 压缩减小文件大小。 |
+| 348 | degrade | 降低；退化 | `A degrades B.` | Network issues degraded performance. | 网络问题降低了性能。 |
+| 349 | break | 破坏；中断 | `A breaks B.` | The change broke compatibility. | 这个改动破坏了兼容性。 |
+| 350 | damage | 损坏 | `A damages B.` | The failure damaged the data. | 故障损坏了数据。 |
+| 351 | corrupt | 损坏 | `A corrupts B.` | The crash corrupted the file. | 崩溃损坏了文件。 |
+| 352 | leak | 泄露 | `A leaks B.` | The bug leaked memory. | 这个缺陷导致内存泄漏。 |
+| 353 | exhaust | 耗尽 | `A exhausts B.` | The process exhausted memory. | 进程耗尽了内存。 |
+| 354 | reserve | 保留 | `A reserves B.` | The system reserves memory for the kernel. | 系统为内核保留内存。 |
+| 355 | lock | 锁定 | `A locks B.` | The transaction locks the row. | 事务锁定该行。 |
+| 356 | unlock | 解锁 | `A unlocks B.` | The process unlocks the file. | 进程解锁文件。 |
+| 357 | wait | 等待 | `A waits for B.` | The client waits for a response. | 客户端等待响应。 |
+| 358 | timeout | 超时 | `A times out.` | The request timed out. | 请求超时了。 |
+| 359 | retry | 重试 | `A retries B.` | The client retries the request. | 客户端重试请求。 |
+| 360 | skip | 跳过 | `A skips B.` | Skip invalid records. | 跳过无效记录。 |
+| 361 | ignore | 忽略 | `A ignores B.` | Do not ignore this warning. | 不要忽略这个警告。 |
+| 362 | cover | 覆盖 | `A covers B.` | The tests cover this scenario. | 测试覆盖这个场景。 |
+| 363 | mock | 模拟 | `A mocks B.` | The test mocks the database. | 测试模拟数据库。 |
+| 364 | stub | 打桩 | `A stubs B.` | The unit test stubs the external API. | 单元测试为外部接口打桩。 |
+| 365 | assert | 断言 | `A asserts that S.` | The test asserts that the result is valid. | 测试断言结果有效。 |
+| 366 | benchmark | 基准测试 | `A benchmarks B.` | We benchmarked the new implementation. | 我们对新实现做了基准测试。 |
+| 367 | profile | 性能分析 | `A profiles B.` | The tool profiles CPU usage. | 工具分析 CPU 使用。 |
+| 368 | audit | 审计 | `A audits B.` | The team audited the access logs. | 团队审计了访问日志。 |
+| 369 | scan | 扫描 | `A scans B for C.` | The scanner scans images for vulnerabilities. | 扫描器扫描镜像漏洞。 |
+| 370 | certify | 认证；证明 | `A certifies B.` | The authority certifies the certificate. | 机构认证证书。 |
+| 371 | comply | 遵守 | `A complies with B.` | The system complies with the policy. | 系统符合该策略。 |
+| 372 | violate | 违反 | `A violates B.` | The request violates the rule. | 请求违反了规则。 |
+| 373 | enforce | 强制执行 | `A enforces B.` | The gateway enforces authentication. | 网关强制认证。 |
+| 374 | bypass | 绕过 | `A bypasses B.` | The attacker bypassed the check. | 攻击者绕过了检查。 |
+| 375 | exploit | 利用 | `A exploits B.` | The attacker exploited a vulnerability. | 攻击者利用了漏洞。 |
+| 376 | attack | 攻击 | `A attacks B.` | Bots attacked the login endpoint. | 机器人攻击登录接口。 |
+| 377 | defend | 防御 | `A defends B against C.` | The firewall defends the system against attacks. | 防火墙保护系统免受攻击。 |
+| 378 | serve | 服务 | `A serves B.` | The platform serves enterprise customers. | 平台服务企业客户。 |
+| 379 | help | 帮助 | `A helps B do C.` | This tool helps us find bugs. | 这个工具帮助我们发现缺陷。 |
+| 380 | assist | 协助 | `A assists B with C.` | I assisted the team with testing. | 我协助团队测试。 |
+| 381 | guide | 指导 | `A guides B through C.` | The document guides users through setup. | 文档指导用户完成设置。 |
+| 382 | satisfy | 满足 | `A satisfies B.` | The feature satisfies user needs. | 功能满足用户需求。 |
+| 383 | attract | 吸引 | `A attracts B.` | Good content attracts users. | 优质内容吸引用户。 |
+| 384 | retain | 留住 | `A retains B.` | Good service retains customers. | 良好服务留住客户。 |
+| 385 | engage | 吸引参与 | `A engages B.` | The campaign engages new users. | 活动吸引新用户参与。 |
+| 386 | promote | 推广；促进 | `A promotes B.` | We promoted the new feature. | 我们推广了新功能。 |
+| 387 | market | 营销 | `A markets B to C.` | The company markets services to operators. | 公司向运营商营销服务。 |
+| 388 | advertise | 广告宣传 | `A advertises B.` | The brand advertised its new product. | 品牌宣传了新产品。 |
+| 389 | brand | 塑造品牌 | `A brands B as C.` | They branded the app as a super app. | 他们把应用塑造成超级应用。 |
+| 390 | position | 定位 | `A positions B as C.` | We positioned the product as a cloud portal. | 我们把产品定位为云门户。 |
+| 391 | differentiate | 区分；差异化 | `A differentiates B from C.` | This feature differentiates us from competitors. | 这个功能让我们区别于竞争对手。 |
+| 392 | compete | 竞争 | `A competes with B.` | The product competes with local platforms. | 产品与本地平台竞争。 |
+| 393 | cooperate | 合作 | `A cooperates with B.` | We cooperate with local partners. | 我们与本地伙伴合作。 |
+| 394 | partner | 合作 | `A partners with B.` | The company partnered with an operator. | 公司与运营商合作。 |
+| 395 | contract | 订约 | `A contracts with B.` | The vendor contracted with the operator. | 供应商与运营商签约。 |
+| 396 | purchase | 采购 | `A purchases B.` | The team purchased cloud resources. | 团队采购云资源。 |
+| 397 | renew | 续订 | `A renews B.` | The customer renewed the contract. | 客户续签了合同。 |
+| 398 | charge | 收费 | `A charges B for C.` | The platform charges users for storage. | 平台向用户收取存储费用。 |
+| 399 | bill | 计费 | `A bills B for C.` | The system bills customers monthly. | 系统按月向客户计费。 |
+| 400 | invoice | 开票 | `A invoices B.` | The vendor invoiced the customer. | 供应商给客户开票。 |
+| 401 | refund | 退款 | `A refunds B to C.` | The platform refunded the fee to the user. | 平台把费用退给用户。 |
+| 402 | invest | 投资 | `A invests B in C.` | The company invested money in AI. | 公司投资 AI。 |
+| 403 | fund | 资助 | `A funds B.` | The program funds new projects. | 该计划资助新项目。 |
+| 404 | finance | 融资；资助 | `A finances B.` | The bank financed the project. | 银行为项目融资。 |
+| 405 | budget | 预算 | `A budgets B for C.` | We budgeted more money for security. | 我们为安全预算了更多资金。 |
+| 406 | expand | 扩张 | `A expands B.` | The company expanded its market. | 公司扩大了市场。 |
+| 407 | enter | 进入 | `A enters B.` | The product entered a new market. | 产品进入新市场。 |
+| 408 | exit | 退出 | `A exits B.` | The company exited the market. | 公司退出了市场。 |
+| 409 | target | 瞄准 | `A targets B.` | The campaign targets young users. | 活动面向年轻用户。 |
+| 410 | segment | 细分 | `A segments B.` | We segmented customers by usage. | 我们按使用量细分客户。 |
+| 411 | survey | 调查 | `A surveys B.` | We surveyed enterprise users. | 我们调研了企业用户。 |
+| 412 | interview | 访谈 | `A interviews B.` | The team interviewed key customers. | 团队访谈了关键客户。 |
+| 413 | research | 研究 | `A researches B.` | We researched local regulations. | 我们研究了本地法规。 |
+| 414 | pilot | 试点 | `A pilots B.` | We piloted the service in one city. | 我们在一个城市试点服务。 |
+| 415 | move | 移动 | `A moves B to C.` | Move the file to the backup folder. | 把文件移动到备份目录。 |
+| 416 | push | 推送；推动 | `A pushes B to C.` | Push the commit to GitHub. | 把提交推送到 GitHub。 |
+| 417 | pull | 拉取 | `A pulls B from C.` | Pull the latest image. | 拉取最新镜像。 |
+| 418 | clone | 克隆 | `A clones B.` | Clone the repository. | 克隆仓库。 |
+| 419 | fork | 派生 | `A forks B.` | Fork the open-source project. | 派生这个开源项目。 |
+| 420 | branch | 创建分支 | `A branches from B.` | Create a branch from main. | 从主分支创建一个分支。 |
+| 421 | commit | 提交 | `A commits B.` | Commit the code changes. | 提交代码改动。 |
+| 422 | tag | 打标签 | `A tags B as C.` | Tag the release as v1.0. | 把发布标记为 v1.0。 |
+| 423 | checkout | 检出 | `A checks out B.` | Check out the feature branch. | 检出功能分支。 |
+| 424 | rebase | 变基 | `A rebases B onto C.` | Rebase your branch onto main. | 把你的分支变基到主分支。 |
+| 425 | cherry-pick | 挑选提交 | `A cherry-picks B.` | Cherry-pick the hotfix commit. | 挑选这个热修复提交。 |
+| 426 | watch | 观察；观看 | `A watches B.` | Watch the service metrics. | 观察服务指标。 |
+| 427 | hear | 听见 | `A hears B.` | I heard the alert. | 我听到了告警。 |
+| 428 | see | 看见；理解 | `A sees B. / A sees that S.` | I see the problem now. | 我现在明白问题了。 |
+| 429 | view | 查看 | `A views B.` | View the container logs. | 查看容器日志。 |
+| 430 | change | 改变；更换 | `A changes B. / A changes.` | The plan changed after the meeting. | 会议后计划变了。 |
+| 431 | live | 生活；居住 | `A lives in B. / A lives.` | The service lives in this namespace. | 该服务位于这个命名空间中。 |
+| 432 | play | 玩；播放；扮演 | `A plays B. / A plays with B.` | This component plays a key role. | 这个组件起着关键作用。 |
+| 433 | eat | 吃；消耗 | `A eats B.` | This job eats a lot of memory. | 这个任务消耗大量内存。 |
+| 434 | drink | 喝 | `A drinks B.` | The old server drinks power. | 旧服务器很耗电。 |
+| 435 | sleep | 睡觉；休眠 | `A sleeps.` | The process sleeps for 5 seconds. | 进程休眠 5 秒。 |
+| 436 | stand | 站立；承受 | `A stands. / A stands for B.` | The system can stand high traffic. | 系统能承受高流量。 |
+| 437 | sit | 坐；位于 | `A sits in B. / A sits between B and C.` | The proxy sits between client and server. | 代理位于客户端和服务器之间。 |
+| 438 | walk | 走；遍历 | `A walks through B.` | Let's walk through the deployment steps. | 我们走一遍部署步骤。 |
+| 439 | remember | 记住 | `A remembers B. / A remembers to do B.` | Remember to update the config. | 记得更新配置。 |
+| 440 | forget | 忘记 | `A forgets B. / A forgets to do B.` | Don't forget to restart the service. | 不要忘记重启服务。 |
+| 441 | enjoy | 享受；喜欢 | `A enjoys B. / A enjoys doing B.` | Users enjoy the fast response. | 用户喜欢快速响应。 |
+| 442 | love | 爱；喜欢 | `A loves B. / A loves doing B.` | Developers love clean APIs. | 开发者喜欢干净的接口。 |
+| 443 | fall | 落下；下降 | `A falls. / A falls to C.` | The request rate fell sharply. | 请求量急剧下降。 |
+| 444 | rise | 上升；增加 | `A rises. / A rises to C.` | CPU usage rose to 95%. | CPU 使用率上升到 95%。 |
+| 445 | die | 死；停止 | `A dies.` | The process died unexpectedly. | 进程意外终止了。 |
+| 446 | drive | 驾驶；驱动 | `A drives B.` | User feedback drives the roadmap. | 用户反馈驱动产品路线图。 |
+| 447 | fly | 飞；快速移动 | `A flies. / A flies through B.` | The data flies through the pipeline. | 数据快速流经管道。 |
+| 448 | fill | 填满 | `A fills B with C.` | The script fills the database with test data. | 脚本用测试数据填充数据库。 |
+| 449 | drop | 掉落；下降 | `A drops B. / A drops.` | The connection dropped after the timeout. | 超时后连接断开了。 |
+| 450 | cut | 切；削减 | `A cuts B.` | We cut the response time by half. | 我们把响应时间减半。 |
+| 451 | face | 面对 | `A faces B.` | The team faces a tight deadline. | 团队面临紧张的截止时间。 |
+| 452 | raise | 举起；提高；提出 | `A raises B.` | She raised a valid concern. | 她提出了一个合理的担忧。 |
+| 453 | apply | 应用；申请 | `A applies B to C.` | Apply this patch to the server. | 把这个补丁应用到服务器。 |
+| 454 | replace | 替换 | `A replaces B with C.` | We replaced the old library with a new one. | 我们用新库替换了旧库。 |
+| 455 | focus | 专注 | `A focuses on B.` | The team focuses on stability. | 团队专注于稳定性。 |
+| 456 | ensure | 确保 | `A ensures B. / A ensures that S.` | This check ensures data integrity. | 这个检查确保数据完整性。 |
+| 457 | store | 存储 | `A stores B in C.` | The app stores tokens in memory. | 应用将令牌存在内存中。 |
+| 458 | trust | 信任 | `A trusts B. / A trusts B to do C.` | Don't trust user input without validation. | 不要信任未经校验的用户输入。 |
+| 459 | encourage | 鼓励 | `A encourages B to do C.` | We encourage code review. | 我们鼓励代码评审。 |
+| 460 | explore | 探索 | `A explores B.` | We explored several solutions. | 我们探索了几种方案。 |
+| 461 | wonder | 想知道；好奇 | `A wonders whether S. / A wonders about B.` | I wonder if the fix worked. | 我想知道修复是否生效了。 |
+| 462 | mind | 介意 | `A minds B. / A minds doing B.` | Do you mind reviewing this PR? | 你介意评审这个 PR 吗？ |
+| 463 | wear | 穿；磨损 | `A wears B.` | Heavy traffic wears the disk. | 高流量磨损磁盘。 |
+| 464 | collect | 收集 | `A collects B from C.` | The agent collects metrics every minute. | 代理每分钟收集指标。 |
+| 465 | do | 做；执行 | `A does B. / A does.` | The script does the heavy lifting. | 脚本承担了繁重的工作。 |
+| 466 | make | 做；使；制造 | `A makes B. / A makes B C.` | This change makes the system stable. | 这个改动让系统变得稳定。 |
+| 467 | put | 放；放置 | `A puts B in/on C.` | Put the config file in this directory. | 把配置文件放在这个目录下。 |
+| 468 | try | 尝试；试图 | `A tries B. / A tries to do B.` | Try a different approach. | 尝试另一种方法。 |
+| 469 | mean | 意思是；意味着 | `A means B. / A means that S.` | A 503 error means the service is down. | 503 错误意味着服务挂了。 |
+| 470 | let | 让；允许 | `A lets B do C.` | Let the pipeline finish before merging. | 等流水线完成再合并。 |
+| 471 | set | 设置；设定；放置 | `A sets B. / A sets B to C.` | Set the timeout to 30 seconds. | 把超时设为 30 秒。 |
+| 472 | kill | 杀死；终止 | `A kills B.` | Kill the stuck process. | 终止卡住的进程。 |
+| 473 | hit | 击中；达到；请求 | `A hits B.` | The cache hit rate reached 95%. | 缓存命中率达到 95%。 |
+| 474 | cause | 导致；引起 | `A causes B. / A causes B to do C.` | The bug caused data loss. | 这个缺陷导致了数据丢失。 |
+| 475 | force | 强制；强迫 | `A forces B to do C.` | Don't force push to main. | 不要强制推送到主分支。 |
+| 476 | form | 形成；构成 | `A forms B. / A forms.` | These three services form the core platform. | 这三个服务构成核心平台。 |
+| 477 | attend | 参加；出席 | `A attends B.` | I attended the sprint review. | 我参加了迭代评审会。 |
+| 478 | treat | 对待；处理 | `A treats B as C.` | Treat all input as untrusted. | 将所有输入视为不可信。 |
+| 479 | visit | 访问；拜访 | `A visits B.` | The crawler visits the homepage first. | 爬虫首先访问首页。 |
+| 480 | hang | 悬挂；挂起 | `A hangs. / A hangs B.` | The request hung until timeout. | 请求挂起直到超时。 |
+| 481 | cross | 穿过；交叉 | `A crosses B.` | The request crossed multiple data centers. | 请求跨越了多个数据中心。 |
+| 482 | touch | 触碰；涉及 | `A touches B.` | This PR touches three modules. | 这个 PR 涉及三个模块。 |
+| 483 | sing | 唱 | `A sings B. / A sings.` | The team sang his praises at the demo. | 团队在演示中对他赞不绝口。 |
+| 484 | submit | 提交 | `A submits B to C.` | Submit the PR for review. | 提交 PR 等待评审。 |
+| 485 | destroy | 销毁；破坏 | `A destroys B.` | Terraform destroyed the test environment. | Terraform 销毁了测试环境。 |
+| 486 | reflect | 反映；反思 | `A reflects B. / A reflects on B.` | The dashboard reflects real-time metrics. | 仪表盘反映实时指标。 |
+| 487 | render | 渲染；使成为 | `A renders B. / A renders B C.` | The browser renders the page in milliseconds. | 浏览器在毫秒内渲染页面。 |
+| 488 | arrive | 到达；抵达 | `A arrives. / A arrives at B.` | The response arrived within 200ms. | 响应在 200 毫秒内到达。 |
+| 489 | clean | 清理；清洁 | `A cleans B. / A cleans up B.` | Clean up unused dependencies. | 清理未使用的依赖。 |
+| 490 | climb | 爬；攀升 | `A climbs. / A climbs to B.` | The error rate climbed to 5%. | 错误率攀升到 5%。 |
+| 491 | cook | 烹饪；运行过热 | `A cooks B. / A cooks.` | Don't let the CPU cook at 100%. | 别让 CPU 烧到 100%。 |
+| 492 | count | 数；计数 | `A counts B.` | The middleware counts API requests. | 中间件统计 API 请求次数。 |
+| 493 | cry | 哭；叫 | `A cries. / A cries for B.` | Don't cry over a failed deploy. | 别为一次失败的部署懊恼。 |
+| 494 | dance | 跳舞 | `A dances.` | The microservices dance around each other. | 微服务互相配合运转。 |
+| 495 | draw | 画；绘制；得出 | `A draws B. / A draws B from C.` | Draw a conclusion from the metrics. | 从指标中得出结论。 |
+| 496 | dream | 梦想；做梦 | `A dreams of B.` | We dream of zero-downtime deploys. | 我们梦想零宕机部署。 |
+| 497 | feed | 喂；输入 | `A feeds B into C.` | Feed the log file into the analyzer. | 把日志文件输入分析器。 |
+| 498 | fight | 战斗；对抗 | `A fights B. / A fights against B.` | The team fights tech debt each sprint. | 团队每个迭代对抗技术债。 |
+| 499 | forgive | 原谅 | `A forgives B for doing C.` | Forgive the late reply. | 请见谅回复晚了。 |
+| 500 | freeze | 冻结；凝固 | `A freezes. / A freezes B.` | The UI froze after the API call. | API 调用后界面冻结了。 |
+| 501 | hurt | 伤害；损害 | `A hurts B. / A hurts.` | Hasty refactors hurt the architecture. | 仓促的重构损害架构。 |
+| 502 | imagine | 想象；设想 | `A imagines B. / A imagines that S.` | Imagine the system under peak load. | 想象系统在峰值负载下的情况。 |
+| 503 | laugh | 笑 | `A laughs. / A laughs at B.` | Don't laugh at legacy code — it pays the bills. | 别嘲笑遗留代码，是它在养家。 |
+| 504 | lie | 躺；位于 | `A lies in B.` | The real problem lies in the data layer. | 真正的问题在数据层。 |
+| 505 | rain | 下雨；如雨般落下 | `It rains B.` | It rains alerts during Black Friday. | 黑五期间告警如雨下。 |
+| 506 | ride | 骑；乘；经受 | `A rides B. / A rides out B.` | The service rode out the traffic spike. | 服务扛过了流量高峰。 |
+| 507 | ring | 响铃；打电话 | `A rings. / A rings B.` | The alert rings at 3 AM. | 告警在凌晨 3 点响起。 |
+| 508 | shake | 摇晃；震动 | `A shakes B. / A shakes.` | The outage shook the team's confidence. | 这次故障动摇了团队的信心。 |
+| 509 | shoot | 射击；快速发送 | `A shoots B to C.` | Shoot me a message on Slack. | 在 Slack 上给我发个消息。 |
+| 510 | shout | 喊叫；大声说 | `A shouts. / A shouts about B.` | The error logs are shouting at us. | 错误日志在对我们喊叫。 |
+| 511 | smell | 闻；察觉 | `A smells B. / A smells of B.` | This approach smells of over-engineering. | 这个方案有过度设计的味道。 |
+| 512 | smile | 微笑 | `A smiles. / A smiles at B.` | The client smiled at the demo. | 客户看到演示笑了。 |
+| 513 | spell | 拼写；意味着 | `A spells B. / A spells out B.` | A missing semicolon spells trouble. | 遗漏一个分号意味着麻烦。 |
+| 514 | steal | 偷；窃取 | `A steals B from C.` | An attacker stole session tokens. | 攻击者窃取了会话令牌。 |
+| 515 | study | 学习；研究 | `A studies B.` | We studied the root cause for hours. | 我们研究了数小时根因。 |
+| 516 | swim | 游泳 | `A swims. / A swims through B.` | The team swam through a sea of bugs. | 团队在缺陷海洋中挣扎前行。 |
+| 517 | travel | 旅行；传播 | `A travels. / A travels through B.` | Data travels through three proxies. | 数据经过三层代理传输。 |
+| 518 | wake | 醒来；唤醒 | `A wakes. / A wakes B up.` | The on-call woke up to 50 alerts. | 值班被 50 条告警叫醒。 |
+| 519 | worry | 担心 | `A worries about B. / A worries that S.` | Don't worry about the traffic spike, it's expected. | 别担心流量峰值，这是预期的。 |
+| 520 | repeat | 重复；重做 | `A repeats B. / A repeats.` | The bug repeats on every cold start. | 这个缺陷在每次冷启动时重现。 |
+| 521 | argue | 争论；论证 | `A argues that S. / A argues for B.` | She argued for a simpler architecture. | 她论证了更简单的架构。 |
+| 522 | blame | 责备；归咎于 | `A blames B for C.` | Don't blame the tool — check the config first. | 别怪工具，先检查配置。 |
+| 523 | interrupt | 打断；中断 | `A interrupts B. / A interrupts.` | The signal interrupted the graceful shutdown. | 信号中断了优雅关闭。 |
+| 524 | welcome | 欢迎 | `A welcomes B.` | We welcome contributions to the project. | 我们欢迎对项目的贡献。 |
+| 525 | greet | 问候；迎接 | `A greets B with C.` | The API greets new users with a welcome email. | API 用欢迎邮件迎接新用户。 |
+| 526 | insist | 坚持；强调 | `A insists on B. / A insists that S.` | The lead insisted on writing tests first. | 负责人坚持先写测试。 |
+| 527 | suspect | 怀疑；觉得 | `A suspects B. / A suspects that S.` | I suspect a memory leak in the new build. | 我怀疑新构建有内存泄漏。 |
+| 528 | recall | 回忆；回想 | `A recalls B. / A recalls that S.` | I can't recall the exact error message. | 我记不清确切的错误信息了。 |
+| 529 | dare | 敢；敢于 | `A dares to do B.` | Few developers dare to touch that legacy module. | 没几个开发者敢碰那个遗留模块。 |
+| 530 | obtain | 获得；获取 | `A obtains B from C.` | Obtain an API key from the dashboard. | 从仪表盘获取 API 密钥。 |
+| 531 | establish | 建立；设立 | `A establishes B.` | The client establishes a TLS connection first. | 客户端首先建立 TLS 连接。 |
+| 532 | contribute | 贡献；有助于 | `A contributes to B.` | Heavy logging contributed to the slowdown. | 大量日志导致了变慢。 |
+| 533 | conduct | 进行；实施 | `A conducts B.` | We conducted a post-mortem after the outage. | 故障后我们进行了复盘。 |
+| 534 | seek | 寻找；寻求 | `A seeks B. / A seeks to do B.` | We're seeking a simpler solution. | 我们正在寻找更简单的方案。 |
+| 535 | attempt | 尝试；企图 | `A attempts B. / A attempts to do B.` | The server attempts to reconnect every 5 seconds. | 服务器每 5 秒尝试重连一次。 |
+| 536 | adopt | 采纳；采用 | `A adopts B.` | The team adopted a new branching strategy. | 团队采用了新的分支策略。 |
+| 537 | concern | 涉及；担忧 | `A concerns B. / A is concerned about B.` | This change concerns the authentication layer. | 这个改动涉及认证层。 |
+| 538 | participate | 参与；参加 | `A participates in B.` | Everyone participates in the daily stand-up. | 每个人都参与每日站会。 |
+| 539 | overcome | 克服；战胜 | `A overcomes B.` | We overcame the rate limit with batching. | 我们用批量处理克服了速率限制。 |
+| 540 | suffer | 遭受；受苦 | `A suffers from B.` | The service suffers from high latency at peak. | 服务在高峰期遭受高延迟。 |
+| 541 | separate | 分离；分开 | `A separates B from C.` | Separate the config from the code. | 把配置和代码分离。 |
+| 542 | eliminate | 消除；淘汰 | `A eliminates B.` | Caching eliminated the bottleneck entirely. | 缓存彻底消除了瓶颈。 |
+| 543 | distribute | 分发；分配 | `A distributes B to C.` | The CDN distributes content to edge nodes globally. | CDN 向全球边缘节点分发内容。 |
+| 544 | adapt | 适应；改编 | `A adapts to B. / A adapts B.` | The system adapts to changing traffic patterns. | 系统适应不断变化的流量模式。 |
+| 545 | adjust | 调整；适应 | `A adjusts B.` | Adjust the heap size to reduce GC pauses. | 调整堆大小以减少 GC 暂停。 |
+| 546 | manufacture | 制造；生产 | `A manufactures B.` | The factory manufactures custom server racks. | 工厂制造定制服务器机架。 |
+| 547 | register | 注册；登记 | `A registers B. / A registers for B.` | The service registers itself with the gateway. | 服务向网关注册自己。 |
+| 548 | represent | 代表；表示 | `A represents B.` | Each node in the graph represents a server instance. | 图中每个节点代表一个服务器实例。 |
+| 549 | express | 表达；表示 | `A expresses B.` | The log format expresses events in structured JSON. | 日志格式用结构化 JSON 表达事件。 |
+| 550 | control | 控制；管理 | `A controls B.` | This feature flag controls the rollout. | 这个功能标志控制灰度发布。 |
+| 551 | involve | 涉及；包含 | `A involves B. / A involves doing B.` | The fix involves updating three microservices. | 这个修复涉及更新三个微服务。 |
+| 552 | survive | 幸存；存活 | `A survives B. / A survives.` | The system survived the DDoS attack. | 系统在 DDoS 攻击中存活下来。 |
+| 553 | struggle | 挣扎；奋斗 | `A struggles with B. / A struggles to do B.` | The team struggled with flaky integration tests. | 团队与不稳定的集成测试作斗争。 |
+| 554 | wash | 洗；清洗 | `A washes B.` | The CI pipeline washes stale build artifacts. | CI 流水线清洗过期的构建产物。 |
+| 555 | park | 停放；搁置 | `A parks B in C.` | Park this task in the backlog for now. | 先把这任务搁在待办列表里。 |
+| 556 | pack | 打包；包装 | `A packs B into C.` | Webpack packs all modules into a single bundle. | Webpack 把所有模块打包成一个 bundle。 |
+| 557 | rest | 休息 | `A rests. / A rests on B.` | Let the server rest between stress tests. | 压力测试之间让服务器休息一下。 |
+| 558 | hate | 讨厌；恨 | `A hates B. / A hates doing B.` | Developers hate flaky tests. | 开发者讨厌不稳定的测试。 |
+| 559 | surprise | 使吃惊；惊讶 | `A surprises B. / A is surprised by B.` | Don't be surprised if the deploy fails on a Friday. | 如果周五部署失败了，别惊讶。 |
+| 560 | taste | 品尝；体验 | `A tastes B. / A has a taste of B.` | The new hire got a taste of on-call life. | 新人体验了值班的滋味。 |
+| 561 | burn | 燃烧；烧毁；耗尽 | `A burns B. / A burns out.` | Don't burn yourself out before the launch. | 别在发布前把自己累垮。 |
+| 562 | blow | 吹；爆炸 | `A blows B. / A blows up.` | A typo in the config blew up the pipeline. | 配置里的一个拼写错误炸掉了流水线。 |
+| 563 | dig | 挖；深入 | `A digs into B. / A digs B.` | Dig into the logs to find the root cause. | 深入日志找到根本原因。 |
+| 564 | bite | 咬；反噬 | `A bites B. / A bites back.` | Tech debt always bites back at the worst time. | 技术债总在最糟的时候反咬一口。 |
+| 565 | jump | 跳；快速跳转 | `A jumps. / A jumps to B.` | The latency jumped from 50ms to 500ms. | 延迟从 50ms 跳到了 500ms。 |
+| 566 | kick | 踢；启动 | `A kicks B. / A kicks off B.` | The cron job kicks off every hour. | 定时任务每小时启动一次。 |
+| 567 | knock | 敲；击倒 | `A knocks B. / A knocks B out.` | A bad config knocked the service offline. | 一个错误配置把服务打下线了。 |
+| 568 | dive | 潜水；深入 | `A dives into B.` | Let's dive into the source code. | 让我们深入源代码看看。 |
+| 569 | acknowledge | 确认收到；承认 | `A acknowledges B. / A acknowledges that S.` | The server acknowledges every request with an ACK. | 服务器用 ACK 确认每个请求。 |
+| 570 | address | 处理；解决；向...讲话 | `A addresses B.` | The patch addresses three security issues. | 这个补丁解决了三个安全问题。 |
+| 571 | advocate | 倡导；主张 | `A advocates B. / A advocates for B.` | She advocates for test-driven development. | 她倡导测试驱动开发。 |
+| 572 | cite | 引用；举例 | `A cites B.` | The report cited three major outages last quarter. | 报告引用了上季度三次重大故障。 |
+| 573 | comment | 评论；发表意见 | `A comments on B. / A comments that S.` | Please comment on the PR before merging. | 合并前请对 PR 发表意见。 |
+| 574 | compose | 撰写；组成 | `A composes B.` | The developer composes a detailed commit message. | 开发者撰写详细的提交信息。 |
+| 575 | draft | 起草；草拟 | `A drafts B.` | Draft the API spec before coding. | 编码前先起草 API 规范。 |
+| 576 | edit | 编辑；修改 | `A edits B.` | Edit the config file to change the timeout. | 编辑配置文件修改超时时间。 |
+| 577 | emphasize | 强调；着重 | `A emphasizes B. / A emphasizes that S.` | The post-mortem emphasized the need for better monitoring. | 复盘强调了加强监控的必要性。 |
+| 578 | illustrate | 说明；举例说明 | `A illustrates B. / A illustrates how S.` | The diagram illustrates the data flow. | 这张图说明了数据流转。 |
+| 579 | imply | 暗示；意味着 | `A implies B. / A implies that S.` | A 500 error implies the server crashed. | 500 错误意味着服务器崩溃了。 |
+| 580 | indicate | 表明；显示；指示 | `A indicates B. / A indicates that S.` | The logs indicate a memory leak. | 日志表明存在内存泄漏。 |
+| 581 | note | 注意；记录；指出 | `A notes B. / A notes that S.` | Note that the API key expires in 30 days. | 注意 API 密钥 30 天后过期。 |
+| 582 | outline | 概述；勾画轮廓 | `A outlines B.` | The RFC outlines the new architecture. | RFC 概述了新架构。 |
+| 583 | specify | 指定；明确说明 | `A specifies B.` | Specify the port number in the config file. | 在配置文件中指定端口号。 |
+| 584 | acquire | 获得；收购 | `A acquires B.` | The service acquires a lock before writing. | 服务在写入前先获取锁。 |
+| 585 | appreciate | 感激；欣赏；理解 | `A appreciates B.` | I appreciate the detailed code review. | 感谢细致的代码评审。 |
+| 586 | assure | 确保；使确信 | `A assures B. / A assures that S.` | The health check assures the service is alive. | 健康检查确保服务是活的。 |
+| 587 | benefit | 受益；得益于 | `A benefits from B.` | The team benefits from pair programming. | 团队从结队编程中受益。 |
+| 588 | challenge | 挑战；质疑 | `A challenges B.` | The edge case challenged our assumptions. | 这个边界情况挑战了我们的假设。 |
+| 589 | consult | 咨询；查阅 | `A consults B.` | Consult the docs before opening an issue. | 提 issue 前先查阅文档。 |
+| 590 | encounter | 遇到；遭遇 | `A encounters B.` | We encountered a race condition in production. | 我们在生产环境遇到了竞态条件。 |
+| 591 | exceed | 超过；超出 | `A exceeds B.` | The request rate exceeded the rate limit. | 请求速率超过了限流阈值。 |
+| 592 | extract | 提取；抽取 | `A extracts B from C.` | Extract the shared logic into a utility module. | 把共享逻辑提取到工具模块。 |
+| 593 | grant | 授予；准予 | `A grants B to C.` | Grant read-only access to the auditor. | 授予审计员只读权限。 |
+| 594 | guarantee | 保证；担保 | `A guarantees B. / A guarantees that S.` | A mutex guarantees exclusive access. | 互斥锁保证独占访问。 |
+| 595 | influence | 影响；左右 | `A influences B.` | User feedback directly influences the roadmap. | 用户反馈直接影响产品路线图。 |
+| 596 | lack | 缺乏；缺少 | `A lacks B.` | The legacy system lacks proper error handling. | 遗留系统缺乏恰当的错误处理。 |
+| 597 | modify | 修改；变更 | `A modifies B.` | The script modifies the database schema. | 脚本修改数据库模式。 |
+| 598 | motivate | 激励；驱使 | `A motivates B to do C.` | The outage motivated us to improve monitoring. | 那次故障促使我们改进监控。 |
+| 599 | pose | 提出；造成 | `A poses B.` | Unvalidated input poses a security risk. | 未校验的输入构成安全风险。 |
+| 600 | prompt | 提示；促使 | `A prompts B to do C.` | The error prompted us to re-examine the logic. | 这个错误促使我们重新检查逻辑。 |
+| 601 | pursue | 追求；从事 | `A pursues B.` | We're pursuing a microservices migration. | 我们在推动微服务迁移。 |
+| 602 | react | 反应；回应 | `A reacts to B.` | The circuit breaker reacts to consecutive failures. | 断路器对连续失败做出反应。 |
+| 603 | restrict | 限制；约束 | `A restricts B to C.` | Restrict API access to internal IPs only. | 将 API 访问限制为内网 IP。 |
+| 604 | reverse | 逆转；反转 | `A reverses B.` | The rollback reversed the breaking change. | 回滚逆转了那个破坏性变更。 |
+| 605 | shift | 转移；转变 | `A shifts B to C.` | We shifted traffic to the backup cluster. | 我们把流量转移到备用集群。 |
+| 606 | tackle | 处理；解决 | `A tackles B.` | The sprint tackled three performance issues. | 这个迭代处理了三个性能问题。 |
+| 607 | tend | 倾向于；照顾 | `A tends to do B.` | Microservices tend to increase operational complexity. | 微服务倾向于增加运维复杂度。 |
+| 608 | withdraw | 撤回；提取 | `A withdraws B.` | The team withdrew the deprecated endpoint. | 团队撤回了已弃用的端点。 |
+| 609 | utilize | 使用；利用 | `A utilizes B.` | The cache utilizes Redis for in-memory storage. | 缓存利用 Redis 做内存存储。 |
+| 610 | compensate | 补偿；弥补 | `A compensates for B.` | Retries compensate for transient network failures. | 重试弥补瞬时网络故障。 |
+| 611 | constitute | 构成；组成 | `A constitutes B.` | Three services constitute the core platform. | 三个服务构成核心平台。 |
+| 612 | dictate | 决定；支配 | `A dictates B.` | The SLA dictates the uptime requirements. | SLA 决定了正常运行时间要求。 |
+| 613 | differ | 不同；有区别 | `A differs from B.` | Production behavior often differs from staging. | 生产环境行为常与预发布环境不同。 |
+| 614 | direct | 指导；引导 | `A directs B to C.` | The load balancer directs traffic to healthy nodes. | 负载均衡器将流量导向健康节点。 |
+| 615 | dominate | 主导；支配 | `A dominates B.` | One slow query dominated the CPU profile. | 一个慢查询主导了 CPU 分析。 |
+| 616 | echo | 附和；回响 | `A echoes B.` | The team echoed the CTO's call for simpler systems. | 团队附和 CTO 对更简单系统的呼吁。 |
+| 617 | employ | 使用；雇用 | `A employs B.` | The system employs a pub-sub pattern. | 系统采用了发布-订阅模式。 |
+| 618 | exercise | 行使；运用 | `A exercises B.` | The tests exercise every code path. | 测试覆盖了每条代码路径。 |
+| 619 | facilitate | 促进；推动 | `A facilitates B.` | The API gateway facilitates service discovery. | API 网关促进了服务发现。 |
+| 620 | found | 创立；建立 | `A founds B.` | The team founded the project on solid principles. | 团队把项目建立在坚实的原则之上。 |
+| 621 | frame | 设计；表述 | `A frames B as C.` | Frame the proposal in terms of business value. | 从业务价值的角度表述这个提案。 |
+| 622 | govern | 治理；决定 | `A governs B.` | The IAM policy governs who can access the bucket. | IAM 策略治理谁能访问存储桶。 |
+| 623 | impose | 强加；施加 | `A imposes B on C.` | Rate limiting imposes a cap on API calls. | 限流对 API 调用施加了上限。 |
+| 624 | interpret | 解释；解读 | `A interprets B as C.` | The parser interprets JSON into a data structure. | 解析器将 JSON 解读为数据结构。 |
+| 625 | intervene | 干预；介入 | `A intervenes. / A intervenes in B.` | The on-call intervened when the alert fired. | 告警触发时值班介入了。 |
+| 626 | justify | 证明...合理 | `A justifies B.` | The performance gain justifies the added complexity. | 性能提升证明了增加复杂度的合理性。 |
+| 627 | mount | 安装；挂载；增加 | `A mounts B.` | Mount the persistent volume before starting the pod. | 启动 pod 前挂载持久卷。 |
+| 628 | perceive | 感知；认为 | `A perceives B as C.` | Users perceive latency above 200ms as slow. | 用户将 200ms 以上的延迟感知为慢。 |
+| 629 | persist | 坚持；持续存在 | `A persists. / A persists in B.` | The connection pool persists across requests. | 连接池在请求间持续存在。 |
+| 630 | preserve | 保留；维护 | `A preserves B.` | Preserve the original error context when re-throwing. | 重新抛出时保留原始错误上下文。 |
+| 631 | proceed | 继续；进行 | `A proceeds with B. / A proceeds to do B.` | The pipeline proceeds to the deploy stage. | 流水线进入部署阶段。 |
+| 632 | reckon | 认为；估计 | `A reckons that S. / A reckons B.` | I reckon the fix will take two hours. | 我估计这个修复要花两小时。 |
+| 633 | regard | 认为；看待 | `A regards B as C.` | We regard code review as essential, not optional. | 我们认为代码评审是必需的，不是可选的。 |
+| 634 | reinforce | 加强；强化 | `A reinforces B.` | The incident reinforced the importance of testing. | 这次事故强化了测试的重要性。 |
+| 635 | resist | 抵抗；抵制 | `A resists B.` | The team resisted the urge to rewrite from scratch. | 团队抵制了从零重写的冲动。 |
+| 636 | reward | 奖励；回报 | `A rewards B with C.` | Clean interfaces reward you with easier maintenance. | 清晰的接口用更易维护来回报你。 |
+| 637 | seize | 抓住；把握 | `A seizes B.` | Seize the opportunity to refactor during the migration. | 趁迁移之机把握重构的机会。 |
+| 638 | settle | 解决；定居 | `A settles B. / A settles on B.` | The team settled on a hybrid approach. | 团队最终确定了混合方案。 |
+| 639 | strengthen | 加强；强化 | `A strengthens B.` | Type checking strengthens the codebase against bugs. | 类型检查强化代码库以抵御缺陷。 |
+| 640 | strive | 努力；奋斗 | `A strives to do B. / A strives for B.` | We strive for 99.9% uptime. | 我们努力达成 99.9% 的正常运行时间。 |
+| 641 | supervise | 监督；管理 | `A supervises B.` | The orchestrator supervises all running containers. | 编排器管理所有运行中的容器。 |
+| 642 | suspend | 暂停；中止 | `A suspends B.` | The OS suspended the process due to OOM. | 操作系统因内存不足中止了进程。 |
+| 643 | terminate | 终止；结束 | `A terminates B.` | The load balancer terminates idle connections. | 负载均衡器终止空闲连接。 |
+| 644 | tolerate | 容忍；忍受 | `A tolerates B.` | The system tolerates up to two node failures. | 系统容忍最多两个节点故障。 |
+| 645 | undergo | 经历；经受 | `A undergoes B.` | The database undergoes a major version upgrade. | 数据库经历了一次主版本升级。 |
+| 646 | undermine | 削弱；破坏 | `A undermines B.` | Skipping tests undermines the team's confidence. | 跳过测试削弱团队的信心。 |
+| 647 | undertake | 承担；从事 | `A undertakes B.` | The team undertook a major refactoring effort. | 团队承担了一次重大重构工作。 |
+| 648 | voice | 表达；说出 | `A voices B.` | She voiced her concerns about the timeline. | 她表达了对时间表的担忧。 |
+| 649 | volunteer | 自愿；主动 | `A volunteers to do B.` | One developer volunteered to lead the migration. | 一位开发者主动请缨主导迁移。 |
+| 650 | withstand | 承受；经受住 | `A withstands B.` | The system withstood the Black Friday traffic spike. | 系统经受住了黑五流量高峰。 |
+| 651 | witness | 见证；目击 | `A witnesses B.` | We witnessed a 10x traffic increase after launch. | 发布后我们见证了 10 倍流量增长。 |
+| 652 | behave | 行为；表现 | `A behaves. / A behaves like B.` | The service behaves differently under load. | 服务在负载下表现不同。 |
+| 653 | drag | 拖；拽 | `A drags B.` | The slow query dragged down the entire page. | 慢查询拖慢了整个页面。 |
+| 654 | explode | 爆炸；激增 | `A explodes. / A explodes to B.` | The error count exploded after the deploy. | 部署后错误数激增。 |
+| 655 | scream | 尖叫 | `A screams. / A screams for B.` | The CPU fan screams during a full build. | 全量构建时 CPU 风扇尖啸。 |
+| 656 | weigh | 称重；权衡 | `A weighs B against C.` | Weigh the cost of refactoring against the benefits. | 权衡重构的成本与收益。 |
+| 657 | tear | 撕裂；撕破 | `A tears B. / A tears B down.` | Tear down the test environment after validation. | 验证后拆除测试环境。 |
+| 658 | belong | 属于 | `A belongs to B.` | This config belongs in the environment variables. | 这个配置属于环境变量。 |
+| 659 | anticipate | 预期；预料 | `A anticipates B. / A anticipates that S.` | We anticipate a traffic spike during the event. | 我们预期活动期间会有流量高峰。 |
+| 660 | classify | 分类；归类 | `A classifies B as C.` | The firewall classifies traffic as trusted or untrusted. | 防火墙将流量归类为可信或不可信。 |
+| 661 | collapse | 崩溃；倒塌 | `A collapses. / A collapses into B.` | The monolith collapsed under heavy load. | 单体在重负载下崩溃了。 |
+| 662 | command | 命令；指挥 | `A commands B to do C.` | The CLI tool commands the daemon to restart. | CLI 工具命令守护进程重启。 |
+| 663 | confront | 面对；对抗 | `A confronts B.` | The team confronted years of accumulated tech debt. | 团队面对多年累积的技术债。 |
+| 664 | cope | 应对；处理 | `A copes with B.` | The thread pool helps the server cope with bursts. | 线程池帮助服务器应对突发流量。 |
+| 665 | decline | 下降；拒绝 | `A declines. / A declines B.` | The request rate declined after the cache warmed up. | 缓存预热后请求速率下降了。 |
+| 666 | desire | 渴望；想要 | `A desires B. / A desires to do B.` | Every developer desires a fast CI pipeline. | 每个开发者都渴望快速的 CI 流水线。 |
+| 667 | dismiss | 驳回；解雇 | `A dismisses B.` | Don't dismiss the edge case — it will bite you. | 别忽略那个边界情况，它迟早会咬你。 |
+| 668 | display | 显示；展示 | `A displays B.` | The dashboard displays real-time latency metrics. | 仪表盘显示实时延迟指标。 |
+| 669 | disturb | 打扰；干扰 | `A disturbs B.` | Don't disturb the deploy with concurrent config changes. | 别在部署时用并发配置变更干扰它。 |
+| 670 | emerge | 出现；浮现 | `A emerges. / A emerges from B.` | A pattern emerged from the incident data. | 故障数据中浮现出一个模式。 |
+| 671 | escape | 逃脱；避免 | `A escapes B. / A escapes.` | The null value escaped validation and crashed the server. | 空值逃过了校验，导致服务器崩溃。 |
+| 672 | evolve | 演变；进化 | `A evolves. / A evolves into B.` | The architecture evolved from monolith to microservices. | 架构从单体演变为微服务。 |
+| 673 | fade | 消退；褪色 | `A fades. / A fades away.` | The alert storm faded after the incident resolved. | 故障解决后告警风暴消退了。 |
+| 674 | fulfill | 满足；完成 | `A fulfills B.` | The API response fulfills the GraphQL query. | API 响应满足了 GraphQL 查询。 |
+| 675 | grasp | 理解；抓住 | `A grasps B.` | New hires quickly grasped the deployment flow. | 新人很快掌握了部署流程。 |
+| 676 | hesitate | 犹豫 | `A hesitates to do B.` | Don't hesitate to escalate when the site is down. | 网站挂了就不要犹豫，立即升级。 |
+| 677 | inspire | 激励；启发 | `A inspires B to do C.` | The outage inspired a complete monitoring overhaul. | 那次故障启发了一次彻底的监控改造。 |
+| 678 | interfere | 干涉；干扰 | `A interferes with B.` | Background tasks should not interfere with user requests. | 后台任务不应干扰用户请求。 |
+| 679 | match | 匹配；相符 | `A matches B.` | The test output must match the expected snapshot. | 测试输出必须匹配预期快照。 |
+| 680 | neglect | 忽视；忽略 | `A neglects B.` | Neglecting error handling leads to silent failures. | 忽视错误处理会导致静默失败。 |
+| 681 | object | 反对 | `A objects to B.` | The reviewer objected to the tight coupling. | 评审者反对这种紧耦合。 |
+| 682 | pretend | 假装 | `A pretends to do B. / A pretends that S.` | Don't pretend the bug doesn't exist. | 别假装这个缺陷不存在。 |
+| 683 | question | 质疑；询问 | `A questions B.` | The auditor questioned the access control design. | 审计员质疑了访问控制设计。 |
+| 684 | rely | 依赖；依靠 | `A relies on B.` | The feature relies on a third-party API. | 这个功能依赖第三方 API。 |
+| 685 | sacrifice | 牺牲 | `A sacrifices B for C.` | We sacrificed some latency for stronger consistency. | 我们牺牲了一些延迟以换取更强的一致性。 |
+| 686 | scatter | 分散；散开 | `A scatters B across C.` | The log files scattered across three different servers. | 日志文件分散在三台不同的服务器上。 |
+| 687 | surround | 包围；围绕 | `A surrounds B.` | The debate surrounded the choice of database. | 讨论围绕着数据库的选择。 |
+| 688 | threaten | 威胁；危及 | `A threatens B.` | The memory leak threatened the system's stability. | 内存泄漏威胁到系统的稳定性。 |
+| 689 | upset | 打乱；使不安 | `A upsets B.` | A late requirement change upset the sprint plan. | 迟来的需求变更打乱了迭代计划。 |
+| 690 | abandon | 放弃；抛弃 | `A abandons B.` | We abandoned the old pipeline in favor of GitHub Actions. | 我们放弃了旧的流水线，改用 GitHub Actions。 |
+| 691 | arise | 出现；产生 | `A arises. / A arises from B.` | Problems always arise during integration testing. | 集成测试阶段总会出现问题。 |
+| 692 | bear | 承受；忍受 | `A bears B.` | The index bears the load of heavy read traffic. | 索引承受着大量读流量的负载。 |
+| 693 | capture | 捕获；捕捉 | `A captures B.` | The SDK captures all unhandled exceptions. | SDK 捕获所有未处理的异常。 |
+| 694 | fear | 害怕；担心 | `A fears B. / A fears that S.` | The team feared a data loss incident. | 团队担心数据丢失事件。 |
+| 695 | gather | 收集；聚集 | `A gathers B.` | The monitoring agent gathers metrics every minute. | 监控代理每分钟收集指标。 |
+| 696 | harm | 伤害；损害 | `A harms B.` | Hard-coded credentials harm the security posture. | 硬编码凭据损害安全态势。 |
+| 697 | highlight | 突出；强调 | `A highlights B.` | The error log highlights the exact line of failure. | 错误日志高亮了确切的失败行。 |
+| 698 | isolate | 隔离；孤立 | `A isolates B from C.` | Docker isolates the application from the host OS. | Docker 将应用与宿主机操作系统隔离开。 |
+| 699 | land | 着陆；获得；落地 | `A lands B. / A lands.` | The PR finally landed on main after three reviews. | PR 经过三次评审后终于合入主分支。 |
+| 700 | risk | 冒险；冒...的风险 | `A risks B. / A risks doing B.` | Deploying on Friday risks ruining the weekend. | 周五部署冒险毁掉周末。 |
+| 701 | rule | 统治；裁决 | `A rules out B. / A rules that S.` | We ruled out a network issue after the ping test. | ping 测试后我们排除了网络问题。 |
+| 702 | sample | 抽样；采样 | `A samples B.` | The profiler samples CPU usage every 10ms. | 分析器每 10ms 采样一次 CPU 使用。 |
+| 703 | spread | 传播；扩散 | `A spreads B across C.` | The CDN spreads content across edge locations worldwide. | CDN 将内容传播到全球边缘节点。 |
+| 704 | strike | 打击；罢工 | `A strikes B. / A strikes.` | The outage struck at midnight during peak traffic. | 故障在午夜流量高峰时袭来。 |
+| 705 | transfer | 转移；传输 | `A transfers B to C.` | Transfer the file to the remote server via SCP. | 通过 SCP 将文件传输到远程服务器。 |
+| 706 | trap | 困住；捕获 | `A traps B. / A is trapped in B.` | The team felt trapped in the legacy monolith. | 团队感觉被困在遗留单体中。 |
+| 707 | wander | 漫游；走神 | `A wanders. / A wanders through B.` | The discussion wandered into architecture territory. | 讨论跑题到了架构领域。 |
+| 708 | batch | 批量处理 | `A batches B.` | Batch the INSERT statements for better performance. | 批量执行 INSERT 语句以获得更好性能。 |
+| 709 | bootstrap | 引导启动；初始化 | `A bootstraps B.` | The script bootstraps the development environment. | 脚本引导启动开发环境。 |
+| 710 | coalesce | 合并（请求/事件） | `A coalesces B into C.` | The middleware coalesces multiple requests into one. | 中间件将多个请求合并为一个。 |
+| 711 | concatenate | 拼接（字符串/数组） | `A concatenates B with C.` | Concatenate the path segments with a slash. | 用斜杠拼接路径段。 |
+| 712 | contend | 竞争（锁/资源） | `A contends for B.` | Multiple goroutines contend for the mutex. | 多个 goroutine 竞争互斥锁。 |
+| 713 | deadlock | 死锁 | `A deadlocks. / A deadlocks on B.` | The two transactions deadlocked on the same table. | 两个事务在同一张表上死锁了。 |
+| 714 | deduplicate | 去重 | `A deduplicates B.` | The pipeline deduplicates events before processing. | 流水线在处理前去重事件。 |
+| 715 | deprecate | 弃用（旧 API/方法） | `A deprecates B.` | The team deprecated the v1 endpoint in favor of v2. | 团队弃用了 v1 端点，改用 v2。 |
+| 716 | drain | 排空（连接/队列） | `A drains B.` | Drain the connection pool before restarting. | 重启前排空连接池。 |
+| 717 | evict | 逐出（缓存） | `A evicts B from C.` | Redis evicts the least recently used keys first. | Redis 优先逐出最近最少使用的键。 |
+| 718 | expire | 过期（TTL/会话） | `A expires. / A expires after B.` | The session expires after 30 minutes of inactivity. | 会话在 30 分钟无活动后过期。 |
+| 719 | hydrate | 填充（缓存/对象） | `A hydrates B with C.` | Hydrate the user object with data from the database. | 用数据库中的数据填充用户对象。 |
+| 720 | instrument | 插桩（代码/监控） | `A instruments B.` | Instrument the code with OpenTelemetry traces. | 用 OpenTelemetry 追踪插桩代码。 |
+| 721 | intercept | 拦截（请求） | `A intercepts B.` | The middleware intercepts every incoming request. | 中间件拦截每个传入请求。 |
+| 722 | invalidate | 使失效（缓存） | `A invalidates B.` | Invalidate the cache after updating the record. | 更新记录后使缓存失效。 |
+| 723 | livelock | 活锁 | `A livelocks.` | The retry loop livelocked without making progress. | 重试循环陷入活锁，毫无进展。 |
+| 724 | marshall | 编组（数据） | `A marshalls B into C.` | Marshall the struct into JSON before sending. | 发送前将结构体编组为 JSON。 |
+| 725 | offload | 卸载；分流 | `A offloads B to C.` | Offload CPU-intensive tasks to a worker queue. | 将 CPU 密集型任务分流到工作队列。 |
+| 726 | orchestrate | 编排（容器/服务） | `A orchestrates B.` | Kubernetes orchestrates hundreds of containers. | Kubernetes 编排数百个容器。 |
+| 727 | partition | 分区 | `A partitions B by C.` | Partition the table by date for faster queries. | 按日期对表分区以加快查询。 |
+| 728 | poll | 轮询；拉取 | `A polls B.` | The client polls the server every 5 seconds for updates. | 客户端每 5 秒轮询服务器获取更新。 |
+| 729 | prefetch | 预取 | `A prefetches B.` | The CPU prefetches data into the cache before it's needed. | CPU 在需要之前将数据预取到缓存中。 |
+| 730 | preload | 预加载 | `A preloads B.` | Preload the critical CSS to speed up rendering. | 预加载关键 CSS 以加速渲染。 |
+| 731 | propagate | 传播（上下文/追踪） | `A propagates B to C.` | Propagate the trace context across service boundaries. | 跨服务边界传播追踪上下文。 |
+| 732 | provision | 配置/供给（基础设施） | `A provisions B.` | Terraform provisions the cloud infrastructure. | Terraform 配置云基础设施。 |
+| 733 | purge | 清除（数据/队列） | `A purges B.` | Purge the dead-letter queue after investigating. | 调查后清除死信队列。 |
+| 734 | race | 竞态 | `A races with B. / A races.` | Two writes raced and corrupted the counter. | 两次写入发生竞态，损坏了计数器。 |
+| 735 | rebalance | 再平衡 | `A rebalances B.` | Kafka rebalances partitions when a consumer joins. | 消费者加入时 Kafka 再平衡分区。 |
+| 736 | reshard | 重新分片 | `A reshards B.` | The database reshards data across new nodes. | 数据库跨新节点重新分片数据。 |
+| 737 | saturate | 饱和（带宽/资源） | `A saturates B.` | The backup job saturated the network link. | 备份任务使网络链路饱和。 |
+| 738 | seed | 播种（数据库初始数据） | `A seeds B with C.` | Seed the database with test fixtures before integration tests. | 集成测试前用测试夹具填充数据库。 |
+| 739 | shard | 分片 | `A shards B across C.` | Shard the user data across three database instances. | 将用户数据分片到三个数据库实例。 |
+| 740 | stale | 变陈旧（数据/缓存） | `A stales. / A becomes stale.` | The cached token went stale after one hour. | 缓存令牌一小时后变陈旧。 |
+| 741 | starve | 饿死（线程/资源饥饿） | `A starves B. / A is starved of B.` | A low-priority task can be starved of CPU time. | 低优先级任务可能被饿死 CPU 时间。 |
+| 742 | stream | 流式传输 | `A streams B to C.` | The server streams logs to the monitoring dashboard. | 服务器将日志流式传输到监控仪表盘。 |
+| 743 | swarm | 集群；蜂群 | `A swarms. / A swarms around B.` | The containers swarm around the orchestrator. | 容器围绕编排器形成集群。 |
+| 744 | throttle | 节流；限速 | `A throttles B.` | The API gateway throttles requests above 1000 per second. | API 网关对超过每秒 1000 次的请求限速。 |
+| 745 | truncate | 截断（字符串/表） | `A truncates B.` | The log output truncates long messages at 200 characters. | 日志输出将长消息截断为 200 字符。 |
+| 746 | unmarshall | 解组（数据） | `A unmarshalls B into C.` | Unmarshall the JSON response into a typed struct. | 将 JSON 响应解组为类型化结构体。 |
+| 747 | vacuum | 清理（数据库） | `A vacuums B.` | PostgreSQL vacuums dead tuples to reclaim space. | PostgreSQL 清理死元组以回收空间。 |
+| 748 | absorb | 承受；缓冲（流量冲击） | `A absorbs B.` | The CDN absorbs the traffic spike without breaking. | CDN 在不崩溃的情况下吸收了流量高峰。 |
+| 749 | accomplish | 完成；达成 | `A accomplishes B.` | The refactoring accomplished two goals at once. | 重构一次达成了两个目标。 |
+| 750 | advance | 推进；提升 | `A advances B.` | Each commit advances the project incrementally. | 每次提交递增地推进项目。 |
+| 751 | aid | 辅助；帮助 | `A aids B in doing C.` | Static analysis aids developers in catching bugs early. | 静态分析帮助开发者早期捕获缺陷。 |
+| 752 | alter | 改变；修改 | `A alters B.` | The hotfix alters the database schema without downtime. | 热修复在不中断服务的情况下修改数据库模式。 |
+| 753 | await | 等待（异步等待） | `A awaits B.` | The async function awaits the API response. | 异步函数等待 API 响应。 |
+| 754 | back | 支持；回退 | `A backs B. / A backs up B.` | Always back up the database before migration. | 迁移前务必备份数据库。 |
+| 755 | ban | 封禁 | `A bans B.` | The firewall bans IPs after three failed attempts. | 防火墙在三次失败尝试后封禁 IP。 |
+| 756 | boost | 提升；加速 | `A boosts B.` | Indexing boosted the query performance by 10x. | 索引将查询性能提升了 10 倍。 |
+| 757 | cease | 停止；终止 | `A ceases. / A ceases to do B.` | The container ceased responding after OOM. | 容器在 OOM 后停止响应。 |
+| 758 | combine | 组合；合并 | `A combines B with C.` | Combine multiple API calls into a single batch request. | 将多个 API 调用合并为单个批量请求。 |
+| 759 | concentrate | 集中；专注 | `A concentrates on B.` | Concentrate the business logic in the service layer. | 将业务逻辑集中在服务层。 |
+| 760 | confuse | 混淆；困惑 | `A confuses B.` | Ambiguous error messages confuse users and developers alike. | 模糊的错误信息让用户和开发者都困惑。 |
+| 761 | construct | 构建；构造 | `A constructs B.` | The builder pattern constructs complex objects step by step. | 建造者模式逐步构造复杂对象。 |
+| 762 | convey | 传达；传递 | `A conveys B to C.` | A good commit message conveys the intent clearly. | 好的提交信息清晰地传达意图。 |
+| 763 | correspond | 对应；通信 | `A corresponds to B.` | Each microservice corresponds to a bounded context. | 每个微服务对应一个限界上下文。 |
+| 764 | craft | 精心制作 | `A crafts B.` | Craft a clear and concise API response. | 精心设计清晰简洁的 API 响应。 |
+| 765 | dedicate | 致力于 | `A dedicates B to C.` | Dedicate one thread per connection for simplicity. | 为简单起见，每个连接专用一个线程。 |
+| 766 | derive | 派生；源自 | `A derives B from C.` | The derived class inherits from the base class. | 派生类继承自基类。 |
+| 767 | deserve | 值得 | `A deserves B.` | Every bug fix deserves a regression test. | 每个缺陷修复都值得一个回归测试。 |
+| 768 | diminish | 减少；削弱 | `A diminishes B.` | Technical debt diminishes team velocity over time. | 技术债随时间削弱团队速度。 |
+| 769 | disappear | 消失 | `A disappears.` | The alert disappeared after the instance restarted. | 实例重启后告警消失了。 |
+| 770 | distinguish | 区分；辨别 | `A distinguishes B from C.` | Distinguish between transient and persistent errors. | 区分瞬时错误和持久错误。 |
+| 771 | divide | 划分；分割 | `A divides B into C.` | Divide the monolith into loosely coupled modules. | 将单体划分为松耦合模块。 |
+| 772 | duplicate | 复制；重复 | `A duplicates B.` | Duplicate the staging environment for load testing. | 复制预发布环境用于负载测试。 |
+| 773 | ease | 缓解；减轻 | `A eases B.` | Async processing eases the load on the main thread. | 异步处理减轻主线程负载。 |
+| 774 | elaborate | 详细说明 | `A elaborates on B.` | Elaborate on the design decision in the RFC. | 在 RFC 中详细说明设计决策。 |
+| 775 | emit | 发出；发射 | `A emits B.` | The service emits metrics to the monitoring system. | 服务向监控系统发出指标。 |
+| 776 | endure | 忍受；持续 | `A endures B.` | The legacy system endured years of feature creep. | 遗留系统忍受了多年的功能膨胀。 |
+| 777 | examine | 检查；审查 | `A examines B.` | The profiler examines every function call for hotspots. | 分析器检查每个函数调用以找热点。 |
+| 778 | export | 导出 | `A exports B to C.` | Export the dashboard as a shareable JSON file. | 将仪表盘导出为可共享的 JSON 文件。 |
+| 779 | favor | 偏爱；有利于 | `A favors B over C.` | Favor composition over inheritance in OOP design. | 在面向对象设计中，优先使用组合而非继承。 |
+| 780 | foster | 培养；促进 | `A fosters B.` | Code review fosters a culture of shared ownership. | 代码评审培养共同拥有的文化。 |
+| 781 | generalize | 概括；泛化 | `A generalizes B.` | Generalize the helper function to handle all edge cases. | 泛化辅助函数以处理所有边界情况。 |
+| 782 | hint | 暗示；提示 | `A hints at B. / A hints that S.` | The log message hints at a connection pool issue. | 日志信息暗示连接池有问题。 |
+| 783 | ignite | 点燃；启动 | `A ignites B.` | A single tweet ignited a debate about REST vs GraphQL. | 一条推特点燃了 REST vs GraphQL 的争论。 |
+| 784 | immerse | 沉浸 | `A immerses B in C.` | New hires immerse themselves in the codebase for a week. | 新人花一周时间沉浸在代码库中。 |
+| 785 | incorporate | 纳入；合并 | `A incorporates B into C.` | Incorporate user feedback into the next sprint plan. | 将用户反馈纳入下一个迭代计划。 |
+| 786 | inject | 注入 | `A injects B into C.` | Dependency injection injects the logger into the service. | 依赖注入将日志器注入到服务中。 |
+| 787 | invert | 反转；倒置 | `A inverts B.` | Invert the if-condition to reduce nesting. | 反转 if 条件以减少嵌套。 |
+| 788 | lag | 滞后 | `A lags behind B.` | The replica lagged behind the primary by 200 transactions. | 副本落后主库 200 个事务。 |
+| 789 | lapse | 失效；流逝 | `A lapses. / A lapses after B.` | The API token lapsed after 90 days of no rotation. | API 令牌在 90 天未轮换后失效。 |
+| 790 | loop | 循环 | `A loops through B.` | The event loop processes messages from the queue. | 事件循环处理队列中的消息。 |
+| 791 | manipulate | 操纵；控制 | `A manipulates B.` | The script manipulates the DOM after the page loads. | 脚本在页面加载后操纵 DOM。 |
+| 792 | mine | 挖掘（数据/日志） | `A mines B for C.` | Mine the logs for patterns before the outage. | 挖掘日志中以找出故障前的模式。 |
+| 793 | mislead | 误导 | `A misleads B.` | Misleading log messages misled the investigation. | 误导性的日志信息误导了排查。 |
+| 794 | navigate | 导航；浏览 | `A navigates B.` | The CLI helps users navigate the configuration options. | CLI 帮助用户浏览配置选项。 |
+| 795 | nest | 嵌套 | `A nests B inside C.` | Nest the callback inside a try-catch for safety. | 将回调嵌套在 try-catch 中以保安全。 |
+| 796 | nudge | 轻推；提醒 | `A nudges B to do C.` | The bot nudges reviewers when a PR sits idle for a day. | PR 闲置一天后，机器人提醒评审者。 |
+| 797 | obey | 遵守 | `A obeys B.` | The client must obey the rate limit headers. | 客户端必须遵守限流头部。 |
+| 798 | offset | 抵消；偏移 | `A offsets B.` | Caching offsets the increased load on the database. | 缓存抵消了数据库增加的压力。 |
+| 799 | omit | 省略 | `A omits B.` | Omit sensitive fields from the log output. | 日志输出中省略敏感字段。 |
+| 800 | overflow | 溢出 | `A overflows B. / A overflows.` | The buffer overflowed and corrupted adjacent memory. | 缓冲区溢出损坏了相邻内存。 |
+| 801 | override | 覆盖；重写 | `A overrides B.` | The subclass overrides the default validation logic. | 子类覆盖了默认校验逻辑。 |
+| 802 | oversee | 监督 | `A oversees B.` | The SRE team oversees the production infrastructure. | SRE 团队监督生产基础设施。 |
+| 803 | overwhelm | 压垮；淹没 | `A overwhelms B.` | The traffic spike overwhelmed the connection pool. | 流量高峰压垮了连接池。 |
+| 804 | pad | 填充（padding） | `A pads B with C.` | Pad the buffer with zeros before hashing. | 哈希前用零填充缓冲区。 |
+| 805 | peek | 偷看；预览 | `A peeks at B.` | Peek at the first message in the queue without dequeuing. | 偷看队列中第一条消息但不出队。 |
+| 806 | pin | 固定；锁定版本 | `A pins B to C.` | Pin the dependency to a specific version for reproducibility. | 将依赖锁定到特定版本以确保可复现性。 |
+| 807 | pivot | 旋转；转型 | `A pivots to B.` | The startup pivoted from B2C to B2B. | 这家创业公司从 B2C 转型到 B2B。 |
+| 808 | plummet | 骤降 | `A plummets.` | The response time plummeted after the optimization. | 优化后响应时间骤降。 |
+| 809 | polish | 打磨；润色 | `A polishes B.` | Polish the UI before the demo. | 演示前打磨 UI。 |
+| 810 | populate | 填充；写入数据 | `A populates B with C.` | The migration populates the new column with default values. | 迁移用默认值填充新列。 |
+| 811 | port | 移植（代码） | `A ports B to C.` | Port the Python script to Go for better performance. | 将 Python 脚本移植到 Go 以获得更好性能。 |
+| 812 | prime | 准备；预热 | `A primes B.` | Prime the cache before the traffic spike hits. | 在流量高峰到来前预热缓存。 |
+| 813 | probe | 探测；探查 | `A probes B.` | The readiness probe checks if the container is alive. | 就绪探针检查容器是否存活。 |
+| 814 | rate | 评估；评级 | `A rates B.` | Users rate the search results for relevance. | 用户对搜索结果的相关性进行评级。 |
+| 815 | refine | 精炼；改进 | `A refines B.` | Refine the search algorithm based on user feedback. | 基于用户反馈改进搜索算法。 |
+| 816 | reiterate | 重申 | `A reiterates B. / A reiterates that S.` | The post-mortem reiterates the importance of testing. | 复盘重申了测试的重要性。 |
+| 817 | retrieve | 检索；获取 | `A retrieves B from C.` | Retrieve the user profile from the cache first. | 首先从缓存中检索用户资料。 |
+| 818 | rid | 摆脱 | `A rids B of C.` | Rid the codebase of unused dependencies. | 清除代码库中未使用的依赖。 |
+| 819 | rotate | 轮换；旋转 | `A rotates B.` | Rotate the API keys every 90 days. | 每 90 天轮换一次 API 密钥。 |
+| 820 | ruin | 毁坏 | `A ruins B.` | A single bad deploy ruined the weekend for the on-call. | 一次糟糕的部署毁了值班的周末。 |
+| 821 | safeguard | 保护 | `A safeguards B from C.` | Circuit breakers safeguard the system from cascading failures. | 断路器保护系统免受级联故障。 |
+| 822 | scrape | 爬取（web scraping） | `A scrapes B.` | The crawler scrapes product data from e-commerce sites. | 爬虫从电商网站爬取商品数据。 |
+| 823 | scrutinize | 仔细审查 | `A scrutinizes B.` | The security team scrutinized every line of the patch. | 安全团队仔细审查了补丁的每一行。 |
+| 824 | sever | 切断 | `A severs B.` | The load balancer severs idle connections after 60 seconds. | 负载均衡器在 60 秒后切断空闲连接。 |
+| 825 | shed | 去除；阐明 | `A sheds B. / A sheds light on B.` | The investigation shed light on the root cause. | 调查阐明了根本原因。 |
+| 826 | shield | 屏蔽；防护 | `A shields B from C.` | A rate limiter shields the backend from abuse. | 限流器屏蔽后端免遭滥用。 |
+| 827 | simulate | 模拟 | `A simulates B.` | Simulate 10,000 concurrent users with a load test. | 用负载测试模拟 10000 并发用户。 |
+| 828 | soar | 飙升 | `A soars.` | The error rate soared after the deploy and triggered alerts. | 部署后错误率飙升并触发告警。 |
+| 829 | solidify | 巩固 | `A solidifies B.` | Solidify the API contract with integration tests. | 用集成测试巩固 API 契约。 |
+| 830 | span | 跨越；涵盖 | `A spans B.` | A single trace spans five microservices. | 一次追踪跨越五个微服务。 |
+| 831 | spawn | 产生；衍生 | `A spawns B.` | The process spawns a child thread for each request. | 进程为每个请求衍生一个子线程。 |
+| 832 | spike | 猛增 | `A spikes.` | CPU usage spiked to 99% during the batch job. | 批量任务期间 CPU 使用率猛增到 99%。 |
+| 833 | spill | 溢出；泄露 | `A spills into B.` | The log spill overfilled the disk. | 日志溢出填满了磁盘。 |
+| 834 | stack | 堆叠 | `A stacks B on top of C.` | The tech stack layers React on top of Node.js. | 技术栈将 React 叠在 Node.js 上。 |
+| 835 | stash | 储藏（git stash） | `A stashes B.` | Stash your uncommitted changes before pulling. | 拉取前储藏未提交的改动。 |
+| 836 | stimulate | 刺激；激发 | `A stimulates B.` | The outage stimulated interest in chaos engineering. | 故障激发了混沌工程的兴趣。 |
+| 837 | streamline | 精简；提高效率 | `A streamlines B.` | Automate the deploy pipeline to streamline releases. | 自动化部署流水线以精简发布。 |
+| 838 | strip | 剥离 | `A strips B from C.` | Strip sensitive data from the logs before shipping. | 传输前从日志中剥离敏感数据。 |
+| 839 | stun | 使震惊 | `A stuns B.` | The sudden traffic drop stunned the operations team. | 流量的突然下降震惊了运维团队。 |
+| 840 | substitute | 替代 | `A substitutes B for C.` | Substitute environment variables in the config template. | 在配置模板中替换环境变量。 |
+| 841 | suffice | 足够 | `A suffices. / A suffices to do B.` | A simple retry loop suffices for transient errors. | 简单的重试循环足以应对瞬时错误。 |
+| 842 | suppress | 压制 | `A suppresses B.` | Suppress duplicate alerts during a known incident. | 在已知故障期间压制重复告警。 |
+| 843 | surge | 激增 | `A surges.` | Traffic surges during the holiday shopping season. | 假日购物季流量激增。 |
+| 844 | sustain | 维持 | `A sustains B.` | The system cannot sustain 10,000 writes per second. | 系统无法维持每秒 10000 次写入。 |
+| 845 | sweep | 扫；清理 | `A sweeps B.` | The garbage collector sweeps unreachable objects. | 垃圾回收器清理不可达对象。 |
+| 846 | swell | 膨胀；增加 | `A swells.` | The message queue swelled during the outage. | 故障期间消息队列膨胀。 |
+| 847 | synchronize | 同步 | `A synchronizes B with C.` | Synchronize the local state with the server. | 将本地状态与服务器同步。 |
+| 848 | synthesize | 合成 | `A synthesizes B from C.` | The monitoring system synthesizes a health score from multiple signals. | 监控系统从多个信号合成健康评分。 |
+| 849 | tailor | 定制 | `A tailors B to C.` | Tailor the error message to the user's context. | 根据用户上下文定制错误信息。 |
+| 850 | thrive | 繁荣；兴旺 | `A thrives.` | Open source projects thrive on community contributions. | 开源项目因社区贡献而繁荣。 |
+| 851 | traverse | 遍历 | `A traverses B.` | The algorithm traverses the graph in O(n) time. | 算法以 O(n) 时间遍历图。 |
+| 852 | trim | 修剪；削减 | `A trims B.` | Trim the Docker image to reduce its size by 60%. | 修剪 Docker 镜像将其体积减少 60%。 |
+| 853 | troubleshoot | 排查故障 | `A troubleshoots B.` | The on-call engineer troubleshoots the production issue. | 值班工程师排查生产问题。 |
+| 854 | tune | 调优 | `A tunes B.` | Tune the garbage collector for low-latency workloads. | 为低延迟工作负载调优垃圾回收器。 |
+| 855 | uncover | 发现；揭露 | `A uncovers B.` | Fuzz testing uncovered a critical buffer overflow. | 模糊测试发现了一个严重的缓冲区溢出。 |
+| 856 | undo | 撤销 | `A undoes B.` | The transaction can undo all changes on failure. | 事务可以在失败时撤销所有更改。 |
+| 857 | unify | 统一 | `A unifies B.` | Unify the logging format across all services. | 统一所有服务的日志格式。 |
+| 858 | unpack | 拆包；解析 | `A unpacks B.` | The function unpacks the tuple into named variables. | 函数将元组解包为命名变量。 |
+| 859 | unveil | 公布；揭晓 | `A unveils B.` | The team unveiled the new architecture at the all-hands. | 团队在全员大会上公布了新架构。 |
+| 860 | urge | 催促；强烈建议 | `A urges B to do C.` | The security audit urged the team to patch immediately. | 安全审计催促团队立即打补丁。 |
+| 861 | vanish | 消失 | `A vanishes.` | The race condition vanished after adding a mutex. | 添加互斥锁后，竞态条件消失了。 |
+| 862 | visualize | 可视化 | `A visualizes B.` | The dashboard visualizes latency percentiles over time. | 仪表盘将随时间变化的延迟百分位可视化。 |
+| 863 | void | 使无效 | `A voids B.` | A failed payment voids the access token. | 支付失败使访问令牌无效。 |
+| 864 | wage | 进行 | `A wages B.` | The team wages a constant battle against technical debt. | 团队与技术债进行持续的斗争。 |
+| 865 | wane | 减弱；衰退 | `A wanes.` | Enthusiasm for the framework waned after performance issues. | 性能问题后对该框架的热情衰退了。 |
+| 866 | warp | 扭曲 | `A warps B.` | High load warped the latency measurements. | 高负载扭曲了延迟测量。 |
+| 867 | wind | 缠绕 | `A winds B.` | Wind down the old service after the migration. | 迁移后逐步停掉旧服务。 |
+| 868 | wither | 衰退 | `A withers.` | Legacy systems wither without maintenance. | 遗留系统不维护就会衰退。 |
+| 869 | wreck | 毁坏 | `A wrecks B.` | A bad migration wrecked the data integrity. | 一次糟糕的迁移毁坏了数据完整性。 |
+| 870 | yield | 产出；让步 | `A yields B.` | The benchmark yielded surprising performance insights. | 基准测试产出了令人意外的性能洞察。 |
+| 871 | zero | 归零；聚焦 | `A zeros in on B.` | The debugger zeroed in on the exact failing line. | 调试器聚焦到了确切失败的那一行。 |
+| 872 | zip | 压缩 | `A zips B.` | Zip the log files before archiving them. | 归档前压缩日志文件。 |
 
-## 三、如何真正掌握这些动词？
+## 三、81 个短语动词速查
+
+> 短语动词（phrasal verb）由"动词 + 介词/副词"构成，整体表达一个动作。以下按字母顺序排列。
+
+| No. | Phrasal Verb | 中文含义 | 核心句子模板 | 示例 | 中文例句 |
+|---:|---|---|---|---|---|
+| 1 | back off | 退避（重试策略） | `A backs off. / A backs off from B.` | The client backs off exponentially after repeated failures. | 客户端在反复失败后指数退避。 |
+| 2 | belong to | 属于 | `A belongs to B.` | This repository belongs to our team. | 这个仓库属于我们团队。 |
+| 3 | boil down | 归结为 | `A boils down to B.` | The performance issue boils down to a missing index. | 这个性能问题归结为一个缺失的索引。 |
+| 4 | break down | 分解；出故障 | `A breaks down B. / A breaks down.` | Break down the epic into smaller user stories. | 将史诗分解为更小的用户故事。 |
+| 5 | break out | 爆发；分离出 | `A breaks out of B. / A breaks out B.` | Break out the shared logic into a separate library. | 将共享逻辑分离到独立的库中。 |
+| 6 | bring up | 提出 | `A brings up B.` | She brought up a security concern. | 她提出了一个安全担忧。 |
+| 7 | bubble up | 向上浮现 | `A bubbles up to B.` | Unhandled errors bubble up to the global error handler. | 未处理的错误向上冒泡到全局错误处理器。 |
+| 8 | call off | 取消 | `A calls off B.` | The team called off the deploy due to the storm. | 团队因风暴取消了部署。 |
+| 9 | care about | 关心 | `A cares about B.` | Customers care about stability. | 客户关心稳定性。 |
+| 10 | carry on | 继续 | `A carries on with B.` | The pipeline carries on despite warnings. | 流水线虽有警告但继续运行。 |
+| 11 | carry out | 执行 | `A carries out B.` | Carry out the test plan. | 执行测试计划。 |
+| 12 | catch up | 赶上；追上 | `A catches up with B.` | The replica caught up with the primary after the lag. | 延迟后副本追上了主库。 |
+| 13 | check out | 检出（代码）；调查 | `A checks out B.` | Check out the feature branch before making changes. | 做改动前先检出功能分支。 |
+| 14 | clean up | 清理 | `A cleans up B.` | Clean up temporary files. | 清理临时文件。 |
+| 15 | come from | 来自 | `A comes from B.` | The problem comes from the network. | 问题来自网络。 |
+| 16 | come up | 出现；提出 | `A comes up. / A comes up with B.` | The team came up with a clever workaround. | 团队想出了一个巧妙的工作方案。 |
+| 17 | come with | 附带 | `A comes with B.` | The SDK comes with examples. | SDK 附带示例。 |
+| 18 | consist of | 由……组成 | `A consists of B.` | The system consists of three services. | 系统由三个服务组成。 |
+| 19 | cut off | 切断；中断 | `A cuts off B.` | The firewall cut off the malicious connection. | 防火墙切断了恶意连接。 |
+| 20 | cut over | 切换（迁移的最后一步） | `A cuts over from B to C.` | The team cut over from the old database to the new one at midnight. | 团队在凌晨从旧数据库切换到新数据库。 |
+| 21 | deal with | 处理 | `A deals with B.` | We need to deal with this risk. | 我们需要处理这个风险。 |
+| 22 | depend on | 依赖 | `A depends on B.` | This feature depends on Redis. | 这个功能依赖 Redis。 |
+| 23 | drop out | 退出；掉线 | `A drops out. / A drops out of B.` | The node dropped out of the cluster after a network split. | 网络分裂后该节点退出了集群。 |
+| 24 | end up | 最终；以...告终 | `A ends up doing B. / A ends up C.` | Without monitoring, small issues end up as outages. | 没有监控，小问题最终会变成宕机。 |
+| 25 | fall back | 降级/回退（兜底方案） | `A falls back to B.` | Fall back to the default config if the file is missing. | 如果文件缺失，回退到默认配置。 |
+| 26 | fan out | 扇出 | `A fans out B to C.` | The message queue fans out events to multiple consumers. | 消息队列将事件扇出到多个消费者。 |
+| 27 | figure out | 弄清楚 | `A figures out B.` | We figured out the root cause. | 我们弄清楚了根因。 |
+| 28 | fill in | 填写 | `A fills in B.` | Fill in the required fields. | 填写必填字段。 |
+| 29 | follow up | 跟进 | `A follows up on B.` | I will follow up on this issue. | 我会跟进这个问题。 |
+| 30 | give up | 放弃 | `A gives up B.` | Do not give up learning English. | 不要放弃学习英语。 |
+| 31 | go through | 经历；仔细检查 | `A goes through B.` | Go through the entire PR before approving. | 批准前仔细检查整个 PR。 |
+| 32 | hand over | 移交；交出 | `A hands over B to C.` | Hand over the on-call duties to the next shift. | 将值班职责移交给下一个班次。 |
+| 33 | hang out | 挂起；逗留 | `A hangs out. / A hangs out in B.` | The request hung out in the pending state for too long. | 请求在等待状态挂起太久了。 |
+| 34 | hold up | 支撑；延迟 | `A holds up B. / A holds up.` | The index holds up well under heavy read traffic. / Don't let a review hold up the deploy. | 索引在大量读流量下支撑得很好。/ 别让评审延误部署。 |
+| 35 | iron out | 解决（细节问题） | `A irons out B.` | Iron out the edge cases before the release. | 发布前解决边界情况。 |
+| 36 | keep up | 跟上；保持 | `A keeps up with B.` | The system keeps up with 10,000 requests per second. | 系统跟上了每秒 10000 次请求。 |
+| 37 | lay out | 布置；阐述 | `A lays out B.` | The RFC lays out the migration plan in detail. | RFC 详细阐述了迁移计划。 |
+| 38 | lead to | 导致 | `A leads to B.` | High latency leads to bad user experience. | 高延迟导致糟糕的用户体验。 |
+| 39 | log in | 登录 | `A logs in to B.` | The user logs in to the system. | 用户登录系统。 |
+| 40 | log out | 退出登录 | `A logs out of B.` | The user logged out of the portal. | 用户退出门户。 |
+| 41 | look for | 寻找 | `A looks for B.` | Look for errors in the logs. | 在日志中查找错误。 |
+| 42 | look into | 调查 | `A looks into B.` | We will look into this issue. | 我们会调查这个问题。 |
+| 43 | look up | 查阅；查找 | `A looks up B.` | Look up the error code in the documentation. | 在文档中查阅错误码。 |
+| 44 | make up | 弥补；组成 | `A makes up B. / A makes up for B.` | Microservices make up the core platform. / Speed makes up for lack of features. | 微服务构成核心平台。/ 速度弥补功能不足。 |
+| 45 | narrow down | 缩小范围 | `A narrows down B to C.` | Narrow down the root cause to a single commit. | 将根因缩小范围到一次提交。 |
+| 46 | opt in | 选择加入 | `A opts in to B.` | Users must opt in to the beta program. | 用户必须选择加入 Beta 计划。 |
+| 47 | opt out | 选择退出 | `A opts out of B.` | Users can opt out of data collection in settings. | 用户可以在设置中选择退出数据收集。 |
+| 48 | pass on | 传递；转发 | `A passes on B to C.` | Pass on the context to the downstream service. | 将上下文传递到下游服务。 |
+| 49 | pay off | 回报；还清 | `A pays off. / A pays off B.` | The investment in testing paid off during the migration. | 测试上的投入在迁移期间得到了回报。 |
+| 50 | phase out | 逐步淘汰 | `A phases out B.` | Phase out the deprecated API over three releases. | 用三个版本逐步淘汰弃用的 API。 |
+| 51 | point out | 指出 | `A points out B.` | He pointed out a design flaw. | 他指出了一个设计缺陷。 |
+| 52 | pull out | 抽出；退出 | `A pulls out B from C. / A pulls out of B.` | Pull out the shared components into a design system. | 将共享组件抽出到设计系统中。 |
+| 53 | put off | 推迟 | `A puts off B.` | Don't put off the security patch until next sprint. | 别把安全补丁推迟到下个迭代。 |
+| 54 | ramp down | 逐步减少 | `A ramps down B.` | Ramp down the old service as traffic shifts to the new one. | 随着流量转移到新服务，逐步减少旧服务。 |
+| 55 | ramp up | 逐步增加（流量/负载） | `A ramps up B.` | Ramp up the canary traffic from 5% to 50% gradually. | 将金丝雀流量从 5% 逐步增加到 50%。 |
+| 56 | refer to | 指的是；参考 | `A refers to B.` | This field refers to user ID. | 这个字段指用户 ID。 |
+| 57 | relate to | 与……相关 | `A relates to B.` | This error relates to authentication. | 这个错误与认证有关。 |
+| 58 | rely on | 依靠 | `A relies on B.` | The app relies on the database. | 应用依赖数据库。 |
+| 59 | result in | 导致 | `A results in B.` | Invalid input results in an error. | 无效输入导致错误。 |
+| 60 | roll back | 回退 | `A rolls back B.` | Roll back the deploy if the error rate spikes. | 如果错误率飙升就回退部署。 |
+| 61 | roll out | 推出（新功能/版本） | `A rolls out B.` | Roll out the new feature to 10% of users initially. | 初步向 10% 用户推出新功能。 |
+| 62 | rule out | 排除（可能性） | `A rules out B.` | The ping test ruled out a network issue. | ping 测试排除了网络问题。 |
+| 63 | run out | 耗尽 | `A runs out of B.` | The server ran out of disk space during the backup. | 备份期间服务器耗尽磁盘空间。 |
+| 64 | search for | 搜索 | `A searches for B.` | Search for the keyword. | 搜索关键词。 |
+| 65 | set up | 搭建；设置 | `A sets up B.` | Set up the local environment. | 搭建本地环境。 |
+| 66 | show up | 出现；露面 | `A shows up. / A shows up in B.` | The error only shows up under high concurrency. | 这个错误只在高并发下出现。 |
+| 67 | shut down | 关闭 | `A shuts down B.` | Shut down unused containers. | 关闭未使用的容器。 |
+| 68 | sign up | 注册 | `A signs up for B.` | Users sign up for the service. | 用户注册该服务。 |
+| 69 | spin down | 关闭（实例/容器） | `A spins down B.` | Spin down the staging instances over the weekend to save cost. | 周末关闭预发布实例以节省成本。 |
+| 70 | spin up | 启动（实例/容器） | `A spins up B.` | The autoscaler spins up new pods when CPU exceeds 80%. | CPU 超过 80% 时自动扩缩器启动新 Pod。 |
+| 71 | stand out | 突出；显著 | `A stands out. / A stands out from B.` | The latency spike stood out on the dashboard. | 延迟尖峰在仪表盘上格外突出。 |
+| 72 | step up | 加大；站出来 | `A steps up B. / A steps up to do B.` | Step up the retry frequency after the third failure. | 第三次失败后加大重试频率。 |
+| 73 | take over | 接管；接手 | `A takes over B.` | The backup server takes over when the primary fails. | 主服务器故障时备份服务器接管。 |
+| 74 | tear down | 拆除（环境/资源） | `A tears down B.` | Tear down the test environment after the CI run finishes. | CI 运行结束后拆除测试环境。 |
+| 75 | trickle down | 渗透/下传 | `A trickles down to B.` | Architecture decisions trickle down to every line of code. | 架构决策渗透到每一行代码。 |
+| 76 | turn off | 关闭 | `A turns off B.` | Turn off the old switch. | 关闭旧开关。 |
+| 77 | turn on | 打开 | `A turns on B.` | Turn on debug mode. | 打开调试模式。 |
+| 78 | wait for | 等待 | `A waits for B.` | Wait for the build to finish. | 等待构建完成。 |
+| 79 | warm up | 预热（缓存/连接池） | `A warms up B.` | Warm up the cache before putting the instance into rotation. | 将实例加入轮换前预热缓存。 |
+| 80 | work on | 从事；处理 | `A works on B.` | I am working on the bug. | 我正在处理这个缺陷。 |
+| 81 | work with | 与……合作 | `A works with B.` | We work with the QA team. | 我们与测试团队合作。 |
+## 四、如何真正掌握这些动词？
 
 ### 1. 按“参数”记动词
 
@@ -881,22 +1100,23 @@ depend 必须常和 on 搭配
 
 ---
 
-## 四、推荐学习节奏
+## 五、推荐学习节奏
 
 | 阶段 | 数量 | 目标 |
 |---|---:|---|
-| 第一阶段 | 1～100 | 掌握基础动作和状态表达 |
-| 第二阶段 | 101～200 | 掌握沟通、思考、判断类动词 |
-| 第三阶段 | 201～300 | 掌握项目管理和软件开发动词 |
-| 第四阶段 | 301～400 | 掌握数据、网络、运维、安全动词 |
-| 第五阶段 | 401～520 | 掌握商务、产品和常用短语动词 |
-| 第六阶段 | 521～552 | 补充第一批日常高频动词 |
-| 第七阶段 | 553～601 | 补充第二批高频动词（交流+商务+生活） |
-| 第八阶段 | 602～740 | 补充第三批高频动词（全场景覆盖） |
+| 第1阶段 | 1～100 | 掌握最基础的系动词、存在和发生动词 |
+| 第2阶段 | 101～200 | 掌握启动、停止、开关类操作动词 |
+| 第3阶段 | 201～300 | 掌握创建、删除、增删改查动词 |
+| 第4阶段 | 301～400 | 掌握通信、表达、理解和认知动词 |
+| 第5阶段 | 401～500 | 掌握项目管理、工作流和交付动词 |
+| 第6阶段 | 501～600 | 掌握数据、网络、运维、安全动词 |
+| 第7阶段 | 601～700 | 掌握商务、产品和营销动词 |
+| 第8阶段 | 701～800 | 掌握系统设计、优化和架构动词 |
+| 第9阶段 | 801～872 | 进一步补充日常高频和专业场景动词 |
 
 ---
 
-## 五、总结
+## 六、总结
 
 英语句子的核心不是名词，也不是形容词，而是动词。  
 动词决定了一个句子可以放几个参数，也决定了句子的基本骨架。
@@ -907,7 +1127,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 740 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 953 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
