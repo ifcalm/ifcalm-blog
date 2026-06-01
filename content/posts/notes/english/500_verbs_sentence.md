@@ -1,9 +1,9 @@
 ---
-title: "1263 个核心英语动词与句子模板"
+title: "1270 个核心英语动词与句子模板"
 date: 2026-05-29
 tags: ["英语学习", "产品设计"]
 draft: false
-summary: "1263 个核心英语动词与句子模板"
+summary: "1270 个核心英语动词与句子模板"
 showToc: true
 tocOpen: false
 ---
@@ -56,7 +56,7 @@ This change makes the system stable.
 
 ---
 
-## 二、1039 个核心动词主表
+## 二、1046 个核心动词主表
 
 > 建议学习方式：每天 20～30 个动词。每个动词至少仿写 2 个句子，优先用自己的工作场景造句。
 
@@ -1101,6 +1101,13 @@ This change makes the system stable.
 | 1037 | wave | 挥手；波动 | `A waves B. / A waves at B.` | Wave away the flaky test and investigate later. | 先挥手放过这个不稳定测试，稍后排查。 |
 | 1038 | whisper | 轻声说；耳语 | `A whispers B to C.` | The debug log whispers hints about the memory leak. | 调试日志轻声透露了内存泄漏的线索。 |
 | 1039 | yell | 大喊；叫嚷 | `A yells at B. / A yells.` | The error logs are yelling at us to fix the config. | 错误日志在对我们大喊快修配置。 |
+| 1040 | power | 供电；驱动；快速启动 | `A powers B. / A powers up B.` | This one config file powers the entire service mesh. | 这一个配置文件驱动着整个服务网格。 |
+| 1041 | lift | 举起；解除；提升 | `A lifts B.` | The team lifted the deploy freeze after the audit passed. | 审计通过后团队解除了部署冻结。 |
+| 1042 | phone | 打电话 | `A phones B.` | Phone the on-call if the incident severity escalates. | 如果故障严重性升级，给值班打电话。 |
+| 1043 | pour | 倾倒；大量投入 | `A pours B into C.` | The team poured weeks of effort into the refactor. | 团队把数周精力倾注到了重构中。 |
+| 1044 | qualify | 使合格；限定；有资格 | `A qualifies B. / A qualifies for B.` | Three candidates qualified for the final interview round. | 三位候选人取得了终面资格。 |
+| 1045 | retire | 退休；淘汰；停用 | `A retires B.` | Retire the legacy API after all clients migrate to v2. | 所有客户端迁移到 v2 后停用旧 API。 |
+| 1046 | slip | 滑；溜走；错过 | `A slips. / A slips through B.` | The bug slipped through code review into production. | 这个缺陷溜过了代码评审进了生产环境。 |
 
 
 
@@ -1440,7 +1447,7 @@ depend 必须常和 on 搭配
 动词 + 参数模板 + 场景例句 + 反复仿写
 ```
 
-当你熟悉这 1263 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
+当你熟悉这 1270 个核心动词之后，再去阅读技术文档、邮件、会议纪要和英文文章，会更容易抓住句子的主干。
 
 ---
 
