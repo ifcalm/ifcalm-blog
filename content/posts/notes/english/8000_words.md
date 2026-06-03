@@ -150,2333 +150,7738 @@ The issue may be caused by inconsistent environment configuration.
 
 ## 8000 高频英文词主表
 
-说明：
-
-- 表格中的序号越靠前，通常代表使用频率越高。
-- 本表主要用于工作英语、阅读理解和表达积累。
-- 部分词在不同语境中有多种含义，学习时建议结合例句和真实工作场景理解。
-- 博客发布时，如果页面太长，可以拆分为 8 篇文章：每篇 1000 词。
-
 ### 1～100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1 | the | 2 | to | 3 | and | 4 | of |
-| 5 | a | 6 | in | 7 | i | 8 | is |
-| 9 | for | 10 | that | 11 | you | 12 | it |
-| 13 | on | 14 | with | 15 | this | 16 | was |
-| 17 | be | 18 | as | 19 | are | 20 | have |
-| 21 | at | 22 | he | 23 | not | 24 | by |
-| 25 | but | 26 | from | 27 | my | 28 | or |
-| 29 | we | 30 | an | 31 | your | 32 | all |
-| 33 | so | 34 | his | 35 | they | 36 | me |
-| 37 | if | 38 | one | 39 | can | 40 | will |
-| 41 | just | 42 | like | 43 | about | 44 | up |
-| 45 | out | 46 | what | 47 | has | 48 | when |
-| 49 | more | 50 | do | 51 | no | 52 | were |
-| 53 | who | 54 | had | 55 | their | 56 | there |
-| 57 | her | 58 | which | 59 | time | 60 | get |
-| 61 | been | 62 | would | 63 | she | 64 | new |
-| 65 | people | 66 | how | 67 | some | 68 | also |
-| 69 | them | 70 | now | 71 | other | 72 | its |
-| 73 | our | 74 | than | 75 | good | 76 | only |
-| 77 | after | 78 | first | 79 | him | 80 | into |
-| 81 | know | 82 | see | 83 | two | 84 | make |
-| 85 | over | 86 | think | 87 | any | 88 | then |
-| 89 | could | 90 | back | 91 | these | 92 | us |
-| 93 | want | 94 | because | 95 | go | 96 | well |
-| 97 | said | 98 | way | 99 | most | 100 | much |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1 | the | 的 |
+| 2 | to | 到 |
+| 3 | and | 和 |
+| 4 | of | 的 |
+| 5 | a | 一个 |
+| 6 | in | 在 |
+| 7 | i | 我 |
+| 8 | is | 是 |
+| 9 | for | 为了 |
+| 10 | that | 那个 |
+| 11 | you | 你 |
+| 12 | it | 它 |
+| 13 | on | 上 |
+| 14 | with | 与 |
+| 15 | this | 这个 |
+| 16 | was | 是 |
+| 17 | be | 是 |
+| 18 | as | 作为 |
+| 19 | are | 是 |
+| 20 | have | 有 |
+| 21 | at | 在 |
+| 22 | he | 他 |
+| 23 | not | 不 |
+| 24 | by | 通过 |
+| 25 | but | 但是 |
+| 26 | from | 来自 |
+| 27 | my | 我的 |
+| 28 | or | 或 |
+| 29 | we | 我们 |
+| 30 | an | 一个 |
+| 31 | your | 你的 |
+| 32 | all | 全部 |
+| 33 | so | 所以 |
+| 34 | his | 他的 |
+| 35 | they | 他们 |
+| 36 | me | 我 |
+| 37 | if | 如果 |
+| 38 | one | 一 |
+| 39 | can | 可以 |
+| 40 | will | 会 |
+| 41 | just | 只是 |
+| 42 | like | 喜欢 |
+| 43 | about | 关于 |
+| 44 | up | 向上 |
+| 45 | out | 出 |
+| 46 | what | 什么 |
+| 47 | has | 有 |
+| 48 | when | 当 |
+| 49 | more | 更多 |
+| 50 | do | 做 |
+| 51 | no | 不 |
+| 52 | were | 是 |
+| 53 | who | 谁 |
+| 54 | had | 有 |
+| 55 | their | 他们的 |
+| 56 | there | 那里 |
+| 57 | her | 她 |
+| 58 | which | 其中 |
+| 59 | time | 时间 |
+| 60 | get | 得到 |
+| 61 | been | 曾经 |
+| 62 | would | 会 |
+| 63 | she | 她 |
+| 64 | new | 新的 |
+| 65 | people | 人 |
+| 66 | how | 如何 |
+| 67 | some | 一些 |
+| 68 | also | 还有 |
+| 69 | them | 他们 |
+| 70 | now | 现在 |
+| 71 | other | 其他 |
+| 72 | its | 它的 |
+| 73 | our | 我们的 |
+| 74 | than | 比 |
+| 75 | good | 好 |
+| 76 | only | 仅 |
+| 77 | after | 之后 |
+| 78 | first | 第一 |
+| 79 | him | 他 |
+| 80 | into | 进入 |
+| 81 | know | 知道 |
+| 82 | see | 看到 |
+| 83 | two | 两个 |
+| 84 | make | 使 |
+| 85 | over | 结束 |
+| 86 | think | 认为 |
+| 87 | any | 任何 |
+| 88 | then | 那么 |
+| 89 | could | 可以 |
+| 90 | back | 回来 |
+| 91 | these | 这些 |
+| 92 | us | 我们 |
+| 93 | want | 想要 |
+| 94 | because | 因为 |
+| 95 | go | 去 |
+| 96 | well | 嗯 |
+| 97 | said | 说 |
+| 98 | way | 方式 |
+| 99 | most | 大多数 |
+| 100 | much | 很多 |
 
 ### 101～200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 101 | very | 102 | where | 103 | even | 104 | should |
-| 105 | may | 106 | here | 107 | need | 108 | really |
-| 109 | did | 110 | right | 111 | work | 112 | year |
-| 113 | years | 114 | being | 115 | day | 116 | too |
-| 117 | going | 118 | before | 119 | off | 120 | why |
-| 121 | made | 122 | still | 123 | take | 124 | got |
-| 125 | many | 126 | never | 127 | those | 128 | life |
-| 129 | say | 130 | world | 131 | down | 132 | great |
-| 133 | through | 134 | last | 135 | while | 136 | best |
-| 137 | such | 138 | love | 139 | man | 140 | home |
-| 141 | long | 142 | look | 143 | something | 144 | use |
-| 145 | same | 146 | used | 147 | both | 148 | every |
-| 149 | am | 150 | come | 151 | part | 152 | state |
-| 153 | three | 154 | around | 155 | between | 156 | always |
-| 157 | better | 158 | find | 159 | help | 160 | high |
-| 161 | little | 162 | old | 163 | since | 164 | another |
-| 165 | does | 166 | own | 167 | things | 168 | under |
-| 169 | during | 170 | game | 171 | thing | 172 | give |
-| 173 | house | 174 | place | 175 | school | 176 | again |
-| 177 | next | 178 | each | 179 | mr | 180 | without |
-| 181 | against | 182 | end | 183 | found | 184 | must |
-| 185 | show | 186 | big | 187 | feel | 188 | sure |
-| 189 | team | 190 | ever | 191 | family | 192 | keep |
-| 193 | might | 194 | please | 195 | put | 196 | money |
-| 197 | free | 198 | second | 199 | someone | 200 | away |
+| No. | Word | 中文 |
+|---:|---|---|
+| 101 | very | 非常 |
+| 102 | where | 哪里 |
+| 103 | even | 甚至 |
+| 104 | should | 应该 |
+| 105 | may | 可能 |
+| 106 | here | 这里 |
+| 107 | need | 需要 |
+| 108 | really | 真的 |
+| 109 | did | 做了 |
+| 110 | right | 对 |
+| 111 | work | 工作 |
+| 112 | year | 年 |
+| 113 | years | 年 |
+| 114 | being | 存在 |
+| 115 | day | 日 |
+| 116 | too | 也 |
+| 117 | going | 去 |
+| 118 | before | 之前 |
+| 119 | off | 关闭 |
+| 120 | why | 为什么 |
+| 121 | made | 制作 |
+| 122 | still | 仍然 |
+| 123 | take | 采取 |
+| 124 | got | 得到了 |
+| 125 | many | 许多 |
+| 126 | never | 从不 |
+| 127 | those | 那些 |
+| 128 | life | 生活 |
+| 129 | say | 说 |
+| 130 | world | 世界 |
+| 131 | down | 向下 |
+| 132 | great | 太棒了 |
+| 133 | through | 通过 |
+| 134 | last | 最后 |
+| 135 | while | 同时 |
+| 136 | best | 最好的 |
+| 137 | such | 这样的 |
+| 138 | love | 爱 |
+| 139 | man | 男人 |
+| 140 | home | 家 |
+| 141 | long | 长 |
+| 142 | look | 看看 |
+| 143 | something | 某事 |
+| 144 | use | 使用 |
+| 145 | same | 一样 |
+| 146 | used | 使用过的 |
+| 147 | both | 两者 |
+| 148 | every | 每个 |
+| 149 | am | 上午 |
+| 150 | come | 来吧 |
+| 151 | part | 部分 |
+| 152 | state | 状态 |
+| 153 | three | 三 |
+| 154 | around | 周围 |
+| 155 | between | 之间 |
+| 156 | always | 总是 |
+| 157 | better | 更好 |
+| 158 | find | 找到 |
+| 159 | help | 帮助 |
+| 160 | high | 高 |
+| 161 | little | 小 |
+| 162 | old | 老 |
+| 163 | since | 自从 |
+| 164 | another | 另一个 |
+| 165 | does | 确实 |
+| 166 | own | 拥有 |
+| 167 | things | 东西 |
+| 168 | under | 下 |
+| 169 | during | 期间 |
+| 170 | game | 游戏 |
+| 171 | thing | 东西 |
+| 172 | give | 给予 |
+| 173 | house | 房子 |
+| 174 | place | 地方 |
+| 175 | school | 学校 |
+| 176 | again | 再次 |
+| 177 | next | 下一个 |
+| 178 | each | 每个 |
+| 179 | without | 没有 |
+| 180 | against | 反对 |
+| 181 | end | 结束 |
+| 182 | found | 发现 |
+| 183 | must | 必须 |
+| 184 | show | 显示 |
+| 185 | big | 大 |
+| 186 | feel | 感觉 |
+| 187 | sure | 当然 |
+| 188 | team | 团队 |
+| 189 | ever | 曾经 |
+| 190 | family | 家庭 |
+| 191 | keep | 保留 |
+| 192 | might | 可能 |
+| 193 | please | 请 |
+| 194 | put | 把 |
+| 195 | money | 钱 |
+| 196 | free | 免费 |
+| 197 | second | 第二 |
+| 198 | someone | 某人 |
+| 199 | away | 离开 |
+| 200 | left | 左 |
 
 ### 201～300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 201 | left | 202 | number | 203 | city | 204 | days |
-| 205 | lot | 206 | name | 207 | night | 208 | play |
-| 209 | until | 210 | company | 211 | doing | 212 | few |
-| 213 | let | 214 | real | 215 | called | 216 | different |
-| 217 | having | 218 | set | 219 | thought | 220 | done |
-| 221 | however | 222 | getting | 223 | god | 224 | government |
-| 225 | group | 226 | looking | 227 | public | 228 | top |
-| 229 | women | 230 | business | 231 | care | 232 | start |
-| 233 | system | 234 | times | 235 | week | 236 | already |
-| 237 | anything | 238 | case | 239 | nothing | 240 | person |
-| 241 | today | 242 | change | 243 | enough | 244 | everything |
-| 245 | full | 246 | live | 247 | making | 248 | point |
-| 249 | read | 250 | told | 251 | yet | 252 | bad |
-| 253 | four | 254 | hard | 255 | mean | 256 | once |
-| 257 | support | 258 | tell | 259 | including | 260 | music |
-| 261 | power | 262 | seen | 263 | states | 264 | stop |
-| 265 | water | 266 | based | 267 | believe | 268 | call |
-| 269 | head | 270 | men | 271 | national | 272 | small |
-| 273 | took | 274 | white | 275 | came | 276 | far |
-| 277 | job | 278 | side | 279 | though | 280 | try |
-| 281 | went | 282 | yes | 283 | actually | 284 | american |
-| 285 | later | 286 | less | 287 | line | 288 | order |
-| 289 | party | 290 | run | 291 | says | 292 | service |
-| 293 | country | 294 | open | 295 | season | 296 | thank |
-| 297 | children | 298 | everyone | 299 | general | 300 | trying |
+| No. | Word | 中文 |
+|---:|---|---|
+| 201 | number | 数量 |
+| 202 | city | 城市 |
+| 203 | days | 天 |
+| 204 | lot | 很多 |
+| 205 | name | 姓名 |
+| 206 | night | 晚上 |
+| 207 | play | 玩 |
+| 208 | until | 直到 |
+| 209 | company | 公司 |
+| 210 | doing | 做 |
+| 211 | few | 几个 |
+| 212 | let | 让 |
+| 213 | real | 真实的 |
+| 214 | called | 被称为 |
+| 215 | different | 不同的 |
+| 216 | having | 拥有 |
+| 217 | set | 设置 |
+| 218 | thought | 思想 |
+| 219 | done | 完成 |
+| 220 | however | 然而 |
+| 221 | getting | 得到 |
+| 222 | god | 上帝 |
+| 223 | government | 政府 |
+| 224 | group | 组 |
+| 225 | looking | 寻找 |
+| 226 | public | 公开的 |
+| 227 | top | 顶部 |
+| 228 | women | 妇女 |
+| 229 | business | 商业 |
+| 230 | care | 照顾 |
+| 231 | start | 开始 |
+| 232 | system | 系统 |
+| 233 | times | 次 |
+| 234 | week | 周 |
+| 235 | already | 已经 |
+| 236 | anything | 任何东西 |
+| 237 | case | 案例 |
+| 238 | nothing | 什么都没有 |
+| 239 | person | 人 |
+| 240 | today | 今天 |
+| 241 | change | 改变 |
+| 242 | enough | 够了 |
+| 243 | everything | 一切 |
+| 244 | full | 满 |
+| 245 | live | 直播 |
+| 246 | making | 制作 |
+| 247 | point | 点 |
+| 248 | read | 读 |
+| 249 | told | 告诉 |
+| 250 | yet | 还 |
+| 251 | bad | 坏 |
+| 252 | four | 四 |
+| 253 | hard | 硬 |
+| 254 | mean | 意思是 |
+| 255 | once | 一次 |
+| 256 | support | 支持 |
+| 257 | tell | 告诉 |
+| 258 | including | 包括 |
+| 259 | music | 音乐 |
+| 260 | power | 电源 |
+| 261 | seen | 见过 |
+| 262 | states | 州 |
+| 263 | stop | 停止 |
+| 264 | water | 水 |
+| 265 | based | 基于 |
+| 266 | believe | 相信 |
+| 267 | call | 打电话 |
+| 268 | head | 头 |
+| 269 | men | 男人 |
+| 270 | national | 国家的 |
+| 271 | small | 小 |
+| 272 | took | 采取了 |
+| 273 | white | 白色 |
+| 274 | came | 来了 |
+| 275 | far | 远 |
+| 276 | job | 工作 |
+| 277 | side | 侧面 |
+| 278 | though | 虽然 |
+| 279 | try | 尝试 |
+| 280 | went | 去了 |
+| 281 | yes | 是的 |
+| 282 | actually | 实际上 |
+| 283 | later | 后来 |
+| 284 | less | 少 |
+| 285 | line | 线 |
+| 286 | order | 订单 |
+| 287 | party | 聚会 |
+| 288 | run | 跑 |
+| 289 | says | 说 |
+| 290 | service | 服务 |
+| 291 | country | 国家 |
+| 292 | open | 打开 |
+| 293 | season | 季节 |
+| 294 | thank | 谢谢 |
+| 295 | children | 儿童 |
+| 296 | everyone | 大家 |
+| 297 | general | 一般 |
+| 298 | trying | 尝试 |
+| 299 | united | 联合 |
+| 300 | using | 使用 |
 
 ### 301～400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 301 | united | 302 | using | 303 | area | 304 | black |
-| 305 | following | 306 | law | 307 | makes | 308 | together |
-| 309 | war | 310 | whole | 311 | car | 312 | face |
-| 313 | five | 314 | kind | 315 | maybe | 316 | per |
-| 317 | president | 318 | story | 319 | working | 320 | course |
-| 321 | games | 322 | health | 323 | hope | 324 | important |
-| 325 | least | 326 | means | 327 | news | 328 | within |
-| 329 | able | 330 | book | 331 | early | 332 | friends |
-| 333 | information | 334 | local | 335 | oh | 336 | post |
-| 337 | thanks | 338 | video | 339 | young | 340 | ago |
-| 341 | others | 342 | social | 343 | talk | 344 | court |
-| 345 | fact | 346 | given | 347 | guys | 348 | half |
-| 349 | hand | 350 | level | 351 | mind | 352 | often |
-| 353 | single | 354 | become | 355 | body | 356 | coming |
-| 357 | control | 358 | death | 359 | food | 360 | guy |
-| 361 | hours | 362 | office | 363 | pay | 364 | problem |
-| 365 | south | 366 | true | 367 | almost | 368 | history |
-| 369 | known | 370 | large | 371 | lost | 372 | research |
-| 373 | room | 374 | several | 375 | started | 376 | taking |
-| 377 | university | 378 | win | 379 | wrong | 380 | along |
-| 381 | anyone | 382 | else | 383 | girl | 384 | john |
-| 385 | matter | 386 | pretty | 387 | remember | 388 | air |
-| 389 | bit | 390 | friend | 391 | hit | 392 | needs |
-| 393 | nice | 394 | playing | 395 | probably | 396 | saying |
-| 397 | understand | 398 | yeah | 399 | york | 400 | class |
+| No. | Word | 中文 |
+|---:|---|---|
+| 301 | area | 面积 |
+| 302 | black | 黑色 |
+| 303 | following | 正在关注 |
+| 304 | law | 法律 |
+| 305 | makes | 使 |
+| 306 | together | 在一起 |
+| 307 | war | 战争 |
+| 308 | whole | 整体 |
+| 309 | car | 汽车 |
+| 310 | face | 脸 |
+| 311 | five | 五 |
+| 312 | kind | 善良 |
+| 313 | maybe | 也许 |
+| 314 | per | 每 |
+| 315 | president | 总统 |
+| 316 | story | 故事 |
+| 317 | working | 工作 |
+| 318 | course | 课程 |
+| 319 | games | 游戏 |
+| 320 | health | 健康 |
+| 321 | hope | 希望 |
+| 322 | important | 重要的 |
+| 323 | least | 至少 |
+| 324 | means | 意味着 |
+| 325 | news | 新闻 |
+| 326 | within | 之内 |
+| 327 | able | 能够 |
+| 328 | book | 书 |
+| 329 | early | 早 |
+| 330 | friends | 朋友 |
+| 331 | information | 信息 |
+| 332 | local | 本地的 |
+| 333 | oh | 哦 |
+| 334 | post | 帖子 |
+| 335 | thanks | 谢谢 |
+| 336 | video | 视频 |
+| 337 | young | 年轻的 |
+| 338 | ago | 前 |
+| 339 | others | 其他 |
+| 340 | social | 社会的 |
+| 341 | talk | 谈话 |
+| 342 | court | 法庭 |
+| 343 | fact | 事实 |
+| 344 | given | 给定 |
+| 345 | guys | 伙计们 |
+| 346 | half | 一半 |
+| 347 | hand | 手 |
+| 348 | level | 水平 |
+| 349 | mind | 头脑 |
+| 350 | often | 经常 |
+| 351 | single | 单身 |
+| 352 | become | 成为 |
+| 353 | body | 身体 |
+| 354 | coming | 来了 |
+| 355 | control | 控制 |
+| 356 | death | 死亡 |
+| 357 | food | 食物 |
+| 358 | guy | 家伙 |
+| 359 | hours | 小时 |
+| 360 | office | 办公室 |
+| 361 | pay | 付钱 |
+| 362 | problem | 问题 |
+| 363 | south | 南 |
+| 364 | true | 真实 |
+| 365 | almost | 几乎 |
+| 366 | history | 历史 |
+| 367 | known | 已知的 |
+| 368 | large | 大 |
+| 369 | lost | 迷失了 |
+| 370 | research | 研究 |
+| 371 | room | 房间 |
+| 372 | several | 几个 |
+| 373 | started | 开始了 |
+| 374 | taking | 采取 |
+| 375 | university | 大学 |
+| 376 | win | 赢 |
+| 377 | wrong | 错误的 |
+| 378 | along | 沿着 |
+| 379 | anyone | 任何人 |
+| 380 | else | 否则 |
+| 381 | girl | 女孩 |
+| 382 | matter | 事 |
+| 383 | pretty | 漂亮 |
+| 384 | remember | 记住 |
+| 385 | air | 空气 |
+| 386 | bit | 一点 |
+| 387 | friend | 朋友 |
+| 388 | hit | 击中 |
+| 389 | needs | 需要 |
+| 390 | nice | 不错 |
+| 391 | playing | 玩 |
+| 392 | probably | 可能 |
+| 393 | saying | 说 |
+| 394 | understand | 明白 |
+| 395 | yeah | 是的 |
+| 396 | york | 约克 |
+| 397 | class | 类 |
+| 398 | close | 关闭 |
+| 399 | comes | 来了 |
+| 400 | idea | 想法 |
 
 ### 401～500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 401 | close | 402 | comes | 403 | idea | 404 | international |
-| 405 | looks | 406 | past | 407 | possible | 408 | wanted |
-| 409 | cause | 410 | due | 411 | happy | 412 | human |
-| 413 | members | 414 | months | 415 | move | 416 | question |
-| 417 | series | 418 | wait | 419 | woman | 420 | ask |
-| 421 | community | 422 | data | 423 | late | 424 | leave |
-| 425 | north | 426 | saw | 427 | special | 428 | watch |
-| 429 | either | 430 | future | 431 | light | 432 | low |
-| 433 | million | 434 | morning | 435 | police | 436 | short |
-| 437 | stay | 438 | taken | 439 | age | 440 | buy |
-| 441 | deal | 442 | rather | 443 | reason | 444 | red |
-| 445 | report | 446 | soon | 447 | third | 448 | turn |
-| 449 | whether | 450 | among | 451 | check | 452 | development |
-| 453 | form | 454 | further | 455 | heart | 456 | minutes |
-| 457 | myself | 458 | services | 459 | yourself | 460 | act |
-| 461 | although | 462 | asked | 463 | child | 464 | fire |
-| 465 | fun | 466 | living | 467 | major | 468 | media |
-| 469 | phone | 470 | players | 471 | art | 472 | behind |
-| 473 | building | 474 | easy | 475 | gonna | 476 | market |
-| 477 | near | 478 | non | 479 | plan | 480 | political |
-| 481 | quite | 482 | six | 483 | talking | 484 | west |
-| 485 | works | 486 | according | 487 | available | 488 | education |
-| 489 | final | 490 | former | 491 | front | 492 | kids |
-| 493 | list | 494 | ready | 495 | sometimes | 496 | son |
-| 497 | street | 498 | bring | 499 | college | 500 | current |
+| No. | Word | 中文 |
+|---:|---|---|
+| 401 | international | 国际 |
+| 402 | looks | 看起来 |
+| 403 | past | 过去 |
+| 404 | possible | 可能 |
+| 405 | wanted | 通缉 |
+| 406 | cause | 原因 |
+| 407 | due | 由于 |
+| 408 | happy | 快乐 |
+| 409 | human | 人类的 |
+| 410 | members | 会员 |
+| 411 | months | 月 |
+| 412 | move | 移动 |
+| 413 | question | 问题 |
+| 414 | series | 系列 |
+| 415 | wait | 等待 |
+| 416 | woman | 女人 |
+| 417 | ask | 问 |
+| 418 | community | 社区 |
+| 419 | data | 数据 |
+| 420 | late | 迟到了 |
+| 421 | leave | 离开 |
+| 422 | north | 北 |
+| 423 | saw | 锯 |
+| 424 | special | 特别的 |
+| 425 | watch | 手表 |
+| 426 | either | 要么 |
+| 427 | future | 未来 |
+| 428 | light | 光 |
+| 429 | low | 低 |
+| 430 | million | 百万 |
+| 431 | morning | 早上 |
+| 432 | police | 警察 |
+| 433 | short | 短 |
+| 434 | stay | 留下来 |
+| 435 | taken | 采取 |
+| 436 | age | 年龄 |
+| 437 | buy | 买 |
+| 438 | deal | 交易 |
+| 439 | rather | 相反 |
+| 440 | reason | 原因 |
+| 441 | red | 红色 |
+| 442 | report | 报告 |
+| 443 | soon | 很快 |
+| 444 | third | 第三 |
+| 445 | turn | 转 |
+| 446 | whether | 是否 |
+| 447 | among | 其中 |
+| 448 | check | 检查 |
+| 449 | development | 发展 |
+| 450 | form | 形式 |
+| 451 | further | 进一步 |
+| 452 | heart | 心 |
+| 453 | minutes | 分钟 |
+| 454 | myself | 我自己 |
+| 455 | services | 服务 |
+| 456 | yourself | 你自己 |
+| 457 | act | 行动 |
+| 458 | although | 虽然 |
+| 459 | asked | 问 |
+| 460 | child | 孩子 |
+| 461 | fire | 火 |
+| 462 | fun | 有趣 |
+| 463 | living | 生活 |
+| 464 | major | 专业 |
+| 465 | media | 媒体 |
+| 466 | phone | 电话 |
+| 467 | players | 玩家 |
+| 468 | art | 艺术 |
+| 469 | behind | 后面 |
+| 470 | building | 建筑物 |
+| 471 | easy | 容易 |
+| 472 | market | 市场 |
+| 473 | near | 附近 |
+| 474 | non | 非 |
+| 475 | plan | 计划 |
+| 476 | political | 政治的 |
+| 477 | quite | 相当 |
+| 478 | six | 六 |
+| 479 | talking | 说话 |
+| 480 | west | 西 |
+| 481 | works | 作品 |
+| 482 | according | 根据 |
+| 483 | available | 可用 |
+| 484 | education | 教育 |
+| 485 | final | 决赛 |
+| 486 | former | 前任 |
+| 487 | front | 前面 |
+| 488 | kids | 孩子们 |
+| 489 | list | 列表 |
+| 490 | ready | 准备好了 |
+| 491 | sometimes | 有时 |
+| 492 | son | 儿子 |
+| 493 | street | 街道 |
+| 494 | bring | 带 |
+| 495 | college | 学院 |
+| 496 | current | 当前 |
+| 497 | example | 例子 |
+| 498 | experience | 经验 |
+| 499 | heard | 听到 |
+| 500 | meet | 见面 |
 
 ### 501～600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 501 | example | 502 | experience | 503 | heard | 504 | london |
-| 505 | meet | 506 | program | 507 | type | 508 | baby |
-| 509 | chance | 510 | father | 511 | march | 512 | process |
-| 513 | song | 514 | study | 515 | word | 516 | across |
-| 517 | action | 518 | clear | 519 | gave | 520 | gets |
-| 521 | himself | 522 | month | 523 | outside | 524 | self |
-| 525 | students | 526 | words | 527 | board | 528 | cost |
-| 529 | cut | 530 | dr | 531 | field | 532 | held |
-| 533 | instead | 534 | main | 535 | moment | 536 | mother |
-| 537 | road | 538 | seems | 539 | thinking | 540 | town |
-| 541 | wants | 542 | de | 543 | department | 544 | energy |
-| 545 | fight | 546 | fine | 547 | force | 548 | hear |
-| 549 | issue | 550 | played | 551 | points | 552 | price |
-| 553 | re | 554 | rest | 555 | results | 556 | running |
-| 557 | shows | 558 | space | 559 | summer | 560 | term |
-| 561 | wife | 562 | america | 563 | beautiful | 564 | date |
-| 565 | goes | 566 | killed | 567 | land | 568 | miss |
-| 569 | project | 570 | shot | 571 | site | 572 | strong |
-| 573 | account | 574 | co | 575 | especially | 576 | eyes |
-| 577 | include | 578 | june | 579 | parents | 580 | period |
-| 581 | position | 582 | record | 583 | similar | 584 | total |
-| 585 | above | 586 | club | 587 | common | 588 | died |
-| 589 | film | 590 | happened | 591 | knew | 592 | lead |
-| 593 | likely | 594 | military | 595 | perfect | 596 | personal |
-| 597 | security | 598 | share | 599 | st | 600 | tv |
+| No. | Word | 中文 |
+|---:|---|---|
+| 501 | program | 节目 |
+| 502 | type | 类型 |
+| 503 | baby | 宝贝 |
+| 504 | chance | 机会 |
+| 505 | father | 父亲 |
+| 506 | march | 进行曲 |
+| 507 | process | 过程 |
+| 508 | song | 歌曲 |
+| 509 | study | 学习 |
+| 510 | word | 词 |
+| 511 | across | 跨越 |
+| 512 | action | 行动 |
+| 513 | clear | 清晰 |
+| 514 | gave | 给了 |
+| 515 | gets | 得到 |
+| 516 | himself | 他自己 |
+| 517 | month | 月 |
+| 518 | outside | 外面 |
+| 519 | self | 自我 |
+| 520 | students | 学生 |
+| 521 | words | 话 |
+| 522 | board | 董事会 |
+| 523 | cost | 成本 |
+| 524 | cut | 切 |
+| 525 | field | 领域 |
+| 526 | held | 举行 |
+| 527 | instead | 相反 |
+| 528 | main | 主要 |
+| 529 | moment | 时刻 |
+| 530 | mother | 妈妈 |
+| 531 | road | 路 |
+| 532 | seems | 似乎 |
+| 533 | thinking | 思考 |
+| 534 | town | 镇 |
+| 535 | wants | 想要 |
+| 536 | department | 部门 |
+| 537 | energy | 能源 |
+| 538 | fight | 战斗 |
+| 539 | fine | 很好 |
+| 540 | force | 力 |
+| 541 | hear | 听到 |
+| 542 | issue | 问题 |
+| 543 | played | 玩过 |
+| 544 | points | 点 |
+| 545 | price | 价格 |
+| 546 | rest | 休息 |
+| 547 | results | 结果 |
+| 548 | running | 跑步 |
+| 549 | shows | 节目 |
+| 550 | space | 空间 |
+| 551 | summer | 夏天 |
+| 552 | term | 术语 |
+| 553 | wife | 妻子 |
+| 554 | beautiful | 美丽的 |
+| 555 | date | 日期 |
+| 556 | goes | 去 |
+| 557 | killed | 被杀 |
+| 558 | land | 土地 |
+| 559 | miss | 想念 |
+| 560 | project | 项目 |
+| 561 | shot | 射击 |
+| 562 | site | 站点 |
+| 563 | strong | 强 |
+| 564 | account | 帐户 |
+| 565 | especially | 尤其是 |
+| 566 | eyes | 眼睛 |
+| 567 | include | 包括 |
+| 568 | june | 六月 |
+| 569 | parents | 父母 |
+| 570 | period | 期间 |
+| 571 | position | 位置 |
+| 572 | record | 记录 |
+| 573 | similar | 类似的 |
+| 574 | total | 总计 |
+| 575 | above | 上面 |
+| 576 | club | 俱乐部 |
+| 577 | common | 常见的 |
+| 578 | died | 死了 |
+| 579 | film | 电影 |
+| 580 | happened | 发生了 |
+| 581 | knew | 知道 |
+| 582 | lead | 铅 |
+| 583 | likely | 可能 |
+| 584 | military | 军事 |
+| 585 | perfect | 完美的 |
+| 586 | personal | 个人的 |
+| 587 | security | 安全 |
+| 588 | share | 分享 |
+| 589 | tv | 电视 |
+| 590 | won | 赢了 |
+| 591 | april | 四月 |
+| 592 | center | 中心 |
+| 593 | county | 县 |
+| 594 | couple | 情侣 |
+| 595 | dead | 死了 |
+| 596 | english | 英语 |
+| 597 | happen | 发生 |
+| 598 | hold | 保持 |
+| 599 | industry | 工业 |
+| 600 | inside | 里面 |
 
 ### 601～700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 601 | won | 602 | april | 603 | center | 604 | county |
-| 605 | couple | 606 | dead | 607 | english | 608 | happen |
-| 609 | hold | 610 | industry | 611 | inside | 612 | issues |
-| 613 | online | 614 | player | 615 | private | 616 | problems |
-| 617 | return | 618 | rights | 619 | sense | 620 | star |
-| 621 | test | 622 | view | 623 | weeks | 624 | break |
-| 625 | british | 626 | companies | 627 | event | 628 | higher |
-| 629 | hour | 630 | member | 631 | middle | 632 | needed |
-| 633 | present | 634 | result | 635 | sorry | 636 | takes |
-| 637 | training | 638 | wish | 639 | answer | 640 | boy |
-| 641 | design | 642 | finally | 643 | girls | 644 | gold |
-| 645 | gone | 646 | guess | 647 | interest | 648 | july |
-| 649 | king | 650 | learn | 651 | policy | 652 | society |
-| 653 | added | 654 | al | 655 | alone | 656 | average |
-| 657 | bank | 658 | brought | 659 | certain | 660 | church |
-| 661 | east | 662 | hands | 663 | hot | 664 | longer |
-| 665 | medical | 666 | movie | 667 | original | 668 | park |
-| 669 | performance | 670 | press | 671 | received | 672 | role |
-| 673 | sent | 674 | themselves | 675 | tried | 676 | worked |
-| 677 | worth | 678 | areas | 679 | became | 680 | bill |
-| 681 | books | 682 | cool | 683 | director | 684 | exactly |
-| 685 | giving | 686 | ground | 687 | meeting | 688 | provide |
-| 689 | questions | 690 | relationship | 691 | september | 692 | sound |
-| 693 | source | 694 | usually | 695 | value | 696 | evidence |
-| 697 | follow | 698 | lives | 699 | official | 700 | ok |
+| No. | Word | 中文 |
+|---:|---|---|
+| 601 | issues | 问题 |
+| 602 | online | 在线 |
+| 603 | player | 玩家 |
+| 604 | private | 私人的 |
+| 605 | problems | 问题 |
+| 606 | return | 返回 |
+| 607 | rights | 权利 |
+| 608 | sense | 感觉 |
+| 609 | star | 明星 |
+| 610 | test | 测试 |
+| 611 | view | 查看 |
+| 612 | weeks | 周 |
+| 613 | break | 打破 |
+| 614 | companies | 公司 |
+| 615 | event | 事件 |
+| 616 | higher | 更高 |
+| 617 | hour | 小时 |
+| 618 | member | 会员 |
+| 619 | middle | 中 |
+| 620 | needed | 需要的 |
+| 621 | present | 现在 |
+| 622 | result | 结果 |
+| 623 | sorry | 抱歉 |
+| 624 | takes | 需要 |
+| 625 | training | 培训 |
+| 626 | wish | 愿望 |
+| 627 | answer | 回答 |
+| 628 | boy | 男孩 |
+| 629 | design | 设计 |
+| 630 | finally | 最后 |
+| 631 | girls | 女孩 |
+| 632 | gold | 黄金 |
+| 633 | gone | 消失了 |
+| 634 | guess | 猜测 |
+| 635 | interest | 兴趣 |
+| 636 | july | 七月 |
+| 637 | learn | 学习 |
+| 638 | policy | 政策 |
+| 639 | society | 社会 |
+| 640 | added | 添加了 |
+| 641 | alone | 独自一人 |
+| 642 | average | 平均 |
+| 643 | bank | 银行 |
+| 644 | brought | 带来了 |
+| 645 | certain | 某些 |
+| 646 | church | 教堂 |
+| 647 | east | 东 |
+| 648 | hands | 手 |
+| 649 | hot | 热 |
+| 650 | longer | 更长 |
+| 651 | medical | 医疗 |
+| 652 | movie | 电影 |
+| 653 | original | 原创 |
+| 654 | park | 公园 |
+| 655 | performance | 表现 |
+| 656 | press | 按 |
+| 657 | received | 收到 |
+| 658 | role | 角色 |
+| 659 | sent | 已发送 |
+| 660 | themselves | 他们自己 |
+| 661 | tried | 尝试过 |
+| 662 | worked | 工作过 |
+| 663 | worth | 值得 |
+| 664 | areas | 地区 |
+| 665 | became | 成为 |
+| 666 | books | 书籍 |
+| 667 | cool | 酷 |
+| 668 | director | 导演 |
+| 669 | exactly | 正是 |
+| 670 | giving | 给予 |
+| 671 | ground | 地面 |
+| 672 | meeting | 会议 |
+| 673 | provide | 提供 |
+| 674 | questions | 问题 |
+| 675 | relationship | 关系 |
+| 676 | september | 九月 |
+| 677 | sound | 声音 |
+| 678 | source | 来源 |
+| 679 | usually | 通常 |
+| 680 | value | 值 |
+| 681 | evidence | 证据 |
+| 682 | follow | 关注 |
+| 683 | lives | 生活 |
+| 684 | official | 官方 |
+| 685 | ok | 好的 |
+| 686 | production | 生产 |
+| 687 | rate | 率 |
+| 688 | reading | 阅读 |
+| 689 | round | 圆形 |
+| 690 | save | 保存 |
+| 691 | stand | 站 |
+| 692 | stuff | 东西 |
+| 693 | tax | 税 |
+| 694 | whatever | 无论如何 |
+| 695 | amount | 金额 |
+| 696 | blue | 蓝色 |
+| 697 | countries | 国家 |
+| 698 | drive | 开车 |
+| 699 | eat | 吃 |
+| 700 | fall | 秋天 |
 
 ### 701～800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 701 | production | 702 | rate | 703 | reading | 704 | round |
-| 705 | save | 706 | stand | 707 | stuff | 708 | tax |
-| 709 | whatever | 710 | amount | 711 | blue | 712 | countries |
-| 713 | david | 714 | drive | 715 | eat | 716 | fall |
-| 717 | fast | 718 | federal | 719 | feeling | 720 | felt |
-| 721 | green | 722 | league | 723 | management | 724 | match |
-| 725 | model | 726 | picture | 727 | size | 728 | step |
-| 729 | trust | 730 | central | 731 | changes | 732 | england |
-| 733 | forward | 734 | groups | 735 | hey | 736 | key |
-| 737 | mom | 738 | page | 739 | paid | 740 | range |
-| 741 | review | 742 | science | 743 | trade | 744 | uk |
-| 745 | upon | 746 | various | 747 | attention | 748 | brother |
-| 749 | cannot | 750 | character | 751 | chief | 752 | cup |
-| 753 | football | 754 | hate | 755 | james | 756 | led |
-| 757 | looked | 758 | lower | 759 | natural | 760 | october |
-| 761 | property | 762 | quality | 763 | send | 764 | style |
-| 765 | vote | 766 | amazing | 767 | august | 768 | blood |
-| 769 | china | 770 | complete | 771 | dog | 772 | economic |
-| 773 | involved | 774 | itself | 775 | language | 776 | lord |
-| 777 | november | 778 | oil | 779 | related | 780 | serious |
-| 781 | stage | 782 | terms | 783 | title | 784 | add |
-| 785 | article | 786 | attack | 787 | born | 788 | damn |
-| 789 | decided | 790 | decision | 791 | enjoy | 792 | entire |
-| 793 | french | 794 | january | 795 | kill | 796 | met |
-| 797 | perhaps | 798 | poor | 799 | release | 800 | situation |
+| No. | Word | 中文 |
+|---:|---|---|
+| 701 | fast | 快 |
+| 702 | federal | 联邦的 |
+| 703 | feeling | 感觉 |
+| 704 | felt | 毛毡 |
+| 705 | green | 绿色 |
+| 706 | league | 联赛 |
+| 707 | management | 管理 |
+| 708 | match | 比赛 |
+| 709 | model | 型号 |
+| 710 | picture | 图片 |
+| 711 | size | 尺寸 |
+| 712 | step | 步骤 |
+| 713 | trust | 信任 |
+| 714 | central | 中央 |
+| 715 | changes | 变化 |
+| 716 | forward | 前进 |
+| 717 | groups | 团体 |
+| 718 | hey | 嘿 |
+| 719 | key | 钥匙 |
+| 720 | mom | 妈妈 |
+| 721 | page | 页面 |
+| 722 | paid | 付费的 |
+| 723 | range | 范围 |
+| 724 | review | 评论 |
+| 725 | science | 科学 |
+| 726 | trade | 贸易 |
+| 727 | upon | 之上 |
+| 728 | various | 各种 |
+| 729 | attention | 关注 |
+| 730 | brother | 兄弟 |
+| 731 | cannot | 不能 |
+| 732 | character | 性格 |
+| 733 | chief | 酋长 |
+| 734 | cup | 杯子 |
+| 735 | football | 足球 |
+| 736 | hate | 讨厌 |
+| 737 | led | 领导 |
+| 738 | looked | 看起来 |
+| 739 | lower | 较低 |
+| 740 | natural | 自然的 |
+| 741 | october | 十月 |
+| 742 | property | 财产 |
+| 743 | quality | 品质 |
+| 744 | send | 发送 |
+| 745 | style | 风格 |
+| 746 | vote | 投票 |
+| 747 | amazing | 惊人的 |
+| 748 | august | 八月 |
+| 749 | blood | 血 |
+| 750 | complete | 完成 |
+| 751 | dog | 狗 |
+| 752 | economic | 经济的 |
+| 753 | involved | 涉及 |
+| 754 | itself | 本身 |
+| 755 | language | 语言 |
+| 756 | november | 十一月 |
+| 757 | oil | 油 |
+| 758 | related | 相关的 |
+| 759 | serious | 严重的 |
+| 760 | stage | 舞台 |
+| 761 | terms | 条款 |
+| 762 | title | 标题 |
+| 763 | add | 添加 |
+| 764 | article | 文章 |
+| 765 | attack | 攻击 |
+| 766 | born | 出生 |
+| 767 | decided | 决定 |
+| 768 | decision | 决定 |
+| 769 | enjoy | 享受 |
+| 770 | entire | 整个 |
+| 771 | january | 一月 |
+| 772 | kill | 杀死 |
+| 773 | met | 遇见 |
+| 774 | perhaps | 也许 |
+| 775 | poor | 穷 |
+| 776 | release | 释放 |
+| 777 | situation | 情况 |
+| 778 | technology | 技术 |
+| 779 | turned | 转身 |
+| 780 | website | 网站 |
+| 781 | written | 书面的 |
+| 782 | choice | 选择 |
+| 783 | code | 代码 |
+| 784 | considered | 考虑到 |
+| 785 | continue | 继续 |
+| 786 | council | 理事会 |
+| 787 | cover | 封面 |
+| 788 | currently | 目前 |
+| 789 | door | 门 |
+| 790 | election | 选举 |
+| 791 | events | 事件 |
+| 792 | financial | 金融 |
+| 793 | foreign | 外国的 |
+| 794 | hair | 头发 |
+| 795 | increase | 增加 |
+| 796 | legal | 合法的 |
+| 797 | lose | 失去 |
+| 798 | pick | 挑选 |
+| 799 | race | 种族 |
+| 800 | seem | 似乎 |
 
 ### 801～900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 801 | technology | 802 | turned | 803 | website | 804 | written |
-| 805 | choice | 806 | code | 807 | considered | 808 | continue |
-| 809 | council | 810 | cover | 811 | currently | 812 | door |
-| 813 | election | 814 | european | 815 | events | 816 | financial |
-| 817 | foreign | 818 | hair | 819 | increase | 820 | legal |
-| 821 | lose | 822 | michael | 823 | pick | 824 | race |
-| 825 | seem | 826 | seven | 827 | sign | 828 | simple |
-| 829 | simply | 830 | staff | 831 | super | 832 | union |
-| 833 | walk | 834 | washington | 835 | bed | 836 | began |
-| 837 | built | 838 | career | 839 | changed | 840 | crazy |
-| 841 | daily | 842 | daughter | 843 | december | 844 | die |
-| 845 | difficult | 846 | figure | 847 | hospital | 848 | knows |
-| 849 | loss | 850 | modern | 851 | ones | 852 | paper |
-| 853 | parts | 854 | popular | 855 | published | 856 | safe |
-| 857 | starting | 858 | systems | 859 | version | 860 | voice |
-| 861 | whose | 862 | writing | 863 | army | 864 | australia |
-| 865 | earth | 866 | forget | 867 | goal | 868 | huge |
-| 869 | internet | 870 | listen | 871 | okay | 872 | practice |
-| 873 | rules | 874 | sea | 875 | sir | 876 | success |
-| 877 | towards | 878 | waiting | 879 | ways | 880 | access |
-| 881 | base | 882 | below | 883 | created | 884 | deep |
-| 885 | followed | 886 | la | 887 | lol | 888 | mark |
-| 889 | missing | 890 | offer | 891 | pass | 892 | professional |
-| 893 | released | 894 | risk | 895 | schools | 896 | sleep |
-| 897 | table | 898 | ten | 899 | truth | 900 | ball |
+| No. | Word | 中文 |
+|---:|---|---|
+| 801 | seven | 七 |
+| 802 | sign | 标志 |
+| 803 | simple | 简单 |
+| 804 | simply | 简单地 |
+| 805 | staff | 工作人员 |
+| 806 | super | 超级 |
+| 807 | union | 联盟 |
+| 808 | walk | 步行 |
+| 809 | washington | 华盛顿 |
+| 810 | bed | 床 |
+| 811 | began | 开始 |
+| 812 | built | 建成 |
+| 813 | career | 职业生涯 |
+| 814 | changed | 改变了 |
+| 815 | crazy | 疯狂的 |
+| 816 | daily | 每日 |
+| 817 | daughter | 女儿 |
+| 818 | december | 十二月 |
+| 819 | die | 死 |
+| 820 | difficult | 困难 |
+| 821 | figure | 图 |
+| 822 | hospital | 医院 |
+| 823 | knows | 知道 |
+| 824 | loss | 损失 |
+| 825 | modern | 现代的 |
+| 826 | ones | 那些 |
+| 827 | paper | 纸 |
+| 828 | parts | 零件 |
+| 829 | popular | 流行的 |
+| 830 | published | 发表 |
+| 831 | safe | 安全 |
+| 832 | starting | 开始 |
+| 833 | systems | 系统 |
+| 834 | version | 版本 |
+| 835 | voice | 声音 |
+| 836 | whose | 谁的 |
+| 837 | writing | 写作 |
+| 838 | army | 军队 |
+| 839 | earth | 地球 |
+| 840 | forget | 忘记 |
+| 841 | goal | 目标 |
+| 842 | huge | 巨大的 |
+| 843 | internet | 互联网 |
+| 844 | listen | 听 |
+| 845 | okay | 好的 |
+| 846 | practice | 练习 |
+| 847 | rules | 规则 |
+| 848 | sea | 海 |
+| 849 | success | 成功 |
+| 850 | towards | 朝向 |
+| 851 | waiting | 等待 |
+| 852 | ways | 方式 |
+| 853 | access | 访问 |
+| 854 | base | 基地 |
+| 855 | below | 下面 |
+| 856 | created | 已创建 |
+| 857 | deep | 深 |
+| 858 | followed | 已关注 |
+| 859 | la | 拉 |
+| 860 | mark | 标记 |
+| 861 | missing | 失踪 |
+| 862 | offer | 报价 |
+| 863 | pass | 通过 |
+| 864 | professional | 专业的 |
+| 865 | released | 释放 |
+| 866 | risk | 风险 |
+| 867 | schools | 学校 |
+| 868 | sleep | 睡觉 |
+| 869 | table | 表 |
+| 870 | ten | 十 |
+| 871 | truth | 真相 |
+| 872 | ball | 球 |
+| 873 | box | 盒子 |
+| 874 | build | 建造 |
+| 875 | card | 卡 |
+| 876 | cases | 案例 |
+| 877 | dark | 黑暗 |
+| 878 | district | 区 |
+| 879 | mine | 我的 |
+| 880 | minister | 部长 |
+| 881 | note | 注释 |
+| 882 | percent | 百分比 |
+| 883 | piece | 一块 |
+| 884 | products | 产品 |
+| 885 | recent | 最近的 |
+| 886 | seeing | 看见 |
+| 887 | straight | 直 |
+| 888 | visit | 访问 |
+| 889 | wall | 墙 |
+| 890 | wrote | 写道 |
+| 891 | allowed | 允许 |
+| 892 | boys | 男孩 |
+| 893 | culture | 文化 |
+| 894 | etc | 等 |
+| 895 | fans | 粉丝 |
+| 896 | february | 二月 |
+| 897 | gives | 给出 |
+| 898 | growth | 成长 |
+| 899 | included | 包括在内 |
+| 900 | married | 结婚了 |
 
 ### 901～1000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 901 | box | 902 | build | 903 | card | 904 | cases |
-| 905 | dark | 906 | district | 907 | europe | 908 | george |
-| 909 | india | 910 | mine | 911 | minister | 912 | note |
-| 913 | percent | 914 | piece | 915 | products | 916 | recent |
-| 917 | seeing | 918 | straight | 919 | visit | 920 | wall |
-| 921 | wanna | 922 | wrote | 923 | allowed | 924 | boys |
-| 925 | culture | 926 | etc | 927 | fans | 928 | february |
-| 929 | gives | 930 | growth | 931 | included | 932 | married |
-| 933 | officer | 934 | pain | 935 | paul | 936 | places |
-| 937 | respect | 938 | response | 939 | river | 940 | rock |
-| 941 | shall | 942 | speak | 943 | specific | 944 | standard |
-| 945 | tonight | 946 | write | 947 | album | 948 | century |
-| 949 | charge | 950 | cold | 951 | create | 952 | effect |
-| 953 | eight | 954 | except | 955 | eye | 956 | funny |
-| 957 | ii | 958 | limited | 959 | moving | 960 | network |
-| 961 | peace | 962 | provided | 963 | recently | 964 | required |
-| 965 | sales | 966 | spent | 967 | store | 968 | student |
-| 969 | tomorrow | 970 | track | 971 | via | 972 | watching |
-| 973 | weight | 974 | addition | 975 | ahead | 976 | allow |
-| 977 | anti | 978 | association | 979 | beat | 980 | brown |
-| 981 | capital | 982 | chinese | 983 | committee | 984 | conference |
-| 985 | difference | 986 | double | 987 | expect | 988 | gas |
-| 989 | island | 990 | moved | 991 | normal | 992 | plans |
-| 993 | population | 994 | potential | 995 | pressure | 996 | radio |
-| 997 | russian | 998 | station | 999 | text | 1000 | treatment |
+| No. | Word | 中文 |
+|---:|---|---|
+| 901 | officer | 官员 |
+| 902 | pain | 疼痛 |
+| 903 | places | 地方 |
+| 904 | respect | 尊重 |
+| 905 | response | 反应 |
+| 906 | river | 河 |
+| 907 | rock | 摇滚 |
+| 908 | shall | 应 |
+| 909 | speak | 说话 |
+| 910 | specific | 具体的 |
+| 911 | standard | 标准 |
+| 912 | tonight | 今晚 |
+| 913 | write | 写 |
+| 914 | album | 专辑 |
+| 915 | century | 世纪 |
+| 916 | charge | 收费 |
+| 917 | cold | 冷 |
+| 918 | create | 创造 |
+| 919 | effect | 效果 |
+| 920 | eight | 八 |
+| 921 | except | 除了 |
+| 922 | eye | 眼睛 |
+| 923 | funny | 有趣的 |
+| 924 | limited | 有限 |
+| 925 | moving | 移动 |
+| 926 | network | 网络 |
+| 927 | peace | 和平 |
+| 928 | provided | 提供 |
+| 929 | recently | 最近 |
+| 930 | required | 必填 |
+| 931 | sales | 销售 |
+| 932 | spent | 花费了 |
+| 933 | store | 商店 |
+| 934 | student | 学生 |
+| 935 | tomorrow | 明天 |
+| 936 | track | 轨道 |
+| 937 | via | 通过 |
+| 938 | watching | 观看 |
+| 939 | weight | 重量 |
+| 940 | addition | 加法 |
+| 941 | ahead | 前面 |
+| 942 | allow | 允许 |
+| 943 | anti | 反 |
+| 944 | association | 协会 |
+| 945 | beat | 击败 |
+| 946 | brown | 棕色 |
+| 947 | capital | 资本 |
+| 948 | committee | 委员会 |
+| 949 | conference | 会议 |
+| 950 | difference | 差异 |
+| 951 | double | 双 |
+| 952 | expect | 期待 |
+| 953 | gas | 气体 |
+| 954 | island | 岛 |
+| 955 | moved | 搬家了 |
+| 956 | normal | 正常 |
+| 957 | plans | 计划 |
+| 958 | population | 人口 |
+| 959 | potential | 潜力 |
+| 960 | pressure | 压力 |
+| 961 | radio | 收音机 |
+| 962 | station | 车站 |
+| 963 | text | 文本 |
+| 964 | treatment | 治疗 |
+| 965 | western | 西方的 |
+| 966 | beginning | 开始 |
+| 967 | california | 加利福尼亚州 |
+| 968 | campaign | 活动 |
+| 969 | certainly | 当然 |
+| 970 | completely | 完全 |
+| 971 | content | 内容 |
+| 972 | credit | 信用 |
+| 973 | cross | 十字 |
+| 974 | described | 描述的 |
+| 975 | despite | 尽管 |
+| 976 | female | 女 |
+| 977 | focus | 焦点 |
+| 978 | hi | 嗨 |
+| 979 | husband | 丈夫 |
+| 980 | ice | 冰 |
+| 981 | individual | 个人的 |
+| 982 | interesting | 有趣的 |
+| 983 | join | 加入 |
+| 984 | kept | 保留 |
+| 985 | leading | 领先 |
+| 986 | loved | 爱过 |
+| 987 | message | 留言 |
+| 988 | miles | 英里 |
+| 989 | nearly | 几乎 |
+| 990 | particular | 特别的 |
+| 991 | previous | 上一个 |
+| 992 | quickly | 快点 |
+| 993 | region | 地区 |
+| 994 | reported | 报道 |
+| 995 | section | 部分 |
+| 996 | sort | 排序 |
+| 997 | speed | 速度 |
+| 998 | travel | 旅行 |
+| 999 | consider | 考虑 |
+| 1000 | contact | 联系方式 |
 
 ### 1001～1100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1001 | western | 1002 | ass | 1003 | beginning | 1004 | california |
-| 1005 | campaign | 1006 | certainly | 1007 | completely | 1008 | content |
-| 1009 | credit | 1010 | cross | 1011 | described | 1012 | despite |
-| 1013 | female | 1014 | focus | 1015 | hi | 1016 | husband |
-| 1017 | ice | 1018 | individual | 1019 | interesting | 1020 | join |
-| 1021 | kept | 1022 | leading | 1023 | loved | 1024 | message |
-| 1025 | miles | 1026 | nearly | 1027 | particular | 1028 | previous |
-| 1029 | quickly | 1030 | region | 1031 | reported | 1032 | section |
-| 1033 | sort | 1034 | speed | 1035 | travel | 1036 | consider |
-| 1037 | contact | 1038 | drop | 1039 | fair | 1040 | feet |
-| 1041 | jesus | 1042 | kid | 1043 | link | 1044 | positive |
-| 1045 | sale | 1046 | throughout | 1047 | tour | 1048 | welcome |
-| 1049 | absolutely | 1050 | additional | 1051 | beyond | 1052 | conditions |
-| 1053 | earlier | 1054 | extra | 1055 | forces | 1056 | immediately |
-| 1057 | jobs | 1058 | leaving | 1059 | minute | 1060 | nature |
-| 1061 | numbers | 1062 | quick | 1063 | sell | 1064 | significant |
-| 1065 | studies | 1066 | unless | 1067 | winning | 1068 | agree |
-| 1069 | canada | 1070 | clean | 1071 | computer | 1072 | construction |
-| 1073 | episode | 1074 | favorite | 1075 | income | 1076 | justice |
-| 1077 | levels | 1078 | manager | 1079 | movement | 1080 | photo |
-| 1081 | posted | 1082 | safety | 1083 | san | 1084 | scene |
-| 1085 | sold | 1086 | sounds | 1087 | spend | 1088 | statement |
-| 1089 | sun | 1090 | teams | 1091 | ability | 1092 | announced |
-| 1093 | asking | 1094 | calling | 1095 | coach | 1096 | collection |
-| 1097 | continued | 1098 | costs | 1099 | definitely | 1100 | designed |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1001 | drop | 掉落 |
+| 1002 | fair | 公平 |
+| 1003 | feet | 脚 |
+| 1004 | kid | 孩子 |
+| 1005 | link | 链接 |
+| 1006 | positive | 积极的 |
+| 1007 | sale | 销售 |
+| 1008 | throughout | 整个 |
+| 1009 | tour | 游览 |
+| 1010 | welcome | 欢迎 |
+| 1011 | absolutely | 绝对 |
+| 1012 | additional | 额外的 |
+| 1013 | beyond | 超越 |
+| 1014 | conditions | 条件 |
+| 1015 | earlier | 早些时候 |
+| 1016 | extra | 额外的 |
+| 1017 | forces | 力量 |
+| 1018 | immediately | 立即 |
+| 1019 | jobs | 职位 |
+| 1020 | leaving | 离开 |
+| 1021 | minute | 分钟 |
+| 1022 | nature | 自然 |
+| 1023 | numbers | 数字 |
+| 1024 | quick | 快 |
+| 1025 | sell | 卖 |
+| 1026 | significant | 重要的 |
+| 1027 | studies | 研究 |
+| 1028 | unless | 除非 |
+| 1029 | winning | 获胜 |
+| 1030 | agree | 同意 |
+| 1031 | clean | 干净 |
+| 1032 | computer | 电脑 |
+| 1033 | construction | 建筑 |
+| 1034 | episode | 情节 |
+| 1035 | favorite | 最喜欢的 |
+| 1036 | income | 收入 |
+| 1037 | justice | 正义 |
+| 1038 | levels | 级别 |
+| 1039 | manager | 经理 |
+| 1040 | movement | 运动 |
+| 1041 | photo | 照片 |
+| 1042 | posted | 发布 |
+| 1043 | safety | 安全 |
+| 1044 | scene | 场景 |
+| 1045 | sold | 已售出 |
+| 1046 | sounds | 声音 |
+| 1047 | spend | 花费 |
+| 1048 | statement | 声明 |
+| 1049 | sun | 太阳 |
+| 1050 | teams | 团队 |
+| 1051 | ability | 能力 |
+| 1052 | announced | 宣布 |
+| 1053 | asking | 询问 |
+| 1054 | calling | 呼叫 |
+| 1055 | coach | 教练 |
+| 1056 | collection | 收藏 |
+| 1057 | continued | 继续 |
+| 1058 | costs | 成本 |
+| 1059 | definitely | 绝对 |
+| 1060 | designed | 设计的 |
+| 1061 | expected | 预计 |
+| 1062 | friday | 星期五 |
+| 1063 | gun | 枪 |
+| 1064 | happens | 发生 |
+| 1065 | heavy | 重 |
+| 1066 | includes | 包括 |
+| 1067 | knowledge | 知识 |
+| 1068 | particularly | 特别是 |
+| 1069 | search | 搜索 |
+| 1070 | subject | 主题 |
+| 1071 | train | 火车 |
+| 1072 | wide | 宽 |
+| 1073 | wow | 哇 |
+| 1074 | author | 作者 |
+| 1075 | centre | 中心 |
+| 1076 | claim | 索赔 |
+| 1077 | dad | 爸爸 |
+| 1078 | developed | 发达的 |
+| 1079 | fear | 恐惧 |
+| 1080 | fit | 适合 |
+| 1081 | generally | 一般来说 |
+| 1082 | global | 全球 |
+| 1083 | goals | 目标 |
+| 1084 | hotel | 酒店 |
+| 1085 | interested | 有兴趣 |
+| 1086 | judge | 法官 |
+| 1087 | leader | 领导者 |
+| 1088 | letter | 信 |
+| 1089 | lines | 线 |
+| 1090 | material | 材料 |
+| 1091 | named | 命名的 |
+| 1092 | nobody | 没有人 |
+| 1093 | opportunity | 机会 |
+| 1094 | plus | 加号 |
+| 1095 | pre | 前 |
+| 1096 | product | 产品 |
+| 1097 | regular | 常规的 |
+| 1098 | secretary | 秘书 |
+| 1099 | sister | 妹妹 |
+| 1100 | stories | 故事 |
 
 ### 1101～1200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1101 | expected | 1102 | friday | 1103 | gun | 1104 | happens |
-| 1105 | heavy | 1106 | includes | 1107 | knowledge | 1108 | particularly |
-| 1109 | search | 1110 | subject | 1111 | train | 1112 | wide |
-| 1113 | wow | 1114 | author | 1115 | centre | 1116 | claim |
-| 1117 | dad | 1118 | developed | 1119 | fear | 1120 | fit |
-| 1121 | generally | 1122 | german | 1123 | global | 1124 | goals |
-| 1125 | gotta | 1126 | hotel | 1127 | interested | 1128 | judge |
-| 1129 | lady | 1130 | leader | 1131 | letter | 1132 | lines |
-| 1133 | material | 1134 | named | 1135 | nobody | 1136 | opportunity |
-| 1137 | plus | 1138 | pre | 1139 | product | 1140 | regular |
-| 1141 | secretary | 1142 | sister | 1143 | stories | 1144 | unit |
-| 1145 | workers | 1146 | annual | 1147 | anymore | 1148 | bar |
-| 1149 | battle | 1150 | brain | 1151 | contract | 1152 | degree |
-| 1153 | families | 1154 | features | 1155 | finished | 1156 | floor |
-| 1157 | france | 1158 | growing | 1159 | hurt | 1160 | image |
-| 1161 | insurance | 1162 | majority | 1163 | meant | 1164 | opening |
-| 1165 | opinion | 1166 | physical | 1167 | pro | 1168 | reach |
-| 1169 | rule | 1170 | seriously | 1171 | sports | 1172 | stupid |
-| 1173 | successful | 1174 | active | 1175 | administration | 1176 | approach |
-| 1177 | australian | 1178 | biggest | 1179 | cancer | 1180 | civil |
-| 1181 | dance | 1182 | defense | 1183 | direction | 1184 | independent |
-| 1185 | master | 1186 | none | 1187 | reasons | 1188 | russia |
-| 1189 | ship | 1190 | stock | 1191 | trump | 1192 | weekend |
-| 1193 | wonder | 1194 | worst | 1195 | africa | 1196 | awesome |
-| 1197 | band | 1198 | beach | 1199 | cash | 1200 | clearly |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1101 | unit | 单位 |
+| 1102 | workers | 工人 |
+| 1103 | annual | 年度 |
+| 1104 | anymore | 不再 |
+| 1105 | bar | 酒吧 |
+| 1106 | battle | 战斗 |
+| 1107 | brain | 大脑 |
+| 1108 | contract | 合同 |
+| 1109 | degree | 学位 |
+| 1110 | families | 家庭 |
+| 1111 | features | 特点 |
+| 1112 | finished | 完成 |
+| 1113 | floor | 地板 |
+| 1114 | growing | 成长中 |
+| 1115 | hurt | 受伤 |
+| 1116 | image | 图像 |
+| 1117 | insurance | 保险 |
+| 1118 | majority | 多数 |
+| 1119 | meant | 意思是 |
+| 1120 | opening | 开幕 |
+| 1121 | opinion | 意见 |
+| 1122 | physical | 物理的 |
+| 1123 | pro | 亲 |
+| 1124 | reach | 达到 |
+| 1125 | rule | 规则 |
+| 1126 | seriously | 认真地 |
+| 1127 | sports | 体育 |
+| 1128 | stupid | 愚蠢的 |
+| 1129 | successful | 成功的 |
+| 1130 | active | 活跃的 |
+| 1131 | administration | 行政管理 |
+| 1132 | approach | 方法 |
+| 1133 | biggest | 最大的 |
+| 1134 | cancer | 癌症 |
+| 1135 | civil | 民事 |
+| 1136 | dance | 跳舞 |
+| 1137 | defense | 防御 |
+| 1138 | direction | 方向 |
+| 1139 | independent | 独立的 |
+| 1140 | master | 大师 |
+| 1141 | none | 无 |
+| 1142 | reasons | 原因 |
+| 1143 | ship | 船 |
+| 1144 | stock | 库存 |
+| 1145 | weekend | 周末 |
+| 1146 | wonder | 想知道 |
+| 1147 | worst | 最糟糕的 |
+| 1148 | awesome | 太棒了 |
+| 1149 | band | 乐队 |
+| 1150 | beach | 海滩 |
+| 1151 | cash | 现金 |
+| 1152 | clearly | 清楚地 |
+| 1153 | commercial | 商业 |
+| 1154 | compared | 比较 |
+| 1155 | effort | 努力 |
+| 1156 | ended | 结束了 |
+| 1157 | fan | 风扇 |
+| 1158 | fighting | 战斗 |
+| 1159 | imagine | 想象 |
+| 1160 | impact | 影响 |
+| 1161 | lack | 缺乏 |
+| 1162 | latest | 最新的 |
+| 1163 | learning | 学习 |
+| 1164 | multiple | 多个 |
+| 1165 | older | 较老的 |
+| 1166 | operation | 操作 |
+| 1167 | organization | 组织 |
+| 1168 | passed | 通过了 |
+| 1169 | pictures | 图片 |
+| 1170 | protect | 保护 |
+| 1171 | secret | 秘密 |
+| 1172 | senior | 高级 |
+| 1173 | spring | 春天 |
+| 1174 | sunday | 星期日 |
+| 1175 | telling | 讲述 |
+| 1176 | wear | 磨损 |
+| 1177 | activities | 活动 |
+| 1178 | address | 地址 |
+| 1179 | analysis | 分析 |
+| 1180 | anyway | 无论如何 |
+| 1181 | bought | 买了 |
+| 1182 | calls | 来电 |
+| 1183 | choose | 选择 |
+| 1184 | christmas | 圣诞节 |
+| 1185 | color | 颜色 |
+| 1186 | commission | 佣金 |
+| 1187 | competition | 竞争 |
+| 1188 | details | 详情 |
+| 1189 | direct | 直接 |
+| 1190 | dream | 梦想 |
+| 1191 | easily | 轻松地 |
+| 1192 | finish | 完成 |
+| 1193 | grand | 盛大 |
+| 1194 | increased | 增加 |
+| 1195 | literally | 从字面上看 |
+| 1196 | luck | 运气 |
+| 1197 | marriage | 婚姻 |
+| 1198 | names | 名字 |
+| 1199 | necessary | 必要的 |
+| 1200 | patients | 病人 |
 
 ### 1201～1300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1201 | commercial | 1202 | compared | 1203 | effort | 1204 | ended |
-| 1205 | fan | 1206 | fighting | 1207 | imagine | 1208 | impact |
-| 1209 | lack | 1210 | latest | 1211 | learning | 1212 | multiple |
-| 1213 | older | 1214 | operation | 1215 | organization | 1216 | passed |
-| 1217 | pictures | 1218 | protect | 1219 | secret | 1220 | senior |
-| 1221 | spring | 1222 | sunday | 1223 | telling | 1224 | wear |
-| 1225 | activities | 1226 | address | 1227 | analysis | 1228 | anyway |
-| 1229 | bought | 1230 | calls | 1231 | choose | 1232 | christmas |
-| 1233 | color | 1234 | commission | 1235 | competition | 1236 | details |
-| 1237 | direct | 1238 | dream | 1239 | easily | 1240 | finish |
-| 1241 | grand | 1242 | increased | 1243 | indian | 1244 | literally |
-| 1245 | luck | 1246 | marriage | 1247 | names | 1248 | necessary |
-| 1249 | patients | 1250 | resources | 1251 | rich | 1252 | skin |
-| 1253 | speaking | 1254 | supposed | 1255 | sweet | 1256 | thus |
-| 1257 | touch | 1258 | yesterday | 1259 | caught | 1260 | closed |
-| 1261 | congress | 1262 | damage | 1263 | directly | 1264 | disease |
-| 1265 | doctor | 1266 | doubt | 1267 | drink | 1268 | driving |
-| 1269 | established | 1270 | facebook | 1271 | feels | 1272 | fish |
-| 1273 | gay | 1274 | germany | 1275 | glad | 1276 | greater |
-| 1277 | grow | 1278 | largest | 1279 | machine | 1280 | notice |
-| 1281 | overall | 1282 | planning | 1283 | professor | 1284 | programs |
-| 1285 | records | 1286 | reports | 1287 | shown | 1288 | sit |
-| 1289 | trip | 1290 | associated | 1291 | basic | 1292 | captain |
-| 1293 | carry | 1294 | cars | 1295 | crime | 1296 | effective |
-| 1297 | effects | 1298 | explain | 1299 | fully | 1300 | highly |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1201 | resources | 资源 |
+| 1202 | rich | 富有 |
+| 1203 | skin | 皮肤 |
+| 1204 | speaking | 说话 |
+| 1205 | supposed | 假设 |
+| 1206 | sweet | 甜甜的 |
+| 1207 | thus | 因此 |
+| 1208 | touch | 触摸 |
+| 1209 | yesterday | 昨天 |
+| 1210 | caught | 抓住了 |
+| 1211 | closed | 关闭 |
+| 1212 | congress | 国会 |
+| 1213 | damage | 损害 |
+| 1214 | directly | 直接 |
+| 1215 | disease | 疾病 |
+| 1216 | doctor | 医生 |
+| 1217 | doubt | 怀疑 |
+| 1218 | drink | 喝 |
+| 1219 | driving | 驾驶 |
+| 1220 | established | 成立 |
+| 1221 | facebook | 脸书 |
+| 1222 | feels | 感觉 |
+| 1223 | fish | 鱼 |
+| 1224 | gay | 同性恋 |
+| 1225 | glad | 很高兴 |
+| 1226 | greater | 更大 |
+| 1227 | grow | 成长 |
+| 1228 | largest | 最大的 |
+| 1229 | machine | 机器 |
+| 1230 | notice | 通知 |
+| 1231 | overall | 整体 |
+| 1232 | planning | 规划 |
+| 1233 | professor | 教授 |
+| 1234 | programs | 节目 |
+| 1235 | records | 记录 |
+| 1236 | reports | 报告 |
+| 1237 | shown | 显示 |
+| 1238 | sit | 坐 |
+| 1239 | trip | 旅行 |
+| 1240 | associated | 关联的 |
+| 1241 | basic | 基本的 |
+| 1242 | captain | 队长 |
+| 1243 | carry | 携带 |
+| 1244 | cars | 汽车 |
+| 1245 | crime | 犯罪 |
+| 1246 | effective | 有效的 |
+| 1247 | effects | 效果 |
+| 1248 | explain | 解释一下 |
+| 1249 | fully | 完全 |
+| 1250 | highly | 高度 |
+| 1251 | holding | 持有 |
+| 1252 | laws | 法律 |
+| 1253 | male | 男 |
+| 1254 | parties | 聚会 |
+| 1255 | plant | 植物 |
+| 1256 | reality | 现实 |
+| 1257 | spot | 现货 |
+| 1258 | texas | 德克萨斯州 |
+| 1259 | winter | 冬天 |
+| 1260 | worse | 更糟 |
+| 1261 | advice | 建议 |
+| 1262 | agreement | 协议 |
+| 1263 | award | 奖项 |
+| 1264 | block | 块 |
+| 1265 | broken | 坏了 |
+| 1266 | caused | 造成的 |
+| 1267 | challenge | 挑战 |
+| 1268 | characters | 人物 |
+| 1269 | comment | 评论 |
+| 1270 | equipment | 设备 |
+| 1271 | eventually | 最终 |
+| 1272 | helped | 帮助了 |
+| 1273 | holy | 神圣的 |
+| 1274 | killing | 杀戮 |
+| 1275 | lived | 住过 |
+| 1276 | lots | 地段 |
+| 1277 | nation | 民族 |
+| 1278 | otherwise | 否则 |
+| 1279 | prices | 价格 |
+| 1280 | primary | 小学 |
+| 1281 | purpose | 目的 |
+| 1282 | rates | 费率 |
+| 1283 | responsible | 负责的 |
+| 1284 | shop | 商店 |
+| 1285 | showing | 显示 |
+| 1286 | sick | 生病了 |
+| 1287 | teacher | 老师 |
+| 1288 | theory | 理论 |
+| 1289 | uses | 用途 |
+| 1290 | agency | 代理机构 |
+| 1291 | avoid | 避免 |
+| 1292 | camera | 相机 |
+| 1293 | catch | 抓住 |
+| 1294 | cell | 细胞 |
+| 1295 | coast | 海岸 |
+| 1296 | comments | 评论 |
+| 1297 | drug | 药物 |
+| 1298 | economy | 经济 |
+| 1299 | environment | 环境 |
+| 1300 | executive | 行政人员 |
 
 ### 1301～1400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1301 | holding | 1302 | japan | 1303 | laws | 1304 | male |
-| 1305 | mrs | 1306 | parties | 1307 | plant | 1308 | reality |
-| 1309 | smith | 1310 | spot | 1311 | texas | 1312 | winter |
-| 1313 | worse | 1314 | advice | 1315 | agreement | 1316 | award |
-| 1317 | block | 1318 | broken | 1319 | caused | 1320 | challenge |
-| 1321 | characters | 1322 | christian | 1323 | comment | 1324 | equipment |
-| 1325 | eventually | 1326 | helped | 1327 | holy | 1328 | killing |
-| 1329 | lived | 1330 | lots | 1331 | nation | 1332 | otherwise |
-| 1333 | peter | 1334 | prices | 1335 | primary | 1336 | purpose |
-| 1337 | rates | 1338 | responsible | 1339 | shop | 1340 | showing |
-| 1341 | sick | 1342 | teacher | 1343 | theory | 1344 | uses |
-| 1345 | william | 1346 | agency | 1347 | avoid | 1348 | camera |
-| 1349 | catch | 1350 | cell | 1351 | coast | 1352 | comments |
-| 1353 | drug | 1354 | economy | 1355 | environment | 1356 | executive |
-| 1357 | foot | 1358 | hall | 1359 | mass | 1360 | meaning |
-| 1361 | mission | 1362 | nine | 1363 | officers | 1364 | operations |
-| 1365 | politics | 1366 | pop | 1367 | produced | 1368 | ran |
-| 1369 | saturday | 1370 | status | 1371 | therefore | 1372 | trial |
-| 1373 | truly | 1374 | weather | 1375 | activity | 1376 | app |
-| 1377 | application | 1378 | claims | 1379 | coffee | 1380 | complex |
-| 1381 | condition | 1382 | division | 1383 | evening | 1384 | flight |
-| 1385 | freedom | 1386 | google | 1387 | heat | 1388 | highest |
-| 1389 | interview | 1390 | library | 1391 | located | 1392 | location |
-| 1393 | murder | 1394 | obama | 1395 | offered | 1396 | putting |
-| 1397 | queen | 1398 | seconds | 1399 | showed | 1400 | sitting |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1301 | foot | 脚 |
+| 1302 | hall | 大厅 |
+| 1303 | mass | 质量 |
+| 1304 | meaning | 意义 |
+| 1305 | mission | 使命 |
+| 1306 | nine | 九 |
+| 1307 | officers | 官员 |
+| 1308 | operations | 运营 |
+| 1309 | politics | 政治 |
+| 1310 | pop | 流行音乐 |
+| 1311 | produced | 产生的 |
+| 1312 | ran | 跑 |
+| 1313 | saturday | 星期六 |
+| 1314 | status | 状态 |
+| 1315 | therefore | 因此 |
+| 1316 | trial | 审判 |
+| 1317 | truly | 确实 |
+| 1318 | weather | 天气 |
+| 1319 | activity | 活动 |
+| 1320 | app | 应用程序 |
+| 1321 | application | 应用 |
+| 1322 | claims | 索赔 |
+| 1323 | coffee | 咖啡 |
+| 1324 | complex | 复杂的 |
+| 1325 | condition | 条件 |
+| 1326 | division | 师 |
+| 1327 | evening | 晚上 |
+| 1328 | flight | 飞行 |
+| 1329 | freedom | 自由 |
+| 1330 | google | 谷歌 |
+| 1331 | heat | 热 |
+| 1332 | highest | 最高 |
+| 1333 | interview | 采访 |
+| 1334 | library | 图书馆 |
+| 1335 | located | 位于 |
+| 1336 | location | 位置 |
+| 1337 | murder | 谋杀 |
+| 1338 | offered | 提供 |
+| 1339 | putting | 推杆 |
+| 1340 | seconds | 秒 |
+| 1341 | showed | 显示 |
+| 1342 | sitting | 坐着 |
+| 1343 | standing | 站立 |
+| 1344 | stars | 星星 |
+| 1345 | walking | 步行 |
+| 1346 | accept | 接受 |
+| 1347 | actual | 实际的 |
+| 1348 | appear | 出现 |
+| 1349 | attempt | 尝试 |
+| 1350 | broke | 坏了 |
+| 1351 | channel | 频道 |
+| 1352 | distance | 距离 |
+| 1353 | eating | 吃 |
+| 1354 | exchange | 交换 |
+| 1355 | fat | 脂肪 |
+| 1356 | fell | 跌倒了 |
+| 1357 | finding | 发现 |
+| 1358 | glass | 玻璃 |
+| 1359 | learned | 学到了 |
+| 1360 | losing | 失去 |
+| 1361 | mobile | 移动 |
+| 1362 | northern | 北部 |
+| 1363 | opened | 打开 |
+| 1364 | placed | 放置 |
+| 1365 | powerful | 强大的 |
+| 1366 | prior | 先前的 |
+| 1367 | protection | 保护 |
+| 1368 | reached | 达到 |
+| 1369 | receive | 收到 |
+| 1370 | religious | 宗教的 |
+| 1371 | ride | 骑 |
+| 1372 | screen | 屏幕 |
+| 1373 | serve | 服务 |
+| 1374 | signed | 签署 |
+| 1375 | slow | 慢 |
+| 1376 | species | 物种 |
+| 1377 | speech | 演讲 |
+| 1378 | traffic | 交通 |
+| 1379 | tree | 树 |
+| 1380 | types | 类型 |
+| 1381 | vs | 与 |
+| 1382 | wearing | 穿着 |
+| 1383 | whom | 谁 |
+| 1384 | wonderful | 太棒了 |
+| 1385 | agreed | 同意 |
+| 1386 | airport | 机场 |
+| 1387 | animals | 动物 |
+| 1388 | appears | 出现 |
+| 1389 | begin | 开始 |
+| 1390 | benefits | 好处 |
+| 1391 | bottom | 底部 |
+| 1392 | cities | 城市 |
+| 1393 | demand | 需求 |
+| 1394 | engine | 发动机 |
+| 1395 | everybody | 大家 |
+| 1396 | famous | 著名的 |
+| 1397 | ideas | 想法 |
+| 1398 | investment | 投资 |
+| 1399 | keeping | 保留 |
+| 1400 | lie | 谎言 |
 
 ### 1401～1500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1401 | standing | 1402 | stars | 1403 | walking | 1404 | accept |
-| 1405 | actual | 1406 | appear | 1407 | attempt | 1408 | broke |
-| 1409 | channel | 1410 | distance | 1411 | eating | 1412 | exchange |
-| 1413 | fat | 1414 | fell | 1415 | finding | 1416 | glass |
-| 1417 | learned | 1418 | losing | 1419 | mobile | 1420 | northern |
-| 1421 | opened | 1422 | placed | 1423 | powerful | 1424 | prior |
-| 1425 | protection | 1426 | reached | 1427 | receive | 1428 | religious |
-| 1429 | ride | 1430 | robert | 1431 | royal | 1432 | screen |
-| 1433 | serve | 1434 | signed | 1435 | slow | 1436 | species |
-| 1437 | speech | 1438 | traffic | 1439 | tree | 1440 | types |
-| 1441 | vs | 1442 | wearing | 1443 | whom | 1444 | wonderful |
-| 1445 | agreed | 1446 | airport | 1447 | animals | 1448 | appears |
-| 1449 | begin | 1450 | benefits | 1451 | bottom | 1452 | cities |
-| 1453 | demand | 1454 | engine | 1455 | everybody | 1456 | famous |
-| 1457 | ideas | 1458 | investment | 1459 | keeping | 1460 | lie |
-| 1461 | notes | 1462 | partner | 1463 | plays | 1464 | raised |
-| 1465 | runs | 1466 | sad | 1467 | solution | 1468 | songs |
-| 1469 | sources | 1470 | southern | 1471 | square | 1472 | stopped |
-| 1473 | structure | 1474 | thomas | 1475 | traditional | 1476 | twice |
-| 1477 | wind | 1478 | worry | 1479 | americans | 1480 | appeared |
-| 1481 | becomes | 1482 | brand | 1483 | bus | 1484 | cent |
-| 1485 | chicago | 1486 | count | 1487 | covered | 1488 | critical |
-| 1489 | digital | 1490 | forced | 1491 | fourth | 1492 | fresh |
-| 1493 | lake | 1494 | mental | 1495 | mentioned | 1496 | missed |
-| 1497 | mostly | 1498 | mouth | 1499 | owner | 1500 | photos |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1401 | notes | 笔记 |
+| 1402 | partner | 合伙人 |
+| 1403 | plays | 戏剧 |
+| 1404 | raised | 凸起 |
+| 1405 | runs | 运行 |
+| 1406 | sad | 悲伤 |
+| 1407 | solution | 解决方案 |
+| 1408 | songs | 歌曲 |
+| 1409 | sources | 来源 |
+| 1410 | southern | 南部 |
+| 1411 | square | 正方形 |
+| 1412 | stopped | 停止了 |
+| 1413 | structure | 结构 |
+| 1414 | traditional | 传统的 |
+| 1415 | twice | 两次 |
+| 1416 | wind | 风 |
+| 1417 | worry | 担心 |
+| 1418 | americans | 美国人 |
+| 1419 | appeared | 出现了 |
+| 1420 | becomes | 变成 |
+| 1421 | brand | 品牌 |
+| 1422 | bus | 巴士 |
+| 1423 | cent | 分 |
+| 1424 | count | 计数 |
+| 1425 | covered | 覆盖 |
+| 1426 | critical | 批评的 |
+| 1427 | digital | 数字化 |
+| 1428 | forced | 被迫 |
+| 1429 | fourth | 第四 |
+| 1430 | fresh | 新鲜的 |
+| 1431 | lake | 湖 |
+| 1432 | mental | 心理的 |
+| 1433 | mentioned | 提到的 |
+| 1434 | missed | 错过了 |
+| 1435 | mostly | 大部分 |
+| 1436 | mouth | 嘴 |
+| 1437 | owner | 业主 |
+| 1438 | photos | 照片 |
+| 1439 | previously | 以前 |
+| 1440 | realize | 意识到 |
+| 1441 | remain | 留下来 |
+| 1442 | scale | 规模 |
+| 1443 | score | 分数 |
+| 1444 | separate | 分开 |
+| 1445 | smart | 聪明的 |
+| 1446 | starts | 开始 |
+| 1447 | surface | 表面 |
+| 1448 | throw | 扔 |
+| 1449 | totally | 完全地 |
+| 1450 | views | 意见 |
+| 1451 | wedding | 婚礼 |
+| 1452 | acting | 表演 |
+| 1453 | actions | 行动 |
+| 1454 | arms | 武器 |
+| 1455 | benefit | 好处 |
+| 1456 | budget | 预算 |
+| 1457 | click | 单击 |
+| 1458 | estate | 庄园 |
+| 1459 | failed | 失败了 |
+| 1460 | faith | 信仰 |
+| 1461 | fashion | 时尚 |
+| 1462 | feature | 特征 |
+| 1463 | fund | 基金 |
+| 1464 | generation | 一代 |
+| 1465 | hearing | 听力 |
+| 1466 | hill | 山 |
+| 1467 | jack | 杰克 |
+| 1468 | larger | 更大 |
+| 1469 | metal | 金属 |
+| 1470 | mid | 中 |
+| 1471 | profile | 简介 |
+| 1472 | pull | 拉 |
+| 1473 | push | 推 |
+| 1474 | returned | 返回 |
+| 1475 | rose | 玫瑰 |
+| 1476 | seat | 座位 |
+| 1477 | seemed | 似乎 |
+| 1478 | sexual | 性的 |
+| 1479 | target | 目标 |
+| 1480 | understanding | 理解 |
+| 1481 | village | 村庄 |
+| 1482 | agent | 代理人 |
+| 1483 | animal | 动物 |
+| 1484 | apply | 申请 |
+| 1485 | authority | 权威 |
+| 1486 | basis | 基础 |
+| 1487 | becoming | 成为 |
+| 1488 | draw | 画 |
+| 1489 | employees | 员工 |
+| 1490 | enter | 输入 |
+| 1491 | ex | 前 |
+| 1492 | follows | 如下 |
+| 1493 | foundation | 基金会 |
+| 1494 | gain | 增益 |
+| 1495 | individuals | 个人 |
+| 1496 | leaders | 领导者 |
+| 1497 | memory | 记忆 |
+| 1498 | prime | 素数 |
+| 1499 | projects | 项目 |
+| 1500 | ring | 环 |
 
 ### 1501～1600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1501 | previously | 1502 | realize | 1503 | remain | 1504 | scale |
-| 1505 | score | 1506 | separate | 1507 | smart | 1508 | starts |
-| 1509 | surface | 1510 | throw | 1511 | tom | 1512 | totally |
-| 1513 | twitter | 1514 | views | 1515 | wedding | 1516 | acting |
-| 1517 | actions | 1518 | african | 1519 | arms | 1520 | benefit |
-| 1521 | budget | 1522 | click | 1523 | estate | 1524 | failed |
-| 1525 | faith | 1526 | fashion | 1527 | feature | 1528 | fund |
-| 1529 | generation | 1530 | hearing | 1531 | hill | 1532 | jack |
-| 1533 | larger | 1534 | louis | 1535 | metal | 1536 | mid |
-| 1537 | paris | 1538 | profile | 1539 | pull | 1540 | push |
-| 1541 | returned | 1542 | rose | 1543 | seat | 1544 | seemed |
-| 1545 | sexual | 1546 | target | 1547 | understanding | 1548 | village |
-| 1549 | agent | 1550 | animal | 1551 | apply | 1552 | authority |
-| 1553 | basis | 1554 | becoming | 1555 | chris | 1556 | draw |
-| 1557 | dude | 1558 | employees | 1559 | enter | 1560 | ex |
-| 1561 | follows | 1562 | foundation | 1563 | gain | 1564 | http |
-| 1565 | individuals | 1566 | japanese | 1567 | leaders | 1568 | memory |
-| 1569 | prime | 1570 | projects | 1571 | ring | 1572 | rise |
-| 1573 | selling | 1574 | served | 1575 | silver | 1576 | soul |
-| 1577 | spread | 1578 | supply | 1579 | waste | 1580 | weird |
-| 1581 | adult | 1582 | apparently | 1583 | artist | 1584 | chairman |
-| 1585 | edition | 1586 | engineering | 1587 | grade | 1588 | happening |
-| 1589 | healthy | 1590 | institute | 1591 | method | 1592 | mike |
-| 1593 | monday | 1594 | nations | 1595 | obviously | 1596 | option |
-| 1597 | prison | 1598 | provides | 1599 | remains | 1600 | senate |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1501 | rise | 上升 |
+| 1502 | selling | 卖 |
+| 1503 | served | 服务 |
+| 1504 | silver | 银 |
+| 1505 | soul | 灵魂 |
+| 1506 | spread | 传播 |
+| 1507 | supply | 供应 |
+| 1508 | waste | 废物 |
+| 1509 | weird | 奇怪的 |
+| 1510 | adult | 成人 |
+| 1511 | apparently | 显然 |
+| 1512 | artist | 艺术家 |
+| 1513 | chairman | 主席 |
+| 1514 | edition | 版本 |
+| 1515 | engineering | 工程 |
+| 1516 | grade | 等级 |
+| 1517 | happening | 正在发生 |
+| 1518 | healthy | 健康的 |
+| 1519 | institute | 研究所 |
+| 1520 | method | 方法 |
+| 1521 | monday | 星期一 |
+| 1522 | nations | 国家 |
+| 1523 | obviously | 显然 |
+| 1524 | option | 选项 |
+| 1525 | prison | 监狱 |
+| 1526 | provides | 提供 |
+| 1527 | remains | 遗骸 |
+| 1528 | senate | 参议院 |
+| 1529 | smaller | 较小 |
+| 1530 | somebody | 某人 |
+| 1531 | stone | 石头 |
+| 1532 | strength | 实力 |
+| 1533 | users | 用户 |
+| 1534 | wild | 野生的 |
+| 1535 | window | 窗户 |
+| 1536 | winner | 获胜者 |
+| 1537 | arrived | 到达 |
+| 1538 | bag | 包 |
+| 1539 | bet | 打赌 |
+| 1540 | camp | 营地 |
+| 1541 | cast | 演员表 |
+| 1542 | continues | 继续 |
+| 1543 | correct | 正确 |
+| 1544 | dangerous | 危险的 |
+| 1545 | extremely | 极其 |
+| 1546 | firm | 坚定 |
+| 1547 | greatest | 最伟大的 |
+| 1548 | handle | 手柄 |
+| 1549 | improve | 改善 |
+| 1550 | indeed | 确实 |
+| 1551 | leaves | 叶子 |
+| 1552 | movies | 电影 |
+| 1553 | negative | 消极的 |
+| 1554 | prevent | 防止 |
+| 1555 | removed | 已删除 |
+| 1556 | spirit | 精神 |
+| 1557 | television | 电视 |
+| 1558 | till | 直到 |
+| 1559 | trouble | 麻烦 |
+| 1560 | usa | 美国 |
+| 1561 | videos | 视频 |
+| 1562 | advantage | 优势 |
+| 1563 | apart | 分开 |
+| 1564 | aware | 意识到 |
+| 1565 | cat | 猫 |
+| 1566 | customers | 顾客 |
+| 1567 | decide | 决定 |
+| 1568 | dinner | 晚餐 |
+| 1569 | dollars | 美元 |
+| 1570 | eastern | 东部 |
+| 1571 | fifth | 第五 |
+| 1572 | function | 功能 |
+| 1573 | gift | 礼物 |
+| 1574 | helping | 帮助 |
+| 1575 | herself | 她自己 |
+| 1576 | impossible | 不可能的 |
+| 1577 | influence | 影响力 |
+| 1578 | items | 项目 |
+| 1579 | marketing | 营销 |
+| 1580 | materials | 材料 |
+| 1581 | nor | 也不 |
+| 1582 | produce | 生产 |
+| 1583 | progress | 进展 |
+| 1584 | proud | 骄傲 |
+| 1585 | require | 要求 |
+| 1586 | shooting | 射击 |
+| 1587 | shut | 关闭 |
+| 1588 | standards | 标准 |
+| 1589 | tells | 告诉 |
+| 1590 | thinks | 认为 |
+| 1591 | wood | 木头 |
+| 1592 | background | 背景 |
+| 1593 | birth | 出生 |
+| 1594 | bridge | 桥 |
+| 1595 | carried | 携带 |
+| 1596 | classes | 类 |
+| 1597 | completed | 已完成 |
+| 1598 | concept | 概念 |
+| 1599 | copy | 复制 |
+| 1600 | dear | 亲爱的 |
 
 ### 1601～1700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1601 | smaller | 1602 | somebody | 1603 | stone | 1604 | strength |
-| 1605 | users | 1606 | wild | 1607 | window | 1608 | winner |
-| 1609 | arrived | 1610 | bag | 1611 | bet | 1612 | camp |
-| 1613 | cast | 1614 | christ | 1615 | continues | 1616 | correct |
-| 1617 | dangerous | 1618 | ed | 1619 | extremely | 1620 | firm |
-| 1621 | greatest | 1622 | handle | 1623 | improve | 1624 | indeed |
-| 1625 | leaves | 1626 | movies | 1627 | negative | 1628 | prevent |
-| 1629 | removed | 1630 | richard | 1631 | spirit | 1632 | television |
-| 1633 | till | 1634 | trouble | 1635 | usa | 1636 | videos |
-| 1637 | advantage | 1638 | apart | 1639 | aware | 1640 | cat |
-| 1641 | customers | 1642 | decide | 1643 | dinner | 1644 | dollars |
-| 1645 | eastern | 1646 | fifth | 1647 | function | 1648 | gift |
-| 1649 | helping | 1650 | herself | 1651 | impossible | 1652 | influence |
-| 1653 | items | 1654 | joe | 1655 | los | 1656 | marketing |
-| 1657 | mary | 1658 | materials | 1659 | nor | 1660 | produce |
-| 1661 | progress | 1662 | proud | 1663 | require | 1664 | shooting |
-| 1665 | shut | 1666 | standards | 1667 | tells | 1668 | thinks |
-| 1669 | van | 1670 | wood | 1671 | background | 1672 | birth |
-| 1673 | bridge | 1674 | carried | 1675 | charles | 1676 | classes |
-| 1677 | completed | 1678 | concept | 1679 | copy | 1680 | dear |
-| 1681 | dogs | 1682 | drugs | 1683 | efforts | 1684 | garden |
-| 1685 | host | 1686 | housing | 1687 | inc | 1688 | israel |
-| 1689 | journal | 1690 | labor | 1691 | leadership | 1692 | length |
-| 1693 | lucky | 1694 | neither | 1695 | onto | 1696 | patient |
-| 1697 | possibly | 1698 | prove | 1699 | rare | 1700 | setting |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1601 | dogs | 狗 |
+| 1602 | drugs | 药物 |
+| 1603 | efforts | 努力 |
+| 1604 | garden | 花园 |
+| 1605 | host | 主机 |
+| 1606 | housing | 住房 |
+| 1607 | journal | 期刊 |
+| 1608 | labor | 劳工 |
+| 1609 | leadership | 领导力 |
+| 1610 | length | 长度 |
+| 1611 | lucky | 幸运的 |
+| 1612 | neither | 两者都不是 |
+| 1613 | onto | 到 |
+| 1614 | patient | 病人 |
+| 1615 | possibly | 可能 |
+| 1616 | prove | 证明 |
+| 1617 | rare | 罕见的 |
+| 1618 | setting | 设置 |
+| 1619 | skills | 技能 |
+| 1620 | software | 软件 |
+| 1621 | thousands | 数千 |
+| 1622 | tough | 强硬 |
+| 1623 | units | 单位 |
+| 1624 | ad | 广告 |
+| 1625 | alive | 活着 |
+| 1626 | apple | 苹果 |
+| 1627 | balance | 平衡 |
+| 1628 | birthday | 生日 |
+| 1629 | boss | 老板 |
+| 1630 | cards | 卡片 |
+| 1631 | changing | 改变 |
+| 1632 | connection | 连接 |
+| 1633 | dress | 连衣裙 |
+| 1634 | easier | 更容易 |
+| 1635 | fellow | 同胞 |
+| 1636 | florida | 佛罗里达州 |
+| 1637 | horse | 马 |
+| 1638 | knowing | 知道 |
+| 1639 | liked | 喜欢 |
+| 1640 | magic | 魔法 |
+| 1641 | managed | 管理的 |
+| 1642 | map | 地图 |
+| 1643 | net | 网 |
+| 1644 | owned | 拥有的 |
+| 1645 | request | 要求 |
+| 1646 | stick | 棒 |
+| 1647 | turns | 轮流 |
+| 1648 | vehicle | 车辆 |
+| 1649 | volume | 体积 |
+| 1650 | wake | 醒来 |
+| 1651 | aid | 援助 |
+| 1652 | beauty | 美丽 |
+| 1653 | believed | 相信 |
+| 1654 | billion | 十亿 |
+| 1655 | busy | 忙 |
+| 1656 | buying | 购买 |
+| 1657 | cells | 细胞 |
+| 1658 | concerned | 关心 |
+| 1659 | conversation | 谈话 |
+| 1660 | corner | 角落 |
+| 1661 | criminal | 罪犯 |
+| 1662 | cultural | 文化的 |
+| 1663 | develop | 发展 |
+| 1664 | driver | 司机 |
+| 1665 | ends | 结束 |
+| 1666 | existing | 现有的 |
+| 1667 | farm | 农场 |
+| 1668 | file | 文件 |
+| 1669 | fix | 修复 |
+| 1670 | fly | 飞 |
+| 1671 | guide | 指南 |
+| 1672 | images | 图片 |
+| 1673 | investigation | 调查 |
+| 1674 | operating | 经营 |
+| 1675 | paying | 支付 |
+| 1676 | presented | 提出 |
+| 1677 | raise | 提高 |
+| 1678 | responsibility | 责任 |
+| 1679 | roll | 卷 |
+| 1680 | slightly | 稍微 |
+| 1681 | suggest | 建议 |
+| 1682 | surprise | 惊喜 |
+| 1683 | technical | 技术性的 |
+| 1684 | thoughts | 想法 |
+| 1685 | treat | 对待 |
+| 1686 | unique | 独特的 |
+| 1687 | variety | 品种 |
+| 1688 | violence | 暴力 |
+| 1689 | weapons | 武器 |
+| 1690 | yours | 你的 |
+| 1691 | youth | 青年 |
+| 1692 | appreciate | 欣赏 |
+| 1693 | bigger | 更大 |
+| 1694 | breaking | 打破 |
+| 1695 | discovered | 发现了 |
+| 1696 | dont | 不要 |
+| 1697 | dry | 干 |
+| 1698 | edge | 边缘 |
+| 1699 | evil | 邪恶 |
+| 1700 | excited | 兴奋 |
 
 ### 1701～1800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1701 | skills | 1702 | software | 1703 | thousands | 1704 | tough |
-| 1705 | units | 1706 | ad | 1707 | alive | 1708 | apple |
-| 1709 | balance | 1710 | birthday | 1711 | boss | 1712 | cards |
-| 1713 | changing | 1714 | connection | 1715 | dress | 1716 | easier |
-| 1717 | fellow | 1718 | florida | 1719 | horse | 1720 | knowing |
-| 1721 | liked | 1722 | magic | 1723 | managed | 1724 | map |
-| 1725 | net | 1726 | owned | 1727 | request | 1728 | stick |
-| 1729 | turns | 1730 | vehicle | 1731 | volume | 1732 | wake |
-| 1733 | aid | 1734 | beauty | 1735 | believed | 1736 | billion |
-| 1737 | busy | 1738 | buying | 1739 | cells | 1740 | concerned |
-| 1741 | conversation | 1742 | corner | 1743 | criminal | 1744 | cultural |
-| 1745 | develop | 1746 | driver | 1747 | ends | 1748 | existing |
-| 1749 | farm | 1750 | file | 1751 | fix | 1752 | fly |
-| 1753 | frank | 1754 | guide | 1755 | images | 1756 | investigation |
-| 1757 | mexico | 1758 | operating | 1759 | paying | 1760 | presented |
-| 1761 | raise | 1762 | responsibility | 1763 | roll | 1764 | slightly |
-| 1765 | suggest | 1766 | surprise | 1767 | technical | 1768 | thoughts |
-| 1769 | treat | 1770 | unique | 1771 | variety | 1772 | violence |
-| 1773 | weapons | 1774 | yours | 1775 | youth | 1776 | appreciate |
-| 1777 | bigger | 1778 | breaking | 1779 | discovered | 1780 | dont |
-| 1781 | dry | 1782 | edge | 1783 | evil | 1784 | excited |
-| 1785 | forever | 1786 | funds | 1787 | helps | 1788 | henry |
-| 1789 | injury | 1790 | iron | 1791 | lovely | 1792 | mad |
-| 1793 | magazine | 1794 | martin | 1795 | models | 1796 | offers |
-| 1797 | ordered | 1798 | parliament | 1799 | prepared | 1800 | reference |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1701 | forever | 永远 |
+| 1702 | funds | 资金 |
+| 1703 | helps | 帮助 |
+| 1704 | injury | 伤害 |
+| 1705 | iron | 铁 |
+| 1706 | lovely | 可爱的 |
+| 1707 | mad | 疯狂的 |
+| 1708 | magazine | 杂志 |
+| 1709 | models | 型号 |
+| 1710 | offers | 优惠 |
+| 1711 | ordered | 已订购 |
+| 1712 | parliament | 议会 |
+| 1713 | prepared | 准备好了 |
+| 1714 | reference | 参考 |
+| 1715 | religion | 宗教 |
+| 1716 | sites | 网站 |
+| 1717 | somewhere | 某处 |
+| 1718 | stated | 指出 |
+| 1719 | strategy | 策略 |
+| 1720 | teachers | 教师 |
+| 1721 | web | 网络 |
+| 1722 | wine | 酒 |
+| 1723 | accounts | 账户 |
+| 1724 | angeles | 安吉利斯 |
+| 1725 | arm | 手臂 |
+| 1726 | audience | 观众 |
+| 1727 | bay | 湾 |
+| 1728 | blog | 博客 |
+| 1729 | closer | 更近 |
+| 1730 | core | 核心 |
+| 1731 | democratic | 民主的 |
+| 1732 | description | 描述 |
+| 1733 | dropped | 掉落 |
+| 1734 | excellent | 优秀的 |
+| 1735 | exist | 存在 |
+| 1736 | figures | 数字 |
+| 1737 | forms | 形式 |
+| 1738 | guard | 守卫 |
+| 1739 | honest | 诚实的 |
+| 1740 | issued | 发出 |
+| 1741 | joined | 加入 |
+| 1742 | lies | 谎言 |
+| 1743 | likes | 喜欢 |
+| 1744 | medicine | 医学 |
+| 1745 | mention | 提及 |
+| 1746 | mountain | 山 |
+| 1747 | nuclear | 核 |
+| 1748 | orders | 订单 |
+| 1749 | port | 港口 |
+| 1750 | presence | 存在 |
+| 1751 | reaction | 反应 |
+| 1752 | reduce | 减少 |
+| 1753 | shoot | 射击 |
+| 1754 | sides | 侧面 |
+| 1755 | solid | 固体 |
+| 1756 | sport | 运动 |
+| 1757 | steps | 步骤 |
+| 1758 | stress | 压力 |
+| 1759 | taste | 味道 |
+| 1760 | tea | 茶 |
+| 1761 | victory | 胜利 |
+| 1762 | afternoon | 下午 |
+| 1763 | assistant | 助理 |
+| 1764 | citizens | 公民 |
+| 1765 | classic | 经典 |
+| 1766 | clothes | 衣服 |
+| 1767 | decisions | 决定 |
+| 1768 | electric | 电动的 |
+| 1769 | emergency | 紧急情况 |
+| 1770 | entered | 进入 |
+| 1771 | entirely | 完全 |
+| 1772 | facts | 事实 |
+| 1773 | failure | 失败 |
+| 1774 | festival | 节日 |
+| 1775 | flat | 平坦 |
+| 1776 | fuel | 燃料 |
+| 1777 | hello | 你好 |
+| 1778 | houses | 房屋 |
+| 1779 | ill | 生病了 |
+| 1780 | initial | 初始的 |
+| 1781 | introduced | 介绍 |
+| 1782 | johnson | 约翰逊 |
+| 1783 | kick | 踢 |
+| 1784 | links | 链接 |
+| 1785 | mail | 邮件 |
+| 1786 | massive | 巨大的 |
+| 1787 | matters | 事情 |
+| 1788 | pair | 一对 |
+| 1789 | picked | 挑选的 |
+| 1790 | pieces | 件 |
+| 1791 | plane | 飞机 |
+| 1792 | plenty | 足够 |
+| 1793 | proper | 适当的 |
+| 1794 | providing | 提供 |
+| 1795 | quarter | 季度 |
+| 1796 | regional | 区域性的 |
+| 1797 | session | 会话 |
+| 1798 | shape | 形状 |
+| 1799 | sky | 天空 |
+| 1800 | teaching | 教学 |
 
 ### 1801～1900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1801 | religion | 1802 | sites | 1803 | somewhere | 1804 | stated |
-| 1805 | strategy | 1806 | teachers | 1807 | web | 1808 | wine |
-| 1809 | accounts | 1810 | angeles | 1811 | arm | 1812 | audience |
-| 1813 | bay | 1814 | blog | 1815 | closer | 1816 | core |
-| 1817 | democratic | 1818 | description | 1819 | dropped | 1820 | excellent |
-| 1821 | exist | 1822 | figures | 1823 | forms | 1824 | guard |
-| 1825 | honest | 1826 | issued | 1827 | joined | 1828 | jones |
-| 1829 | lee | 1830 | lies | 1831 | likes | 1832 | medicine |
-| 1833 | mention | 1834 | mountain | 1835 | nuclear | 1836 | orders |
-| 1837 | port | 1838 | presence | 1839 | reaction | 1840 | reduce |
-| 1841 | shoot | 1842 | sides | 1843 | solid | 1844 | spanish |
-| 1845 | sport | 1846 | steps | 1847 | stress | 1848 | taste |
-| 1849 | tea | 1850 | victory | 1851 | afternoon | 1852 | assistant |
-| 1853 | britain | 1854 | citizens | 1855 | classic | 1856 | clothes |
-| 1857 | decisions | 1858 | electric | 1859 | emergency | 1860 | entered |
-| 1861 | entirely | 1862 | facts | 1863 | failure | 1864 | festival |
-| 1865 | flat | 1866 | fuel | 1867 | harry | 1868 | hello |
-| 1869 | houses | 1870 | ill | 1871 | initial | 1872 | introduced |
-| 1873 | johnson | 1874 | kick | 1875 | links | 1876 | mail |
-| 1877 | massive | 1878 | matters | 1879 | pair | 1880 | picked |
-| 1881 | pieces | 1882 | plane | 1883 | plenty | 1884 | prince |
-| 1885 | proper | 1886 | providing | 1887 | quarter | 1888 | regional |
-| 1889 | scott | 1890 | session | 1891 | shape | 1892 | sky |
-| 1893 | teaching | 1894 | toward | 1895 | transfer | 1896 | upper |
-| 1897 | useful | 1898 | valley | 1899 | watched | 1900 | willing |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1801 | toward | 朝向 |
+| 1802 | transfer | 转移 |
+| 1803 | upper | 上层 |
+| 1804 | useful | 有用的 |
+| 1805 | valley | 山谷 |
+| 1806 | watched | 看过 |
+| 1807 | willing | 愿意 |
+| 1808 | windows | 窗户 |
+| 1809 | zone | 区 |
+| 1810 | accident | 事故 |
+| 1811 | advanced | 先进的 |
+| 1812 | alternative | 另类 |
+| 1813 | anywhere | 任何地方 |
+| 1814 | articles | 文章 |
+| 1815 | awards | 奖项 |
+| 1816 | bear | 熊 |
+| 1817 | boat | 船 |
+| 1818 | bringing | 带来 |
+| 1819 | capacity | 容量 |
+| 1820 | cheap | 便宜 |
+| 1821 | climate | 气候 |
+| 1822 | communities | 社区 |
+| 1823 | discussion | 讨论 |
+| 1824 | drinking | 饮酒 |
+| 1825 | duty | 职责 |
+| 1826 | fantastic | 太棒了 |
+| 1827 | feelings | 感受 |
+| 1828 | flying | 飞行 |
+| 1829 | governor | 州长 |
+| 1830 | hundred | 一百 |
+| 1831 | industrial | 工业 |
+| 1832 | joint | 联合 |
+| 1833 | mix | 混合 |
+| 1834 | museum | 博物馆 |
+| 1835 | options | 选项 |
+| 1836 | path | 路径 |
+| 1837 | plants | 植物 |
+| 1838 | policies | 政策 |
+| 1839 | promise | 承诺 |
+| 1840 | proposed | 提议的 |
+| 1841 | purchase | 购买 |
+| 1842 | rain | 雨 |
+| 1843 | remove | 删除 |
+| 1844 | signs | 迹象 |
+| 1845 | spending | 支出 |
+| 1846 | steel | 钢 |
+| 1847 | supporting | 支持 |
+| 1848 | terrible | 可怕的 |
+| 1849 | tired | 累了 |
+| 1850 | treated | 治疗过的 |
+| 1851 | turning | 转动 |
+| 1852 | vice | 恶习 |
+| 1853 | warm | 温暖 |
+| 1854 | afraid | 害怕 |
+| 1855 | arts | 艺术 |
+| 1856 | beer | 啤酒 |
+| 1857 | border | 边界 |
+| 1858 | command | 命令 |
+| 1859 | crew | 船员 |
+| 1860 | crowd | 人群 |
+| 1861 | dating | 约会 |
+| 1862 | elements | 元素 |
+| 1863 | enemy | 敌人 |
+| 1864 | ensure | 确保 |
+| 1865 | environmental | 环境 |
+| 1866 | filled | 充满 |
+| 1867 | fixed | 固定的 |
+| 1868 | forest | 森林 |
+| 1869 | intelligence | 智力 |
+| 1870 | intended | 有意的 |
+| 1871 | labour | 劳工 |
+| 1872 | limit | 限制 |
+| 1873 | moon | 月亮 |
+| 1874 | ocean | 海洋 |
+| 1875 | powers | 权力 |
+| 1876 | profit | 利润 |
+| 1877 | proof | 证明 |
+| 1878 | republican | 共和党的 |
+| 1879 | soldiers | 士兵 |
+| 1880 | suit | 西装 |
+| 1881 | wins | 获胜 |
+| 1882 | appearance | 外观 |
+| 1883 | attorney | 律师 |
+| 1884 | banks | 银行 |
+| 1885 | behavior | 行为 |
+| 1886 | bodies | 尸体 |
+| 1887 | brothers | 兄弟 |
+| 1888 | buildings | 建筑物 |
+| 1889 | chair | 椅子 |
+| 1890 | creating | 创造 |
+| 1891 | debt | 债务 |
+| 1892 | domestic | 国内 |
+| 1893 | expensive | 昂贵 |
+| 1894 | grew | 长大了 |
+| 1895 | historical | 历史的 |
+| 1896 | homes | 家园 |
+| 1897 | honestly | 诚实地 |
+| 1898 | honor | 荣誉 |
+| 1899 | jump | 跳跃 |
+| 1900 | launch | 发射 |
 
 ### 1901～2000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 1901 | windows | 1902 | zone | 1903 | accident | 1904 | advanced |
-| 1905 | alternative | 1906 | anywhere | 1907 | articles | 1908 | awards |
-| 1909 | bear | 1910 | boat | 1911 | bringing | 1912 | capacity |
-| 1913 | cheap | 1914 | climate | 1915 | communities | 1916 | discussion |
-| 1917 | drinking | 1918 | duty | 1919 | fantastic | 1920 | feelings |
-| 1921 | flying | 1922 | governor | 1923 | hundred | 1924 | industrial |
-| 1925 | joint | 1926 | mix | 1927 | museum | 1928 | options |
-| 1929 | path | 1930 | plants | 1931 | policies | 1932 | promise |
-| 1933 | proposed | 1934 | purchase | 1935 | rain | 1936 | remove |
-| 1937 | signs | 1938 | spending | 1939 | steel | 1940 | steve |
-| 1941 | supporting | 1942 | terrible | 1943 | tired | 1944 | treated |
-| 1945 | turning | 1946 | vice | 1947 | warm | 1948 | afraid |
-| 1949 | arts | 1950 | beer | 1951 | border | 1952 | canadian |
-| 1953 | command | 1954 | crew | 1955 | crowd | 1956 | dating |
-| 1957 | elements | 1958 | enemy | 1959 | ensure | 1960 | environmental |
-| 1961 | filled | 1962 | fixed | 1963 | forest | 1964 | intelligence |
-| 1965 | intended | 1966 | labour | 1967 | limit | 1968 | moon |
-| 1969 | ocean | 1970 | powers | 1971 | profit | 1972 | proof |
-| 1973 | republican | 1974 | soldiers | 1975 | suit | 1976 | wins |
-| 1977 | appearance | 1978 | asian | 1979 | attorney | 1980 | banks |
-| 1981 | behavior | 1982 | ben | 1983 | bodies | 1984 | brothers |
-| 1985 | buildings | 1986 | chair | 1987 | creating | 1988 | debt |
-| 1989 | domestic | 1990 | expensive | 1991 | grew | 1992 | historical |
-| 1993 | homes | 1994 | honestly | 1995 | honor | 1996 | im |
-| 1997 | jump | 1998 | launch | 1999 | listed | 2000 | minimum |
+| No. | Word | 中文 |
+|---:|---|---|
+| 1901 | listed | 列出 |
+| 1902 | minimum | 最小值 |
+| 1903 | native | 本地人 |
+| 1904 | noted | 注意到 |
+| 1905 | originally | 本来 |
+| 1906 | planned | 计划中的 |
+| 1907 | pm | 下午 |
+| 1908 | ray | 雷 |
+| 1909 | sets | 套 |
+| 1910 | suddenly | 突然 |
+| 1911 | supreme | 至高无上的 |
+| 1912 | survey | 调查 |
+| 1913 | tech | 科技 |
+| 1914 | trees | 树 |
+| 1915 | update | 更新 |
+| 1916 | user | 用户 |
+| 1917 | writer | 作家 |
+| 1918 | yellow | 黄色 |
+| 1919 | younger | 年轻的 |
+| 1920 | ancient | 古代的 |
+| 1921 | attacks | 攻击 |
+| 1922 | charges | 收费 |
+| 1923 | combined | 合并的 |
+| 1924 | communication | 沟通 |
+| 1925 | connected | 已连接 |
+| 1926 | contains | 包含 |
+| 1927 | download | 下载 |
+| 1928 | email | 电子邮件 |
+| 1929 | ending | 结束 |
+| 1930 | exercise | 锻炼 |
+| 1931 | express | 快递 |
+| 1932 | flow | 流量 |
+| 1933 | formed | 形成的 |
+| 1934 | girlfriend | 女朋友 |
+| 1935 | hero | 英雄 |
+| 1936 | illegal | 非法的 |
+| 1937 | increasing | 增加 |
+| 1938 | joke | 笑话 |
+| 1939 | loan | 贷款 |
+| 1940 | methods | 方法 |
+| 1941 | officials | 官员 |
+| 1942 | performed | 执行的 |
+| 1943 | planet | 行星 |
+| 1944 | relationships | 关系 |
+| 1945 | restaurant | 餐厅 |
+| 1946 | selected | 已选择 |
+| 1947 | shared | 共享 |
+| 1948 | shopping | 购物 |
+| 1949 | soft | 软的 |
+| 1950 | stuck | 卡住了 |
+| 1951 | sugar | 糖 |
+| 1952 | suggested | 建议 |
+| 1953 | supported | 支持 |
+| 1954 | surprised | 惊讶 |
+| 1955 | taught | 教过的 |
+| 1956 | transport | 运输 |
+| 1957 | accepted | 已接受 |
+| 1958 | adding | 添加 |
+| 1959 | affairs | 事务 |
+| 1960 | allows | 允许 |
+| 1961 | appeal | 上诉 |
+| 1962 | applied | 应用 |
+| 1963 | appropriate | 适当的 |
+| 1964 | artists | 艺术家 |
+| 1965 | confirmed | 已确认 |
+| 1966 | device | 装置 |
+| 1967 | drama | 戏剧 |
+| 1968 | entry | 条目 |
+| 1969 | era | 时代 |
+| 1970 | factor | 因素 |
+| 1971 | feed | 饲料 |
+| 1972 | golden | 金色 |
+| 1973 | grant | 授予 |
+| 1974 | grown | 长大了 |
+| 1975 | heads | 头 |
+| 1976 | hoping | 希望 |
+| 1977 | keeps | 保持 |
+| 1978 | lawyer | 律师 |
+| 1979 | legs | 腿 |
+| 1980 | lying | 说谎 |
+| 1981 | measures | 措施 |
+| 1982 | mistake | 错误 |
+| 1983 | organizations | 组织 |
+| 1984 | platform | 平台 |
+| 1985 | pool | 泳池 |
+| 1986 | pulled | 拉 |
+| 1987 | regarding | 关于 |
+| 1988 | relations | 关系 |
+| 1989 | requires | 需要 |
+| 1990 | route | 路线 |
+| 1991 | saved | 已保存 |
+| 1992 | schedule | 时间表 |
+| 1993 | scientific | 科学的 |
+| 1994 | shoes | 鞋子 |
+| 1995 | smoke | 抽烟 |
+| 1996 | squad | 小队 |
+| 1997 | teach | 教 |
+| 1998 | testing | 测试 |
+| 1999 | tests | 测试 |
+| 2000 | values | 价值观 |
 
 ### 2001～2100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2001 | native | 2002 | noted | 2003 | originally | 2004 | planned |
-| 2005 | pm | 2006 | ray | 2007 | sets | 2008 | suddenly |
-| 2009 | supreme | 2010 | survey | 2011 | tech | 2012 | trees |
-| 2013 | update | 2014 | user | 2015 | writer | 2016 | yellow |
-| 2017 | younger | 2018 | ancient | 2019 | attacks | 2020 | charges |
-| 2021 | combined | 2022 | communication | 2023 | connected | 2024 | contains |
-| 2025 | download | 2026 | email | 2027 | ending | 2028 | exercise |
-| 2029 | express | 2030 | flow | 2031 | formed | 2032 | girlfriend |
-| 2033 | hero | 2034 | illegal | 2035 | increasing | 2036 | joke |
-| 2037 | loan | 2038 | methods | 2039 | officials | 2040 | performed |
-| 2041 | planet | 2042 | relationships | 2043 | restaurant | 2044 | scotland |
-| 2045 | selected | 2046 | shared | 2047 | shopping | 2048 | soft |
-| 2049 | stuck | 2050 | sugar | 2051 | suggested | 2052 | supported |
-| 2053 | surprised | 2054 | taught | 2055 | transport | 2056 | accepted |
-| 2057 | adding | 2058 | affairs | 2059 | allows | 2060 | appeal |
-| 2061 | applied | 2062 | appropriate | 2063 | artists | 2064 | boston |
-| 2065 | ca | 2066 | confirmed | 2067 | device | 2068 | drama |
-| 2069 | entry | 2070 | era | 2071 | factor | 2072 | feed |
-| 2073 | golden | 2074 | grant | 2075 | grown | 2076 | heads |
-| 2077 | hoping | 2078 | keeps | 2079 | lawyer | 2080 | legs |
-| 2081 | lying | 2082 | measures | 2083 | mistake | 2084 | ms |
-| 2085 | muslim | 2086 | organizations | 2087 | platform | 2088 | pool |
-| 2089 | pulled | 2090 | regarding | 2091 | relations | 2092 | requires |
-| 2093 | route | 2094 | saved | 2095 | schedule | 2096 | scientific |
-| 2097 | shoes | 2098 | smoke | 2099 | squad | 2100 | teach |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2001 | walked | 走过 |
+| 2002 | williams | 威廉斯 |
+| 2003 | ya | 呀 |
+| 2004 | abuse | 滥用 |
+| 2005 | angry | 生气 |
+| 2006 | businesses | 企业 |
+| 2007 | candidate | 候选人 |
+| 2008 | comfortable | 舒适 |
+| 2009 | concern | 关心 |
+| 2010 | developing | 发展中 |
+| 2011 | discuss | 讨论 |
+| 2012 | elections | 选举 |
+| 2013 | emotional | 情绪化的 |
+| 2014 | et | 等 |
+| 2015 | everywhere | 到处 |
+| 2016 | facilities | 设施 |
+| 2017 | falling | 坠落 |
+| 2018 | fox | 狐狸 |
+| 2019 | guns | 枪 |
+| 2020 | hole | 洞 |
+| 2021 | holiday | 假期 |
+| 2022 | interests | 兴趣 |
+| 2023 | internal | 内部 |
+| 2024 | jersey | 球衣 |
+| 2025 | laugh | 笑 |
+| 2026 | leg | 腿 |
+| 2027 | letters | 字母 |
+| 2028 | liberal | 自由主义 |
+| 2029 | listening | 倾听 |
+| 2030 | ll | ll |
+| 2031 | loves | 爱 |
+| 2032 | lunch | 午餐 |
+| 2033 | max | 最大 |
+| 2034 | milk | 牛奶 |
+| 2035 | pack | 包 |
+| 2036 | payment | 付款 |
+| 2037 | perform | 执行 |
+| 2038 | recorded | 记录的 |
+| 2039 | relatively | 相对地 |
+| 2040 | sector | 部门 |
+| 2041 | sharing | 分享 |
+| 2042 | snow | 雪 |
+| 2043 | storm | 风暴 |
+| 2044 | streets | 街道 |
+| 2045 | strike | 罢工 |
+| 2046 | studio | 工作室 |
+| 2047 | sub | 子 |
+| 2048 | weak | 弱 |
+| 2049 | youtube | 优酷 |
+| 2050 | actor | 演员 |
+| 2051 | advance | 提前 |
+| 2052 | apartment | 公寓 |
+| 2053 | chain | 链条 |
+| 2054 | chapter | 章 |
+| 2055 | committed | 致力于 |
+| 2056 | confidence | 信心 |
+| 2057 | cook | 厨师 |
+| 2058 | cute | 可爱 |
+| 2059 | equal | 平等 |
+| 2060 | fake | 假的 |
+| 2061 | finance | 金融 |
+| 2062 | focused | 专注的 |
+| 2063 | hits | 点击数 |
+| 2064 | identity | 身份 |
+| 2065 | journey | 旅程 |
+| 2066 | kitchen | 厨房 |
+| 2067 | leads | 线索 |
+| 2068 | maintain | 维持 |
+| 2069 | measure | 测量 |
+| 2070 | mm | 毫米 |
+| 2071 | numerous | 众多 |
+| 2072 | owners | 业主 |
+| 2073 | posts | 帖子 |
+| 2074 | properties | 属性 |
+| 2075 | quiet | 安静 |
+| 2076 | revealed | 透露 |
+| 2077 | specifically | 具体来说 |
+| 2078 | split | 分裂 |
+| 2079 | task | 任务 |
+| 2080 | taxes | 税收 |
+| 2081 | twenty | 二十 |
+| 2082 | urban | 城市的 |
+| 2083 | acts | 行为 |
+| 2084 | affected | 受影响 |
+| 2085 | aircraft | 飞机 |
+| 2086 | applications | 应用 |
+| 2087 | approved | 已批准 |
+| 2088 | approximately | 大约 |
+| 2089 | argument | 论证 |
+| 2090 | arrested | 被捕 |
+| 2091 | claimed | 声称 |
+| 2092 | conflict | 冲突 |
+| 2093 | considering | 考虑到 |
+| 2094 | corporate | 企业 |
+| 2095 | debate | 辩论 |
+| 2096 | determined | 已确定 |
+| 2097 | distribution | 分布 |
+| 2098 | documents | 文件 |
+| 2099 | escape | 逃脱 |
+| 2100 | extended | 扩展 |
 
 ### 2101～2200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2101 | testing | 2102 | tests | 2103 | values | 2104 | walked |
-| 2105 | williams | 2106 | ya | 2107 | abuse | 2108 | angry |
-| 2109 | businesses | 2110 | candidate | 2111 | comfortable | 2112 | concern |
-| 2113 | developing | 2114 | discuss | 2115 | elections | 2116 | emotional |
-| 2117 | et | 2118 | everywhere | 2119 | facilities | 2120 | falling |
-| 2121 | fox | 2122 | guns | 2123 | hole | 2124 | holiday |
-| 2125 | interests | 2126 | internal | 2127 | ireland | 2128 | italian |
-| 2129 | italy | 2130 | jersey | 2131 | laugh | 2132 | leg |
-| 2133 | letters | 2134 | liberal | 2135 | listening | 2136 | ll |
-| 2137 | loves | 2138 | lunch | 2139 | max | 2140 | milk |
-| 2141 | pack | 2142 | payment | 2143 | perform | 2144 | recorded |
-| 2145 | relatively | 2146 | sector | 2147 | sharing | 2148 | snow |
-| 2149 | storm | 2150 | streets | 2151 | strike | 2152 | studio |
-| 2153 | sub | 2154 | weak | 2155 | youtube | 2156 | actor |
-| 2157 | advance | 2158 | apartment | 2159 | asia | 2160 | chain |
-| 2161 | chapter | 2162 | committed | 2163 | confidence | 2164 | cook |
-| 2165 | cute | 2166 | equal | 2167 | fake | 2168 | finance |
-| 2169 | focused | 2170 | hits | 2171 | identity | 2172 | journey |
-| 2173 | kitchen | 2174 | korea | 2175 | leads | 2176 | maintain |
-| 2177 | measure | 2178 | mm | 2179 | numerous | 2180 | owners |
-| 2181 | posts | 2182 | properties | 2183 | quiet | 2184 | revealed |
-| 2185 | specifically | 2186 | split | 2187 | task | 2188 | taxes |
-| 2189 | taylor | 2190 | twenty | 2191 | urban | 2192 | acts |
-| 2193 | affected | 2194 | aircraft | 2195 | applications | 2196 | approved |
-| 2197 | approximately | 2198 | argument | 2199 | arrested | 2200 | claimed |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2101 | factors | 因素 |
+| 2102 | faster | 更快 |
+| 2103 | fault | 故障 |
+| 2104 | fill | 填充 |
+| 2105 | films | 电影 |
+| 2106 | flowers | 鲜花 |
+| 2107 | friendly | 友好的 |
+| 2108 | ladies | 女士们 |
+| 2109 | lay | 躺着 |
+| 2110 | lights | 灯 |
+| 2111 | millions | 数百万 |
+| 2112 | mixed | 混合的 |
+| 2113 | phase | 阶段 |
+| 2114 | properly | 正确地 |
+| 2115 | pure | 纯粹的 |
+| 2116 | reduced | 减少 |
+| 2117 | requirements | 要求 |
+| 2118 | residents | 居民 |
+| 2119 | revenue | 收入 |
+| 2120 | sat | 坐 |
+| 2121 | secure | 安全 |
+| 2122 | smile | 微笑 |
+| 2123 | strange | 奇怪的 |
+| 2124 | talent | 人才 |
+| 2125 | temperature | 温度 |
+| 2126 | thousand | 千 |
+| 2127 | troops | 部队 |
+| 2128 | truck | 卡车 |
+| 2129 | votes | 投票 |
+| 2130 | ah | 啊 |
+| 2131 | authorities | 当局 |
+| 2132 | basically | 基本上 |
+| 2133 | besides | 除此之外 |
+| 2134 | bird | 鸟 |
+| 2135 | blame | 责备 |
+| 2136 | bowl | 碗 |
+| 2137 | causes | 原因 |
+| 2138 | chicken | 鸡 |
+| 2139 | collected | 收集的 |
+| 2140 | context | 上下文 |
+| 2141 | coverage | 覆盖范围 |
+| 2142 | determine | 确定 |
+| 2143 | display | 显示 |
+| 2144 | dying | 垂死 |
+| 2145 | elected | 当选 |
+| 2146 | examples | 例子 |
+| 2147 | experienced | 有经验的 |
+| 2148 | falls | 瀑布 |
+| 2149 | false | 假的 |
+| 2150 | fired | 被解雇 |
+| 2151 | forgot | 忘记了 |
+| 2152 | funding | 资金 |
+| 2153 | identified | 已确定 |
+| 2154 | incredible | 难以置信 |
+| 2155 | inspired | 受到启发 |
+| 2156 | launched | 推出 |
+| 2157 | ma | 马 |
+| 2158 | meat | 肉 |
+| 2159 | ministry | 部委 |
+| 2160 | mode | 模式 |
+| 2161 | neck | 脖子 |
+| 2162 | noticed | 注意到 |
+| 2163 | novel | 小说 |
+| 2164 | obvious | 明显的 |
+| 2165 | passing | 路过 |
+| 2166 | positions | 职位 |
+| 2167 | remaining | 剩余 |
+| 2168 | scored | 得分 |
+| 2169 | shirt | 衬衫 |
+| 2170 | shots | 镜头 |
+| 2171 | slowly | 慢慢地 |
+| 2172 | stadium | 体育场 |
+| 2173 | stores | 商店 |
+| 2174 | surgery | 手术 |
+| 2175 | trading | 交易 |
+| 2176 | tuesday | 星期二 |
+| 2177 | vision | 愿景 |
+| 2178 | whenever | 每当 |
+| 2179 | worried | 担心 |
+| 2180 | zero | 零 |
+| 2181 | allowing | 允许 |
+| 2182 | begins | 开始 |
+| 2183 | champion | 冠军 |
+| 2184 | charged | 收费的 |
+| 2185 | cream | 奶油 |
+| 2186 | crisis | 危机 |
+| 2187 | delivered | 已交付 |
+| 2188 | editor | 编辑 |
+| 2189 | estimated | 估计的 |
+| 2190 | giant | 巨人 |
+| 2191 | jail | 监狱 |
+| 2192 | kingdom | 王国 |
+| 2193 | literature | 文学 |
+| 2194 | mayor | 市长 |
+| 2195 | minor | 未成年人 |
+| 2196 | moments | 时刻 |
+| 2197 | opposite | 对面 |
+| 2198 | orange | 橙色 |
+| 2199 | ourselves | 我们自己 |
+| 2200 | pages | 页面 |
 
 ### 2201～2300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2201 | conflict | 2202 | considering | 2203 | corporate | 2204 | debate |
-| 2205 | determined | 2206 | distribution | 2207 | documents | 2208 | escape |
-| 2209 | extended | 2210 | factors | 2211 | faster | 2212 | fault |
-| 2213 | fill | 2214 | films | 2215 | flowers | 2216 | friendly |
-| 2217 | ladies | 2218 | lay | 2219 | lights | 2220 | millions |
-| 2221 | mixed | 2222 | phase | 2223 | properly | 2224 | pure |
-| 2225 | reduced | 2226 | requirements | 2227 | residents | 2228 | revenue |
-| 2229 | sam | 2230 | sat | 2231 | secure | 2232 | smile |
-| 2233 | strange | 2234 | talent | 2235 | temperature | 2236 | thousand |
-| 2237 | tony | 2238 | troops | 2239 | truck | 2240 | votes |
-| 2241 | ah | 2242 | authorities | 2243 | basically | 2244 | besides |
-| 2245 | bird | 2246 | blame | 2247 | bob | 2248 | bowl |
-| 2249 | causes | 2250 | chicken | 2251 | collected | 2252 | context |
-| 2253 | coverage | 2254 | determine | 2255 | display | 2256 | dying |
-| 2257 | elected | 2258 | examples | 2259 | experienced | 2260 | falls |
-| 2261 | false | 2262 | fired | 2263 | forgot | 2264 | funding |
-| 2265 | identified | 2266 | iii | 2267 | incredible | 2268 | inspired |
-| 2269 | launched | 2270 | ma | 2271 | meat | 2272 | ministry |
-| 2273 | mode | 2274 | neck | 2275 | noticed | 2276 | novel |
-| 2277 | obvious | 2278 | passing | 2279 | positions | 2280 | remaining |
-| 2281 | scored | 2282 | shirt | 2283 | shots | 2284 | slowly |
-| 2285 | stadium | 2286 | stores | 2287 | surgery | 2288 | trading |
-| 2289 | tuesday | 2290 | vision | 2291 | whenever | 2292 | worried |
-| 2293 | zero | 2294 | alex | 2295 | allowing | 2296 | begins |
-| 2297 | champion | 2298 | charged | 2299 | cream | 2300 | crisis |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2201 | remained | 留下来 |
+| 2202 | selection | 选择 |
+| 2203 | serving | 服务 |
+| 2204 | signal | 信号 |
+| 2205 | stream | 流 |
+| 2206 | struggle | 奋斗 |
+| 2207 | suicide | 自杀 |
+| 2208 | talked | 谈过 |
+| 2209 | theme | 主题 |
+| 2210 | thursday | 星期四 |
+| 2211 | tiny | 微小的 |
+| 2212 | typically | 通常 |
+| 2213 | unfortunately | 不幸的是 |
+| 2214 | usual | 平常 |
+| 2215 | vehicles | 车辆 |
+| 2216 | virginia | 弗吉尼亚州 |
+| 2217 | voted | 投票了 |
+| 2218 | voting | 投票 |
+| 2219 | walls | 墙壁 |
+| 2220 | wave | 波 |
+| 2221 | alcohol | 酒精 |
+| 2222 | assembly | 组装 |
+| 2223 | breakfast | 早餐 |
+| 2224 | bright | 明亮 |
+| 2225 | brings | 带来 |
+| 2226 | capable | 有能力的 |
+| 2227 | carrying | 携带 |
+| 2228 | chosen | 选择的 |
+| 2229 | combination | 组合 |
+| 2230 | conservative | 保守的 |
+| 2231 | customer | 顾客 |
+| 2232 | cutting | 切割 |
+| 2233 | desire | 欲望 |
+| 2234 | destroyed | 被摧毁 |
+| 2235 | draft | 草案 |
+| 2236 | drunk | 喝醉了 |
+| 2237 | essential | 必不可少的 |
+| 2238 | fail | 失败 |
+| 2239 | familiar | 熟悉的 |
+| 2240 | finds | 发现 |
+| 2241 | granted | 授予 |
+| 2242 | guilty | 有罪 |
+| 2243 | humans | 人类 |
+| 2244 | hundreds | 数百 |
+| 2245 | id | 编号 |
+| 2246 | improved | 改进的 |
+| 2247 | largely | 很大程度上 |
+| 2248 | laughing | 笑 |
+| 2249 | markets | 市场 |
+| 2250 | medium | 中等 |
+| 2251 | ohio | 俄亥俄州 |
+| 2252 | opportunities | 机会 |
+| 2253 | papers | 论文 |
+| 2254 | perfectly | 完美地 |
+| 2255 | recommend | 推荐 |
+| 2256 | referred | 提到的 |
+| 2257 | relevant | 相关的 |
+| 2258 | seek | 寻找 |
+| 2259 | sending | 发送 |
+| 2260 | solo | 独奏 |
+| 2261 | spoke | 发言 |
+| 2262 | stands | 看台 |
+| 2263 | talks | 会谈 |
+| 2264 | ticket | 票 |
+| 2265 | unable | 不能 |
+| 2266 | upset | 心烦意乱 |
+| 2267 | wing | 翼 |
+| 2268 | answers | 答案 |
+| 2269 | birds | 鸟 |
+| 2270 | bomb | 炸弹 |
+| 2271 | creative | 创意 |
+| 2272 | cycle | 循环 |
+| 2273 | dealing | 交易 |
+| 2274 | directed | 指导的 |
+| 2275 | don | 唐 |
+| 2276 | educational | 教育性的 |
+| 2277 | entertainment | 娱乐 |
+| 2278 | extreme | 极端 |
+| 2279 | facility | 设施 |
+| 2280 | fields | 领域 |
+| 2281 | goods | 货物 |
+| 2282 | hang | 挂 |
+| 2283 | holds | 持有 |
+| 2284 | info | 信息 |
+| 2285 | mainly | 主要是 |
+| 2286 | maximum | 最大 |
+| 2287 | newspaper | 报纸 |
+| 2288 | offering | 奉献 |
+| 2289 | painting | 绘画 |
+| 2290 | republic | 共和国 |
+| 2291 | reserve | 储备 |
+| 2292 | returns | 回报 |
+| 2293 | row | 行 |
+| 2294 | salt | 盐 |
+| 2295 | scared | 害怕 |
+| 2296 | shares | 股份 |
+| 2297 | statistics | 统计 |
+| 2298 | switch | 开关 |
+| 2299 | territory | 领土 |
+| 2300 | threat | 威胁 |
 
 ### 2301～2400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2301 | daniel | 2302 | delivered | 2303 | editor | 2304 | estimated |
-| 2305 | eu | 2306 | giant | 2307 | iran | 2308 | jail |
-| 2309 | jim | 2310 | kingdom | 2311 | literature | 2312 | mayor |
-| 2313 | minor | 2314 | moments | 2315 | opposite | 2316 | orange |
-| 2317 | ourselves | 2318 | pages | 2319 | remained | 2320 | selection |
-| 2321 | serving | 2322 | signal | 2323 | stream | 2324 | struggle |
-| 2325 | suicide | 2326 | talked | 2327 | theme | 2328 | thursday |
-| 2329 | tiny | 2330 | typically | 2331 | un | 2332 | unfortunately |
-| 2333 | usual | 2334 | vehicles | 2335 | virginia | 2336 | voted |
-| 2337 | voting | 2338 | walls | 2339 | wave | 2340 | alcohol |
-| 2341 | assembly | 2342 | breakfast | 2343 | bright | 2344 | brings |
-| 2345 | capable | 2346 | carrying | 2347 | chosen | 2348 | combination |
-| 2349 | conservative | 2350 | customer | 2351 | cutting | 2352 | desire |
-| 2353 | destroyed | 2354 | draft | 2355 | drunk | 2356 | essential |
-| 2357 | fail | 2358 | familiar | 2359 | finds | 2360 | granted |
-| 2361 | guilty | 2362 | humans | 2363 | hundreds | 2364 | id |
-| 2365 | improved | 2366 | jewish | 2367 | largely | 2368 | laughing |
-| 2369 | markets | 2370 | medium | 2371 | ohio | 2372 | opportunities |
-| 2373 | papers | 2374 | perfectly | 2375 | recommend | 2376 | referred |
-| 2377 | relevant | 2378 | seek | 2379 | sending | 2380 | solo |
-| 2381 | spoke | 2382 | stands | 2383 | talks | 2384 | ticket |
-| 2385 | unable | 2386 | upset | 2387 | wing | 2388 | answers |
-| 2389 | birds | 2390 | bomb | 2391 | creative | 2392 | cycle |
-| 2393 | dealing | 2394 | directed | 2395 | don | 2396 | educational |
-| 2397 | entertainment | 2398 | extreme | 2399 | facility | 2400 | fields |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2301 | tickets | 门票 |
+| 2302 | adults | 成人 |
+| 2303 | affect | 影响 |
+| 2304 | appointed | 任命 |
+| 2305 | armed | 武装的 |
+| 2306 | aside | 放在一边 |
+| 2307 | assistance | 援助 |
+| 2308 | bell | 铃 |
+| 2309 | blow | 吹 |
+| 2310 | bond | 债券 |
+| 2311 | boyfriend | 男朋友 |
+| 2312 | careful | 小心 |
+| 2313 | circumstances | 情况 |
+| 2314 | communications | 通讯 |
+| 2315 | concerns | 担忧 |
+| 2316 | controlled | 受控的 |
+| 2317 | corporation | 公司 |
+| 2318 | cry | 哭 |
+| 2319 | danger | 危险 |
+| 2320 | deals | 优惠 |
+| 2321 | delivery | 交货 |
+| 2322 | deserve | 应得的 |
+| 2323 | devices | 设备 |
+| 2324 | dollar | 美元 |
+| 2325 | dreams | 梦想 |
+| 2326 | empty | 空的 |
+| 2327 | enjoyed | 很享受 |
+| 2328 | explained | 解释了 |
+| 2329 | faces | 面孔 |
+| 2330 | folks | 伙计们 |
+| 2331 | gender | 性别 |
+| 2332 | instance | 实例 |
+| 2333 | kim | 金 |
+| 2334 | matches | 比赛 |
+| 2335 | mile | 英里 |
+| 2336 | motion | 运动 |
+| 2337 | moves | 动作 |
+| 2338 | pacific | 太平洋 |
+| 2339 | prize | 奖品 |
+| 2340 | realized | 实现了 |
+| 2341 | reasonable | 合理的 |
+| 2342 | receiving | 接收 |
+| 2343 | register | 注册 |
+| 2344 | resolution | 分辨率 |
+| 2345 | rural | 农村的 |
+| 2346 | saving | 储蓄 |
+| 2347 | sees | 看到 |
+| 2348 | singing | 唱歌 |
+| 2349 | tools | 工具 |
+| 2350 | typical | 典型的 |
+| 2351 | universe | 宇宙 |
+| 2352 | warning | 警告 |
+| 2353 | wars | 战争 |
+| 2354 | wednesday | 星期三 |
+| 2355 | admit | 承认 |
+| 2356 | attitude | 态度 |
+| 2357 | branch | 分行 |
+| 2358 | conducted | 进行 |
+| 2359 | decades | 几十年 |
+| 2360 | dedicated | 专注的 |
+| 2361 | definition | 定义 |
+| 2362 | drawing | 绘图 |
+| 2363 | favor | 青睐 |
+| 2364 | flag | 旗帜 |
+| 2365 | frame | 框架 |
+| 2366 | guest | 客人 |
+| 2367 | ha | 哈 |
+| 2368 | heaven | 天堂 |
+| 2369 | independence | 独立性 |
+| 2370 | institutions | 机构 |
+| 2371 | kiss | 亲吻 |
+| 2372 | load | 负载 |
+| 2373 | plot | 情节 |
+| 2374 | possibility | 可能性 |
+| 2375 | random | 随机的 |
+| 2376 | recovery | 恢复 |
+| 2377 | rent | 租金 |
+| 2378 | replace | 替换 |
+| 2379 | represent | 代表 |
+| 2380 | reviews | 评论 |
+| 2381 | scenes | 场景 |
+| 2382 | seeking | 寻求 |
+| 2383 | senator | 参议员 |
+| 2384 | sentence | 句子 |
+| 2385 | teeth | 牙齿 |
+| 2386 | tips | 提示 |
+| 2387 | trained | 训练有素的 |
+| 2388 | understood | 明白了 |
+| 2389 | academic | 学术的 |
+| 2390 | academy | 学院 |
+| 2391 | accurate | 准确 |
+| 2392 | achieve | 达到 |
+| 2393 | afford | 买得起 |
+| 2394 | assume | 假设 |
+| 2395 | bottle | 瓶子 |
+| 2396 | bunch | 一堆 |
+| 2397 | category | 类别 |
+| 2398 | chat | 聊天 |
+| 2399 | cheese | 奶酪 |
+| 2400 | chemical | 化学 |
 
 ### 2401～2500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2401 | goods | 2402 | hang | 2403 | holds | 2404 | info |
-| 2405 | mainly | 2406 | maximum | 2407 | newspaper | 2408 | offering |
-| 2409 | painting | 2410 | republic | 2411 | reserve | 2412 | returns |
-| 2413 | row | 2414 | salt | 2415 | scared | 2416 | scottish |
-| 2417 | shares | 2418 | statistics | 2419 | switch | 2420 | territory |
-| 2421 | threat | 2422 | tickets | 2423 | wales | 2424 | adults |
-| 2425 | affect | 2426 | appointed | 2427 | armed | 2428 | aside |
-| 2429 | assistance | 2430 | bell | 2431 | blow | 2432 | bond |
-| 2433 | boyfriend | 2434 | careful | 2435 | circumstances | 2436 | communications |
-| 2437 | concerns | 2438 | controlled | 2439 | corporation | 2440 | cry |
-| 2441 | danger | 2442 | deals | 2443 | delivery | 2444 | deserve |
-| 2445 | devices | 2446 | dollar | 2447 | dreams | 2448 | empty |
-| 2449 | enjoyed | 2450 | explained | 2451 | faces | 2452 | folks |
-| 2453 | gender | 2454 | instance | 2455 | kim | 2456 | kinda |
-| 2457 | matches | 2458 | mile | 2459 | motion | 2460 | moves |
-| 2461 | nick | 2462 | pacific | 2463 | prize | 2464 | realized |
-| 2465 | reasonable | 2466 | receiving | 2467 | register | 2468 | resolution |
-| 2469 | rural | 2470 | ryan | 2471 | saving | 2472 | sees |
-| 2473 | singing | 2474 | spain | 2475 | tools | 2476 | typical |
-| 2477 | universe | 2478 | warning | 2479 | wars | 2480 | wednesday |
-| 2481 | admit | 2482 | attitude | 2483 | branch | 2484 | brazil |
-| 2485 | conducted | 2486 | decades | 2487 | dedicated | 2488 | definition |
-| 2489 | drawing | 2490 | favor | 2491 | flag | 2492 | frame |
-| 2493 | guest | 2494 | ha | 2495 | heaven | 2496 | independence |
-| 2497 | institutions | 2498 | jackson | 2499 | kiss | 2500 | load |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2401 | competitive | 有竞争力的 |
+| 2402 | detail | 细节 |
+| 2403 | diet | 饮食 |
+| 2404 | favourite | 最喜欢的 |
+| 2405 | fruit | 水果 |
+| 2406 | harder | 更难 |
+| 2407 | index | 指数 |
+| 2408 | item | 项目 |
+| 2409 | lane | 车道 |
+| 2410 | mess | 混乱 |
+| 2411 | navy | 海军 |
+| 2412 | normally | 通常 |
+| 2413 | occurred | 发生 |
+| 2414 | opposition | 反对派 |
+| 2415 | parent | 家长 |
+| 2416 | permanent | 永久的 |
+| 2417 | personally | 个人而言 |
+| 2418 | pleasure | 快乐 |
+| 2419 | prefer | 更喜欢 |
+| 2420 | programme | 节目 |
+| 2421 | representative | 代表 |
+| 2422 | scheme | 方案 |
+| 2423 | shift | 转变 |
+| 2424 | stood | 站着 |
+| 2425 | storage | 存储 |
+| 2426 | tank | 坦克 |
+| 2427 | tend | 倾向于 |
+| 2428 | tight | 紧 |
+| 2429 | transportation | 交通 |
+| 2430 | ultimately | 最终 |
+| 2431 | unlike | 不像 |
+| 2432 | weekly | 每周 |
+| 2433 | yard | 院子 |
+| 2434 | anybody | 任何人 |
+| 2435 | assets | 资产 |
+| 2436 | basketball | 篮球 |
+| 2437 | button | 按钮 |
+| 2438 | candidates | 候选人 |
+| 2439 | combat | 战斗 |
+| 2440 | constitution | 宪法 |
+| 2441 | consumer | 消费者 |
+| 2442 | counter | 柜台 |
+| 2443 | creation | 创造 |
+| 2444 | crying | 哭 |
+| 2445 | defined | 定义的 |
+| 2446 | depending | 取决于 |
+| 2447 | depression | 抑郁症 |
+| 2448 | describe | 描述 |
+| 2449 | drivers | 司机 |
+| 2450 | employment | 就业 |
+| 2451 | exclusive | 独家的 |
+| 2452 | excuse | 借口 |
+| 2453 | expert | 专家 |
+| 2454 | frequently | 经常 |
+| 2455 | golf | 高尔夫 |
+| 2456 | grace | 恩典 |
+| 2457 | hopefully | 希望 |
+| 2458 | identify | 识别 |
+| 2459 | importance | 重要性 |
+| 2460 | laid | 铺设 |
+| 2461 | latter | 后者 |
+| 2462 | manufacturing | 制造 |
+| 2463 | mining | 采矿 |
+| 2464 | object | 对象 |
+| 2465 | partners | 合作伙伴 |
+| 2466 | pattern | 图案 |
+| 2467 | performing | 表演 |
+| 2468 | personnel | 人员 |
+| 2469 | perspective | 观点 |
+| 2470 | pregnant | 怀孕了 |
+| 2471 | premier | 首相 |
+| 2472 | promote | 促进 |
+| 2473 | revolution | 革命 |
+| 2474 | rooms | 房间 |
+| 2475 | severe | 严重的 |
+| 2476 | sleeping | 睡觉 |
+| 2477 | suppose | 假设 |
+| 2478 | tool | 工具 |
+| 2479 | tournament | 锦标赛 |
+| 2480 | ve | 维 |
+| 2481 | victim | 受害者 |
+| 2482 | victims | 受害者 |
+| 2483 | agents | 代理人 |
+| 2484 | arrest | 逮捕 |
+| 2485 | attend | 参加 |
+| 2486 | ban | 禁令 |
+| 2487 | brilliant | 辉煌的 |
+| 2488 | carbon | 碳 |
+| 2489 | chose | 选择了 |
+| 2490 | circle | 圆圈 |
+| 2491 | concert | 音乐会 |
+| 2492 | crash | 崩溃 |
+| 2493 | declared | 宣布 |
+| 2494 | deliver | 交付 |
+| 2495 | depth | 深度 |
+| 2496 | deputy | 副手 |
+| 2497 | dirty | 肮脏的 |
+| 2498 | doctors | 医生 |
+| 2499 | earned | 赚到的 |
+| 2500 | electronic | 电子的 |
 
 ### 2501～2600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2501 | plot | 2502 | possibility | 2503 | random | 2504 | recovery |
-| 2505 | rent | 2506 | replace | 2507 | represent | 2508 | reviews |
-| 2509 | scenes | 2510 | seeking | 2511 | senator | 2512 | sentence |
-| 2513 | teeth | 2514 | tips | 2515 | trained | 2516 | understood |
-| 2517 | academic | 2518 | academy | 2519 | accurate | 2520 | achieve |
-| 2521 | adam | 2522 | afford | 2523 | andrew | 2524 | assume |
-| 2525 | bbc | 2526 | bottle | 2527 | bunch | 2528 | category |
-| 2529 | chat | 2530 | cheese | 2531 | chemical | 2532 | clinton |
-| 2533 | competitive | 2534 | detail | 2535 | diet | 2536 | em |
-| 2537 | favourite | 2538 | fruit | 2539 | harder | 2540 | index |
-| 2541 | item | 2542 | lane | 2543 | mess | 2544 | navy |
-| 2545 | normally | 2546 | occurred | 2547 | opposition | 2548 | parent |
-| 2549 | permanent | 2550 | personally | 2551 | pleasure | 2552 | prefer |
-| 2553 | programme | 2554 | representative | 2555 | scheme | 2556 | shift |
-| 2557 | stood | 2558 | storage | 2559 | tank | 2560 | tend |
-| 2561 | tight | 2562 | transportation | 2563 | ultimately | 2564 | unlike |
-| 2565 | weekly | 2566 | yard | 2567 | anybody | 2568 | assets |
-| 2569 | basketball | 2570 | button | 2571 | candidates | 2572 | combat |
-| 2573 | constitution | 2574 | consumer | 2575 | counter | 2576 | creation |
-| 2577 | crown | 2578 | crying | 2579 | dc | 2580 | defined |
-| 2581 | depending | 2582 | depression | 2583 | describe | 2584 | drivers |
-| 2585 | el | 2586 | employment | 2587 | exclusive | 2588 | excuse |
-| 2589 | expert | 2590 | frequently | 2591 | golf | 2592 | grace |
-| 2593 | hopefully | 2594 | identify | 2595 | importance | 2596 | kevin |
-| 2597 | laid | 2598 | latter | 2599 | manufacturing | 2600 | mining |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2501 | error | 错误 |
+| 2502 | existence | 存在 |
+| 2503 | experiences | 经历 |
+| 2504 | expression | 表达 |
+| 2505 | factory | 工厂 |
+| 2506 | headed | 为首的 |
+| 2507 | interior | 室内 |
+| 2508 | joy | 喜悦 |
+| 2509 | legislation | 立法 |
+| 2510 | maintenance | 维护 |
+| 2511 | manner | 方式 |
+| 2512 | mate | 伴侣 |
+| 2513 | nearby | 附近 |
+| 2514 | noise | 噪音 |
+| 2515 | origin | 起源 |
+| 2516 | panel | 面板 |
+| 2517 | personality | 个性 |
+| 2518 | plate | 盘子 |
+| 2519 | practices | 实践 |
+| 2520 | prepare | 准备 |
+| 2521 | relief | 救济 |
+| 2522 | replaced | 被取代 |
+| 2523 | resistance | 抵抗力 |
+| 2524 | retail | 零售 |
+| 2525 | rice | 米饭 |
+| 2526 | roads | 道路 |
+| 2527 | roof | 屋顶 |
+| 2528 | shame | 耻辱 |
+| 2529 | ships | 船舶 |
+| 2530 | somewhat | 有点 |
+| 2531 | staying | 留下来 |
+| 2532 | stronger | 更强 |
+| 2533 | surely | 当然 |
+| 2534 | tip | 小费 |
+| 2535 | updated | 已更新 |
+| 2536 | writers | 作家 |
+| 2537 | absolute | 绝对的 |
+| 2538 | advertising | 广告 |
+| 2539 | agencies | 机构 |
+| 2540 | baseball | 棒球 |
+| 2541 | bathroom | 浴室 |
+| 2542 | cable | 电缆 |
+| 2543 | calm | 冷静 |
+| 2544 | championship | 冠军 |
+| 2545 | checked | 检查过 |
+| 2546 | client | 客户 |
+| 2547 | constant | 常数 |
+| 2548 | da | 达 |
+| 2549 | dates | 日期 |
+| 2550 | degrees | 度 |
+| 2551 | democrats | 民主党人 |
+| 2552 | doors | 门 |
+| 2553 | driven | 驱动的 |
+| 2554 | dumb | 愚蠢的 |
+| 2555 | exciting | 令人兴奋的 |
+| 2556 | expansion | 扩张 |
+| 2557 | heavily | 重重地 |
+| 2558 | hide | 隐藏 |
+| 2559 | incident | 事件 |
+| 2560 | linked | 链接的 |
+| 2561 | manage | 管理 |
+| 2562 | messages | 消息 |
+| 2563 | michigan | 密歇根州 |
+| 2564 | multi | 多 |
+| 2565 | politicians | 政治家 |
+| 2566 | print | 打印 |
+| 2567 | quit | 退出 |
+| 2568 | refused | 拒绝 |
+| 2569 | reporting | 报告 |
+| 2570 | sight | 视线 |
+| 2571 | significantly | 显着地 |
+| 2572 | sing | 唱歌 |
+| 2573 | weapon | 武器 |
+| 2574 | wet | 湿的 |
+| 2575 | widely | 广泛地 |
+| 2576 | worldwide | 全世界 |
+| 2577 | ages | 年龄 |
+| 2578 | anniversary | 周年纪念日 |
+| 2579 | attractive | 有吸引力的 |
+| 2580 | bike | 自行车 |
+| 2581 | broad | 广泛 |
+| 2582 | burn | 烧伤 |
+| 2583 | cake | 蛋糕 |
+| 2584 | causing | 导致 |
+| 2585 | closely | 密切地 |
+| 2586 | constantly | 不断地 |
+| 2587 | contest | 竞赛 |
+| 2588 | deaths | 死亡人数 |
+| 2589 | depends | 取决于 |
+| 2590 | drawn | 绘制的 |
+| 2591 | fees | 费用 |
+| 2592 | francisco | 弗朗西斯科 |
+| 2593 | hardly | 几乎不 |
+| 2594 | hat | 帽子 |
+| 2595 | height | 高度 |
+| 2596 | hidden | 隐藏的 |
+| 2597 | hong | 红 |
+| 2598 | invited | 邀请 |
+| 2599 | letting | 出租 |
+| 2600 | loud | 大声 |
 
 ### 2601～2700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2601 | object | 2602 | partners | 2603 | pattern | 2604 | performing |
-| 2605 | personnel | 2606 | perspective | 2607 | pregnant | 2608 | premier |
-| 2609 | promote | 2610 | revolution | 2611 | rooms | 2612 | severe |
-| 2613 | sleeping | 2614 | suppose | 2615 | tool | 2616 | tournament |
-| 2617 | turkey | 2618 | ve | 2619 | victim | 2620 | victims |
-| 2621 | agents | 2622 | amazon | 2623 | arrest | 2624 | attend |
-| 2625 | ban | 2626 | brilliant | 2627 | carbon | 2628 | catholic |
-| 2629 | chose | 2630 | circle | 2631 | concert | 2632 | crash |
-| 2633 | declared | 2634 | deliver | 2635 | depth | 2636 | deputy |
-| 2637 | dirty | 2638 | doctors | 2639 | earned | 2640 | electronic |
-| 2641 | error | 2642 | existence | 2643 | experiences | 2644 | expression |
-| 2645 | factory | 2646 | headed | 2647 | interior | 2648 | joy |
-| 2649 | jr | 2650 | legislation | 2651 | maintenance | 2652 | manner |
-| 2653 | mate | 2654 | matt | 2655 | nearby | 2656 | noise |
-| 2657 | origin | 2658 | pakistan | 2659 | panel | 2660 | personality |
-| 2661 | plate | 2662 | practices | 2663 | prepare | 2664 | relief |
-| 2665 | replaced | 2666 | resistance | 2667 | retail | 2668 | rice |
-| 2669 | roads | 2670 | roof | 2671 | shame | 2672 | ships |
-| 2673 | somewhat | 2674 | staying | 2675 | stronger | 2676 | surely |
-| 2677 | tip | 2678 | updated | 2679 | writers | 2680 | absolute |
-| 2681 | advertising | 2682 | agencies | 2683 | baseball | 2684 | bathroom |
-| 2685 | bible | 2686 | cable | 2687 | calm | 2688 | championship |
-| 2689 | checked | 2690 | client | 2691 | constant | 2692 | da |
-| 2693 | dates | 2694 | degrees | 2695 | democrats | 2696 | doors |
-| 2697 | driven | 2698 | dumb | 2699 | empire | 2700 | exciting |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2601 | manchester | 曼彻斯特 |
+| 2602 | marine | 海洋 |
+| 2603 | motor | 电机 |
+| 2604 | officially | 正式 |
+| 2605 | pc | 电脑 |
+| 2606 | peak | 峰值 |
+| 2607 | portion | 部分 |
+| 2608 | pounds | 磅 |
+| 2609 | protein | 蛋白质 |
+| 2610 | puts | 看跌期权 |
+| 2611 | raw | 原始的 |
+| 2612 | reform | 改革 |
+| 2613 | regions | 地区 |
+| 2614 | represented | 代表 |
+| 2615 | respond | 回应 |
+| 2616 | retirement | 退休 |
+| 2617 | sample | 样品 |
+| 2618 | seats | 座位 |
+| 2619 | secondary | 中学 |
+| 2620 | solar | 太阳能 |
+| 2621 | somehow | 不知何故 |
+| 2622 | stayed | 留下来 |
+| 2623 | suffering | 苦难 |
+| 2624 | tries | 尝试 |
+| 2625 | ultimate | 终极的 |
+| 2626 | unknown | 未知 |
+| 2627 | wondering | 想知道 |
+| 2628 | attached | 附上 |
+| 2629 | attacked | 受到攻击 |
+| 2630 | automatically | 自动地 |
+| 2631 | balls | 球 |
+| 2632 | battery | 电池 |
+| 2633 | bills | 账单 |
+| 2634 | blind | 盲人 |
+| 2635 | breath | 呼吸 |
+| 2636 | brief | 简要 |
+| 2637 | carolina | 卡罗来纳州 |
+| 2638 | chest | 胸部 |
+| 2639 | conduct | 行为 |
+| 2640 | debut | 首次亮相 |
+| 2641 | decade | 十年 |
+| 2642 | destroy | 摧毁 |
+| 2643 | differences | 差异 |
+| 2644 | engaged | 订婚了 |
+| 2645 | experts | 专家 |
+| 2646 | expressed | 表达的 |
+| 2647 | external | 外部的 |
+| 2648 | fantasy | 幻想 |
+| 2649 | ft | 英尺 |
+| 2650 | grab | 抢 |
+| 2651 | hollywood | 好莱坞 |
+| 2652 | immediate | 立即的 |
+| 2653 | introduction | 介绍 |
+| 2654 | license | 许可证 |
+| 2655 | paint | 油漆 |
+| 2656 | pilot | 飞行员 |
+| 2657 | pink | 粉红色 |
+| 2658 | presidential | 总统 |
+| 2659 | principal | 校长 |
+| 2660 | recognize | 认出 |
+| 2661 | recognized | 认可的 |
+| 2662 | registered | 已注册 |
+| 2663 | regularly | 定期 |
+| 2664 | representatives | 代表 |
+| 2665 | rising | 上升 |
+| 2666 | seasons | 季节 |
+| 2667 | shipping | 运输 |
+| 2668 | singer | 歌手 |
+| 2669 | smoking | 吸烟 |
+| 2670 | steam | 蒸汽 |
+| 2671 | suffered | 遭受 |
+| 2672 | survive | 生存 |
+| 2673 | tall | 高 |
+| 2674 | thats | 就是这样 |
+| 2675 | theatre | 剧院 |
+| 2676 | therapy | 治疗 |
+| 2677 | witness | 证人 |
+| 2678 | adopted | 通过 |
+| 2679 | aim | 目标 |
+| 2680 | campus | 校园 |
+| 2681 | cap | 帽 |
+| 2682 | chances | 机会 |
+| 2683 | childhood | 童年 |
+| 2684 | clinical | 临床 |
+| 2685 | clubs | 俱乐部 |
+| 2686 | comedy | 喜剧 |
+| 2687 | commander | 指挥官 |
+| 2688 | comparison | 比较 |
+| 2689 | covers | 封面 |
+| 2690 | defeat | 失败 |
+| 2691 | defence | 防御 |
+| 2692 | democracy | 民主 |
+| 2693 | detailed | 详细的 |
+| 2694 | entitled | 有权 |
+| 2695 | exact | 准确的 |
+| 2696 | exposed | 暴露 |
+| 2697 | fed | 美联储 |
+| 2698 | fee | 费用 |
+| 2699 | injured | 受伤 |
+| 2700 | jan | 一月 |
 
 ### 2701～2800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2701 | expansion | 2702 | heavily | 2703 | hide | 2704 | incident |
-| 2705 | irish | 2706 | linked | 2707 | manage | 2708 | messages |
-| 2709 | michigan | 2710 | multi | 2711 | nfl | 2712 | politicians |
-| 2713 | print | 2714 | quit | 2715 | refused | 2716 | reporting |
-| 2717 | sight | 2718 | significantly | 2719 | sing | 2720 | soviet |
-| 2721 | weapon | 2722 | wet | 2723 | widely | 2724 | worldwide |
-| 2725 | ages | 2726 | anniversary | 2727 | attractive | 2728 | bike |
-| 2729 | broad | 2730 | burn | 2731 | cake | 2732 | causing |
-| 2733 | closely | 2734 | constantly | 2735 | contest | 2736 | deaths |
-| 2737 | depends | 2738 | drawn | 2739 | fees | 2740 | francisco |
-| 2741 | haha | 2742 | hardly | 2743 | hat | 2744 | height |
-| 2745 | hidden | 2746 | hong | 2747 | invited | 2748 | letting |
-| 2749 | loud | 2750 | manchester | 2751 | marine | 2752 | motor |
-| 2753 | officially | 2754 | pc | 2755 | peak | 2756 | portion |
-| 2757 | pounds | 2758 | princess | 2759 | protein | 2760 | puts |
-| 2761 | raw | 2762 | reform | 2763 | regions | 2764 | represented |
-| 2765 | respond | 2766 | retirement | 2767 | sample | 2768 | seats |
-| 2769 | secondary | 2770 | solar | 2771 | somehow | 2772 | stayed |
-| 2773 | suffering | 2774 | sydney | 2775 | tries | 2776 | ultimate |
-| 2777 | unknown | 2778 | wilson | 2779 | wondering | 2780 | attached |
-| 2781 | attacked | 2782 | automatically | 2783 | balls | 2784 | battery |
-| 2785 | bills | 2786 | blind | 2787 | breath | 2788 | brief |
-| 2789 | carolina | 2790 | chest | 2791 | conduct | 2792 | debut |
-| 2793 | decade | 2794 | destroy | 2795 | differences | 2796 | edward |
-| 2797 | engaged | 2798 | experts | 2799 | expressed | 2800 | external |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2701 | jordan | 约旦 |
+| 2702 | kinds | 种类 |
+| 2703 | lets | 让我们 |
+| 2704 | loans | 贷款 |
+| 2705 | lock | 锁 |
+| 2706 | musical | 音乐剧 |
+| 2707 | nose | 鼻子 |
+| 2708 | objects | 物体 |
+| 2709 | opposed | 反对 |
+| 2710 | organized | 有组织的 |
+| 2711 | plastic | 塑料 |
+| 2712 | protected | 受保护的 |
+| 2713 | purposes | 目的 |
+| 2714 | quote | 报价 |
+| 2715 | recording | 录音 |
+| 2716 | semi | 半 |
+| 2717 | statements | 声明 |
+| 2718 | suspect | 嫌疑人 |
+| 2719 | swear | 发誓 |
+| 2720 | techniques | 技巧 |
+| 2721 | tie | 领带 |
+| 2722 | trend | 趋势 |
+| 2723 | valuable | 有价值的 |
+| 2724 | wealth | 财富 |
+| 2725 | wise | 明智的 |
+| 2726 | yards | 码 |
+| 2727 | aged | 老年的 |
+| 2728 | approval | 批准 |
+| 2729 | aspects | 方面 |
+| 2730 | attempts | 尝试 |
+| 2731 | bread | 面包 |
+| 2732 | burning | 燃烧 |
+| 2733 | champions | 冠军 |
+| 2734 | contain | 包含 |
+| 2735 | convention | 公约 |
+| 2736 | dancing | 跳舞 |
+| 2737 | document | 文件 |
+| 2738 | eggs | 鸡蛋 |
+| 2739 | employee | 员工 |
+| 2740 | en | zh |
+| 2741 | engineer | 工程师 |
+| 2742 | equivalent | 同等 |
+| 2743 | facing | 面对 |
+| 2744 | fairly | 公平地 |
+| 2745 | fingers | 手指 |
+| 2746 | ford | 福特 |
+| 2747 | founded | 成立 |
+| 2748 | functions | 功能 |
+| 2749 | gang | 帮派 |
+| 2750 | graduate | 毕业生 |
+| 2751 | hanging | 悬挂 |
+| 2752 | inner | 内在 |
+| 2753 | islands | 岛屿 |
+| 2754 | lift | 电梯 |
+| 2755 | marked | 标记的 |
+| 2756 | memories | 回忆 |
+| 2757 | miller | 米勒 |
+| 2758 | monthly | 每月 |
+| 2759 | mountains | 山 |
+| 2760 | neighborhood | 邻里 |
+| 2761 | operate | 操作 |
+| 2762 | outstanding | 杰出的 |
+| 2763 | permission | 许可 |
+| 2764 | racing | 赛车 |
+| 2765 | recommended | 推荐 |
+| 2766 | regulations | 法规 |
+| 2767 | reply | 回复 |
+| 2768 | republicans | 共和党人 |
+| 2769 | rid | 摆脱 |
+| 2770 | roman | 罗马 |
+| 2771 | scientists | 科学家 |
+| 2772 | shoulder | 肩膀 |
+| 2773 | shower | 淋浴 |
+| 2774 | solutions | 解决方案 |
+| 2775 | sons | 儿子们 |
+| 2776 | stations | 车站 |
+| 2777 | tower | 塔 |
+| 2778 | tradition | 传统 |
+| 2779 | visited | 访问过 |
+| 2780 | visual | 视觉的 |
+| 2781 | wheel | 轮子 |
+| 2782 | zealand | 新西兰 |
+| 2783 | achieved | 达到了 |
+| 2784 | admitted | 承认 |
+| 2785 | appointment | 预约 |
+| 2786 | authors | 作者 |
+| 2787 | barely | 勉强 |
+| 2788 | bc | 公元前 |
+| 2789 | cabinet | 柜子 |
+| 2790 | celebrate | 庆祝 |
+| 2791 | challenges | 挑战 |
+| 2792 | chocolate | 巧克力 |
+| 2793 | coal | 煤 |
+| 2794 | colour | 颜色 |
+| 2795 | contemporary | 当代的 |
+| 2796 | criticism | 批评 |
+| 2797 | dna | 脱氧核糖核酸 |
+| 2798 | effectively | 有效地 |
+| 2799 | extensive | 广泛的 |
+| 2800 | faced | 面对 |
 
 ### 2801～2900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2801 | fantasy | 2802 | ft | 2803 | grab | 2804 | hollywood |
-| 2805 | immediate | 2806 | introduction | 2807 | joseph | 2808 | license |
-| 2809 | paint | 2810 | pilot | 2811 | pink | 2812 | presidential |
-| 2813 | principal | 2814 | recognize | 2815 | recognized | 2816 | registered |
-| 2817 | regularly | 2818 | representatives | 2819 | rising | 2820 | seasons |
-| 2821 | shipping | 2822 | singer | 2823 | smoking | 2824 | steam |
-| 2825 | suffered | 2826 | survive | 2827 | tall | 2828 | thats |
-| 2829 | theatre | 2830 | therapy | 2831 | witness | 2832 | adopted |
-| 2833 | aim | 2834 | campus | 2835 | cap | 2836 | chances |
-| 2837 | childhood | 2838 | clinical | 2839 | clubs | 2840 | comedy |
-| 2841 | commander | 2842 | comparison | 2843 | covers | 2844 | dan |
-| 2845 | defeat | 2846 | defence | 2847 | democracy | 2848 | detailed |
-| 2849 | entitled | 2850 | exact | 2851 | exposed | 2852 | fed |
-| 2853 | fee | 2854 | injured | 2855 | jan | 2856 | jordan |
-| 2857 | kinds | 2858 | lets | 2859 | loans | 2860 | lock |
-| 2861 | musical | 2862 | nose | 2863 | objects | 2864 | opposed |
-| 2865 | organized | 2866 | plastic | 2867 | protected | 2868 | purposes |
-| 2869 | quote | 2870 | recording | 2871 | semi | 2872 | statements |
-| 2873 | suspect | 2874 | swear | 2875 | techniques | 2876 | tie |
-| 2877 | tim | 2878 | trend | 2879 | valuable | 2880 | wealth |
-| 2881 | wise | 2882 | yards | 2883 | aged | 2884 | approval |
-| 2885 | aspects | 2886 | attempts | 2887 | bread | 2888 | burning |
-| 2889 | champions | 2890 | contain | 2891 | convention | 2892 | dancing |
-| 2893 | document | 2894 | eggs | 2895 | employee | 2896 | en |
-| 2897 | engineer | 2898 | equivalent | 2899 | facing | 2900 | fairly |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2801 | filed | 提交 |
+| 2802 | formation | 形成 |
+| 2803 | fought | 战斗过 |
+| 2804 | gained | 获得 |
+| 2805 | gallery | 画廊 |
+| 2806 | highway | 高速公路 |
+| 2807 | historic | 历史性的 |
+| 2808 | hunt | 狩猎 |
+| 2809 | improvement | 改进 |
+| 2810 | inch | 英寸 |
+| 2811 | initially | 最初 |
+| 2812 | junior | 初级 |
+| 2813 | jury | 陪审团 |
+| 2814 | kong | 孔 |
+| 2815 | marks | 标记 |
+| 2816 | monster | 怪物 |
+| 2817 | obtained | 获得 |
+| 2818 | olympic | 奥林匹克的 |
+| 2819 | philosophy | 哲学 |
+| 2820 | pride | 骄傲 |
+| 2821 | promised | 答应的 |
+| 2822 | repeat | 重复 |
+| 2823 | returning | 返回 |
+| 2824 | riding | 骑马 |
+| 2825 | rough | 粗糙 |
+| 2826 | settlement | 结算 |
+| 2827 | smell | 气味 |
+| 2828 | sought | 寻求 |
+| 2829 | speaker | 扬声器 |
+| 2830 | studied | 研究过 |
+| 2831 | suggests | 建议 |
+| 2832 | surrounding | 周围 |
+| 2833 | tone | 语气 |
+| 2834 | topic | 主题 |
+| 2835 | universal | 通用的 |
+| 2836 | vast | 广阔的 |
+| 2837 | visitors | 访客 |
+| 2838 | wanting | 想要 |
+| 2839 | auto | 汽车 |
+| 2840 | consistent | 一致的 |
+| 2841 | continuing | 继续 |
+| 2842 | earn | 赚 |
+| 2843 | exists | 存在 |
+| 2844 | finger | 手指 |
+| 2845 | grey | 灰色 |
+| 2846 | guitar | 吉他 |
+| 2847 | heading | 标题 |
+| 2848 | ignore | 忽略 |
+| 2849 | involving | 涉及 |
+| 2850 | latin | 拉丁语 |
+| 2851 | meal | 餐 |
+| 2852 | meanwhile | 同时 |
+| 2853 | meetings | 会议 |
+| 2854 | naturally | 自然地 |
+| 2855 | necessarily | 必然 |
+| 2856 | offices | 办公室 |
+| 2857 | pants | 裤子 |
+| 2858 | partnership | 伙伴关系 |
+| 2859 | payments | 付款 |
+| 2860 | percentage | 百分比 |
+| 2861 | pocket | 口袋 |
+| 2862 | practical | 实用的 |
+| 2863 | primarily | 主要是 |
+| 2864 | proved | 证明了 |
+| 2865 | regardless | 不管 |
+| 2866 | relative | 亲戚 |
+| 2867 | represents | 代表 |
+| 2868 | rescue | 救援 |
+| 2869 | resulting | 结果 |
+| 2870 | rush | 冲 |
+| 2871 | sessions | 会议 |
+| 2872 | sharp | 锋利的 |
+| 2873 | soccer | 足球 |
+| 2874 | stable | 稳定 |
+| 2875 | structures | 结构 |
+| 2876 | supplies | 用品 |
+| 2877 | symptoms | 症状 |
+| 2878 | temporary | 临时的 |
+| 2879 | tested | 经测试 |
+| 2880 | trick | 伎俩 |
+| 2881 | attended | 出席 |
+| 2882 | audio | 音频 |
+| 2883 | bone | 骨头 |
+| 2884 | chamber | 室 |
+| 2885 | chart | 图表 |
+| 2886 | circuit | 电路 |
+| 2887 | clothing | 服装 |
+| 2888 | complicated | 复杂的 |
+| 2889 | confused | 困惑 |
+| 2890 | consequences | 后果 |
+| 2891 | defend | 捍卫 |
+| 2892 | divided | 分裂的 |
+| 2893 | everyday | 每天 |
+| 2894 | extent | 范围 |
+| 2895 | fishing | 钓鱼 |
+| 2896 | format | 格式 |
+| 2897 | gap | 差距 |
+| 2898 | gate | 门 |
+| 2899 | gotten | 得到了 |
+| 2900 | harm | 伤害 |
 
 ### 2901～3000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 2901 | fingers | 2902 | ford | 2903 | founded | 2904 | functions |
-| 2905 | gang | 2906 | graduate | 2907 | greek | 2908 | hanging |
-| 2909 | inner | 2910 | islands | 2911 | le | 2912 | lift |
-| 2913 | marked | 2914 | memories | 2915 | miller | 2916 | monthly |
-| 2917 | mountains | 2918 | neighborhood | 2919 | operate | 2920 | outstanding |
-| 2921 | permission | 2922 | racing | 2923 | recommended | 2924 | regulations |
-| 2925 | reply | 2926 | republicans | 2927 | rid | 2928 | roman |
-| 2929 | scientists | 2930 | shoulder | 2931 | shower | 2932 | solutions |
-| 2933 | sons | 2934 | stations | 2935 | stephen | 2936 | tower |
-| 2937 | tradition | 2938 | visited | 2939 | visual | 2940 | wheel |
-| 2941 | zealand | 2942 | achieved | 2943 | admitted | 2944 | appointment |
-| 2945 | authors | 2946 | barely | 2947 | bc | 2948 | bush |
-| 2949 | cabinet | 2950 | celebrate | 2951 | challenges | 2952 | chocolate |
-| 2953 | coal | 2954 | colour | 2955 | contemporary | 2956 | criticism |
-| 2957 | davis | 2958 | dna | 2959 | effectively | 2960 | eric |
-| 2961 | extensive | 2962 | faced | 2963 | filed | 2964 | formation |
-| 2965 | fought | 2966 | gained | 2967 | gallery | 2968 | highway |
-| 2969 | historic | 2970 | hunt | 2971 | improvement | 2972 | inch |
-| 2973 | initially | 2974 | junior | 2975 | jury | 2976 | kong |
-| 2977 | korean | 2978 | marks | 2979 | monster | 2980 | obtained |
-| 2981 | olympic | 2982 | philosophy | 2983 | pride | 2984 | promised |
-| 2985 | repeat | 2986 | returning | 2987 | riding | 2988 | rough |
-| 2989 | santa | 2990 | settlement | 2991 | smell | 2992 | sought |
-| 2993 | speaker | 2994 | studied | 2995 | suggests | 2996 | surrounding |
-| 2997 | tone | 2998 | topic | 2999 | toronto | 3000 | universal |
+| No. | Word | 中文 |
+|---:|---|---|
+| 2901 | healthcare | 医疗保健 |
+| 2902 | household | 家庭 |
+| 2903 | immigration | 移民 |
+| 2904 | impressive | 令人印象深刻 |
+| 2905 | jews | 犹太人 |
+| 2906 | joining | 加盟 |
+| 2907 | killer | 杀手 |
+| 2908 | lesson | 教训 |
+| 2909 | limits | 限制 |
+| 2910 | loving | 爱着 |
+| 2911 | managers | 经理人 |
+| 2912 | membership | 会员资格 |
+| 2913 | mirror | 镜子 |
+| 2914 | mount | 安装 |
+| 2915 | nights | 夜晚 |
+| 2916 | occur | 发生 |
+| 2917 | parking | 停车 |
+| 2918 | proposal | 提案 |
+| 2919 | province | 省份 |
+| 2920 | purchased | 已购买 |
+| 2921 | recognition | 认可 |
+| 2922 | reputation | 声誉 |
+| 2923 | rolling | 滚动 |
+| 2924 | shortly | 不久 |
+| 2925 | situations | 情况 |
+| 2926 | strongly | 强烈地 |
+| 2927 | tears | 眼泪 |
+| 2928 | technique | 技术 |
+| 2929 | thin | 薄 |
+| 2930 | tied | 捆绑 |
+| 2931 | accused | 被告 |
+| 2932 | adventure | 冒险 |
+| 2933 | argue | 争论 |
+| 2934 | assessment | 评估 |
+| 2935 | atmosphere | 气氛 |
+| 2936 | awful | 太糟糕了 |
+| 2937 | bedroom | 卧室 |
+| 2938 | belief | 信仰 |
+| 2939 | bound | 束缚 |
+| 2940 | breaks | 休息 |
+| 2941 | carefully | 仔细地 |
+| 2942 | cats | 猫 |
+| 2943 | ceo | 首席执行官 |
+| 2944 | choices | 选择 |
+| 2945 | closing | 关闭 |
+| 2946 | cloud | 云 |
+| 2947 | colorado | 科罗拉多州 |
+| 2948 | colors | 颜色 |
+| 2949 | contrast | 对比 |
+| 2950 | courses | 课程 |
+| 2951 | courts | 法院 |
+| 2952 | drew | 画了 |
+| 2953 | egg | 鸡蛋 |
+| 2954 | element | 元素 |
+| 2955 | elsewhere | 其他地方 |
+| 2956 | establish | 建立 |
+| 2957 | extension | 延伸 |
+| 2958 | files | 文件 |
+| 2959 | founder | 创始人 |
+| 2960 | gear | 齿轮 |
+| 2961 | georgia | 佐治亚州 |
+| 2962 | hills | 丘陵 |
+| 2963 | hip | 臀部 |
+| 2964 | hitting | 击中 |
+| 2965 | increases | 增加 |
+| 2966 | infrastructure | 基础设施 |
+| 2967 | locations | 地点 |
+| 2968 | loose | 宽松的 |
+| 2969 | machines | 机器 |
+| 2970 | moral | 道德的 |
+| 2971 | offensive | 进攻性的 |
+| 2972 | pa | 帕 |
+| 2973 | package | 包 |
+| 2974 | pointed | 尖的 |
+| 2975 | poverty | 贫困 |
+| 2976 | processes | 流程 |
+| 2977 | processing | 加工 |
+| 2978 | qualified | 合格的 |
+| 2979 | railway | 铁路 |
+| 2980 | reaching | 达到 |
+| 2981 | ridiculous | 可笑 |
+| 2982 | sensitive | 敏感的 |
+| 2983 | server | 服务器 |
+| 2984 | shock | 震惊 |
+| 2985 | silence | 沉默 |
+| 2986 | soldier | 士兵 |
+| 2987 | superior | 优越的 |
+| 2988 | supporters | 支持者 |
+| 2989 | thick | 厚 |
+| 2990 | threw | 扔了 |
+| 2991 | tons | 吨 |
+| 2992 | transition | 过渡 |
+| 2993 | violent | 暴力的 |
+| 2994 | voters | 选民 |
+| 2995 | wash | 洗 |
+| 2996 | acid | 酸 |
+| 2997 | actress | 女演员 |
+| 2998 | administrative | 行政 |
+| 2999 | alongside | 旁边 |
+| 3000 | angel | 天使 |
 
 ### 3001～3100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3001 | vast | 3002 | visitors | 3003 | wanting | 3004 | auto |
-| 3005 | consistent | 3006 | continuing | 3007 | earn | 3008 | exists |
-| 3009 | finger | 3010 | grey | 3011 | guitar | 3012 | heading |
-| 3013 | howard | 3014 | ignore | 3015 | involving | 3016 | latin |
-| 3017 | lewis | 3018 | meal | 3019 | meanwhile | 3020 | meetings |
-| 3021 | naturally | 3022 | necessarily | 3023 | offices | 3024 | pants |
-| 3025 | partnership | 3026 | payments | 3027 | percentage | 3028 | pocket |
-| 3029 | practical | 3030 | primarily | 3031 | proved | 3032 | regardless |
-| 3033 | relative | 3034 | represents | 3035 | rescue | 3036 | resulting |
-| 3037 | rush | 3038 | sarah | 3039 | sessions | 3040 | sharp |
-| 3041 | simon | 3042 | soccer | 3043 | stable | 3044 | structures |
-| 3045 | supplies | 3046 | symptoms | 3047 | temporary | 3048 | tested |
-| 3049 | trick | 3050 | attended | 3051 | audio | 3052 | bone |
-| 3053 | brian | 3054 | chamber | 3055 | chart | 3056 | circuit |
-| 3057 | clothing | 3058 | complicated | 3059 | confused | 3060 | consequences |
-| 3061 | defend | 3062 | divided | 3063 | elizabeth | 3064 | everyday |
-| 3065 | extent | 3066 | fishing | 3067 | format | 3068 | gap |
-| 3069 | gate | 3070 | gotten | 3071 | harm | 3072 | healthcare |
-| 3073 | household | 3074 | immigration | 3075 | impressive | 3076 | jews |
-| 3077 | joining | 3078 | killer | 3079 | lesson | 3080 | limits |
-| 3081 | loving | 3082 | ltd | 3083 | managers | 3084 | membership |
-| 3085 | miami | 3086 | mirror | 3087 | mount | 3088 | nights |
-| 3089 | occur | 3090 | parking | 3091 | proposal | 3092 | province |
-| 3093 | purchased | 3094 | recognition | 3095 | reputation | 3096 | rolling |
-| 3097 | shortly | 3098 | situations | 3099 | strongly | 3100 | tears |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3001 | anxiety | 焦虑 |
+| 3002 | babies | 婴儿 |
+| 3003 | bars | 酒吧 |
+| 3004 | bonus | 奖金 |
+| 3005 | charity | 慈善事业 |
+| 3006 | clients | 客户 |
+| 3007 | compare | 比较 |
+| 3008 | contained | 包含 |
+| 3009 | cooking | 烹饪 |
+| 3010 | covering | 覆盖 |
+| 3011 | curious | 好奇 |
+| 3012 | directors | 董事 |
+| 3013 | discovery | 发现 |
+| 3014 | discussed | 讨论过 |
+| 3015 | encourage | 鼓励 |
+| 3016 | enforcement | 执行 |
+| 3017 | featuring | 特色 |
+| 3018 | finals | 决赛 |
+| 3019 | flash | 闪光 |
+| 3020 | formal | 正式的 |
+| 3021 | formula | 公式 |
+| 3022 | fort | 堡垒 |
+| 3023 | governments | 政府 |
+| 3024 | gray | 灰色 |
+| 3025 | gross | 毛重 |
+| 3026 | horses | 马 |
+| 3027 | hungry | 饿了 |
+| 3028 | informed | 知情的 |
+| 3029 | innocent | 无辜的 |
+| 3030 | losses | 损失 |
+| 3031 | mac | 麦克 |
+| 3032 | math | 数学 |
+| 3033 | minds | 头脑 |
+| 3034 | mistakes | 错误 |
+| 3035 | mystery | 神秘 |
+| 3036 | networks | 网络 |
+| 3037 | olympics | 奥运会 |
+| 3038 | passes | 通过 |
+| 3039 | penalty | 处罚 |
+| 3040 | pet | 宠物 |
+| 3041 | phones | 电话 |
+| 3042 | photography | 摄影 |
+| 3043 | producing | 生产 |
+| 3044 | protest | 抗议 |
+| 3045 | publication | 出版 |
+| 3046 | rating | 评级 |
+| 3047 | refer | 参考 |
+| 3048 | respectively | 分别 |
+| 3049 | scheduled | 预定的 |
+| 3050 | select | 选择 |
+| 3051 | silent | 沉默的 |
+| 3052 | spoken | 口头的 |
+| 3053 | successfully | 成功 |
+| 3054 | suffer | 受苦 |
+| 3055 | temple | 寺庙 |
+| 3056 | tracks | 曲目 |
+| 3057 | trail | 踪迹 |
+| 3058 | uncle | 叔叔 |
+| 3059 | unusual | 不寻常的 |
+| 3060 | waters | 水域 |
+| 3061 | woods | 树林 |
+| 3062 | yo | 哟 |
+| 3063 | arrival | 到达 |
+| 3064 | asks | 问 |
+| 3065 | assault | 袭击 |
+| 3066 | awareness | 意识 |
+| 3067 | badly | 严重地 |
+| 3068 | bath | 洗澡 |
+| 3069 | captured | 被捕获 |
+| 3070 | chase | 追逐 |
+| 3071 | components | 组件 |
+| 3072 | concrete | 混凝土 |
+| 3073 | deeply | 深深地 |
+| 3074 | expectations | 期望 |
+| 3075 | explanation | 解释 |
+| 3076 | exposure | 曝光 |
+| 3077 | featured | 精选 |
+| 3078 | fiction | 小说 |
+| 3079 | guarantee | 保证 |
+| 3080 | happiness | 幸福 |
+| 3081 | harris | 哈里斯 |
+| 3082 | hearts | 心 |
+| 3083 | horrible | 可怕的 |
+| 3084 | ideal | 理想的 |
+| 3085 | illinois | 伊利诺伊州 |
+| 3086 | injuries | 受伤 |
+| 3087 | legend | 传说 |
+| 3088 | lieutenant | 中尉 |
+| 3089 | mini | 迷你 |
+| 3090 | mood | 心情 |
+| 3091 | muscle | 肌肉 |
+| 3092 | muslims | 穆斯林 |
+| 3093 | passion | 激情 |
+| 3094 | picking | 采摘 |
+| 3095 | pleased | 高兴 |
+| 3096 | procedure | 程序 |
+| 3097 | producer | 制片人 |
+| 3098 | pushing | 推 |
+| 3099 | rank | 等级 |
+| 3100 | replacement | 更换 |
 
 ### 3101～3200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3101 | technique | 3102 | thin | 3103 | tied | 3104 | accused |
-| 3105 | adventure | 3106 | argue | 3107 | assessment | 3108 | atmosphere |
-| 3109 | awful | 3110 | bedroom | 3111 | belief | 3112 | bound |
-| 3113 | breaks | 3114 | carefully | 3115 | cats | 3116 | ceo |
-| 3117 | choices | 3118 | closing | 3119 | cloud | 3120 | colorado |
-| 3121 | colors | 3122 | contrast | 3123 | courses | 3124 | courts |
-| 3125 | donald | 3126 | drew | 3127 | egg | 3128 | element |
-| 3129 | elsewhere | 3130 | establish | 3131 | extension | 3132 | files |
-| 3133 | founder | 3134 | gear | 3135 | georgia | 3136 | hills |
-| 3137 | hip | 3138 | hitting | 3139 | increases | 3140 | infrastructure |
-| 3141 | jason | 3142 | locations | 3143 | loose | 3144 | machines |
-| 3145 | moral | 3146 | offensive | 3147 | pa | 3148 | package |
-| 3149 | pointed | 3150 | poverty | 3151 | processes | 3152 | processing |
-| 3153 | qualified | 3154 | railway | 3155 | reaching | 3156 | ridiculous |
-| 3157 | sensitive | 3158 | server | 3159 | shock | 3160 | silence |
-| 3161 | soldier | 3162 | superior | 3163 | supporters | 3164 | thick |
-| 3165 | threw | 3166 | tons | 3167 | transition | 3168 | violent |
-| 3169 | voters | 3170 | wash | 3171 | acid | 3172 | actress |
-| 3173 | administrative | 3174 | alan | 3175 | alongside | 3176 | angel |
-| 3177 | anxiety | 3178 | babies | 3179 | bars | 3180 | bonus |
-| 3181 | castle | 3182 | charity | 3183 | clients | 3184 | compare |
-| 3185 | contained | 3186 | cooking | 3187 | covering | 3188 | curious |
-| 3189 | directors | 3190 | discovery | 3191 | discussed | 3192 | duke |
-| 3193 | egypt | 3194 | encourage | 3195 | enforcement | 3196 | featuring |
-| 3197 | finals | 3198 | flash | 3199 | formal | 3200 | formula |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3101 | retired | 退休了 |
+| 3102 | roles | 角色 |
+| 3103 | sand | 沙子 |
+| 3104 | savings | 储蓄 |
+| 3105 | settled | 定居 |
+| 3106 | shadow | 影子 |
+| 3107 | singles | 单打 |
+| 3108 | tag | 标签 |
+| 3109 | tape | 胶带 |
+| 3110 | thread | 线程 |
+| 3111 | visiting | 来访 |
+| 3112 | wage | 工资 |
+| 3113 | wings | 翅膀 |
+| 3114 | andy | 安迪 |
+| 3115 | avenue | 大道 |
+| 3116 | bags | 袋子 |
+| 3117 | beating | 殴打 |
+| 3118 | believes | 相信 |
+| 3119 | blocks | 块 |
+| 3120 | boring | 无聊的 |
+| 3121 | charlie | 查理 |
+| 3122 | checking | 检查 |
+| 3123 | clock | 时钟 |
+| 3124 | commissioner | 专员 |
+| 3125 | commitment | 承诺 |
+| 3126 | confident | 自信的 |
+| 3127 | containing | 含有 |
+| 3128 | copies | 副本 |
+| 3129 | crimes | 犯罪 |
+| 3130 | custom | 定制 |
+| 3131 | denied | 被拒绝 |
+| 3132 | desk | 书桌 |
+| 3133 | drinks | 饮料 |
+| 3134 | ear | 耳朵 |
+| 3135 | electricity | 电力 |
+| 3136 | episodes | 剧集 |
+| 3137 | farmers | 农民 |
+| 3138 | grounds | 理由 |
+| 3139 | gym | 健身房 |
+| 3140 | helpful | 有帮助的 |
+| 3141 | horror | 恐怖 |
+| 3142 | label | 标签 |
+| 3143 | liverpool | 利物浦 |
+| 3144 | locked | 锁定 |
+| 3145 | naked | 裸体 |
+| 3146 | opens | 打开 |
+| 3147 | output | 输出 |
+| 3148 | persons | 人 |
+| 3149 | pitch | 音高 |
+| 3150 | pizza | 披萨 |
+| 3151 | plain | 普通的 |
+| 3152 | pushed | 推 |
+| 3153 | raising | 提高 |
+| 3154 | rear | 后部 |
+| 3155 | reveal | 揭示 |
+| 3156 | romantic | 浪漫的 |
+| 3157 | scores | 分数 |
+| 3158 | sisters | 姐妹们 |
+| 3159 | speaks | 说话 |
+| 3160 | stages | 阶段 |
+| 3161 | strategic | 战略性的 |
+| 3162 | swimming | 游泳 |
+| 3163 | welfare | 福利 |
+| 3164 | winners | 获奖者 |
+| 3165 | wire | 电线 |
+| 3166 | worker | 工人 |
+| 3167 | afterwards | 之后 |
+| 3168 | alright | 好吧 |
+| 3169 | android | 安卓 |
+| 3170 | anger | 愤怒 |
+| 3171 | architecture | 建筑学 |
+| 3172 | assist | 协助 |
+| 3173 | attempted | 尝试过 |
+| 3174 | behalf | 代表 |
+| 3175 | belt | 腰带 |
+| 3176 | capture | 捕获 |
+| 3177 | centers | 中心 |
+| 3178 | ceremony | 仪式 |
+| 3179 | comic | 漫画 |
+| 3180 | cops | 警察 |
+| 3181 | cuts | 削减 |
+| 3182 | designer | 设计师 |
+| 3183 | diamond | 钻石 |
+| 3184 | disappointed | 失望 |
+| 3185 | dressed | 穿着 |
+| 3186 | economics | 经济学 |
+| 3187 | efficient | 高效 |
+| 3188 | electrical | 电气 |
+| 3189 | employed | 受雇的 |
+| 3190 | enjoying | 享受 |
+| 3191 | entering | 进入 |
+| 3192 | essentially | 本质上 |
+| 3193 | establishment | 设立 |
+| 3194 | expecting | 期待 |
+| 3195 | explains | 解释 |
+| 3196 | flower | 花 |
+| 3197 | ghost | 鬼 |
+| 3198 | guests | 客人 |
+| 3199 | handed | 递给 |
+| 3200 | hockey | 曲棍球 |
 
 ### 3201～3300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3201 | fort | 3202 | governments | 3203 | gray | 3204 | gross |
-| 3205 | horses | 3206 | hungry | 3207 | informed | 3208 | innocent |
-| 3209 | jeff | 3210 | losses | 3211 | luke | 3212 | mac |
-| 3213 | math | 3214 | minds | 3215 | mistakes | 3216 | mystery |
-| 3217 | networks | 3218 | olympics | 3219 | palace | 3220 | passes |
-| 3221 | penalty | 3222 | pet | 3223 | phones | 3224 | photography |
-| 3225 | producing | 3226 | protest | 3227 | publication | 3228 | rating |
-| 3229 | refer | 3230 | respectively | 3231 | rome | 3232 | scheduled |
-| 3233 | select | 3234 | silent | 3235 | spoken | 3236 | successfully |
-| 3237 | suffer | 3238 | temple | 3239 | tracks | 3240 | trail |
-| 3241 | uncle | 3242 | unusual | 3243 | waters | 3244 | woods |
-| 3245 | yo | 3246 | arrival | 3247 | asks | 3248 | assault |
-| 3249 | awareness | 3250 | badly | 3251 | bath | 3252 | captured |
-| 3253 | chase | 3254 | components | 3255 | concrete | 3256 | dave |
-| 3257 | deeply | 3258 | expectations | 3259 | explanation | 3260 | exposure |
-| 3261 | featured | 3262 | fiction | 3263 | guarantee | 3264 | happiness |
-| 3265 | harris | 3266 | hearts | 3267 | horrible | 3268 | ideal |
-| 3269 | illinois | 3270 | injuries | 3271 | islamic | 3272 | jimmy |
-| 3273 | kelly | 3274 | legend | 3275 | lieutenant | 3276 | mini |
-| 3277 | mood | 3278 | muscle | 3279 | muslims | 3280 | passion |
-| 3281 | picking | 3282 | pleased | 3283 | procedure | 3284 | producer |
-| 3285 | pushing | 3286 | rank | 3287 | replacement | 3288 | retired |
-| 3289 | roles | 3290 | sand | 3291 | savings | 3292 | settled |
-| 3293 | shadow | 3294 | singles | 3295 | tag | 3296 | tape |
-| 3297 | thread | 3298 | victoria | 3299 | visiting | 3300 | wage |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3201 | https | https |
+| 3202 | hunting | 狩猎 |
+| 3203 | industries | 行业 |
+| 3204 | islam | 伊斯兰教 |
+| 3205 | judges | 法官 |
+| 3206 | kit | 套件 |
+| 3207 | lab | 实验室 |
+| 3208 | languages | 语言 |
+| 3209 | maps | 地图 |
+| 3210 | min | 分钟 |
+| 3211 | na | 娜 |
+| 3212 | nervous | 紧张 |
+| 3213 | newly | 新 |
+| 3214 | odd | 奇数 |
+| 3215 | op | 操作 |
+| 3216 | ordinary | 普通的 |
+| 3217 | participate | 参与 |
+| 3218 | prayer | 祈祷 |
+| 3219 | principles | 原则 |
+| 3220 | racist | 种族主义者 |
+| 3221 | rarely | 很少 |
+| 3222 | references | 参考文献 |
+| 3223 | skill | 技能 |
+| 3224 | soil | 土壤 |
+| 3225 | solve | 解决 |
+| 3226 | stomach | 胃 |
+| 3227 | struck | 击中 |
+| 3228 | studying | 学习 |
+| 3229 | supports | 支持 |
+| 3230 | trash | 垃圾 |
+| 3231 | ugly | 丑陋 |
+| 3232 | vegas | 拉斯维加斯 |
+| 3233 | virus | 病毒 |
+| 3234 | walker | 沃克 |
+| 3235 | whoever | 无论谁 |
+| 3236 | amounts | 金额 |
+| 3237 | aspect | 方面 |
+| 3238 | banned | 禁止 |
+| 3239 | boost | 提升 |
+| 3240 | bureau | 局 |
+| 3241 | colonel | 上校 |
+| 3242 | comfort | 舒适度 |
+| 3243 | controls | 控制 |
+| 3244 | cousin | 表弟 |
+| 3245 | crack | 裂纹 |
+| 3246 | deck | 甲板 |
+| 3247 | demands | 要求 |
+| 3248 | dies | 死了 |
+| 3249 | dragon | 龙 |
+| 3250 | dramatic | 戏剧性的 |
+| 3251 | dust | 灰尘 |
+| 3252 | engineers | 工程师 |
+| 3253 | evolution | 进化论 |
+| 3254 | foods | 食品 |
+| 3255 | hired | 雇用 |
+| 3256 | illness | 疾病 |
+| 3257 | inspiration | 灵感 |
+| 3258 | institution | 机构 |
+| 3259 | kings | 国王 |
+| 3260 | knife | 刀 |
+| 3261 | lately | 最近 |
+| 3262 | lowest | 最低 |
+| 3263 | memorial | 纪念馆 |
+| 3264 | minority | 少数民族 |
+| 3265 | mum | 妈妈 |
+| 3266 | opinions | 意见 |
+| 3267 | patterns | 图案 |
+| 3268 | presents | 礼物 |
+| 3269 | priority | 优先级 |
+| 3270 | promotion | 促销 |
+| 3271 | rail | 铁路 |
+| 3272 | readers | 读者 |
+| 3273 | remote | 远程 |
+| 3274 | repair | 修理 |
+| 3275 | root | 根 |
+| 3276 | saint | 圣人 |
+| 3277 | steal | 偷 |
+| 3278 | stolen | 被盗 |
+| 3279 | telephone | 电话 |
+| 3280 | titles | 标题 |
+| 3281 | trans | 反式 |
+| 3282 | ups | UPS |
+| 3283 | whereas | 而 |
+| 3284 | abandoned | 被遗弃的 |
+| 3285 | acquired | 获得的 |
+| 3286 | actors | 演员 |
+| 3287 | alliance | 联盟 |
+| 3288 | annoying | 烦人的 |
+| 3289 | ap | 美联社 |
+| 3290 | bid | 出价 |
+| 3291 | buddy | 伙伴 |
+| 3292 | buried | 埋葬 |
+| 3293 | butter | 黄油 |
+| 3294 | cares | 关心 |
+| 3295 | columbia | 哥伦比亚 |
+| 3296 | conclusion | 结论 |
+| 3297 | confirm | 确认 |
+| 3298 | congratulations | 恭喜 |
+| 3299 | contracts | 合同 |
+| 3300 | convinced | 确信 |
 
 ### 3301～3400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3301 | wings | 3302 | andy | 3303 | avenue | 3304 | bags |
-| 3305 | beating | 3306 | believes | 3307 | blocks | 3308 | boring |
-| 3309 | charlie | 3310 | checking | 3311 | clock | 3312 | commissioner |
-| 3313 | commitment | 3314 | confident | 3315 | containing | 3316 | copies |
-| 3317 | crimes | 3318 | custom | 3319 | denied | 3320 | desk |
-| 3321 | drinks | 3322 | ear | 3323 | electricity | 3324 | episodes |
-| 3325 | farmers | 3326 | fbi | 3327 | grounds | 3328 | gym |
-| 3329 | helpful | 3330 | horror | 3331 | iphone | 3332 | iraq |
-| 3333 | label | 3334 | liverpool | 3335 | locked | 3336 | naked |
-| 3337 | ny | 3338 | opens | 3339 | output | 3340 | persons |
-| 3341 | pitch | 3342 | pizza | 3343 | plain | 3344 | pushed |
-| 3345 | raising | 3346 | rear | 3347 | reveal | 3348 | romantic |
-| 3349 | scores | 3350 | sisters | 3351 | speaks | 3352 | stages |
-| 3353 | strategic | 3354 | swimming | 3355 | welfare | 3356 | winners |
-| 3357 | wire | 3358 | worker | 3359 | afterwards | 3360 | alright |
-| 3361 | android | 3362 | anger | 3363 | architecture | 3364 | assist |
-| 3365 | attempted | 3366 | behalf | 3367 | belt | 3368 | capture |
-| 3369 | centers | 3370 | ceremony | 3371 | comic | 3372 | cops |
-| 3373 | cuts | 3374 | dallas | 3375 | designer | 3376 | diamond |
-| 3377 | disappointed | 3378 | dressed | 3379 | economics | 3380 | efficient |
-| 3381 | electrical | 3382 | employed | 3383 | enjoying | 3384 | entering |
-| 3385 | essentially | 3386 | establishment | 3387 | expecting | 3388 | explains |
-| 3389 | flower | 3390 | ghost | 3391 | guests | 3392 | handed |
-| 3393 | hockey | 3394 | houston | 3395 | https | 3396 | hunting |
-| 3397 | industries | 3398 | islam | 3399 | jane | 3400 | judges |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3301 | crystal | 水晶 |
+| 3302 | dean | 院长 |
+| 3303 | decent | 体面的 |
+| 3304 | decline | 下降 |
+| 3305 | delay | 延迟 |
+| 3306 | describes | 描述 |
+| 3307 | desert | 沙漠 |
+| 3308 | downtown | 市中心 |
+| 3309 | elite | 精英 |
+| 3310 | enemies | 敌人 |
+| 3311 | forgotten | 忘记了 |
+| 3312 | forth | 向前 |
+| 3313 | gods | 众神 |
+| 3314 | hire | 雇用 |
+| 3315 | hop | 跳 |
+| 3316 | hopes | 希望 |
+| 3317 | insane | 疯狂的 |
+| 3318 | installed | 已安装 |
+| 3319 | landing | 着陆 |
+| 3320 | layer | 层 |
+| 3321 | managing | 管理 |
+| 3322 | marry | 结婚 |
+| 3323 | nowhere | 无处可去 |
+| 3324 | nurse | 护士 |
+| 3325 | obtain | 获得 |
+| 3326 | organic | 有机的 |
+| 3327 | ownership | 所有权 |
+| 3328 | participants | 参与者 |
+| 3329 | pennsylvania | 宾夕法尼亚州 |
+| 3330 | poetry | 诗 |
+| 3331 | pot | 锅 |
+| 3332 | pray | 祈祷 |
+| 3333 | printed | 印刷的 |
+| 3334 | recall | 回忆 |
+| 3335 | rugby | 橄榄球 |
+| 3336 | sake | 清酒 |
+| 3337 | sheet | 片材 |
+| 3338 | signing | 签名 |
+| 3339 | smooth | 光滑 |
+| 3340 | spiritual | 精神上的 |
+| 3341 | stops | 停止 |
+| 3342 | string | 字符串 |
+| 3343 | sudden | 突然的 |
+| 3344 | throwing | 投掷 |
+| 3345 | thrown | 抛出 |
+| 3346 | vacation | 假期 |
+| 3347 | abroad | 国外 |
+| 3348 | assigned | 分配的 |
+| 3349 | associate | 同事 |
+| 3350 | assumed | 假定的 |
+| 3351 | atlantic | 大西洋的 |
+| 3352 | bench | 长凳 |
+| 3353 | bother | 打扰 |
+| 3354 | broadcast | 广播 |
+| 3355 | bye | 再见 |
+| 3356 | cambridge | 剑桥 |
+| 3357 | citizen | 公民 |
+| 3358 | cleaning | 清洁 |
+| 3359 | compete | 竞争 |
+| 3360 | consists | 包括 |
+| 3361 | consumers | 消费者 |
+| 3362 | contributed | 贡献了 |
+| 3363 | cricket | 板球 |
+| 3364 | critics | 批评家 |
+| 3365 | damaged | 损坏的 |
+| 3366 | disaster | 灾难 |
+| 3367 | discover | 发现 |
+| 3368 | entrance | 入口 |
+| 3369 | equally | 同样地 |
+| 3370 | fallen | 堕落 |
+| 3371 | figured | 想通了 |
+| 3372 | fitness | 健身 |
+| 3373 | francis | 弗朗西斯 |
+| 3374 | friendship | 友谊 |
+| 3375 | handling | 处理 |
+| 3376 | idiot | 白痴 |
+| 3377 | intense | 激烈的 |
+| 3378 | keys | 键 |
+| 3379 | lawyers | 律师 |
+| 3380 | lifetime | 寿命 |
+| 3381 | liquid | 液体 |
+| 3382 | makeup | 化妆 |
+| 3383 | medal | 奖章 |
+| 3384 | mortgage | 抵押贷款 |
+| 3385 | narrative | 叙述性的 |
+| 3386 | narrow | 狭窄 |
+| 3387 | observed | 观察到的 |
+| 3388 | occasionally | 偶尔 |
+| 3389 | pan | 平底锅 |
+| 3390 | physics | 物理学 |
+| 3391 | posting | 发帖 |
+| 3392 | potentially | 潜在地 |
+| 3393 | reduction | 减少 |
+| 3394 | reflect | 反映 |
+| 3395 | refuse | 拒绝 |
+| 3396 | researchers | 研究人员 |
+| 3397 | resource | 资源 |
+| 3398 | sciences | 科学 |
+| 3399 | serves | 服务 |
+| 3400 | shell | 外壳 |
 
 ### 3401～3500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3401 | kit | 3402 | lab | 3403 | languages | 3404 | maps |
-| 3405 | min | 3406 | morgan | 3407 | moscow | 3408 | na |
-| 3409 | nervous | 3410 | newly | 3411 | odd | 3412 | op |
-| 3413 | ordinary | 3414 | participate | 3415 | philadelphia | 3416 | prayer |
-| 3417 | principles | 3418 | racist | 3419 | rarely | 3420 | references |
-| 3421 | skill | 3422 | soil | 3423 | solve | 3424 | stomach |
-| 3425 | struck | 3426 | studying | 3427 | suck | 3428 | supports |
-| 3429 | trash | 3430 | ugly | 3431 | vegas | 3432 | virus |
-| 3433 | walker | 3434 | whoever | 3435 | amounts | 3436 | anthony |
-| 3437 | arthur | 3438 | aspect | 3439 | banned | 3440 | boost |
-| 3441 | bureau | 3442 | colonel | 3443 | comfort | 3444 | controls |
-| 3445 | cousin | 3446 | crack | 3447 | deck | 3448 | demands |
-| 3449 | dies | 3450 | dragon | 3451 | dramatic | 3452 | dust |
-| 3453 | dutch | 3454 | engineers | 3455 | evolution | 3456 | foods |
-| 3457 | hired | 3458 | illness | 3459 | inspiration | 3460 | institution |
-| 3461 | kings | 3462 | knife | 3463 | lately | 3464 | lowest |
-| 3465 | memorial | 3466 | mexican | 3467 | minority | 3468 | mum |
-| 3469 | opinions | 3470 | patterns | 3471 | presents | 3472 | priority |
-| 3473 | promotion | 3474 | rail | 3475 | readers | 3476 | remote |
-| 3477 | repair | 3478 | root | 3479 | saint | 3480 | steal |
-| 3481 | stolen | 3482 | telephone | 3483 | tho | 3484 | titles |
-| 3485 | trans | 3486 | ups | 3487 | vol | 3488 | whereas |
-| 3489 | abandoned | 3490 | acquired | 3491 | actors | 3492 | alexander |
-| 3493 | alliance | 3494 | annoying | 3495 | ap | 3496 | bid |
-| 3497 | bro | 3498 | buddy | 3499 | buried | 3500 | butter |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3401 | silly | 愚蠢的 |
+| 3402 | subsequent | 随后的 |
+| 3403 | towns | 城镇 |
+| 3404 | translation | 翻译 |
+| 3405 | visible | 可见的 |
+| 3406 | adds | 添加 |
+| 3407 | amendment | 修正案 |
+| 3408 | angle | 角度 |
+| 3409 | arizona | 亚利桑那州 |
+| 3410 | arrive | 到达 |
+| 3411 | belong | 属于 |
+| 3412 | bishop | 主教 |
+| 3413 | channels | 渠道 |
+| 3414 | commonly | 通常 |
+| 3415 | connect | 连接 |
+| 3416 | defensive | 防御性的 |
+| 3417 | designs | 设计 |
+| 3418 | efficiency | 效率 |
+| 3419 | enterprise | 企业 |
+| 3420 | experiment | 实验 |
+| 3421 | feb | 二月 |
+| 3422 | females | 女性 |
+| 3423 | findings | 调查结果 |
+| 3424 | firms | 企业 |
+| 3425 | forum | 论坛 |
+| 3426 | gifts | 礼物 |
+| 3427 | grass | 草 |
+| 3428 | hence | 因此 |
+| 3429 | increasingly | 越来越多地 |
+| 3430 | incredibly | 难以置信 |
+| 3431 | journalist | 记者 |
+| 3432 | kicked | 踢 |
+| 3433 | lessons | 教训 |
+| 3434 | lists | 列表 |
+| 3435 | maintained | 维持 |
+| 3436 | mill | 磨坊 |
+| 3437 | occasion | 场合 |
+| 3438 | oxford | 牛津 |
+| 3439 | pace | 步伐 |
+| 3440 | passenger | 乘客 |
+| 3441 | pen | 笔 |
+| 3442 | pope | 教皇 |
+| 3443 | possession | 占有 |
+| 3444 | races | 比赛 |
+| 3445 | rapid | 快速 |
+| 3446 | regulation | 监管 |
+| 3447 | resident | 居民 |
+| 3448 | rocks | 岩石 |
+| 3449 | shaped | 形状的 |
+| 3450 | sixth | 第六 |
+| 3451 | spin | 旋转 |
+| 3452 | styles | 风格 |
+| 3453 | subjects | 科目 |
+| 3454 | suitable | 适合的 |
+| 3455 | thirty | 三十 |
+| 3456 | valid | 有效 |
+| 3457 | vital | 至关重要的 |
+| 3458 | whilst | 同时 |
+| 3459 | agriculture | 农业 |
+| 3460 | alleged | 据称 |
+| 3461 | bands | 乐队 |
+| 3462 | christians | 基督徒 |
+| 3463 | collect | 收集 |
+| 3464 | commerce | 商业 |
+| 3465 | cop | 警察 |
+| 3466 | creek | 小溪 |
+| 3467 | currency | 货币 |
+| 3468 | emotions | 情绪 |
+| 3469 | exhibition | 展览 |
+| 3470 | fraud | 欺诈 |
+| 3471 | funeral | 葬礼 |
+| 3472 | genuine | 正品 |
+| 3473 | honey | 蜂蜜 |
+| 3474 | honour | 荣誉 |
+| 3475 | hook | 钩子 |
+| 3476 | hunter | 猎人 |
+| 3477 | immigrants | 移民 |
+| 3478 | improving | 改善 |
+| 3479 | instructions | 说明 |
+| 3480 | introduce | 介绍 |
+| 3481 | kansas | 堪萨斯州 |
+| 3482 | km | 公里 |
+| 3483 | lands | 土地 |
+| 3484 | legacy | 遗产 |
+| 3485 | log | 日志 |
+| 3486 | matthew | 马修 |
+| 3487 | merely | 仅仅是 |
+| 3488 | monitor | 监视器 |
+| 3489 | nov | 十一月 |
+| 3490 | prisoners | 囚犯 |
+| 3491 | programming | 编程 |
+| 3492 | publishing | 出版 |
+| 3493 | ratio | 比率 |
+| 3494 | regret | 遗憾 |
+| 3495 | rejected | 被拒绝 |
+| 3496 | remind | 提醒 |
+| 3497 | resort | 度假村 |
+| 3498 | resulted | 结果 |
+| 3499 | reverse | 反向 |
+| 3500 | routine | 例行公事 |
 
 ### 3501～3600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3501 | cares | 3502 | columbia | 3503 | conclusion | 3504 | confirm |
-| 3505 | congratulations | 3506 | contracts | 3507 | convinced | 3508 | crap |
-| 3509 | crystal | 3510 | dean | 3511 | decent | 3512 | decline |
-| 3513 | delay | 3514 | describes | 3515 | desert | 3516 | downtown |
-| 3517 | elite | 3518 | enemies | 3519 | forgotten | 3520 | forth |
-| 3521 | gods | 3522 | hire | 3523 | hop | 3524 | hopes |
-| 3525 | insane | 3526 | installed | 3527 | israeli | 3528 | landing |
-| 3529 | layer | 3530 | managing | 3531 | marry | 3532 | nah |
-| 3533 | nowhere | 3534 | nurse | 3535 | obtain | 3536 | organic |
-| 3537 | ownership | 3538 | participants | 3539 | pennsylvania | 3540 | poetry |
-| 3541 | pot | 3542 | pray | 3543 | printed | 3544 | recall |
-| 3545 | rugby | 3546 | sake | 3547 | sheet | 3548 | signing |
-| 3549 | smooth | 3550 | spiritual | 3551 | stops | 3552 | string |
-| 3553 | sudden | 3554 | sweden | 3555 | syria | 3556 | throwing |
-| 3557 | thrown | 3558 | vacation | 3559 | abroad | 3560 | arab |
-| 3561 | assigned | 3562 | associate | 3563 | assumed | 3564 | atlantic |
-| 3565 | bench | 3566 | bother | 3567 | broadcast | 3568 | bye |
-| 3569 | cambridge | 3570 | citizen | 3571 | cleaning | 3572 | compete |
-| 3573 | consists | 3574 | consumers | 3575 | contributed | 3576 | cricket |
-| 3577 | critics | 3578 | damaged | 3579 | disaster | 3580 | discover |
-| 3581 | disney | 3582 | entrance | 3583 | equally | 3584 | fallen |
-| 3585 | figured | 3586 | fitness | 3587 | francis | 3588 | friendship |
-| 3589 | gary | 3590 | handling | 3591 | idiot | 3592 | intense |
-| 3593 | keys | 3594 | lawyers | 3595 | lifetime | 3596 | liquid |
-| 3597 | makeup | 3598 | medal | 3599 | mortgage | 3600 | narrative |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3501 | scary | 可怕的 |
+| 3502 | seed | 种子 |
+| 3503 | settle | 解决 |
+| 3504 | sin | 罪恶 |
+| 3505 | spell | 咒语 |
+| 3506 | summary | 总结 |
+| 3507 | survival | 生存 |
+| 3508 | sword | 剑 |
+| 3509 | tongue | 舌头 |
+| 3510 | ward | 病房 |
+| 3511 | waves | 波浪 |
+| 3512 | achievement | 成就 |
+| 3513 | argued | 争论 |
+| 3514 | asleep | 睡着了 |
+| 3515 | austin | 奥斯汀 |
+| 3516 | automatic | 自动 |
+| 3517 | begun | 开始 |
+| 3518 | behaviour | 行为 |
+| 3519 | cd | 光盘 |
+| 3520 | cents | 美分 |
+| 3521 | coat | 外套 |
+| 3522 | comprehensive | 全面的 |
+| 3523 | consent | 同意 |
+| 3524 | daddy | 爸爸 |
+| 3525 | destruction | 破坏 |
+| 3526 | diego | 迭戈 |
+| 3527 | diseases | 疾病 |
+| 3528 | divorce | 离婚 |
+| 3529 | doc | 文档 |
+| 3530 | drove | 开车 |
+| 3531 | ears | 耳朵 |
+| 3532 | engage | 参与 |
+| 3533 | extraordinary | 非凡的 |
+| 3534 | fate | 命运 |
+| 3535 | frequency | 频率 |
+| 3536 | gaming | 游戏 |
+| 3537 | gene | 基因 |
+| 3538 | glory | 荣耀 |
+| 3539 | headquarters | 总部 |
+| 3540 | heritage | 遗产 |
+| 3541 | initiative | 倡议 |
+| 3542 | interviews | 采访 |
+| 3543 | jean | 吉恩 |
+| 3544 | juice | 果汁 |
+| 3545 | landscape | 风景 |
+| 3546 | logic | 逻辑 |
+| 3547 | meets | 遇见 |
+| 3548 | objective | 目标 |
+| 3549 | organisation | 组织 |
+| 3550 | privacy | 隐私 |
+| 3551 | procedures | 程序 |
+| 3552 | profits | 利润 |
+| 3553 | reducing | 减少 |
+| 3554 | regard | 尊重 |
+| 3555 | representing | 代表 |
+| 3556 | residence | 居住地 |
+| 3557 | roughly | 大致 |
+| 3558 | salary | 工资 |
+| 3559 | scoring | 得分 |
+| 3560 | script | 脚本 |
+| 3561 | searching | 寻找 |
+| 3562 | sections | 部分 |
+| 3563 | strip | 条带 |
+| 3564 | surrounded | 包围 |
+| 3565 | threatened | 受到威胁 |
+| 3566 | transferred | 转移 |
+| 3567 | tube | 管 |
+| 3568 | universities | 大学 |
+| 3569 | wisconsin | 威斯康星州 |
+| 3570 | writes | 写 |
+| 3571 | ambassador | 大使 |
+| 3572 | ann | 安 |
+| 3573 | apps | 应用程序 |
+| 3574 | awarded | 授予 |
+| 3575 | banking | 银行业 |
+| 3576 | breast | 乳房 |
+| 3577 | cant | 不能 |
+| 3578 | carter | 卡特 |
+| 3579 | chelsea | 切尔西 |
+| 3580 | chemistry | 化学 |
+| 3581 | concluded | 得出结论 |
+| 3582 | consumption | 消费 |
+| 3583 | corruption | 腐败 |
+| 3584 | cotton | 棉 |
+| 3585 | crossed | 交叉的 |
+| 3586 | discount | 折扣 |
+| 3587 | dozen | 十几个 |
+| 3588 | engines | 发动机 |
+| 3589 | epic | 史诗 |
+| 3590 | exception | 异常 |
+| 3591 | exit | 退出 |
+| 3592 | expand | 展开 |
+| 3593 | fancy | 花哨的 |
+| 3594 | gorgeous | 华丽的 |
+| 3595 | grateful | 感恩的 |
+| 3596 | heroes | 英雄 |
+| 3597 | holes | 洞 |
+| 3598 | impression | 印象 |
+| 3599 | inches | 英寸 |
+| 3600 | indicate | 表明 |
 
 ### 3601～3700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3601 | narrow | 3602 | nba | 3603 | observed | 3604 | occasionally |
-| 3605 | pan | 3606 | physics | 3607 | posting | 3608 | potentially |
-| 3609 | reduction | 3610 | reflect | 3611 | refuse | 3612 | researchers |
-| 3613 | resource | 3614 | roger | 3615 | ross | 3616 | sciences |
-| 3617 | seattle | 3618 | serves | 3619 | shell | 3620 | silly |
-| 3621 | subsequent | 3622 | towns | 3623 | translation | 3624 | visible |
-| 3625 | yep | 3626 | adds | 3627 | allen | 3628 | amendment |
-| 3629 | angle | 3630 | arizona | 3631 | arrive | 3632 | belong |
-| 3633 | berlin | 3634 | bishop | 3635 | channels | 3636 | clark |
-| 3637 | commonly | 3638 | connect | 3639 | defensive | 3640 | designs |
-| 3641 | efficiency | 3642 | enterprise | 3643 | experiment | 3644 | feb |
-| 3645 | females | 3646 | findings | 3647 | firms | 3648 | forum |
-| 3649 | gifts | 3650 | grass | 3651 | hence | 3652 | increasingly |
-| 3653 | incredibly | 3654 | iv | 3655 | jay | 3656 | journalist |
-| 3657 | kicked | 3658 | lessons | 3659 | lists | 3660 | maintained |
-| 3661 | mill | 3662 | mo | 3663 | occasion | 3664 | oxford |
-| 3665 | pace | 3666 | passenger | 3667 | pen | 3668 | pope |
-| 3669 | possession | 3670 | pp | 3671 | races | 3672 | rapid |
-| 3673 | regulation | 3674 | resident | 3675 | rocks | 3676 | shaped |
-| 3677 | sixth | 3678 | spin | 3679 | styles | 3680 | subjects |
-| 3681 | sucks | 3682 | suitable | 3683 | thirty | 3684 | valid |
-| 3685 | vital | 3686 | whilst | 3687 | agriculture | 3688 | alleged |
-| 3689 | anna | 3690 | atlanta | 3691 | bands | 3692 | christians |
-| 3693 | collect | 3694 | commerce | 3695 | cop | 3696 | creek |
-| 3697 | currency | 3698 | emotions | 3699 | exhibition | 3700 | fraud |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3601 | input | 输入 |
+| 3602 | knock | 敲门 |
+| 3603 | leather | 皮革 |
+| 3604 | lips | 嘴唇 |
+| 3605 | luxury | 奢华 |
+| 3606 | lyrics | 歌词 |
+| 3607 | manufacturers | 制造商 |
+| 3608 | masters | 大师 |
+| 3609 | movements | 动作 |
+| 3610 | oct | 十月 |
+| 3611 | operated | 经营的 |
+| 3612 | ought | 应该 |
+| 3613 | outcome | 结果 |
+| 3614 | painted | 画的 |
+| 3615 | poll | 民意调查 |
+| 3616 | preferred | 首选 |
+| 3617 | pulling | 拉 |
+| 3618 | ranked | 排名 |
+| 3619 | referring | 指称 |
+| 3620 | removal | 去除 |
+| 3621 | rep | 代表 |
+| 3622 | reporter | 记者 |
+| 3623 | rio | 里约 |
+| 3624 | risks | 风险 |
+| 3625 | screaming | 尖叫 |
+| 3626 | sept | 九月 |
+| 3627 | sequence | 序列 |
+| 3628 | stretch | 伸展 |
+| 3629 | tear | 眼泪 |
+| 3630 | tennis | 网球 |
+| 3631 | terrorist | 恐怖分子 |
+| 3632 | theater | 剧院 |
+| 3633 | ties | 领带 |
+| 3634 | twelve | 十二 |
+| 3635 | versions | 版本 |
+| 3636 | virgin | 处女 |
+| 3637 | voices | 声音 |
+| 3638 | wishes | 愿望 |
+| 3639 | wolf | 狼 |
+| 3640 | absence | 缺席 |
+| 3641 | agricultural | 农业 |
+| 3642 | ate | 吃了 |
+| 3643 | athletes | 运动员 |
+| 3644 | bears | 熊 |
+| 3645 | blues | 蓝调 |
+| 3646 | boxes | 盒子 |
+| 3647 | bruce | 布鲁斯 |
+| 3648 | bull | 公牛 |
+| 3649 | cameras | 相机 |
+| 3650 | commonwealth | 联邦 |
+| 3651 | contribute | 贡献 |
+| 3652 | contribution | 贡献 |
+| 3653 | contributions | 贡献 |
+| 3654 | couples | 情侣 |
+| 3655 | delicious | 好吃 |
+| 3656 | deny | 否认 |
+| 3657 | deserves | 应得的 |
+| 3658 | ease | 轻松 |
+| 3659 | extend | 延长 |
+| 3660 | fame | 名声 |
+| 3661 | flood | 洪水 |
+| 3662 | generated | 生成的 |
+| 3663 | genetic | 遗传的 |
+| 3664 | glasses | 眼镜 |
+| 3665 | impressed | 印象深刻 |
+| 3666 | indicated | 表明 |
+| 3667 | instant | 即时 |
+| 3668 | investors | 投资者 |
+| 3669 | involves | 涉及 |
+| 3670 | kills | 杀死 |
+| 3671 | liberty | 自由 |
+| 3672 | ministers | 部长 |
+| 3673 | monitoring | 监控 |
+| 3674 | occurs | 发生 |
+| 3675 | passengers | 乘客 |
+| 3676 | photographs | 照片 |
+| 3677 | principle | 原则 |
+| 3678 | producers | 生产者 |
+| 3679 | progressive | 进步的 |
+| 3680 | punishment | 惩罚 |
+| 3681 | rally | 拉力赛 |
+| 3682 | rapidly | 迅速地 |
+| 3683 | reader | 读者 |
+| 3684 | representation | 代表性 |
+| 3685 | restaurants | 餐馆 |
+| 3686 | reveals | 揭示 |
+| 3687 | roots | 根 |
+| 3688 | samples | 样品 |
+| 3689 | shops | 商店 |
+| 3690 | sum | 总和 |
+| 3691 | swing | 秋千 |
+| 3692 | tail | 尾巴 |
+| 3693 | texts | 文本 |
+| 3694 | twin | 双胞胎 |
+| 3695 | upcoming | 即将到来 |
+| 3696 | veterans | 退伍军人 |
+| 3697 | alert | 警报 |
+| 3698 | arena | 竞技场 |
+| 3699 | arguments | 论点 |
+| 3700 | aug | 八月 |
 
 ### 3701～3800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3701 | funeral | 3702 | genuine | 3703 | gordon | 3704 | honey |
-| 3705 | honour | 3706 | hook | 3707 | hunter | 3708 | immigrants |
-| 3709 | improving | 3710 | instructions | 3711 | introduce | 3712 | kansas |
-| 3713 | km | 3714 | lands | 3715 | legacy | 3716 | log |
-| 3717 | matthew | 3718 | merely | 3719 | monitor | 3720 | nov |
-| 3721 | patrick | 3722 | phil | 3723 | prisoners | 3724 | programming |
-| 3725 | publishing | 3726 | ratio | 3727 | regret | 3728 | rejected |
-| 3729 | remind | 3730 | resort | 3731 | resulted | 3732 | reverse |
-| 3733 | routine | 3734 | scary | 3735 | seed | 3736 | settle |
-| 3737 | sin | 3738 | spell | 3739 | summary | 3740 | survival |
-| 3741 | sword | 3742 | tongue | 3743 | ward | 3744 | waves |
-| 3745 | wayne | 3746 | achievement | 3747 | anderson | 3748 | argued |
-| 3749 | asleep | 3750 | austin | 3751 | automatic | 3752 | begun |
-| 3753 | behaviour | 3754 | cd | 3755 | cents | 3756 | coat |
-| 3757 | comprehensive | 3758 | consent | 3759 | daddy | 3760 | destruction |
-| 3761 | diego | 3762 | diseases | 3763 | divorce | 3764 | doc |
-| 3765 | drove | 3766 | ears | 3767 | engage | 3768 | extraordinary |
-| 3769 | fate | 3770 | frequency | 3771 | gaming | 3772 | gene |
-| 3773 | glory | 3774 | headquarters | 3775 | heritage | 3776 | initiative |
-| 3777 | interviews | 3778 | jean | 3779 | juice | 3780 | landscape |
-| 3781 | logic | 3782 | meets | 3783 | melbourne | 3784 | microsoft |
-| 3785 | objective | 3786 | organisation | 3787 | privacy | 3788 | procedures |
-| 3789 | profits | 3790 | reducing | 3791 | regard | 3792 | representing |
-| 3793 | residence | 3794 | roughly | 3795 | salary | 3796 | scoring |
-| 3797 | script | 3798 | searching | 3799 | sections | 3800 | strip |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3701 | billy | 比利 |
+| 3702 | boom | 繁荣 |
+| 3703 | boots | 靴子 |
+| 3704 | brave | 勇敢的 |
+| 3705 | claiming | 声称 |
+| 3706 | column | 专栏 |
+| 3707 | commit | 提交 |
+| 3708 | compensation | 补偿 |
+| 3709 | composition | 组成 |
+| 3710 | computers | 电脑 |
+| 3711 | conservation | 保护 |
+| 3712 | constitutional | 宪政的 |
+| 3713 | crossing | 穿越 |
+| 3714 | defending | 捍卫 |
+| 3715 | density | 密度 |
+| 3716 | difficulty | 难度 |
+| 3717 | dropping | 掉落 |
+| 3718 | drops | 滴 |
+| 3719 | elementary | 初级的 |
+| 3720 | ethnic | 民族的 |
+| 3721 | expenses | 开支 |
+| 3722 | fleet | 舰队 |
+| 3723 | fundamental | 基本的 |
+| 3724 | gen | 根 |
+| 3725 | genius | 天才 |
+| 3726 | greatly | 大大地 |
+| 3727 | guidance | 指导 |
+| 3728 | hospitals | 医院 |
+| 3729 | infection | 感染 |
+| 3730 | intention | 意图 |
+| 3731 | iowa | 爱荷华州 |
+| 3732 | jokes | 笑话 |
+| 3733 | knee | 膝盖 |
+| 3734 | mechanical | 机械的 |
+| 3735 | parks | 公园 |
+| 3736 | participation | 参与 |
+| 3737 | periods | 时期 |
+| 3738 | precious | 珍贵的 |
+| 3739 | pregnancy | 怀孕 |
+| 3740 | premium | 溢价 |
+| 3741 | preparing | 准备 |
+| 3742 | pretend | 假装 |
+| 3743 | priest | 牧师 |
+| 3744 | prominent | 突出的 |
+| 3745 | proven | 已证实的 |
+| 3746 | radical | 激进的 |
+| 3747 | remembered | 记住了 |
+| 3748 | requested | 要求的 |
+| 3749 | residential | 住宅 |
+| 3750 | reward | 奖励 |
+| 3751 | rings | 戒指 |
+| 3752 | satellite | 卫星 |
+| 3753 | shake | 摇动 |
+| 3754 | shore | 岸边 |
+| 3755 | spots | 斑点 |
+| 3756 | stats | 统计数据 |
+| 3757 | struggling | 挣扎 |
+| 3758 | substantial | 实质性的 |
+| 3759 | teen | 青少年 |
+| 3760 | temperatures | 温度 |
+| 3761 | transmission | 传输 |
+| 3762 | trap | 陷阱 |
+| 3763 | uniform | 制服 |
+| 3764 | wildlife | 野生动物 |
+| 3765 | wooden | 木制的 |
+| 3766 | ads | 广告 |
+| 3767 | aggressive | 攻击性的 |
+| 3768 | answered | 回答了 |
+| 3769 | apparent | 明显的 |
+| 3770 | bang | 砰 |
+| 3771 | blast | 爆炸 |
+| 3772 | bones | 骨头 |
+| 3773 | brands | 品牌 |
+| 3774 | centuries | 世纪 |
+| 3775 | communist | 共产主义 |
+| 3776 | complaint | 投诉 |
+| 3777 | component | 组件 |
+| 3778 | connections | 连接 |
+| 3779 | courage | 勇气 |
+| 3780 | cure | 治愈 |
+| 3781 | desperate | 绝望的 |
+| 3782 | diversity | 多样性 |
+| 3783 | duties | 职责 |
+| 3784 | encouraged | 鼓励 |
+| 3785 | eve | 前夕 |
+| 3786 | faculty | 师资队伍 |
+| 3787 | feedback | 反馈 |
+| 3788 | fighter | 战斗机 |
+| 3789 | frozen | 冷冻的 |
+| 3790 | guards | 守卫 |
+| 3791 | hiding | 隐藏 |
+| 3792 | humanity | 人性 |
+| 3793 | innovation | 创新 |
+| 3794 | instruments | 仪器 |
+| 3795 | invest | 投资 |
+| 3796 | jacket | 夹克 |
+| 3797 | legislative | 立法的 |
+| 3798 | listing | 上市 |
+| 3799 | manual | 手册 |
+| 3800 | mothers | 母亲们 |
 
 ### 3801～3900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3801 | surrounded | 3802 | threatened | 3803 | transferred | 3804 | tube |
-| 3805 | universities | 3806 | walter | 3807 | wisconsin | 3808 | writes |
-| 3809 | ambassador | 3810 | ann | 3811 | apps | 3812 | awarded |
-| 3813 | banking | 3814 | breast | 3815 | cant | 3816 | carter |
-| 3817 | chelsea | 3818 | chemistry | 3819 | concluded | 3820 | consumption |
-| 3821 | corruption | 3822 | cotton | 3823 | crossed | 3824 | detroit |
-| 3825 | discount | 3826 | dozen | 3827 | engines | 3828 | epic |
-| 3829 | exception | 3830 | exit | 3831 | expand | 3832 | fancy |
-| 3833 | gorgeous | 3834 | grateful | 3835 | heroes | 3836 | holes |
-| 3837 | impression | 3838 | inches | 3839 | indicate | 3840 | input |
-| 3841 | johnny | 3842 | josh | 3843 | knock | 3844 | leather |
-| 3845 | lips | 3846 | luxury | 3847 | lyrics | 3848 | manufacturers |
-| 3849 | masters | 3850 | movements | 3851 | oct | 3852 | operated |
-| 3853 | ought | 3854 | outcome | 3855 | painted | 3856 | poll |
-| 3857 | preferred | 3858 | pulling | 3859 | ranked | 3860 | referring |
-| 3861 | removal | 3862 | rep | 3863 | reporter | 3864 | rio |
-| 3865 | risks | 3866 | rob | 3867 | screaming | 3868 | sept |
-| 3869 | sequence | 3870 | singapore | 3871 | stretch | 3872 | tear |
-| 3873 | tennis | 3874 | terrorist | 3875 | theater | 3876 | ties |
-| 3877 | twelve | 3878 | versions | 3879 | virgin | 3880 | voices |
-| 3881 | wishes | 3882 | wolf | 3883 | absence | 3884 | agricultural |
-| 3885 | ate | 3886 | athletes | 3887 | bears | 3888 | blues |
-| 3889 | boxes | 3890 | bruce | 3891 | bull | 3892 | cameras |
-| 3893 | commonwealth | 3894 | contribute | 3895 | contribution | 3896 | contributions |
-| 3897 | couples | 3898 | delicious | 3899 | deny | 3900 | deserves |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3801 | murdered | 被谋杀 |
+| 3802 | nursing | 护理 |
+| 3803 | occupied | 被占用 |
+| 3804 | ongoing | 正在进行的 |
+| 3805 | operator | 操作员 |
+| 3806 | painful | 痛苦的 |
+| 3807 | pound | 英镑 |
+| 3808 | preparation | 准备 |
+| 3809 | punch | 冲孔 |
+| 3810 | purple | 紫色 |
+| 3811 | railroad | 铁路 |
+| 3812 | registration | 登记 |
+| 3813 | releases | 发布 |
+| 3814 | rick | 里克 |
+| 3815 | romance | 浪漫 |
+| 3816 | submitted | 已提交 |
+| 3817 | sufficient | 足够 |
+| 3818 | survived | 幸存下来 |
+| 3819 | suspended | 暂停 |
+| 3820 | technologies | 技术 |
+| 3821 | tissue | 组织 |
+| 3822 | trailer | 拖车 |
+| 3823 | trends | 趋势 |
+| 3824 | trials | 试验 |
+| 3825 | underground | 地下 |
+| 3826 | versus | 与 |
+| 3827 | virtual | 虚拟的 |
+| 3828 | walks | 散步 |
+| 3829 | wounded | 受伤的 |
+| 3830 | ali | 阿里 |
+| 3831 | amongst | 其中 |
+| 3832 | announcement | 公告 |
+| 3833 | arranged | 安排的 |
+| 3834 | arsenal | 兵工厂 |
+| 3835 | attending | 出席 |
+| 3836 | attracted | 吸引了 |
+| 3837 | biological | 生物的 |
+| 3838 | bite | 咬 |
+| 3839 | blocked | 被阻止 |
+| 3840 | boards | 板 |
+| 3841 | burned | 烧毁 |
+| 3842 | categories | 类别 |
+| 3843 | checks | 检查 |
+| 3844 | chip | 芯片 |
+| 3845 | concerning | 关于 |
+| 3846 | dare | 敢于 |
+| 3847 | database | 数据库 |
+| 3848 | define | 定义 |
+| 3849 | discrimination | 歧视 |
+| 3850 | disorder | 紊乱 |
+| 3851 | distributed | 分布式 |
+| 3852 | districts | 地区 |
+| 3853 | documentary | 纪录片 |
+| 3854 | domain | 域 |
+| 3855 | dynamic | 动态 |
+| 3856 | edited | 已编辑 |
+| 3857 | engagement | 参与度 |
+| 3858 | explore | 探索 |
+| 3859 | favour | 青睐 |
+| 3860 | fewer | 更少 |
+| 3861 | footage | 镜头 |
+| 3862 | giants | 巨人 |
+| 3863 | grave | 坟墓 |
+| 3864 | implementation | 实施 |
+| 3865 | indiana | 印第安纳州 |
+| 3866 | investigate | 调查 |
+| 3867 | jazz | 爵士乐 |
+| 3868 | laboratory | 实验室 |
+| 3869 | literary | 文学的 |
+| 3870 | mask | 面具 |
+| 3871 | massachusetts | 马萨诸塞州 |
+| 3872 | midnight | 午夜 |
+| 3873 | minnesota | 明尼苏达州 |
+| 3874 | mouse | 鼠标 |
+| 3875 | packed | 包装的 |
+| 3876 | piano | 钢琴 |
+| 3877 | praise | 赞美 |
+| 3878 | presentation | 演示 |
+| 3879 | psychology | 心理学 |
+| 3880 | relation | 关系 |
+| 3881 | restrictions | 限制 |
+| 3882 | rocket | 火箭 |
+| 3883 | ruin | 废墟 |
+| 3884 | saudi | 沙特 |
+| 3885 | secrets | 秘密 |
+| 3886 | slave | 奴隶 |
+| 3887 | stability | 稳定性 |
+| 3888 | steady | 稳定 |
+| 3889 | stones | 石头 |
+| 3890 | symbol | 符号 |
+| 3891 | terminal | 终端 |
+| 3892 | toilet | 厕所 |
+| 3893 | treaty | 条约 |
+| 3894 | triple | 三重 |
+| 3895 | unlikely | 不太可能 |
+| 3896 | updates | 更新 |
+| 3897 | viewed | 已查看 |
+| 3898 | affair | 外遇 |
+| 3899 | agenda | 议程 |
+| 3900 | bat | 蝙蝠 |
 
 ### 3901～4000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 3901 | ease | 3902 | extend | 3903 | fame | 3904 | flood |
-| 3905 | generated | 3906 | genetic | 3907 | glasses | 3908 | impressed |
-| 3909 | indicated | 3910 | instant | 3911 | investors | 3912 | involves |
-| 3913 | kate | 3914 | kills | 3915 | liberty | 3916 | maria |
-| 3917 | ministers | 3918 | monitoring | 3919 | occurs | 3920 | passengers |
-| 3921 | photographs | 3922 | principle | 3923 | producers | 3924 | progressive |
-| 3925 | punishment | 3926 | rally | 3927 | rapidly | 3928 | reader |
-| 3929 | representation | 3930 | restaurants | 3931 | reveals | 3932 | roots |
-| 3933 | samples | 3934 | shops | 3935 | sum | 3936 | swing |
-| 3937 | tail | 3938 | texts | 3939 | twin | 3940 | upcoming |
-| 3941 | veterans | 3942 | alert | 3943 | arena | 3944 | arguments |
-| 3945 | aug | 3946 | billy | 3947 | boom | 3948 | boots |
-| 3949 | brave | 3950 | claiming | 3951 | column | 3952 | commit |
-| 3953 | compensation | 3954 | composition | 3955 | computers | 3956 | conservation |
-| 3957 | constitutional | 3958 | crossing | 3959 | defending | 3960 | density |
-| 3961 | di | 3962 | difficulty | 3963 | dropping | 3964 | drops |
-| 3965 | elementary | 3966 | ethnic | 3967 | expenses | 3968 | fleet |
-| 3969 | foster | 3970 | fuckin | 3971 | fundamental | 3972 | gen |
-| 3973 | genius | 3974 | greatly | 3975 | guidance | 3976 | hospitals |
-| 3977 | infection | 3978 | instagram | 3979 | intention | 3980 | iowa |
-| 3981 | jokes | 3982 | knee | 3983 | mechanical | 3984 | nigeria |
-| 3985 | parks | 3986 | participation | 3987 | periods | 3988 | precious |
-| 3989 | pregnancy | 3990 | premium | 3991 | preparing | 3992 | pretend |
-| 3993 | priest | 3994 | prominent | 3995 | proven | 3996 | radical |
-| 3997 | remembered | 3998 | requested | 3999 | residential | 4000 | reward |
+| No. | Word | 中文 |
+|---:|---|---|
+| 3901 | bow | 弓 |
+| 3902 | calendar | 日历 |
+| 3903 | cape | 海角 |
+| 3904 | collective | 集体的 |
+| 3905 | conversations | 对话 |
+| 3906 | cooperation | 合作 |
+| 3907 | craft | 工艺 |
+| 3908 | darkness | 黑暗 |
+| 3909 | deeper | 更深 |
+| 3910 | devil | 恶魔 |
+| 3911 | edit | 编辑 |
+| 3912 | enable | 启用 |
+| 3913 | equity | 股权 |
+| 3914 | estimates | 估计 |
+| 3915 | failing | 失败 |
+| 3916 | finishing | 整理 |
+| 3917 | fortune | 财富 |
+| 3918 | gates | 盖茨 |
+| 3919 | goodbye | 再见 |
+| 3920 | hardware | 硬件 |
+| 3921 | hurts | 伤害 |
+| 3922 | intellectual | 知识分子 |
+| 3923 | invite | 邀请 |
+| 3924 | involvement | 参与 |
+| 3925 | kentucky | 肯塔基州 |
+| 3926 | madrid | 马德里 |
+| 3927 | nuts | 坚果 |
+| 3928 | oregon | 俄勒冈州 |
+| 3929 | partly | 部分地 |
+| 3930 | petition | 请愿书 |
+| 3931 | phrase | 短语 |
+| 3932 | physically | 身体上的 |
+| 3933 | protecting | 保护 |
+| 3934 | racial | 种族 |
+| 3935 | rated | 额定 |
+| 3936 | regime | 政权 |
+| 3937 | rivers | 河流 |
+| 3938 | rounds | 回合 |
+| 3939 | ruled | 统治 |
+| 3940 | sa | 萨 |
+| 3941 | sauce | 酱汁 |
+| 3942 | seal | 密封件 |
+| 3943 | separated | 分开 |
+| 3944 | shield | 盾牌 |
+| 3945 | similarly | 同样地 |
+| 3946 | slide | 幻灯片 |
+| 3947 | stem | 茎 |
+| 3948 | summit | 峰会 |
+| 3949 | talented | 有才华的 |
+| 3950 | throat | 喉咙 |
+| 3951 | tiger | 老虎 |
+| 3952 | touched | 感动 |
+| 3953 | toy | 玩具 |
+| 3954 | visits | 访问 |
+| 3955 | warriors | 战士 |
+| 3956 | wisdom | 智慧 |
+| 3957 | accounting | 会计 |
+| 3958 | alien | 外星人 |
+| 3959 | attacking | 攻击 |
+| 3960 | awkward | 尴尬的 |
+| 3961 | beast | 野兽 |
+| 3962 | beef | 牛肉 |
+| 3963 | candy | 糖果 |
+| 3964 | carrier | 载体 |
+| 3965 | celebration | 庆祝活动 |
+| 3966 | celebrity | 名人 |
+| 3967 | certificate | 证书 |
+| 3968 | cited | 引用 |
+| 3969 | clay | 粘土 |
+| 3970 | coaching | 辅导 |
+| 3971 | colleagues | 同事 |
+| 3972 | constructed | 建造的 |
+| 3973 | dated | 过时的 |
+| 3974 | dec | 十二月 |
+| 3975 | default | 默认 |
+| 3976 | delhi | 德里 |
+| 3977 | derived | 导出的 |
+| 3978 | dialogue | 对话 |
+| 3979 | disabled | 残疾人 |
+| 3980 | distinct | 独特的 |
+| 3981 | drag | 拖动 |
+| 3982 | educated | 受过教育的 |
+| 3983 | eligible | 符合资格 |
+| 3984 | estimate | 估计 |
+| 3985 | execution | 执行 |
+| 3986 | existed | 存在过 |
+| 3987 | fifty | 五十 |
+| 3988 | followers | 追随者 |
+| 3989 | fool | 傻瓜 |
+| 3990 | framework | 框架 |
+| 3991 | franchise | 特许经营权 |
+| 3992 | funded | 资助的 |
+| 3993 | furniture | 家具 |
+| 3994 | generations | 几代人 |
+| 3995 | guaranteed | 保证 |
+| 3996 | integrated | 综合的 |
+| 3997 | intelligent | 智能的 |
+| 3998 | interaction | 互动 |
+| 3999 | jet | 喷射机 |
+| 4000 | journalists | 记者 |
 
 ### 4001～4100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4001 | rings | 4002 | robin | 4003 | russell | 4004 | satellite |
-| 4005 | shake | 4006 | shore | 4007 | spots | 4008 | stats |
-| 4009 | struggling | 4010 | substantial | 4011 | teen | 4012 | temperatures |
-| 4013 | transmission | 4014 | trap | 4015 | uniform | 4016 | wildlife |
-| 4017 | wooden | 4018 | ads | 4019 | aggressive | 4020 | anne |
-| 4021 | answered | 4022 | apparent | 4023 | bang | 4024 | blast |
-| 4025 | bones | 4026 | brands | 4027 | centuries | 4028 | communist |
-| 4029 | complaint | 4030 | component | 4031 | connections | 4032 | courage |
-| 4033 | cure | 4034 | del | 4035 | desperate | 4036 | diversity |
-| 4037 | duties | 4038 | encouraged | 4039 | eve | 4040 | faculty |
-| 4041 | feedback | 4042 | fighter | 4043 | frozen | 4044 | guards |
-| 4045 | hiding | 4046 | humanity | 4047 | ian | 4048 | il |
-| 4049 | innovation | 4050 | instruments | 4051 | invest | 4052 | jacket |
-| 4053 | justin | 4054 | legislative | 4055 | listing | 4056 | manual |
-| 4057 | mothers | 4058 | murdered | 4059 | nursing | 4060 | occupied |
-| 4061 | ongoing | 4062 | operator | 4063 | painful | 4064 | pound |
-| 4065 | preparation | 4066 | punch | 4067 | purple | 4068 | railroad |
-| 4069 | registration | 4070 | releases | 4071 | rick | 4072 | romance |
-| 4073 | submitted | 4074 | sufficient | 4075 | survived | 4076 | suspended |
-| 4077 | technologies | 4078 | tissue | 4079 | trailer | 4080 | trends |
-| 4081 | trials | 4082 | ukraine | 4083 | underground | 4084 | versus |
-| 4085 | virtual | 4086 | walks | 4087 | wounded | 4088 | ali |
-| 4089 | amongst | 4090 | announcement | 4091 | arranged | 4092 | arsenal |
-| 4093 | attending | 4094 | attracted | 4095 | biological | 4096 | bite |
-| 4097 | blocked | 4098 | boards | 4099 | burned | 4100 | categories |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4001 | lifestyle | 生活方式 |
+| 4002 | lighting | 照明 |
+| 4003 | loop | 循环 |
+| 4004 | mall | 商场 |
+| 4005 | mp | 议员 |
+| 4006 | overseas | 海外 |
+| 4007 | performances | 表演 |
+| 4008 | recommendations | 建议 |
+| 4009 | recover | 恢复 |
+| 4010 | regarded | 被视为 |
+| 4011 | relax | 放松 |
+| 4012 | reliable | 可靠 |
+| 4013 | rely | 依靠 |
+| 4014 | remarkable | 非凡的 |
+| 4015 | responses | 回应 |
+| 4016 | ruling | 裁决 |
+| 4017 | sacrifice | 牺牲 |
+| 4018 | se | 硒 |
+| 4019 | sole | 鞋底 |
+| 4020 | stopping | 停止 |
+| 4021 | strategies | 策略 |
+| 4022 | succeed | 成功 |
+| 4023 | tables | 桌子 |
+| 4024 | tale | 故事 |
+| 4025 | targets | 目标 |
+| 4026 | timing | 时机 |
+| 4027 | ton | 吨 |
+| 4028 | volunteers | 志愿者 |
+| 4029 | witnesses | 证人 |
+| 4030 | wore | 穿着 |
+| 4031 | worship | 崇拜 |
+| 4032 | worthy | 值得 |
+| 4033 | acted | 采取行动 |
+| 4034 | alarm | 警报 |
+| 4035 | bass | 低音 |
+| 4036 | bloody | 血淋淋的 |
+| 4037 | breathing | 呼吸 |
+| 4038 | butt | 屁股 |
+| 4039 | characteristics | 特点 |
+| 4040 | collaboration | 协作 |
+| 4041 | con | 骗局 |
+| 4042 | consideration | 考虑 |
+| 4043 | counts | 计数 |
+| 4044 | creates | 创造 |
+| 4045 | crucial | 至关重要的 |
+| 4046 | daughters | 女儿们 |
+| 4047 | dependent | 依赖的 |
+| 4048 | discussions | 讨论 |
+| 4049 | drives | 驱动器 |
+| 4050 | dual | 双 |
+| 4051 | edinburgh | 爱丁堡 |
+| 4052 | equipped | 装备齐全 |
+| 4053 | expanded | 扩大 |
+| 4054 | experimental | 实验性的 |
+| 4055 | feeding | 喂养 |
+| 4056 | filter | 过滤器 |
+| 4057 | galaxy | 银河系 |
+| 4058 | globe | 地球仪 |
+| 4059 | grades | 成绩 |
+| 4060 | gulf | 海湾 |
+| 4061 | highlights | 亮点 |
+| 4062 | hoped | 希望 |
+| 4063 | intent | 意图 |
+| 4064 | involve | 涉及 |
+| 4065 | judgment | 判断力 |
+| 4066 | logo | 标志 |
+| 4067 | mature | 成熟的 |
+| 4068 | odds | 赔率 |
+| 4069 | peaceful | 和平的 |
+| 4070 | photographer | 摄影师 |
+| 4071 | pin | 针 |
+| 4072 | prevention | 预防 |
+| 4073 | printing | 印刷 |
+| 4074 | promoting | 促进 |
+| 4075 | publicly | 公开地 |
+| 4076 | pump | 泵 |
+| 4077 | repeated | 重复 |
+| 4078 | replied | 回复了 |
+| 4079 | requests | 要求 |
+| 4080 | revenge | 复仇 |
+| 4081 | satisfied | 满意 |
+| 4082 | seeds | 种子 |
+| 4083 | signals | 信号 |
+| 4084 | slip | 滑倒 |
+| 4085 | spaces | 空间 |
+| 4086 | spare | 备用 |
+| 4087 | specialist | 专家 |
+| 4088 | stocks | 股票 |
+| 4089 | stranger | 陌生人 |
+| 4090 | submit | 提交 |
+| 4091 | surprising | 令人惊讶的 |
+| 4092 | tap | 点击 |
+| 4093 | thompson | 汤普森 |
+| 4094 | threats | 威胁 |
+| 4095 | tourism | 旅游 |
+| 4096 | volunteer | 志愿者 |
+| 4097 | acceptable | 可以接受 |
+| 4098 | allies | 盟友 |
+| 4099 | attempting | 尝试 |
+| 4100 | auction | 拍卖 |
 
 ### 4101～4200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4101 | checks | 4102 | chip | 4103 | concerning | 4104 | dare |
-| 4105 | database | 4106 | define | 4107 | discrimination | 4108 | disorder |
-| 4109 | distributed | 4110 | districts | 4111 | documentary | 4112 | domain |
-| 4113 | dynamic | 4114 | edited | 4115 | engagement | 4116 | explore |
-| 4117 | favour | 4118 | fewer | 4119 | footage | 4120 | giants |
-| 4121 | grave | 4122 | hamilton | 4123 | implementation | 4124 | indiana |
-| 4125 | investigate | 4126 | jazz | 4127 | jon | 4128 | jonathan |
-| 4129 | laboratory | 4130 | lawrence | 4131 | lincoln | 4132 | literary |
-| 4133 | mask | 4134 | massachusetts | 4135 | midnight | 4136 | minnesota |
-| 4137 | mouse | 4138 | oscar | 4139 | packed | 4140 | piano |
-| 4141 | praise | 4142 | presentation | 4143 | psychology | 4144 | relation |
-| 4145 | restrictions | 4146 | rocket | 4147 | ruin | 4148 | saudi |
-| 4149 | sean | 4150 | sec | 4151 | secrets | 4152 | slave |
-| 4153 | stability | 4154 | steady | 4155 | stones | 4156 | symbol |
-| 4157 | terminal | 4158 | toilet | 4159 | treaty | 4160 | triple |
-| 4161 | unlikely | 4162 | updates | 4163 | vietnam | 4164 | viewed |
-| 4165 | affair | 4166 | agenda | 4167 | bat | 4168 | bow |
-| 4169 | calendar | 4170 | cape | 4171 | collective | 4172 | conversations |
-| 4173 | cooperation | 4174 | craft | 4175 | darkness | 4176 | deeper |
-| 4177 | devil | 4178 | edit | 4179 | enable | 4180 | equity |
-| 4181 | estimates | 4182 | failing | 4183 | finishing | 4184 | fortune |
-| 4185 | gates | 4186 | goodbye | 4187 | graham | 4188 | hardware |
-| 4189 | hillary | 4190 | hurts | 4191 | intellectual | 4192 | invite |
-| 4193 | involvement | 4194 | kentucky | 4195 | madrid | 4196 | mi |
-| 4197 | nuts | 4198 | oregon | 4199 | partly | 4200 | petition |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4101 | bonds | 债券 |
+| 4102 | challenging | 具有挑战性的 |
+| 4103 | chaos | 混乱 |
+| 4104 | churches | 教堂 |
+| 4105 | cleveland | 克利夫兰 |
+| 4106 | cm | 厘米 |
+| 4107 | composed | 组成的 |
+| 4108 | concentration | 浓度 |
+| 4109 | copper | 铜 |
+| 4110 | corps | 军团 |
+| 4111 | counting | 计数 |
+| 4112 | credits | 学分 |
+| 4113 | dawn | 黎明 |
+| 4114 | dispute | 争议 |
+| 4115 | earnings | 收益 |
+| 4116 | editing | 编辑 |
+| 4117 | executed | 被处决 |
+| 4118 | firing | 射击 |
+| 4119 | fits | 适合 |
+| 4120 | frequent | 经常 |
+| 4121 | gardens | 花园 |
+| 4122 | gathered | 聚集 |
+| 4123 | hilarious | 搞笑的 |
+| 4124 | ignored | 被忽略 |
+| 4125 | improvements | 改进 |
+| 4126 | investments | 投资 |
+| 4127 | margin | 保证金 |
+| 4128 | mars | 火星 |
+| 4129 | maryland | 马里兰州 |
+| 4130 | mechanism | 机制 |
+| 4131 | moderate | 中等 |
+| 4132 | oklahoma | 俄克拉荷马州 |
+| 4133 | opera | 歌剧 |
+| 4134 | overcome | 克服 |
+| 4135 | parallel | 平行 |
+| 4136 | passage | 通道 |
+| 4137 | pit | 坑 |
+| 4138 | psychological | 心理的 |
+| 4139 | publications | 出版物 |
+| 4140 | quest | 追求 |
+| 4141 | radiation | 辐射 |
+| 4142 | shocked | 震惊 |
+| 4143 | sized | 大小 |
+| 4144 | stroke | 中风 |
+| 4145 | stunning | 令人惊叹的 |
+| 4146 | tanks | 坦克 |
+| 4147 | topics | 主题 |
+| 4148 | trains | 火车 |
+| 4149 | traveling | 旅行 |
+| 4150 | treating | 治疗 |
+| 4151 | tune | 调 |
+| 4152 | utility | 效用 |
+| 4153 | vessel | 容器 |
+| 4154 | weed | 杂草 |
+| 4155 | wherever | 无论在哪里 |
+| 4156 | acquisition | 收购 |
+| 4157 | addressed | 已解决 |
+| 4158 | alabama | 阿拉巴马州 |
+| 4159 | angels | 天使 |
+| 4160 | anime | 动漫 |
+| 4161 | announce | 宣布 |
+| 4162 | autumn | 秋天 |
+| 4163 | backed | 支持的 |
+| 4164 | bold | 粗体 |
+| 4165 | borders | 边界 |
+| 4166 | breathe | 呼吸 |
+| 4167 | choosing | 选择 |
+| 4168 | classical | 古典的 |
+| 4169 | classified | 分类 |
+| 4170 | clip | 剪辑 |
+| 4171 | coaches | 教练 |
+| 4172 | coins | 硬币 |
+| 4173 | concepts | 概念 |
+| 4174 | conspiracy | 阴谋 |
+| 4175 | controversy | 争议 |
+| 4176 | convince | 说服 |
+| 4177 | disappeared | 消失了 |
+| 4178 | eh | 呃 |
+| 4179 | encounter | 遭遇 |
+| 4180 | equality | 平等 |
+| 4181 | exam | 考试 |
+| 4182 | examination | 考试 |
+| 4183 | fails | 失败 |
+| 4184 | federation | 联邦 |
+| 4185 | fi | 菲 |
+| 4186 | fiscal | 财政 |
+| 4187 | guardian | 监护人 |
+| 4188 | homeless | 无家可归的 |
+| 4189 | instrument | 仪器 |
+| 4190 | intervention | 干预 |
+| 4191 | lover | 情人 |
+| 4192 | mainstream | 主流 |
+| 4193 | menu | 菜单 |
+| 4194 | missouri | 密苏里州 |
+| 4195 | mounted | 安装的 |
+| 4196 | mutual | 相互的 |
+| 4197 | occasions | 场合 |
+| 4198 | offense | 进攻 |
+| 4199 | oral | 口头的 |
+| 4200 | panic | 恐慌 |
 
 ### 4201～4300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4201 | phrase | 4202 | physically | 4203 | protecting | 4204 | racial |
-| 4205 | rated | 4206 | regime | 4207 | rivers | 4208 | rounds |
-| 4209 | ruled | 4210 | sa | 4211 | sauce | 4212 | seal |
-| 4213 | separated | 4214 | shield | 4215 | similarly | 4216 | slide |
-| 4217 | stem | 4218 | summit | 4219 | talented | 4220 | throat |
-| 4221 | tiger | 4222 | touched | 4223 | toy | 4224 | visits |
-| 4225 | warriors | 4226 | wisdom | 4227 | accounting | 4228 | alien |
-| 4229 | attacking | 4230 | awkward | 4231 | beast | 4232 | beef |
-| 4233 | candy | 4234 | carrier | 4235 | celebration | 4236 | celebrity |
-| 4237 | certificate | 4238 | cited | 4239 | clay | 4240 | coaching |
-| 4241 | colleagues | 4242 | constructed | 4243 | dated | 4244 | dec |
-| 4245 | default | 4246 | delhi | 4247 | derived | 4248 | dialogue |
-| 4249 | disabled | 4250 | distinct | 4251 | drag | 4252 | educated |
-| 4253 | eligible | 4254 | estimate | 4255 | execution | 4256 | existed |
-| 4257 | fifty | 4258 | followers | 4259 | fool | 4260 | framework |
-| 4261 | franchise | 4262 | funded | 4263 | furniture | 4264 | generations |
-| 4265 | guaranteed | 4266 | integrated | 4267 | intelligent | 4268 | interaction |
-| 4269 | jet | 4270 | journalists | 4271 | lifestyle | 4272 | lighting |
-| 4273 | lisa | 4274 | loop | 4275 | mall | 4276 | mp |
-| 4277 | overseas | 4278 | performances | 4279 | philippines | 4280 | polish |
-| 4281 | recommendations | 4282 | recover | 4283 | regarded | 4284 | relax |
-| 4285 | reliable | 4286 | rely | 4287 | remarkable | 4288 | responses |
-| 4289 | ruling | 4290 | sacrifice | 4291 | se | 4292 | sole |
-| 4293 | stopping | 4294 | strategies | 4295 | succeed | 4296 | tables |
-| 4297 | tale | 4298 | targets | 4299 | timing | 4300 | ton |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4201 | pays | 支付 |
+| 4202 | peoples | 人民 |
+| 4203 | pursue | 追求 |
+| 4204 | realise | 意识到 |
+| 4205 | refugees | 难民 |
+| 4206 | removing | 去除 |
+| 4207 | requirement | 要求 |
+| 4208 | responded | 回应了 |
+| 4209 | rip | 撕裂 |
+| 4210 | ruined | 毁了 |
+| 4211 | scope | 范围 |
+| 4212 | segment | 段 |
+| 4213 | spectrum | 光谱 |
+| 4214 | stays | 停留 |
+| 4215 | terror | 恐怖 |
+| 4216 | uh | 呃 |
+| 4217 | venture | 创业 |
+| 4218 | virtually | 实际上 |
+| 4219 | waited | 等待 |
+| 4220 | worn | 磨损的 |
+| 4221 | ac | 交流电 |
+| 4222 | accompanied | 陪伴 |
+| 4223 | aids | 艾滋病 |
+| 4224 | aimed | 瞄准的 |
+| 4225 | alpha | 阿尔法 |
+| 4226 | approaches | 方法 |
+| 4227 | arguing | 争论 |
+| 4228 | arrangement | 安排 |
+| 4229 | beliefs | 信仰 |
+| 4230 | boats | 船 |
+| 4231 | boundaries | 边界 |
+| 4232 | brick | 砖 |
+| 4233 | brooklyn | 布鲁克林 |
+| 4234 | colleges | 学院 |
+| 4235 | considerable | 相当大的 |
+| 4236 | conventional | 常规的 |
+| 4237 | danny | 丹尼 |
+| 4238 | des | 德斯 |
+| 4239 | designated | 指定 |
+| 4240 | dvd | DVD |
+| 4241 | employers | 雇主 |
+| 4242 | enormous | 巨大的 |
+| 4243 | errors | 错误 |
+| 4244 | focusing | 聚焦 |
+| 4245 | forgive | 原谅 |
+| 4246 | gains | 收益 |
+| 4247 | garage | 车库 |
+| 4248 | gathering | 聚会 |
+| 4249 | guidelines | 指导方针 |
+| 4250 | handled | 处理过 |
+| 4251 | hosted | 主持 |
+| 4252 | indians | 印第安人 |
+| 4253 | inquiry | 询问 |
+| 4254 | inspector | 检查员 |
+| 4255 | jumped | 跳了 |
+| 4256 | khan | 可汗 |
+| 4257 | li | 李 |
+| 4258 | lion | 狮子 |
+| 4259 | loaded | 已加载 |
+| 4260 | lonely | 孤独 |
+| 4261 | maintaining | 维持 |
+| 4262 | measured | 测量的 |
+| 4263 | mercy | 怜悯 |
+| 4264 | nevertheless | 尽管如此 |
+| 4265 | newspapers | 报纸 |
+| 4266 | outer | 外层 |
+| 4267 | oxygen | 氧气 |
+| 4268 | pipe | 管子 |
+| 4269 | poem | 诗 |
+| 4270 | powder | 粉末 |
+| 4271 | powered | 供电的 |
+| 4272 | promises | 承诺 |
+| 4273 | quotes | 报价 |
+| 4274 | racism | 种族主义 |
+| 4275 | ratings | 收视率 |
+| 4276 | reads | 读 |
+| 4277 | recovered | 恢复了 |
+| 4278 | refers | 指的是 |
+| 4279 | rude | 粗鲁的 |
+| 4280 | screw | 螺丝 |
+| 4281 | seventh | 第七 |
+| 4282 | shelter | 庇护所 |
+| 4283 | signature | 签名 |
+| 4284 | sooner | 早点 |
+| 4285 | spider | 蜘蛛 |
+| 4286 | strikes | 罢工 |
+| 4287 | suggesting | 建议 |
+| 4288 | suits | 西装 |
+| 4289 | toys | 玩具 |
+| 4290 | tracking | 追踪 |
+| 4291 | tribute | 致敬 |
+| 4292 | trigger | 触发器 |
+| 4293 | vary | 变化 |
+| 4294 | venue | 场地 |
+| 4295 | wages | 工资 |
+| 4296 | wells | 井 |
+| 4297 | wheels | 轮子 |
+| 4298 | ye | 叶 |
+| 4299 | abc | ABC |
+| 4300 | abortion | 堕胎 |
 
 ### 4301～4400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4301 | volunteers | 4302 | witnesses | 4303 | wore | 4304 | worship |
-| 4305 | worthy | 4306 | acted | 4307 | alarm | 4308 | bass |
-| 4309 | bloody | 4310 | breathing | 4311 | butt | 4312 | characteristics |
-| 4313 | cnn | 4314 | collaboration | 4315 | con | 4316 | consideration |
-| 4317 | counts | 4318 | creates | 4319 | crucial | 4320 | daughters |
-| 4321 | dependent | 4322 | discussions | 4323 | drives | 4324 | dual |
-| 4325 | edinburgh | 4326 | equipped | 4327 | expanded | 4328 | experimental |
-| 4329 | feeding | 4330 | filter | 4331 | galaxy | 4332 | globe |
-| 4333 | grades | 4334 | greece | 4335 | gulf | 4336 | highlights |
-| 4337 | hoped | 4338 | intent | 4339 | involve | 4340 | judgment |
-| 4341 | kennedy | 4342 | knight | 4343 | larry | 4344 | las |
-| 4345 | lmao | 4346 | logo | 4347 | malaysia | 4348 | mature |
-| 4349 | moore | 4350 | nazi | 4351 | netherlands | 4352 | odds |
-| 4353 | peaceful | 4354 | philip | 4355 | photographer | 4356 | pin |
-| 4357 | prevention | 4358 | printing | 4359 | promoting | 4360 | publicly |
-| 4361 | pump | 4362 | repeated | 4363 | replied | 4364 | requests |
-| 4365 | revenge | 4366 | satisfied | 4367 | seeds | 4368 | signals |
-| 4369 | slip | 4370 | spaces | 4371 | spare | 4372 | specialist |
-| 4373 | stocks | 4374 | stranger | 4375 | submit | 4376 | surprising |
-| 4377 | tap | 4378 | thompson | 4379 | threats | 4380 | tourism |
-| 4381 | turkish | 4382 | volunteer | 4383 | acceptable | 4384 | allies |
-| 4385 | attempting | 4386 | auction | 4387 | bonds | 4388 | challenging |
-| 4389 | chaos | 4390 | churches | 4391 | cleveland | 4392 | cm |
-| 4393 | composed | 4394 | concentration | 4395 | copper | 4396 | corp |
-| 4397 | corps | 4398 | counting | 4399 | credits | 4400 | dawn |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4301 | accuracy | 准确度 |
+| 4302 | albert | 阿尔伯特 |
+| 4303 | applying | 申请 |
+| 4304 | artificial | 人工的 |
+| 4305 | belongs | 属于 |
+| 4306 | beneath | 下面 |
+| 4307 | bitcoin | 比特币 |
+| 4308 | bullet | 子弹 |
+| 4309 | burns | 烧伤 |
+| 4310 | celebrated | 庆祝 |
+| 4311 | consistently | 始终如一地 |
+| 4312 | conversion | 转换 |
+| 4313 | copyright | 版权 |
+| 4314 | counties | 县 |
+| 4315 | democrat | 民主党人 |
+| 4316 | deposit | 押金 |
+| 4317 | destination | 目的地 |
+| 4318 | dirt | 污垢 |
+| 4319 | diverse | 多样化 |
+| 4320 | divine | 神圣的 |
+| 4321 | emails | 电子邮件 |
+| 4322 | er | 呃 |
+| 4323 | exclusively | 独家 |
+| 4324 | export | 出口 |
+| 4325 | fastest | 最快 |
+| 4326 | formerly | 以前 |
+| 4327 | functional | 功能性的 |
+| 4328 | gather | 聚集 |
+| 4329 | grandfather | 祖父 |
+| 4330 | habit | 习惯 |
+| 4331 | harvard | 哈佛大学 |
+| 4332 | indicates | 表示 |
+| 4333 | isolated | 孤立的 |
+| 4334 | jealous | 嫉妒 |
+| 4335 | knocked | 敲了 |
+| 4336 | landed | 着陆 |
+| 4337 | laughed | 笑了 |
+| 4338 | lazy | 懒惰 |
+| 4339 | mama | 妈妈 |
+| 4340 | modified | 修改过的 |
+| 4341 | municipal | 市级 |
+| 4342 | naval | 海军 |
+| 4343 | neighbors | 邻居 |
+| 4344 | neutral | 中立的 |
+| 4345 | noble | 高贵的 |
+| 4346 | oldest | 最古老的 |
+| 4347 | pat | 拍拍 |
+| 4348 | picks | 精选 |
+| 4349 | popularity | 人气 |
+| 4350 | professionals | 专业人士 |
+| 4351 | reactions | 反应 |
+| 4352 | relate | 关联 |
+| 4353 | robot | 机器人 |
+| 4354 | sacred | 神圣的 |
+| 4355 | securities | 证券 |
+| 4356 | shoe | 鞋 |
+| 4357 | speakers | 扬声器 |
+| 4358 | springs | 斯普林斯 |
+| 4359 | spy | 间谍 |
+| 4360 | suggestions | 建议 |
+| 4361 | supplied | 提供的 |
+| 4362 | suspension | 悬浮 |
+| 4363 | terrorism | 恐怖主义 |
+| 4364 | toxic | 有毒的 |
+| 4365 | treasury | 国库 |
+| 4366 | tunnel | 隧道 |
+| 4367 | unions | 工会 |
+| 4368 | upgrade | 升级 |
+| 4369 | warrant | 令状 |
+| 4370 | wider | 更宽 |
+| 4371 | wound | 伤口 |
+| 4372 | actively | 积极地 |
+| 4373 | ai | 艾 |
+| 4374 | applies | 适用 |
+| 4375 | arrangements | 安排 |
+| 4376 | asset | 资产 |
+| 4377 | assuming | 假设 |
+| 4378 | backing | 支持 |
+| 4379 | baker | 贝克 |
+| 4380 | barcelona | 巴塞罗那 |
+| 4381 | blessed | 有福的 |
+| 4382 | brush | 刷子 |
+| 4383 | burden | 负担 |
+| 4384 | carries | 携带 |
+| 4385 | casual | 休闲的 |
+| 4386 | certified | 认证的 |
+| 4387 | charter | 宪章 |
+| 4388 | chef | 厨师 |
+| 4389 | civilian | 平民 |
+| 4390 | coalition | 联盟 |
+| 4391 | complain | 抱怨 |
+| 4392 | complaints | 投诉 |
+| 4393 | controversial | 有争议的 |
+| 4394 | describing | 描述 |
+| 4395 | differently | 不同地 |
+| 4396 | directions | 方向 |
+| 4397 | discipline | 纪律 |
+| 4398 | discussing | 讨论 |
+| 4399 | disgusting | 恶心的 |
+| 4400 | dj | DJ |
 
 ### 4401～4500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4401 | dispute | 4402 | earnings | 4403 | editing | 4404 | executed |
-| 4405 | firing | 4406 | fits | 4407 | frequent | 4408 | gardens |
-| 4409 | gathered | 4410 | hilarious | 4411 | huh | 4412 | ignored |
-| 4413 | improvements | 4414 | investments | 4415 | isis | 4416 | margin |
-| 4417 | mars | 4418 | maryland | 4419 | mechanism | 4420 | moderate |
-| 4421 | murray | 4422 | oklahoma | 4423 | opera | 4424 | overcome |
-| 4425 | parallel | 4426 | passage | 4427 | pit | 4428 | psychological |
-| 4429 | publications | 4430 | quest | 4431 | radiation | 4432 | shocked |
-| 4433 | sized | 4434 | stroke | 4435 | stunning | 4436 | tanks |
-| 4437 | tokyo | 4438 | topics | 4439 | trains | 4440 | traveling |
-| 4441 | treating | 4442 | tune | 4443 | utility | 4444 | vessel |
-| 4445 | weed | 4446 | wherever | 4447 | acquisition | 4448 | addressed |
-| 4449 | alabama | 4450 | alice | 4451 | angels | 4452 | anime |
-| 4453 | announce | 4454 | autumn | 4455 | backed | 4456 | barry |
-| 4457 | bold | 4458 | borders | 4459 | breathe | 4460 | cameron |
-| 4461 | choosing | 4462 | classical | 4463 | classified | 4464 | clip |
-| 4465 | coaches | 4466 | coins | 4467 | concepts | 4468 | conspiracy |
-| 4469 | controversy | 4470 | convince | 4471 | cooper | 4472 | disappeared |
-| 4473 | eh | 4474 | encounter | 4475 | equality | 4476 | exam |
-| 4477 | examination | 4478 | fails | 4479 | federation | 4480 | fi |
-| 4481 | fiscal | 4482 | guardian | 4483 | hd | 4484 | homeless |
-| 4485 | instrument | 4486 | intervention | 4487 | jerry | 4488 | lover |
-| 4489 | mainstream | 4490 | menu | 4491 | missouri | 4492 | mounted |
-| 4493 | mutual | 4494 | nope | 4495 | occasions | 4496 | offense |
-| 4497 | oral | 4498 | panic | 4499 | pays | 4500 | peoples |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4401 | dominant | 占主导地位的 |
+| 4402 | earning | 赚取 |
+| 4403 | essay | 论文 |
+| 4404 | expense | 费用 |
+| 4405 | explaining | 解释 |
+| 4406 | furthermore | 此外 |
+| 4407 | graphic | 图形 |
+| 4408 | greg | 格雷格 |
+| 4409 | healing | 治愈 |
+| 4410 | hiring | 招聘 |
+| 4411 | hosts | 主机 |
+| 4412 | implemented | 已实施 |
+| 4413 | instantly | 立即 |
+| 4414 | invasion | 入侵 |
+| 4415 | jumping | 跳跃 |
+| 4416 | laptop | 笔记本电脑 |
+| 4417 | legendary | 传奇的 |
+| 4418 | maker | 创客 |
+| 4419 | opponents | 对手 |
+| 4420 | outdoor | 户外 |
+| 4421 | palm | 手掌 |
+| 4422 | photograph | 照片 |
+| 4423 | pole | 极 |
+| 4424 | pub | 酒吧 |
+| 4425 | quarters | 宿舍 |
+| 4426 | queensland | 昆士兰 |
+| 4427 | rangers | 护林员 |
+| 4428 | ranks | 行列 |
+| 4429 | reception | 接待处 |
+| 4430 | recipe | 食谱 |
+| 4431 | regulatory | 监管 |
+| 4432 | reviewed | 已审查 |
+| 4433 | rolls | 卷 |
+| 4434 | rubber | 橡胶 |
+| 4435 | secured | 安全的 |
+| 4436 | serial | 连续剧 |
+| 4437 | settings | 设置 |
+| 4438 | shed | 棚子 |
+| 4439 | snake | 蛇 |
+| 4440 | sponsored | 赞助的 |
+| 4441 | stealing | 偷窃 |
+| 4442 | strict | 严格 |
+| 4443 | subsequently | 随后 |
+| 4444 | substance | 物质 |
+| 4445 | suggestion | 建议 |
+| 4446 | syndrome | 综合症 |
+| 4447 | tasks | 任务 |
+| 4448 | trips | 旅行 |
+| 4449 | ultra | 超 |
+| 4450 | unexpected | 意想不到的 |
+| 4451 | usage | 用途 |
+| 4452 | utah | 犹他州 |
+| 4453 | worlds | 世界 |
+| 4454 | accidentally | 不小心 |
+| 4455 | affordable | 负担得起的 |
+| 4456 | amateur | 业余的 |
+| 4457 | appeals | 上诉 |
+| 4458 | batman | 蝙蝠侠 |
+| 4459 | bearing | 轴承 |
+| 4460 | beats | 节拍 |
+| 4461 | bin | 垃圾箱 |
+| 4462 | biology | 生物学 |
+| 4463 | bobby | 鲍比 |
+| 4464 | briefly | 简要地 |
+| 4465 | canal | 运河 |
+| 4466 | cancelled | 取消 |
+| 4467 | charlotte | 夏洛特 |
+| 4468 | cheaper | 更便宜 |
+| 4469 | christopher | 克里斯托弗 |
+| 4470 | climb | 攀登 |
+| 4471 | com | com |
+| 4472 | competing | 竞争 |
+| 4473 | completion | 完成 |
+| 4474 | cruise | 巡航 |
+| 4475 | custody | 监护权 |
+| 4476 | delete | 删除 |
+| 4477 | demonstrated | 证明了 |
+| 4478 | departure | 出发 |
+| 4479 | developers | 开发商 |
+| 4480 | developments | 事态发展 |
+| 4481 | dig | 挖 |
+| 4482 | eagles | 老鹰 |
+| 4483 | employer | 雇主 |
+| 4484 | explosion | 爆炸 |
+| 4485 | fever | 发烧 |
+| 4486 | fluid | 流体 |
+| 4487 | folk | 民间 |
+| 4488 | generate | 生成 |
+| 4489 | gop | 共和党 |
+| 4490 | handsome | 帅哥 |
+| 4491 | ho | 何 |
+| 4492 | holidays | 假期 |
+| 4493 | hotels | 酒店 |
+| 4494 | imagination | 想象力 |
+| 4495 | integration | 整合 |
+| 4496 | integrity | 诚信 |
+| 4497 | interpretation | 解释 |
+| 4498 | leaf | 叶 |
+| 4499 | legitimate | 合法的 |
+| 4500 | lightning | 闪电 |
 
 ### 4501～4600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4501 | pursue | 4502 | realise | 4503 | refugees | 4504 | removing |
-| 4505 | requirement | 4506 | responded | 4507 | rip | 4508 | ruined |
-| 4509 | scope | 4510 | segment | 4511 | spectrum | 4512 | stays |
-| 4513 | ted | 4514 | terror | 4515 | uh | 4516 | va |
-| 4517 | venture | 4518 | virtually | 4519 | waited | 4520 | warren |
-| 4521 | worn | 4522 | yea | 4523 | ac | 4524 | accompanied |
-| 4525 | adams | 4526 | aids | 4527 | aimed | 4528 | alpha |
-| 4529 | approaches | 4530 | arguing | 4531 | arrangement | 4532 | beliefs |
-| 4533 | boats | 4534 | boundaries | 4535 | brick | 4536 | brooklyn |
-| 4537 | colleges | 4538 | considerable | 4539 | conventional | 4540 | danny |
-| 4541 | des | 4542 | designated | 4543 | dvd | 4544 | emperor |
-| 4545 | employers | 4546 | enormous | 4547 | errors | 4548 | focusing |
-| 4549 | forgive | 4550 | gains | 4551 | garage | 4552 | gathering |
-| 4553 | guidelines | 4554 | handled | 4555 | hosted | 4556 | indians |
-| 4557 | indonesia | 4558 | inquiry | 4559 | inspector | 4560 | jumped |
-| 4561 | khan | 4562 | li | 4563 | lion | 4564 | loaded |
-| 4565 | lonely | 4566 | maintaining | 4567 | measured | 4568 | mercy |
-| 4569 | nevertheless | 4570 | newspapers | 4571 | outer | 4572 | oxygen |
-| 4573 | pipe | 4574 | pissed | 4575 | poem | 4576 | powder |
-| 4577 | powered | 4578 | promises | 4579 | quotes | 4580 | racism |
-| 4581 | ratings | 4582 | reads | 4583 | recovered | 4584 | refers |
-| 4585 | roy | 4586 | rude | 4587 | screw | 4588 | seventh |
-| 4589 | shelter | 4590 | signature | 4591 | sooner | 4592 | spider |
-| 4593 | stewart | 4594 | strikes | 4595 | suggesting | 4596 | suits |
-| 4597 | toys | 4598 | tracking | 4599 | tribute | 4600 | trigger |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4501 | loads | 负载 |
+| 4502 | longest | 最长的 |
+| 4503 | magical | 神奇的 |
+| 4504 | mills | 米尔斯 |
+| 4505 | motivation | 动机 |
+| 4506 | nasty | 讨厌的 |
+| 4507 | outfit | 服装 |
+| 4508 | pension | 养老金 |
+| 4509 | permit | 许可 |
+| 4510 | plates | 盘子 |
+| 4511 | pleasant | 愉快的 |
+| 4512 | portrait | 肖像 |
+| 4513 | productive | 富有成效的 |
+| 4514 | reminds | 提醒 |
+| 4515 | reserves | 储备 |
+| 4516 | safely | 安全地 |
+| 4517 | shirts | 衬衫 |
+| 4518 | shorter | 更短 |
+| 4519 | slight | 轻微 |
+| 4520 | socialist | 社会主义者 |
+| 4521 | streaming | 流媒体 |
+| 4522 | sue | 苏 |
+| 4523 | targeted | 有针对性的 |
+| 4524 | tension | 紧张 |
+| 4525 | theories | 理论 |
+| 4526 | touching | 感人 |
+| 4527 | transactions | 交易 |
+| 4528 | twist | 扭转 |
+| 4529 | ugh | 呃 |
+| 4530 | unemployment | 失业 |
+| 4531 | unity | 团结 |
+| 4532 | useless | 无用的 |
+| 4533 | viewers | 观众 |
+| 4534 | winds | 风 |
+| 4535 | woke | 醒了 |
+| 4536 | abilities | 能力 |
+| 4537 | advocate | 倡导者 |
+| 4538 | aims | 目标 |
+| 4539 | arc | 弧线 |
+| 4540 | backup | 备份 |
+| 4541 | beaten | 殴打 |
+| 4542 | bitter | 苦的 |
+| 4543 | blown | 吹了 |
+| 4544 | branches | 分支机构 |
+| 4545 | campaigns | 活动 |
+| 4546 | chips | 筹码 |
+| 4547 | clever | 聪明 |
+| 4548 | clinic | 诊所 |
+| 4549 | closest | 最接近的 |
+| 4550 | collections | 收藏品 |
+| 4551 | continuous | 连续的 |
+| 4552 | converted | 转换的 |
+| 4553 | correctly | 正确地 |
+| 4554 | creator | 创造者 |
+| 4555 | creatures | 生物 |
+| 4556 | criteria | 标准 |
+| 4557 | declined | 拒绝 |
+| 4558 | detective | 侦探 |
+| 4559 | difficulties | 困难 |
+| 4560 | disability | 残疾 |
+| 4561 | dish | 菜 |
+| 4562 | douglas | 道格拉斯 |
+| 4563 | duck | 鸭子 |
+| 4564 | egyptian | 埃及人 |
+| 4565 | ep | EP |
+| 4566 | evaluation | 评价 |
+| 4567 | excess | 多余的 |
+| 4568 | farming | 农业 |
+| 4569 | fence | 栅栏 |
+| 4570 | fighters | 战士 |
+| 4571 | flights | 航班 |
+| 4572 | forcing | 强迫 |
+| 4573 | forming | 成型 |
+| 4574 | gradually | 渐渐地 |
+| 4575 | gravity | 重力 |
+| 4576 | habits | 习惯 |
+| 4577 | hawaii | 夏威夷 |
+| 4578 | highlight | 突出显示 |
+| 4579 | holder | 持有人 |
+| 4580 | hood | 引擎盖 |
+| 4581 | hung | 挂 |
+| 4582 | identical | 相同的 |
+| 4583 | investigations | 调查 |
+| 4584 | jose | 何塞 |
+| 4585 | legally | 合法地 |
+| 4586 | lied | 撒谎了 |
+| 4587 | listened | 听过 |
+| 4588 | males | 男性 |
+| 4589 | manufacturer | 制造商 |
+| 4590 | meters | 米 |
+| 4591 | nail | 钉子 |
+| 4592 | negotiations | 谈判 |
+| 4593 | nonsense | 废话 |
+| 4594 | ontario | 安大略省 |
+| 4595 | operational | 运营的 |
+| 4596 | orleans | 奥尔良 |
+| 4597 | owns | 拥有 |
+| 4598 | playoffs | 季后赛 |
+| 4599 | poet | 诗人 |
+| 4600 | quoted | 引用 |
 
 ### 4601～4700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4601 | vary | 4602 | venue | 4603 | wages | 4604 | wells |
-| 4605 | wheels | 4606 | ye | 4607 | abc | 4608 | abortion |
-| 4609 | accuracy | 4610 | albert | 4611 | applying | 4612 | artificial |
-| 4613 | belongs | 4614 | beneath | 4615 | bitcoin | 4616 | bullet |
-| 4617 | burns | 4618 | carl | 4619 | celebrated | 4620 | consistently |
-| 4621 | conversion | 4622 | copyright | 4623 | counties | 4624 | democrat |
-| 4625 | deposit | 4626 | destination | 4627 | dirt | 4628 | diverse |
-| 4629 | divine | 4630 | emails | 4631 | er | 4632 | exclusively |
-| 4633 | export | 4634 | fastest | 4635 | formerly | 4636 | functional |
-| 4637 | gather | 4638 | grandfather | 4639 | habit | 4640 | harvard |
-| 4641 | indicates | 4642 | isolated | 4643 | jealous | 4644 | knocked |
-| 4645 | landed | 4646 | laughed | 4647 | laura | 4648 | lazy |
-| 4649 | mama | 4650 | marshall | 4651 | mitchell | 4652 | modified |
-| 4653 | municipal | 4654 | naval | 4655 | neighbors | 4656 | nelson |
-| 4657 | neutral | 4658 | noble | 4659 | oldest | 4660 | pat |
-| 4661 | picks | 4662 | poland | 4663 | popularity | 4664 | professionals |
-| 4665 | reactions | 4666 | relate | 4667 | robot | 4668 | sacred |
-| 4669 | securities | 4670 | shoe | 4671 | speakers | 4672 | springs |
-| 4673 | spy | 4674 | steven | 4675 | suggestions | 4676 | supplied |
-| 4677 | susan | 4678 | suspension | 4679 | terrorism | 4680 | terry |
-| 4681 | toxic | 4682 | treasury | 4683 | tunnel | 4684 | unions |
-| 4685 | upgrade | 4686 | warrant | 4687 | wider | 4688 | wound |
-| 4689 | aaron | 4690 | actively | 4691 | afghanistan | 4692 | ai |
-| 4693 | applies | 4694 | arrangements | 4695 | asset | 4696 | assuming |
-| 4697 | backing | 4698 | baker | 4699 | barcelona | 4700 | blessed |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4601 | relating | 有关 |
+| 4602 | repeatedly | 反复地 |
+| 4603 | rolled | 卷起的 |
+| 4604 | scientist | 科学家 |
+| 4605 | sink | 水槽 |
+| 4606 | skip | 跳过 |
+| 4607 | slavery | 奴隶制 |
+| 4608 | snap | 快照 |
+| 4609 | sorts | 排序 |
+| 4610 | souls | 灵魂 |
+| 4611 | stole | 偷 |
+| 4612 | swim | 游泳 |
+| 4613 | swiss | 瑞士人 |
+| 4614 | tennessee | 田纳西州 |
+| 4615 | transaction | 交易 |
+| 4616 | transformation | 转变 |
+| 4617 | veteran | 老兵 |
+| 4618 | vulnerable | 脆弱的 |
+| 4619 | wealthy | 有钱的 |
+| 4620 | additionally | 另外 |
+| 4621 | amy | 艾米 |
+| 4622 | attract | 吸引 |
+| 4623 | beta | 贝塔 |
+| 4624 | blowing | 吹 |
+| 4625 | bored | 无聊 |
+| 4626 | bronze | 青铜 |
+| 4627 | bug | 错误 |
+| 4628 | caring | 关怀 |
+| 4629 | catching | 捕捉 |
+| 4630 | cave | 洞穴 |
+| 4631 | cheating | 作弊 |
+| 4632 | chronic | 慢性的 |
+| 4633 | cleared | 已清除 |
+| 4634 | communicate | 沟通 |
+| 4635 | convicted | 被定罪的 |
+| 4636 | cultures | 文化 |
+| 4637 | dealt | 发牌 |
+| 4638 | delayed | 延迟的 |
+| 4639 | demonstrate | 展示 |
+| 4640 | departments | 部门 |
+| 4641 | depend | 依赖 |
+| 4642 | developer | 开发商 |
+| 4643 | diagnosis | 诊断 |
+| 4644 | dismissed | 被解雇 |
+| 4645 | distinguished | 杰出的 |
+| 4646 | dose | 剂量 |
+| 4647 | eighth | 第八 |
+| 4648 | experiments | 实验 |
+| 4649 | fa | 发 |
+| 4650 | flesh | 肉 |
+| 4651 | flip | 翻转 |
+| 4652 | forty | 四十 |
+| 4653 | generous | 慷慨 |
+| 4654 | germans | 德国人 |
+| 4655 | hated | 讨厌的 |
+| 4656 | hr | 小时 |
+| 4657 | implement | 实施 |
+| 4658 | incorporated | 合并 |
+| 4659 | influenced | 影响 |
+| 4660 | jerusalem | 耶路撒冷 |
+| 4661 | laser | 激光 |
+| 4662 | loyal | 忠诚的 |
+| 4663 | marijuana | 大麻 |
+| 4664 | mentally | 精神上 |
+| 4665 | missions | 使命 |
+| 4666 | occupation | 职业 |
+| 4667 | opponent | 对手 |
+| 4668 | paintings | 绘画 |
+| 4669 | patch | 补丁 |
+| 4670 | patience | 耐心 |
+| 4671 | pic | 图片 |
+| 4672 | pointing | 指点 |
+| 4673 | pollution | 污染 |
+| 4674 | precisely | 正是 |
+| 4675 | prisoner | 囚犯 |
+| 4676 | privilege | 特权 |
+| 4677 | proposals | 提案 |
+| 4678 | protests | 抗议 |
+| 4679 | punk | 朋克 |
+| 4680 | radar | 雷达 |
+| 4681 | regards | 问候 |
+| 4682 | relatives | 亲戚 |
+| 4683 | resist | 抵抗 |
+| 4684 | solely | 仅仅 |
+| 4685 | stepped | 阶梯式 |
+| 4686 | striking | 引人注目的 |
+| 4687 | terrorists | 恐怖分子 |
+| 4688 | th | th |
+| 4689 | tourist | 游客 |
+| 4690 | transit | 过境 |
+| 4691 | trucks | 卡车 |
+| 4692 | trusted | 值得信赖的 |
+| 4693 | vessels | 船只 |
+| 4694 | villa | 别墅 |
+| 4695 | volumes | 卷 |
+| 4696 | websites | 网站 |
+| 4697 | wireless | 无线 |
+| 4698 | wondered | 想知道 |
+| 4699 | wrap | 包裹 |
+| 4700 | wright | 赖特 |
 
 ### 4701～4800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4701 | brazilian | 4702 | brush | 4703 | burden | 4704 | campbell |
-| 4705 | carries | 4706 | casual | 4707 | certified | 4708 | charter |
-| 4709 | chef | 4710 | civilian | 4711 | coalition | 4712 | complain |
-| 4713 | complaints | 4714 | controversial | 4715 | denver | 4716 | describing |
-| 4717 | differently | 4718 | directions | 4719 | discipline | 4720 | discussing |
-| 4721 | disgusting | 4722 | dj | 4723 | dominant | 4724 | earning |
-| 4725 | emma | 4726 | essay | 4727 | expense | 4728 | explaining |
-| 4729 | furthermore | 4730 | graphic | 4731 | greg | 4732 | healing |
-| 4733 | hiring | 4734 | hosts | 4735 | implemented | 4736 | instantly |
-| 4737 | invasion | 4738 | jacob | 4739 | jumping | 4740 | laptop |
-| 4741 | legendary | 4742 | leo | 4743 | maker | 4744 | margaret |
-| 4745 | mario | 4746 | opponents | 4747 | outdoor | 4748 | palm |
-| 4749 | parker | 4750 | photograph | 4751 | pole | 4752 | pub |
-| 4753 | quarters | 4754 | queensland | 4755 | rangers | 4756 | ranks |
-| 4757 | reception | 4758 | recipe | 4759 | regulatory | 4760 | reviewed |
-| 4761 | rolls | 4762 | rubber | 4763 | secured | 4764 | serial |
-| 4765 | settings | 4766 | shed | 4767 | snake | 4768 | sponsored |
-| 4769 | stealing | 4770 | strict | 4771 | subsequently | 4772 | substance |
-| 4773 | suggestion | 4774 | switzerland | 4775 | syndrome | 4776 | tasks |
-| 4777 | trips | 4778 | ultra | 4779 | unexpected | 4780 | usage |
-| 4781 | utah | 4782 | worlds | 4783 | accidentally | 4784 | affordable |
-| 4785 | amateur | 4786 | appeals | 4787 | argentina | 4788 | baltimore |
-| 4789 | batman | 4790 | bearing | 4791 | beats | 4792 | bin |
-| 4793 | biology | 4794 | bobby | 4795 | briefly | 4796 | canal |
-| 4797 | cancelled | 4798 | charlotte | 4799 | cheaper | 4800 | christopher |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4701 | yoga | 瑜伽 |
+| 4702 | adopt | 采用 |
+| 4703 | airlines | 航空公司 |
+| 4704 | alaska | 阿拉斯加 |
+| 4705 | albums | 专辑 |
+| 4706 | anytime | 随时 |
+| 4707 | bacteria | 细菌 |
+| 4708 | beings | 众生 |
+| 4709 | beside | 在旁边 |
+| 4710 | blade | 刀片 |
+| 4711 | boot | 启动 |
+| 4712 | bottles | 瓶子 |
+| 4713 | bucks | 雄鹿队 |
+| 4714 | bulk | 散装 |
+| 4715 | camps | 营地 |
+| 4716 | cargo | 货物 |
+| 4717 | census | 人口普查 |
+| 4718 | christianity | 基督教 |
+| 4719 | coastal | 沿海 |
+| 4720 | coin | 硬币 |
+| 4721 | colored | 有色的 |
+| 4722 | commentary | 评论 |
+| 4723 | confusion | 混乱 |
+| 4724 | congressional | 国会的 |
+| 4725 | corn | 玉米 |
+| 4726 | cried | 哭了 |
+| 4727 | customs | 海关 |
+| 4728 | dealer | 经销商 |
+| 4729 | deemed | 视为 |
+| 4730 | destiny | 命运 |
+| 4731 | distant | 遥远的 |
+| 4732 | electronics | 电子产品 |
+| 4733 | emerging | 新兴的 |
+| 4734 | emotion | 情感 |
+| 4735 | emphasis | 强调 |
+| 4736 | ethics | 道德 |
+| 4737 | excitement | 兴奋 |
+| 4738 | exploration | 探索 |
+| 4739 | fights | 打架 |
+| 4740 | filling | 填充 |
+| 4741 | filming | 拍摄 |
+| 4742 | glasgow | 格拉斯哥 |
+| 4743 | graphics | 图形 |
+| 4744 | humor | 幽默 |
+| 4745 | insight | 洞察力 |
+| 4746 | invested | 投资的 |
+| 4747 | lit | 点亮 |
+| 4748 | louisiana | 路易斯安那州 |
+| 4749 | mar | 三月 |
+| 4750 | meals | 膳食 |
+| 4751 | mississippi | 密西西比州 |
+| 4752 | nerve | 神经 |
+| 4753 | nightmare | 噩梦 |
+| 4754 | operators | 运营商 |
+| 4755 | overnight | 过夜 |
+| 4756 | partially | 部分地 |
+| 4757 | participating | 参与 |
+| 4758 | pie | 馅饼 |
+| 4759 | platforms | 平台 |
+| 4760 | populations | 人口 |
+| 4761 | poster | 海报 |
+| 4762 | pr | 公关 |
+| 4763 | practically | 实际上 |
+| 4764 | preserve | 保存 |
+| 4765 | produces | 产生 |
+| 4766 | qualify | 有资格 |
+| 4767 | raid | 突袭 |
+| 4768 | ram | 公羊 |
+| 4769 | ranging | 测距 |
+| 4770 | ranking | 排名 |
+| 4771 | receives | 收到 |
+| 4772 | respective | 各自的 |
+| 4773 | restricted | 受限的 |
+| 4774 | routes | 路线 |
+| 4775 | sandy | 沙地 |
+| 4776 | scenario | 场景 |
+| 4777 | sheep | 羊 |
+| 4778 | situated | 位于 |
+| 4779 | slaves | 奴隶 |
+| 4780 | spotted | 发现的 |
+| 4781 | spreading | 传播 |
+| 4782 | sustainable | 可持续的 |
+| 4783 | sustained | 持续的 |
+| 4784 | taxi | 出租车 |
+| 4785 | themes | 主题 |
+| 4786 | threatening | 威胁 |
+| 4787 | tobacco | 烟草 |
+| 4788 | trace | 痕迹 |
+| 4789 | trapped | 被困 |
+| 4790 | uncomfortable | 不舒服 |
+| 4791 | wasted | 浪费了 |
+| 4792 | weakness | 弱点 |
+| 4793 | widespread | 广泛的 |
+| 4794 | accepting | 接受 |
+| 4795 | accessible | 无障碍 |
+| 4796 | acknowledge | 承认 |
+| 4797 | advised | 建议 |
+| 4798 | advisory | 咨询 |
+| 4799 | animation | 动画 |
+| 4800 | assignment | 作业 |
 
 ### 4801～4900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4801 | climb | 4802 | com | 4803 | competing | 4804 | completion |
-| 4805 | cruise | 4806 | custody | 4807 | delete | 4808 | demonstrated |
-| 4809 | departure | 4810 | developers | 4811 | developments | 4812 | dig |
-| 4813 | eagles | 4814 | employer | 4815 | evans | 4816 | explosion |
-| 4817 | fever | 4818 | fluid | 4819 | folk | 4820 | generate |
-| 4821 | gop | 4822 | handsome | 4823 | ho | 4824 | holidays |
-| 4825 | hotels | 4826 | imagination | 4827 | integration | 4828 | integrity |
-| 4829 | interpretation | 4830 | leaf | 4831 | legitimate | 4832 | lightning |
-| 4833 | loads | 4834 | longest | 4835 | magical | 4836 | mills |
-| 4837 | motivation | 4838 | nasty | 4839 | oliver | 4840 | outfit |
-| 4841 | pension | 4842 | permit | 4843 | perry | 4844 | plates |
-| 4845 | pleasant | 4846 | portrait | 4847 | productive | 4848 | reminds |
-| 4849 | reserves | 4850 | ron | 4851 | safely | 4852 | shirts |
-| 4853 | shorter | 4854 | slight | 4855 | socialist | 4856 | streaming |
-| 4857 | sue | 4858 | targeted | 4859 | tension | 4860 | thailand |
-| 4861 | theories | 4862 | touching | 4863 | transactions | 4864 | twist |
-| 4865 | ugh | 4866 | unemployment | 4867 | unity | 4868 | useless |
-| 4869 | viewers | 4870 | winds | 4871 | woke | 4872 | wtf |
-| 4873 | abilities | 4874 | advocate | 4875 | aims | 4876 | arc |
-| 4877 | backup | 4878 | beaten | 4879 | bitter | 4880 | blown |
-| 4881 | branches | 4882 | campaigns | 4883 | chips | 4884 | cia |
-| 4885 | clever | 4886 | clinic | 4887 | closest | 4888 | collections |
-| 4889 | continuous | 4890 | converted | 4891 | correctly | 4892 | creator |
-| 4893 | creatures | 4894 | criteria | 4895 | declined | 4896 | detective |
-| 4897 | difficulties | 4898 | disability | 4899 | dish | 4900 | douglas |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4801 | balanced | 平衡的 |
+| 4802 | bare | 裸露的 |
+| 4803 | basement | 地下室 |
+| 4804 | bases | 基地 |
+| 4805 | battles | 战斗 |
+| 4806 | bias | 偏见 |
+| 4807 | birmingham | 伯明翰 |
+| 4808 | bits | 位 |
+| 4809 | cancel | 取消 |
+| 4810 | carpet | 地毯 |
+| 4811 | ceiling | 天花板 |
+| 4812 | cherry | 樱桃 |
+| 4813 | chill | 寒冷 |
+| 4814 | classification | 分类 |
+| 4815 | clue | 线索 |
+| 4816 | codes | 代码 |
+| 4817 | cole | 科尔 |
+| 4818 | collapse | 崩溃 |
+| 4819 | collecting | 收集 |
+| 4820 | compound | 化合物 |
+| 4821 | conscious | 有意识的 |
+| 4822 | consecutive | 连续的 |
+| 4823 | contents | 内容 |
+| 4824 | costume | 服装 |
+| 4825 | deleted | 已删除 |
+| 4826 | devoted | 奉献的 |
+| 4827 | didnt | 没有 |
+| 4828 | displayed | 显示的 |
+| 4829 | dominated | 占主导地位 |
+| 4830 | earl | 伯爵 |
+| 4831 | endless | 无尽的 |
+| 4832 | escaped | 逃脱了 |
+| 4833 | examine | 检查 |
+| 4834 | floating | 浮动 |
+| 4835 | garbage | 垃圾 |
+| 4836 | gospel | 福音 |
+| 4837 | grain | 谷物 |
+| 4838 | grid | 网格 |
+| 4839 | grows | 成长 |
+| 4840 | heating | 供暖 |
+| 4841 | identification | 识别 |
+| 4842 | knees | 膝盖 |
+| 4843 | lap | 圈 |
+| 4844 | lions | 狮子 |
+| 4845 | liver | 肝脏 |
+| 4846 | metro | 地铁 |
+| 4847 | metropolitan | 大都市的 |
+| 4848 | mines | 地雷 |
+| 4849 | mixture | 混合物 |
+| 4850 | nominated | 提名 |
+| 4851 | oak | 橡木 |
+| 4852 | parliamentary | 议会的 |
+| 4853 | patent | 专利 |
+| 4854 | perception | 知觉 |
+| 4855 | physician | 医生 |
+| 4856 | portland | 波特兰 |
+| 4857 | proceed | 继续 |
+| 4858 | proceedings | 诉讼程序 |
+| 4859 | pupils | 学生 |
+| 4860 | reserved | 保留 |
+| 4861 | restore | 恢复 |
+| 4862 | rifle | 步枪 |
+| 4863 | rival | 对手 |
+| 4864 | rs | RS |
+| 4865 | runner | 跑步者 |
+| 4866 | sadly | 可悲的是 |
+| 4867 | shoulders | 肩膀 |
+| 4868 | significance | 意义 |
+| 4869 | sits | 坐 |
+| 4870 | sizes | 尺寸 |
+| 4871 | slept | 睡了 |
+| 4872 | soap | 肥皂 |
+| 4873 | spray | 喷雾 |
+| 4874 | stored | 已存储 |
+| 4875 | stressed | 强调 |
+| 4876 | structural | 结构性的 |
+| 4877 | suite | 套房 |
+| 4878 | tropical | 热带 |
+| 4879 | unnecessary | 不必要的 |
+| 4880 | verse | 诗句 |
+| 4881 | vintage | 复古 |
+| 4882 | warned | 警告 |
+| 4883 | acres | 英亩 |
+| 4884 | adapted | 改编的 |
+| 4885 | adoption | 收养 |
+| 4886 | anonymous | 匿名 |
+| 4887 | antonio | 安东尼奥 |
+| 4888 | approaching | 接近 |
+| 4889 | artistic | 艺术的 |
+| 4890 | attendance | 出席率 |
+| 4891 | aviation | 航空 |
+| 4892 | barrel | 桶 |
+| 4893 | beds | 床 |
+| 4894 | beloved | 亲爱的 |
+| 4895 | bless | 祝福 |
+| 4896 | boxing | 拳击 |
+| 4897 | celebrating | 庆祝 |
+| 4898 | charging | 充电 |
+| 4899 | chemicals | 化学品 |
+| 4900 | chuck | 卡盘 |
 
 ### 4901～5000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 4901 | du | 4902 | duck | 4903 | egyptian | 4904 | ep |
-| 4905 | evaluation | 4906 | excess | 4907 | farming | 4908 | fence |
-| 4909 | fifa | 4910 | fighters | 4911 | flights | 4912 | forcing |
-| 4913 | forming | 4914 | franklin | 4915 | fred | 4916 | gradually |
-| 4917 | gravity | 4918 | habits | 4919 | hawaii | 4920 | highlight |
-| 4921 | holder | 4922 | hood | 4923 | hung | 4924 | identical |
-| 4925 | imperial | 4926 | investigations | 4927 | jose | 4928 | ken |
-| 4929 | legally | 4930 | lied | 4931 | listened | 4932 | males |
-| 4933 | manufacturer | 4934 | meters | 4935 | nail | 4936 | nasa |
-| 4937 | negotiations | 4938 | nonsense | 4939 | ontario | 4940 | operational |
-| 4941 | orleans | 4942 | owns | 4943 | phoenix | 4944 | playoffs |
-| 4945 | poet | 4946 | quoted | 4947 | relating | 4948 | repeatedly |
-| 4949 | robinson | 4950 | rolled | 4951 | scientist | 4952 | sink |
-| 4953 | skip | 4954 | slavery | 4955 | snap | 4956 | sorts |
-| 4957 | souls | 4958 | stole | 4959 | swedish | 4960 | swim |
-| 4961 | swiss | 4962 | tennessee | 4963 | transaction | 4964 | transformation |
-| 4965 | veteran | 4966 | vulnerable | 4967 | wealthy | 4968 | additionally |
-| 4969 | amy | 4970 | attract | 4971 | barbara | 4972 | beta |
-| 4973 | blowing | 4974 | bored | 4975 | bronze | 4976 | bug |
-| 4977 | caring | 4978 | catching | 4979 | cave | 4980 | cheating |
-| 4981 | chronic | 4982 | cleared | 4983 | communicate | 4984 | convicted |
-| 4985 | cultures | 4986 | dealt | 4987 | delayed | 4988 | demonstrate |
-| 4989 | departments | 4990 | depend | 4991 | developer | 4992 | diagnosis |
-| 4993 | dismissed | 4994 | distinguished | 4995 | dose | 4996 | eighth |
-| 4997 | experiments | 4998 | fa | 4999 | flesh | 5000 | flip |
+| No. | Word | 中文 |
+|---:|---|---|
+| 4901 | cinema | 电影院 |
+| 4902 | comics | 漫画 |
+| 4903 | compliance | 合规性 |
+| 4904 | contrary | 相反 |
+| 4905 | controlling | 控制 |
+| 4906 | corporations | 公司 |
+| 4907 | couch | 沙发 |
+| 4908 | crush | 暗恋 |
+| 4909 | dam | 水坝 |
+| 4910 | decrease | 减少 |
+| 4911 | defeated | 击败 |
+| 4912 | diabetes | 糖尿病 |
+| 4913 | dressing | 敷料 |
+| 4914 | expanding | 扩大 |
+| 4915 | fears | 恐惧 |
+| 4916 | fires | 火灾 |
+| 4917 | genre | 流派 |
+| 4918 | gentle | 温柔的 |
+| 4919 | grammar | 语法 |
+| 4920 | hiv | 艾滋病毒 |
+| 4921 | illustrated | 图解 |
+| 4922 | invented | 发明了 |
+| 4923 | jam | 果酱 |
+| 4924 | keith | 基思 |
+| 4925 | layers | 层数 |
+| 4926 | lease | 租赁 |
+| 4927 | lens | 镜头 |
+| 4928 | licensed | 许可的 |
+| 4929 | loyalty | 忠诚度 |
+| 4930 | madison | 麦迪逊 |
+| 4931 | magnetic | 磁性的 |
+| 4932 | metres | 米 |
+| 4933 | monsters | 怪物 |
+| 4934 | mysterious | 神秘的 |
+| 4935 | notion | 概念 |
+| 4936 | partial | 部分的 |
+| 4937 | placing | 放置 |
+| 4938 | propaganda | 宣传 |
+| 4939 | rat | 老鼠 |
+| 4940 | reflection | 反思 |
+| 4941 | reminded | 提醒 |
+| 4942 | resolve | 解决 |
+| 4943 | revolutionary | 革命性的 |
+| 4944 | scandal | 丑闻 |
+| 4945 | shine | 闪耀 |
+| 4946 | si | 斯 |
+| 4947 | simultaneously | 同时 |
+| 4948 | substitute | 替代品 |
+| 4949 | surveillance | 监视 |
+| 4950 | tactics | 战术 |
+| 4951 | testimony | 见证 |
+| 4952 | thai | 泰国人 |
+| 4953 | treasure | 宝藏 |
+| 4954 | trophy | 奖杯 |
+| 4955 | tweet | 推特 |
+| 4956 | underlying | 底层的 |
+| 4957 | unfair | 不公平 |
+| 4958 | villages | 村庄 |
+| 4959 | acceptance | 接受 |
+| 4960 | accidents | 事故 |
+| 4961 | affects | 影响 |
+| 4962 | annually | 每年 |
+| 4963 | apologize | 道歉 |
+| 4964 | appreciated | 赞赏 |
+| 4965 | approached | 走近 |
+| 4966 | arriving | 到达 |
+| 4967 | ash | 灰烬 |
+| 4968 | aunt | 阿姨 |
+| 4969 | benjamin | 本杰明 |
+| 4970 | bubble | 泡沫 |
+| 4971 | buyers | 买家 |
+| 4972 | casino | 赌场 |
+| 4973 | charts | 图表 |
+| 4974 | clouds | 云 |
+| 4975 | connecting | 连接 |
+| 4976 | counsel | 顾问 |
+| 4977 | creature | 生物 |
+| 4978 | deadly | 致命的 |
+| 4979 | decides | 决定 |
+| 4980 | der | 德 |
+| 4981 | desired | 想要的 |
+| 4982 | determination | 决心 |
+| 4983 | embrace | 拥抱 |
+| 4984 | emerged | 出现了 |
+| 4985 | exhibit | 展览 |
+| 4986 | flew | 飞了 |
+| 4987 | gentleman | 绅士 |
+| 4988 | gm | 通用汽车 |
+| 4989 | halloween | 万圣节 |
+| 4990 | hammer | 锤子 |
+| 4991 | hosting | 托管 |
+| 4992 | icon | 图标 |
+| 4993 | imposed | 强加的 |
+| 4994 | indigenous | 土著 |
+| 4995 | infinite | 无限 |
+| 4996 | installation | 安装 |
+| 4997 | inter | 国际米兰 |
+| 4998 | interactions | 互动 |
+| 4999 | introducing | 介绍 |
+| 5000 | kicking | 踢 |
 
 ### 5001～5100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5001 | forty | 5002 | generous | 5003 | germans | 5004 | hated |
-| 5005 | hr | 5006 | implement | 5007 | incorporated | 5008 | influenced |
-| 5009 | jerusalem | 5010 | kidding | 5011 | laser | 5012 | loyal |
-| 5013 | marijuana | 5014 | md | 5015 | mentally | 5016 | missions |
-| 5017 | occupation | 5018 | opponent | 5019 | paintings | 5020 | patch |
-| 5021 | patience | 5022 | pic | 5023 | pointing | 5024 | pollution |
-| 5025 | precisely | 5026 | prisoner | 5027 | privilege | 5028 | proposals |
-| 5029 | protests | 5030 | punk | 5031 | radar | 5032 | regards |
-| 5033 | relatives | 5034 | resist | 5035 | solely | 5036 | stepped |
-| 5037 | striking | 5038 | terrorists | 5039 | th | 5040 | tourist |
-| 5041 | transit | 5042 | trucks | 5043 | trusted | 5044 | vessels |
-| 5045 | villa | 5046 | volumes | 5047 | websites | 5048 | wireless |
-| 5049 | wondered | 5050 | wrap | 5051 | wright | 5052 | yoga |
-| 5053 | adopt | 5054 | airlines | 5055 | alaska | 5056 | albums |
-| 5057 | anytime | 5058 | bacteria | 5059 | beings | 5060 | beside |
-| 5061 | blade | 5062 | boot | 5063 | bottles | 5064 | bucks |
-| 5065 | bulk | 5066 | camps | 5067 | cargo | 5068 | census |
-| 5069 | christianity | 5070 | coastal | 5071 | coin | 5072 | colored |
-| 5073 | commentary | 5074 | confusion | 5075 | congressional | 5076 | corn |
-| 5077 | cried | 5078 | customs | 5079 | dealer | 5080 | deemed |
-| 5081 | destiny | 5082 | distant | 5083 | electronics | 5084 | emerging |
-| 5085 | emotion | 5086 | emphasis | 5087 | ethics | 5088 | excitement |
-| 5089 | exploration | 5090 | fights | 5091 | filling | 5092 | filming |
-| 5093 | glasgow | 5094 | graphics | 5095 | helen | 5096 | humor |
-| 5097 | insight | 5098 | invested | 5099 | jennifer | 5100 | lit |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5001 | laying | 铺设 |
+| 5002 | legislature | 立法机关 |
+| 5003 | liability | 责任 |
+| 5004 | maine | 缅因州 |
+| 5005 | makers | 创客 |
+| 5006 | manhattan | 曼哈顿 |
+| 5007 | marathon | 马拉松 |
+| 5008 | moreover | 而且 |
+| 5009 | mps | 国会议员 |
+| 5010 | organisations | 组织 |
+| 5011 | ours | 我们的 |
+| 5012 | parade | 游行 |
+| 5013 | paradise | 天堂 |
+| 5014 | perceived | 感知到的 |
+| 5015 | pics | 图片 |
+| 5016 | planes | 飞机 |
+| 5017 | politician | 政治家 |
+| 5018 | preliminary | 初步的 |
+| 5019 | premiere | 首映 |
+| 5020 | presidency | 总统职位 |
+| 5021 | reaches | 达到 |
+| 5022 | react | 反应 |
+| 5023 | realistic | 现实的 |
+| 5024 | remarks | 备注 |
+| 5025 | retain | 保留 |
+| 5026 | rocky | 岩石 |
+| 5027 | russians | 俄罗斯人 |
+| 5028 | saints | 圣人 |
+| 5029 | satisfaction | 满意 |
+| 5030 | scratch | 从头开始 |
+| 5031 | shade | 阴影 |
+| 5032 | sheets | 床单 |
+| 5033 | sheriff | 警长 |
+| 5034 | shy | 害羞的 |
+| 5035 | sometime | 某个时候 |
+| 5036 | spirits | 烈酒 |
+| 5037 | sporting | 体育运动 |
+| 5038 | strictly | 严格地 |
+| 5039 | sunshine | 阳光 |
+| 5040 | teens | 青少年 |
+| 5041 | thou | 你 |
+| 5042 | tier | 层 |
+| 5043 | travelling | 旅行 |
+| 5044 | vocal | 声乐 |
+| 5045 | warrior | 战士 |
+| 5046 | worries | 忧虑 |
+| 5047 | yield | 产量 |
+| 5048 | accomplished | 完成的 |
+| 5049 | admission | 入场 |
+| 5050 | adventures | 冒险 |
+| 5051 | aka | 又名 |
+| 5052 | appearing | 出现 |
+| 5053 | bacon | 培根 |
+| 5054 | barrier | 屏障 |
+| 5055 | believing | 相信 |
+| 5056 | blacks | 黑人 |
+| 5057 | bombs | 炸弹 |
+| 5058 | burst | 爆发 |
+| 5059 | caps | 帽子 |
+| 5060 | casting | 铸造 |
+| 5061 | cattle | 牛 |
+| 5062 | cc | 抄送 |
+| 5063 | classroom | 课堂 |
+| 5064 | colours | 颜色 |
+| 5065 | compromise | 妥协 |
+| 5066 | convenient | 方便 |
+| 5067 | costa | 科斯塔 |
+| 5068 | criminals | 罪犯 |
+| 5069 | crop | 作物 |
+| 5070 | earthquake | 地震 |
+| 5071 | elderly | 老人 |
+| 5072 | eliminate | 消除 |
+| 5073 | embarrassing | 令人尴尬的 |
+| 5074 | farmer | 农民 |
+| 5075 | finest | 最好的 |
+| 5076 | grants | 赠款 |
+| 5077 | harbor | 港口 |
+| 5078 | hates | 讨厌 |
+| 5079 | incidents | 事件 |
+| 5080 | inform | 通知 |
+| 5081 | ion | 离子 |
+| 5082 | lesbian | 女同性恋 |
+| 5083 | lovers | 恋人 |
+| 5084 | lt | 其 |
+| 5085 | mathematics | 数学 |
+| 5086 | medication | 药物治疗 |
+| 5087 | minded | 有头脑的 |
+| 5088 | par | 标杆 |
+| 5089 | podcast | 播客 |
+| 5090 | portfolio | 投资组合 |
+| 5091 | productivity | 生产力 |
+| 5092 | promoted | 晋升 |
+| 5093 | protocol | 协议 |
+| 5094 | quietly | 静静地 |
+| 5095 | replacing | 替换 |
+| 5096 | responsibilities | 责任 |
+| 5097 | salad | 沙拉 |
+| 5098 | scholarship | 奖学金 |
+| 5099 | screening | 筛选 |
+| 5100 | sends | 发送 |
 
 ### 5101～5200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5101 | louisiana | 5102 | mar | 5103 | marie | 5104 | meals |
-| 5105 | mississippi | 5106 | nerve | 5107 | netflix | 5108 | nightmare |
-| 5109 | operators | 5110 | overnight | 5111 | partially | 5112 | participating |
-| 5113 | pie | 5114 | platforms | 5115 | populations | 5116 | poster |
-| 5117 | pr | 5118 | practically | 5119 | preserve | 5120 | produces |
-| 5121 | qualify | 5122 | raid | 5123 | ram | 5124 | ranging |
-| 5125 | ranking | 5126 | receives | 5127 | respective | 5128 | restricted |
-| 5129 | routes | 5130 | samuel | 5131 | sandy | 5132 | scenario |
-| 5133 | sheep | 5134 | situated | 5135 | slaves | 5136 | sony |
-| 5137 | spotted | 5138 | spreading | 5139 | stanley | 5140 | sustainable |
-| 5141 | sustained | 5142 | taxi | 5143 | themes | 5144 | threatening |
-| 5145 | tobacco | 5146 | trace | 5147 | trapped | 5148 | turner |
-| 5149 | uncomfortable | 5150 | wasted | 5151 | weakness | 5152 | widespread |
-| 5153 | xbox | 5154 | accepting | 5155 | accessible | 5156 | acknowledge |
-| 5157 | advised | 5158 | advisory | 5159 | animation | 5160 | assignment |
-| 5161 | balanced | 5162 | bare | 5163 | basement | 5164 | bases |
-| 5165 | battles | 5166 | bias | 5167 | birmingham | 5168 | bits |
-| 5169 | cancel | 5170 | carpet | 5171 | ceiling | 5172 | cherry |
-| 5173 | chill | 5174 | classification | 5175 | clue | 5176 | codes |
-| 5177 | cole | 5178 | collapse | 5179 | collecting | 5180 | compound |
-| 5181 | conscious | 5182 | consecutive | 5183 | contents | 5184 | costume |
-| 5185 | craig | 5186 | deleted | 5187 | devoted | 5188 | didnt |
-| 5189 | displayed | 5190 | dominated | 5191 | earl | 5192 | endless |
-| 5193 | escaped | 5194 | examine | 5195 | floating | 5196 | garbage |
-| 5197 | gospel | 5198 | grain | 5199 | grid | 5200 | grows |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5101 | smiling | 微笑着 |
+| 5102 | soup | 汤 |
+| 5103 | southeast | 东南 |
+| 5104 | stake | 股份 |
+| 5105 | stating | 陈述 |
+| 5106 | strain | 应变 |
+| 5107 | suspected | 怀疑 |
+| 5108 | swift | 迅速 |
+| 5109 | tackle | 铲球 |
+| 5110 | tigers | 老虎 |
+| 5111 | timeline | 时间线 |
+| 5112 | torture | 酷刑 |
+| 5113 | traded | 交易的 |
+| 5114 | translated | 翻译的 |
+| 5115 | tricks | 技巧 |
+| 5116 | twins | 双胞胎 |
+| 5117 | urgent | 紧急的 |
+| 5118 | vegetables | 蔬菜 |
+| 5119 | vertical | 垂直 |
+| 5120 | violation | 违规 |
+| 5121 | wallet | 钱包 |
+| 5122 | workshop | 车间 |
+| 5123 | wrapped | 包裹着 |
+| 5124 | aboard | 登上 |
+| 5125 | abstract | 摘要 |
+| 5126 | accent | 口音 |
+| 5127 | addiction | 成瘾 |
+| 5128 | associates | 同事 |
+| 5129 | awake | 醒着 |
+| 5130 | beam | 梁 |
+| 5131 | beans | 豆类 |
+| 5132 | binding | 绑定 |
+| 5133 | blank | 空白 |
+| 5134 | buffalo | 水牛 |
+| 5135 | cbs | 哥伦比亚广播公司 |
+| 5136 | commons | 公地 |
+| 5137 | conservatives | 保守派 |
+| 5138 | contacts | 联系人 |
+| 5139 | conviction | 信念 |
+| 5140 | corrupt | 腐败的 |
+| 5141 | cow | 牛 |
+| 5142 | curve | 曲线 |
+| 5143 | depressed | 郁闷 |
+| 5144 | deserved | 应得的 |
+| 5145 | dining | 餐饮 |
+| 5146 | disorders | 疾病 |
+| 5147 | duration | 持续时间 |
+| 5148 | encouraging | 鼓励 |
+| 5149 | farms | 农场 |
+| 5150 | fifteen | 十五 |
+| 5151 | flows | 流量 |
+| 5152 | genes | 基因 |
+| 5153 | graduated | 毕业了 |
+| 5154 | grandmother | 祖母 |
+| 5155 | harsh | 严厉的 |
+| 5156 | heights | 高度 |
+| 5157 | horn | 号角 |
+| 5158 | hurry | 快点 |
+| 5159 | immune | 免疫 |
+| 5160 | inflation | 通货膨胀 |
+| 5161 | ingredients | 成分 |
+| 5162 | inspection | 检查 |
+| 5163 | install | 安装 |
+| 5164 | instruction | 指令 |
+| 5165 | intensity | 强度 |
+| 5166 | inventory | 库存 |
+| 5167 | investigated | 调查过 |
+| 5168 | invitation | 邀请函 |
+| 5169 | judicial | 司法 |
+| 5170 | justify | 证明合理 |
+| 5171 | lakes | 湖泊 |
+| 5172 | lean | 精益 |
+| 5173 | lecture | 讲座 |
+| 5174 | libraries | 图书馆 |
+| 5175 | logical | 逻辑的 |
+| 5176 | mason | 梅森 |
+| 5177 | meaningful | 有意义的 |
+| 5178 | migration | 迁移 |
+| 5179 | missile | 导弹 |
+| 5180 | motivated | 有动力 |
+| 5181 | muscles | 肌肉 |
+| 5182 | northwest | 西北 |
+| 5183 | nurses | 护士 |
+| 5184 | organ | 器官 |
+| 5185 | patrol | 巡逻 |
+| 5186 | pearl | 珍珠 |
+| 5187 | peer | 同行 |
+| 5188 | pepper | 胡椒 |
+| 5189 | pig | 猪 |
+| 5190 | pile | 桩 |
+| 5191 | plug | 插头 |
+| 5192 | provision | 规定 |
+| 5193 | releasing | 释放 |
+| 5194 | requiring | 要求 |
+| 5195 | revised | 修改过的 |
+| 5196 | scream | 尖叫 |
+| 5197 | stairs | 楼梯 |
+| 5198 | staring | 凝视 |
+| 5199 | statistical | 统计 |
+| 5200 | sticks | 棍子 |
 
 ### 5201～5300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5201 | heating | 5202 | identification | 5203 | knees | 5204 | lap |
-| 5205 | lions | 5206 | liver | 5207 | metro | 5208 | metropolitan |
-| 5209 | mines | 5210 | mixture | 5211 | nominated | 5212 | oak |
-| 5213 | parliamentary | 5214 | patent | 5215 | perception | 5216 | physician |
-| 5217 | portland | 5218 | proceed | 5219 | proceedings | 5220 | pupils |
-| 5221 | reserved | 5222 | restore | 5223 | rifle | 5224 | rival |
-| 5225 | rs | 5226 | runner | 5227 | sadly | 5228 | sc |
-| 5229 | shoulders | 5230 | significance | 5231 | sits | 5232 | sizes |
-| 5233 | slept | 5234 | soap | 5235 | spray | 5236 | stored |
-| 5237 | stressed | 5238 | structural | 5239 | suite | 5240 | tbh |
-| 5241 | tropical | 5242 | ukrainian | 5243 | unnecessary | 5244 | verse |
-| 5245 | victor | 5246 | vintage | 5247 | warned | 5248 | watson |
-| 5249 | acres | 5250 | adapted | 5251 | adoption | 5252 | anonymous |
-| 5253 | antonio | 5254 | approaching | 5255 | artistic | 5256 | attendance |
-| 5257 | aviation | 5258 | barrel | 5259 | beds | 5260 | beloved |
-| 5261 | bless | 5262 | boxing | 5263 | celebrating | 5264 | charging |
-| 5265 | chemicals | 5266 | chuck | 5267 | cinema | 5268 | colonial |
-| 5269 | comics | 5270 | compliance | 5271 | contrary | 5272 | controlling |
-| 5273 | corporations | 5274 | couch | 5275 | crush | 5276 | dam |
-| 5277 | decrease | 5278 | defeated | 5279 | diabetes | 5280 | dressing |
-| 5281 | expanding | 5282 | fears | 5283 | fires | 5284 | genre |
-| 5285 | gentle | 5286 | grammar | 5287 | hiv | 5288 | idk |
-| 5289 | illustrated | 5290 | invented | 5291 | jake | 5292 | jam |
-| 5293 | jamie | 5294 | jessica | 5295 | keith | 5296 | kent |
-| 5297 | layers | 5298 | lease | 5299 | lens | 5300 | licensed |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5201 | strangers | 陌生人 |
+| 5202 | succeeded | 成功了 |
+| 5203 | sweat | 汗水 |
+| 5204 | switched | 切换 |
+| 5205 | tattoo | 纹身 |
+| 5206 | teenage | 十几岁的 |
+| 5207 | thunder | 雷声 |
+| 5208 | tours | 旅游 |
+| 5209 | tragedy | 悲剧 |
+| 5210 | trauma | 外伤 |
+| 5211 | wrestling | 摔跤 |
+| 5212 | zoo | 动物园 |
+| 5213 | accordance | 符合 |
+| 5214 | acquire | 获得 |
+| 5215 | activist | 积极分子 |
+| 5216 | activists | 积极分子 |
+| 5217 | addresses | 地址 |
+| 5218 | alike | 一样 |
+| 5219 | applicable | 适用 |
+| 5220 | arrow | 箭头 |
+| 5221 | availability | 可用性 |
+| 5222 | aw | 噢 |
+| 5223 | ba | 巴 |
+| 5224 | bend | 弯曲 |
+| 5225 | boundary | 边界 |
+| 5226 | breach | 违反 |
+| 5227 | cabin | 小屋 |
+| 5228 | cage | 笼子 |
+| 5229 | chancellor | 校长 |
+| 5230 | cheers | 干杯 |
+| 5231 | circles | 圈子 |
+| 5232 | closet | 壁橱 |
+| 5233 | combine | 联合起来 |
+| 5234 | companion | 同伴 |
+| 5235 | comparing | 比较 |
+| 5236 | consciousness | 意识 |
+| 5237 | consultant | 顾问 |
+| 5238 | controller | 控制器 |
+| 5239 | corresponding | 相应的 |
+| 5240 | courtesy | 礼貌 |
+| 5241 | damages | 损害赔偿 |
+| 5242 | demanding | 要求严格 |
+| 5243 | disc | 光盘 |
+| 5244 | dishes | 菜肴 |
+| 5245 | dozens | 几十个 |
+| 5246 | eagle | 鹰 |
+| 5247 | eaten | 吃过 |
+| 5248 | embassy | 大使馆 |
+| 5249 | engaging | 吸引人的 |
+| 5250 | fascinating | 迷人的 |
+| 5251 | financing | 融资 |
+| 5252 | fitted | 已安装 |
+| 5253 | flexible | 灵活 |
+| 5254 | gaining | 获得 |
+| 5255 | gentlemen | 先生们 |
+| 5256 | goodness | 善良 |
+| 5257 | guilt | 内疚 |
+| 5258 | haven | 避风港 |
+| 5259 | helicopter | 直升机 |
+| 5260 | homework | 作业 |
+| 5261 | households | 家庭 |
+| 5262 | hp | 马力 |
+| 5263 | iconic | 标志性的 |
+| 5264 | infected | 感染的 |
+| 5265 | keen | 热衷 |
+| 5266 | lesser | 较小的 |
+| 5267 | liberals | 自由主义者 |
+| 5268 | lip | 嘴唇 |
+| 5269 | mandatory | 强制性的 |
+| 5270 | manufactured | 制造的 |
+| 5271 | mechanics | 力学 |
+| 5272 | mere | 仅仅 |
+| 5273 | miracle | 奇迹 |
+| 5274 | mud | 泥 |
+| 5275 | observation | 观察 |
+| 5276 | operates | 运作 |
+| 5277 | owe | 欠 |
+| 5278 | permitted | 允许的 |
+| 5279 | phenomenon | 现象 |
+| 5280 | pittsburgh | 匹兹堡 |
+| 5281 | playoff | 季后赛 |
+| 5282 | precise | 精确的 |
+| 5283 | profession | 职业 |
+| 5284 | prospect | 前景 |
+| 5285 | protective | 保护性的 |
+| 5286 | providers | 提供者 |
+| 5287 | publisher | 出版商 |
+| 5288 | reportedly | 据报道 |
+| 5289 | retreat | 撤退 |
+| 5290 | rookie | 新秀 |
+| 5291 | sandwich | 三明治 |
+| 5292 | seeks | 寻求 |
+| 5293 | sentences | 句子 |
+| 5294 | separation | 分离 |
+| 5295 | sexually | 性方面的 |
+| 5296 | ski | 滑雪 |
+| 5297 | skilled | 熟练的 |
+| 5298 | sterling | 英镑 |
+| 5299 | surgeon | 外科医生 |
+| 5300 | theft | 盗窃 |
 
 ### 5301～5400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5301 | loyalty | 5302 | madison | 5303 | magnetic | 5304 | metres |
-| 5305 | monsters | 5306 | mysterious | 5307 | notion | 5308 | partial |
-| 5309 | piss | 5310 | placing | 5311 | propaganda | 5312 | rat |
-| 5313 | reflection | 5314 | reminded | 5315 | resolve | 5316 | revolutionary |
-| 5317 | scandal | 5318 | shine | 5319 | si | 5320 | simultaneously |
-| 5321 | substitute | 5322 | surveillance | 5323 | tactics | 5324 | testimony |
-| 5325 | thai | 5326 | treasure | 5327 | trophy | 5328 | tweet |
-| 5329 | tyler | 5330 | underlying | 5331 | unfair | 5332 | villages |
-| 5333 | von | 5334 | wa | 5335 | acceptance | 5336 | accidents |
-| 5337 | affects | 5338 | annually | 5339 | apologize | 5340 | appreciated |
-| 5341 | approached | 5342 | arriving | 5343 | ash | 5344 | aunt |
-| 5345 | benjamin | 5346 | blake | 5347 | bubble | 5348 | buyers |
-| 5349 | casino | 5350 | charts | 5351 | clouds | 5352 | connecting |
-| 5353 | counsel | 5354 | creature | 5355 | deadly | 5356 | decides |
-| 5357 | der | 5358 | desired | 5359 | determination | 5360 | embrace |
-| 5361 | emerged | 5362 | exhibit | 5363 | flew | 5364 | gentleman |
-| 5365 | gm | 5366 | halloween | 5367 | hammer | 5368 | hitler |
-| 5369 | hosting | 5370 | icon | 5371 | imposed | 5372 | indigenous |
-| 5373 | infinite | 5374 | installation | 5375 | inter | 5376 | interactions |
-| 5377 | introducing | 5378 | iranian | 5379 | kicking | 5380 | laying |
-| 5381 | legislature | 5382 | liability | 5383 | maine | 5384 | makers |
-| 5385 | manhattan | 5386 | marathon | 5387 | marvel | 5388 | michelle |
-| 5389 | moreover | 5390 | mps | 5391 | neil | 5392 | organisations |
-| 5393 | ours | 5394 | parade | 5395 | paradise | 5396 | perceived |
-| 5397 | pics | 5398 | planes | 5399 | politician | 5400 | preliminary |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5301 | um | 嗯 |
+| 5302 | understands | 明白 |
+| 5303 | valve | 阀门 |
+| 5304 | visa | 签证 |
+| 5305 | washing | 洗涤 |
+| 5306 | adjacent | 相邻的 |
+| 5307 | agreements | 协议 |
+| 5308 | appreciation | 鉴赏 |
+| 5309 | arabia | 阿拉伯 |
+| 5310 | athletic | 运动的 |
+| 5311 | authorized | 授权的 |
+| 5312 | banner | 横幅 |
+| 5313 | blew | 吹了 |
+| 5314 | blocking | 阻塞 |
+| 5315 | caribbean | 加勒比海 |
+| 5316 | charm | 魅力 |
+| 5317 | chasing | 追逐 |
+| 5318 | climbing | 攀登 |
+| 5319 | complaining | 抱怨 |
+| 5320 | cookies | 饼干 |
+| 5321 | cruel | 残酷的 |
+| 5322 | curriculum | 课程 |
+| 5323 | deadline | 截止日期 |
+| 5324 | deer | 鹿 |
+| 5325 | delta | 三角洲 |
+| 5326 | demanded | 要求的 |
+| 5327 | dive | 潜水 |
+| 5328 | divide | 划分 |
+| 5329 | easter | 复活节 |
+| 5330 | electoral | 选举的 |
+| 5331 | eleven | 十一 |
+| 5332 | entity | 实体 |
+| 5333 | excessive | 过度 |
+| 5334 | exercises | 练习 |
+| 5335 | feminist | 女权主义者 |
+| 5336 | governing | 治理 |
+| 5337 | ham | 火腿 |
+| 5338 | heal | 治愈 |
+| 5339 | interface | 接口 |
+| 5340 | ios | IOS |
+| 5341 | jewelry | 珠宝 |
+| 5342 | journalism | 新闻学 |
+| 5343 | jungle | 丛林 |
+| 5344 | linear | 线性 |
+| 5345 | occasional | 偶尔的 |
+| 5346 | oriented | 导向的 |
+| 5347 | pilots | 飞行员 |
+| 5348 | prayers | 祈祷 |
+| 5349 | predicted | 预测的 |
+| 5350 | pressed | 按下 |
+| 5351 | preventing | 预防 |
+| 5352 | prof | 教授 |
+| 5353 | provisions | 规定 |
+| 5354 | pursuit | 追求 |
+| 5355 | rap | 说唱 |
+| 5356 | reflected | 反映 |
+| 5357 | reminder | 提醒 |
+| 5358 | restored | 恢复了 |
+| 5359 | resume | 简历 |
+| 5360 | rev | 转速 |
+| 5361 | richmond | 里士满 |
+| 5362 | ridge | 山脊 |
+| 5363 | scholars | 学者 |
+| 5364 | sealed | 密封的 |
+| 5365 | sounded | 响起 |
+| 5366 | sri | 斯里 |
+| 5367 | streams | 溪流 |
+| 5368 | strongest | 最强 |
+| 5369 | tends | 趋于 |
+| 5370 | tribe | 部落 |
+| 5371 | unfortunate | 不幸的 |
+| 5372 | variable | 变量 |
+| 5373 | victorian | 维多利亚时代的 |
+| 5374 | worrying | 令人担忧 |
+| 5375 | zones | 区域 |
+| 5376 | ace | 王牌 |
+| 5377 | adjusted | 调整过的 |
+| 5378 | alternate | 替补 |
+| 5379 | arrives | 到达 |
+| 5380 | artwork | 艺术品 |
+| 5381 | ashley | 阿什利 |
+| 5382 | athlete | 运动员 |
+| 5383 | attraction | 景点 |
+| 5384 | babe | 宝贝 |
+| 5385 | bankruptcy | 破产 |
+| 5386 | canon | 佳能 |
+| 5387 | capabilities | 能力 |
+| 5388 | cared | 关心 |
+| 5389 | chains | 链条 |
+| 5390 | closure | 关闭 |
+| 5391 | cognitive | 认知的 |
+| 5392 | competitors | 竞争对手 |
+| 5393 | connecticut | 康涅狄格州 |
+| 5394 | convert | 转换 |
+| 5395 | cooked | 煮熟的 |
+| 5396 | cups | 杯子 |
+| 5397 | deciding | 决定 |
+| 5398 | defender | 后卫 |
+| 5399 | dental | 牙科 |
+| 5400 | diplomatic | 外交的 |
 
 ### 5401～5500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5401 | premiere | 5402 | presidency | 5403 | reaches | 5404 | react |
-| 5405 | realistic | 5406 | remarks | 5407 | retain | 5408 | roberts |
-| 5409 | rocky | 5410 | russians | 5411 | saints | 5412 | satisfaction |
-| 5413 | scratch | 5414 | shade | 5415 | sheets | 5416 | sheriff |
-| 5417 | shy | 5418 | sometime | 5419 | spirits | 5420 | sporting |
-| 5421 | strictly | 5422 | sunshine | 5423 | teens | 5424 | thou |
-| 5425 | tier | 5426 | tommy | 5427 | travelling | 5428 | vancouver |
-| 5429 | vocal | 5430 | warrior | 5431 | worries | 5432 | yield |
-| 5433 | accomplished | 5434 | admission | 5435 | adventures | 5436 | aka |
-| 5437 | appearing | 5438 | bacon | 5439 | barrier | 5440 | belgium |
-| 5441 | believing | 5442 | blacks | 5443 | bombs | 5444 | burst |
-| 5445 | caps | 5446 | casting | 5447 | cattle | 5448 | cc |
-| 5449 | classroom | 5450 | collins | 5451 | colours | 5452 | compromise |
-| 5453 | convenient | 5454 | costa | 5455 | criminals | 5456 | crop |
-| 5457 | earthquake | 5458 | elderly | 5459 | eliminate | 5460 | embarrassing |
-| 5461 | farmer | 5462 | finest | 5463 | grants | 5464 | harbor |
-| 5465 | harvey | 5466 | hates | 5467 | incidents | 5468 | inform |
-| 5469 | ion | 5470 | jeremy | 5471 | lesbian | 5472 | lovers |
-| 5473 | lt | 5474 | mathematics | 5475 | medication | 5476 | minded |
-| 5477 | morris | 5478 | norway | 5479 | par | 5480 | podcast |
-| 5481 | portfolio | 5482 | productivity | 5483 | promoted | 5484 | protocol |
-| 5485 | quietly | 5486 | rachel | 5487 | replacing | 5488 | responsibilities |
-| 5489 | salad | 5490 | scholarship | 5491 | screening | 5492 | sends |
-| 5493 | smiling | 5494 | soup | 5495 | southeast | 5496 | stake |
-| 5497 | stating | 5498 | strain | 5499 | suspected | 5500 | swift |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5401 | divisions | 部门 |
+| 5402 | drum | 鼓 |
+| 5403 | editorial | 社论 |
+| 5404 | enabled | 已启用 |
+| 5405 | entertaining | 有趣的 |
+| 5406 | est | 东部时间 |
+| 5407 | establishing | 建立 |
+| 5408 | eternal | 永恒的 |
+| 5409 | freeze | 冻结 |
+| 5410 | generic | 通用的 |
+| 5411 | grandma | 奶奶 |
+| 5412 | grip | 握力 |
+| 5413 | handful | 少数 |
+| 5414 | happily | 高兴地 |
+| 5415 | harmony | 和谐 |
+| 5416 | humble | 谦虚的 |
+| 5417 | hurting | 伤害 |
+| 5418 | hybrid | 混合动力 |
+| 5419 | intentions | 意图 |
+| 5420 | investing | 投资 |
+| 5421 | keyboard | 键盘 |
+| 5422 | lasting | 持久的 |
+| 5423 | locally | 本地 |
+| 5424 | loses | 失去 |
+| 5425 | mild | 温和的 |
+| 5426 | minimal | 最小的 |
+| 5427 | mixing | 混合 |
+| 5428 | molecular | 分子的 |
+| 5429 | nearest | 最近的 |
+| 5430 | neighbor | 邻居 |
+| 5431 | noon | 中午 |
+| 5432 | nowadays | 如今 |
+| 5433 | openly | 公开地 |
+| 5434 | overview | 概述 |
+| 5435 | pairs | 对 |
+| 5436 | palestinian | 巴勒斯坦人 |
+| 5437 | parish | 教区 |
+| 5438 | pathetic | 可悲的 |
+| 5439 | poems | 诗 |
+| 5440 | possibilities | 可能性 |
+| 5441 | potato | 马铃薯 |
+| 5442 | potter | 波特 |
+| 5443 | preference | 偏好 |
+| 5444 | promising | 有前途的 |
+| 5445 | proportion | 比例 |
+| 5446 | purchases | 购买 |
+| 5447 | rage | 愤怒 |
+| 5448 | rd | RD |
+| 5449 | reflects | 反映 |
+| 5450 | respected | 受人尊敬 |
+| 5451 | restoration | 恢复 |
+| 5452 | selfish | 自私的 |
+| 5453 | sergeant | 中士 |
+| 5454 | silk | 丝绸 |
+| 5455 | stamp | 邮票 |
+| 5456 | thy | 你的 |
+| 5457 | urge | 敦促 |
+| 5458 | voter | 选民 |
+| 5459 | warner | 华纳 |
+| 5460 | wasting | 浪费 |
+| 5461 | witch | 女巫 |
+| 5462 | advantages | 优点 |
+| 5463 | ally | 盟友 |
+| 5464 | archives | 档案馆 |
+| 5465 | array | 数组 |
+| 5466 | assisted | 协助的 |
+| 5467 | backs | 背 |
+| 5468 | belly | 肚子 |
+| 5469 | booth | 摊位 |
+| 5470 | breakdown | 故障 |
+| 5471 | bridges | 桥梁 |
+| 5472 | brutal | 残酷的 |
+| 5473 | calculated | 计算出的 |
+| 5474 | cam | 凸轮 |
+| 5475 | centres | 中心 |
+| 5476 | chapters | 章节 |
+| 5477 | citizenship | 公民身份 |
+| 5478 | civilians | 平民 |
+| 5479 | cliff | 悬崖 |
+| 5480 | conflicts | 冲突 |
+| 5481 | consensus | 共识 |
+| 5482 | cycling | 骑自行车 |
+| 5483 | declaration | 声明 |
+| 5484 | derby | 德比 |
+| 5485 | distinction | 区别 |
+| 5486 | donations | 捐款 |
+| 5487 | dragons | 龙 |
+| 5488 | draws | 画 |
+| 5489 | examined | 检查过 |
+| 5490 | facial | 面部 |
+| 5491 | faithful | 忠实的 |
+| 5492 | fatal | 致命的 |
+| 5493 | fig | 无花果 |
+| 5494 | fitting | 装修 |
+| 5495 | genuinely | 真诚地 |
+| 5496 | hardest | 最难的 |
+| 5497 | holland | 荷兰 |
+| 5498 | honored | 荣幸的 |
+| 5499 | hunger | 饥饿 |
+| 5500 | hurricane | 飓风 |
 
 ### 5501～5600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5501 | tackle | 5502 | tigers | 5503 | timeline | 5504 | torture |
-| 5505 | traded | 5506 | translated | 5507 | tricks | 5508 | twins |
-| 5509 | urgent | 5510 | vegetables | 5511 | vertical | 5512 | violation |
-| 5513 | wallet | 5514 | welsh | 5515 | workshop | 5516 | wrapped |
-| 5517 | aboard | 5518 | abstract | 5519 | accent | 5520 | addiction |
-| 5521 | associates | 5522 | awake | 5523 | beam | 5524 | beans |
-| 5525 | binding | 5526 | blank | 5527 | buffalo | 5528 | cbs |
-| 5529 | commons | 5530 | conservatives | 5531 | contacts | 5532 | conviction |
-| 5533 | corrupt | 5534 | cow | 5535 | curve | 5536 | depressed |
-| 5537 | deserved | 5538 | dining | 5539 | disorders | 5540 | duration |
-| 5541 | eddie | 5542 | emily | 5543 | encouraging | 5544 | farms |
-| 5545 | fifteen | 5546 | flows | 5547 | ga | 5548 | genes |
-| 5549 | graduated | 5550 | grandmother | 5551 | harsh | 5552 | heights |
-| 5553 | horn | 5554 | hurry | 5555 | immune | 5556 | inflation |
-| 5557 | ingredients | 5558 | inspection | 5559 | install | 5560 | instruction |
-| 5561 | intensity | 5562 | inventory | 5563 | investigated | 5564 | invitation |
-| 5565 | judicial | 5566 | justify | 5567 | kyle | 5568 | lakes |
-| 5569 | lean | 5570 | lecture | 5571 | libraries | 5572 | logical |
-| 5573 | mason | 5574 | meaningful | 5575 | migration | 5576 | missile |
-| 5577 | motivated | 5578 | muscles | 5579 | nancy | 5580 | norman |
-| 5581 | northwest | 5582 | nurses | 5583 | organ | 5584 | patrol |
-| 5585 | pearl | 5586 | peer | 5587 | pepper | 5588 | pig |
-| 5589 | pile | 5590 | plug | 5591 | provision | 5592 | releasing |
-| 5593 | requiring | 5594 | revised | 5595 | rod | 5596 | scream |
-| 5597 | stairs | 5598 | staring | 5599 | statistical | 5600 | sticks |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5501 | implications | 影响 |
+| 5502 | import | 进口 |
+| 5503 | innovative | 创新的 |
+| 5504 | jurisdiction | 管辖权 |
+| 5505 | laughter | 笑声 |
+| 5506 | lemon | 柠檬 |
+| 5507 | les | 莱斯 |
+| 5508 | lifted | 举起 |
+| 5509 | loading | 加载中 |
+| 5510 | lung | 肺 |
+| 5511 | matching | 匹配 |
+| 5512 | mighty | 强大的 |
+| 5513 | monetary | 货币的 |
+| 5514 | novels | 小说 |
+| 5515 | nutrition | 营养 |
+| 5516 | ore | 矿石 |
+| 5517 | os | 操作系统 |
+| 5518 | outcomes | 结果 |
+| 5519 | pine | 松树 |
+| 5520 | polls | 民意调查 |
+| 5521 | poorly | 不好地 |
+| 5522 | pose | 姿势 |
+| 5523 | pour | 倒 |
+| 5524 | proteins | 蛋白质 |
+| 5525 | provider | 提供者 |
+| 5526 | publish | 发布 |
+| 5527 | purely | 纯粹地 |
+| 5528 | rental | 出租 |
+| 5529 | resolved | 已解决 |
+| 5530 | rewards | 奖励 |
+| 5531 | sang | 桑 |
+| 5532 | seemingly | 貌似 |
+| 5533 | senators | 参议员 |
+| 5534 | severely | 严重地 |
+| 5535 | shark | 鲨鱼 |
+| 5536 | shocking | 令人震惊的 |
+| 5537 | southwest | 西南 |
+| 5538 | ss | SS |
+| 5539 | studios | 工作室 |
+| 5540 | survivors | 幸存者 |
+| 5541 | tales | 故事 |
+| 5542 | technically | 技术上 |
+| 5543 | titled | 标题为 |
+| 5544 | traditions | 传统 |
+| 5545 | unlimited | 无限 |
+| 5546 | washed | 洗过的 |
+| 5547 | watches | 手表 |
+| 5548 | advise | 建议 |
+| 5549 | anxious | 着急的 |
+| 5550 | appearances | 外表 |
+| 5551 | bee | 蜜蜂 |
+| 5552 | bombing | 轰炸 |
+| 5553 | cafe | 咖啡馆 |
+| 5554 | carlos | 卡洛斯 |
+| 5555 | challenged | 受到挑战 |
+| 5556 | cigarettes | 香烟 |
+| 5557 | consisting | 组成 |
+| 5558 | cult | 邪教 |
+| 5559 | dairy | 乳制品 |
+| 5560 | dakota | 达科他州 |
+| 5561 | darling | 亲爱的 |
+| 5562 | delighted | 高兴 |
+| 5563 | delivering | 交付 |
+| 5564 | destroying | 破坏 |
+| 5565 | diary | 日记 |
+| 5566 | disagree | 不同意 |
+| 5567 | disappear | 消失 |
+| 5568 | drill | 钻 |
+| 5569 | earliest | 最早的 |
+| 5570 | edges | 边缘 |
+| 5571 | entries | 条目 |
+| 5572 | euro | 欧元 |
+| 5573 | evolved | 进化的 |
+| 5574 | exports | 出口 |
+| 5575 | fixing | 固定 |
+| 5576 | flags | 旗帜 |
+| 5577 | flies | 苍蝇 |
+| 5578 | forecast | 预测 |
+| 5579 | fr | FR |
+| 5580 | governance | 治理 |
+| 5581 | heated | 加热的 |
+| 5582 | hug | 拥抱 |
+| 5583 | importantly | 重要的是 |
+| 5584 | indicating | 表明 |
+| 5585 | indoor | 室内 |
+| 5586 | influential | 有影响力的 |
+| 5587 | intend | 打算 |
+| 5588 | invisible | 看不见的 |
+| 5589 | jeans | 牛仔裤 |
+| 5590 | jets | 喷气式飞机 |
+| 5591 | julie | 朱莉 |
+| 5592 | lasted | 持续 |
+| 5593 | lawsuit | 诉讼 |
+| 5594 | leak | 泄漏 |
+| 5595 | lighter | 打火机 |
+| 5596 | lucas | 卢卡斯 |
+| 5597 | mentions | 提及 |
+| 5598 | meter | 米 |
+| 5599 | mice | 老鼠 |
+| 5600 | musicians | 音乐家 |
 
 ### 5601～5700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5601 | strangers | 5602 | succeeded | 5603 | sweat | 5604 | switched |
-| 5605 | syrian | 5606 | tattoo | 5607 | teenage | 5608 | thunder |
-| 5609 | tours | 5610 | tragedy | 5611 | trauma | 5612 | vincent |
-| 5613 | wrestling | 5614 | zoo | 5615 | accordance | 5616 | acquire |
-| 5617 | activist | 5618 | activists | 5619 | addresses | 5620 | alike |
-| 5621 | applicable | 5622 | arrow | 5623 | availability | 5624 | aw |
-| 5625 | ba | 5626 | bend | 5627 | boundary | 5628 | breach |
-| 5629 | cabin | 5630 | cage | 5631 | chancellor | 5632 | cheers |
-| 5633 | circles | 5634 | closet | 5635 | combine | 5636 | companion |
-| 5637 | comparing | 5638 | consciousness | 5639 | consultant | 5640 | controller |
-| 5641 | corresponding | 5642 | courtesy | 5643 | cuba | 5644 | damages |
-| 5645 | demanding | 5646 | disc | 5647 | dishes | 5648 | dozens |
-| 5649 | eagle | 5650 | eaten | 5651 | embassy | 5652 | engaging |
-| 5653 | fascinating | 5654 | financing | 5655 | fitted | 5656 | flexible |
-| 5657 | gaining | 5658 | gentlemen | 5659 | goodness | 5660 | guilt |
-| 5661 | haven | 5662 | helicopter | 5663 | homework | 5664 | households |
-| 5665 | hp | 5666 | iconic | 5667 | infected | 5668 | keen |
-| 5669 | kenya | 5670 | lesser | 5671 | liberals | 5672 | lip |
-| 5673 | mandatory | 5674 | manufactured | 5675 | mechanics | 5676 | mere |
-| 5677 | miracle | 5678 | mt | 5679 | mud | 5680 | murphy |
-| 5681 | nathan | 5682 | observation | 5683 | operates | 5684 | owe |
-| 5685 | permitted | 5686 | phenomenon | 5687 | pittsburgh | 5688 | playoff |
-| 5689 | precise | 5690 | profession | 5691 | prospect | 5692 | protective |
-| 5693 | providers | 5694 | publisher | 5695 | putin | 5696 | reportedly |
-| 5697 | retreat | 5698 | rookie | 5699 | sandwich | 5700 | seeks |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5601 | olive | 橄榄 |
+| 5602 | passionate | 热情的 |
+| 5603 | potatoes | 土豆 |
+| 5604 | prevented | 阻止 |
+| 5605 | receiver | 接收器 |
+| 5606 | recommendation | 推荐 |
+| 5607 | riot | 骚乱 |
+| 5608 | roster | 花名册 |
+| 5609 | safer | 更安全 |
+| 5610 | sells | 卖 |
+| 5611 | sentenced | 被判刑 |
+| 5612 | servant | 仆人 |
+| 5613 | setup | 设置 |
+| 5614 | skull | 头骨 |
+| 5615 | slot | 插槽 |
+| 5616 | smash | 粉碎 |
+| 5617 | statue | 雕像 |
+| 5618 | surprisingly | 令人惊讶地 |
+| 5619 | surrender | 投降 |
+| 5620 | suspicious | 可疑的 |
+| 5621 | teenager | 青少年 |
+| 5622 | tender | 招标 |
+| 5623 | thoroughly | 彻底地 |
+| 5624 | treatments | 治疗 |
+| 5625 | tweeted | 发推文 |
+| 5626 | vacuum | 真空 |
+| 5627 | variations | 变化 |
+| 5628 | wont | 不会 |
+| 5629 | acknowledged | 承认 |
+| 5630 | advances | 进步 |
+| 5631 | agrees | 同意 |
+| 5632 | allegations | 指控 |
+| 5633 | anticipated | 预期的 |
+| 5634 | approve | 批准 |
+| 5635 | architect | 建筑师 |
+| 5636 | basin | 盆地 |
+| 5637 | beneficial | 有益的 |
+| 5638 | bleeding | 出血 |
+| 5639 | breed | 品种 |
+| 5640 | breeding | 育种 |
+| 5641 | bride | 新娘 |
+| 5642 | broadway | 百老汇 |
+| 5643 | bud | 芽 |
+| 5644 | butler | 管家 |
+| 5645 | careers | 职业生涯 |
+| 5646 | cartoon | 卡通 |
+| 5647 | celebrities | 名人 |
+| 5648 | chick | 小鸡 |
+| 5649 | coke | 可乐 |
+| 5650 | comparable | 可比的 |
+| 5651 | confirmation | 确认 |
+| 5652 | console | 控制台 |
+| 5653 | contractor | 承包商 |
+| 5654 | contributing | 贡献 |
+| 5655 | diameter | 直径 |
+| 5656 | dump | 转储 |
+| 5657 | duo | 二人组 |
+| 5658 | dynamics | 动力学 |
+| 5659 | elephant | 大象 |
+| 5660 | enhanced | 增强型 |
+| 5661 | essays | 论文 |
+| 5662 | exhausted | 筋疲力尽 |
+| 5663 | fabric | 布料 |
+| 5664 | fabulous | 神话般的 |
+| 5665 | fairy | 仙女 |
+| 5666 | fathers | 父亲们 |
+| 5667 | focuses | 焦点 |
+| 5668 | fold | 折叠 |
+| 5669 | freak | 怪物 |
+| 5670 | frustrated | 沮丧 |
+| 5671 | gambling | 赌博 |
+| 5672 | gently | 轻轻地 |
+| 5673 | glorious | 光荣的 |
+| 5674 | grief | 悲伤 |
+| 5675 | historically | 历史地 |
+| 5676 | hub | 枢纽 |
+| 5677 | inevitable | 不可避免的 |
+| 5678 | investigating | 调查 |
+| 5679 | kg | 千克 |
+| 5680 | labels | 标签 |
+| 5681 | lacking | 缺乏 |
+| 5682 | laughs | 笑 |
+| 5683 | layout | 布局 |
+| 5684 | lined | 衬里 |
+| 5685 | lodge | 小屋 |
+| 5686 | lords | 领主 |
+| 5687 | merchant | 商人 |
+| 5688 | merit | 优点 |
+| 5689 | micro | 微 |
+| 5690 | myth | 神话 |
+| 5691 | objectives | 目标 |
+| 5692 | obsessed | 着迷的 |
+| 5693 | organised | 有组织的 |
+| 5694 | overwhelming | 压倒性的 |
+| 5695 | pale | 苍白 |
+| 5696 | particles | 颗粒 |
+| 5697 | pastor | 牧师 |
+| 5698 | penalties | 处罚 |
+| 5699 | permanently | 永久地 |
+| 5700 | pets | 宠物 |
 
 ### 5701～5800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5701 | sentences | 5702 | separation | 5703 | sexually | 5704 | ski |
-| 5705 | skilled | 5706 | sterling | 5707 | stuart | 5708 | surgeon |
-| 5709 | theft | 5710 | um | 5711 | understands | 5712 | valve |
-| 5713 | visa | 5714 | washing | 5715 | adjacent | 5716 | agreements |
-| 5717 | appreciation | 5718 | arabia | 5719 | athletic | 5720 | authorized |
-| 5721 | banner | 5722 | beijing | 5723 | blew | 5724 | blocking |
-| 5725 | brad | 5726 | caribbean | 5727 | charm | 5728 | chasing |
-| 5729 | climbing | 5730 | colony | 5731 | complaining | 5732 | cookies |
-| 5733 | cruel | 5734 | curriculum | 5735 | deadline | 5736 | deer |
-| 5737 | delta | 5738 | demanded | 5739 | dive | 5740 | divide |
-| 5741 | easter | 5742 | electoral | 5743 | eleven | 5744 | entity |
-| 5745 | excessive | 5746 | exercises | 5747 | feminist | 5748 | governing |
-| 5749 | ham | 5750 | heal | 5751 | interface | 5752 | ios |
-| 5753 | jewelry | 5754 | journalism | 5755 | juan | 5756 | julia |
-| 5757 | jungle | 5758 | linear | 5759 | mg | 5760 | occasional |
-| 5761 | oriented | 5762 | pete | 5763 | pilots | 5764 | prayers |
-| 5765 | predicted | 5766 | pressed | 5767 | preventing | 5768 | prof |
-| 5769 | provisions | 5770 | pursuit | 5771 | rap | 5772 | reflected |
-| 5773 | reminder | 5774 | restored | 5775 | resume | 5776 | rev |
-| 5777 | richmond | 5778 | ridge | 5779 | samsung | 5780 | scholars |
-| 5781 | sealed | 5782 | sounded | 5783 | sri | 5784 | streams |
-| 5785 | strongest | 5786 | tends | 5787 | tribe | 5788 | unfortunate |
-| 5789 | variable | 5790 | victorian | 5791 | worrying | 5792 | xi |
-| 5793 | zones | 5794 | ace | 5795 | adjusted | 5796 | alternate |
-| 5797 | arrives | 5798 | artwork | 5799 | ashley | 5800 | athlete |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5701 | pockets | 口袋 |
+| 5702 | poison | 毒药 |
+| 5703 | predict | 预测 |
+| 5704 | presenting | 呈现 |
+| 5705 | presidents | 总统 |
+| 5706 | pressing | 压 |
+| 5707 | prints | 版画 |
+| 5708 | provincial | 省级 |
+| 5709 | realised | 实现了 |
+| 5710 | rebel | 叛逆者 |
+| 5711 | repairs | 修理 |
+| 5712 | rotation | 旋转 |
+| 5713 | separately | 分别 |
+| 5714 | shaking | 摇晃 |
+| 5715 | shaw | 肖 |
+| 5716 | societies | 社团 |
+| 5717 | solved | 解决了 |
+| 5718 | starring | 主演 |
+| 5719 | struggles | 挣扎 |
+| 5720 | subtle | 微妙的 |
+| 5721 | tastes | 口味 |
+| 5722 | throws | 投掷 |
+| 5723 | toll | 通行费 |
+| 5724 | tooth | 牙齿 |
+| 5725 | torn | 撕裂 |
+| 5726 | tragic | 悲惨的 |
+| 5727 | trainer | 教练员 |
+| 5728 | transformed | 转变的 |
+| 5729 | unbelievable | 难以置信 |
+| 5730 | underneath | 在下面 |
+| 5731 | variation | 变异 |
+| 5732 | viewing | 观看 |
+| 5733 | viral | 病毒式的 |
+| 5734 | warehouse | 仓库 |
+| 5735 | wears | 穿着 |
+| 5736 | widow | 寡妇 |
+| 5737 | wives | 妻子们 |
+| 5738 | adjust | 调整 |
+| 5739 | administrator | 管理员 |
+| 5740 | affecting | 影响 |
+| 5741 | allied | 结盟的 |
+| 5742 | altogether | 总共 |
+| 5743 | animated | 动画 |
+| 5744 | answering | 回答 |
+| 5745 | assess | 评估 |
+| 5746 | assumption | 假设 |
+| 5747 | assured | 放心 |
+| 5748 | avoided | 避免的 |
+| 5749 | avoiding | 回避 |
+| 5750 | basket | 篮子 |
+| 5751 | beard | 胡须 |
+| 5752 | bio | 生物 |
+| 5753 | blanket | 毯子 |
+| 5754 | brains | 大脑 |
+| 5755 | bucket | 桶 |
+| 5756 | burger | 汉堡 |
+| 5757 | capability | 能力 |
+| 5758 | charming | 迷人的 |
+| 5759 | chiefs | 酋长 |
+| 5760 | commented | 评论了 |
+| 5761 | computing | 计算 |
+| 5762 | concentrate | 集中 |
+| 5763 | conducting | 进行 |
+| 5764 | consequence | 后果 |
+| 5765 | continent | 大陆 |
+| 5766 | cookie | 饼干 |
+| 5767 | curse | 诅咒 |
+| 5768 | displays | 显示 |
+| 5769 | drain | 排水管 |
+| 5770 | emissions | 排放量 |
+| 5771 | ethical | 道德的 |
+| 5772 | excellence | 卓越 |
+| 5773 | flame | 火焰 |
+| 5774 | forests | 森林 |
+| 5775 | freely | 自由地 |
+| 5776 | fruits | 水果 |
+| 5777 | grabbed | 抓住了 |
+| 5778 | graduation | 毕业 |
+| 5779 | hint | 提示 |
+| 5780 | horizon | 地平线 |
+| 5781 | hostile | 敌对的 |
+| 5782 | imagined | 想象的 |
+| 5783 | inhabitants | 居民 |
+| 5784 | ink | 墨水 |
+| 5785 | inn | 客栈 |
+| 5786 | intel | 英特尔 |
+| 5787 | kicks | 踢 |
+| 5788 | legends | 传说 |
+| 5789 | lo | 罗 |
+| 5790 | magazines | 杂志 |
+| 5791 | matrix | 矩阵 |
+| 5792 | measuring | 测量 |
+| 5793 | miserable | 悲惨的 |
+| 5794 | momentum | 动量 |
+| 5795 | monkey | 猴子 |
+| 5796 | montreal | 蒙特利尔 |
+| 5797 | motorcycle | 摩托车 |
+| 5798 | nationwide | 全国 |
+| 5799 | nest | 巢 |
+| 5800 | newcastle | 纽卡斯尔 |
 
 ### 5801～5900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5801 | attraction | 5802 | babe | 5803 | bankruptcy | 5804 | canon |
-| 5805 | capabilities | 5806 | cared | 5807 | catherine | 5808 | chains |
-| 5809 | closure | 5810 | cognitive | 5811 | competitors | 5812 | connecticut |
-| 5813 | convert | 5814 | cooked | 5815 | ct | 5816 | cups |
-| 5817 | deciding | 5818 | defender | 5819 | dental | 5820 | diplomatic |
-| 5821 | divisions | 5822 | drum | 5823 | editorial | 5824 | enabled |
-| 5825 | entertaining | 5826 | est | 5827 | establishing | 5828 | eternal |
-| 5829 | freeze | 5830 | generic | 5831 | grandma | 5832 | grip |
-| 5833 | handful | 5834 | happily | 5835 | harmony | 5836 | hmm |
-| 5837 | humble | 5838 | hurting | 5839 | hybrid | 5840 | intentions |
-| 5841 | investing | 5842 | keyboard | 5843 | lasting | 5844 | locally |
-| 5845 | loses | 5846 | mild | 5847 | minimal | 5848 | mixing |
-| 5849 | molecular | 5850 | nearest | 5851 | neighbor | 5852 | noon |
-| 5853 | nowadays | 5854 | openly | 5855 | overview | 5856 | pairs |
-| 5857 | palestinian | 5858 | parish | 5859 | pathetic | 5860 | poems |
-| 5861 | possibilities | 5862 | potato | 5863 | potter | 5864 | preference |
-| 5865 | promising | 5866 | proportion | 5867 | purchases | 5868 | rage |
-| 5869 | rd | 5870 | reflects | 5871 | respected | 5872 | restoration |
-| 5873 | selfish | 5874 | sergeant | 5875 | silk | 5876 | stamp |
-| 5877 | throne | 5878 | thy | 5879 | urge | 5880 | voter |
-| 5881 | warner | 5882 | wasting | 5883 | witch | 5884 | advantages |
-| 5885 | ally | 5886 | archives | 5887 | array | 5888 | assisted |
-| 5889 | backs | 5890 | belly | 5891 | booth | 5892 | breakdown |
-| 5893 | bridges | 5894 | brutal | 5895 | calculated | 5896 | cam |
-| 5897 | centres | 5898 | chapters | 5899 | citizenship | 5900 | civilians |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5801 | nicely | 很好地 |
+| 5802 | ninth | 第九 |
+| 5803 | nomination | 提名 |
+| 5804 | notable | 值得注意的 |
+| 5805 | obligation | 义务 |
+| 5806 | optical | 光学 |
+| 5807 | outlook | 展望 |
+| 5808 | penny | 便士 |
+| 5809 | petty | 小气的 |
+| 5810 | phd | 博士 |
+| 5811 | ports | 端口 |
+| 5812 | preserved | 保留 |
+| 5813 | programmes | 节目 |
+| 5814 | prospects | 前景 |
+| 5815 | publishers | 出版商 |
+| 5816 | quantity | 数量 |
+| 5817 | quantum | 量子 |
+| 5818 | rainbow | 彩虹 |
+| 5819 | rebels | 叛乱者 |
+| 5820 | recognised | 认可的 |
+| 5821 | reed | 芦苇 |
+| 5822 | reign | 统治 |
+| 5823 | responding | 回应 |
+| 5824 | retained | 保留 |
+| 5825 | rises | 上升 |
+| 5826 | saves | 节省 |
+| 5827 | scan | 扫描 |
+| 5828 | scare | 吓唬 |
+| 5829 | sectors | 部门 |
+| 5830 | shorts | 短裤 |
+| 5831 | span | 跨度 |
+| 5832 | specialized | 专门的 |
+| 5833 | submission | 提交 |
+| 5834 | sunny | 阳光明媚 |
+| 5835 | supporter | 支持者 |
+| 5836 | te | 特 |
+| 5837 | testament | 遗嘱 |
+| 5838 | toe | 脚趾 |
+| 5839 | tops | 上衣 |
+| 5840 | tremendous | 巨大的 |
+| 5841 | valued | 有价值的 |
+| 5842 | wounds | 伤口 |
+| 5843 | ab | ab |
+| 5844 | accommodation | 住宿 |
+| 5845 | achievements | 成就 |
+| 5846 | addressing | 寻址 |
+| 5847 | adorable | 可爱的 |
+| 5848 | allegedly | 据称 |
+| 5849 | ambulance | 救护车 |
+| 5850 | ashamed | 羞愧 |
+| 5851 | assure | 保证 |
+| 5852 | ballot | 选票 |
+| 5853 | batteries | 电池 |
+| 5854 | blessing | 祝福 |
+| 5855 | cemetery | 墓地 |
+| 5856 | chambers | 室 |
+| 5857 | cheat | 作弊 |
+| 5858 | cheer | 欢呼 |
+| 5859 | cigarette | 香烟 |
+| 5860 | compact | 紧凑型 |
+| 5861 | completing | 完成 |
+| 5862 | consulting | 咨询 |
+| 5863 | cooling | 冷却 |
+| 5864 | corners | 角落 |
+| 5865 | deficit | 赤字 |
+| 5866 | demo | 演示 |
+| 5867 | demon | 恶魔 |
+| 5868 | demonstration | 示范 |
+| 5869 | detected | 检测到 |
+| 5870 | detection | 检测 |
+| 5871 | doll | 娃娃 |
+| 5872 | donated | 捐赠的 |
+| 5873 | elaborate | 精心设计 |
+| 5874 | elder | 长老 |
+| 5875 | encountered | 遇到 |
+| 5876 | expertise | 专业知识 |
+| 5877 | exploring | 探索 |
+| 5878 | fc | 足球俱乐部 |
+| 5879 | fiber | 纤维 |
+| 5880 | filmed | 拍摄的 |
+| 5881 | fried | 油炸的 |
+| 5882 | grocery | 杂货店 |
+| 5883 | guided | 引导的 |
+| 5884 | guinea | 几内亚 |
+| 5885 | halfway | 半路 |
+| 5886 | happier | 更快乐 |
+| 5887 | heels | 高跟鞋 |
+| 5888 | hull | 船体 |
+| 5889 | independently | 独立地 |
+| 5890 | indication | 指示 |
+| 5891 | insisted | 坚持 |
+| 5892 | instances | 实例 |
+| 5893 | intensive | 强化 |
+| 5894 | interactive | 互动式 |
+| 5895 | intimate | 亲密的 |
+| 5896 | laundry | 洗衣 |
+| 5897 | lbs | 磅 |
+| 5898 | lifting | 起重 |
+| 5899 | martial | 武术 |
+| 5900 | northeast | 东北 |
 
 ### 5901～6000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 5901 | cliff | 5902 | conflicts | 5903 | consensus | 5904 | cycling |
-| 5905 | declaration | 5906 | dennis | 5907 | derby | 5908 | distinction |
-| 5909 | donations | 5910 | dragons | 5911 | draws | 5912 | examined |
-| 5913 | facial | 5914 | faithful | 5915 | fatal | 5916 | fig |
-| 5917 | fitting | 5918 | genuinely | 5919 | hardest | 5920 | holland |
-| 5921 | honored | 5922 | hunger | 5923 | hurricane | 5924 | implications |
-| 5925 | import | 5926 | innovative | 5927 | ipad | 5928 | jurisdiction |
-| 5929 | laughter | 5930 | lemon | 5931 | les | 5932 | lifted |
-| 5933 | loading | 5934 | lung | 5935 | matching | 5936 | mighty |
-| 5937 | monetary | 5938 | novels | 5939 | nutrition | 5940 | ore |
-| 5941 | os | 5942 | outcomes | 5943 | outta | 5944 | pine |
-| 5945 | polls | 5946 | poorly | 5947 | portugal | 5948 | pose |
-| 5949 | pour | 5950 | proteins | 5951 | provider | 5952 | publish |
-| 5953 | purely | 5954 | ralph | 5955 | rental | 5956 | resolved |
-| 5957 | rewards | 5958 | sang | 5959 | seemingly | 5960 | senators |
-| 5961 | severely | 5962 | shark | 5963 | shocking | 5964 | southwest |
-| 5965 | ss | 5966 | studios | 5967 | survivors | 5968 | tales |
-| 5969 | technically | 5970 | titled | 5971 | traditions | 5972 | unlimited |
-| 5973 | washed | 5974 | watches | 5975 | advise | 5976 | anxious |
-| 5977 | appearances | 5978 | bee | 5979 | bombing | 5980 | cafe |
-| 5981 | carlos | 5982 | challenged | 5983 | cigarettes | 5984 | colin |
-| 5985 | consisting | 5986 | cult | 5987 | dairy | 5988 | dakota |
-| 5989 | darling | 5990 | delighted | 5991 | delivering | 5992 | destroying |
-| 5993 | diary | 5994 | disagree | 5995 | disappear | 5996 | drill |
-| 5997 | earliest | 5998 | edges | 5999 | entries | 6000 | euro |
+| No. | Word | 中文 |
+|---:|---|---|
+| 5901 | observe | 观察 |
+| 5902 | packing | 包装 |
+| 5903 | panels | 面板 |
+| 5904 | password | 密码 |
+| 5905 | politically | 政治上 |
+| 5906 | presumably | 大概 |
+| 5907 | pretending | 假装 |
+| 5908 | priorities | 优先事项 |
+| 5909 | pronounced | 明显的 |
+| 5910 | prosecution | 检控 |
+| 5911 | proves | 证明 |
+| 5912 | pulse | 脉冲 |
+| 5913 | purchasing | 采购 |
+| 5914 | qualities | 品质 |
+| 5915 | queens | 皇后区 |
+| 5916 | rational | 理性的 |
+| 5917 | realm | 境界 |
+| 5918 | reforms | 改革 |
+| 5919 | revenues | 收入 |
+| 5920 | rides | 游乐设施 |
+| 5921 | ripped | 撕裂的 |
+| 5922 | rope | 绳子 |
+| 5923 | shadows | 阴影 |
+| 5924 | shout | 喊 |
+| 5925 | sierra | 塞拉 |
+| 5926 | smartphone | 智能手机 |
+| 5927 | specified | 指定的 |
+| 5928 | spectacular | 壮观的 |
+| 5929 | stan | 斯坦 |
+| 5930 | streak | 连胜 |
+| 5931 | subscription | 订阅 |
+| 5932 | switching | 切换 |
+| 5933 | technological | 技术性的 |
+| 5934 | temporarily | 暂时 |
+| 5935 | tolerance | 宽容 |
+| 5936 | tourists | 游客 |
+| 5937 | traditionally | 传统上 |
+| 5938 | traveled | 旅行过 |
+| 5939 | treats | 款待 |
+| 5940 | unhappy | 不高兴 |
+| 5941 | whites | 白人 |
+| 5942 | accomplish | 完成 |
+| 5943 | adequate | 足够的 |
+| 5944 | alter | 改变 |
+| 5945 | apology | 道歉 |
+| 5946 | arkansas | 阿肯色州 |
+| 5947 | attributed | 归因于 |
+| 5948 | beg | 乞求 |
+| 5949 | belonging | 归属感 |
+| 5950 | booked | 已预订 |
+| 5951 | bout | 回合 |
+| 5952 | bowling | 保龄球 |
+| 5953 | brass | 黄铜 |
+| 5954 | buzz | 嗡嗡声 |
+| 5955 | clarke | 克拉克 |
+| 5956 | comeback | 卷土重来 |
+| 5957 | cos | 因斯 |
+| 5958 | crops | 农作物 |
+| 5959 | declare | 声明 |
+| 5960 | designers | 设计师 |
+| 5961 | detect | 检测 |
+| 5962 | diagnosed | 确诊 |
+| 5963 | diesel | 柴油机 |
+| 5964 | dimensions | 尺寸 |
+| 5965 | dip | 浸 |
+| 5966 | disturbing | 令人不安的 |
+| 5967 | doesnt | 不 |
+| 5968 | dot | 点 |
+| 5969 | dresses | 连衣裙 |
+| 5970 | effectiveness | 有效性 |
+| 5971 | eliminated | 消除了 |
+| 5972 | embarrassed | 尴尬 |
+| 5973 | exceptional | 异常的 |
+| 5974 | filing | 归档 |
+| 5975 | fled | 逃跑 |
+| 5976 | foul | 犯规 |
+| 5977 | frankly | 坦白地说 |
+| 5978 | freezing | 冻结 |
+| 5979 | graph | 图 |
+| 5980 | hack | 黑客 |
+| 5981 | hatred | 仇恨 |
+| 5982 | ignorant | 无知的 |
+| 5983 | influences | 影响 |
+| 5984 | interact | 互动 |
+| 5985 | judging | 判断 |
+| 5986 | knights | 骑士 |
+| 5987 | lamp | 灯 |
+| 5988 | limitations | 局限性 |
+| 5989 | measurement | 测量 |
+| 5990 | measurements | 测量 |
+| 5991 | median | 中位数 |
+| 5992 | medieval | 中世纪的 |
+| 5993 | milan | 米兰 |
+| 5994 | mobility | 流动性 |
+| 5995 | montana | 蒙大拿州 |
+| 5996 | murders | 谋杀 |
+| 5997 | nyc | 纽约 |
+| 5998 | orientation | 方向 |
+| 5999 | oven | 烤箱 |
+| 6000 | passport | 护照 |
 
 ### 6001～6100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6001 | evolved | 6002 | exports | 6003 | fixing | 6004 | fl |
-| 6005 | flags | 6006 | flies | 6007 | forecast | 6008 | fr |
-| 6009 | governance | 6010 | heated | 6011 | hug | 6012 | importantly |
-| 6013 | indicating | 6014 | indoor | 6015 | influential | 6016 | intend |
-| 6017 | invisible | 6018 | jeans | 6019 | jets | 6020 | julie |
-| 6021 | karen | 6022 | lasted | 6023 | lawsuit | 6024 | leak |
-| 6025 | lighter | 6026 | lucas | 6027 | marcus | 6028 | mentions |
-| 6029 | meter | 6030 | mice | 6031 | musicians | 6032 | olive |
-| 6033 | passionate | 6034 | potatoes | 6035 | prevented | 6036 | receiver |
-| 6037 | recommendation | 6038 | riot | 6039 | rogers | 6040 | roster |
-| 6041 | safer | 6042 | sells | 6043 | sentenced | 6044 | servant |
-| 6045 | setup | 6046 | skull | 6047 | slot | 6048 | smash |
-| 6049 | statue | 6050 | surprisingly | 6051 | surrender | 6052 | suspicious |
-| 6053 | teenager | 6054 | tender | 6055 | thoroughly | 6056 | todd |
-| 6057 | treatments | 6058 | tweeted | 6059 | vacuum | 6060 | variations |
-| 6061 | vi | 6062 | wi | 6063 | wont | 6064 | acknowledged |
-| 6065 | advances | 6066 | agrees | 6067 | allegations | 6068 | anticipated |
-| 6069 | approve | 6070 | architect | 6071 | basin | 6072 | beneficial |
-| 6073 | bleeding | 6074 | breed | 6075 | breeding | 6076 | bride |
-| 6077 | broadway | 6078 | bros | 6079 | bud | 6080 | butler |
-| 6081 | careers | 6082 | cartoon | 6083 | celebrities | 6084 | chick |
-| 6085 | coke | 6086 | comparable | 6087 | confirmation | 6088 | console |
-| 6089 | contractor | 6090 | contributing | 6091 | diameter | 6092 | dubai |
-| 6093 | dublin | 6094 | dump | 6095 | duo | 6096 | dynamics |
-| 6097 | elephant | 6098 | enhanced | 6099 | essays | 6100 | exhausted |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6001 | penis | 阴茎 |
+| 6002 | pills | 药丸 |
+| 6003 | planets | 行星 |
+| 6004 | proceeds | 收益 |
+| 6005 | rabbit | 兔子 |
+| 6006 | raises | 提高 |
+| 6007 | ranges | 范围 |
+| 6008 | rats | 老鼠 |
+| 6009 | retire | 退休 |
+| 6010 | rhythm | 节奏 |
+| 6011 | savage | 野蛮人 |
+| 6012 | servers | 服务器 |
+| 6013 | shook | 震动 |
+| 6014 | shooter | 射手 |
+| 6015 | siblings | 兄弟姐妹 |
+| 6016 | slim | 苗条 |
+| 6017 | someday | 有一天 |
+| 6018 | sophisticated | 复杂的 |
+| 6019 | spam | 垃圾邮件 |
+| 6020 | speeds | 速度 |
+| 6021 | stack | 堆栈 |
+| 6022 | stance | 立场 |
+| 6023 | static | 静态的 |
+| 6024 | subway | 地铁 |
+| 6025 | supportive | 支持的 |
+| 6026 | surgical | 外科手术 |
+| 6027 | symbols | 符号 |
+| 6028 | tablet | 平板电脑 |
+| 6029 | tent | 帐篷 |
+| 6030 | thesis | 论文 |
+| 6031 | tide | 潮汐 |
+| 6032 | travels | 旅行 |
+| 6033 | warfare | 战争 |
+| 6034 | warming | 变暖 |
+| 6035 | weekends | 周末 |
+| 6036 | withdraw | 撤回 |
+| 6037 | withdrawal | 提款 |
+| 6038 | youngest | 最年轻的 |
+| 6039 | aging | 老化 |
+| 6040 | airline | 航空公司 |
+| 6041 | alternatives | 替代品 |
+| 6042 | anyways | 无论如何 |
+| 6043 | argues | 争论 |
+| 6044 | audit | 审计 |
+| 6045 | authentic | 正宗的 |
+| 6046 | ave | 大道 |
+| 6047 | backwards | 向后 |
+| 6048 | bi | 比 |
+| 6049 | blonde | 金发女郎 |
+| 6050 | blows | 打击 |
+| 6051 | bolt | 螺栓 |
+| 6052 | bugs | 虫子 |
+| 6053 | bust | 半身像 |
+| 6054 | clearing | 清算 |
+| 6055 | clips | 剪辑 |
+| 6056 | collar | 衣领 |
+| 6057 | columbus | 哥伦布 |
+| 6058 | comply | 遵守 |
+| 6059 | cope | 应对 |
+| 6060 | counted | 数过的 |
+| 6061 | crashed | 坠毁 |
+| 6062 | creepy | 令人毛骨悚然的 |
+| 6063 | cum | 暨 |
+| 6064 | divorced | 离婚的 |
+| 6065 | donate | 捐赠 |
+| 6066 | drawings | 图纸 |
+| 6067 | dried | 干的 |
+| 6068 | echo | 回声 |
+| 6069 | editors | 编辑 |
+| 6070 | emotionally | 情感上地 |
+| 6071 | enhance | 增强 |
+| 6072 | experiencing | 经历 |
+| 6073 | extending | 延伸 |
+| 6074 | finale | 结局 |
+| 6075 | flavor | 味道 |
+| 6076 | floors | 楼层 |
+| 6077 | freaking | 吓坏了 |
+| 6078 | gloves | 手套 |
+| 6079 | harper | 哈珀 |
+| 6080 | ignorance | 无知 |
+| 6081 | ignoring | 忽略 |
+| 6082 | immigrant | 移民 |
+| 6083 | induced | 诱导的 |
+| 6084 | inspiring | 鼓舞人心的 |
+| 6085 | intermediate | 中间 |
+| 6086 | invention | 发明 |
+| 6087 | ip | ip |
+| 6088 | joins | 加入 |
+| 6089 | joking | 开玩笑 |
+| 6090 | lgbt | 同性恋者 |
+| 6091 | likewise | 同样地 |
+| 6092 | lineup | 阵容 |
+| 6093 | logan | 洛根 |
+| 6094 | magnificent | 宏伟的 |
+| 6095 | mathematical | 数学的 |
+| 6096 | meantime | 其间 |
+| 6097 | nails | 指甲 |
+| 6098 | nevada | 内华达州 |
+| 6099 | newest | 最新的 |
+| 6100 | nonetheless | 尽管如此 |
 
 ### 6101～6200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6101 | fabric | 6102 | fabulous | 6103 | fairy | 6104 | fathers |
-| 6105 | focuses | 6106 | fold | 6107 | freak | 6108 | frustrated |
-| 6109 | gambling | 6110 | gently | 6111 | glorious | 6112 | grief |
-| 6113 | harrison | 6114 | historically | 6115 | hub | 6116 | hughes |
-| 6117 | inevitable | 6118 | investigating | 6119 | kg | 6120 | labels |
-| 6121 | lacking | 6122 | laughs | 6123 | layout | 6124 | lined |
-| 6125 | lodge | 6126 | lords | 6127 | merchant | 6128 | merit |
-| 6129 | micro | 6130 | myth | 6131 | nintendo | 6132 | objectives |
-| 6133 | obsessed | 6134 | organised | 6135 | overwhelming | 6136 | pale |
-| 6137 | particles | 6138 | pastor | 6139 | penalties | 6140 | permanently |
-| 6141 | pets | 6142 | pockets | 6143 | poison | 6144 | predict |
-| 6145 | presenting | 6146 | presidents | 6147 | pressing | 6148 | prints |
-| 6149 | provincial | 6150 | realised | 6151 | rebel | 6152 | repairs |
-| 6153 | rotation | 6154 | separately | 6155 | shaking | 6156 | shaw |
-| 6157 | societies | 6158 | solved | 6159 | starring | 6160 | struggles |
-| 6161 | subtle | 6162 | tastes | 6163 | throws | 6164 | toll |
-| 6165 | tooth | 6166 | torn | 6167 | tragic | 6168 | trainer |
-| 6169 | transformed | 6170 | unbelievable | 6171 | underneath | 6172 | variation |
-| 6173 | viewing | 6174 | viral | 6175 | warehouse | 6176 | wears |
-| 6177 | widow | 6178 | wives | 6179 | adjust | 6180 | administrator |
-| 6181 | affecting | 6182 | allied | 6183 | altogether | 6184 | animated |
-| 6185 | answering | 6186 | assess | 6187 | assumption | 6188 | assured |
-| 6189 | austria | 6190 | avoided | 6191 | avoiding | 6192 | basket |
-| 6193 | beard | 6194 | bio | 6195 | blanket | 6196 | brains |
-| 6197 | bucket | 6198 | burger | 6199 | capability | 6200 | charming |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6101 | nut | 坚果 |
+| 6102 | opposing | 反对 |
+| 6103 | origins | 起源 |
+| 6104 | orlando | 奥兰多 |
+| 6105 | physicians | 医生 |
+| 6106 | pipeline | 管道 |
+| 6107 | placement | 安置 |
+| 6108 | planted | 种植的 |
+| 6109 | pricing | 定价 |
+| 6110 | puerto | 波多黎各 |
+| 6111 | questioning | 质疑 |
+| 6112 | recreation | 休闲 |
+| 6113 | renewed | 更新的 |
+| 6114 | resigned | 辞职了 |
+| 6115 | rt | 室温 |
+| 6116 | shallow | 浅 |
+| 6117 | singh | 辛格 |
+| 6118 | sins | 罪恶 |
+| 6119 | sketch | 素描 |
+| 6120 | smells | 气味 |
+| 6121 | soda | 苏打水 |
+| 6122 | spite | 恶意 |
+| 6123 | sponsor | 赞助商 |
+| 6124 | strengthen | 加强 |
+| 6125 | strings | 字符串 |
+| 6126 | sunset | 日落 |
+| 6127 | taiwan | 台湾 |
+| 6128 | thanksgiving | 感恩节 |
+| 6129 | thee | 你 |
+| 6130 | thermal | 热的 |
+| 6131 | trades | 交易 |
+| 6132 | transform | 变换 |
+| 6133 | witnessed | 见证 |
+| 6134 | workplace | 工作场所 |
+| 6135 | yelling | 大喊大叫 |
+| 6136 | yorkshire | 约克郡 |
+| 6137 | achieving | 实现 |
+| 6138 | aliens | 外星人 |
+| 6139 | amsterdam | 阿姆斯特丹 |
+| 6140 | analyst | 分析师 |
+| 6141 | arabic | 阿拉伯语 |
+| 6142 | arctic | 北极的 |
+| 6143 | assists | 助攻 |
+| 6144 | bristol | 布里斯托尔 |
+| 6145 | burnt | 烧焦的 |
+| 6146 | buyer | 买家 |
+| 6147 | calories | 卡路里 |
+| 6148 | cannabis | 大麻 |
+| 6149 | cease | 停止 |
+| 6150 | championships | 锦标赛 |
+| 6151 | chapel | 小教堂 |
+| 6152 | cloth | 布 |
+| 6153 | conferences | 会议 |
+| 6154 | considers | 考虑 |
+| 6155 | container | 容器 |
+| 6156 | cowboys | 牛仔 |
+| 6157 | crushed | 压碎的 |
+| 6158 | deployed | 已部署 |
+| 6159 | differ | 不同 |
+| 6160 | dimensional | 维度的 |
+| 6161 | eager | 渴望的 |
+| 6162 | elect | 选出 |
+| 6163 | elevated | 高架 |
+| 6164 | essence | 本质 |
+| 6165 | executives | 高管 |
+| 6166 | flames | 火焰 |
+| 6167 | fork | 叉子 |
+| 6168 | fur | 毛皮 |
+| 6169 | gps | 全球定位系统 |
+| 6170 | harvest | 收获 |
+| 6171 | headline | 标题 |
+| 6172 | hudson | 哈德逊 |
+| 6173 | hype | 炒作 |
+| 6174 | identifying | 识别 |
+| 6175 | impacts | 影响 |
+| 6176 | insist | 坚持 |
+| 6177 | jo | 乔 |
+| 6178 | junk | 垃圾 |
+| 6179 | kidney | 肾 |
+| 6180 | ladder | 梯子 |
+| 6181 | lobby | 大堂 |
+| 6182 | marc | 马克 |
+| 6183 | mechanisms | 机制 |
+| 6184 | mineral | 矿物 |
+| 6185 | mob | 暴民 |
+| 6186 | modest | 谦虚的 |
+| 6187 | motors | 电机 |
+| 6188 | mph | 英里/小时 |
+| 6189 | navigation | 导航 |
+| 6190 | orbit | 轨道 |
+| 6191 | paragraph | 段落 |
+| 6192 | passive | 被动 |
+| 6193 | peninsula | 半岛 |
+| 6194 | pill | 药丸 |
+| 6195 | pork | 猪肉 |
+| 6196 | portuguese | 葡萄牙语 |
+| 6197 | profitable | 有利可图的 |
+| 6198 | provinces | 省份 |
+| 6199 | ranch | 牧场 |
+| 6200 | rays | 射线 |
 
 ### 6201～6300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6201 | chiefs | 6202 | commented | 6203 | computing | 6204 | concentrate |
-| 6205 | conducting | 6206 | consequence | 6207 | continent | 6208 | cookie |
-| 6209 | cruz | 6210 | curse | 6211 | displays | 6212 | drain |
-| 6213 | emissions | 6214 | ethical | 6215 | excellence | 6216 | flame |
-| 6217 | forests | 6218 | freely | 6219 | fruits | 6220 | grabbed |
-| 6221 | graduation | 6222 | hint | 6223 | horizon | 6224 | hostile |
-| 6225 | imagined | 6226 | inhabitants | 6227 | ink | 6228 | inn |
-| 6229 | intel | 6230 | kicks | 6231 | legends | 6232 | lo |
-| 6233 | lucy | 6234 | magazines | 6235 | matrix | 6236 | measuring |
-| 6237 | miserable | 6238 | momentum | 6239 | monkey | 6240 | montreal |
-| 6241 | motorcycle | 6242 | nationwide | 6243 | nest | 6244 | newcastle |
-| 6245 | nicely | 6246 | ninth | 6247 | nomination | 6248 | notable |
-| 6249 | obligation | 6250 | optical | 6251 | outlook | 6252 | penny |
-| 6253 | petty | 6254 | phd | 6255 | ports | 6256 | preserved |
-| 6257 | programmes | 6258 | prospects | 6259 | publishers | 6260 | quantity |
-| 6261 | quantum | 6262 | rainbow | 6263 | rebels | 6264 | recognised |
-| 6265 | reed | 6266 | reign | 6267 | responding | 6268 | retained |
-| 6269 | rises | 6270 | saves | 6271 | scan | 6272 | scare |
-| 6273 | sectors | 6274 | shorts | 6275 | span | 6276 | specialized |
-| 6277 | spencer | 6278 | submission | 6279 | sunny | 6280 | supporter |
-| 6281 | te | 6282 | testament | 6283 | toe | 6284 | tops |
-| 6285 | tremendous | 6286 | valued | 6287 | wounds | 6288 | ab |
-| 6289 | accommodation | 6290 | achievements | 6291 | addressing | 6292 | adorable |
-| 6293 | allegedly | 6294 | ambulance | 6295 | ar | 6296 | ashamed |
-| 6297 | assure | 6298 | bailey | 6299 | ballot | 6300 | batteries |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6201 | reasonably | 合理地 |
+| 6202 | reject | 拒绝 |
+| 6203 | remainder | 余数 |
+| 6204 | schemes | 计划 |
+| 6205 | screens | 屏幕 |
+| 6206 | seized | 查获的 |
+| 6207 | semester | 学期 |
+| 6208 | sentiment | 情绪 |
+| 6209 | servants | 仆人 |
+| 6210 | shipped | 已发货 |
+| 6211 | socks | 袜子 |
+| 6212 | sp | sp |
+| 6213 | suited | 适合 |
+| 6214 | supplement | 补充 |
+| 6215 | surviving | 幸存下来 |
+| 6216 | thereby | 从而 |
+| 6217 | threshold | 阈值 |
+| 6218 | til | 直到 |
+| 6219 | tin | 锡 |
+| 6220 | tires | 轮胎 |
+| 6221 | tribal | 部落的 |
+| 6222 | tribes | 部落 |
+| 6223 | trunk | 树干 |
+| 6224 | uncertainty | 不确定性 |
+| 6225 | vampire | 吸血鬼 |
+| 6226 | varied | 多种多样 |
+| 6227 | verdict | 判决 |
+| 6228 | abandon | 放弃 |
+| 6229 | accommodate | 容纳 |
+| 6230 | accordingly | 相应地 |
+| 6231 | aesthetic | 审美 |
+| 6232 | algorithm | 算法 |
+| 6233 | altered | 改变的 |
+| 6234 | anchor | 锚 |
+| 6235 | apr | 四月 |
+| 6236 | arch | 拱门 |
+| 6237 | associations | 协会 |
+| 6238 | au | 非盟 |
+| 6239 | audiences | 观众 |
+| 6240 | axis | 轴 |
+| 6241 | badge | 徽章 |
+| 6242 | bernard | 伯纳德 |
+| 6243 | bizarre | 奇异的 |
+| 6244 | bounce | 弹跳 |
+| 6245 | broadcasting | 广播 |
+| 6246 | bs | 废话 |
+| 6247 | bullets | 子弹 |
+| 6248 | buses | 公共汽车 |
+| 6249 | cannon | 大炮 |
+| 6250 | carriers | 运营商 |
+| 6251 | chairs | 椅子 |
+| 6252 | cleaned | 清洁过的 |
+| 6253 | complexity | 复杂性 |
+| 6254 | confusing | 令人困惑的 |
+| 6255 | consultation | 咨询 |
+| 6256 | continental | 欧陆式 |
+| 6257 | convenience | 方便 |
+| 6258 | deliberately | 故意 |
+| 6259 | diamonds | 钻石 |
+| 6260 | dictionary | 字典 |
+| 6261 | dignity | 尊严 |
+| 6262 | dimension | 维度 |
+| 6263 | disappointing | 令人失望的 |
+| 6264 | diving | 潜水 |
+| 6265 | doug | 道格 |
+| 6266 | ego | 自我 |
+| 6267 | enthusiasm | 热情 |
+| 6268 | environments | 环境 |
+| 6269 | equation | 方程 |
+| 6270 | extract | 提取物 |
+| 6271 | favorites | 收藏夹 |
+| 6272 | ferry | 渡轮 |
+| 6273 | fisher | 渔夫 |
+| 6274 | flexibility | 灵活性 |
+| 6275 | flowing | 流动的 |
+| 6276 | fm | 调频 |
+| 6277 | fridge | 冰箱 |
+| 6278 | functioning | 发挥作用 |
+| 6279 | fusion | 融合 |
+| 6280 | gauge | 仪表 |
+| 6281 | goat | 山羊 |
+| 6282 | graduates | 毕业生 |
+| 6283 | gut | 肠道 |
+| 6284 | heck | 哎呀 |
+| 6285 | helmet | 头盔 |
+| 6286 | holders | 持有者 |
+| 6287 | ideology | 意识形态 |
+| 6288 | idiots | 白痴 |
+| 6289 | inclusion | 包容性 |
+| 6290 | initiatives | 倡议 |
+| 6291 | innings | 局数 |
+| 6292 | insects | 昆虫 |
+| 6293 | instructor | 导师 |
+| 6294 | isolation | 隔离 |
+| 6295 | ive | 我已经 |
+| 6296 | justified | 有道理的 |
+| 6297 | keeper | 守门员 |
+| 6298 | lamb | 羊肉 |
+| 6299 | liar | 骗子 |
+| 6300 | machinery | 机械 |
 
 ### 6301～6400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6301 | blessing | 6302 | btw | 6303 | cemetery | 6304 | chambers |
-| 6305 | cheat | 6306 | cheer | 6307 | chile | 6308 | cigarette |
-| 6309 | compact | 6310 | completing | 6311 | consulting | 6312 | cooling |
-| 6313 | corners | 6314 | deficit | 6315 | demo | 6316 | demon |
-| 6317 | demonstration | 6318 | detected | 6319 | detection | 6320 | doll |
-| 6321 | donated | 6322 | elaborate | 6323 | elder | 6324 | encountered |
-| 6325 | expertise | 6326 | exploring | 6327 | fc | 6328 | fiber |
-| 6329 | filmed | 6330 | fried | 6331 | grocery | 6332 | guided |
-| 6333 | guinea | 6334 | halfway | 6335 | happier | 6336 | heels |
-| 6337 | holmes | 6338 | hull | 6339 | independently | 6340 | indication |
-| 6341 | insisted | 6342 | instances | 6343 | intensive | 6344 | interactive |
-| 6345 | intimate | 6346 | laundry | 6347 | lbs | 6348 | lifting |
-| 6349 | linda | 6350 | martial | 6351 | nigerian | 6352 | northeast |
-| 6353 | observe | 6354 | packing | 6355 | panels | 6356 | password |
-| 6357 | pokemon | 6358 | politically | 6359 | presumably | 6360 | pretending |
-| 6361 | priorities | 6362 | pronounced | 6363 | prosecution | 6364 | proves |
-| 6365 | pulse | 6366 | purchasing | 6367 | qualities | 6368 | queens |
-| 6369 | rational | 6370 | realm | 6371 | reforms | 6372 | revenues |
-| 6373 | rides | 6374 | ripped | 6375 | rope | 6376 | shadows |
-| 6377 | shout | 6378 | sierra | 6379 | smartphone | 6380 | specified |
-| 6381 | spectacular | 6382 | stan | 6383 | streak | 6384 | subscription |
-| 6385 | switching | 6386 | technological | 6387 | temporarily | 6388 | tolerance |
-| 6389 | tourists | 6390 | traditionally | 6391 | traveled | 6392 | treats |
-| 6393 | unhappy | 6394 | whites | 6395 | yup | 6396 | accomplish |
-| 6397 | adequate | 6398 | alter | 6399 | apology | 6400 | arkansas |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6301 | mansion | 豪宅 |
+| 6302 | mega | 巨型 |
+| 6303 | mercury | 汞 |
+| 6304 | namely | 即 |
+| 6305 | needing | 需要 |
+| 6306 | nerves | 神经 |
+| 6307 | observations | 观察 |
+| 6308 | ordering | 订购 |
+| 6309 | palmer | 帕尔默 |
+| 6310 | paths | 路径 |
+| 6311 | peers | 同行 |
+| 6312 | pending | 待定 |
+| 6313 | platinum | 铂金 |
+| 6314 | possess | 拥有 |
+| 6315 | praised | 称赞 |
+| 6316 | premises | 处所 |
+| 6317 | probability | 概率 |
+| 6318 | ps | 附注 |
+| 6319 | questioned | 质疑 |
+| 6320 | refuses | 拒绝 |
+| 6321 | resignation | 辞职 |
+| 6322 | rider | 骑手 |
+| 6323 | ritual | 仪式 |
+| 6324 | ruins | 废墟 |
+| 6325 | shelf | 架子 |
+| 6326 | slam | 满贯 |
+| 6327 | stakes | 赌注 |
+| 6328 | starter | 开胃菜 |
+| 6329 | sticking | 粘着 |
+| 6330 | subscribe | 订阅 |
+| 6331 | superman | 超人 |
+| 6332 | surfaces | 表面 |
+| 6333 | ta | 塔 |
+| 6334 | territories | 领土 |
+| 6335 | tire | 轮胎 |
+| 6336 | tl | 特尔 |
+| 6337 | towers | 塔 |
+| 6338 | transfers | 转移 |
+| 6339 | utterly | 完全地 |
+| 6340 | voltage | 电压 |
+| 6341 | warn | 警告 |
+| 6342 | width | 宽度 |
+| 6343 | workout | 锻炼 |
+| 6344 | aa | 啊 |
+| 6345 | abu | 阿布 |
+| 6346 | activated | 激活的 |
+| 6347 | adaptation | 适应 |
+| 6348 | advisor | 顾问 |
+| 6349 | aluminum | 铝 |
+| 6350 | apartments | 公寓 |
+| 6351 | attitudes | 态度 |
+| 6352 | attorneys | 律师 |
+| 6353 | bail | 保释 |
+| 6354 | barriers | 障碍 |
+| 6355 | belonged | 属于 |
+| 6356 | broader | 更广泛的 |
+| 6357 | buck | 巴克 |
+| 6358 | cal | 卡尔 |
+| 6359 | characterized | 特征化的 |
+| 6360 | civilization | 文明 |
+| 6361 | congrats | 恭喜 |
+| 6362 | contractors | 承包商 |
+| 6363 | creativity | 创造力 |
+| 6364 | dealers | 经销商 |
+| 6365 | delicate | 精致的 |
+| 6366 | den | 书房 |
+| 6367 | desires | 欲望 |
+| 6368 | disappointment | 失望 |
+| 6369 | disk | 磁盘 |
+| 6370 | enters | 进入 |
+| 6371 | evaluate | 评估 |
+| 6372 | formally | 正式地 |
+| 6373 | frames | 框架 |
+| 6374 | goddess | 女神 |
+| 6375 | gov | 政府 |
+| 6376 | hampshire | 汉普郡 |
+| 6377 | harassment | 骚扰 |
+| 6378 | hats | 帽子 |
+| 6379 | insert | 插入 |
+| 6380 | lebanon | 黎巴嫩 |
+| 6381 | leeds | 利兹 |
+| 6382 | legit | 合法的 |
+| 6383 | liquor | 酒 |
+| 6384 | loser | 失败者 |
+| 6385 | malcolm | 马尔科姆 |
+| 6386 | massage | 按摩 |
+| 6387 | matched | 匹配的 |
+| 6388 | messed | 弄乱了 |
+| 6389 | milwaukee | 密尔沃基 |
+| 6390 | musician | 音乐家 |
+| 6391 | nephew | 侄子 |
+| 6392 | notably | 值得注意的是 |
+| 6393 | orchestra | 管弦乐队 |
+| 6394 | packages | 包 |
+| 6395 | pad | 垫 |
+| 6396 | participated | 参加了 |
+| 6397 | precision | 精度 |
+| 6398 | preservation | 保存 |
+| 6399 | priests | 牧师 |
+| 6400 | privately | 私下里 |
 
 ### 6401～6500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6401 | attributed | 6402 | beg | 6403 | belonging | 6404 | booked |
-| 6405 | bout | 6406 | bowling | 6407 | brass | 6408 | buzz |
-| 6409 | clarke | 6410 | comeback | 6411 | cos | 6412 | crops |
-| 6413 | declare | 6414 | designers | 6415 | detect | 6416 | diagnosed |
-| 6417 | diesel | 6418 | dimensions | 6419 | dip | 6420 | disturbing |
-| 6421 | doesnt | 6422 | dot | 6423 | dresses | 6424 | dylan |
-| 6425 | effectiveness | 6426 | eliminated | 6427 | ellen | 6428 | embarrassed |
-| 6429 | exceptional | 6430 | filing | 6431 | fled | 6432 | foul |
-| 6433 | frankly | 6434 | freezing | 6435 | graph | 6436 | hack |
-| 6437 | hannah | 6438 | hatred | 6439 | ignorant | 6440 | influences |
-| 6441 | interact | 6442 | judging | 6443 | knights | 6444 | lamp |
-| 6445 | limitations | 6446 | majesty | 6447 | measurement | 6448 | measurements |
-| 6449 | median | 6450 | medieval | 6451 | milan | 6452 | mobility |
-| 6453 | montana | 6454 | murders | 6455 | nc | 6456 | ne |
-| 6457 | nyc | 6458 | omg | 6459 | orientation | 6460 | oven |
-| 6461 | owen | 6462 | passport | 6463 | penis | 6464 | pills |
-| 6465 | planets | 6466 | proceeds | 6467 | rabbit | 6468 | raises |
-| 6469 | ranges | 6470 | rats | 6471 | retire | 6472 | rhythm |
-| 6473 | ruth | 6474 | savage | 6475 | servers | 6476 | shook |
-| 6477 | shooter | 6478 | siblings | 6479 | slim | 6480 | someday |
-| 6481 | sophisticated | 6482 | spam | 6483 | speeds | 6484 | stack |
-| 6485 | stance | 6486 | static | 6487 | subway | 6488 | supportive |
-| 6489 | surgical | 6490 | symbols | 6491 | tablet | 6492 | tent |
-| 6493 | thesis | 6494 | tide | 6495 | travels | 6496 | wallace |
-| 6497 | warfare | 6498 | warming | 6499 | weekends | 6500 | withdraw |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6401 | prizes | 奖品 |
+| 6402 | pulls | 拉 |
+| 6403 | qualifying | 排位赛 |
+| 6404 | reasoning | 推理 |
+| 6405 | relaxed | 放松 |
+| 6406 | reporters | 记者 |
+| 6407 | roses | 玫瑰 |
+| 6408 | rumors | 谣言 |
+| 6409 | sail | 帆 |
+| 6410 | salmon | 鲑鱼 |
+| 6411 | secretly | 偷偷地 |
+| 6412 | seller | 卖家 |
+| 6413 | sen | 森 |
+| 6414 | seo | 搜索引擎优化 |
+| 6415 | sheer | 纯粹的 |
+| 6416 | shifts | 轮班 |
+| 6417 | simpson | 辛普森 |
+| 6418 | smallest | 最小的 |
+| 6419 | specially | 特别地 |
+| 6420 | stark | 斯塔克 |
+| 6421 | struggled | 挣扎着 |
+| 6422 | sympathy | 同情 |
+| 6423 | tan | 晒黑 |
+| 6424 | teenagers | 青少年 |
+| 6425 | theoretical | 理论的 |
+| 6426 | thumb | 拇指 |
+| 6427 | timber | 木材 |
+| 6428 | transparent | 透明 |
+| 6429 | tweets | 推文 |
+| 6430 | upside | 好处 |
+| 6431 | urged | 敦促 |
+| 6432 | visitor | 访客 |
+| 6433 | vitamin | 维生素 |
+| 6434 | void | 无效 |
+| 6435 | voluntary | 自愿的 |
+| 6436 | wheat | 小麦 |
+| 6437 | whip | 鞭子 |
+| 6438 | wipe | 擦拭 |
+| 6439 | wolves | 狼 |
+| 6440 | wrist | 手腕 |
+| 6441 | abused | 被虐待 |
+| 6442 | acute | 急性的 |
+| 6443 | admiral | 海军上将 |
+| 6444 | arrange | 安排 |
+| 6445 | banana | 香蕉 |
+| 6446 | behave | 表现 |
+| 6447 | betting | 投注 |
+| 6448 | bo | 博 |
+| 6449 | borrow | 借 |
+| 6450 | camping | 露营 |
+| 6451 | capitol | 国会大厦 |
+| 6452 | celtic | 凯尔特人 |
+| 6453 | chan | 陈 |
+| 6454 | chin | 下巴 |
+| 6455 | civic | 公民的 |
+| 6456 | clerk | 职员 |
+| 6457 | conclusions | 结论 |
+| 6458 | considerably | 相当大地 |
+| 6459 | contacted | 接触过 |
+| 6460 | cottage | 小屋 |
+| 6461 | coup | 政变 |
+| 6462 | criticized | 批评的 |
+| 6463 | crude | 原油 |
+| 6464 | dash | 破折号 |
+| 6465 | decreased | 减少 |
+| 6466 | defended | 辩护 |
+| 6467 | demons | 恶魔 |
+| 6468 | deposits | 存款 |
+| 6469 | disclosure | 披露 |
+| 6470 | disposal | 处置 |
+| 6471 | distinctive | 独特的 |
+| 6472 | documented | 记录在案 |
+| 6473 | donation | 捐赠 |
+| 6474 | dragged | 拖 |
+| 6475 | drone | 无人机 |
+| 6476 | encounters | 遭遇 |
+| 6477 | ensuring | 确保 |
+| 6478 | enterprises | 企业 |
+| 6479 | escort | 护送 |
+| 6480 | exams | 考试 |
+| 6481 | firmly | 坚定地 |
+| 6482 | flour | 面粉 |
+| 6483 | gdp | 国内生产总值 |
+| 6484 | geneva | 日内瓦 |
+| 6485 | holdings | 控股 |
+| 6486 | indie | 独立 |
+| 6487 | indirect | 间接 |
+| 6488 | inspire | 启发 |
+| 6489 | institutional | 制度性的 |
+| 6490 | interim | 临时的 |
+| 6491 | interviewed | 接受采访 |
+| 6492 | java | 爪哇 |
+| 6493 | jefferson | 杰斐逊 |
+| 6494 | jerk | 混蛋 |
+| 6495 | kindly | 和善地 |
+| 6496 | kindness | 仁慈 |
+| 6497 | leaked | 泄露 |
+| 6498 | locals | 当地人 |
+| 6499 | lottery | 彩票 |
+| 6500 | louise | 路易丝 |
 
 ### 6501～6600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6501 | withdrawal | 6502 | youngest | 6503 | aging | 6504 | airline |
-| 6505 | alternatives | 6506 | anyways | 6507 | argues | 6508 | audit |
-| 6509 | authentic | 6510 | ave | 6511 | backwards | 6512 | bi |
-| 6513 | blonde | 6514 | blows | 6515 | bolt | 6516 | brooks |
-| 6517 | bugs | 6518 | bust | 6519 | clearing | 6520 | clips |
-| 6521 | collar | 6522 | columbus | 6523 | comply | 6524 | cope |
-| 6525 | counted | 6526 | crashed | 6527 | creepy | 6528 | cum |
-| 6529 | denmark | 6530 | divorced | 6531 | donate | 6532 | drawings |
-| 6533 | dried | 6534 | ebay | 6535 | echo | 6536 | editors |
-| 6537 | edwards | 6538 | emotionally | 6539 | enhance | 6540 | experiencing |
-| 6541 | extending | 6542 | finale | 6543 | flavor | 6544 | floors |
-| 6545 | freaking | 6546 | gloves | 6547 | harper | 6548 | hart |
-| 6549 | ignorance | 6550 | ignoring | 6551 | immigrant | 6552 | induced |
-| 6553 | inspiring | 6554 | intermediate | 6555 | invention | 6556 | ip |
-| 6557 | jesse | 6558 | joins | 6559 | joking | 6560 | lgbt |
-| 6561 | likewise | 6562 | lineup | 6563 | logan | 6564 | magnificent |
-| 6565 | mathematical | 6566 | meantime | 6567 | nails | 6568 | nevada |
-| 6569 | newest | 6570 | nonetheless | 6571 | nut | 6572 | opposing |
-| 6573 | origins | 6574 | orlando | 6575 | physicians | 6576 | pipeline |
-| 6577 | placement | 6578 | planted | 6579 | pricing | 6580 | pt |
-| 6581 | puerto | 6582 | questioning | 6583 | recreation | 6584 | renewed |
-| 6585 | resigned | 6586 | rt | 6587 | shallow | 6588 | shanghai |
-| 6589 | shitty | 6590 | singh | 6591 | sins | 6592 | sketch |
-| 6593 | smells | 6594 | soda | 6595 | spite | 6596 | sponsor |
-| 6597 | strengthen | 6598 | strings | 6599 | sunset | 6600 | taiwan |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6501 | magnitude | 震级 |
+| 6502 | mc | MC |
+| 6503 | minus | 减号 |
+| 6504 | nhs | 国家医疗服务体系 |
+| 6505 | noting | 注意到 |
+| 6506 | organs | 器官 |
+| 6507 | outlet | 插座 |
+| 6508 | outlets | 网点 |
+| 6509 | parameters | 参数 |
+| 6510 | pause | 暂停 |
+| 6511 | pledge | 承诺 |
+| 6512 | portal | 门户网站 |
+| 6513 | prescription | 处方 |
+| 6514 | protesters | 抗议者 |
+| 6515 | proving | 证明 |
+| 6516 | publicity | 宣传 |
+| 6517 | punished | 受到惩罚 |
+| 6518 | puppy | 小狗 |
+| 6519 | recruitment | 招聘 |
+| 6520 | screwed | 拧紧了 |
+| 6521 | shades | 色调 |
+| 6522 | silicon | 硅 |
+| 6523 | slice | 切片 |
+| 6524 | spelling | 拼写 |
+| 6525 | spurs | 马刺 |
+| 6526 | subscribers | 订户 |
+| 6527 | surveys | 调查 |
+| 6528 | survivor | 幸存者 |
+| 6529 | telegraph | 电报 |
+| 6530 | tits | 山雀 |
+| 6531 | vaccine | 疫苗 |
+| 6532 | vinyl | 乙烯基 |
+| 6533 | westminster | 威斯敏斯特 |
+| 6534 | wished | 希望 |
+| 6535 | wonders | 奇迹 |
+| 6536 | accurately | 准确地 |
+| 6537 | adelaide | 阿德莱德 |
+| 6538 | affiliate | 附属机构 |
+| 6539 | alfred | 阿尔弗雷德 |
+| 6540 | asylum | 庇护 |
+| 6541 | barn | 谷仓 |
+| 6542 | bent | 弯曲 |
+| 6543 | brussels | 布鲁塞尔 |
+| 6544 | cathedral | 大教堂 |
+| 6545 | centered | 居中 |
+| 6546 | clause | 条款 |
+| 6547 | cluster | 集群 |
+| 6548 | complained | 抱怨 |
+| 6549 | compounds | 化合物 |
+| 6550 | consistency | 一致性 |
+| 6551 | cr | 铬 |
+| 6552 | cracked | 破裂的 |
+| 6553 | cylinder | 气缸 |
+| 6554 | dancer | 舞者 |
+| 6555 | deaf | 聋子 |
+| 6556 | debts | 债务 |
+| 6557 | denial | 否认 |
+| 6558 | digging | 挖掘 |
+| 6559 | dock | 码头 |
+| 6560 | entrepreneur | 企业家 |
+| 6561 | evident | 明显的 |
+| 6562 | expectation | 期望 |
+| 6563 | expedition | 远征 |
+| 6564 | expressing | 表达 |
+| 6565 | extends | 延伸 |
+| 6566 | facilitate | 促进 |
+| 6567 | failures | 失败 |
+| 6568 | feat | 壮举 |
+| 6569 | fossil | 化石 |
+| 6570 | founding | 创立 |
+| 6571 | freight | 货运 |
+| 6572 | generating | 生成 |
+| 6573 | goddamn | 该死的 |
+| 6574 | guides | 指南 |
+| 6575 | honesty | 诚实 |
+| 6576 | inappropriate | 不适当的 |
+| 6577 | infant | 婴儿 |
+| 6578 | initiated | 发起 |
+| 6579 | injection | 注射 |
+| 6580 | instrumental | 工具性的 |
+| 6581 | insult | 侮辱 |
+| 6582 | interference | 干扰 |
+| 6583 | interstate | 州际公路 |
+| 6584 | launching | 发射 |
+| 6585 | liking | 喜欢 |
+| 6586 | linux | 操作系统 |
+| 6587 | luis | 路易斯 |
+| 6588 | mates | 伙伴 |
+| 6589 | mediterranean | 地中海的 |
+| 6590 | neat | 整齐 |
+| 6591 | negotiate | 谈判 |
+| 6592 | neo | 新 |
+| 6593 | obligations | 义务 |
+| 6594 | offset | 偏移量 |
+| 6595 | outbreak | 爆发 |
+| 6596 | pal | 朋友 |
+| 6597 | palestine | 巴勒斯坦 |
+| 6598 | perfection | 完美 |
+| 6599 | pigs | 猪 |
+| 6600 | pirates | 海盗 |
 
 ### 6601～6700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6601 | thanksgiving | 6602 | thee | 6603 | thermal | 6604 | trades |
-| 6605 | transform | 6606 | witnessed | 6607 | workplace | 6608 | yelling |
-| 6609 | yorkshire | 6610 | achieving | 6611 | aliens | 6612 | amsterdam |
-| 6613 | analyst | 6614 | arabic | 6615 | arctic | 6616 | assists |
-| 6617 | bennett | 6618 | bristol | 6619 | burnt | 6620 | buyer |
-| 6621 | calories | 6622 | cannabis | 6623 | cease | 6624 | championships |
-| 6625 | chapel | 6626 | cloth | 6627 | conferences | 6628 | considers |
-| 6629 | container | 6630 | cowboys | 6631 | crushed | 6632 | deployed |
-| 6633 | differ | 6634 | dimensional | 6635 | eager | 6636 | elect |
-| 6637 | elevated | 6638 | essence | 6639 | executives | 6640 | flames |
-| 6641 | fork | 6642 | fur | 6643 | gps | 6644 | harold |
-| 6645 | harvest | 6646 | headline | 6647 | hudson | 6648 | hype |
-| 6649 | identifying | 6650 | impacts | 6651 | insist | 6652 | jo |
-| 6653 | junk | 6654 | kenny | 6655 | kidney | 6656 | ladder |
-| 6657 | lloyd | 6658 | lobby | 6659 | marc | 6660 | mechanisms |
-| 6661 | mineral | 6662 | mob | 6663 | modest | 6664 | motors |
-| 6665 | mph | 6666 | navigation | 6667 | nicholas | 6668 | orbit |
-| 6669 | paragraph | 6670 | passive | 6671 | peninsula | 6672 | phillips |
-| 6673 | pill | 6674 | pork | 6675 | portuguese | 6676 | profitable |
-| 6677 | provinces | 6678 | ranch | 6679 | rays | 6680 | reasonably |
-| 6681 | reject | 6682 | remainder | 6683 | schemes | 6684 | screens |
-| 6685 | seized | 6686 | semester | 6687 | sentiment | 6688 | servants |
-| 6689 | shipped | 6690 | socks | 6691 | sp | 6692 | sr |
-| 6693 | suited | 6694 | supplement | 6695 | surviving | 6696 | thereby |
-| 6697 | threshold | 6698 | til | 6699 | tin | 6700 | tires |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6601 | posters | 海报 |
+| 6602 | practicing | 练习 |
+| 6603 | praying | 祈祷 |
+| 6604 | probe | 探针 |
+| 6605 | prohibited | 禁止 |
+| 6606 | projected | 预计的 |
+| 6607 | propose | 提议 |
+| 6608 | quarterly | 每季 |
+| 6609 | recipes | 食谱 |
+| 6610 | recruiting | 招聘 |
+| 6611 | refusing | 拒绝 |
+| 6612 | rehabilitation | 康复 |
+| 6613 | reid | 里德 |
+| 6614 | remix | 混音 |
+| 6615 | resistant | 抵抗力 |
+| 6616 | riders | 骑手 |
+| 6617 | robots | 机器人 |
+| 6618 | rockets | 火箭 |
+| 6619 | roller | 滚筒 |
+| 6620 | sailing | 航行 |
+| 6621 | shapes | 形状 |
+| 6622 | skinny | 瘦的 |
+| 6623 | slipped | 滑倒了 |
+| 6624 | sneak | 潜行 |
+| 6625 | solving | 解决 |
+| 6626 | sore | 酸痛 |
+| 6627 | spark | 火花 |
+| 6628 | speculation | 猜测 |
+| 6629 | steep | 陡峭 |
+| 6630 | stevens | 史蒂文斯 |
+| 6631 | straw | 稻草 |
+| 6632 | successor | 继任者 |
+| 6633 | targeting | 瞄准 |
+| 6634 | triggered | 触发的 |
+| 6635 | troubles | 麻烦 |
+| 6636 | uncertain | 不确定的 |
+| 6637 | upload | 上传 |
+| 6638 | vector | 矢量 |
+| 6639 | violations | 违规行为 |
+| 6640 | weigh | 称重 |
+| 6641 | whatsoever | 无论如何 |
+| 6642 | wicked | 邪恶的 |
+| 6643 | abraham | 亚伯拉罕 |
+| 6644 | absent | 缺席 |
+| 6645 | acoustic | 声学的 |
+| 6646 | adapt | 适应 |
+| 6647 | ancestors | 祖先 |
+| 6648 | archive | 存档 |
+| 6649 | atomic | 原子的 |
+| 6650 | bean | 豆 |
+| 6651 | bicycle | 自行车 |
+| 6652 | bump | 凹凸 |
+| 6653 | buttons | 按钮 |
+| 6654 | cart | 购物车 |
+| 6655 | circus | 马戏团 |
+| 6656 | cocaine | 可卡因 |
+| 6657 | cohen | 科恩 |
+| 6658 | colleague | 同事 |
+| 6659 | compelling | 引人注目的 |
+| 6660 | compiled | 编译的 |
+| 6661 | complications | 并发症 |
+| 6662 | construct | 构建 |
+| 6663 | cord | 绳索 |
+| 6664 | crowded | 拥挤 |
+| 6665 | cyber | 网络 |
+| 6666 | debates | 辩论 |
+| 6667 | defendant | 被告 |
+| 6668 | delays | 延误 |
+| 6669 | dense | 稠密的 |
+| 6670 | desperately | 拼命地 |
+| 6671 | doctrine | 学说 |
+| 6672 | expose | 暴露 |
+| 6673 | financially | 财务上 |
+| 6674 | freshman | 新生 |
+| 6675 | furious | 愤怒的 |
+| 6676 | gameplay | 游戏玩法 |
+| 6677 | geography | 地理 |
+| 6678 | gig | 演出 |
+| 6679 | habitat | 栖息地 |
+| 6680 | harbour | 港口 |
+| 6681 | hazard | 危险 |
+| 6682 | hydrogen | 氢 |
+| 6683 | implies | 意味着 |
+| 6684 | intact | 完好无损 |
+| 6685 | intake | 摄入量 |
+| 6686 | irrelevant | 不相关的 |
+| 6687 | jaw | 下巴 |
+| 6688 | jin | 劲 |
+| 6689 | kitty | 小猫 |
+| 6690 | lauren | 劳伦 |
+| 6691 | lawn | 草坪 |
+| 6692 | manufacture | 制造 |
+| 6693 | medals | 奖牌 |
+| 6694 | mistaken | 误会 |
+| 6695 | moses | 摩西 |
+| 6696 | nashville | 纳什维尔 |
+| 6697 | nebraska | 内布拉斯加州 |
+| 6698 | needle | 针 |
+| 6699 | ol | 奥尔 |
+| 6700 | olds | 老人 |
 
 ### 6701～6800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6701 | tribal | 6702 | tribes | 6703 | trunk | 6704 | uncertainty |
-| 6705 | vampire | 6706 | varied | 6707 | verdict | 6708 | abandon |
-| 6709 | accommodate | 6710 | accordingly | 6711 | aesthetic | 6712 | algorithm |
-| 6713 | altered | 6714 | anchor | 6715 | angela | 6716 | apr |
-| 6717 | arch | 6718 | associations | 6719 | au | 6720 | audiences |
-| 6721 | axis | 6722 | badge | 6723 | bernard | 6724 | bizarre |
-| 6725 | bounce | 6726 | broadcasting | 6727 | bs | 6728 | bullets |
-| 6729 | buses | 6730 | cannon | 6731 | carol | 6732 | carriers |
-| 6733 | chairs | 6734 | cleaned | 6735 | complexity | 6736 | confusing |
-| 6737 | consultation | 6738 | continental | 6739 | convenience | 6740 | deliberately |
-| 6741 | diamonds | 6742 | diana | 6743 | dictionary | 6744 | dignity |
-| 6745 | dimension | 6746 | disappointing | 6747 | diving | 6748 | doug |
-| 6749 | duncan | 6750 | ego | 6751 | enthusiasm | 6752 | environments |
-| 6753 | equation | 6754 | extract | 6755 | favorites | 6756 | ferry |
-| 6757 | fisher | 6758 | flexibility | 6759 | flowing | 6760 | fm |
-| 6761 | fridge | 6762 | functioning | 6763 | fusion | 6764 | gauge |
-| 6765 | goat | 6766 | graduates | 6767 | gut | 6768 | heck |
-| 6769 | helmet | 6770 | holders | 6771 | ideology | 6772 | idiots |
-| 6773 | inclusion | 6774 | initiatives | 6775 | innings | 6776 | insects |
-| 6777 | instructor | 6778 | isolation | 6779 | ive | 6780 | justified |
-| 6781 | keeper | 6782 | lamb | 6783 | liar | 6784 | machinery |
-| 6785 | mansion | 6786 | mega | 6787 | mercury | 6788 | namely |
-| 6789 | nbc | 6790 | needing | 6791 | nerves | 6792 | nhl |
-| 6793 | observations | 6794 | ordering | 6795 | palmer | 6796 | paths |
-| 6797 | peers | 6798 | pending | 6799 | platinum | 6800 | possess |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6701 | organize | 组织 |
+| 6702 | ottawa | 渥太华 |
+| 6703 | oval | 椭圆形 |
+| 6704 | pity | 可惜 |
+| 6705 | pond | 池塘 |
+| 6706 | porter | 搬运工 |
+| 6707 | portions | 部分 |
+| 6708 | prey | 猎物 |
+| 6709 | prophet | 先知 |
+| 6710 | raymond | 雷蒙德 |
+| 6711 | recalled | 回忆起 |
+| 6712 | reduces | 减少 |
+| 6713 | referendum | 公投 |
+| 6714 | refugee | 难民 |
+| 6715 | regulated | 受监管的 |
+| 6716 | rounded | 圆形的 |
+| 6717 | ruby | 红宝石 |
+| 6718 | rushed | 冲 |
+| 6719 | satisfy | 满足 |
+| 6720 | scales | 鳞片 |
+| 6721 | seasonal | 季节性的 |
+| 6722 | segments | 段 |
+| 6723 | sensible | 明智的 |
+| 6724 | sequel | 续集 |
+| 6725 | shifted | 转移 |
+| 6726 | shifting | 转移 |
+| 6727 | shining | 闪亮 |
+| 6728 | slower | 较慢 |
+| 6729 | spinning | 纺纱 |
+| 6730 | stanford | 斯坦福大学 |
+| 6731 | stepping | 迈步 |
+| 6732 | teammates | 队友 |
+| 6733 | touches | 触摸 |
+| 6734 | township | 乡镇 |
+| 6735 | travelled | 旅行过 |
+| 6736 | twisted | 扭曲的 |
+| 6737 | usb | USB |
+| 6738 | vienna | 维也纳 |
+| 6739 | whale | 鲸鱼 |
+| 6740 | writings | 著作 |
+| 6741 | admire | 佩服 |
+| 6742 | af | AF |
+| 6743 | amber | 琥珀色 |
+| 6744 | ankle | 脚踝 |
+| 6745 | armor | 盔甲 |
+| 6746 | autism | 自闭症 |
+| 6747 | bachelor | 学士 |
+| 6748 | berry | 浆果 |
+| 6749 | billions | 数十亿 |
+| 6750 | brady | 布雷迪 |
+| 6751 | brisbane | 布里斯班 |
+| 6752 | bulls | 公牛队 |
+| 6753 | bullying | 欺凌 |
+| 6754 | capitalism | 资本主义 |
+| 6755 | caution | 小心 |
+| 6756 | certification | 认证 |
+| 6757 | characteristic | 特点 |
+| 6758 | clan | 氏族 |
+| 6759 | clash | 冲突 |
+| 6760 | columns | 列 |
+| 6761 | compatible | 兼容 |
+| 6762 | concerts | 音乐会 |
+| 6763 | condemned | 谴责 |
+| 6764 | configuration | 配置 |
+| 6765 | continuously | 不断地 |
+| 6766 | convincing | 令人信服的 |
+| 6767 | coupled | 耦合的 |
+| 6768 | curiosity | 好奇心 |
+| 6769 | delight | 喜悦 |
+| 6770 | determining | 确定 |
+| 6771 | entities | 实体 |
+| 6772 | exceptions | 例外情况 |
+| 6773 | explosive | 爆炸物 |
+| 6774 | flooding | 洪水 |
+| 6775 | fortunate | 幸运的 |
+| 6776 | fortunately | 幸运的是 |
+| 6777 | foundations | 基础 |
+| 6778 | frontier | 边境 |
+| 6779 | frustrating | 令人沮丧的 |
+| 6780 | frustration | 挫败感 |
+| 6781 | geographic | 地理的 |
+| 6782 | grande | 格兰德 |
+| 6783 | grasp | 把握 |
+| 6784 | handy | 方便 |
+| 6785 | hardcore | 铁杆 |
+| 6786 | harmful | 有害的 |
+| 6787 | headache | 头痛 |
+| 6788 | hers | 她的 |
+| 6789 | hispanic | 西班牙裔 |
+| 6790 | incentive | 激励 |
+| 6791 | inclusive | 包容性 |
+| 6792 | infections | 感染 |
+| 6793 | jackie | 杰基 |
+| 6794 | joel | 乔尔 |
+| 6795 | kissing | 接吻 |
+| 6796 | lanes | 车道 |
+| 6797 | licence | 许可证 |
+| 6798 | lungs | 肺 |
+| 6799 | madness | 疯狂 |
+| 6800 | mandate | 授权 |
 
 ### 6801～6900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6801 | praised | 6802 | premises | 6803 | probability | 6804 | ps |
-| 6805 | questioned | 6806 | refuses | 6807 | resignation | 6808 | rider |
-| 6809 | ritual | 6810 | ruins | 6811 | shelf | 6812 | slam |
-| 6813 | stakes | 6814 | starter | 6815 | sticking | 6816 | subscribe |
-| 6817 | superman | 6818 | surfaces | 6819 | ta | 6820 | territories |
-| 6821 | tire | 6822 | tl | 6823 | towers | 6824 | transfers |
-| 6825 | utterly | 6826 | voltage | 6827 | warn | 6828 | width |
-| 6829 | workout | 6830 | aa | 6831 | abu | 6832 | activated |
-| 6833 | adaptation | 6834 | advisor | 6835 | aluminum | 6836 | apartments |
-| 6837 | attitudes | 6838 | attorneys | 6839 | bail | 6840 | barriers |
-| 6841 | belonged | 6842 | bradley | 6843 | brandon | 6844 | broader |
-| 6845 | buck | 6846 | cal | 6847 | caroline | 6848 | characterized |
-| 6849 | civilization | 6850 | congrats | 6851 | contractors | 6852 | creativity |
-| 6853 | dealers | 6854 | delicate | 6855 | den | 6856 | derek |
-| 6857 | desires | 6858 | disappointment | 6859 | disk | 6860 | enters |
-| 6861 | evaluate | 6862 | formally | 6863 | frames | 6864 | goddess |
-| 6865 | gov | 6866 | hampshire | 6867 | harassment | 6868 | hats |
-| 6869 | hugh | 6870 | insert | 6871 | joan | 6872 | lebanon |
-| 6873 | leeds | 6874 | legit | 6875 | leonard | 6876 | liquor |
-| 6877 | loser | 6878 | malcolm | 6879 | massage | 6880 | matched |
-| 6881 | messed | 6882 | milwaukee | 6883 | musician | 6884 | nato |
-| 6885 | nephew | 6886 | notably | 6887 | orchestra | 6888 | oz |
-| 6889 | packages | 6890 | pad | 6891 | pakistani | 6892 | participated |
-| 6893 | precision | 6894 | preservation | 6895 | priests | 6896 | privately |
-| 6897 | prizes | 6898 | pulls | 6899 | qualifying | 6900 | reasoning |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6801 | manga | 漫画 |
+| 6802 | memorable | 难忘的 |
+| 6803 | merger | 合并 |
+| 6804 | minorities | 少数民族 |
+| 6805 | occurring | 发生 |
+| 6806 | organizing | 组织 |
+| 6807 | performs | 执行 |
+| 6808 | ph | 酸碱度 |
+| 6809 | po | 婆 |
+| 6810 | poker | 扑克 |
+| 6811 | portable | 便携式 |
+| 6812 | priced | 定价 |
+| 6813 | quebec | 魁北克 |
+| 6814 | randomly | 随机地 |
+| 6815 | rankings | 排名 |
+| 6816 | realizing | 实现 |
+| 6817 | resign | 辞职 |
+| 6818 | revealing | 揭示 |
+| 6819 | rico | 里科 |
+| 6820 | robbery | 抢劫 |
+| 6821 | rub | 擦 |
+| 6822 | runners | 跑步者 |
+| 6823 | scattered | 分散的 |
+| 6824 | scout | 侦察兵 |
+| 6825 | searched | 搜索过 |
+| 6826 | sexuality | 性欲 |
+| 6827 | shouting | 喊叫 |
+| 6828 | slap | 巴掌 |
+| 6829 | steak | 牛排 |
+| 6830 | succession | 继承 |
+| 6831 | superintendent | 主管 |
+| 6832 | suspicion | 怀疑 |
+| 6833 | sweep | 扫 |
+| 6834 | tactical | 战术的 |
+| 6835 | talents | 人才 |
+| 6836 | therapist | 治疗师 |
+| 6837 | thereafter | 此后 |
+| 6838 | thorough | 彻底 |
+| 6839 | tuition | 学费 |
+| 6840 | tumor | 肿瘤 |
+| 6841 | usd | 美元 |
+| 6842 | variables | 变量 |
+| 6843 | varying | 变化的 |
+| 6844 | wholesale | 批发 |
+| 6845 | administered | 管理的 |
+| 6846 | affiliated | 附属的 |
+| 6847 | apples | 苹果 |
+| 6848 | architectural | 建筑学 |
+| 6849 | artillery | 火炮 |
+| 6850 | assembled | 组装的 |
+| 6851 | barack | 巴拉克 |
+| 6852 | beaches | 海滩 |
+| 6853 | bees | 蜜蜂 |
+| 6854 | boarding | 登机 |
+| 6855 | bothered | 烦恼 |
+| 6856 | canvas | 画布 |
+| 6857 | canyon | 峡谷 |
+| 6858 | casey | 凯西 |
+| 6859 | cheek | 脸颊 |
+| 6860 | chen | 陈 |
+| 6861 | cincinnati | 辛辛那提 |
+| 6862 | circular | 圆形 |
+| 6863 | circulation | 循环 |
+| 6864 | clearance | 清关 |
+| 6865 | closes | 关闭 |
+| 6866 | coincidence | 巧合 |
+| 6867 | comedian | 喜剧演员 |
+| 6868 | commands | 命令 |
+| 6869 | commissioned | 委托 |
+| 6870 | concentrated | 集中 |
+| 6871 | conscience | 良心 |
+| 6872 | cooler | 冷却器 |
+| 6873 | countless | 无数 |
+| 6874 | curry | 咖喱 |
+| 6875 | dame | 女士 |
+| 6876 | deceased | 死者 |
+| 6877 | dedication | 奉献 |
+| 6878 | defining | 定义 |
+| 6879 | detention | 拘留 |
+| 6880 | disputes | 纠纷 |
+| 6881 | drake | 德雷克 |
+| 6882 | employ | 雇用 |
+| 6883 | enforce | 执行 |
+| 6884 | explicit | 明确的 |
+| 6885 | explicitly | 明确地 |
+| 6886 | eyed | 有眼睛的 |
+| 6887 | florence | 佛罗伦萨 |
+| 6888 | flu | 流感 |
+| 6889 | forbidden | 禁止的 |
+| 6890 | fraction | 分数 |
+| 6891 | hes | 他 |
+| 6892 | infantry | 步兵 |
+| 6893 | integral | 积分 |
+| 6894 | investor | 投资者 |
+| 6895 | judged | 判断的 |
+| 6896 | katie | 凯蒂 |
+| 6897 | kidnapped | 被绑架 |
+| 6898 | lectures | 讲座 |
+| 6899 | lightly | 轻轻地 |
+| 6900 | linking | 链接 |
 
 ### 6901～7000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 6901 | relaxed | 6902 | reporters | 6903 | roses | 6904 | rumors |
-| 6905 | sail | 6906 | salmon | 6907 | secretly | 6908 | seller |
-| 6909 | sen | 6910 | seo | 6911 | sheer | 6912 | shifts |
-| 6913 | simpson | 6914 | smallest | 6915 | specially | 6916 | stark |
-| 6917 | struggled | 6918 | sympathy | 6919 | tan | 6920 | teenagers |
-| 6921 | theoretical | 6922 | thumb | 6923 | timber | 6924 | transparent |
-| 6925 | travis | 6926 | tweets | 6927 | tx | 6928 | upside |
-| 6929 | urged | 6930 | visitor | 6931 | vitamin | 6932 | void |
-| 6933 | voluntary | 6934 | wheat | 6935 | whip | 6936 | wipe |
-| 6937 | wolves | 6938 | wrist | 6939 | abused | 6940 | acute |
-| 6941 | admiral | 6942 | amanda | 6943 | arnold | 6944 | arrange |
-| 6945 | banana | 6946 | behave | 6947 | betting | 6948 | blair |
-| 6949 | bo | 6950 | borrow | 6951 | camping | 6952 | capitol |
-| 6953 | celtic | 6954 | chan | 6955 | chin | 6956 | civic |
-| 6957 | clerk | 6958 | conclusions | 6959 | considerably | 6960 | contacted |
-| 6961 | cottage | 6962 | coup | 6963 | criticized | 6964 | crude |
-| 6965 | dash | 6966 | decreased | 6967 | defended | 6968 | demons |
-| 6969 | deposits | 6970 | disclosure | 6971 | disposal | 6972 | distinctive |
-| 6973 | documented | 6974 | donation | 6975 | dragged | 6976 | drone |
-| 6977 | encounters | 6978 | ensuring | 6979 | enterprises | 6980 | escort |
-| 6981 | exams | 6982 | firmly | 6983 | flour | 6984 | gdp |
-| 6985 | geneva | 6986 | hindu | 6987 | holdings | 6988 | indie |
-| 6989 | indirect | 6990 | inspire | 6991 | institutional | 6992 | interim |
-| 6993 | interviewed | 6994 | java | 6995 | jefferson | 6996 | jerk |
-| 6997 | karl | 6998 | kindly | 6999 | kindness | 7000 | leaked |
+| No. | Word | 中文 |
+|---:|---|---|
+| 6901 | maintains | 维持 |
+| 6902 | marble | 大理石 |
+| 6903 | maritime | 海事的 |
+| 6904 | melt | 融化 |
+| 6905 | modes | 模式 |
+| 6906 | mumbai | 孟买 |
+| 6907 | nominee | 被提名者 |
+| 6908 | oath | 誓言 |
+| 6909 | offence | 进攻 |
+| 6910 | packaging | 包装 |
+| 6911 | patriots | 爱国者 |
+| 6912 | pee | 撒尿 |
+| 6913 | pillow | 枕头 |
+| 6914 | pirate | 海盗 |
+| 6915 | polar | 极地 |
+| 6916 | prediction | 预测 |
+| 6917 | preview | 预览 |
+| 6918 | processed | 加工过的 |
+| 6919 | pursuing | 追求 |
+| 6920 | puzzle | 拼图 |
+| 6921 | rapper | 说唱歌手 |
+| 6922 | reconstruction | 重建 |
+| 6923 | renowned | 著名的 |
+| 6924 | revelation | 启示录 |
+| 6925 | scholar | 学者 |
+| 6926 | sharks | 鲨鱼 |
+| 6927 | shoots | 芽 |
+| 6928 | skirt | 裙子 |
+| 6929 | socially | 社交上 |
+| 6930 | spa | 水疗中心 |
+| 6931 | spike | 尖峰 |
+| 6932 | sprint | 冲刺 |
+| 6933 | stir | 搅拌 |
+| 6934 | stuffed | 填充的 |
+| 6935 | substantially | 实质上 |
+| 6936 | suburbs | 郊区 |
+| 6937 | superb | 极好的 |
+| 6938 | supposedly | 据推测 |
+| 6939 | tab | 选项卡 |
+| 6940 | tendency | 趋势 |
+| 6941 | theirs | 他们的 |
+| 6942 | toast | 吐司 |
+| 6943 | toes | 脚趾 |
+| 6944 | touchdown | 达阵 |
+| 6945 | traits | 特质 |
+| 6946 | trek | 长途跋涉 |
+| 6947 | tricky | 棘手的 |
+| 6948 | triumph | 胜利 |
+| 6949 | uber | 优步 |
+| 6950 | underwear | 内衣 |
+| 6951 | unto | 至 |
+| 6952 | viable | 可行的 |
+| 6953 | waist | 腰 |
+| 6954 | welcomed | 欢迎 |
+| 6955 | wit | 机智 |
+| 6956 | wreck | 沉船 |
+| 6957 | absurd | 荒谬的 |
+| 6958 | accessories | 配件 |
+| 6959 | advocates | 倡导者 |
+| 6960 | ag | 股份公司 |
+| 6961 | ambitious | 雄心勃勃的 |
+| 6962 | amid | 之中 |
+| 6963 | annoyed | 生气 |
+| 6964 | appealing | 吸引人的 |
+| 6965 | appointments | 约会 |
+| 6966 | assumptions | 假设 |
+| 6967 | ballet | 芭蕾舞 |
+| 6968 | bargain | 讨价还价 |
+| 6969 | binary | 二进制 |
+| 6970 | blend | 混合 |
+| 6971 | blogs | 博客 |
+| 6972 | brake | 刹车 |
+| 6973 | builds | 构建 |
+| 6974 | businessman | 商人 |
+| 6975 | cab | 驾驶室 |
+| 6976 | ch | ch |
+| 6977 | chi | 气 |
+| 6978 | col | 坳 |
+| 6979 | collision | 碰撞 |
+| 6980 | compassion | 同情心 |
+| 6981 | consumed | 消耗的 |
+| 6982 | corrected | 已纠正 |
+| 6983 | correction | 修正 |
+| 6984 | cough | 咳嗽 |
+| 6985 | cousins | 表兄弟姐妹 |
+| 6986 | critic | 批评家 |
+| 6987 | defenders | 捍卫者 |
+| 6988 | denying | 否认 |
+| 6989 | depot | 仓库 |
+| 6990 | distress | 苦恼 |
+| 6991 | documentation | 文档 |
+| 6992 | doubts | 疑虑 |
+| 6993 | dramatically | 戏剧性地 |
+| 6994 | drank | 喝了 |
+| 6995 | eats | 吃 |
+| 6996 | elegant | 优雅的 |
+| 6997 | elevator | 电梯 |
+| 6998 | exchanges | 交流 |
+| 6999 | excuses | 借口 |
+| 7000 | execute | 执行 |
 
 ### 7001～7100
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7001 | locals | 7002 | lottery | 7003 | louise | 7004 | magnitude |
-| 7005 | mc | 7006 | minus | 7007 | nhs | 7008 | noting |
-| 7009 | organs | 7010 | outlet | 7011 | outlets | 7012 | parameters |
-| 7013 | pause | 7014 | pledge | 7015 | portal | 7016 | prescription |
-| 7017 | protesters | 7018 | proving | 7019 | publicity | 7020 | punished |
-| 7021 | puppy | 7022 | recruitment | 7023 | screwed | 7024 | shades |
-| 7025 | shakespeare | 7026 | silicon | 7027 | slice | 7028 | spelling |
-| 7029 | spurs | 7030 | subscribers | 7031 | surveys | 7032 | survivor |
-| 7033 | telegraph | 7034 | tits | 7035 | vaccine | 7036 | vinyl |
-| 7037 | westminster | 7038 | wished | 7039 | wonders | 7040 | accurately |
-| 7041 | adelaide | 7042 | affiliate | 7043 | alfred | 7044 | asylum |
-| 7045 | barn | 7046 | bent | 7047 | bernie | 7048 | brussels |
-| 7049 | cathedral | 7050 | centered | 7051 | clause | 7052 | cluster |
-| 7053 | complained | 7054 | compounds | 7055 | consistency | 7056 | cr |
-| 7057 | cracked | 7058 | cylinder | 7059 | dancer | 7060 | deaf |
-| 7061 | debts | 7062 | denial | 7063 | digging | 7064 | dock |
-| 7065 | entrepreneur | 7066 | evident | 7067 | expectation | 7068 | expedition |
-| 7069 | expressing | 7070 | extends | 7071 | facilitate | 7072 | failures |
-| 7073 | feat | 7074 | fossil | 7075 | founding | 7076 | freight |
-| 7077 | generating | 7078 | goddamn | 7079 | guides | 7080 | honesty |
-| 7081 | inappropriate | 7082 | infant | 7083 | initiated | 7084 | injection |
-| 7085 | instrumental | 7086 | insult | 7087 | interference | 7088 | interstate |
-| 7089 | julian | 7090 | launching | 7091 | liking | 7092 | linux |
-| 7093 | luis | 7094 | mates | 7095 | mediterranean | 7096 | neat |
-| 7097 | negotiate | 7098 | neo | 7099 | nicole | 7100 | obligations |
+| No. | Word | 中文 |
+|---:|---|---|
+| 7001 | factories | 工厂 |
+| 7002 | feast | 盛宴 |
+| 7003 | frost | 霜 |
+| 7004 | herald | 先驱报 |
+| 7005 | hike | 远足 |
+| 7006 | hollow | 空心的 |
+| 7007 | homeland | 祖国 |
+| 7008 | imported | 进口的 |
+| 7009 | ing | 英 |
+| 7010 | internationally | 国际化 |
+| 7011 | kane | 凯恩 |
+| 7012 | kissed | 亲吻 |
+| 7013 | lame | 跛脚的 |
+| 7014 | licensing | 许可 |
+| 7015 | limiting | 限制 |
+| 7016 | locker | 储物柜 |
+| 7017 | mainland | 大陆 |
+| 7018 | marking | 标记 |
+| 7019 | meditation | 冥想 |
+| 7020 | messenger | 使者 |
+| 7021 | metals | 金属 |
+| 7022 | missiles | 导弹 |
+| 7023 | munich | 慕尼黑 |
+| 7024 | norwegian | 挪威语 |
+| 7025 | pencil | 铅笔 |
+| 7026 | philosophical | 哲学的 |
+| 7027 | pierre | 皮埃尔 |
+| 7028 | pipes | 管道 |
+| 7029 | plasma | 等离子 |
+| 7030 | plea | 恳求 |
+| 7031 | punish | 惩罚 |
+| 7032 | purse | 钱包 |
+| 7033 | quarterback | 四分卫 |
+| 7034 | ref | 参考 |
+| 7035 | relieved | 松了口气 |
+| 7036 | replies | 回复 |
+| 7037 | reservation | 预订 |
+| 7038 | rhetoric | 修辞学 |
+| 7039 | rivals | 竞争对手 |
+| 7040 | rushing | 冲 |
+| 7041 | salvation | 救赎 |
+| 7042 | sanctions | 制裁 |
+| 7043 | secular | 世俗的 |
+| 7044 | sensitivity | 灵敏度 |
+| 7045 | sigh | 叹息 |
+| 7046 | sixteen | 十六 |
+| 7047 | sovereign | 主权 |
+| 7048 | specifications | 规格 |
+| 7049 | spends | 花费 |
+| 7050 | spouse | 配偶 |
+| 7051 | stat | 统计数据 |
+| 7052 | supervisor | 主管 |
+| 7053 | synthetic | 合成的 |
+| 7054 | teaches | 教 |
+| 7055 | tense | 紧张 |
+| 7056 | terrifying | 可怕的 |
+| 7057 | tracked | 被跟踪的 |
+| 7058 | traders | 贸易商 |
+| 7059 | troy | 特洛伊 |
+| 7060 | varieties | 品种 |
+| 7061 | vegan | 素食主义者 |
+| 7062 | waking | 醒来 |
+| 7063 | wang | 王 |
+| 7064 | wilderness | 荒野 |
+| 7065 | admits | 承认 |
+| 7066 | adviser | 顾问 |
+| 7067 | aggregate | 聚合 |
+| 7068 | anal | 肛门 |
+| 7069 | anatomy | 解剖学 |
+| 7070 | annie | 安妮 |
+| 7071 | announces | 宣布 |
+| 7072 | applicants | 申请人 |
+| 7073 | automobile | 汽车 |
+| 7074 | breasts | 乳房 |
+| 7075 | cement | 水泥 |
+| 7076 | chess | 国际象棋 |
+| 7077 | citing | 引用 |
+| 7078 | composite | 复合材料 |
+| 7079 | consequently | 因此 |
+| 7080 | consist | 组成 |
+| 7081 | councils | 理事会 |
+| 7082 | decorated | 装饰的 |
+| 7083 | delegates | 代表们 |
+| 7084 | dreaming | 做梦 |
+| 7085 | dull | 沉闷的 |
+| 7086 | enables | 使 |
+| 7087 | fare | 票价 |
+| 7088 | fashioned | 成型的 |
+| 7089 | feared | 害怕 |
+| 7090 | float | 浮动 |
+| 7091 | generator | 发电机 |
+| 7092 | grind | 磨 |
+| 7093 | grinding | 磨削 |
+| 7094 | grove | 格罗夫 |
+| 7095 | guessing | 猜测 |
+| 7096 | gum | 口香糖 |
+| 7097 | hobby | 爱好 |
+| 7098 | hunters | 猎人 |
+| 7099 | idol | 偶像 |
+| 7100 | illusion | 错觉 |
 
 ### 7101～7200
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7101 | offset | 7102 | outbreak | 7103 | pal | 7104 | palestine |
-| 7105 | perfection | 7106 | pigs | 7107 | pirates | 7108 | posters |
-| 7109 | practicing | 7110 | praying | 7111 | probe | 7112 | prohibited |
-| 7113 | projected | 7114 | propose | 7115 | quarterly | 7116 | recipes |
-| 7117 | recruiting | 7118 | refusing | 7119 | rehabilitation | 7120 | reid |
-| 7121 | remix | 7122 | resistant | 7123 | reynolds | 7124 | riders |
-| 7125 | robots | 7126 | rockets | 7127 | roller | 7128 | sailing |
-| 7129 | shapes | 7130 | skinny | 7131 | slipped | 7132 | sneak |
-| 7133 | solving | 7134 | sore | 7135 | spark | 7136 | speculation |
-| 7137 | steep | 7138 | stevens | 7139 | straw | 7140 | successor |
-| 7141 | targeting | 7142 | triggered | 7143 | troubles | 7144 | uncertain |
-| 7145 | upload | 7146 | vector | 7147 | violations | 7148 | weigh |
-| 7149 | whatsoever | 7150 | wicked | 7151 | abraham | 7152 | absent |
-| 7153 | acoustic | 7154 | adapt | 7155 | ancestors | 7156 | archive |
-| 7157 | atomic | 7158 | bean | 7159 | bicycle | 7160 | bryan |
-| 7161 | bump | 7162 | buttons | 7163 | cart | 7164 | circus |
-| 7165 | claire | 7166 | cocaine | 7167 | cohen | 7168 | colleague |
-| 7169 | compelling | 7170 | compiled | 7171 | complications | 7172 | construct |
-| 7173 | cord | 7174 | crowded | 7175 | cyber | 7176 | dale |
-| 7177 | debates | 7178 | defendant | 7179 | delays | 7180 | dense |
-| 7181 | desperately | 7182 | doctrine | 7183 | expose | 7184 | financially |
-| 7185 | freshman | 7186 | furious | 7187 | gameplay | 7188 | geography |
-| 7189 | gig | 7190 | habitat | 7191 | harbour | 7192 | hazard |
-| 7193 | hydrogen | 7194 | implies | 7195 | intact | 7196 | intake |
-| 7197 | irrelevant | 7198 | jaw | 7199 | jin | 7200 | kitty |
+| No. | Word | 中文 |
+|---:|---|---|
+| 7101 | incorrect | 不正确 |
+| 7102 | jun | 君 |
+| 7103 | junction | 交界处 |
+| 7104 | leap | 飞跃 |
+| 7105 | locate | 定位 |
+| 7106 | locks | 锁 |
+| 7107 | lou | 楼 |
+| 7108 | lynch | 林奇 |
+| 7109 | manages | 管理 |
+| 7110 | masses | 群众 |
+| 7111 | medicare | 医疗保险 |
+| 7112 | modeling | 建模 |
+| 7113 | motive | 动机 |
+| 7114 | nazis | 纳粹分子 |
+| 7115 | neighbourhood | 邻里 |
+| 7116 | networking | 网络 |
+| 7117 | newer | 较新的 |
+| 7118 | newton | 牛顿 |
+| 7119 | oppose | 反对 |
+| 7120 | optimal | 最优的 |
+| 7121 | overtime | 加班 |
+| 7122 | packs | 包 |
+| 7123 | permits | 许可 |
+| 7124 | pops | 持久性有机污染物 |
+| 7125 | postal | 邮政 |
+| 7126 | predictions | 预测 |
+| 7127 | prep | 准备 |
+| 7128 | profound | 深刻 |
+| 7129 | prosecutor | 检察官 |
+| 7130 | rebellion | 叛乱 |
+| 7131 | recipient | 收件人 |
+| 7132 | refund | 退款 |
+| 7133 | remembering | 回忆 |
+| 7134 | rescued | 获救 |
+| 7135 | risky | 有风险的 |
+| 7136 | robust | 稳健的 |
+| 7137 | scam | 骗局 |
+| 7138 | sci | 科学 |
+| 7139 | sep | 九月 |
+| 7140 | shareholders | 股东 |
+| 7141 | sided | 双面的 |
+| 7142 | simulation | 模拟 |
+| 7143 | sober | 清醒的 |
+| 7144 | spice | 香料 |
+| 7145 | squeeze | 挤压 |
+| 7146 | storms | 风暴 |
+| 7147 | supervision | 监督 |
+| 7148 | suspects | 嫌疑人 |
+| 7149 | swap | 交换 |
+| 7150 | swept | 横扫 |
+| 7151 | terrain | 地形 |
+| 7152 | terrified | 害怕 |
+| 7153 | themed | 主题的 |
+| 7154 | threaten | 威胁 |
+| 7155 | thrilled | 激动 |
+| 7156 | towel | 毛巾 |
+| 7157 | trio | 三人组 |
+| 7158 | tubes | 管 |
+| 7159 | unconscious | 无意识的 |
+| 7160 | und | 和 |
+| 7161 | varies | 各不相同 |
+| 7162 | vegetable | 蔬菜 |
+| 7163 | verified | 已验证 |
+| 7164 | vibe | 氛围 |
+| 7165 | virtue | 美德 |
+| 7166 | wifi | 无线网络 |
+| 7167 | wishing | 许愿 |
+| 7168 | workforce | 劳动力 |
+| 7169 | zombie | 僵尸 |
+| 7170 | acre | 英亩 |
+| 7171 | airports | 机场 |
+| 7172 | amen | 阿门 |
+| 7173 | andrews | 安德鲁斯 |
+| 7174 | arise | 出现 |
+| 7175 | ashes | 骨灰 |
+| 7176 | automotive | 汽车 |
+| 7177 | battlefield | 战场 |
+| 7178 | begging | 乞讨 |
+| 7179 | berkeley | 伯克利 |
+| 7180 | bloom | 绽放 |
+| 7181 | bore | 钻孔 |
+| 7182 | bundle | 束 |
+| 7183 | butterfly | 蝴蝶 |
+| 7184 | buys | 买 |
+| 7185 | casualties | 伤亡 |
+| 7186 | catches | 捕获物 |
+| 7187 | clown | 小丑 |
+| 7188 | committees | 委员会 |
+| 7189 | conjunction | 连词 |
+| 7190 | costly | 昂贵的 |
+| 7191 | cows | 奶牛 |
+| 7192 | cries | 哭泣 |
+| 7193 | cuban | 古巴人 |
+| 7194 | cycles | 周期 |
+| 7195 | darker | 较暗 |
+| 7196 | davies | 戴维斯 |
+| 7197 | descent | 血统 |
+| 7198 | desktop | 桌面 |
+| 7199 | dial | 拨号 |
+| 7200 | directory | 目录 |
 
 ### 7201～7300
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7201 | lauren | 7202 | lawn | 7203 | manufacture | 7204 | martha |
-| 7205 | medals | 7206 | mercedes | 7207 | mistaken | 7208 | moses |
-| 7209 | nashville | 7210 | nebraska | 7211 | needle | 7212 | ol |
-| 7213 | olds | 7214 | organize | 7215 | ottawa | 7216 | oval |
-| 7217 | pity | 7218 | pond | 7219 | porter | 7220 | portions |
-| 7221 | prey | 7222 | prophet | 7223 | raymond | 7224 | recalled |
-| 7225 | reduces | 7226 | referendum | 7227 | refugee | 7228 | regulated |
-| 7229 | rounded | 7230 | ruby | 7231 | rushed | 7232 | sanders |
-| 7233 | satisfy | 7234 | scales | 7235 | seasonal | 7236 | segments |
-| 7237 | sensible | 7238 | sequel | 7239 | shifted | 7240 | shifting |
-| 7241 | shining | 7242 | slower | 7243 | spinning | 7244 | stanford |
-| 7245 | stepping | 7246 | teammates | 7247 | touches | 7248 | township |
-| 7249 | travelled | 7250 | twisted | 7251 | usb | 7252 | vienna |
-| 7253 | wade | 7254 | whale | 7255 | writings | 7256 | admire |
-| 7257 | af | 7258 | amber | 7259 | ankle | 7260 | armor |
-| 7261 | autism | 7262 | bachelor | 7263 | berry | 7264 | billions |
-| 7265 | brady | 7266 | brisbane | 7267 | bulls | 7268 | bullying |
-| 7269 | capitalism | 7270 | caution | 7271 | certification | 7272 | characteristic |
-| 7273 | clan | 7274 | clash | 7275 | columns | 7276 | compatible |
-| 7277 | concerts | 7278 | condemned | 7279 | configuration | 7280 | continuously |
-| 7281 | convincing | 7282 | coupled | 7283 | curiosity | 7284 | delight |
-| 7285 | determining | 7286 | entities | 7287 | exceptions | 7288 | explosive |
-| 7289 | flooding | 7290 | fortunate | 7291 | fortunately | 7292 | foundations |
-| 7293 | frontier | 7294 | frustrating | 7295 | frustration | 7296 | geographic |
-| 7297 | glenn | 7298 | grande | 7299 | grasp | 7300 | handy |
+| No. | Word | 中文 |
+|---:|---|---|
+| 7201 | disabilities | 残疾 |
+| 7202 | discharge | 放电 |
+| 7203 | discusses | 讨论 |
+| 7204 | dodge | 闪避 |
+| 7205 | downs | 唐斯 |
+| 7206 | drilling | 钻孔 |
+| 7207 | drums | 鼓 |
+| 7208 | elimination | 消除 |
+| 7209 | enjoys | 喜欢 |
+| 7210 | es | 英语 |
+| 7211 | ginger | 生姜 |
+| 7212 | governors | 州长 |
+| 7213 | guild | 行会 |
+| 7214 | halt | 停止 |
+| 7215 | han | 汉 |
+| 7216 | imaging | 成像 |
+| 7217 | implied | 隐含的 |
+| 7218 | impress | 留下深刻印象 |
+| 7219 | inability | 无能 |
+| 7220 | incoming | 传入 |
+| 7221 | jar | 罐子 |
+| 7222 | kay | 凯 |
+| 7223 | lb | 磅 |
+| 7224 | leicester | 莱斯特 |
+| 7225 | litigation | 诉讼 |
+| 7226 | mentor | 导师 |
+| 7227 | merchandise | 商品 |
+| 7228 | minerals | 矿物质 |
+| 7229 | miners | 矿工 |
+| 7230 | monk | 和尚 |
+| 7231 | neighborhoods | 街区 |
+| 7232 | ni | 你 |
+| 7233 | norm | 规范 |
+| 7234 | obtaining | 获得 |
+| 7235 | occupy | 占据 |
+| 7236 | offended | 冒犯了 |
+| 7237 | overhead | 开销 |
+| 7238 | pac | PAC |
+| 7239 | painter | 画家 |
+| 7240 | perth | 珀斯 |
+| 7241 | pierce | 皮尔斯 |
+| 7242 | pistol | 手枪 |
+| 7243 | printer | 打印机 |
+| 7244 | prone | 倾向的 |
+| 7245 | raiders | 袭击者 |
+| 7246 | readily | 轻易地 |
+| 7247 | reflecting | 反映 |
+| 7248 | regiment | 团 |
+| 7249 | remembers | 记得 |
+| 7250 | reunion | 团聚 |
+| 7251 | revival | 复兴 |
+| 7252 | sanctuary | 避难所 |
+| 7253 | satisfying | 满意的 |
+| 7254 | seas | 海洋 |
+| 7255 | securing | 固定 |
+| 7256 | sensors | 传感器 |
+| 7257 | seoul | 首尔 |
+| 7258 | shells | 贝壳 |
+| 7259 | siege | 围攻 |
+| 7260 | sixty | 六十 |
+| 7261 | sleeve | 袖子 |
+| 7262 | sonic | 索尼克 |
+| 7263 | soundtrack | 原声带 |
+| 7264 | speeches | 演讲 |
+| 7265 | spine | 脊柱 |
+| 7266 | steering | 转向 |
+| 7267 | substances | 物质 |
+| 7268 | sustain | 维持 |
+| 7269 | tenure | 终身教职 |
+| 7270 | texture | 纹理 |
+| 7271 | thankful | 感恩的 |
+| 7272 | translate | 翻译 |
+| 7273 | treasurer | 财务主管 |
+| 7274 | triangle | 三角形 |
+| 7275 | unclear | 不清楚 |
+| 7276 | upgraded | 升级版 |
+| 7277 | venice | 威尼斯 |
+| 7278 | vladimir | 弗拉基米尔 |
+| 7279 | wizard | 向导 |
+| 7280 | yankees | 洋基队 |
+| 7281 | absorbed | 吸收 |
+| 7282 | admin | 管理员 |
+| 7283 | affection | 感情 |
+| 7284 | airplane | 飞机 |
+| 7285 | altitude | 海拔高度 |
+| 7286 | athens | 雅典 |
+| 7287 | attributes | 属性 |
+| 7288 | baked | 烘烤的 |
+| 7289 | baking | 烘焙 |
+| 7290 | beautifully | 漂亮地 |
+| 7291 | biblical | 圣经的 |
+| 7292 | boo | 嘘 |
+| 7293 | cardiff | 卡迪夫 |
+| 7294 | collapsed | 崩溃了 |
+| 7295 | coloured | 有色的 |
+| 7296 | competent | 有能力的 |
+| 7297 | countryside | 乡村 |
+| 7298 | cracking | 开裂 |
+| 7299 | crane | 起重机 |
+| 7300 | debris | 碎片 |
 
 ### 7301～7400
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7301 | hardcore | 7302 | harmful | 7303 | headache | 7304 | hers |
-| 7305 | hispanic | 7306 | incentive | 7307 | inclusive | 7308 | infections |
-| 7309 | jackie | 7310 | joel | 7311 | kissing | 7312 | lanes |
-| 7313 | licence | 7314 | lungs | 7315 | madness | 7316 | mandate |
-| 7317 | manga | 7318 | memorable | 7319 | merger | 7320 | minorities |
-| 7321 | nj | 7322 | occurring | 7323 | organizing | 7324 | performs |
-| 7325 | ph | 7326 | po | 7327 | poker | 7328 | portable |
-| 7329 | priced | 7330 | quebec | 7331 | randomly | 7332 | rankings |
-| 7333 | realizing | 7334 | resign | 7335 | revealing | 7336 | rico |
-| 7337 | robbery | 7338 | rub | 7339 | runners | 7340 | sally |
-| 7341 | scattered | 7342 | scout | 7343 | searched | 7344 | sexuality |
-| 7345 | shouting | 7346 | slap | 7347 | steak | 7348 | succession |
-| 7349 | superintendent | 7350 | suspicion | 7351 | sweep | 7352 | tactical |
-| 7353 | talents | 7354 | therapist | 7355 | thereafter | 7356 | thorough |
-| 7357 | tuition | 7358 | tumor | 7359 | usd | 7360 | variables |
-| 7361 | varying | 7362 | wholesale | 7363 | wwe | 7364 | administered |
-| 7365 | affiliated | 7366 | apples | 7367 | architectural | 7368 | artillery |
-| 7369 | assembled | 7370 | bangladesh | 7371 | barack | 7372 | beaches |
-| 7373 | bees | 7374 | boarding | 7375 | bothered | 7376 | canvas |
-| 7377 | canyon | 7378 | casey | 7379 | cheek | 7380 | chen |
-| 7381 | cincinnati | 7382 | circular | 7383 | circulation | 7384 | clearance |
-| 7385 | closes | 7386 | coincidence | 7387 | comedian | 7388 | commands |
-| 7389 | commissioned | 7390 | concentrated | 7391 | conscience | 7392 | cooler |
-| 7393 | countless | 7394 | curry | 7395 | dame | 7396 | deceased |
-| 7397 | dedication | 7398 | defining | 7399 | detention | 7400 | disputes |
+| No. | Word | 中文 |
+|---:|---|---|
+| 7301 | delegation | 代表团 |
+| 7302 | demographic | 人口统计 |
+| 7303 | descriptions | 描述 |
+| 7304 | donor | 捐助者 |
+| 7305 | easiest | 最简单的 |
+| 7306 | educate | 教育 |
+| 7307 | enabling | 使能 |
+| 7308 | enrolled | 已注册 |
+| 7309 | enrollment | 招生 |
+| 7310 | essex | 埃塞克斯 |
+| 7311 | exceed | 超过 |
+| 7312 | excluding | 排除 |
+| 7313 | expressions | 表达式 |
+| 7314 | fierce | 凶猛 |
+| 7315 | forgetting | 遗忘 |
+| 7316 | garlic | 大蒜 |
+| 7317 | gaza | 加沙 |
+| 7318 | gratitude | 感恩 |
+| 7319 | hail | 冰雹 |
+| 7320 | heroin | 海洛因 |
+| 7321 | hooked | 着迷的 |
+| 7322 | illustration | 插图 |
+| 7323 | impose | 强加 |
+| 7324 | indicator | 指标 |
+| 7325 | inequality | 不平等 |
+| 7326 | ins | 插入 |
+| 7327 | interpreted | 解释的 |
+| 7328 | jamaica | 牙买加 |
+| 7329 | joey | 乔伊 |
+| 7330 | joshua | 约书亚 |
+| 7331 | journals | 期刊 |
+| 7332 | leisure | 休闲 |
+| 7333 | lend | 借出 |
+| 7334 | lengths | 长度 |
+| 7335 | lounge | 休息室 |
+| 7336 | luckily | 幸运的是 |
+| 7337 | manuscript | 手稿 |
+| 7338 | marco | 马可 |
+| 7339 | marines | 海军陆战队 |
+| 7340 | mint | 薄荷 |
+| 7341 | molecules | 分子 |
+| 7342 | montgomery | 蒙哥马利 |
+| 7343 | notification | 通知 |
+| 7344 | nova | 新星 |
+| 7345 | oakland | 奥克兰 |
+| 7346 | outline | 概要 |
+| 7347 | pasta | 面食 |
+| 7348 | pi | 圆周率 |
+| 7349 | polite | 有礼貌 |
+| 7350 | productions | 作品 |
+| 7351 | professors | 教授 |
+| 7352 | quicker | 更快 |
+| 7353 | receipt | 收据 |
+| 7354 | recognise | 认出 |
+| 7355 | reliability | 可靠性 |
+| 7356 | researcher | 研究员 |
+| 7357 | retailers | 零售商 |
+| 7358 | reviewing | 审查 |
+| 7359 | romans | 罗马人 |
+| 7360 | runway | 跑道 |
+| 7361 | sculpture | 雕塑 |
+| 7362 | senses | 感官 |
+| 7363 | sensor | 传感器 |
+| 7364 | showcase | 展示 |
+| 7365 | smoked | 熏的 |
+| 7366 | su | 苏 |
+| 7367 | subsidiary | 子公司 |
+| 7368 | tampa | 坦帕 |
+| 7369 | tenth | 第十 |
+| 7370 | theology | 神学 |
+| 7371 | topped | 顶上 |
+| 7372 | trails | 小径 |
+| 7373 | underwater | 水下 |
+| 7374 | uploaded | 已上传 |
+| 7375 | velocity | 速度 |
+| 7376 | venues | 场地 |
+| 7377 | wax | 蜡 |
+| 7378 | winston | 温斯顿 |
+| 7379 | yay | 耶 |
+| 7380 | yu | 于 |
+| 7381 | accountability | 问责制 |
+| 7382 | aerial | 天线 |
+| 7383 | albeit | 尽管 |
+| 7384 | alcoholic | 酗酒的 |
+| 7385 | amazed | 惊讶 |
+| 7386 | ambition | 野心 |
+| 7387 | ammunition | 弹药 |
+| 7388 | anthem | 国歌 |
+| 7389 | architects | 建筑师 |
+| 7390 | automated | 自动化的 |
+| 7391 | bake | 烘烤 |
+| 7392 | batch | 批次 |
+| 7393 | borrowed | 借来的 |
+| 7394 | carson | 卡森 |
+| 7395 | catalog | 目录 |
+| 7396 | catalogue | 目录 |
+| 7397 | charitable | 慈善的 |
+| 7398 | clicking | 点击 |
+| 7399 | collector | 收藏家 |
+| 7400 | compliment | 赞美 |
 
-### 7401～7500
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7401 | drake | 7402 | employ | 7403 | enforce | 7404 | explicit |
-| 7405 | explicitly | 7406 | eyed | 7407 | florence | 7408 | flu |
-| 7409 | forbidden | 7410 | fraction | 7411 | hes | 7412 | infantry |
-| 7413 | integral | 7414 | investor | 7415 | janet | 7416 | judged |
-| 7417 | katie | 7418 | kidnapped | 7419 | lectures | 7420 | lightly |
-| 7421 | linking | 7422 | maintains | 7423 | marble | 7424 | maritime |
-| 7425 | melt | 7426 | modes | 7427 | monica | 7428 | mumbai |
-| 7429 | nominee | 7430 | oath | 7431 | offence | 7432 | packaging |
-| 7433 | patriots | 7434 | pee | 7435 | pillow | 7436 | pirate |
-| 7437 | polar | 7438 | prediction | 7439 | preview | 7440 | processed |
-| 7441 | pursuing | 7442 | puzzle | 7443 | rapper | 7444 | rebecca |
-| 7445 | reconstruction | 7446 | renowned | 7447 | revelation | 7448 | sara |
-| 7449 | scholar | 7450 | sharks | 7451 | shoots | 7452 | skirt |
-| 7453 | socially | 7454 | spa | 7455 | spike | 7456 | sprint |
-| 7457 | stir | 7458 | stuffed | 7459 | substantially | 7460 | suburbs |
-| 7461 | superb | 7462 | supposedly | 7463 | tab | 7464 | tendency |
-| 7465 | theirs | 7466 | toast | 7467 | toes | 7468 | touchdown |
-| 7469 | traits | 7470 | trek | 7471 | tricky | 7472 | triumph |
-| 7473 | uber | 7474 | underwear | 7475 | unto | 7476 | viable |
-| 7477 | waist | 7478 | welcomed | 7479 | wit | 7480 | wreck |
-| 7481 | absurd | 7482 | accessories | 7483 | adrian | 7484 | advocates |
-| 7485 | ag | 7486 | ambitious | 7487 | amid | 7488 | annoyed |
-| 7489 | appealing | 7490 | appointments | 7491 | assumptions | 7492 | ballet |
-| 7493 | bargain | 7494 | binary | 7495 | blend | 7496 | blogs |
-| 7497 | brake | 7498 | builds | 7499 | businessman | 7500 | cab |
-
-### 7501～7600
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7501 | ch | 7502 | chi | 7503 | col | 7504 | collision |
-| 7505 | colombia | 7506 | compassion | 7507 | consumed | 7508 | corrected |
-| 7509 | correction | 7510 | cough | 7511 | cousins | 7512 | critic |
-| 7513 | czech | 7514 | defenders | 7515 | denying | 7516 | depot |
-| 7517 | distress | 7518 | documentation | 7519 | doubts | 7520 | dramatically |
-| 7521 | drank | 7522 | dudes | 7523 | eats | 7524 | elegant |
-| 7525 | elevator | 7526 | ellis | 7527 | exchanges | 7528 | excuses |
-| 7529 | execute | 7530 | factories | 7531 | feast | 7532 | finland |
-| 7533 | frederick | 7534 | frost | 7535 | goin | 7536 | herald |
-| 7537 | hike | 7538 | hollow | 7539 | homeland | 7540 | imported |
-| 7541 | ing | 7542 | internationally | 7543 | iraqi | 7544 | itunes |
-| 7545 | kane | 7546 | kissed | 7547 | lame | 7548 | licensing |
-| 7549 | lily | 7550 | limiting | 7551 | locker | 7552 | mainland |
-| 7553 | marking | 7554 | meditation | 7555 | messenger | 7556 | metals |
-| 7557 | missiles | 7558 | munich | 7559 | norwegian | 7560 | pencil |
-| 7561 | philosophical | 7562 | pierre | 7563 | pipes | 7564 | plasma |
-| 7565 | plea | 7566 | punish | 7567 | purse | 7568 | quarterback |
-| 7569 | reagan | 7570 | ref | 7571 | relieved | 7572 | replies |
-| 7573 | reservation | 7574 | rhetoric | 7575 | rivals | 7576 | rushing |
-| 7577 | salvation | 7578 | sanctions | 7579 | secular | 7580 | sensitivity |
-| 7581 | shane | 7582 | sigh | 7583 | sixteen | 7584 | sovereign |
-| 7585 | specifications | 7586 | spends | 7587 | spouse | 7588 | stat |
-| 7589 | supervisor | 7590 | synthetic | 7591 | teaches | 7592 | tense |
-| 7593 | terrifying | 7594 | toyota | 7595 | tracked | 7596 | traders |
-| 7597 | troy | 7598 | varieties | 7599 | vegan | 7600 | waking |
-
-### 7601～7700
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7601 | walmart | 7602 | wang | 7603 | wilderness | 7604 | admits |
-| 7605 | adviser | 7606 | aggregate | 7607 | anal | 7608 | anatomy |
-| 7609 | annie | 7610 | announces | 7611 | applicants | 7612 | automobile |
-| 7613 | barnes | 7614 | breasts | 7615 | cement | 7616 | chess |
-| 7617 | citing | 7618 | colonies | 7619 | composite | 7620 | consequently |
-| 7621 | consist | 7622 | councils | 7623 | cox | 7624 | curtis |
-| 7625 | decorated | 7626 | delegates | 7627 | dreaming | 7628 | dull |
-| 7629 | enables | 7630 | fare | 7631 | fashioned | 7632 | feared |
-| 7633 | float | 7634 | generator | 7635 | grind | 7636 | grinding |
-| 7637 | grove | 7638 | guessing | 7639 | gum | 7640 | hobby |
-| 7641 | hunters | 7642 | idol | 7643 | illusion | 7644 | incorrect |
-| 7645 | jun | 7646 | junction | 7647 | lance | 7648 | leap |
-| 7649 | locate | 7650 | locks | 7651 | lou | 7652 | lynch |
-| 7653 | manages | 7654 | masses | 7655 | medicare | 7656 | modeling |
-| 7657 | motive | 7658 | nazis | 7659 | neighbourhood | 7660 | networking |
-| 7661 | newer | 7662 | newton | 7663 | oppose | 7664 | optimal |
-| 7665 | overtime | 7666 | packs | 7667 | permits | 7668 | playstation |
-| 7669 | pops | 7670 | postal | 7671 | predictions | 7672 | prep |
-| 7673 | profound | 7674 | prosecutor | 7675 | rebellion | 7676 | recipient |
-| 7677 | refund | 7678 | remembering | 7679 | rescued | 7680 | risky |
-| 7681 | robust | 7682 | scam | 7683 | sci | 7684 | sep |
-| 7685 | shareholders | 7686 | sided | 7687 | simulation | 7688 | sober |
-| 7689 | spice | 7690 | squeeze | 7691 | storms | 7692 | supervision |
-| 7693 | suspects | 7694 | swap | 7695 | swept | 7696 | terrain |
-| 7697 | terrified | 7698 | themed | 7699 | threaten | 7700 | thrilled |
-
-### 7701～7800
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7701 | towel | 7702 | trio | 7703 | tubes | 7704 | unconscious |
-| 7705 | und | 7706 | varies | 7707 | vegetable | 7708 | verified |
-| 7709 | vibe | 7710 | virtue | 7711 | wifi | 7712 | wishing |
-| 7713 | workforce | 7714 | zombie | 7715 | acre | 7716 | airports |
-| 7717 | alot | 7718 | amen | 7719 | andrews | 7720 | arise |
-| 7721 | ashes | 7722 | automotive | 7723 | battlefield | 7724 | begging |
-| 7725 | berkeley | 7726 | bloom | 7727 | bore | 7728 | bundle |
-| 7729 | butterfly | 7730 | buys | 7731 | casualties | 7732 | catches |
-| 7733 | chad | 7734 | clown | 7735 | committees | 7736 | conjunction |
-| 7737 | costly | 7738 | cows | 7739 | cries | 7740 | cuban |
-| 7741 | cycles | 7742 | darker | 7743 | davies | 7744 | descent |
-| 7745 | desktop | 7746 | dial | 7747 | directory | 7748 | disabilities |
-| 7749 | discharge | 7750 | discusses | 7751 | dodge | 7752 | downs |
-| 7753 | drilling | 7754 | drums | 7755 | elimination | 7756 | enjoys |
-| 7757 | es | 7758 | espn | 7759 | ginger | 7760 | governors |
-| 7761 | guild | 7762 | halt | 7763 | han | 7764 | henderson |
-| 7765 | ibm | 7766 | imaging | 7767 | implied | 7768 | impress |
-| 7769 | inability | 7770 | incoming | 7771 | isaac | 7772 | jar |
-| 7773 | kay | 7774 | lb | 7775 | leicester | 7776 | liam |
-| 7777 | litigation | 7778 | mentor | 7779 | merchandise | 7780 | minerals |
-| 7781 | miners | 7782 | monk | 7783 | neighborhoods | 7784 | ni |
-| 7785 | noah | 7786 | norm | 7787 | obtaining | 7788 | occupy |
-| 7789 | offended | 7790 | orthodox | 7791 | overhead | 7792 | pac |
-| 7793 | painter | 7794 | perth | 7795 | pierce | 7796 | pistol |
-| 7797 | printer | 7798 | prone | 7799 | raiders | 7800 | readily |
-
-### 7801～7900
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7801 | reflecting | 7802 | regiment | 7803 | remembers | 7804 | reunion |
-| 7805 | revival | 7806 | sanctuary | 7807 | satisfying | 7808 | seas |
-| 7809 | securing | 7810 | sensors | 7811 | seoul | 7812 | shells |
-| 7813 | siege | 7814 | sixty | 7815 | sleeve | 7816 | sonic |
-| 7817 | soundtrack | 7818 | speeches | 7819 | spine | 7820 | steering |
-| 7821 | substances | 7822 | sullivan | 7823 | sustain | 7824 | tenure |
-| 7825 | texture | 7826 | thankful | 7827 | translate | 7828 | treasurer |
-| 7829 | triangle | 7830 | unclear | 7831 | upgraded | 7832 | venezuela |
-| 7833 | venice | 7834 | vladimir | 7835 | wizard | 7836 | yankees |
-| 7837 | absorbed | 7838 | admin | 7839 | affection | 7840 | airplane |
-| 7841 | altitude | 7842 | athens | 7843 | attributes | 7844 | baked |
-| 7845 | baking | 7846 | beautifully | 7847 | betty | 7848 | biblical |
-| 7849 | bmw | 7850 | boo | 7851 | cardiff | 7852 | collapsed |
-| 7853 | coloured | 7854 | competent | 7855 | countryside | 7856 | cracking |
-| 7857 | crane | 7858 | debris | 7859 | delegation | 7860 | demographic |
-| 7861 | descriptions | 7862 | donor | 7863 | easiest | 7864 | educate |
-| 7865 | enabling | 7866 | enrolled | 7867 | enrollment | 7868 | essex |
-| 7869 | exceed | 7870 | excluding | 7871 | expressions | 7872 | fierce |
-| 7873 | forgetting | 7874 | gabriel | 7875 | garlic | 7876 | gaza |
-| 7877 | gratitude | 7878 | hail | 7879 | heroin | 7880 | honda |
-| 7881 | hooked | 7882 | illustration | 7883 | impose | 7884 | indicator |
-| 7885 | inequality | 7886 | ins | 7887 | interpreted | 7888 | jamaica |
-| 7889 | joey | 7890 | joshua | 7891 | journals | 7892 | leisure |
-| 7893 | lend | 7894 | lengths | 7895 | leon | 7896 | lounge |
-| 7897 | luckily | 7898 | manuscript | 7899 | marco | 7900 | marines |
-
-### 7901～8000
-| No. | Word | No. | Word | No. | Word | No. | Word |
-|---:|---|---:|---|---:|---|---:|---|
-| 7901 | mint | 7902 | molecules | 7903 | montgomery | 7904 | notification |
-| 7905 | nova | 7906 | oakland | 7907 | outline | 7908 | pasta |
-| 7909 | pi | 7910 | polite | 7911 | productions | 7912 | professors |
-| 7913 | quicker | 7914 | randy | 7915 | receipt | 7916 | recognise |
-| 7917 | reliability | 7918 | researcher | 7919 | retailers | 7920 | reviewing |
-| 7921 | romans | 7922 | runway | 7923 | sculpture | 7924 | senses |
-| 7925 | sensor | 7926 | seth | 7927 | sharon | 7928 | showcase |
-| 7929 | smoked | 7930 | su | 7931 | subsidiary | 7932 | tampa |
-| 7933 | tenth | 7934 | theology | 7935 | topped | 7936 | trails |
-| 7937 | underwater | 7938 | uploaded | 7939 | velocity | 7940 | venues |
-| 7941 | wax | 7942 | wikipedia | 7943 | winston | 7944 | yay |
-| 7945 | yu | 7946 | accountability | 7947 | aerial | 7948 | albeit |
-| 7949 | alcoholic | 7950 | amazed | 7951 | ambition | 7952 | ammunition |
-| 7953 | anthem | 7954 | architects | 7955 | automated | 7956 | bake |
-| 7957 | batch | 7958 | borrowed | 7959 | carson | 7960 | catalog |
-| 7961 | catalogue | 7962 | charitable | 7963 | christine | 7964 | clicking |
-| 7965 | collector | 7966 | compliment | 7967 | consisted | 7968 | continually |
-| 7969 | coordinator | 7970 | damaging | 7971 | danish | 7972 | def |
-| 7973 | deployment | 7974 | drafted | 7975 | enjoyable | 7976 | exotic |
-| 7977 | exterior | 7978 | feminine | 7979 | firearms | 7980 | fountain |
-| 7981 | fury | 7982 | gb | 7983 | genocide | 7984 | glance |
-| 7985 | glow | 7986 | hay | 7987 | headlines | 7988 | hebrew |
-| 7989 | hometown | 7990 | humanitarian | 7991 | hungary | 7992 | idaho |
-| 7993 | immunity | 7994 | implementing | 7995 | inherited | 7996 | killers |
-| 7997 | labeled | 7998 | lebron | 7999 | liberation | 8000 | likelihood |
-
+### 7401～7433
+| No. | Word | 中文 |
+|---:|---|---|
+| 7401 | consisted | 包括 |
+| 7402 | continually | 不断地 |
+| 7403 | coordinator | 协调员 |
+| 7404 | damaging | 破坏性的 |
+| 7405 | danish | 丹麦语的 |
+| 7406 | def | 定义 |
+| 7407 | deployment | 部署 |
+| 7408 | drafted | 起草的 |
+| 7409 | enjoyable | 令人愉快的 |
+| 7410 | exotic | 异国情调 |
+| 7411 | exterior | 外观 |
+| 7412 | feminine | 女性化的 |
+| 7413 | firearms | 枪械 |
+| 7414 | fountain | 喷泉 |
+| 7415 | fury | 愤怒 |
+| 7416 | gb | 国标 |
+| 7417 | genocide | 种族灭绝 |
+| 7418 | glance | 一眼 |
+| 7419 | glow | 发光 |
+| 7420 | hay | 干草 |
+| 7421 | headlines | 头条新闻 |
+| 7422 | hebrew | 希伯来语 |
+| 7423 | hometown | 故乡 |
+| 7424 | humanitarian | 人道主义的 |
+| 7425 | idaho | 爱达荷州 |
+| 7426 | immunity | 免疫力 |
+| 7427 | implementing | 实施 |
+| 7428 | inherited | 遗传的 |
+| 7429 | killers | 杀手 |
+| 7430 | labeled | 贴上标签 |
+| 7431 | lebron | 勒布朗 |
+| 7432 | liberation | 解放 |
+| 7433 | likelihood | 可能性 |
 
 ---
 
