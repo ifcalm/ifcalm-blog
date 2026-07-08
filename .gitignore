@@ -1,6 +1,7 @@
 public/
 resources/
 .DS_Store
+.env.local
 hugo_stats.json
 .hugo_build.lock
 .gitmodules
