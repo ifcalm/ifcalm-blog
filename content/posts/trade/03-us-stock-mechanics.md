@@ -2,7 +2,7 @@
 title: "交易学习手册（三）：美股交易机制详解"
 date: 2026-08-08
 weight: 3
-tags: ["交易", "美股", "券商", "SEC", "FINRA"]
+tags: ["市场交易"]
 draft: false
 summary: "交易时段与盘前盘后、T+1 结算、券商与清算链条、Reg NMS 与 NBBO、订单流付费、熔断机制、PDT 规则、保证金与做空，以及 SIPC 保护的边界。"
 showToc: true
