@@ -2,7 +2,7 @@
 title: "交易学习手册（十一）：期权的机制与真实风险结构"
 date: 2026-08-08
 weight: 11
-tags: ["交易", "期权", "衍生品", "隐含波动率", "希腊字母"]
+tags: ["市场交易"]
 draft: false
 summary: "希腊字母作为机制而非指标、IV crush、为什么买入虚值期权是负期望、波动率风险溢价，以及 covered call 和 sell put 的真实风险结构。"
 showToc: true
