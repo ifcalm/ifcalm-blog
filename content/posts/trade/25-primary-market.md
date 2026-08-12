@@ -234,9 +234,8 @@ tocOpen: false
 
 ---
 
-这是加密专题的最后一篇。全系列的流程串联见 **[全流程索引]({{< ref "00-workflow-index.md" >}})**。
-
 ---
 
 *上一篇：[链上执行——Gas、抢跑防护与 L2 风险]({{< ref "24-onchain-execution.md" >}})*
+*下一篇：[筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
