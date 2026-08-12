@@ -342,6 +342,7 @@ tocOpen: true
 | 25 | [一级市场——发行、空投与打新的赔率结构]({{< ref "25-primary-market.md" >}}) |
 | 26 | [筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}}) ⭐ |
 | 27 | [图表怎么读]({{< ref "27-reading-charts.md" >}}) |
+| 28 | [市场操纵与容错设计]({{< ref "28-market-manipulation.md" >}}) |
 
 ---
 
