@@ -341,6 +341,7 @@ tocOpen: true
 | 24 | [链上执行——Gas、抢跑防护与 L2 风险]({{< ref "24-onchain-execution.md" >}}) |
 | 25 | [一级市场——发行、空投与打新的赔率结构]({{< ref "25-primary-market.md" >}}) |
 | 26 | [筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}}) ⭐ |
+| 27 | [图表怎么读]({{< ref "27-reading-charts.md" >}}) |
 
 ---
 
