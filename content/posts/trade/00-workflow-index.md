@@ -343,6 +343,7 @@ tocOpen: true
 | 26 | [筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}}) ⭐ |
 | 27 | [图表怎么读]({{< ref "27-reading-charts.md" >}}) |
 | 28 | [市场操纵与容错设计]({{< ref "28-market-manipulation.md" >}}) |
+| 29 | [链上交易实操——公平性、成本与平台选择]({{< ref "29-onchain-trading.md" >}}) |
 
 ---
 
