@@ -363,6 +363,7 @@ tocOpen: true
 | 31 | [短线交易的结构——√T、费率档位与它唯一的优势]({{< ref "31-short-term-trading.md" >}}) |
 | 32 | [交易信号——规格、信息含量与七道关卡]({{< ref "32-trading-signals.md" >}}) |
 | 33 | [支撑、阻力与深度——「位置」类概念的统一拆解]({{< ref "33-price-levels.md" >}}) |
+| 34 | [技术分析全景——十一类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}}) |
 
 ---
 
