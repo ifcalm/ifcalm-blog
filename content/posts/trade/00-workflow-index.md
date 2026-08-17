@@ -375,6 +375,7 @@ tocOpen: true
 | 34 | [技术分析全景——十一类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}}) |
 | 35 | [什么叫「有行情」——环境判断的三层判据]({{< ref "35-market-regime.md" >}}) |
 | 36 | [左侧与右侧——确认窗口的两端]({{< ref "36-left-right-side.md" >}}) |
+| 37 | [缠论拆解——一个体系该怎么被检查]({{< ref "37-chan-theory.md" >}}) |
 
 ---
 
