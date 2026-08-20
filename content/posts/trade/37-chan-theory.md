@@ -280,4 +280,5 @@ tocOpen: false
 ---
 
 *上一篇：[左侧与右侧——确认窗口的两端]({{< ref "36-left-right-side.md" >}})*
+*下一篇：[检验方法论——怎么知道一个策略是真的]({{< ref "38-validation.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
