@@ -213,7 +213,7 @@ Level 1 和 2 在同一交易日各只触发一次。这套机制在 2020 年 3 
 
 美国对非居民外国人持有的**美国境内资产**（包括美股）征收遗产税，且免税额只有 **$60,000**，远低于美国公民的免税额。超出部分的税率可以达到 40%。
 
-这一项在中国投资者中的知晓度很低，而它对持有较大规模美股的家庭是实质性的。相关规则可参考 IRS 关于[非居民外国人遗产税](https://www.irs.gov/individuals/international-taxpayers/estate-tax-for-nonresidents-not-citizens-of-the-united-states)的说明。是否有筹划空间、如何筹划，属于需要专业意见的范畴。
+这一项在中国投资者中的知晓度很低，而它对持有较大规模美股的家庭是实质性的。相关规则可参考 IRS 关于[非居民外国人遗产税](https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax-for-nonresidents-not-citizens-of-the-united-states)的说明。是否有筹划空间、如何筹划，属于需要专业意见的范畴。
 
 ## 八、SIPC 保护的边界
 
