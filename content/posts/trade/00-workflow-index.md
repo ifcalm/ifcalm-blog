@@ -370,7 +370,7 @@ tocOpen: true
 | 24 | [链上执行——Gas、抢跑防护与 L2 风险]({{< ref "24-onchain-execution.md" >}}) |
 | 25 | [一级市场——发行、空投与打新的赔率结构]({{< ref "25-primary-market.md" >}}) |
 
-**方法与实操（26–42）**
+**方法与实操（26–43）**
 
 | 篇 | 标题 |
 |---|---|
@@ -382,7 +382,7 @@ tocOpen: true
 | 31 | [短线交易的结构——√T、费率档位与它唯一的优势]({{< ref "31-short-term-trading.md" >}}) |
 | 32 | [交易信号——规格、信息含量与七道关卡]({{< ref "32-trading-signals.md" >}}) |
 | 33 | [支撑、阻力与深度——「位置」类概念的统一拆解]({{< ref "33-price-levels.md" >}}) |
-| 34 | [技术分析全景——十一类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}}) |
+| 34 | [技术分析全景——十二类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}}) |
 | 35 | [什么叫「有行情」——环境判断的三层判据]({{< ref "35-market-regime.md" >}}) |
 | 36 | [左侧与右侧——确认窗口的两端]({{< ref "36-left-right-side.md" >}}) |
 | 37 | [缠论拆解——一个体系该怎么被检查]({{< ref "37-chan-theory.md" >}}) |
@@ -391,6 +391,7 @@ tocOpen: true
 | 40 | [形态学——「像不像」为什么不是一个可回答的问题]({{< ref "40-chart-patterns.md" >}}) |
 | 41 | [网格与蛛网——凹性、燃料与它真正的门槛]({{< ref "41-grid-trading.md" >}}) |
 | 42 | [ETF 与指数基金——你买的到底是什么]({{< ref "42-etf-basics.md" >}}) |
+| 43 | [链上指标——按「依赖多少假设」重排]({{< ref "43-onchain-metrics.md" >}}) |
 
 ---
 
