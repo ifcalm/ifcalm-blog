@@ -278,5 +278,5 @@ tocOpen: false
 
 ---
 
-*上一篇：[技术分析全景——十一类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}})*
+*上一篇：[技术分析全景——十二类工具、信息含量与三种用途]({{< ref "34-technical-analysis-map.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
