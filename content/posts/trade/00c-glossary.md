@@ -1,7 +1,7 @@
 ---
 title: "交易学习手册：术语与公式速查"
 date: 2026-08-08
-weight: -1
+weight: -2
 tags: ["市场交易"]
 draft: false
 summary: "全手册定义过的量和概念集中在这一页，每条给出定义、判据和出处。按用途分组；查具体某个词用浏览器搜索。"
@@ -124,5 +124,5 @@ tocOpen: true
 
 ---
 
-*相关：[学习路径]({{< ref "00b-learning-path.md" >}}) · [全流程索引]({{< ref "00-workflow-index.md" >}})*
+*相关：[学习路径]({{< ref "00b-learning-path.md" >}}) · [练习索引]({{< ref "00d-exercises.md" >}}) · [全流程索引]({{< ref "00-workflow-index.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
