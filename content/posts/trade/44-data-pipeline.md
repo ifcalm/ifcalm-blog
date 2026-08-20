@@ -260,4 +260,5 @@ best_bid < best_ask                      （交叉了说明快照撕裂）
 ---
 
 *上一篇：[链上指标——按「依赖多少假设」重排]({{< ref "43-onchain-metrics.md" >}})*
+*下一篇：[期权链——把它当数据源读]({{< ref "45-option-chain.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
