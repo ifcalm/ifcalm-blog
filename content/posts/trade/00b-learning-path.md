@@ -149,6 +149,7 @@ tocOpen: true
 | 链上交易 | [29]({{< ref "29-onchain-trading.md" >}}) → [24]({{< ref "24-onchain-execution.md" >}}) → [17]({{< ref "17-defi-liquidation-bridges.md" >}}) |
 | 打新 / 空投 | [25]({{< ref "25-primary-market.md" >}}) |
 | 觉得「被针对了」 | [28]({{< ref "28-market-manipulation.md" >}}) |
+| ⭐ 打算用 AI 辅助 | [47]({{< ref "47-ai-in-trading.md" >}}) |
 | 交易了一段时间 | [20]({{< ref "20-performance-and-retirement.md" >}}) |
 | 持仓一起跌 | [13]({{< ref "13-macro.md" >}}) |
 
