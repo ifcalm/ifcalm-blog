@@ -1,13 +1,13 @@
 ---
 title: "CS 450：计算机网络"
-description: "一门完整的美式大学计算机网络课程：自顶向下，从 HTTP 讲到以太网，配 29 讲课堂笔记、5 个编程实验、3 套习题与考试复习指南。"
-summary: "按美国研究型大学一学期 15 周的教学计划完整开设：Syllabus、29 讲 Lecture Notes、5 个 Programming Assignment、3 套 Problem Set（含参考答案）、期中期末复习指南与术语表。教材对应 Kurose & Ross《Computer Networking: A Top-Down Approach》第 8 版。"
+description: "一门完整的美式大学计算机网络课程：自顶向下，从 HTTP 讲到以太网，配 29 讲课堂笔记、5 个编程实验、4 套习题与考试复习指南。"
+summary: "按美国研究型大学一学期 15 周的教学计划完整开设：Syllabus、29 讲 Lecture Notes、5 个 Programming Assignment、4 套 Problem Set（含参考答案）、期中期末复习指南与术语表。教材对应 Kurose & Ross《Computer Networking: A Top-Down Approach》第 8 版。"
 layout: "list"
 ---
 
 这是一门**完整开设**的计算机网络课程，不是读书笔记，也不是知识点罗列。
 
-它按美国研究型大学一个学期（15 周）的实际教学计划组织：有 Syllabus，有周计划，有学习目标，有编程作业和评分标准，有习题和参考答案，有期中期末的复习范围。你可以把它当成一门可以自学完成的课来上。
+它按美国研究型大学一个学期（15 周）的实际教学计划组织：有 Syllabus，有周计划，有编程作业，有习题和完整参考答案，有期中期末的复习范围。你可以把它当成一门可以自学完成的课来上。
 
 ## 课程信息
 
@@ -18,9 +18,10 @@ layout: "list"
 | **学期** | 15 周 · 每周 2 次课（每次 75 分钟） |
 | **教材** | Kurose & Ross, *Computer Networking: A Top-Down Approach*, 8th Edition |
 | **先修** | 数据结构与算法、C 或 Python 编程、基础概率论；建议已学操作系统 |
+| **课程层次** | 本科高年级（Upper-division undergraduate），研究生可选修 |
 | **授课方式** | 自顶向下（Top-Down）：应用层 → 传输层 → 网络层 → 链路层 → 无线 → 安全 |
 
-📄 **[先读教学大纲 Syllabus]({{< ref "00-syllabus.md" >}})** —— 包含完整的学习目标、评分构成、作业政策、学术诚信规则和 15 周日程表。
+📄 **[先读教学大纲 Syllabus]({{< ref "00-syllabus.md" >}})** —— 包含课程定位、学习目标、先修要求、教材，以及标明每讲对应教材章节的 15 周日程表。
 
 ## 为什么是「自顶向下」
 
@@ -46,7 +47,7 @@ layout: "list"
 - [第 5 讲：应用层原理与 HTTP]({{< ref "05-application-layer-http.md" >}})
 - [第 6 讲：Web 缓存、CDN 与 HTTP/2、HTTP/3]({{< ref "06-web-caching-cdn-http2-http3.md" >}})
 - [第 7 讲：DNS——互联网的目录服务]({{< ref "07-dns.md" >}})
-- [第 8 讲：电子邮件、P2P 与流媒体]({{< ref "08-email-p2p-streaming.md" >}})
+- [第 8 讲：电子邮件、P2P、流媒体与实时多媒体]({{< ref "08-email-p2p-streaming.md" >}})
 - [第 9 讲：Socket 编程]({{< ref "09-socket-programming.md" >}})
 
 ### Unit 3 · 传输层（第 10–16 讲）
@@ -61,9 +62,9 @@ layout: "list"
 - [第 16 讲：TCP 拥塞控制——Reno、CUBIC、BBR 与 ECN]({{< ref "16-tcp-congestion-control.md" >}})
 
 ### Unit 4 · 网络层：数据平面（第 17–19 讲）
-路由器内部如何在纳秒级别转发分组，以及 IP 地址体系为什么长成今天这样。
+路由器内部如何在纳秒级别转发分组、调度与流量监管如何给出时延保证，以及 IP 地址体系为什么长成今天这样。
 
-- [第 17 讲：网络层数据平面与路由器体系结构]({{< ref "17-network-layer-data-plane.md" >}})
+- [第 17 讲：网络层数据平面、调度与流量监管]({{< ref "17-network-layer-data-plane.md" >}})
 - [第 18 讲：IPv4 编址、子网划分、CIDR、DHCP 与 NAT]({{< ref "18-ipv4-addressing-nat.md" >}})
 - [第 19 讲：IPv6、隧道与泛化转发（SDN 数据平面）]({{< ref "19-ipv6-and-generalized-forwarding.md" >}})
 
@@ -74,9 +75,9 @@ layout: "list"
 - [第 21 讲：域内路由 OSPF 与域间路由 BGP]({{< ref "21-ospf-bgp.md" >}})
 - [第 22 讲：SDN 控制平面、ICMP 与网络管理]({{< ref "22-sdn-icmp-management.md" >}})
 
-### Unit 6 · 链路层与局域网（第 23–24 讲）
+### Unit 6 · 链路层、局域网与数据中心（第 23–24 讲）
 - [第 23 讲：链路层服务与差错检测]({{< ref "23-link-layer-error-detection.md" >}})
-- [第 24 讲：多路访问协议、以太网与交换机]({{< ref "24-multiple-access-ethernet-switches.md" >}})
+- [第 24 讲：多路访问协议、以太网、交换机与数据中心网络]({{< ref "24-multiple-access-ethernet-switches.md" >}})
 
 ### Unit 7 · 无线、移动与安全（第 25–29 讲）
 - [第 25 讲：无线链路与 802.11 WiFi]({{< ref "25-wireless-wifi.md" >}})
@@ -87,22 +88,23 @@ layout: "list"
 
 ## 编程作业（Programming Assignments）
 
-课程 40% 的成绩来自动手写代码。作业风格参考 Stanford CS144 与 UMass Wireshark Labs。
+五个动手作业，难度递增。风格参考 Stanford CS144 与 UMass Wireshark Labs。
 
-| 作业 | 内容 | 语言 | 占比 |
+| 作业 | 内容 | 语言 | 对应讲次 |
 |---|---|---|---|
-| [Lab 0]({{< ref "70-lab0-warmup.md" >}}) | 网络工具热身：curl、dig、traceroute、netcat | Shell | 2% |
-| [Lab 1]({{< ref "71-lab1-wireshark.md" >}}) | Wireshark 抓包分析（HTTP / DNS / TCP / IP / 802.11） | — | 6% |
-| [Lab 2]({{< ref "72-lab2-web-server.md" >}}) | 用 Socket 实现并发 HTTP 服务器与客户端 | Python | 10% |
-| [Lab 3]({{< ref "73-lab3-reliable-transport.md" >}}) | 在 UDP 之上实现可靠传输协议（含拥塞控制） | Python/C++ | 12% |
-| [Lab 4]({{< ref "74-lab4-router-routing.md" >}}) | 实现距离向量路由与最长前缀匹配转发表 | Python/C++ | 10% |
+| [Lab 0]({{< ref "70-lab0-warmup.md" >}}) | 网络工具热身：curl、dig、traceroute、netcat | Shell | 3、5、7、14 |
+| [Lab 1]({{< ref "71-lab1-wireshark.md" >}}) | Wireshark 抓包分析（HTTP / DNS / TCP / IP / 802.11） | — | 5、7、13、16、24、25 |
+| [Lab 2]({{< ref "72-lab2-web-server.md" >}}) | 用 Socket 实现并发 HTTP 服务器与客户端 | Python | 5、6、9 |
+| [Lab 3]({{< ref "73-lab3-reliable-transport.md" >}}) | 在 UDP 之上实现可靠传输协议（含拥塞控制） | Python/C++ | 11、12、13、15、16 |
+| [Lab 4]({{< ref "74-lab4-router-routing.md" >}}) | 实现距离向量路由与最长前缀匹配转发表 | Python/C++ | 17、18、20、21 |
 
 ## 习题与考试
 
 - [Problem Set 1]({{< ref "80-problem-set-1.md" >}})：引论与应用层（第 1–9 讲）
 - [Problem Set 2]({{< ref "81-problem-set-2.md" >}})：传输层（第 10–16 讲）
 - [Problem Set 3]({{< ref "82-problem-set-3.md" >}})：网络层与链路层（第 17–24 讲）
-- [期中与期末复习指南]({{< ref "90-exam-guide.md" >}})：考试范围、题型、公式卡与模拟题
+- [Problem Set 4]({{< ref "83-problem-set-4.md" >}})：无线、移动性与网络安全（第 25–29 讲）
+- [期中与期末复习指南]({{< ref "90-exam-guide.md" >}})：必背公式卡、高频考点清单与两份模拟题
 
 ## 工具书
 
@@ -111,7 +113,7 @@ layout: "list"
 
 ## 怎么用这门课
 
-**如果你是在自学：** 按 Syllabus 的 15 周日程走。每讲先读「学习目标」，读完正文做「随堂自测」，一周结束时做对应的 Problem Set。不要跳过实验——网络这门课，不抓一次包、不写一次 socket，理解永远停留在名词层面。
+**如果你是在自学：** 按 Syllabus 的 15 周日程走。每讲读完正文先做「随堂自测」，一周结束时做对应的 Problem Set。不要跳过实验——网络这门课，不抓一次包、不写一次 socket，理解永远停留在名词层面。
 
 **如果你在准备面试：** 第 5、7、13、14、16、18、24、29 讲是被问得最多的部分。第 29 讲（一个网页请求的一生）几乎是所有网络面试的终极题。
 
