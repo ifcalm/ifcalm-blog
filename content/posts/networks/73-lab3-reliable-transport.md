@@ -4,13 +4,11 @@ date: 2026-08-28
 weight: 73
 tags: ["计算机网络"]
 draft: false
-summary: "本课程分值最高、也最有价值的作业：在不可靠的 UDP 上实现停等、GBN、选择重传、RTT 自适应超时与 AIMD 拥塞控制，并在受控的丢包/乱序信道上验证正确性与性能。占总成绩 12%。"
+summary: "本课程最有价值的作业：在不可靠的 UDP 上实现停等、GBN、选择重传、RTT 自适应超时与 AIMD 拥塞控制，并在受控的丢包/乱序信道上验证正确性与性能。占总成绩 12%。"
 showToc: true
 tocOpen: false
 ---
 
-> 📅 **发布**：第 9 周 · **截止**：第 11 周周五 23:59
-> 💯 **占比**：总成绩 **12%**（120 分）—— ⭐ **本课程分值最高的作业**
 > 💻 **语言**：Python 3.9+ 或 C++17（只能用 UDP socket）
 
 ---
@@ -19,14 +17,6 @@ tocOpen: false
 
 > ⭐ **理解 TCP 和实现 TCP 是两回事。**
 > 你可以完美复述滑动窗口、快速重传、AIMD——直到你自己写一个，才会发现那些教材上一笔带过的地方藏着多少真正的困难。
-
-完成后你应当能够：
-
-1. 在不可靠信道上实现正确的可靠交付
-2. 实现并**对比** GBN 与选择重传的实际性能
-3. 实现 RTT 估计与自适应超时（EWMA + Karn）
-4. 实现慢启动、拥塞避免、快速重传与快速恢复
-5. ⭐ **用数据证明**你的实现在丢包链路上的行为符合理论预测
 
 ---
 
@@ -251,42 +241,7 @@ Timeout      = EstimatedRTT + 4 × DevRTT
 
 ---
 
-## 提交
-
-```
-lab3_<学号>/
-├── sender.py / sender.cpp
-├── receiver.py / receiver.cpp
-├── report.pdf              # ⭐ 含全部图表
-├── figures/
-│   ├── rtt_estimation.png
-│   ├── cwnd_evolution.png  # ⭐ 标志性成果
-│   ├── window_vs_throughput.png
-│   ├── loss_vs_throughput.png
-│   └── bdp_verification.png
-├── raw_data/               # ⭐ 生成图表的原始数据（CSV）
-├── README.md
-└── AI_USAGE.md
-```
-
-⚠️ **必须提交原始数据。**只有图没有数据视为无法验证。
-
----
-
-## 评分标准
-
-| 项目 | 分值 | 通过标准 |
-|---|---|---|
-| Part 1：停等 | 20 | ⭐ 20% 丢包 + 5% 损坏下文件 SHA-256 完全一致 |
-| Part 2：GBN | 25 | 正确性 + 窗口/定时器行为符合规范 |
-| Part 3：SR | 25 | ⭐ 正确性 + **与 GBN 的对比数据** |
-| Part 4：自适应超时 | 15 | ⭐ 三条曲线图 + Karn 算法实现 |
-| Part 5：拥塞控制 | 25 | ⭐ **cwnd 图必须能看出四个阶段** |
-| Part 6：实验报告 | 10 | 三个实验有数据、有理论对比、有解释 |
-| 加分项 | +10 | SACK / CUBIC / NewReno |
-| **合计** | **120（+10）** | |
-
-### ⭐ 一票否决项
+## ⚠️ 一票否决项
 
 ```
 ❌ 传输结果与原文件不一致 → 该 Part 直接 0 分
@@ -355,16 +310,3 @@ python3 test_harness.py --part 5 --compare reference_traces/part5.trace
 
 ---
 
-## 学术诚信提醒
-
-⚠️ **本作业的核心实现（重传逻辑、窗口管理、拥塞控制）必须由你独立完成。**
-
-允许：讨论算法思路、讨论如何调试、使用 AI 解释报错信息与概念。
-禁止：⭐ **让 AI 生成 Part 3 或 Part 5 的核心逻辑**、参考往届代码、共享代码。
-
-📌 **一个现实的提醒**：期末考试会考「给定一段 cwnd 演化，判断发生了什么」和「追踪 SR 在丢包下的报文序列」。**没有亲手写过的人，在那道题上会很明显。**
-
----
-
-*相关讲次：[第 11 讲]({{< ref "11-reliable-data-transfer.md" >}}) · [第 12 讲]({{< ref "12-pipelined-protocols.md" >}}) · [第 13 讲]({{< ref "13-tcp-basics.md" >}}) · [第 15 讲]({{< ref "15-congestion-control-principles.md" >}}) · [第 16 讲]({{< ref "16-tcp-congestion-control.md" >}})*
-*下一个实验：[Lab 4：路由算法与转发表]({{< ref "74-lab4-router-routing.md" >}})*

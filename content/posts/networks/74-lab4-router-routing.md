@@ -9,21 +9,7 @@ showToc: true
 tocOpen: false
 ---
 
-> 📅 **发布**：第 12 周 · **截止**：第 14 周周五 23:59
-> 💯 **占比**：总成绩 **10%**（100 分）
 > 💻 **语言**：Python 3.9+ 或 C++17
-
----
-
-## 作业目标
-
-完成后你应当能够：
-
-1. 实现高效的**最长前缀匹配**转发表
-2. 实现 **Dijkstra** 并生成正确的转发表
-3. 实现**分布式异步**的距离向量算法，并**复现无穷计数问题**
-4. 实现并**验证毒性逆转的局限**
-5. 实现一个遵守 Gao-Rexford 规则的简化 **BGP 选路引擎**
 
 ---
 
@@ -298,39 +284,7 @@ python3 bgp.py --topo topologies/internet.json \
 
 ---
 
-## 提交
-
-```
-lab4_<学号>/
-├── forwarding_table.py
-├── ls_routing.py
-├── dv_routing.py
-├── bgp.py
-├── bench.py
-├── topologies/            # 你构造的测试拓扑（含三节点环路）
-├── report.pdf
-├── figures/
-│   ├── lookup_performance.png
-│   ├── count_to_infinity.png    # ⭐ 标志性图表
-│   └── ...
-├── raw_data/
-└── AI_USAGE.md
-```
-
----
-
-## 评分标准
-
-| 项目 | 分值 | 关键检查点 |
-|---|---|---|
-| Part 1：最长前缀匹配 | 25 | ⭐ 正确性 + 数据结构选择 + 性能测试 |
-| Part 2：Dijkstra | 20 | ⭐ 迭代表与讲义一致 + ECMP |
-| **Part 3：距离向量** | **30** | ⭐ **必须是真正的分布式异步实现**；3.3 和 3.4② 是重点 |
-| Part 4：BGP | 25 | ⭐ Gao-Rexford 规则正确 + 劫持模拟三问 |
-| IPv6 支持 | +5 | 加分 |
-| **合计** | **100（+5）** | |
-
-### ⭐ 一票否决项
+## ⚠️ 一票否决项
 
 ```
 ❌ Part 3 写成中心化的全局循环（节点直接读取其他节点的状态）
@@ -376,7 +330,3 @@ while events:
 
 这两件事，是理解真实互联网如何运转的关键。
 
----
-
-*相关讲次：[第 17 讲]({{< ref "17-network-layer-data-plane.md" >}}) · [第 18 讲]({{< ref "18-ipv4-addressing-nat.md" >}}) · [第 20 讲]({{< ref "20-routing-algorithms.md" >}}) · [第 21 讲]({{< ref "21-ospf-bgp.md" >}})*
-*下一步：[Problem Set 1]({{< ref "80-problem-set-1.md" >}}) · [期末复习指南]({{< ref "90-exam-guide.md" >}})*
