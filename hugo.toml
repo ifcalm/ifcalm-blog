@@ -127,6 +127,13 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
     weight = 8
 
   [[menu.main]]
+    identifier = "datastruct"
+    name = "数据结构与算法"
+    url = "/posts/datastruct/"
+    parent = "posts"
+    weight = 9
+
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
