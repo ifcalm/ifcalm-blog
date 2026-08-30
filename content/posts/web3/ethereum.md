@@ -3,7 +3,7 @@ title: "003_以太坊"
 date: 2023-06-15
 tags: ["区块链", "web3"]
 draft: false
-summary: "任何人都能独立验证的数学证据与开源代码"
+summary: "入门第三篇：以太坊的账户模型、状态与数据存储、交易结构、以太币的单位，以及智能合约与 EVM 的概览。"
 showToc: true
 tocOpen: false
 ShowShareButtons: false

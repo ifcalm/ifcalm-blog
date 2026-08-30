@@ -416,6 +416,3 @@ func Tarjan(g *Graph) [][]int {
 9. Tarjan 中 `low[u] = min(low[u], disc[v])` 为什么不能写成 `low[v]`？
 10. `low[u] == disc[u]` 的含义是什么？为什么它标志着 SCC 的根？
 
----
-
-> **上一讲**：[第 21 讲：图的表示与广度优先搜索]({{< ref "21-graphs-bfs.md" >}})　**下一讲**：[第 23 讲：并查集与不相交集合]({{< ref "23-disjoint-sets.md" >}})

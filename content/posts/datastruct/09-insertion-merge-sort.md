@@ -331,6 +331,3 @@ func hybridSort(a, buf []int) {
 8. 为什么外部排序用归并而不是快排？请从 I/O 访问模式角度回答。
 9. `slices.SortFunc` 和 `slices.SortStableFunc` 有什么区别？什么时候必须用后者？
 
----
-
-> **上一讲**：[第 8 讲：散列表 II]({{< ref "08-hash-tables-open-addressing.md" >}})　**下一讲**：[第 10 讲：堆与优先队列]({{< ref "10-heaps-priority-queues.md" >}})

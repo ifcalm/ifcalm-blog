@@ -3,7 +3,7 @@ title: "002_区块链基础(二)"
 date: 2023-06-15
 tags: ["区块链", "web3"]
 draft: false
-summary: "在Web3生态中，钱包扮演着一个至关重要的角色。"
+summary: "入门第二篇：钱包地址与常见钱包类型、比特币与以太坊的典型应用、DeFi / NFT / DAO 是什么，以及钱包安全的具体做法。"
 showToc: true
 tocOpen: false
 ShowShareButtons: false

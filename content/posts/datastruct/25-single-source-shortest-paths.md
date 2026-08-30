@@ -348,6 +348,3 @@ Dijkstra 的搜索区域:        A* 的搜索区域:
 10. A\* 的 h 满足什么条件才保证最优？h ≡ 0 时 A\* 退化成什么？
 11. 边权全是 1 时用 Dijkstra 会有什么浪费？该用什么？
 
----
-
-> **上一讲**：[第 24 讲：最小生成树]({{< ref "24-minimum-spanning-trees.md" >}})　**下一讲**：[第 26 讲：全源最短路径]({{< ref "26-all-pairs-shortest-paths.md" >}})

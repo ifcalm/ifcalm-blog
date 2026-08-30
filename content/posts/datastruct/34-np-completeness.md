@@ -342,5 +342,4 @@ ILP 求解器（Gurobi、CPLEX）：许多 NP-难问题的实用解法
 
 ---
 
-> **上一讲**：[第 33 讲：字符串算法]({{< ref "33-string-algorithms.md" >}})
 > **课程结束。** 接下来可以做[五套习题]({{< ref "80-problem-set-1.md" >}})，或查阅[术语表]({{< ref "95-glossary.md" >}})与[复杂度速查表]({{< ref "96-resources.md" >}})。

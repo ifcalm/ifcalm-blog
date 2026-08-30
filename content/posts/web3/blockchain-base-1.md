@@ -3,7 +3,7 @@ title: "001_区块链基础(一)"
 date: 2023-06-12
 tags: ["区块链", "web3"]
 draft: false
-summary: "在 Web3 的世界里，用户对自己创造的内容和数据拥有真正的所有权，从而摆脱对传统中心化平台的依赖。"
+summary: "入门第一篇：分布式账本与去中心化的含义、区块链的数据结构、哈希函数、公私钥体系与数字签名，以及 PoW、PoS 等常见共识算法。"
 showToc: true
 tocOpen: false
 ShowShareButtons: false

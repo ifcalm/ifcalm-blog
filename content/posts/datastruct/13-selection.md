@@ -309,6 +309,3 @@ T(n) ≤ c(n/5) + c(7n/10) + an
 8. 排 10 亿条日志找最大的 100 条，数据是流式的。用堆还是快速选择？为什么？
 9. `std::nth_element` 是 introselect，说明它的两条路径与切换条件，并类比 introsort。
 
----
-
-> **上一讲**：[第 12 讲：排序的下界与线性时间排序]({{< ref "12-sorting-lower-bound-linear-sorts.md" >}})　**下一讲**：[第 14 讲：二分查找与二分答案]({{< ref "14-binary-search.md" >}})

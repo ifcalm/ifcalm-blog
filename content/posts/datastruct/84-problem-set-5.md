@@ -452,5 +452,4 @@ i:     0  1  2  3  4  5  6
 
 ---
 
-> **上一套**：[Problem Set 4]({{< ref "83-problem-set-4.md" >}})
 > 全部五套习题完成。可回到[课程首页]({{< ref "_index.md" >}})，或查阅[术语表]({{< ref "95-glossary.md" >}})。

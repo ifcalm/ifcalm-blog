@@ -371,6 +371,3 @@ func FractionalKnapsack(items []Item, capacity float64) float64 {
 9. 拟阵的两条公理是什么？说明"图的森林"满足它们，从而 Kruskal 正确。
 10. 币制 {1,3,4} 下求 6 元的最少硬币数，贪心给出什么？最优是什么？这说明了什么？
 
----
-
-> **上一讲**：[第 29 讲：回溯与穷举搜索]({{< ref "29-backtracking.md" >}})　**下一讲**：[第 31 讲：动态规划 I]({{< ref "31-dynamic-programming-1.md" >}})

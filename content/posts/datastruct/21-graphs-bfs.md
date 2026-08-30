@@ -373,6 +373,3 @@ func ZeroOneBFS(g *WGraph, s int) []int {
 9. 双向 BFS 为什么能把 b^d 降到 2b^(d/2)？它需要什么前提？
 10. 0-1 BFS 为什么用双端队列就够了，不需要堆？如果边权是 {0,1,2} 呢？
 
----
-
-> **上一讲**：[第 20 讲：数据结构的增强]({{< ref "20-augmenting-data-structures.md" >}})　**下一讲**：[第 22 讲：深度优先搜索、拓扑排序与强连通分量]({{< ref "22-dfs-topological-scc.md" >}})

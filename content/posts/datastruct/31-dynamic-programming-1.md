@@ -401,6 +401,3 @@ func LISFast(a []int) int {
 10. LIS 的 DP 状态为什么定义成"以 a[i] 结尾"而不是"前 i 个"？
 11. 解释 O(n log n) LIS 中 `tails` 数组的含义，以及"用更小的值替换"为什么正确。
 
----
-
-> **上一讲**：[第 30 讲：贪心算法与交换论证]({{< ref "30-greedy-algorithms.md" >}})　**下一讲**：[第 32 讲：动态规划 II]({{< ref "32-dynamic-programming-2.md" >}})

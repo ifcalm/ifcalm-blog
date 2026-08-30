@@ -1,0 +1,215 @@
+---
+title: "实验 3：共识"
+date: 2026-08-30
+weight: 72
+tags: ["区块链"]
+draft: false
+summary: "两部分：实现 PoW 的挖矿与难度调整并用模拟验证出块间隔的指数分布；实现一个简化 PBFT 并用测试证明它在 f 个拜占庭节点下仍然安全、在 f+1 个时会失败。含自私挖矿的状态机模拟。"
+showToc: true
+tocOpen: false
+---
+
+对应[第 14–18 讲]({{< ref "14-proof-of-work.md" >}})。
+
+⭐ **这个实验分两部分，它们的目的正好相反**：第一部分让你看到 PoW 的**概率性质**，第二部分让你看到 BFT 的**确定性边界**。
+
+## 第一部分：工作量证明
+
+### 任务 1.1：挖矿
+
+```go
+// Mine 穷举 nonce 直到哈希小于 target。
+func Mine(header []byte, target *big.Int, maxNonce uint32) (uint32, bool)
+```
+
+⚠️ 注意比特币把区块哈希**按小端序**解释为整数——比较前要反转字节。
+
+### ⭐ 任务 1.2：验证出块间隔是指数分布
+
+**用模拟而不是数学，验证[第 14 讲第四节]({{< ref "14-proof-of-work.md" >}})的结论：**
+
+```go
+// SimulateBlockTimes 模拟 n 个区块的出块间隔。
+// ⭐ 每次尝试成功的概率 p = target / 2²⁵⁶，
+//    直接用几何分布采样即可，不必真的算哈希。
+func SimulateBlockTimes(p float64, hashrate float64, n int) []float64
+```
+
+跑 10 万个区块，填这张表：
+
+```
+                        理论值      你的模拟值
+均值                     600 秒       ?
+P(间隔 > 600 秒)        36.8%        ?
+P(间隔 > 1800 秒)        5.0%        ?
+P(间隔 > 3600 秒)        0.25%       ?
+P(间隔 <  60 秒)         9.5%        ?
+最长的一次间隔            —           ?
+```
+
+⭐ **然后回答：**
+
+```
+① 你观察到的最长间隔是多少？它出现的频率符合 e^(−t/600) 吗？
+② ⭐ 已经等了 20 分钟后，再等 10 分钟内出块的概率是多少？
+   ⚠️ 用模拟数据验证它等于"刚出完块时"的值——这就是无记忆性。
+③ 有人说"最近半小时没出块，网络一定出问题了"。用你的数据回应他。
+```
+
+### 任务 1.3：难度调整
+
+```go
+// NextTarget 实现比特币的难度调整（第 14 讲第五节）。
+// ⚠️ 记得 [1/4, 4] 限幅。
+func NextTarget(oldTarget *big.Int, actualSpan time.Duration) *big.Int
+```
+
+模拟两个场景：
+
+```
+场景 A：算力在第 5 个周期突然翻倍
+       ⟹ 那个周期出块加快，下一次调整后恢复
+
+场景 B：⚠️ 算力在第 5 个周期骤降 90%
+       ⟹ ⭐ 观察限幅如何让恢复变得极其缓慢——
+          算出这个周期实际要花多久才能走完 2016 个块
+```
+
+⭐ **场景 B 是重点**：它解释了为什么算力大幅撤离时，一条链可能"卡住"数周。
+
+### ⭐ 任务 1.4：自私挖矿模拟
+
+**实现[第 15 讲第五节]({{< ref "15-longest-chain-forks.md" >}})的策略：**
+
+```go
+// SelfishMining 返回攻击者获得的【收益份额】。
+// alpha: 攻击者算力占比
+// gamma: 平局时跟随攻击者区块的诚实算力比例
+func SelfishMining(alpha, gamma float64, blocks int) float64
+```
+
+**状态机（`state` = 私链领先的区块数）：**
+
+```
+攻击者挖到块（概率 α）：  state++
+
+诚实方挖到块（概率 1−α）：
+    state == 0 ⟹ 诚实方的块直接成为主链
+    state == 1 ⟹ ⭐ 攻击者【立即发布】，形成竞争
+                   以概率 γ 攻击者赢，1−γ 诚实方赢
+    state == 2 ⟹ ⭐ 攻击者发布两个块，诚实方那个作废
+    state >  2 ⟹ 攻击者发布一个块盖过去，state−−
+```
+
+**扫描 α 从 0.10 到 0.45，找出"收益份额 > 算力份额"的临界点：**
+
+```
+                γ=0      γ=0.5     γ=1
+理论阈值        33.3%     25%       →0
+你的模拟结果      ?         ?         ?
+```
+
+⭐ **亲眼看到 α = 0.26、γ = 0.5 时收益份额确实超过 0.26，比读十遍公式有说服力得多。**
+
+## 第二部分：简化 PBFT
+
+### 任务 2.1：三阶段协议
+
+```go
+type Node struct {
+    ID        int
+    N, F      int   // 总数与最大容错数
+    View      int
+    Byzantine bool  // ⭐ 用于测试：是否作恶
+    // ...
+}
+
+func (n *Node) OnPrePrepare(m *PrePrepare) []Message
+func (n *Node) OnPrepare(m *Prepare) []Message
+func (n *Node) OnCommit(m *Commit) []Message
+```
+
+⭐ 法定人数固定为 `2f+1`，且每一步都必须**收齐**才能推进。
+
+### ⭐ 任务 2.2：证明安全边界
+
+**这是本实验最重要的部分。**
+
+```go
+func TestSafetyWithFByzantine(t *testing.T) {
+    // n = 4, f = 1
+    // ⭐ 让 1 个节点作恶：对不同节点发送不同的值
+    // 断言：所有【诚实】节点最终提交【同一个】值
+}
+
+func TestSafetyBreaksWithFPlusOne(t *testing.T) {
+    // n = 4，但让 2 个节点作恶（超出 f = 1）
+    // ⭐ 构造场景，让两个诚实节点提交【不同】的值
+    // ⚠️ 这个测试要断言"安全性确实被违反了"——
+    //    看到它真的发生，才算理解 n ≥ 3f+1 不是随便定的
+}
+```
+
+⭐ **第二个测试是这个实验的核心产出。** 提示：让两个拜占庭节点分别去配合两个不同的诚实节点，各自凑够 `2f+1`。
+
+### 任务 2.3：去掉 COMMIT 阶段会怎样
+
+```go
+func TestNoCommitPhaseIsUnsafe(t *testing.T) {
+    // ⭐ 实现一个只有 PRE-PREPARE 和 PREPARE 的版本
+    // 构造场景：某节点 prepared 并执行后触发视图切换，
+    // ⚠️ 新主节点提议了另一个值
+    // 断言：出现了不一致
+}
+```
+
+⭐ **这个测试把[第 18 讲第二节]({{< ref "18-bft-consensus.md" >}})的论证变成了可运行的代码。**
+
+### 任务 2.4：法定人数交集
+
+```go
+func TestQuorumIntersection(t *testing.T) {
+    for n := 4; n <= 31; n += 3 {
+        f := (n - 1) / 3
+        q := 2*n/3 + 1
+        // ⭐ 断言 2q − n > f —— 即交集必含诚实节点
+    }
+}
+```
+
+⚠️ n 较大时不要真的枚举全部子集——⭐ 用最坏情况的计数论证 `|A∩B| ≥ 2q − n` 即可。
+
+### 任务 2.5（选做）：Tendermint 的锁定规则
+
+```go
+// 实现锁定规则，然后证明：
+// ⭐ 若 v 在第 r 轮被提交，则第 r+1 轮不可能提交任何 v' ≠ v。
+func TestLockingPreventsConflict(t *testing.T)
+```
+
+## 提交清单
+
+```
+□ pow.go / pow_test.go          挖矿 + 难度调整
+□ distribution_test.go          ⭐ 指数分布的模拟验证 + 三个问答
+□ difficulty_test.go            场景 A/B 的模拟
+□ selfish.go / selfish_test.go  ⭐ 自私挖矿状态机 + 三组阈值验证
+□ pbft.go                       三阶段协议
+□ safety_test.go                ⭐ f 个作恶安全 / f+1 个失败
+□ nocommit_test.go              ⭐ 去掉 COMMIT 后不安全
+□ ANSWERS.md                    1.2 的三个问答 + 场景 B 的计算
+```
+
+## ⚠️ 常见错误
+
+```
+① 用 math/rand 的固定种子 ⟹ 每次结果相同，看不出分布
+② ⭐ 自私挖矿状态机漏掉 state = 2 的特殊处理（"一次发布两个块"）
+③ ⚠️ PBFT 里统计"收到 2f+1 条消息"而不是"来自 2f+1 个【不同节点】"
+   ⟹ 一个作恶节点重复发送就能凑数
+④ ⭐ 忘记按 (view, sequence, digest) 三元组区分消息 ⟹ 跨轮次串味
+```
+
+---
+
+> **相关**：[第 14 讲]({{< ref "14-proof-of-work.md" >}})、[第 15 讲]({{< ref "15-longest-chain-forks.md" >}})、[第 18 讲]({{< ref "18-bft-consensus.md" >}})

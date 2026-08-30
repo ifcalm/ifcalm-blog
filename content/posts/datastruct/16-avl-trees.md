@@ -320,6 +320,3 @@ func delete(x *Node, k int) *Node {
 8. AVL 高度上界 1.44 log n，红黑树 2 log n。为什么实践中红黑树用得更多？
 9. n = 10⁶ 时两者的树高分别约是多少层？为什么这个差距在实测中往往不明显？
 
----
-
-> **上一讲**：[第 15 讲：二叉搜索树]({{< ref "15-binary-search-trees.md" >}})　**下一讲**：[第 17 讲：红黑树与 2-3-4 树]({{< ref "17-red-black-trees.md" >}})
