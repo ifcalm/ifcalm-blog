@@ -24,14 +24,14 @@ tocOpen: false
        ▼
 ⑥ 上链         区块被广播
        ▼
-⑦ 最终确定     ⭐ 约 12.8 分钟后（第 19 讲）
+⑦ 最终确定     约 12.8 分钟后（第 19 讲）
 ```
 
 ⭐ **每个阶段都有它自己的失败模式和攻击面。**
 
 ## 二、mempool
 
-### ⚠️ 它是公开的
+### 它是公开的
 
 ```
 交易在被打包【之前】，就已经被全网看到了。
@@ -56,7 +56,7 @@ tocOpen: false
       ⟹ 这就是钱包"加速"和"取消"的实现（第 11 讲）
 
 驱逐：mempool 有容量上限，价格最低的先被丢弃
-      ⚠️ 被丢弃的交易【不会通知你】，它只是消失了
+      被丢弃的交易【不会通知你】，它只是消失了
 
 nonce 间隙：nonce = 5 缺失时，6 和 7 只能排队等待（第 11 讲的队头阻塞）
 ```
@@ -74,7 +74,7 @@ nonce 间隙：nonce = 5 缺失时，6 和 7 只能排队等待（第 11 讲的�
 }
 ```
 
-### ⭐ 事件是写给链下的
+### 事件是写给链下的
 
 ⚠️ **一个关键但常被误解的事实：**
 
@@ -92,9 +92,9 @@ EVM 里没有任何一条指令可以读日志。
 发一个带 32 字节数据的事件：约 750 Gas
 ```
 
-⭐ **所以：只给链下看的数据，用事件；需要被合约读的数据，才用存储。** 这是最常见也最有效的 Gas 优化之一。
+**所以：只给链下看的数据，用事件；需要被合约读的数据，才用存储。** 这是最常见也最有效的 Gas 优化之一。
 
-## 四、⚠️ EOA 的四个硬限制
+## 四、EOA 的四个硬限制
 
 外部账户（第 11 讲）在设计上被写死了四件事：
 
@@ -103,14 +103,14 @@ EVM 里没有任何一条指令可以读日志。
    ⟹ 用不了手机安全芯片的 P-256、用不了抗量子签名、
       用不了多签或阈值签名
 
-② ⚠️ 必须用 ETH 付 Gas
+② 必须用 ETH 付 Gas
    ⟹ 新用户手上只有 USDC 时，寸步难行
 
-③ ⚠️ 一笔交易只能有一个 to
+③ 一笔交易只能有一个 to
    ⟹ "授权 + 交换"必须发两笔，
       而这两笔之间存在被抢跑的窗口
 
-④ ⚠️ 私钥丢失 = 资产永久丢失
+④ 私钥丢失 = 资产永久丢失
    ⟹ 没有社交恢复、没有每日限额、没有紧急冻结
 ```
 
@@ -129,7 +129,7 @@ EVM 里没有任何一条指令可以读日志。
  │   是一个结构体）    ├──────────────────────▶│                   │
  │                    │                       │ ① validateUserOp  │
  │                    │                       ├──────────────────▶│
- │                    │                       │   ⭐ 钱包自己决定  │
+ │                    │                       │   钱包自己决定  │
  │                    │                       │      怎么验证签名  │
  │                    │                       │◀──────────────────┤
  │                    │                       │ ② 执行调用         │
@@ -140,11 +140,11 @@ EVM 里没有任何一条指令可以读日志。
 
 | 角色 | 作用 |
 |---|---|
-| **UserOperation** | ⭐ 一个"伪交易"结构体，走独立的 mempool |
+| **UserOperation** | 一个"伪交易"结构体，走独立的 mempool |
 | **Bundler** | 把多个 UserOp 打包成一笔真实交易，赚取手续费 |
-| **EntryPoint** | ⭐ 唯一的、全局共享的入口合约，负责验证与执行的编排 |
-| **钱包合约** | ⭐ 用户自己的账户，**验证逻辑完全自定义** |
-| **Paymaster** | ⭐ 可选，替用户付 Gas（可以收 USDC，也可以完全免费） |
+| **EntryPoint** | 唯一的、全局共享的入口合约，负责验证与执行的编排 |
+| **钱包合约** | 用户自己的账户，**验证逻辑完全自定义** |
+| **Paymaster** | 可选，替用户付 Gas（可以收 USDC，也可以完全免费） |
 
 ⭐ **于是四个限制全部被解开：**
 
@@ -152,15 +152,15 @@ EVM 里没有任何一条指令可以读日志。
 ① 签名算法：钱包合约自己实现 validateUserOp ⟹ 任意算法
 ② Gas 代付：Paymaster ⟹ ⭐ 用户可以用 USDC 付费，甚至完全不付
 ③ 批量操作：一个 UserOp 可以包含多个调用 ⟹ 授权 + 交换一步完成
-④ 恢复机制：⭐ 社交恢复、每日限额、多签，全部只是钱包合约里的代码
+④ 恢复机制：社交恢复、每日限额、多签，全部只是钱包合约里的代码
 ```
 
-⚠️ **代价：**
+**代价：**
 
 ```
 ① 额外的 Gas 开销（EntryPoint 的编排逻辑要钱）
 ② ⚠️ 需要一个独立的 UserOp mempool 生态
-③ ⭐ EntryPoint 是一个全局单点——它的 bug 会影响所有 4337 钱包
+③ EntryPoint 是一个全局单点——它的 bug 会影响所有 4337 钱包
 ```
 
 ## 六、EIP-7702：让现有 EOA 长出合约能力
@@ -175,20 +175,20 @@ EIP-7702 的思路完全不同：
 
 ⟹ 这笔交易执行期间，你的 EOA【就是】那个合约
 ⟹ 于是它获得批量调用、Gas 代付、自定义验证等全部能力
-⟹ ⭐ 而地址不变，资产不用迁移
+⟹ 而地址不变，资产不用迁移
 ```
 
 ⭐ **两者的定位对比：**
 
 ```
 4337：⭐ 完整的账户抽象，但需要新地址、新生态
-7702：⭐ 让【存量】EOA 立刻获得大部分好处，改动小得多
+7702：让【存量】EOA 立刻获得大部分好处，改动小得多
 ⟹ 二者互补，不是替代关系
 ```
 
 ## 七、并行执行
 
-### ⚠️ 为什么 EVM 难以并行
+### 为什么 EVM 难以并行
 
 ```
 两笔交易能并行的条件：它们的读写集不相交。
@@ -197,7 +197,7 @@ EIP-7702 的思路完全不同：
    合约可以根据链上数据动态决定调用谁、写哪个槽。
 ```
 
-⭐ 第 10 讲讲过，UTXO 模型天然没有这个问题（读写集显式声明在交易里）。账户模型换来了共享状态的表达力，代价就是这里。
+第 10 讲讲过，UTXO 模型天然没有这个问题（读写集显式声明在交易里）。账户模型换来了共享状态的表达力，代价就是这里。
 
 ### 三条路线
 
@@ -206,11 +206,11 @@ EIP-7702 的思路完全不同：
 ```
 交易头里必须列出会读写的所有账户。
 ⭐ 调度器据此并行 ⟹ 简单、确定
-⚠️ 代价：开发者必须提前知道所有可能触碰的账户；
+代价：开发者必须提前知道所有可能触碰的账户；
         动态调用下只能保守地多声明 ⟹ 并行度下降
 ```
 
-**② ⭐ 乐观并行（Block-STM，Aptos 等）**
+**② 乐观并行（Block-STM，Aptos 等）**
 
 这是目前最有意思的一条路：
 
@@ -219,14 +219,29 @@ EIP-7702 的思路完全不同：
    执行时记录每笔交易的【读集】和【写集】
 
 ② 写入不直接落盘，而是写进一个【多版本内存】：
-   每个存储槽保存"哪笔交易写了什么值"
+   每个存储槽记录"哪笔交易的【第几次执行】写了什么值"
 
-③ ⭐ 验证阶段：按【原始顺序】逐笔检查
-   "我当初读到的值，和现在应该读到的值一致吗？"
+③ 验证阶段：严格按【原始顺序】逐笔检查
+   "我当初读到的那个版本，现在还是正确的版本吗？"
 
-④ 不一致 ⟹ ⚠️ 这笔交易读到了过时数据 ⟹ 丢弃结果，重新执行
-   （并且它之后的交易也可能需要重跑）
+④ 不一致 ⟹ 这笔交易读到了过时数据 ⟹ 撤掉它的写入，重新执行
 ```
+
+⚠️ **第 ② 步里"第几次执行"那半句，是最容易被漏掉、也最致命的一点：**
+
+```
+若版本号只记"哪笔交易写的"，而不记"它的第几次执行"：
+
+   tx1 第一次执行写了 counter = 1
+   tx2 读到了它，记下"我读的是 tx1 写的版本"
+   tx1 因为读到过时数据被重跑，改写成 counter = 2
+   ⟹ ⚠️ tx2 验证时一看："我读的还是 tx1 写的" —— 通过！
+   ⟹ ⭐ 但它手上那个 1 已经作废了
+
+⟹ 结果与串行不一致，而且【不会报错】，只会算出错的状态根。
+```
+
+⭐ **另外，重跑前必须撤掉这笔交易上一轮的写入**——因为重跑可能产生【不同的写集】，旧键留在内存里会永久污染后续读取。
 
 ⭐ **关键性质：最终结果与串行执行【完全一致】。**
 
@@ -242,12 +257,12 @@ EIP-7702 的思路完全不同：
 ```
 交易之间冲突少 ⟹ 接近线性加速
 ⚠️ 冲突多（比如所有人都在打同一个热门 NFT 合约）
-   ⟹ 大量重跑，⭐ 可能比串行还慢
+   ⟹ 大量重跑，可能比串行还慢
 ```
 
 **③ 访问列表（以太坊的渐进路径）**
 
-EIP-2930 让交易**可选地**声明访问列表（第 21 讲）。目前它只用于 Gas 折扣，⭐ **但它为未来的并行调度提供了信息基础**——这是一条不需要硬分叉、可以逐步过渡的路。
+EIP-2930 让交易**可选地**声明访问列表（第 21 讲）。目前它只用于 Gas 折扣，**但它为未来的并行调度提供了信息基础**——这是一条不需要硬分叉、可以逐步过渡的路。
 
 ## 八、Go：Block-STM 骨架
 
@@ -256,47 +271,69 @@ package parallel
 
 import "sync"
 
-type Key [52]byte // 地址 + 槽
+type Key [52]byte
 
-// MVMemory 是多版本内存：每个键保存"哪笔交易写了什么"。
-// ⭐ 版本号就是交易在区块内的原始序号，这保证了语义与串行一致。
+// entry 是某笔交易对某个键的一次写入。
+// ⚠️ incarnation 记录"这是该交易的第几次执行"。
+// ⭐ 少了它就会出错：交易重跑后值变了、但 txIndex 没变，
+// 读方会误以为"我读的版本没变过"而通过验证，拿着过时值继续。
+type entry struct {
+	value       []byte
+	incarnation int
+}
+
+// MVMemory 是多版本内存：每个键保存"哪笔交易的第几次执行写了什么"。
 type MVMemory struct {
 	mu   sync.RWMutex
-	data map[Key]map[int][]byte // key → txIndex → value
+	data map[Key]map[int]entry // key → txIndex → entry
 }
 
 func NewMVMemory() *MVMemory {
-	return &MVMemory{data: make(map[Key]map[int][]byte)}
+	return &MVMemory{data: make(map[Key]map[int]entry)}
 }
 
 // Read 返回"在 txIndex 之前、离它最近的那次写入"。
 // ⭐ 这正是串行执行时该读到的值。
-func (m *MVMemory) Read(k Key, txIndex int) (value []byte, writer int) {
+func (m *MVMemory) Read(k Key, txIndex int) (value []byte, writer, incarnation int) {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 
-	best, bestVal := -1, []byte(nil)
-	for idx, v := range m.data[k] {
+	best, bestE := -1, entry{}
+	for idx, e := range m.data[k] {
 		if idx < txIndex && idx > best { // 只看排在自己前面的写入
-			best, bestVal = idx, v
+			best, bestE = idx, e
 		}
 	}
-	return bestVal, best
+	if best < 0 {
+		return nil, -1, 0 // −1 表示读的是区块开始时的初始状态
+	}
+	return bestE.value, best, bestE.incarnation
 }
 
-func (m *MVMemory) Write(k Key, txIndex int, v []byte) {
+func (m *MVMemory) Write(k Key, txIndex, incarnation int, v []byte) {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	if m.data[k] == nil {
-		m.data[k] = make(map[int][]byte)
+		m.data[k] = make(map[int]entry)
 	}
-	m.data[k][txIndex] = v
+	m.data[k][txIndex] = entry{value: v, incarnation: incarnation}
 }
 
-// ReadRecord 记录一次读操作：读了哪个键，以及当时读到的是谁写的版本。
+// ClearWrites 撤掉某笔交易上一轮留下的全部写入。
+// ⚠️ 重跑可能产生【不同的写集】——旧键若不清掉，会永远污染后续读取。
+func (m *MVMemory) ClearWrites(txIndex int) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	for _, versions := range m.data {
+		delete(versions, txIndex)
+	}
+}
+
+// ReadRecord 记录一次读操作：读了哪个键，以及读到的是哪个版本。
 type ReadRecord struct {
-	Key    Key
-	Writer int // −1 表示读的是区块开始时的初始状态
+	Key         Key
+	Writer      int // −1 表示区块初始状态
+	Incarnation int
 }
 
 type TxResult struct {
@@ -307,23 +344,24 @@ type TxResult struct {
 
 // Validate 检查一笔交易的读集是否仍然有效。
 // ⭐ 核心问题：我当初读到的版本，现在还是正确的版本吗？
-// ⚠️ 若不是，说明我读到了过时数据，必须重新执行。
+// ⚠️ 必须同时比对 writer 和 incarnation——只比 writer 会漏掉"同一笔交易重跑后值变了"。
 func (m *MVMemory) Validate(r *TxResult) bool {
 	for _, rec := range r.ReadSet {
-		_, currentWriter := m.Read(rec.Key, r.Index)
-		if currentWriter != rec.Writer {
-			return false // ⚠️ 期间有一笔更靠前的交易写了这个键
+		_, w, inc := m.Read(rec.Key, r.Index)
+		if w != rec.Writer || inc != rec.Incarnation {
+			return false // 期间有更靠前的交易写了这个键，或重跑改了值
 		}
 	}
 	return true
 }
 
 // Execute 是 Block-STM 的主循环。
-// ⭐ 乐观地并行执行，再按【原始顺序】验证，冲突则重跑。
+// ⭐ 先乐观并行执行，再按【原始顺序】逐笔验证，失败就重跑。
 // ⚠️ 最终结果必须与串行执行完全一致——这是共识的硬要求，不是优化目标。
 func Execute(txs []func(int, *MVMemory) *TxResult, workers int) []*TxResult {
 	mv := NewMVMemory()
 	results := make([]*TxResult, len(txs))
+	inc := make([]int, len(txs))
 
 	// ── 第一轮：乐观并行执行 ──
 	var wg sync.WaitGroup
@@ -337,31 +375,27 @@ func Execute(txs []func(int, *MVMemory) *TxResult, workers int) []*TxResult {
 
 			r := txs[idx](idx, mv)
 			for k, v := range r.WriteSet {
-				mv.Write(k, idx, v)
+				mv.Write(k, idx, 0, v)
 			}
 			results[idx] = r
 		}(i)
 	}
 	wg.Wait()
 
-	// ── 第二轮：按原始顺序验证，失败则串行重跑 ──
-	// ⚠️ 一笔交易重跑后，它的写入可能让【后面】的交易也失效，
-	//    所以这里从失效点开始逐个向后检查。
+	// ── 第二轮：严格按原始顺序验证 ──
+	// ⭐ 走到第 i 笔时，前 i−1 笔都已定稿，
+	//    所以拿它的读集去对照当前状态，就等于对照串行执行的结果。
 	for i := 0; i < len(results); i++ {
-		if !mv.Validate(results[i]) {
-			r := txs[i](i, mv) // 重新执行
-			for k, v := range r.WriteSet {
-				mv.Write(k, i, v)
-			}
-			results[i] = r
-			// ⭐ 重跑改变了状态，后续交易需要重新验证
-			for j := i + 1; j < len(results); j++ {
-				if !mv.Validate(results[j]) {
-					i = j - 1 // 回退到 j，下一轮从这里继续
-					break
-				}
-			}
+		if mv.Validate(results[i]) {
+			continue
 		}
+		mv.ClearWrites(i) // ⚠️ 先撤旧写入，再重跑
+		inc[i]++
+		r := txs[i](i, mv)
+		for k, v := range r.WriteSet {
+			mv.Write(k, i, inc[i], v)
+		}
+		results[i] = r
 	}
 	return results
 }
@@ -372,14 +406,14 @@ func Execute(txs []func(int, *MVMemory) *TxResult, workers int) []*TxResult {
 - **交易七阶段**：签名 → 广播 → mempool → 打包 → 执行 → 上链 → 最终确定。每个阶段都有自己的攻击面。
 - ⚠️⭐ **mempool 是公开的**——交易在被打包前全网可见。这是全部 MEV 的基础，也意味着**"提交一个含答案的交易"根本不保密**。
 - **替换需要 Gas 价格高出约 10%**；被驱逐的交易**不会通知你，只是消失**。
-- ⭐⚠️ **合约无法读取事件，包括自己发出的。** 事件只写进收据树，供链下使用。⭐ **这让它比存储便宜一个数量级**（约 750 vs 20000 Gas）——**只给链下看的数据用事件，需要被合约读的才用存储。**
-- ⚠️ **EOA 的四个硬限制**：只能用 secp256k1、必须用 ETH 付 Gas、一笔只能一个 `to`、私钥丢了就没了。
-- ⭐ **EIP-4337 完全在协议之外实现**，通过 UserOperation → Bundler → EntryPoint → 钱包合约的流水线，把验证逻辑变成可编程代码。⚠️ **代价是额外 Gas、独立生态，且 EntryPoint 是全局单点。**
-- ⭐ **EIP-7702 让存量 EOA 临时"贴上"合约代码**，地址不变、资产不迁移。⭐ **它和 4337 是互补而非替代。**
-- ⚠️ **EVM 难以并行的根源**：执行前无法知道会碰哪些存储槽——⭐ 这正是账户模型换取共享状态表达力所付的代价。
-- **三条路线**：Solana 强制预声明（简单但难写）、⭐ **Block-STM 乐观并行**（多版本内存 + 按序验证 + 冲突重跑）、以太坊的访问列表渐进路径。
+- **合约无法读取事件，包括自己发出的。** 事件只写进收据树，供链下使用。**这让它比存储便宜一个数量级**（约 750 vs 20000 Gas）——**只给链下看的数据用事件，需要被合约读的才用存储。**
+- **EOA 的四个硬限制**：只能用 secp256k1、必须用 ETH 付 Gas、一笔只能一个 `to`、私钥丢了就没了。
+- **EIP-4337 完全在协议之外实现**，通过 UserOperation → Bundler → EntryPoint → 钱包合约的流水线，把验证逻辑变成可编程代码。**代价是额外 Gas、独立生态，且 EntryPoint 是全局单点。**
+- **EIP-7702 让存量 EOA 临时"贴上"合约代码**，地址不变、资产不迁移。**它和 4337 是互补而非替代。**
+- **EVM 难以并行的根源**：执行前无法知道会碰哪些存储槽——这正是账户模型换取共享状态表达力所付的代价。
+- **三条路线**：Solana 强制预声明（简单但难写）、**Block-STM 乐观并行**（多版本内存 + 按序验证 + 冲突重跑）、以太坊的访问列表渐进路径。
 - ⭐⭐ **并行执行的结果必须与串行完全一致**——这是共识的硬要求，不是优化目标。否则不同实现会算出不同状态根，共识立刻崩溃。
-- ⚠️ **乐观并行在冲突多时可能比串行还慢**（所有人打同一个热门合约）。
+- **乐观并行在冲突多时可能比串行还慢**（所有人打同一个热门合约）。
 
 ## 思考题
 

@@ -11,7 +11,7 @@ tocOpen: false
 
 对应[第 14–18 讲]({{< ref "14-proof-of-work.md" >}})。
 
-⭐ **这个实验分两部分，它们的目的正好相反**：第一部分让你看到 PoW 的**概率性质**，第二部分让你看到 BFT 的**确定性边界**。
+**这个实验分两部分，它们的目的正好相反**：第一部分让你看到 PoW 的**概率性质**，第二部分让你看到 BFT 的**确定性边界**。
 
 ## 第一部分：工作量证明
 
@@ -22,9 +22,9 @@ tocOpen: false
 func Mine(header []byte, target *big.Int, maxNonce uint32) (uint32, bool)
 ```
 
-⚠️ 注意比特币把区块哈希**按小端序**解释为整数——比较前要反转字节。
+注意比特币把区块哈希**按小端序**解释为整数——比较前要反转字节。
 
-### ⭐ 任务 1.2：验证出块间隔是指数分布
+### 任务 1.2：验证出块间隔是指数分布
 
 **用模拟而不是数学，验证[第 14 讲第四节]({{< ref "14-proof-of-work.md" >}})的结论：**
 
@@ -52,7 +52,7 @@ P(间隔 <  60 秒)         9.5%        ?
 ```
 ① 你观察到的最长间隔是多少？它出现的频率符合 e^(−t/600) 吗？
 ② ⭐ 已经等了 20 分钟后，再等 10 分钟内出块的概率是多少？
-   ⚠️ 用模拟数据验证它等于"刚出完块时"的值——这就是无记忆性。
+   用模拟数据验证它等于"刚出完块时"的值——这就是无记忆性。
 ③ 有人说"最近半小时没出块，网络一定出问题了"。用你的数据回应他。
 ```
 
@@ -71,13 +71,13 @@ func NextTarget(oldTarget *big.Int, actualSpan time.Duration) *big.Int
        ⟹ 那个周期出块加快，下一次调整后恢复
 
 场景 B：⚠️ 算力在第 5 个周期骤降 90%
-       ⟹ ⭐ 观察限幅如何让恢复变得极其缓慢——
+       ⟹ 观察限幅如何让恢复变得极其缓慢——
           算出这个周期实际要花多久才能走完 2016 个块
 ```
 
 ⭐ **场景 B 是重点**：它解释了为什么算力大幅撤离时，一条链可能"卡住"数周。
 
-### ⭐ 任务 1.4：自私挖矿模拟
+### 任务 1.4：自私挖矿模拟
 
 **实现[第 15 讲第五节]({{< ref "15-longest-chain-forks.md" >}})的策略：**
 
@@ -97,7 +97,7 @@ func SelfishMining(alpha, gamma float64, blocks int) float64
     state == 0 ⟹ 诚实方的块直接成为主链
     state == 1 ⟹ ⭐ 攻击者【立即发布】，形成竞争
                    以概率 γ 攻击者赢，1−γ 诚实方赢
-    state == 2 ⟹ ⭐ 攻击者发布两个块，诚实方那个作废
+    state == 2 ⟹ 攻击者发布两个块，诚实方那个作废
     state >  2 ⟹ 攻击者发布一个块盖过去，state−−
 ```
 
@@ -109,7 +109,7 @@ func SelfishMining(alpha, gamma float64, blocks int) float64
 你的模拟结果      ?         ?         ?
 ```
 
-⭐ **亲眼看到 α = 0.26、γ = 0.5 时收益份额确实超过 0.26，比读十遍公式有说服力得多。**
+**亲眼看到 α = 0.26、γ = 0.5 时收益份额确实超过 0.26，比读十遍公式有说服力得多。**
 
 ## 第二部分：简化 PBFT
 
@@ -129,9 +129,9 @@ func (n *Node) OnPrepare(m *Prepare) []Message
 func (n *Node) OnCommit(m *Commit) []Message
 ```
 
-⭐ 法定人数固定为 `2f+1`，且每一步都必须**收齐**才能推进。
+法定人数固定为 `2f+1`，且每一步都必须**收齐**才能推进。
 
-### ⭐ 任务 2.2：证明安全边界
+### 任务 2.2：证明安全边界
 
 **这是本实验最重要的部分。**
 
@@ -144,8 +144,8 @@ func TestSafetyWithFByzantine(t *testing.T) {
 
 func TestSafetyBreaksWithFPlusOne(t *testing.T) {
     // n = 4，但让 2 个节点作恶（超出 f = 1）
-    // ⭐ 构造场景，让两个诚实节点提交【不同】的值
-    // ⚠️ 这个测试要断言"安全性确实被违反了"——
+    // 构造场景，让两个诚实节点提交【不同】的值
+    // 这个测试要断言"安全性确实被违反了"——
     //    看到它真的发生，才算理解 n ≥ 3f+1 不是随便定的
 }
 ```
@@ -158,7 +158,7 @@ func TestSafetyBreaksWithFPlusOne(t *testing.T) {
 func TestNoCommitPhaseIsUnsafe(t *testing.T) {
     // ⭐ 实现一个只有 PRE-PREPARE 和 PREPARE 的版本
     // 构造场景：某节点 prepared 并执行后触发视图切换，
-    // ⚠️ 新主节点提议了另一个值
+    // 新主节点提议了另一个值
     // 断言：出现了不一致
 }
 ```
@@ -177,7 +177,7 @@ func TestQuorumIntersection(t *testing.T) {
 }
 ```
 
-⚠️ n 较大时不要真的枚举全部子集——⭐ 用最坏情况的计数论证 `|A∩B| ≥ 2q − n` 即可。
+n 较大时不要真的枚举全部子集——用最坏情况的计数论证 `|A∩B| ≥ 2q − n` 即可。
 
 ### 任务 2.5（选做）：Tendermint 的锁定规则
 
@@ -187,27 +187,15 @@ func TestQuorumIntersection(t *testing.T) {
 func TestLockingPreventsConflict(t *testing.T)
 ```
 
-## 提交清单
 
-```
-□ pow.go / pow_test.go          挖矿 + 难度调整
-□ distribution_test.go          ⭐ 指数分布的模拟验证 + 三个问答
-□ difficulty_test.go            场景 A/B 的模拟
-□ selfish.go / selfish_test.go  ⭐ 自私挖矿状态机 + 三组阈值验证
-□ pbft.go                       三阶段协议
-□ safety_test.go                ⭐ f 个作恶安全 / f+1 个失败
-□ nocommit_test.go              ⭐ 去掉 COMMIT 后不安全
-□ ANSWERS.md                    1.2 的三个问答 + 场景 B 的计算
-```
-
-## ⚠️ 常见错误
+## 常见错误
 
 ```
 ① 用 math/rand 的固定种子 ⟹ 每次结果相同，看不出分布
 ② ⭐ 自私挖矿状态机漏掉 state = 2 的特殊处理（"一次发布两个块"）
-③ ⚠️ PBFT 里统计"收到 2f+1 条消息"而不是"来自 2f+1 个【不同节点】"
+③ PBFT 里统计"收到 2f+1 条消息"而不是"来自 2f+1 个【不同节点】"
    ⟹ 一个作恶节点重复发送就能凑数
-④ ⭐ 忘记按 (view, sequence, digest) 三元组区分消息 ⟹ 跨轮次串味
+④ 忘记按 (view, sequence, digest) 三元组区分消息 ⟹ 跨轮次串味
 ```
 
 ---

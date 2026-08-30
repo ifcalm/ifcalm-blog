@@ -21,11 +21,11 @@ STATICCALL    同 CALL，但禁止任何状态修改
 
 用一张表把上下文变量说清楚。假设 **A 调用 B**：
 
-| | `msg.sender` | `msg.value` | `address(this)` | ⭐ **读写的 storage** |
+| | `msg.sender` | `msg.value` | `address(this)` | **读写的 storage** |
 |---|---|---|---|---|
-| **CALL** | A | 新传的值 | B | ⭐ **B 的** |
-| **DELEGATECALL** | ⭐ **A 的 caller** | ⭐ **A 收到的 value** | ⭐ **A** | ⭐ **A 的** |
-| **STATICCALL** | A | 0（不可转账） | B | B 的（⚠️ 只读） |
+| **CALL** | A | 新传的值 | B | **B 的** |
+| **DELEGATECALL** | **A 的 caller** | **A 收到的 value** | **A** | **A 的** |
+| **STATICCALL** | A | 0（不可转账） | B | B 的（只读） |
 
 ⭐ **一句话记住 delegatecall：**
 
@@ -42,7 +42,7 @@ STATICCALL    同 CALL，但禁止任何状态修改
 │   Proxy（代理）   │          │ Implementation    │
 │                  │          │  （逻辑实现）      │
 │ ⭐ 保存全部数据    │ delegate │                   │
-│ 保存 impl 地址    │─────────▶│ ⭐ 只有代码，无数据 │
+│ 保存 impl 地址    │─────────▶│ 只有代码，无数据 │
 │ fallback 转发一切 │  call    │                   │
 └──────────────────┘          └───────────────────┘
         ▲
@@ -65,7 +65,7 @@ contract Proxy {
         address impl = implementation;
         assembly {
             calldatacopy(0, 0, calldatasize())
-            // ⭐ delegatecall：用 impl 的代码，操作【本合约】的存储
+            // delegatecall：用 impl 的代码，操作【本合约】的存储
             let ok := delegatecall(gas(), impl, 0, calldatasize(), 0, 0)
             returndatacopy(0, 0, returndatasize())
             switch ok
@@ -76,7 +76,7 @@ contract Proxy {
 }
 ```
 
-## 三、⚠️ 存储冲突：代理模式的头号杀手
+## 三、存储冲突：代理模式的头号杀手
 
 `delegatecall` 用的是**调用者的存储**，而两个合约的变量布局是**各自独立编译**的。
 
@@ -93,10 +93,10 @@ Proxy 的布局：            Implementation 的布局：
    ⟹ delegatecall 到 Implementation
    ⟹ Implementation 的代码写 owner（它以为是 slot 0）
    ⟹ ⭐ 实际写进了 Proxy 的 slot 0
-   ⟹ ⚠️ Proxy 的 implementation 地址被覆盖成了一个地址值！
+   ⟹ Proxy 的 implementation 地址被覆盖成了一个地址值！
 
 ⟹ 下次调用时，Proxy 会 delegatecall 到一个随机地址
-⟹ ⭐ 合约彻底变砖，数据永久锁死
+⟹ 合约彻底变砖，数据永久锁死
 ```
 
 ### EIP-1967：伪随机槽
@@ -115,27 +115,27 @@ admin 槽         = keccak256("eip1967.proxy.admin") − 1
    ⟹ Solidity 的顺序分配永远从 0、1、2… 开始，
       ⭐ 不可能碰到一个 2²⁵⁶ 空间里的随机位置
 
-② ⭐ 为什么要减 1
+② 为什么要减 1
    ⟹ 让这个槽号【不是任何已知字符串的 keccak 输出】。
       如果它恰好等于 keccak256(x)，那么一个动态数组或 mapping
       就可能通过精心构造的键映射到这里。
-      ⚠️ 减 1 之后，要撞上它就需要先找到一个哈希原像——不可行。
+      减 1 之后，要撞上它就需要先找到一个哈希原像——不可行。
 ```
 
-⭐ **这是一个很典型的"防御性偏移"技巧**，同样的思路在很多协议里出现。
+**这是一个很典型的"防御性偏移"技巧**，同样的思路在很多协议里出现。
 
 ## 四、四种升级模式
 
 | 模式 | 升级逻辑在哪 | 特点 |
 |---|---|---|
-| **透明代理** | ⭐ 在 Proxy 里 | 管理员调用走代理自己的逻辑，其他人走 delegatecall。⚠️ 每次调用多一次 SLOAD 判断身份 |
-| **UUPS** | ⭐ 在 Implementation 里 | Proxy 更轻更省 Gas。⚠️ **新实现忘记带升级函数 ⟹ 永久锁死** |
-| **Beacon** | 在一个共享的 Beacon 里 | ⭐ 一次升级同时改掉成千上万个代理 |
-| **Diamond（EIP-2535）** | 按函数选择器路由到不同 facet | ⭐ 突破合约大小限制，⚠️ 复杂度高 |
+| **透明代理** | 在 Proxy 里 | 管理员调用走代理自己的逻辑，其他人走 delegatecall。每次调用多一次 SLOAD 判断身份 |
+| **UUPS** | 在 Implementation 里 | Proxy 更轻更省 Gas。**新实现忘记带升级函数 ⟹ 永久锁死** |
+| **Beacon** | 在一个共享的 Beacon 里 | 一次升级同时改掉成千上万个代理 |
+| **Diamond（EIP-2535）** | 按函数选择器路由到不同 facet | 突破合约大小限制，复杂度高 |
 
 ⭐ **透明代理为什么要区分管理员**：如果管理员和普通用户都走 delegatecall，那么当实现合约里恰好有一个函数与代理的 `upgradeTo` **选择器相同**时，管理员就永远无法调用到实现的那个函数——这叫**函数选择器冲突**。透明代理通过"看是不是管理员"来消除歧义。
 
-## 五、⚠️ 初始化：Parity 冻结事件
+## 五、初始化：Parity 冻结事件
 
 代理模式下**不能用构造函数**：
 
@@ -164,17 +164,17 @@ function initialize(address owner_) external initializer {
    每个用户的钱包是一个轻量合约，
    ⭐ 通过 delegatecall 调用一个公共的 WalletLibrary。
 
-② ⚠️ 那个 WalletLibrary 合约【自己从未被初始化】。
+② 那个 WalletLibrary 合约【自己从未被初始化】。
    它只是一份代码，本不该有 owner。
 
 ③ 一个用户调用了 WalletLibrary 的 initWallet()，
-   ⭐ 把自己设成了这个【库合约】的 owner。
+   把自己设成了这个【库合约】的 owner。
 
 ④ 然后他调用了库里的 kill()，触发 SELFDESTRUCT。
 
-⑤ ⚠️ 库合约被销毁 ⟹ 所有 delegatecall 到它的钱包
+⑤ 库合约被销毁 ⟹ 所有 delegatecall 到它的钱包
    全部指向一个【空地址】
-   ⟹ ⭐ 587 个钱包、约 51.4 万 ETH 【永久冻结】，至今无法取出。
+   ⟹ 587 个钱包、约 51.4 万 ETH 【永久冻结】，至今无法取出。
 ```
 
 ⭐ **三个层次的教训：**
@@ -185,14 +185,14 @@ function initialize(address owner_) external initializer {
 
 ② ⭐ delegatecall 建立了一个【单点依赖】
    一个库合约的死亡，会同时杀死所有依赖它的合约。
-   ⚠️ 而"合约不可变"的直觉让人低估了这个风险。
+   而"合约不可变"的直觉让人低估了这个风险。
 
-③ ⭐ SELFDESTRUCT 是一个危险的原语
+③ SELFDESTRUCT 是一个危险的原语
    EIP-6780 之后它被大幅限制（第 11 讲），
    但历史上它造成的损失已经无法挽回。
 ```
 
-## 六、⭐ 可升级性到底改变了什么
+## 六、可升级性到底改变了什么
 
 这一节是本讲的重点，也是整门课反复出现的主题。
 
@@ -200,7 +200,7 @@ function initialize(address owner_) external initializer {
 智能合约最初的价值主张是：
    ⭐ "代码即法律"——部署之后没有人能改，包括作者。
 
-⚠️ 可升级性把这个前提【整个拿掉了】：
+可升级性把这个前提【整个拿掉了】：
    你信任的不再是【代码】，而是【持有升级密钥的那个人】。
 ```
 
@@ -208,7 +208,7 @@ function initialize(address owner_) external initializer {
 
 ```
 不可升级：⭐ 风险 = 代码有 bug
-可升级：  ⭐ 风险 = 代码有 bug ∪ 升级者作恶 ∪ 升级密钥被盗
+可升级：  风险 = 代码有 bug ∪ 升级者作恶 ∪ 升级密钥被盗
 ```
 
 ### 评估一个可升级协议的四个问题
@@ -216,24 +216,24 @@ function initialize(address owner_) external initializer {
 ```
 ① ⭐ 谁能升级？
    单个 EOA？多签？DAO 投票？
-   ⚠️ "多签"要看阈值和签名者是否独立——3/5 但五个人在同一家公司，
+   "多签"要看阈值和签名者是否独立——3/5 但五个人在同一家公司，
       实质就是 1 个人。
 
-② ⭐ 有没有时间锁？
+② 有没有时间锁？
    升级提案到生效之间有多长？
    ⟹ 时间锁的唯一作用是【给用户留出撤离的时间】。
-      ⚠️ 没有时间锁的升级，等于随时可以清空所有资金。
+      没有时间锁的升级，等于随时可以清空所有资金。
 
 ③ 升级范围有多大？
    能改任意逻辑，还是只能改几个参数？
 
-④ ⭐ 我能退出吗？
+④ 我能退出吗？
    如果我不同意某次升级，能不能在它生效前把资产取走？
 ```
 
 ⭐ **第 ② 和第 ④ 条是一对：时间锁只有在你能退出时才有意义。**
 
-⚠️ **一个必须点破的事实**：许多号称"去中心化"的协议，其升级权掌握在少数几个密钥手里。**审计报告审的是当前那份实现代码，而它明天可以被换掉。**
+**一个必须点破的事实**：许多号称"去中心化"的协议，其升级权掌握在少数几个密钥手里。**审计报告审的是当前那份实现代码，而它明天可以被换掉。**
 
 ## 七、Go：调用上下文模拟
 
@@ -248,29 +248,29 @@ type Context struct {
 	Address Address // address(this) —— ⭐ 也决定用谁的存储
 	Value   uint64  // msg.value
 	Code    []byte  // 正在执行的代码
-	Static  bool    // ⚠️ true 时禁止任何状态修改
+	Static  bool    // true 时禁止任何状态修改
 }
 
 // Call 构造 CALL 的上下文：
-// ⭐ 存储和 this 都切换到被调用者。
+// 存储和 this 都切换到被调用者。
 func Call(cur *Context, target Address, code []byte, value uint64) *Context {
 	return &Context{
 		Sender:  cur.Address, // 调用者变成 msg.sender
-		Address: target,      // ⭐ this 和存储都是 target 的
+		Address: target,      // this 和存储都是 target 的
 		Value:   value,
 		Code:    code,
-		Static:  cur.Static, // ⚠️ static 具有传染性：一旦进入就无法脱离
+		Static:  cur.Static, // static 具有传染性：一旦进入就无法脱离
 	}
 }
 
 // DelegateCall 构造 DELEGATECALL 的上下文：
-// ⭐ 只换代码，其余全部保持不变——"借用代码，操作自己的数据"。
+// 只换代码，其余全部保持不变——"借用代码，操作自己的数据"。
 func DelegateCall(cur *Context, code []byte) *Context {
 	return &Context{
-		Sender:  cur.Sender,  // ⚠️ 保持不变！不是 cur.Address
-		Address: cur.Address, // ⭐ this 和存储仍是调用者的
-		Value:   cur.Value,   // ⚠️ 也保持不变，不能重新指定
-		Code:    code,        // ⭐ 唯一改变的东西
+		Sender:  cur.Sender,  // 保持不变！不是 cur.Address
+		Address: cur.Address, // this 和存储仍是调用者的
+		Value:   cur.Value,   // 也保持不变，不能重新指定
+		Code:    code,        // 唯一改变的东西
 		Static:  cur.Static,
 	}
 }
@@ -278,15 +278,15 @@ func DelegateCall(cur *Context, code []byte) *Context {
 // StaticCall 构造 STATICCALL：同 CALL，但强制只读。
 func StaticCall(cur *Context, target Address, code []byte) *Context {
 	c := Call(cur, target, code, 0)
-	c.Static = true // ⭐ 一旦置位，整个子调用树都无法写状态
+	c.Static = true // 一旦置位，整个子调用树都无法写状态
 	return c
 }
 
 // ─────────── EIP-1967 槽计算 ───────────
 
 // EIP1967Slot 计算代理元数据的存储位置。
-// ⭐ 减 1 让结果不是任何已知字符串的 keccak 输出，
-//    从而无法被 mapping 或动态数组的寻址公式撞上。
+// 减 1 让结果不是任何已知字符串的 keccak 输出，
+// 从而无法被 mapping 或动态数组的寻址公式撞上。
 func EIP1967Slot(label string) [32]byte {
 	h := keccak256([]byte(label))
 	// 大端序减 1
@@ -301,7 +301,7 @@ func EIP1967Slot(label string) [32]byte {
 }
 
 // StorageCollision 检查代理与实现的存储布局是否冲突。
-// ⚠️ 这正是把 implementation 放在 slot 0 会导致合约变砖的原因。
+// 这正是把 implementation 放在 slot 0 会导致合约变砖的原因。
 func StorageCollision(proxySlots, implSlots map[uint64]string) map[uint64][2]string {
 	conflicts := make(map[uint64][2]string)
 	for slot, pName := range proxySlots {
@@ -316,16 +316,16 @@ func StorageCollision(proxySlots, implSlots map[uint64]string) map[uint64][2]str
 ## 八、本讲小结
 
 - ⭐ **delegatecall 的一句话定义：借用别人的代码，操作自己的数据。** 三种调用的区别全在"用谁的上下文"。
-- ⚠️ **delegatecall 下 `msg.sender` 不是调用者，而是"调用调用者的那个人"**——很多权限漏洞源于此。
+- **delegatecall 下 `msg.sender` 不是调用者，而是"调用调用者的那个人"**——很多权限漏洞源于此。
 - **代理模式让升级 = 改一个地址**，数据一字节都不用迁移。
-- ⚠️⭐ **存储冲突是代理模式的头号杀手**：实现合约以为在写自己的 slot 0，实际写进了代理的 implementation 地址 ⟹ **合约彻底变砖，数据永久锁死。**
-- ⭐ **EIP-1967 用 `keccak256(标签) − 1` 做槽号**：哈希让顺序分配撞不上；⭐ **减 1 让它不是任何已知字符串的哈希输出**，从而无法被 mapping/数组的寻址公式撞上。
-- **四种升级模式各有取舍**：透明代理（⭐ 解决选择器冲突，但每次调用多一次 SLOAD）、UUPS（更省 Gas，⚠️ **新实现忘带升级函数就永久锁死**）、Beacon（一次改全部）、Diamond（突破大小限制但复杂）。
-- ⚠️ **代理不能用构造函数**，必须用 `initialize()`。⭐ **而未被初始化的实现合约可以被任何人初始化。**
-- ⭐⚠️ **Parity 事件的完整链条**：共享库从未初始化 → 有人把自己设成库的 owner → 调用 kill 触发 SELFDESTRUCT → **587 个钱包、约 51.4 万 ETH 永久冻结**。
-- ⭐ **三个教训**：实现合约必须在部署时锁死初始化；**delegatecall 建立单点依赖，库的死亡会杀死所有依赖者**；SELFDESTRUCT 是危险原语。
+- **存储冲突是代理模式的头号杀手**：实现合约以为在写自己的 slot 0，实际写进了代理的 implementation 地址 ⟹ **合约彻底变砖，数据永久锁死。**
+- **EIP-1967 用 `keccak256(标签) − 1` 做槽号**：哈希让顺序分配撞不上；**减 1 让它不是任何已知字符串的哈希输出**，从而无法被 mapping/数组的寻址公式撞上。
+- **四种升级模式各有取舍**：透明代理（解决选择器冲突，但每次调用多一次 SLOAD）、UUPS（更省 Gas，**新实现忘带升级函数就永久锁死**）、Beacon（一次改全部）、Diamond（突破大小限制但复杂）。
+- **代理不能用构造函数**，必须用 `initialize()`。**而未被初始化的实现合约可以被任何人初始化。**
+- **Parity 事件的完整链条**：共享库从未初始化 → 有人把自己设成库的 owner → 调用 kill 触发 SELFDESTRUCT → **587 个钱包、约 51.4 万 ETH 永久冻结**。
+- **三个教训**：实现合约必须在部署时锁死初始化；**delegatecall 建立单点依赖，库的死亡会杀死所有依赖者**；SELFDESTRUCT 是危险原语。
 - ⭐⭐ **可升级性拿掉了"代码即法律"这个前提**：你信任的不再是代码，而是**持有升级密钥的人**。风险从"代码有 bug"扩大到"代码有 bug ∪ 升级者作恶 ∪ 密钥被盗"。
-- ⭐ **评估可升级协议的四个问题**：谁能升级（⚠️ 多签要看签名者是否真的独立）、有没有时间锁、能改多大范围、**我能不能在升级生效前退出**。⭐ **时间锁只有在你能退出时才有意义。**
+- **评估可升级协议的四个问题**：谁能升级（多签要看签名者是否真的独立）、有没有时间锁、能改多大范围、**我能不能在升级生效前退出**。**时间锁只有在你能退出时才有意义。**
 
 ## 思考题
 

@@ -112,7 +112,7 @@ P + (−P) ：直线竖直，交于"无穷远点" O，⭐ O 就是这个加法�
 kP = P + P + ... + P   （k 次）
 ```
 
-⚠️ 直接加 k 次是不可行的（k 可能有 2²⁵⁶ 那么大）。但用**倍加法（double-and-add）**只要 `log₂ k ≈ 256` 步：
+直接加 k 次是不可行的（k 可能有 2²⁵⁶ 那么大）。但用**倍加法（double-and-add）**只要 `log₂ k ≈ 256` 步：
 
 ```
 算 13P：
@@ -125,7 +125,7 @@ kP = P + P + ... + P   （k 次）
 
 ```
 ⭐ 正向：给定 k 和 P，算 kP           → 约 256 次运算，微秒级
-   反向：给定 P 和 kP，求 k           → ⚠️ ECDLP，约 2¹²⁸ 次运算
+   反向：给定 P 和 kP，求 k           → ECDLP，约 2¹²⁸ 次运算
 ```
 
 ## 四、私钥、公钥、地址
@@ -155,7 +155,7 @@ n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE BAAEDCE6 AF48A03B BFD25E8C D0364141
    ⚠️ 攻击者早就把常见短语的哈希全算好了，这类地址会在几秒内被清空。
 ```
 
-⭐ **私钥必须来自密码学安全的随机源。** Go 里是 `crypto/rand`，⚠️ **绝不能用 `math/rand`**。
+⭐ **私钥必须来自密码学安全的随机源。** Go 里是 `crypto/rand`，**绝不能用 `math/rand`**。
 
 ### 公钥
 
@@ -172,7 +172,7 @@ n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE BAAEDCE6 AF48A03B BFD25E8C D0364141
             只需 1 比特区分奇偶：y 为偶用 0x02，为奇用 0x03
 ```
 
-⚠️ **同一个私钥用压缩和未压缩公钥会得到两个不同的比特币地址。** 这是早期钱包迁移时资金"消失"的常见原因——钱其实还在，只是在另一个地址上。
+**同一个私钥用压缩和未压缩公钥会得到两个不同的比特币地址。** 这是早期钱包迁移时资金"消失"的常见原因——钱其实还在，只是在另一个地址上。
 
 ### 地址
 
@@ -182,7 +182,7 @@ n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE BAAEDCE6 AF48A03B BFD25E8C D0364141
 ① 更短：65 或 33 字节 → 20 字节
 ② ⭐ 多一层保护：在你花钱之前，公钥根本没有公开过，
    链上只有它的哈希。即使 ECDLP 某天被攻破（比如量子计算机），
-   ⚠️ 只有"已经花过钱"的地址会立刻暴露。
+   只有"已经花过钱"的地址会立刻暴露。
 ③ 可以加校验和，防止手抄错地址导致资金永久丢失
 ```
 
@@ -198,7 +198,7 @@ n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE BAAEDCE6 AF48A03B BFD25E8C D0364141
         版本 ‖ hash160 ‖ 校验和  ──Base58──▶  1A1zP1eP5Q...
 ```
 
-⭐ **那 4 字节校验和的作用**：随便改一个字符，校验失败的概率约 `1 − 2⁻³²`，即**约 40 亿分之一才会漏过**。抄错地址会被钱包当场拒绝，而不是把钱发到黑洞。
+**那 4 字节校验和的作用**：随便改一个字符，校验失败的概率约 `1 − 2⁻³²`，即**约 40 亿分之一才会漏过**。抄错地址会被钱包当场拒绝，而不是把钱发到黑洞。
 
 **以太坊：**
 
@@ -208,7 +208,7 @@ n = FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE BAAEDCE6 AF48A03B BFD25E8C D0364141
                                           取最后 20 字节 = 地址
 ```
 
-⚠️ 以太坊原始地址**没有校验和**，就是 20 字节的裸十六进制。EIP-55 后来补了一个巧妙的方案：
+以太坊原始地址**没有校验和**，就是 20 字节的裸十六进制。EIP-55 后来补了一个巧妙的方案：
 
 ```
 把地址的十六进制字母按 Keccak 哈希的对应比特决定大小写。
@@ -249,7 +249,7 @@ func secp256k1() *elliptic.CurveParams {
 }
 
 // GenerateKey 生成私钥和公钥。
-// ⚠️ 必须使用 crypto/rand，绝不能用 math/rand——后者是可预测的伪随机数。
+// 必须使用 crypto/rand，绝不能用 math/rand——后者是可预测的伪随机数。
 func GenerateKey() (*ecdsa.PrivateKey, error) {
 	curve := secp256k1()
 	d, err := rand.Int(rand.Reader, new(big.Int).Sub(curve.N, big.NewInt(1)))
@@ -258,7 +258,7 @@ func GenerateKey() (*ecdsa.PrivateKey, error) {
 	}
 	d.Add(d, big.NewInt(1)) // 保证 d ∈ [1, n−1]
 
-	x, y := curve.ScalarBaseMult(d.Bytes()) // ⭐ 公钥 Q = d·G
+	x, y := curve.ScalarBaseMult(d.Bytes()) // 公钥 Q = d·G
 	return &ecdsa.PrivateKey{
 		PublicKey: ecdsa.PublicKey{Curve: curve, X: x, Y: y},
 		D:         d,
@@ -284,7 +284,7 @@ func EthAddress(pub *ecdsa.PublicKey) string {
 	pub.X.FillBytes(raw[:32])
 	pub.Y.FillBytes(raw[32:])
 
-	h := sha3.NewLegacyKeccak256() // ⚠️ 不是 sha3.New256()，见第 4 讲第五节
+	h := sha3.NewLegacyKeccak256() // 不是 sha3.New256()，见第 4 讲第五节
 	h.Write(raw)
 	sum := h.Sum(nil)
 	return "0x" + hex.EncodeToString(sum[12:]) // 取最后 20 字节
@@ -329,11 +329,11 @@ func main() {
 - **单向性来自离散对数**：`gˣ mod p` 正着算快，反着求 x 只能穷举——因为模运算下**没有单调性可利用**。
 - ⭐ **换椭圆曲线不是为了更安全，是为了更短**：同等 128 位安全下，ECC 需要 256 位而模幂需要 3072 位。链上每字节都要被所有人永久存储。
 - **椭圆曲线上的点构成一个交换群**，"加法"由几何构造定义。标量乘法 `kP` 用倍加法只需约 256 步，而逆运算需要 `2¹²⁸` 步。
-- **私钥就是一个 256 位随机数**。⚠️ **"随机"承载全部安全性**——Android SecureRandom 事故、脑钱包被秒清空，根因都在这里。Go 里必须用 `crypto/rand`。
-- **公钥可压缩到 33 字节**，因为给定 x 只有两个 y，用 1 比特记奇偶。⚠️ 压缩与非压缩产生**不同的地址**。
-- ⭐ **地址是公钥的哈希，三个原因**：更短、加校验和、以及**在花钱之前公钥从未公开**——这是面对量子威胁时的一层缓冲。
+- **私钥就是一个 256 位随机数**。**"随机"承载全部安全性**——Android SecureRandom 事故、脑钱包被秒清空，根因都在这里。Go 里必须用 `crypto/rand`。
+- **公钥可压缩到 33 字节**，因为给定 x 只有两个 y，用 1 比特记奇偶。压缩与非压缩产生**不同的地址**。
+- **地址是公钥的哈希，三个原因**：更短、加校验和、以及**在花钱之前公钥从未公开**——这是面对量子威胁时的一层缓冲。
 - **校验和的价值**：比特币 Base58Check 的 4 字节校验让抄错地址被漏过的概率约 40 亿分之一；EIP-55 用大小写编码达成同样效果且向后兼容。
-- ⭐ **HD 钱包让 12 个助记词等价于全部私钥**。⚠️ 助记词不是加密的，且派生路径必须一并记住。
+- **HD 钱包让 12 个助记词等价于全部私钥**。助记词不是加密的，且派生路径必须一并记住。
 
 ## 思考题
 

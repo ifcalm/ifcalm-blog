@@ -9,7 +9,7 @@ showToc: true
 tocOpen: false
 ---
 
-对应[第 5 讲]({{< ref "05-merkle-trees.md" >}})。⭐ **这个实验的重点不是"写出一棵树"，而是亲手让两个真实漏洞复现出来**——只有看到它们真的成立，才会真正记住为什么需要域分隔和单射性。
+对应[第 5 讲]({{< ref "05-merkle-trees.md" >}})。**这个实验的重点不是"写出一棵树"，而是亲手让两个真实漏洞复现出来**——只有看到它们真的成立，才会真正记住为什么需要域分隔和单射性。
 
 ## 环境
 
@@ -42,11 +42,11 @@ func Verify(root, item []byte, path []Step) bool
 
 ```
 ① ⭐ 叶子用 0x00 前缀，内部节点用 0x01 前缀（域分隔）
-② ⭐ 奇数节点时【不复制】最后一个，而是原样上提
+② 奇数节点时【不复制】最后一个，而是原样上提
 ③ 证明的每一步必须记录兄弟在左还是在右
 ```
 
-### ⚠️ 自检
+### 自检
 
 ```go
 func TestProofRoundTrip(t *testing.T) {
@@ -61,7 +61,7 @@ func TestProofRoundTrip(t *testing.T) {
             if !Verify(tree.Root(), items[i], p) {
                 t.Fatalf("n=%d i=%d 验证失败", n, i)
             }
-            // ⚠️ 反例也必须失败
+            // 反例也必须失败
             if Verify(tree.Root(), []byte("wrong"), p) {
                 t.Fatalf("n=%d i=%d 接受了错误的元素", n, i)
             }
@@ -96,7 +96,7 @@ func TestCVE20122459(t *testing.T) {
     if !bytes.Equal(root1, root2) {
         t.Fatal("应当相同——如果不同，说明你的实现和比特币不一致")
     }
-    t.Logf("⚠️ 两个不同的交易列表得到了相同的根：%x", root1)
+    t.Logf("两个不同的交易列表得到了相同的根：%x", root1)
 }
 ```
 
@@ -106,7 +106,7 @@ func TestCVE20122459(t *testing.T) {
 ① 攻击者拿到合法区块 [A,B,C]，构造 [A,B,C,C] 转发给受害节点。
    ⭐ 受害节点会走到哪一步才发现问题？
 ② 它把哪个值记进了"无效缓存"？
-③ ⭐ 为什么真正的区块 [A,B,C] 随后到达时会被丢弃？
+③ 为什么真正的区块 [A,B,C] 随后到达时会被丢弃？
 ④ 除了"检测重复相邻节点"，还有什么修法？比较各自代价。
 ```
 
@@ -129,7 +129,7 @@ func NoDomainSepRoot(items [][]byte) []byte {
                 next = append(next, level[i])
                 continue
             }
-            h := sha256.Sum256(append(level[i], level[i+1]...)) // ⚠️ 没有 0x01 前缀
+            h := sha256.Sum256(append(level[i], level[i+1]...)) // 没有 0x01 前缀
             next = append(next, h[:])
         }
         level = next
@@ -161,7 +161,7 @@ type Airdrop struct {
 
 // BuildWhitelist 为 n 个地址构建 Merkle 树。
 // ⭐ 叶子的编码必须确定且无歧义——
-//    ⚠️ 如果地址和金额直接拼接而长度可变，会有歧义攻击。
+//    如果地址和金额直接拼接而长度可变，会有歧义攻击。
 func BuildWhitelist(list []Airdrop) (*Tree, error)
 ```
 
@@ -170,8 +170,8 @@ func BuildWhitelist(list []Airdrop) (*Tree, error)
 ```
 ① ⭐ 10 万个地址，合约需要存多少字节？直接存列表需要多少？
 ② 每个用户领取时要提交多少字节的证明？
-③ ⚠️ 合约怎么防止同一个人重复领取？
-④ ⭐ 如果叶子编码成 address ‖ amount 且两者都是变长的，
+③ 合约怎么防止同一个人重复领取？
+④ 如果叶子编码成 address ‖ amount 且两者都是变长的，
    构造一个歧义攻击（提示：想想"AB"‖"C" 和 "A"‖"BC"）
 ```
 
@@ -226,16 +226,6 @@ for i := 0; i < len(level); i += 2 {
 
 ⭐ **证明这个策略是单射的**：给定根，能唯一还原出树的形状——因为每一层的节点数由叶子数唯一决定（`ceil(n/2)`），而"上提"不引入任何新的哈希输入。
 
-## 提交清单
-
-```
-□ merkle.go            带域分隔的实现
-□ merkle_test.go       n = 1..33 的往返测试 + 反例测试
-□ cve_test.go          CVE-2012-2459 复现，并输出相同的两个根
-□ preimage_test.go     无域分隔时的第二原像攻击，及加上域分隔后失效
-□ airdrop.go           白名单构建 + 四个问题的书面回答
-□ ANSWERS.md           任务二、四的问答
-```
 
 ---
 
