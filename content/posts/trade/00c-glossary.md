@@ -130,5 +130,5 @@ tocOpen: true
 
 ---
 
-*相关：[学习路径]({{< ref "00b-learning-path.md" >}}) · [练习索引]({{< ref "00d-exercises.md" >}}) · [全流程索引]({{< ref "00-workflow-index.md" >}})*
+*相关：[练习索引]({{< ref "00d-exercises.md" >}}) · [全流程索引]({{< ref "00-workflow-index.md" >}})*
 *回到：[交易学习手册目录]({{< ref "/posts/trade" >}})*
