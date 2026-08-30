@@ -34,7 +34,7 @@ mapping(address => uint256) balances;
 // ⚠️ 这句话无法区分"这个人余额是 0"和"这个人从来没出现过"
 if (balances[user] == 0) { ... }
 
-// ⭐ 需要额外的标志位：
+// 需要额外的标志位：
 mapping(address => bool) registered;
 ```
 
@@ -48,7 +48,7 @@ contract Example {
     uint128 b;    // slot 1，占低 16 字节
     uint128 c;    // slot 1，占高 16 字节  ⭐ 和 b 打包在一起
     address d;    // slot 2，占 20 字节
-    uint96  e;    // slot 2，占剩下 12 字节 ⭐ 20 + 12 = 32，正好塞满
+    uint96  e;    // slot 2，占剩下 12 字节 20 + 12 = 32，正好塞满
     uint256 f;    // slot 3
 }
 ```
@@ -58,7 +58,7 @@ contract Example {
 ```
 ① 按声明顺序，从 slot 0 开始
 ② ⭐ 如果下一个变量能装进当前 slot 的剩余空间，就打包进去
-③ ⚠️ 装不下就开新槽，剩余空间【浪费】
+③ 装不下就开新槽，剩余空间【浪费】
 ```
 
 ⚠️ **所以声明顺序会影响 Gas：**
@@ -83,7 +83,7 @@ uint256 b;   // slot 1
 uint256[3] arr;   // 从 slot p 开始，连续占 p, p+1, p+2
 ```
 
-### ⭐ 动态数组
+### 动态数组
 
 ```solidity
 uint256[] arr;    // 假设在 slot p
@@ -92,7 +92,7 @@ slot p          存【长度】
 元素 arr[i] 存在  keccak256(p) + i
 ```
 
-### ⭐ Mapping
+### Mapping
 
 ```solidity
 mapping(uint256 => uint256) m;   // 假设在 slot p
@@ -113,17 +113,17 @@ allowance[a][b] 存在：
     keccak256( b ‖ keccak256( a ‖ p ) )
 ```
 
-⭐ **理解这个公式的价值：它让你能直接从链上读出任意合约的任意 mapping 值**——第七节会用到。
+**理解这个公式的价值：它让你能直接从链上读出任意合约的任意 mapping 值**——第七节会用到。
 
-### ⚠️ 为什么 mapping 用哈希，以及它的代价
+### 为什么 mapping 用哈希，以及它的代价
 
 ```
 键空间是 2²⁵⁶，不可能预先分配连续区间。
 ⟹ ⭐ 用哈希把键"散列"到整个 2²⁵⁶ 的槽空间里
    （碰撞概率可忽略，第 4 讲）
 
-⚠️ 代价：
-   ⭐ 无法遍历 mapping —— 因为没有任何地方记录"哪些键被用过"
+代价：
+   无法遍历 mapping —— 因为没有任何地方记录"哪些键被用过"
 ```
 
 这是 Solidity 一个著名的限制。要能遍历，必须自己额外维护一个数组：
@@ -141,11 +141,11 @@ mapping(address => bool) seen; // 防止重复加入
     slot 内容 = 数据 ‖ (长度 × 2)          ← 最低位为 0
 
    长的（≥ 32 字节）：
-    slot 内容 = 长度 × 2 + 1               ← ⭐ 最低位为 1 作为标记
+    slot 内容 = 长度 × 2 + 1               ← 最低位为 1 作为标记
     数据存在 keccak256(p) 开始的连续槽里
 ```
 
-⭐ **用最低位区分长短**是一个很典型的位技巧：长度乘 2 后最低位必然为 0，于是这一位空出来做标志。
+**用最低位区分长短**是一个很典型的位技巧：长度乘 2 后最低位必然为 0，于是这一位空出来做标志。
 
 ## 三、SSTORE 的定价
 
@@ -154,8 +154,8 @@ mapping(address => bool) seen; // 防止重复加入
 ```
 零 → 非零        20000 Gas      ⭐ 最贵：新增了状态
 非零 → 非零       2900 Gas       （热访问；首次访问还要加 2100 冷访问费）
-非零 → 零        2900 Gas + 退款 4800    ⭐ 减少了状态
-同一交易内重复写   100 Gas        ⭐ 已经"脏"了，不再额外计费
+非零 → 零        2900 Gas + 退款 4800    减少了状态
+同一交易内重复写   100 Gas        已经"脏"了，不再额外计费
 ```
 
 ⭐ **定价逻辑非常清楚：它按"对全网状态的净影响"收费。**
@@ -196,15 +196,15 @@ uint256 len = items.length;
 for (uint i = 0; i < len; i++) { ... }
 ```
 
-### ② ⚠️ 打包不总是划算
+### ② 打包不总是划算
 
 ⭐ **这是最容易被误解的一点。**
 
 ```
 打包的收益：⭐ 多个变量共用一个 slot，一次 SLOAD/SSTORE 搞定
-打包的成本：⚠️ 读写单个字段需要【位移和掩码】运算
+打包的成本：读写单个字段需要【位移和掩码】运算
 
-⟹ ⭐ 只有当这些字段【经常被同时读写】时，打包才划算。
+⟹ 只有当这些字段【经常被同时读写】时，打包才划算。
    如果它们总是被【分别】访问，打包反而会因为多余的位运算变贵。
 ```
 
@@ -228,14 +228,14 @@ struct Bad {
 
 ```solidity
 uint256 constant  MAX = 100;     // ⭐ 编译期常量，直接嵌入字节码
-address immutable OWNER;         // ⭐ 构造时确定，也嵌入字节码
+address immutable OWNER;         // 构造时确定，也嵌入字节码
 
 ⟹ 读取成本 = 3 Gas（PUSH），而不是 2100 Gas（SLOAD）
 ```
 
 ⚠️ **`immutable` 不占用任何 storage slot**——这也意味着它无法被代理合约的 delegatecall 正确共享（第 23 讲）。
 
-## 五、⚠️ private 变量不是私密的
+## 五、private 变量不是私密的
 
 ⭐ **这是最重要的一条实践认知：**
 
@@ -260,7 +260,7 @@ eth_getStorageAt(合约地址, 0, "latest")   ⟹ 0x…2a
    ③ 即使是"内部计算的中间值"，也能通过模拟执行看到
 ```
 
-⭐ **推论：任何需要保密的东西，都不能以明文形式进入链上。** 正确做法是第 8 讲的承诺方案（先提交哈希、后揭示），或第 30 讲的零知识证明。
+**推论：任何需要保密的东西，都不能以明文形式进入链上。** 正确做法是第 8 讲的承诺方案（先提交哈希、后揭示），或第 30 讲的零知识证明。
 
 ## 六、Go：计算存储槽
 
@@ -289,7 +289,7 @@ func pad32(b []byte) []byte {
 }
 
 // MappingSlot 计算 m[key] 的存储位置：keccak256(key ‖ slot)
-// ⭐ 这就是能直接从链上读出任意 mapping 值的原因。
+// 这就是能直接从链上读出任意 mapping 值的原因。
 func MappingSlot(mappingSlot uint64, key []byte) []byte {
 	return keccak(pad32(key), pad32(new(big.Int).SetUint64(mappingSlot).Bytes()))
 }
@@ -301,7 +301,7 @@ func NestedMappingSlot(mappingSlot uint64, k1, k2 []byte) []byte {
 }
 
 // DynamicArraySlot 计算动态数组第 index 个元素的位置。
-// ⚠️ 数组【长度】存在 slot 本身，元素从 keccak256(slot) 开始。
+// 数组【长度】存在 slot 本身，元素从 keccak256(slot) 开始。
 func DynamicArraySlot(arraySlot uint64, index uint64) []byte {
 	base := new(big.Int).SetBytes(
 		keccak(pad32(new(big.Int).SetUint64(arraySlot).Bytes())))
@@ -319,7 +319,7 @@ type Field struct {
 type Placement struct {
 	Field  string
 	Slot   uint64
-	Offset int // ⭐ 在槽内的字节偏移
+	Offset int // 在槽内的字节偏移
 }
 
 // Layout 模拟 Solidity 的打包规则：顺序分配，装得下就打包，装不下开新槽。
@@ -329,7 +329,7 @@ func Layout(fields []Field) []Placement {
 	var used int
 
 	for _, f := range fields {
-		if used+f.Size > 32 { // ⚠️ 装不下，开新槽，当前槽剩余空间浪费
+		if used+f.Size > 32 { // 装不下，开新槽，当前槽剩余空间浪费
 			slot++
 			used = 0
 		}
@@ -340,19 +340,19 @@ func Layout(fields []Field) []Placement {
 }
 
 // SstoreCost 返回一次 SSTORE 的成本和退款额（EIP-2200 + EIP-3529 简化版）。
-// ⭐ 定价按"对全网状态的净影响"：新增最贵，修改次之，清除退钱。
+// 定价按"对全网状态的净影响"：新增最贵，修改次之，清除退钱。
 func SstoreCost(current, new_ *big.Int, alreadyWritten bool) (cost, refund uint64) {
 	if alreadyWritten {
-		return 100, 0 // ⭐ 同一交易内重复写，槽已经"脏"了
+		return 100, 0 // 同一交易内重复写，槽已经"脏"了
 	}
 	zeroCur := current.Sign() == 0
 	zeroNew := new_.Sign() == 0
 
 	switch {
 	case zeroCur && !zeroNew:
-		return 20000, 0 // ⚠️ 新增状态：所有节点永久多存 32 字节
+		return 20000, 0 // 新增状态：所有节点永久多存 32 字节
 	case !zeroCur && zeroNew:
-		return 2900, 4800 // ⭐ 清除状态：退款（EIP-3529 后从 15000 降到 4800）
+		return 2900, 4800 // 清除状态：退款（EIP-3529 后从 15000 降到 4800）
 	case zeroCur && zeroNew:
 		return 100, 0 // 零写零，无变化
 	default:
@@ -364,16 +364,16 @@ func SstoreCost(current, new_ *big.Int, alreadyWritten bool) (cost, refund uint6
 ## 七、本讲小结
 
 - **存储是 2²⁵⁶ 个 32 字节的槽，初始全零。** ⚠️ **"从未使用"和"值为 0"无法区分**——需要额外的标志位。
-- **Solidity 按声明顺序分配槽，能装下就打包**。⚠️ **声明顺序会影响 Gas**：`uint128, uint256, uint128` 占 3 槽，重排后只占 2 槽。⭐ `address(20) + uint96(12)` 是最经典的组合。
+- **Solidity 按声明顺序分配槽，能装下就打包**。**声明顺序会影响 Gas**：`uint128, uint256, uint128` 占 3 槽，重排后只占 2 槽。`address(20) + uint96(12)` 是最经典的组合。
 - **动态数组**：槽本身存长度，元素从 `keccak256(p)` 开始。**Mapping**：槽本身留空，`m[k]` 在 `keccak256(k ‖ p)`；嵌套则是 `keccak256(k₂ ‖ keccak256(k₁ ‖ p))`。
-- ⭐ **mapping 用哈希是因为 2²⁵⁶ 的键空间无法预分配**。⚠️ **代价是无法遍历**——没有任何地方记录哪些键被用过。
+- **mapping 用哈希是因为 2²⁵⁶ 的键空间无法预分配**。**代价是无法遍历**——没有任何地方记录哪些键被用过。
 - **string/bytes 用最低位区分长短**：长度乘 2 后最低位必为 0，空出来做标志。
-- ⭐ **SSTORE 按"对全网状态的净影响"定价**：零→非零 20000（新增状态）、非零→非零 2900（大小不变）、非零→零 2900 + 退款（减少状态）。
-- ⭐ **冷 SLOAD 2100 vs 内存 3 Gas** ⟹ **循环里反复读同一个 storage 变量是最常见的浪费**。
-- ⚠️ **打包不总是划算**：收益是共用一次 SLOAD/SSTORE，成本是位移和掩码。⭐ **只有字段经常被同时读写时才划算。**
-- **`constant` / `immutable` 直接嵌入字节码**，读取 3 Gas 而非 2100。⚠️ `immutable` 不占槽，因此无法被 delegatecall 共享。
+- **SSTORE 按"对全网状态的净影响"定价**：零→非零 20000（新增状态）、非零→非零 2900（大小不变）、非零→零 2900 + 退款（减少状态）。
+- **冷 SLOAD 2100 vs 内存 3 Gas** ⟹ **循环里反复读同一个 storage 变量是最常见的浪费**。
+- **打包不总是划算**：收益是共用一次 SLOAD/SSTORE，成本是位移和掩码。**只有字段经常被同时读写时才划算。**
+- **`constant` / `immutable` 直接嵌入字节码**，读取 3 Gas 而非 2100。`immutable` 不占槽，因此无法被 delegatecall 共享。
 - ⭐⭐ **`private` 变量根本不是私密的**：`eth_getStorageAt` 可以直接读出来。`private`/`internal` 只约束"别的合约能不能调用"。
-- ⭐ **推论：任何需要保密的东西都不能明文上链。** 正确做法是承诺方案（第 8 讲）或零知识证明（第 30 讲）。
+- **推论：任何需要保密的东西都不能明文上链。** 正确做法是承诺方案（第 8 讲）或零知识证明（第 30 讲）。
 
 ## 思考题
 

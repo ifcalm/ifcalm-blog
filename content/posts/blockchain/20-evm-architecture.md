@@ -13,7 +13,7 @@ tocOpen: false
 
 > **如何就一次「程序执行」的结果达成一致？**
 
-⭐ 这个转变比它听起来要大得多。记账只需要加减法，而运行任意程序意味着要面对**停机问题**——第 21 讲会看到 Gas 正是为此发明的。
+这个转变比它听起来要大得多。记账只需要加减法，而运行任意程序意味着要面对**停机问题**——第 21 讲会看到 Gas 正是为此发明的。
 
 ## 一、EVM 是什么
 
@@ -30,7 +30,7 @@ EVM = Ethereum Virtual Machine
 ⟹ 而共识要求【每个节点都执行完并得到相同结果】
 ⟹ ⚠️ 一个死循环会让全网卡住
 
-⭐ EVM 的解法：每条指令消耗 Gas，Gas 耗尽则强制中止。
+EVM 的解法：每条指令消耗 Gas，Gas 耗尽则强制中止。
 ⟹ 于是 EVM 在【有限步数内】是图灵完备的，超出则终止。
 ```
 
@@ -45,8 +45,8 @@ EVM = Ethereum Virtual Machine
 │ 区域        │ 生命周期  │ 访问成本    │ 说明                      │
 ├────────────┼──────────┼────────────┼──────────────────────────┤
 │ 栈 stack   │ 单次调用  │ ⭐ 极低(3)  │ 最多 1024 项，每项 256 位  │
-│ 内存 memory│ 单次调用  │ 低(3+扩展)  │ 线性字节数组，⚠️ 扩展二次收费│
-│ 存储storage│ ⭐ 永久   │ ⚠️ 极高     │ 256→256 映射，写入两万 Gas │
+│ 内存 memory│ 单次调用  │ 低(3+扩展)  │ 线性字节数组，扩展二次收费│
+│ 存储storage│ 永久   │ 极高     │ 256→256 映射，写入两万 Gas │
 │ calldata   │ 单次调用  │ 低          │ 只读的输入数据             │
 │ code       │ 永久      │ 低          │ 只读的合约字节码           │
 │ returndata │ 单次调用  │ 低          │ 上一次子调用的返回值        │
@@ -58,7 +58,7 @@ EVM = Ethereum Virtual Machine
 ```
 读一次栈：      3 Gas
 读一次冷存储：  ⚠️ 2100 Gas       （约 700 倍）
-写一次新存储槽：⚠️ 20000 Gas      （约 6600 倍）
+写一次新存储槽：20000 Gas      （约 6600 倍）
 ```
 
 ⭐ **所以"优化 Gas"的绝大部分工作，就是"少碰 storage"。** 第 22 讲会展开。
@@ -72,7 +72,7 @@ EVM = Ethereum Virtual Machine
     SWAP1..SWAP16 交换栈顶与往下第 1..16 项
 ```
 
-⚠️ **这个"16 项"的限制是真实的编程约束**：Solidity 里一个函数局部变量太多时会报 `Stack too deep`，根源就在这里。
+**这个"16 项"的限制是真实的编程约束**：Solidity 里一个函数局部变量太多时会报 `Stack too deep`，根源就在这里。
 
 ### 内存
 
@@ -83,9 +83,9 @@ EVM = Ethereum Virtual Machine
     cost(a) = 3a + a²/512        （a = 内存字数，每字 32 字节）
 ```
 
-⭐ **二次方收费是防 DoS 的设计**：线性收费下，攻击者可以用固定 Gas 申请巨量内存把节点撑爆。二次项让大内存迅速变得不可承受。
+**二次方收费是防 DoS 的设计**：线性收费下，攻击者可以用固定 Gas 申请巨量内存把节点撑爆。二次项让大内存迅速变得不可承受。
 
-## 三、⚠️ 为什么是 256 位
+## 三、为什么是 256 位
 
 这是 EVM 最有争议的设计决定。
 
@@ -98,11 +98,11 @@ EVM = Ethereum Virtual Machine
 
 ② 金额运算不溢出
    1 ETH = 10¹⁸ wei。
-   ⚠️ 64 位最大约 1.8×10¹⁹，只够表示 18 个 ETH。
+   64 位最大约 1.8×10¹⁹，只够表示 18 个 ETH。
    ⟹ 需要更宽的字长
 ```
 
-### ⚠️ 三项代价
+### 三项代价
 
 ```
 ① 浪费
@@ -110,10 +110,10 @@ EVM = Ethereum Virtual Machine
    ⚠️ 但每一项都占满 32 字节。
 
 ② 在真实 CPU 上慢
-   ⭐ 主流 CPU 是 64 位的，一次 256 位加法要拆成 4 条指令，
+   主流 CPU 是 64 位的，一次 256 位加法要拆成 4 条指令，
       乘法和除法更糟。
 
-③ ⭐⭐ 对零知识证明极其不友好 —— 这是最严重的一条
+③ 对零知识证明极其不友好 —— 这是最严重的一条
 ```
 
 第三条值得展开，因为它决定了 zkEVM 的全部困难（第 27 讲）：
@@ -124,10 +124,10 @@ ZK 证明系统在【有限域】上工作，域的大小通常是一个 ~64 位
 ⚠️ EVM 的 256 位运算不是域运算，它是【带进位的整数运算 + 取模 2²⁵⁶】。
 ⟹ 要在电路里模拟一次 256 位加法，
    必须把它拆成多个小段，再显式处理进位和范围检查
-⟹ ⭐ 一条 EVM 指令可能对应成千上万个电路约束
+⟹ 一条 EVM 指令可能对应成千上万个电路约束
 
 而位运算（AND/OR/XOR/SHR）更糟——
-⚠️ 它们在算术电路里需要把每个数【逐位分解】，
+它们在算术电路里需要把每个数【逐位分解】，
    一次 256 位异或就是 256 个约束起步。
 ```
 
@@ -150,13 +150,13 @@ JUMPI  ── 弹出目标地址和条件，条件非零才跳
    ⚠️ 如果允许跳到 0x12 那个字节，它会被当成指令 (DUP3) 执行
    ⟹ 同一段字节可以被解释成两种完全不同的程序
 
-② ⭐ 让静态分析可行
+② 让静态分析可行
    有了 JUMPDEST，反汇编器和分析工具能确定
    "所有可能的跳转目标是这有限的几个位置"
    ⟹ 这是所有合约分析工具的基础
 ```
 
-⚠️ 注意 EVM **没有函数调用指令**——Solidity 的内部函数调用是编译器用 `JUMP` + 手工维护返回地址实现的。
+注意 EVM **没有函数调用指令**——Solidity 的内部函数调用是编译器用 `JUMP` + 手工维护返回地址实现的。
 
 ## 五、完整推演一段字节码
 
@@ -179,7 +179,7 @@ PC  指令              操作                          栈              Gas
                      memory[0..31] = 0x…08                        +3 扩展
 08  PUSH1 0x20       压入 32（返回长度）             [32]             3
 0a  PUSH1 0x00       压入 0（返回偏移）              [32, 0]          3
-0c  RETURN           ⭐ 返回 memory[0..31]           —               0
+0c  RETURN           返回 memory[0..31]           —               0
 ──────────────────────────────────────────────────────────────────────
                                                       合计约 24 Gas
 ```
@@ -196,7 +196,7 @@ PC  指令              操作                          栈              Gas
 
 ⚠️ **这个限制曾经是一类攻击的基础**：攻击者先递归调用自己 1023 层，再调用受害合约——受害合约内部的调用必然失败。如果受害合约没检查返回值，就会误以为转账成功。
 
-⭐ EIP-150 引入的 **63/64 规则**大幅缓解了它：
+EIP-150 引入的 **63/64 规则**大幅缓解了它：
 
 ```
 每次子调用最多只能转交【当前剩余 Gas 的 63/64】
@@ -207,9 +207,9 @@ PC  指令              操作                          栈              Gas
 
 | 指令 | 状态变更 | Gas |
 |---|---|---|
-| `STOP` / `RETURN` | ⭐ 保留 | 只扣已消耗的 |
-| `REVERT` | ⭐ **全部撤销** | ⚠️ 只扣已消耗的，**剩余退回** |
-| 异常（Gas 耗尽、栈溢出、无效指令） | 全部撤销 | ⚠️ **全部扣光** |
+| `STOP` / `RETURN` | 保留 | 只扣已消耗的 |
+| `REVERT` | **全部撤销** | 只扣已消耗的，**剩余退回** |
+| 异常（Gas 耗尽、栈溢出、无效指令） | 全部撤销 | **全部扣光** |
 
 ⭐ **`REVERT` 是 EIP-140 才加入的（2017 年）。在此之前只能用 `throw`，它会烧光全部 Gas**——这就是早期合约动辄"消耗全部 Gas 失败"的原因。
 
@@ -223,16 +223,16 @@ PC  指令              操作                          栈              Gas
 0x03  ripemd160
 0x04  identity       内存拷贝
 0x05  modexp         大数模幂
-0x06  bn256Add       ⭐ 椭圆曲线加法
+0x06  bn256Add       椭圆曲线加法
 0x07  bn256ScalarMul
-0x08  bn256Pairing   ⭐ 双线性配对（第 8 讲）——ZK 验证的基础
+0x08  bn256Pairing   双线性配对（第 8 讲）——ZK 验证的基础
 0x09  blake2f
-0x0a  pointEvaluation ⭐ KZG 证明验证（EIP-4844，第 28 讲）
+0x0a  pointEvaluation KZG 证明验证（EIP-4844，第 28 讲）
 ```
 
 ⭐ **`0x08` 的存在直接决定了「链上验证 ZK 证明」是否可行。** 没有它，一次配对运算在 EVM 里要花掉几百万 Gas；有了它，验证一个 Groth16 证明只需几十万。
 
-## 八、⚠️ 定价错误是真实的攻击面
+## 八、定价错误是真实的攻击面
 
 2016 年 9 月，以太坊遭遇了持续数天的 DoS 攻击（史称"上海攻击"）：
 
@@ -243,7 +243,7 @@ PC  指令              操作                          栈              Gas
    ⚠️ 但它需要从磁盘读取一个账户 —— 一次随机 I/O（第 12 讲）
 
 ⟹ 攻击者写一个循环，对上千个随机地址调用 EXTCODESIZE
-⟹ ⭐ 花很少的 Gas，就让每个节点做上千次随机磁盘读
+⟹ 花很少的 Gas，就让每个节点做上千次随机磁盘读
 ⟹ 出块时间从 15 秒涨到几分钟，部分节点直接跟不上
 ```
 
@@ -268,16 +268,16 @@ import (
 )
 
 const (
-	OpStop   = 0x00
-	OpAdd    = 0x01
-	OpMul    = 0x02
-	OpSub    = 0x03
-	OpPush1  = 0x60
-	OpMStore = 0x52
-	OpJump   = 0x56
-	OpJumpI  = 0x57
+	OpStop     = 0x00
+	OpAdd      = 0x01
+	OpMul      = 0x02
+	OpSub      = 0x03
+	OpPush1    = 0x60
+	OpMStore   = 0x52
+	OpJump     = 0x56
+	OpJumpI    = 0x57
 	OpJumpDest = 0x5b
-	OpReturn = 0xf3
+	OpReturn   = 0xf3
 )
 
 // twoPow256 用于模 2²⁵⁶ —— ⭐ EVM 的所有算术都在这个环上进行，
@@ -291,7 +291,7 @@ type EVM struct {
 	pc     int
 	gas    uint64
 
-	jumpdests map[int]bool // ⭐ 预扫描出的合法跳转目标
+	jumpdests map[int]bool // 预扫描出的合法跳转目标
 }
 
 func New(code []byte, gas uint64) *EVM {
@@ -299,8 +299,8 @@ func New(code []byte, gas uint64) *EVM {
 }
 
 // scanJumpDests 预扫描所有 JUMPDEST 的位置。
-// ⚠️ 必须跳过 PUSH 的立即数，否则会把数据字节误认为指令——
-//    这正是第四节说的"同一段字节可以被解释成两种程序"。
+// 必须跳过 PUSH 的立即数，否则会把数据字节误认为指令——
+// 这正是第四节说的"同一段字节可以被解释成两种程序"。
 func scanJumpDests(code []byte) map[int]bool {
 	dests := make(map[int]bool)
 	for i := 0; i < len(code); i++ {
@@ -309,7 +309,7 @@ func scanJumpDests(code []byte) map[int]bool {
 			dests[i] = true
 		}
 		if op >= 0x60 && op <= 0x7f { // PUSH1..PUSH32
-			i += int(op-0x60) + 1 // ⭐ 跳过立即数
+			i += int(op-0x60) + 1 // 跳过立即数
 		}
 	}
 	return dests
@@ -317,7 +317,7 @@ func scanJumpDests(code []byte) map[int]bool {
 
 func (e *EVM) push(v *big.Int) error {
 	if len(e.stack) >= 1024 {
-		return errors.New("evm: 栈溢出") // ⚠️ 硬上限 1024
+		return errors.New("evm: 栈溢出") // 硬上限 1024
 	}
 	e.stack = append(e.stack, new(big.Int).Mod(v, twoPow256))
 	return nil
@@ -335,7 +335,7 @@ func (e *EVM) pop() (*big.Int, error) {
 func (e *EVM) useGas(n uint64) error {
 	if e.gas < n {
 		e.gas = 0
-		return errors.New("evm: Gas 耗尽") // ⚠️ 异常终止，Gas 全部扣光
+		return errors.New("evm: Gas 耗尽") // 异常终止，Gas 全部扣光
 	}
 	e.gas -= n
 	return nil
@@ -357,7 +357,7 @@ func (e *EVM) Run() ([]byte, error) {
 			n := int(op-OpPush1) + 1
 			end := e.pc + 1 + n
 			if end > len(e.code) {
-				end = len(e.code) // ⚠️ 代码末尾不足时按零填充，这是 EVM 的规定行为
+				end = len(e.code) // 代码末尾不足时按零填充，这是 EVM 的规定行为
 			}
 			val := new(big.Int).SetBytes(e.code[e.pc+1 : end])
 			if err := e.push(val); err != nil {
@@ -386,14 +386,14 @@ func (e *EVM) Run() ([]byte, error) {
 			case OpSub:
 				r = new(big.Int).Sub(a, b)
 			}
-			// ⭐ 统一取模 2²⁵⁶：EVM 的溢出是静默回绕
+			// 统一取模 2²⁵⁶：EVM 的溢出是静默回绕
 			if err := e.push(r); err != nil {
 				return nil, err
 			}
 			e.pc++
 
 		case op == OpMStore:
-			// ⚠️ 参数顺序：先弹偏移，再弹值
+			// 参数顺序：先弹偏移，再弹值
 			off, err := e.pop()
 			if err != nil {
 				return nil, err
@@ -426,7 +426,7 @@ func (e *EVM) Run() ([]byte, error) {
 			}
 			if jump {
 				d := int(dst.Uint64())
-				// ⭐ 目标必须是 JUMPDEST，否则立即失败
+				// 目标必须是 JUMPDEST，否则立即失败
 				if !e.jumpdests[d] {
 					return nil, errors.New("evm: 非法跳转目标")
 				}
@@ -451,14 +451,14 @@ func (e *EVM) Run() ([]byte, error) {
 			return e.memory[start:end], nil
 
 		default:
-			return nil, errors.New("evm: 无效指令") // ⚠️ 同样烧光 Gas
+			return nil, errors.New("evm: 无效指令") // 同样烧光 Gas
 		}
 	}
 	return nil, nil
 }
 
 // expandMemory 按需扩展内存并收费。
-// ⭐ 二次项 words²/512 是防 DoS 的关键：大内存迅速变得不可承受。
+// 二次项 words²/512 是防 DoS 的关键：大内存迅速变得不可承受。
 func (e *EVM) expandMemory(size int) error {
 	if size <= len(e.memory) {
 		return nil
@@ -482,15 +482,15 @@ func (e *EVM) expandMemory(size int) error {
 
 - ⭐ **从"记账"到"运行程序"的关键难题是停机问题**。比特币脚本用"禁止循环"解决，代价是表达能力；EVM 用"计费"解决，代价是必须发明整套 Gas 机制。
 - ⭐ **六个数据区域的成本相差几个数量级**：栈 3 Gas，冷存储读 2100，新存储写 20000。**"优化 Gas"的绝大部分就是"少碰 storage"。**
-- ⚠️ **栈只能操作最近 16 项** ⟹ Solidity 的 `Stack too deep` 就来自这里。
-- ⭐ **内存二次方收费是防 DoS 设计**：线性收费下攻击者能用固定 Gas 撑爆节点。
+- **栈只能操作最近 16 项** ⟹ Solidity 的 `Stack too deep` 就来自这里。
+- **内存二次方收费是防 DoS 设计**：线性收费下攻击者能用固定 Gas 撑爆节点。
 - **256 位字长的两个理由**：匹配 keccak/地址、金额不溢出（1 ETH = 10¹⁸ wei，64 位只够 18 个 ETH）。
-- ⚠️ **三项代价**：浪费、在 64 位 CPU 上慢，⭐ **以及对 ZK 极其不友好**——EVM 的 256 位整数运算不是域运算，一条指令可能对应成千上万个电路约束，位运算更要逐位分解。⭐ **EVM 是为"执行便宜"设计的，不是为"被证明"设计的。**
-- ⭐ **JUMPDEST 规则的两个理由**：防止跳进 PUSH 的立即数中间（同一段字节被解释成两种程序），以及**让静态分析可行**。
-- ⚠️ **1024 调用深度曾是攻击基础**；EIP-150 的 **63/64 规则**让 Gas 先于深度耗尽，从而堵死它。
-- ⭐ **`REVERT` 是 2017 年才加入的**。此前失败会烧光全部 Gas。
-- ⭐ **预编译 `0x08`（配对）直接决定了链上验证 ZK 证明是否可行**——几百万 Gas 与几十万 Gas 的差别。
-- ⭐⚠️ **2016 年上海攻击暴露了定价的本质困难**：`EXTCODESIZE` 只收 20 Gas 却要做一次随机磁盘 I/O。**Gas 价格必须反映"对最慢节点"的真实成本，而真实成本会随硬件和状态大小变化——所以定价是需要持续维护的，不是一次性常数。**
+- **三项代价**：浪费、在 64 位 CPU 上慢，**以及对 ZK 极其不友好**——EVM 的 256 位整数运算不是域运算，一条指令可能对应成千上万个电路约束，位运算更要逐位分解。**EVM 是为"执行便宜"设计的，不是为"被证明"设计的。**
+- **JUMPDEST 规则的两个理由**：防止跳进 PUSH 的立即数中间（同一段字节被解释成两种程序），以及**让静态分析可行**。
+- **1024 调用深度曾是攻击基础**；EIP-150 的 **63/64 规则**让 Gas 先于深度耗尽，从而堵死它。
+- **`REVERT` 是 2017 年才加入的**。此前失败会烧光全部 Gas。
+- **预编译 `0x08`（配对）直接决定了链上验证 ZK 证明是否可行**——几百万 Gas 与几十万 Gas 的差别。
+- **2016 年上海攻击暴露了定价的本质困难**：`EXTCODESIZE` 只收 20 Gas 却要做一次随机磁盘 I/O。**Gas 价格必须反映"对最慢节点"的真实成本，而真实成本会随硬件和状态大小变化——所以定价是需要持续维护的，不是一次性常数。**
 
 ## 思考题
 
