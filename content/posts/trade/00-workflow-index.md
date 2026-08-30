@@ -397,7 +397,7 @@ tocOpen: true
 | 11 | [期权的机制与真实风险结构]({{< ref "11-options.md" >}}) |
 | 12 | [杠杆 ETF、产品结构与公司行为]({{< ref "12-product-structures.md" >}}) |
 | 13 | [宏观传导——利率、流动性与风险资产]({{< ref "13-macro.md" >}}) |
-| 14 | [资产安全实操]({{< ref "14-security.md" >}}) ⭐ |
+| 14 | [资产安全实操]({{< ref "14-security.md" >}}) |
 | 15 | [盘口与成交数据——能测量什么，不能推断什么]({{< ref "15-orderflow-data.md" >}}) |
 | 16 | [日历上的事件——IPO、锁定期、增发、回购与指数调整]({{< ref "16-calendar-events.md" >}}) |
 | 17 | [DeFi 的清算与跨链桥]({{< ref "17-defi-liquidation-bridges.md" >}}) |
@@ -409,7 +409,7 @@ tocOpen: true
 
 | 篇 | 标题 |
 |---|---|
-| 21 | [代币经济学——供应、解锁与稀释]({{< ref "21-tokenomics.md" >}}) ⭐ |
+| 21 | [代币经济学——供应、解锁与稀释]({{< ref "21-tokenomics.md" >}}) |
 | 22 | [收益从哪里来——质押、LST、再质押与 DeFi 收益]({{< ref "22-yield-sources.md" >}}) |
 | 23 | [尽调——合约权限、储备证明与平台选择]({{< ref "23-due-diligence.md" >}}) |
 | 24 | [链上执行——Gas、抢跑防护与 L2 风险]({{< ref "24-onchain-execution.md" >}}) |
@@ -419,7 +419,7 @@ tocOpen: true
 
 | 篇 | 标题 |
 |---|---|
-| 26 | [筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}}) ⭐ |
+| 26 | [筛选器——可交易域怎么框出来]({{< ref "26-screening.md" >}}) |
 | 27 | [图表怎么读]({{< ref "27-reading-charts.md" >}}) |
 | 28 | [市场操纵与容错设计]({{< ref "28-market-manipulation.md" >}}) |
 | 29 | [链上交易实操——公平性、成本与平台选择]({{< ref "29-onchain-trading.md" >}}) |
@@ -431,7 +431,7 @@ tocOpen: true
 | 35 | [什么叫「有行情」——环境判断的三层判据]({{< ref "35-market-regime.md" >}}) |
 | 36 | [左侧与右侧——确认窗口的两端]({{< ref "36-left-right-side.md" >}}) |
 | 37 | [缠论拆解——一个体系该怎么被检查]({{< ref "37-chan-theory.md" >}}) |
-| 38 | [检验方法论——怎么知道一个策略是真的]({{< ref "38-validation.md" >}}) ⭐ |
+| 38 | [检验方法论——怎么知道一个策略是真的]({{< ref "38-validation.md" >}}) |
 | 39 | [市场广度与 VIX——横截面的状态测量]({{< ref "39-market-breadth.md" >}}) |
 | 40 | [形态学——「像不像」为什么不是一个可回答的问题]({{< ref "40-chart-patterns.md" >}}) |
 | 41 | [网格与蛛网——凹性、燃料与它真正的门槛]({{< ref "41-grid-trading.md" >}}) |
@@ -439,7 +439,7 @@ tocOpen: true
 | 43 | [链上指标——按「依赖多少假设」重排]({{< ref "43-onchain-metrics.md" >}}) |
 | 44 | [自建数据管道——采集、校验与指标实现]({{< ref "44-data-pipeline.md" >}}) |
 | 45 | [期权链——把它当数据源读]({{< ref "45-option-chain.md" >}}) |
-| 46 | [行为与结构优势——把加数项和乘数项分开]({{< ref "46-behavioral-edge.md" >}}) ⭐ |
+| 46 | [行为与结构优势——把加数项和乘数项分开]({{< ref "46-behavioral-edge.md" >}}) |
 | 47 | [用 AI 做交易——把它放进那三个格子里]({{< ref "47-ai-in-trading.md" >}}) |
 
 ---
