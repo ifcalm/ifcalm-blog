@@ -295,7 +295,7 @@ func Johnson(n int, edges []Edge) ([][]int, bool) {
 7. 证明重赋权 `ŵ(u,v) = w(u,v) + h(u) − h(v)` 不改变最短路径的选择。
 8. Johnson 算法中 h(v) 取什么？为什么这样取能保证 ŵ ≥ 0？
 9. 为什么要引入一个连向所有顶点的虚拟源点，而不是随便选一个已有顶点？
-10. 把 Floyd-Warshall 的 (min, +) 换成 (max, min)，得到的是什么问题的解？
+10. 把 Floyd-Warshall 的 (min, +) 换成 (max, min) 得到什么问题的解？换成 (min, max) 呢？⚠️ 这两个答案是相反的，别搞混。
 
 ---
 
