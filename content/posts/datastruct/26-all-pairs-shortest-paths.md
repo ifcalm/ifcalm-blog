@@ -297,6 +297,3 @@ func Johnson(n int, edges []Edge) ([][]int, bool) {
 9. 为什么要引入一个连向所有顶点的虚拟源点，而不是随便选一个已有顶点？
 10. 把 Floyd-Warshall 的 (min, +) 换成 (max, min) 得到什么问题的解？换成 (min, max) 呢？⚠️ 这两个答案是相反的，别搞混。
 
----
-
-> **上一讲**：[第 25 讲：单源最短路径]({{< ref "25-single-source-shortest-paths.md" >}})　**下一讲**：[第 27 讲：网络流]({{< ref "27-network-flow.md" >}})

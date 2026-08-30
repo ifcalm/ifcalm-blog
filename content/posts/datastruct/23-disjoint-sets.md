@@ -366,6 +366,3 @@ func (d *DSU) Count() int              { return d.count } // 连通分量个数
 9. 给定一批形如 `a==b` 和 `a!=b` 的约束，如何用并查集判断是否矛盾？
 10. 在 Kruskal 中，并查集的总代价是多少？它是瓶颈吗？
 
----
-
-> **上一讲**：[第 22 讲：深度优先搜索、拓扑排序与强连通分量]({{< ref "22-dfs-topological-scc.md" >}})　**下一讲**：[第 24 讲：最小生成树]({{< ref "24-minimum-spanning-trees.md" >}})

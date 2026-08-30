@@ -436,6 +436,3 @@ func knapsackBB(items []Item, W int) int {
 10. 说明"DP 是回溯 + 记忆化"。给出一个先写回溯再转 DP 的例子。
 11. 贪心失败和回溯失败的表现有什么本质不同？这对解题顺序有什么启示？
 
----
-
-> **上一讲**：[第 28 讲：分治法]({{< ref "28-divide-and-conquer.md" >}})　**下一讲**：[第 30 讲：贪心算法与交换论证]({{< ref "30-greedy-algorithms.md" >}})

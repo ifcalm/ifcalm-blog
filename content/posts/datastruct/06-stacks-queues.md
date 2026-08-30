@@ -356,6 +356,3 @@ func MaxSlidingWindow(a []int, k int) []int {
 6. 滑动窗口最大值：为什么可以直接丢弃"更早且更小"的元素？如果要求最小值，代码怎么改？
 7. `(head - 1) % n` 在 Go 中对 head = 0 会得到什么？为什么必须写成 `(head - 1 + n) % n`？
 
----
-
-> **上一讲**：[第 5 讲：序列 ADT]({{< ref "05-arrays-linked-lists.md" >}})　**下一讲**：[第 7 讲：散列表 I]({{< ref "07-hash-tables-chaining.md" >}})

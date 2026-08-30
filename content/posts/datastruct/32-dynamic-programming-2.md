@@ -421,6 +421,3 @@ for length := 2; length <= n; length++ {
 10. 数位 DP 中为什么 tight 状态不能缓存？
 11. 四边形不等式给出什么结论？为什么利用它能把 Θ(n³) 降到 Θ(n²)？
 
----
-
-> **上一讲**：[第 31 讲：动态规划 I]({{< ref "31-dynamic-programming-1.md" >}})　**下一讲**：[第 33 讲：字符串算法]({{< ref "33-string-algorithms.md" >}})

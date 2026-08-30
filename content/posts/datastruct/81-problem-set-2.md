@@ -426,6 +426,3 @@ T(n) ≤ c(n/5) + c(7n/10) + an = (9c/10)n + an ≤ cn   只要 c ≥ 10a  ✓
 
 **(e)** 常数因子约 20–40，而随机化快速选择约 2–4，实测慢 5–10 倍。**价值**：① 理论上证明"选择比排序容易"（Θ(n) vs Θ(n log n)）；② 工程上作为 **introselect**（`std::nth_element`）的兜底，保证最坏线性。
 
----
-
-> **上一套**：[Problem Set 1]({{< ref "80-problem-set-1.md" >}})　**下一套**：[Problem Set 3：搜索树]({{< ref "82-problem-set-3.md" >}})
