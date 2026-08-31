@@ -1,7 +1,8 @@
 ---
-title: "第 27 讲：ZK Rollup 与有效性证明"
+title: "第 28 讲：ZK Rollup 与有效性证明"
 date: 2026-08-30
-weight: 27
+weight: 28
+aliases: ["/posts/blockchain/27-zk-rollup/"]
 tags: ["区块链"]
 draft: false
 summary: "有效性证明与欺诈证明的本质差别；为什么「ZK Rollup」这个名字用错了词——真正需要的是简洁性而非零知识性；SNARK 与 STARK 的完整取舍与可信设置仪式的 1-of-N 假设；zkEVM 的五个类型及其兼容性与证明速度的权衡；以及 ZK Rollup 真正的风险为什么不在密码学而在电路实现。"
@@ -53,7 +54,7 @@ ZK Rollup：        提交状态根，同时附上一份证明说明我【是对
 ⚠️ 这里面全部是公开信息——没有任何需要隐藏的东西。
 ```
 
-⭐ **所以更准确的名字是「有效性 Rollup（validity rollup）」。** 零知识性只有在做隐私应用（第 31 讲）时才被真正用到。
+⭐ **所以更准确的名字是「有效性 Rollup（validity rollup）」。** 零知识性只有在做隐私应用（第 33 讲）时才被真正用到。
 
 为什么名字仍然叫 ZK？因为所用的技术（SNARK/STARK）恰好来自零知识证明的研究传统——**是工具的名字被搬到了用途上。**
 
@@ -102,7 +103,7 @@ STARK = Scalable Transparent ARgument of Knowledge
 
 ## 四、zkEVM 的五个类型
 
-要为 EVM 执行生成证明，必须把 EVM 的每一步"翻译"成算术电路约束。第 20 讲说过，EVM 对此极不友好。于是出现了一个**兼容性与证明速度的连续谱**（Vitalik 的分类）：
+要为 EVM 执行生成证明，必须把 EVM 的每一步"翻译"成算术电路约束。第 21 讲说过，EVM 对此极不友好。于是出现了一个**兼容性与证明速度的连续谱**（Vitalik 的分类）：
 
 ```
 Type 1 —— ⭐ 完全等价以太坊
@@ -135,7 +136,7 @@ Type 4 —— 高级语言等价
 三个成本大项：
 
 ```
-① 256 位运算（第 20 讲）
+① 256 位运算（第 21 讲）
    电路在有限域上工作，一次 256 位加法要拆段 + 处理进位 + 范围检查
 
 ② ⭐ keccak256 —— 最贵的一项
@@ -213,9 +214,9 @@ ZK Rollup 电路出 bug：    证明照样验证通过，
 ### 其他风险（与 OP Rollup 相同）
 
 ```
-② 升级密钥：⭐ 谁能换掉验证合约或电路？（第 23 讲的四个问题）
-③ 排序器中心化：审查与 MEV（第 26 讲）
-④ 数据可用性：如果数据不在 L1，就是 Validium 而不是 Rollup（第 25、28 讲）
+② 升级密钥：⭐ 谁能换掉验证合约或电路？（第 24 讲的四个问题）
+③ 排序器中心化：审查与 MEV（第 27 讲）
+④ 数据可用性：如果数据不在 L1，就是 Validium 而不是 Rollup（第 26、29 讲）
 ```
 
 **评估一个 ZK Rollup，"用了 ZK"本身几乎不提供任何信息。要问的是：电路被谁审计过？有没有形式化验证？升级权在谁手里？数据在哪？**
@@ -267,7 +268,7 @@ func (r *RollupContract) SubmitBatch(newRoot [32]byte, txDataHash [32]byte, proo
 	}
 
 	// 这里还必须检查 txDataHash 对应的数据【确实已在 L1 上可得】。
-	//    若省掉这一步，它就退化成 Validium（第 25、28 讲）。
+	//    若省掉这一步，它就退化成 Validium（第 26、29 讲）。
 	r.stateRoot = newRoot
 	r.batches++
 	return true

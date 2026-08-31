@@ -173,7 +173,7 @@ func ValidateBlock(b *Block, s UTXOSet, height uint64, prevHeader *Header) error
 
 ```go
 // AddBlock 处理新区块，必要时执行重组。
-// ⭐ 按累计工作量（不是长度）选择主链（第 15 讲）。
+// ⭐ 按累计工作量（不是长度）选择主链（第 16 讲）。
 func (c *Chain) AddBlock(b *Block) error
 ```
 

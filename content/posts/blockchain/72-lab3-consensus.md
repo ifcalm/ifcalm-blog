@@ -9,7 +9,7 @@ showToc: true
 tocOpen: false
 ---
 
-对应[第 14–18 讲]({{< ref "14-proof-of-work.md" >}})。
+对应[第 15–19 讲]({{< ref "15-proof-of-work.md" >}})。
 
 **这个实验分两部分，它们的目的正好相反**：第一部分让你看到 PoW 的**概率性质**，第二部分让你看到 BFT 的**确定性边界**。
 
@@ -26,7 +26,7 @@ func Mine(header []byte, target *big.Int, maxNonce uint32) (uint32, bool)
 
 ### 任务 1.2：验证出块间隔是指数分布
 
-**用模拟而不是数学，验证[第 14 讲第四节]({{< ref "14-proof-of-work.md" >}})的结论：**
+**用模拟而不是数学，验证[第 15 讲第四节]({{< ref "15-proof-of-work.md" >}})的结论：**
 
 ```go
 // SimulateBlockTimes 模拟 n 个区块的出块间隔。
@@ -59,7 +59,7 @@ P(间隔 <  60 秒)         9.5%        ?
 ### 任务 1.3：难度调整
 
 ```go
-// NextTarget 实现比特币的难度调整（第 14 讲第五节）。
+// NextTarget 实现比特币的难度调整（第 15 讲第五节）。
 // ⚠️ 记得 [1/4, 4] 限幅。
 func NextTarget(oldTarget *big.Int, actualSpan time.Duration) *big.Int
 ```
@@ -79,7 +79,7 @@ func NextTarget(oldTarget *big.Int, actualSpan time.Duration) *big.Int
 
 ### 任务 1.4：自私挖矿模拟
 
-**实现[第 15 讲第五节]({{< ref "15-longest-chain-forks.md" >}})的策略：**
+**实现[第 16 讲第五节]({{< ref "16-longest-chain-forks.md" >}})的策略：**
 
 ```go
 // SelfishMining 返回攻击者获得的【收益份额】。
@@ -163,7 +163,7 @@ func TestNoCommitPhaseIsUnsafe(t *testing.T) {
 }
 ```
 
-⭐ **这个测试把[第 18 讲第二节]({{< ref "18-bft-consensus.md" >}})的论证变成了可运行的代码。**
+⭐ **这个测试把[第 19 讲第二节]({{< ref "19-bft-consensus.md" >}})的论证变成了可运行的代码。**
 
 ### 任务 2.4：法定人数交集
 
@@ -200,4 +200,4 @@ func TestLockingPreventsConflict(t *testing.T)
 
 ---
 
-> **相关**：[第 14 讲]({{< ref "14-proof-of-work.md" >}})、[第 15 讲]({{< ref "15-longest-chain-forks.md" >}})、[第 18 讲]({{< ref "18-bft-consensus.md" >}})
+> **相关**：[第 15 讲]({{< ref "15-proof-of-work.md" >}})、[第 16 讲]({{< ref "16-longest-chain-forks.md" >}})、[第 19 讲]({{< ref "19-bft-consensus.md" >}})

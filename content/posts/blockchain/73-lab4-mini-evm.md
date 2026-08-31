@@ -9,7 +9,7 @@ showToc: true
 tocOpen: false
 ---
 
-对应[第 20–23 讲]({{< ref "20-evm-architecture.md" >}})。
+对应[第 21–24 讲]({{< ref "21-evm-architecture.md" >}})。
 
 **写一台 EVM 是理解它的最快方式**——每一个"为什么这样设计"的问题，在你实现它的时候都会自己冒出来。
 
@@ -73,7 +73,7 @@ func scanJumpDests(code []byte) map[int]bool {
 
 ⚠️ **写一个测试：构造一段字节码，其中 PUSH 的立即数恰好是 `0x5b`（JUMPDEST 的操作码）。断言你的扫描【没有】把它当成合法跳转目标。**
 
-**这一条如果写错，同一段字节可以被解释成两个不同的程序（[第 20 讲第四节]({{< ref "20-evm-architecture.md" >}})）。**
+**这一条如果写错，同一段字节可以被解释成两个不同的程序（[第 21 讲第四节]({{< ref "21-evm-architecture.md" >}})）。**
 
 ## 任务二：Gas 计量
 
@@ -97,7 +97,7 @@ cost(words) = 3×words + words²/512
 ③ 如果改成线性收费，同样的 Gas 能申请多少？（说明为什么必须是二次的）
 ```
 
-⭐ **SSTORE 的四档定价（[第 22 讲第三节]({{< ref "22-storage-layout.md" >}})）：**
+⭐ **SSTORE 的四档定价（[第 23 讲第三节]({{< ref "23-storage-layout.md" >}})）：**
 
 ```
 零 → 非零        20000
@@ -110,7 +110,7 @@ cost(words) = 3×words + words²/512
 
 ## 任务三：存储布局计算
 
-**实现 [第 22 讲]({{< ref "22-storage-layout.md" >}}) 的三个公式：**
+**实现 [第 23 讲]({{< ref "23-storage-layout.md" >}}) 的三个公式：**
 
 ```go
 func MappingSlot(slot uint64, key []byte) [32]byte
@@ -150,7 +150,7 @@ func TestDepthAttackFailsWithGas(t *testing.T) {
 
 ## 任务五：三个必须复现的陷阱
 
-### ① 存储冲突（第 23 讲第三节）
+### ① 存储冲突（第 24 讲第三节）
 
 ```go
 func TestProxyStorageCollision(t *testing.T) {
@@ -161,7 +161,7 @@ func TestProxyStorageCollision(t *testing.T) {
 }
 ```
 
-### ② 定价错误引发的 DoS（第 20 讲第八节）
+### ② 定价错误引发的 DoS（第 21 讲第八节）
 
 ```go
 func TestUnderpricedStateAccess(t *testing.T) {
@@ -217,4 +217,4 @@ contract Counter {
 
 ---
 
-> **相关**：[第 20 讲]({{< ref "20-evm-architecture.md" >}})、[第 21 讲]({{< ref "21-gas.md" >}})、[第 22 讲]({{< ref "22-storage-layout.md" >}})、[第 23 讲]({{< ref "23-call-semantics.md" >}})
+> **相关**：[第 21 讲]({{< ref "21-evm-architecture.md" >}})、[第 22 讲]({{< ref "22-gas.md" >}})、[第 23 讲]({{< ref "23-storage-layout.md" >}})、[第 24 讲]({{< ref "24-call-semantics.md" >}})

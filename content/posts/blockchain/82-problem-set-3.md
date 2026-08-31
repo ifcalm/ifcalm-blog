@@ -4,12 +4,12 @@ date: 2026-08-30
 weight: 82
 tags: ["区块链"]
 draft: false
-summary: "覆盖第 20–24 讲：EVM 字节码逐步推演、256 位字长对 ZK 电路的代价、上海攻击与 Gas 定价原则、EIP-1559 基础费的具体计算、存储布局重排的量化收益、mapping 槽推导、delegatecall 存储冲突、63/64 规则堵死深度攻击的证明、账户抽象与并行执行。每题附完整解答。"
+summary: "覆盖第 21–25 讲：EVM 字节码逐步推演、256 位字长对 ZK 电路的代价、上海攻击与 Gas 定价原则、EIP-1559 基础费的具体计算、存储布局重排的量化收益、mapping 槽推导、delegatecall 存储冲突、63/64 规则堵死深度攻击的证明、账户抽象与并行执行。每题附完整解答。"
 showToc: true
 tocOpen: false
 ---
 
-覆盖[第 20–24 讲]({{< ref "20-evm-architecture.md" >}})。
+覆盖[第 21–25 讲]({{< ref "21-evm-architecture.md" >}})。
 
 ---
 
@@ -601,4 +601,4 @@ Gas 的最终承担者：
 
 ---
 
-> **相关**：[第 20–24 讲]({{< ref "20-evm-architecture.md" >}})
+> **相关**：[第 21–25 讲]({{< ref "21-evm-architecture.md" >}})

@@ -22,9 +22,9 @@ tocOpen: true
 | **活性（Liveness）** | 被提交的命令最终会被确定。**"不会卡住"** | [2]({{< ref "02-consensus-limits.md" >}}) |
 | **同步 / 异步 / 部分同步** | 消息上界已知 / 无上界 / GST 之后才有上界 | [2]({{< ref "02-consensus-limits.md" >}}) |
 | **拜占庭故障** | 任意行为：撒谎、发矛盾消息、串通、选择性沉默 | [2]({{< ref "02-consensus-limits.md" >}}) |
-| `n ≥ 3f + 1` | 等待时只能等 `n−f` 个，其中最多 `f` 个说谎 ⟹ `n−2f > f` | [2]({{< ref "02-consensus-limits.md" >}})、[18]({{< ref "18-bft-consensus.md" >}}) |
+| `n ≥ 3f + 1` | 等待时只能等 `n−f` 个，其中最多 `f` 个说谎 ⟹ `n−2f > f` | [2]({{< ref "02-consensus-limits.md" >}})、[19]({{< ref "19-bft-consensus.md" >}}) |
 | **FLP 不可能性** | 异步 + 确定性 + 一个崩溃故障 ⟹ 无解 | [2]({{< ref "02-consensus-limits.md" >}}) |
-| **法定人数交集** | `\|A∩B\| ≥ 2q − n`，必含至少一个诚实节点 | [18]({{< ref "18-bft-consensus.md" >}}) |
+| **法定人数交集** | `\|A∩B\| ≥ 2q − n`，必含至少一个诚实节点 | [19]({{< ref "19-bft-consensus.md" >}}) |
 | **不可能三角** | **不是定理**。真正约束是 `T ≤ R / c` | [3]({{< ref "03-trilemma.md" >}}) |
 
 ## 二、密码学原语
@@ -77,112 +77,127 @@ tocOpen: true
 | **SPV** | 只验区块头，**完全不验证区块内容** | [13]({{< ref "13-light-clients.md" >}}) |
 | **无状态客户端** | 区块自带见证，验证者不保存状态 | [13]({{< ref "13-light-clients.md" >}}) |
 | **Verkle 树** | 向量承诺 ⟹ **不需要兄弟节点**，见证 MB → 百 KB。不抗量子 | [13]({{< ref "13-light-clients.md" >}}) |
-| **弱主观性** | PoS 新节点必须从外部获得近期可信检查点 | [13]({{< ref "13-light-clients.md" >}})、[17]({{< ref "17-proof-of-stake.md" >}}) |
+| **弱主观性** | PoS 新节点必须从外部获得近期可信检查点 | [13]({{< ref "13-light-clients.md" >}})、[18]({{< ref "18-proof-of-stake.md" >}}) |
 
-## 四、共识机制
+## 四、网络与共识
 
 | 术语 | 定义 / 公式 | 出处 |
 |---|---|---|
-| **PoW 谜题** | `H(header ‖ nonce) < target`。三性质：难解易验、**无记忆**、可调 | [14]({{< ref "14-proof-of-work.md" >}}) |
-| **出块间隔分布** | 指数分布。`P(T>600s)=36.8%`，`P(T>3600s)=0.25%` | [14]({{< ref "14-proof-of-work.md" >}}) |
-| **难度调整** | 每 2016 块，`新目标 = 旧目标 × 实际/20160分钟`，限幅 [1/4, 4] | [14]({{< ref "14-proof-of-work.md" >}}) |
-| **算力估算** | `算力 ≈ D × 2³² / 600`。**是估算不是测量** | [14]({{< ref "14-proof-of-work.md" >}}) |
-| **分叉选择** | **累计工作量最大**，不是"最长" | [15]({{< ref "15-longest-chain-forks.md" >}}) |
-| **孤块率** | `≈ 传播时间 / 出块间隔` | [15]({{< ref "15-longest-chain-forks.md" >}}) |
-| **双花概率** | 白皮书第 11 节。q=10% 时 z=6 → 0.024%；**q=25% 时 z=6 → 5%** | [15]({{< ref "15-longest-chain-forks.md" >}}) |
-| **自私挖矿阈值** | `α > (1−γ)/(3−2γ)`。γ=0.5 时只需 **25%** | [15]({{< ref "15-longest-chain-forks.md" >}}) |
-| **安全预算** | **= 矿工总收入 = 区块奖励 + 手续费** | [16]({{< ref "16-pow-economics.md" >}}) |
-| **总量 2100 万** | `210000 × 50 × 2`。实际略少（整数截断） | [16]({{< ref "16-pow-economics.md" >}}) |
-| **费用狙击** | 纯手续费下重挖上一块比挖新块更赚 ⟹ **破坏"延长链最优"** | [16]({{< ref "16-pow-economics.md" >}})、[32]({{< ref "32-mev.md" >}}) |
-| **罚没（slashing）** | PoS 独有：资源在链内 ⟹ 协议可没收本金 | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **无利害关系** | PoS 两边都签几乎零成本 ⟹ 分叉不收敛。罚没解决它 | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **长程攻击** | 用旧验证者私钥重造历史链。靠检查点 + 提款延迟防 | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **罚没条件** | 只有两条：双重提议、双重/环绕投票。**离线不罚没** | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **相关性惩罚** | 与同期被罚总量成比例 ⟹ **鼓励客户端多样性** | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **非活跃泄漏** | 稀释不活跃方直到活跃方占 2/3。代价是可能永久分裂 | [17]({{< ref "17-proof-of-stake.md" >}}) |
-| **PBFT 三阶段** | PREPARE 保证同视图唯一，COMMIT 保证跨视图安全 | [18]({{< ref "18-bft-consensus.md" >}}) |
-| **Tendermint 锁定** | PRECOMMIT 后锁定，只有更高轮的 polka 才解锁 | [18]({{< ref "18-bft-consensus.md" >}}) |
-| **HotStuff** | 门限签名 O(n) + 多一阶段让视图切换 O(n³)→O(n) | [18]({{< ref "18-bft-consensus.md" >}}) |
-| **Gasper** | LMD-GHOST（分叉选择）+ Casper FFG（最终性） | [19]({{< ref "19-ethereum-consensus.md" >}}) |
-| **slot / epoch** | 12 秒 / 32 slots = 6.4 分钟 | [19]({{< ref "19-ethereum-consensus.md" >}}) |
-| **证成 / 最终确定** | >2/3 链接 ⟹ justified；连续两个 justified ⟹ 前一个 finalized | [19]({{< ref "19-ethereum-consensus.md" >}}) |
-| **可问责安全性** | 两个冲突检查点都确定 ⟹ **至少 1/3 质押可罚没** | [19]({{< ref "19-ethereum-consensus.md" >}}) |
+| **gossip（泛洪）** | 收到新消息 ⟹ **先验证再**转发给除来源外的邻居。跳数 `≈ log_d(n)` | [14]({{< ref "14-p2p-network.md" >}}) |
+| **传播时间** | `≈ 跳数 × (物理延迟 + 验证时间 + 传输时间)`。⭐ **只有传输时间能靠带宽改善** | [14]({{< ref "14-p2p-network.md" >}}) |
+| **物理延迟下限** | 光纤约 200,000 km/s ⟹ 地球对跖点单向 **≈ 100 ms**，工程无法消除 | [14]({{< ref "14-p2p-network.md" >}}) |
+| **出块间隔的来源** | `= 传播时间 × 安全系数`。BTC ≈ 600×，ETH ≈ 10× | [14]({{< ref "14-p2p-network.md" >}}) |
+| **Compact Blocks** | BIP-152。只发短 ID，1 MB ⟹ 约 15 KB。⚠️ 缺交易时多一个 RTT | [14]({{< ref "14-p2p-network.md" >}}) |
+| **Erlay** | BIP-330。集合协调代替泛洪，交易传播带宽 `O(邻居数)` ⟹ 近似 `O(1)` | [14]({{< ref "14-p2p-network.md" >}}) |
+| **Eclipse 攻击** | 占满受害者全部连接槽。⭐ **打的是共识证明的前提（诚实节点能互通），不是算法** | [14]({{< ref "14-p2p-network.md" >}}) |
+| **连接槽 Sybil** | ⚠️ PoW/PoS 只解决**出块权**的 Sybil，**网络层开节点仍然免费** | [14]({{< ref "14-p2p-network.md" >}}) |
+| **PoW 谜题** | `H(header ‖ nonce) < target`。三性质：难解易验、**无记忆**、可调 | [15]({{< ref "15-proof-of-work.md" >}}) |
+| **出块间隔分布** | 指数分布。`P(T>600s)=36.8%`，`P(T>3600s)=0.25%` | [15]({{< ref "15-proof-of-work.md" >}}) |
+| **难度调整** | 每 2016 块，`新目标 = 旧目标 × 实际/20160分钟`，限幅 [1/4, 4] | [15]({{< ref "15-proof-of-work.md" >}}) |
+| **算力估算** | `算力 ≈ D × 2³² / 600`。**是估算不是测量** | [15]({{< ref "15-proof-of-work.md" >}}) |
+| **分叉选择** | **累计工作量最大**，不是"最长" | [16]({{< ref "16-longest-chain-forks.md" >}}) |
+| **孤块率** | `≈ 传播时间 / 出块间隔` | [16]({{< ref "16-longest-chain-forks.md" >}}) |
+| **双花概率** | 白皮书第 11 节。q=10% 时 z=6 → 0.024%；**q=25% 时 z=6 → 5%** | [16]({{< ref "16-longest-chain-forks.md" >}}) |
+| **自私挖矿阈值** | `α > (1−γ)/(3−2γ)`。γ=0.5 时只需 **25%** | [16]({{< ref "16-longest-chain-forks.md" >}}) |
+| **安全预算** | **= 矿工总收入 = 区块奖励 + 手续费** | [17]({{< ref "17-pow-economics.md" >}}) |
+| **总量 2100 万** | `210000 × 50 × 2`。实际略少（整数截断） | [17]({{< ref "17-pow-economics.md" >}}) |
+| **费用狙击** | 纯手续费下重挖上一块比挖新块更赚 ⟹ **破坏"延长链最优"** | [17]({{< ref "17-pow-economics.md" >}})、[34]({{< ref "34-mev.md" >}}) |
+| **罚没（slashing）** | PoS 独有：资源在链内 ⟹ 协议可没收本金 | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **无利害关系** | PoS 两边都签几乎零成本 ⟹ 分叉不收敛。罚没解决它 | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **长程攻击** | 用旧验证者私钥重造历史链。靠检查点 + 提款延迟防 | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **罚没条件** | 只有两条：双重提议、双重/环绕投票。**离线不罚没** | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **相关性惩罚** | 与同期被罚总量成比例 ⟹ **鼓励客户端多样性** | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **非活跃泄漏** | 稀释不活跃方直到活跃方占 2/3。代价是可能永久分裂 | [18]({{< ref "18-proof-of-stake.md" >}}) |
+| **PBFT 三阶段** | PREPARE 保证同视图唯一，COMMIT 保证跨视图安全 | [19]({{< ref "19-bft-consensus.md" >}}) |
+| **Tendermint 锁定** | PRECOMMIT 后锁定，只有更高轮的 polka 才解锁 | [19]({{< ref "19-bft-consensus.md" >}}) |
+| **HotStuff** | 门限签名 O(n) + 多一阶段让视图切换 O(n³)→O(n) | [19]({{< ref "19-bft-consensus.md" >}}) |
+| **Gasper** | LMD-GHOST（分叉选择）+ Casper FFG（最终性） | [20]({{< ref "20-ethereum-consensus.md" >}}) |
+| **slot / epoch** | 12 秒 / 32 slots = 6.4 分钟 | [20]({{< ref "20-ethereum-consensus.md" >}}) |
+| **证成 / 最终确定** | >2/3 链接 ⟹ justified；连续两个 justified ⟹ 前一个 finalized | [20]({{< ref "20-ethereum-consensus.md" >}}) |
+| **可问责安全性** | 两个冲突检查点都确定 ⟹ **至少 1/3 质押可罚没** | [20]({{< ref "20-ethereum-consensus.md" >}}) |
 
 ## 五、执行环境
 
 | 术语 | 定义 / 数值 | 出处 |
 |---|---|---|
-| **准图灵完备** | 用 Gas 而非"禁止循环"来保证终止 | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **六个数据区域** | 栈 / 内存 / 存储 / calldata / code / returndata | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **内存收费** | `3a + a²/512`（二次方，防 DoS） | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **256 位字长** | 为匹配 keccak 和金额。**对 ZK 电路极不友好** | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **JUMPDEST 规则** | 防跳进 PUSH 立即数 + 让静态分析可行 | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **63/64 规则** | 子调用最多拿剩余 Gas 的 63/64。堵死深度攻击 | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **预编译 0x08** | 双线性配对。**决定链上验证 ZK 是否可行** | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **上海攻击** | EXTCODESIZE 定价过低 ⟹ 每 20 Gas 换一次随机 I/O | [20]({{< ref "20-evm-architecture.md" >}}) |
-| **Gas 三职责** | 保证终止 / 为资源定价 / **分配稀缺区块空间** | [21]({{< ref "21-gas.md" >}}) |
-| **EIP-1559** | `baseFee`（**销毁**）+ `priorityFee`（给验证者） | [21]({{< ref "21-gas.md" >}}) |
-| **基础费调整** | 目标 = 上限一半，每块 **±12.5%**，10 个满块涨 3 倍 | [21]({{< ref "21-gas.md" >}}) |
-| **冷 / 热访问** | SLOAD 冷 2100 / 热 100；账户冷 2600 / 热 100 | [21]({{< ref "21-gas.md" >}}) |
-| **EIP-3529** | 退款上限 `gasUsed/5`，清槽退款 4800，取消 SELFDESTRUCT 退款 | [21]({{< ref "21-gas.md" >}}) |
-| **SSTORE 四档** | 零→非零 20000；非零→非零 2900；非零→零 2900+退款；重复写 100 | [22]({{< ref "22-storage-layout.md" >}}) |
-| **mapping 槽** | `keccak256(pad32(key) ‖ pad32(slot))` | [22]({{< ref "22-storage-layout.md" >}}) |
-| **嵌套 mapping 槽** | `keccak256(pad32(k₂) ‖ keccak256(pad32(k₁) ‖ pad32(slot)))` | [22]({{< ref "22-storage-layout.md" >}}) |
-| **动态数组** | 槽存长度，元素从 `keccak256(slot)` 开始 | [22]({{< ref "22-storage-layout.md" >}}) |
-| **private 不私密** | `eth_getStorageAt` 可直接读 | [22]({{< ref "22-storage-layout.md" >}}) |
-| **delegatecall** | **借用代码，操作自己的数据**。msg.sender 保持不变 | [23]({{< ref "23-call-semantics.md" >}}) |
-| **EIP-1967 槽** | `keccak256("eip1967.proxy.implementation") − 1`。减 1 防哈希原像撞击 | [23]({{< ref "23-call-semantics.md" >}}) |
-| **Parity 冻结** | 库未初始化 → 被设 owner → selfdestruct → **51.4 万 ETH 永久冻结** | [23]({{< ref "23-call-semantics.md" >}}) |
-| **EIP-4337** | UserOp → Bundler → EntryPoint → 钱包合约。不改共识层 | [24]({{< ref "24-tx-lifecycle-aa.md" >}}) |
-| **EIP-7702** | 让存量 EOA 临时"贴上"合约代码 | [24]({{< ref "24-tx-lifecycle-aa.md" >}}) |
-| **Block-STM** | 乐观并行 + 多版本内存 + **按原始顺序验证** | [24]({{< ref "24-tx-lifecycle-aa.md" >}}) |
+| **准图灵完备** | 用 Gas 而非"禁止循环"来保证终止 | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **六个数据区域** | 栈 / 内存 / 存储 / calldata / code / returndata | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **内存收费** | `3a + a²/512`（二次方，防 DoS） | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **256 位字长** | 为匹配 keccak 和金额。**对 ZK 电路极不友好** | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **JUMPDEST 规则** | 防跳进 PUSH 立即数 + 让静态分析可行 | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **63/64 规则** | 子调用最多拿剩余 Gas 的 63/64。堵死深度攻击 | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **预编译 0x08** | 双线性配对。**决定链上验证 ZK 是否可行** | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **上海攻击** | EXTCODESIZE 定价过低 ⟹ 每 20 Gas 换一次随机 I/O | [21]({{< ref "21-evm-architecture.md" >}}) |
+| **Gas 三职责** | 保证终止 / 为资源定价 / **分配稀缺区块空间** | [22]({{< ref "22-gas.md" >}}) |
+| **EIP-1559** | `baseFee`（**销毁**）+ `priorityFee`（给验证者） | [22]({{< ref "22-gas.md" >}}) |
+| **基础费调整** | 目标 = 上限一半，每块 **±12.5%**，10 个满块涨 3 倍 | [22]({{< ref "22-gas.md" >}}) |
+| **冷 / 热访问** | SLOAD 冷 2100 / 热 100；账户冷 2600 / 热 100 | [22]({{< ref "22-gas.md" >}}) |
+| **EIP-3529** | 退款上限 `gasUsed/5`，清槽退款 4800，取消 SELFDESTRUCT 退款 | [22]({{< ref "22-gas.md" >}}) |
+| **SSTORE 四档** | 零→非零 20000；非零→非零 2900；非零→零 2900+退款；重复写 100 | [23]({{< ref "23-storage-layout.md" >}}) |
+| **mapping 槽** | `keccak256(pad32(key) ‖ pad32(slot))` | [23]({{< ref "23-storage-layout.md" >}}) |
+| **嵌套 mapping 槽** | `keccak256(pad32(k₂) ‖ keccak256(pad32(k₁) ‖ pad32(slot)))` | [23]({{< ref "23-storage-layout.md" >}}) |
+| **动态数组** | 槽存长度，元素从 `keccak256(slot)` 开始 | [23]({{< ref "23-storage-layout.md" >}}) |
+| **private 不私密** | `eth_getStorageAt` 可直接读 | [23]({{< ref "23-storage-layout.md" >}}) |
+| **delegatecall** | **借用代码，操作自己的数据**。msg.sender 保持不变 | [24]({{< ref "24-call-semantics.md" >}}) |
+| **EIP-1967 槽** | `keccak256("eip1967.proxy.implementation") − 1`。减 1 防哈希原像撞击 | [24]({{< ref "24-call-semantics.md" >}}) |
+| **Parity 冻结** | 库未初始化 → 被设 owner → selfdestruct → **51.4 万 ETH 永久冻结** | [24]({{< ref "24-call-semantics.md" >}}) |
+| **EIP-4337** | UserOp → Bundler → EntryPoint → 钱包合约。不改共识层 | [25]({{< ref "25-tx-lifecycle-aa.md" >}}) |
+| **EIP-7702** | 让存量 EOA 临时"贴上"合约代码 | [25]({{< ref "25-tx-lifecycle-aa.md" >}}) |
+| **Block-STM** | 乐观并行 + 多版本内存 + **按原始顺序验证** | [25]({{< ref "25-tx-lifecycle-aa.md" >}}) |
 
 ## 六、扩容
 
 | 术语 | 定义 / 数值 | 出处 |
 |---|---|---|
-| **扩容三维度** | 执行（Rollup）/ 数据（DAS）/ 状态（无状态 + Verkle） | [25]({{< ref "25-scaling-constraints.md" >}}) |
-| **L2 严格定义** | 运营者完全不合作时，**仅凭 L1 数据能单方面取回资产** | [25]({{< ref "25-scaling-constraints.md" >}}) |
-| **Validium** | 数据在链下 + ZK 证明。**正确但可能取不出来** | [25]({{< ref "25-scaling-constraints.md" >}})、[28]({{< ref "28-data-availability.md" >}}) |
-| **1-of-N 诚实假设** | 只需一个诚实的人在盯着，且他能把证明送上 L1 | [26]({{< ref "26-optimistic-rollup.md" >}}) |
-| **交互式二分** | log₂ 轮定位到**单条指令**，L1 只执行一步 | [26]({{< ref "26-optimistic-rollup.md" >}}) |
-| **挑战期 7 天** | **不是技术需求，是安全边际**（抗审查冗余） | [26]({{< ref "26-optimistic-rollup.md" >}}) |
-| **强制包含** | 绕过排序器直接向 L1 提交 —— **单方面退出的技术保障** | [26]({{< ref "26-optimistic-rollup.md" >}}) |
-| **完备 / 可靠 / 简洁 / 零知识** | Rollup 真正需要的是**可靠性 + 简洁性** | [27]({{< ref "27-zk-rollup.md" >}})、[30]({{< ref "30-zero-knowledge.md" >}}) |
-| **SNARK vs STARK** | 证明小/验证便宜 需可信设置、不抗量子 ‖ 无需设置、抗量子、证明大 | [27]({{< ref "27-zk-rollup.md" >}}) |
-| **可信设置** | MPC 仪式的 1-of-N；以太坊 KZG 仪式 **14 万+ 参与者** | [27]({{< ref "27-zk-rollup.md" >}}) |
-| **zkEVM 五类型** | Type 1 完全等价（最慢）… Type 4 高级语言等价（最快，字节码不兼容） | [27]({{< ref "27-zk-rollup.md" >}}) |
-| **电路 bug** | 证明保证"电路被正确执行"，**不保证"电路写对了"** | [27]({{< ref "27-zk-rollup.md" >}}) |
-| **数据可用性** | 讲的是**发布**，不是存储。**无法归责（渔夫困境）** | [28]({{< ref "28-data-availability.md" >}}) |
-| **纠删码 + 采样** | n→2n ⟹ 必须藏一半以上 ⟹ 失败概率 `(1/2)ᵏ`。**30 次 ≈ 10⁻⁹** | [28]({{< ref "28-data-availability.md" >}}) |
-| **EIP-4844 blob** | 128 KiB/个，目标 3 上限 6（⚠️ 上线时参数，后续分叉已上调），**独立费用市场**，约 18 天后删除 | [28]({{< ref "28-data-availability.md" >}}) |
-| **桥的三类信任** | 原生验证（无额外信任）/ 外部验证（等于那组人）/ 乐观验证 | [29]({{< ref "29-bridges.md" >}}) |
-| **多链但非跨链** | 桥让破坏面扩大到**所有相连的链** | [29]({{< ref "29-bridges.md" >}}) |
+| **扩容三维度** | 执行（Rollup）/ 数据（DAS）/ 状态（无状态 + Verkle） | [26]({{< ref "26-scaling-constraints.md" >}}) |
+| **L2 严格定义** | 运营者完全不合作时，**仅凭 L1 数据能单方面取回资产** | [26]({{< ref "26-scaling-constraints.md" >}}) |
+| **Validium** | 数据在链下 + ZK 证明。**正确但可能取不出来** | [26]({{< ref "26-scaling-constraints.md" >}})、[29]({{< ref "29-data-availability.md" >}}) |
+| **1-of-N 诚实假设** | 只需一个诚实的人在盯着，且他能把证明送上 L1 | [27]({{< ref "27-optimistic-rollup.md" >}}) |
+| **交互式二分** | log₂ 轮定位到**单条指令**，L1 只执行一步 | [27]({{< ref "27-optimistic-rollup.md" >}}) |
+| **挑战期 7 天** | **不是技术需求，是安全边际**（抗审查冗余） | [27]({{< ref "27-optimistic-rollup.md" >}}) |
+| **强制包含** | 绕过排序器直接向 L1 提交 —— **单方面退出的技术保障** | [27]({{< ref "27-optimistic-rollup.md" >}}) |
+| **完备 / 可靠 / 简洁 / 零知识** | Rollup 真正需要的是**可靠性 + 简洁性** | [28]({{< ref "28-zk-rollup.md" >}})、[32]({{< ref "32-zero-knowledge.md" >}}) |
+| **SNARK vs STARK** | 证明小/验证便宜 需可信设置、不抗量子 ‖ 无需设置、抗量子、证明大 | [28]({{< ref "28-zk-rollup.md" >}}) |
+| **可信设置** | MPC 仪式的 1-of-N；以太坊 KZG 仪式 **14 万+ 参与者** | [28]({{< ref "28-zk-rollup.md" >}}) |
+| **zkEVM 五类型** | Type 1 完全等价（最慢）… Type 4 高级语言等价（最快，字节码不兼容） | [28]({{< ref "28-zk-rollup.md" >}}) |
+| **电路 bug** | 证明保证"电路被正确执行"，**不保证"电路写对了"** | [28]({{< ref "28-zk-rollup.md" >}}) |
+| **数据可用性** | 讲的是**发布**，不是存储。**无法归责（渔夫困境）** | [29]({{< ref "29-data-availability.md" >}}) |
+| **纠删码 + 采样** | n→2n ⟹ 必须藏一半以上 ⟹ 失败概率 `(1/2)ᵏ`。**30 次 ≈ 10⁻⁹** | [29]({{< ref "29-data-availability.md" >}}) |
+| **EIP-4844 blob** | 128 KiB/个，目标 3 上限 6（⚠️ 上线时参数，后续分叉已上调），**独立费用市场**，约 18 天后删除 | [29]({{< ref "29-data-availability.md" >}}) |
+| **桥的三类信任** | 原生验证（无额外信任）/ 外部验证（等于那组人）/ 乐观验证 | [30]({{< ref "30-bridges.md" >}}) |
+| **多链但非跨链** | 桥让破坏面扩大到**所有相连的链** | [30]({{< ref "30-bridges.md" >}}) |
+| **预言机问题** | 把"外部世界的事实"变成"共识内的数据"。⭐ 与跨链桥同构 | [31]({{< ref "31-oracles.md" >}}) |
+| **为什么不可证明** | 链只能验证签名/哈希/自身历史。**价格是经验断言不是数学命题** | [31]({{< ref "31-oracles.md" >}}) |
+| **预言机的安全上限** | ⭐ 只能设计成"作恶不划算" ⟹ **被保护金额超过撒谎成本时设计即失败** | [31]({{< ref "31-oracles.md" >}}) |
+| **现货操纵成本** | 恒定乘积池推到 `k` 倍需 `ΔY = y(√k − 1)`。k=2 ⟹ **0.414y**，可用闪电贷 | [31]({{< ref "31-oracles.md" >}}) |
+| **TWAP** | `(累加器₂ − 累加器₁)/Δt`。30 分钟窗口维持一块推到 2 倍 ⟹ 现货 **151 倍**、**11.3y**，且用不了闪电贷 | [31]({{< ref "31-oracles.md" >}}) |
+| **TWAP 的代价** | ⚠️ **滞后**：窗口越长越抗操纵、越跟不上真实暴跌 ⟹ 清算场景里变成坏账 | [31]({{< ref "31-oracles.md" >}}) |
+| **推送 vs 拉取** | 前者特有风险是**陈旧窗口**，后者是**择时**（等于白送攻击者一个期权） | [31]({{< ref "31-oracles.md" >}}) |
 
 ## 七、隐私与安全
 
 | 术语 | 定义 / 判据 | 出处 |
 |---|---|---|
-| **Sigma 协议** | 承诺 → 挑战 → 响应 | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **知识提取器** | 定义了"知道"：同一承诺答两个挑战 ⟹ `x = (s₁−s₂)/(e₁−e₂)` | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **模拟器** | 定义了"零知识"：先选 e、s 再倒推 R | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **Fiat-Shamir** | `e = H(R‖P‖msg)`。**签名 = 非交互零知识证明** | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **弱 Fiat-Shamir** | 哈希漏掉公开输入 ⟹ 可伪造（Frozen Heart 类） | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **Schwartz–Zippel** | `Pr ≤ d/\|F\|`。**简洁性的全部来源**：d≈10⁶、\|F\|≈2²⁵⁴ ⟹ 10⁻⁷⁰ | [30]({{< ref "30-zero-knowledge.md" >}}) |
-| **回溯性** | 伪匿名地址被关联一次 ⟹ **全部历史与未来暴露** | [31]({{< ref "31-privacy.md" >}}) |
-| **共同输入所有权** | 链分析最有效的聚簇启发式 | [31]({{< ref "31-privacy.md" >}}) |
-| **nullifier** | 让防双花与不可关联**同时成立** | [31]({{< ref "31-privacy.md" >}}) |
-| **匿名集** | 隐私的**唯一度量**。⟹ 隐私是公共品，有网络效应 | [31]({{< ref "31-privacy.md" >}}) |
-| **关联集证明** | 证明"我的存款不来自黑名单"而不暴露是哪一笔 | [31]({{< ref "31-privacy.md" >}}) |
-| **MEV** | 通过包含/排除/重排交易可提取的价值。**只能重新分配，不能消除** | [32]({{< ref "32-mev.md" >}}) |
-| **三明治** | **利润与滑点容忍度几乎成正比** | [32]({{< ref "32-mev.md" >}}) |
-| **PBS** | 动机是**防中心化**，不是公平 | [32]({{< ref "32-mev.md" >}}) |
-| **重组激励** | 单块 MEV ≫ 区块奖励 ⟹ **"延长链最优"被打破** | [32]({{< ref "32-mev.md" >}}) |
-| **CEI** | 检查 → 生效 → 交互。防重入的正确顺序 | [33]({{< ref "33-contract-vulnerabilities.md" >}}) |
-| **只读重入** | `view` 保证不改状态，**不保证读到的状态一致** | [33]({{< ref "33-contract-vulnerabilities.md" >}}) |
-| **舍入原则** | **永远向对协议有利的方向舍入** | [33]({{< ref "33-contract-vulnerabilities.md" >}}) |
-| **闪电贷** | 不是漏洞——它**移除了"攻击者需要有很多钱"这个隐含防御** | [33]({{< ref "33-contract-vulnerabilities.md" >}}) |
-| **形式化验证的边界** | 保证"实现符合规范"，**不保证"规范正确"** | [33]({{< ref "33-contract-vulnerabilities.md" >}}) |
+| **Sigma 协议** | 承诺 → 挑战 → 响应 | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **知识提取器** | 定义了"知道"：同一承诺答两个挑战 ⟹ `x = (s₁−s₂)/(e₁−e₂)` | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **模拟器** | 定义了"零知识"：先选 e、s 再倒推 R | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **Fiat-Shamir** | `e = H(R‖P‖msg)`。**签名 = 非交互零知识证明** | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **弱 Fiat-Shamir** | 哈希漏掉公开输入 ⟹ 可伪造（Frozen Heart 类） | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **Schwartz–Zippel** | `Pr ≤ d/\|F\|`。**简洁性的全部来源**：d≈10⁶、\|F\|≈2²⁵⁴ ⟹ 10⁻⁷⁰ | [32]({{< ref "32-zero-knowledge.md" >}}) |
+| **回溯性** | 伪匿名地址被关联一次 ⟹ **全部历史与未来暴露** | [33]({{< ref "33-privacy.md" >}}) |
+| **共同输入所有权** | 链分析最有效的聚簇启发式 | [33]({{< ref "33-privacy.md" >}}) |
+| **nullifier** | 让防双花与不可关联**同时成立** | [33]({{< ref "33-privacy.md" >}}) |
+| **匿名集** | 隐私的**唯一度量**。⟹ 隐私是公共品，有网络效应 | [33]({{< ref "33-privacy.md" >}}) |
+| **关联集证明** | 证明"我的存款不来自黑名单"而不暴露是哪一笔 | [33]({{< ref "33-privacy.md" >}}) |
+| **MEV** | 通过包含/排除/重排交易可提取的价值。**只能重新分配，不能消除** | [34]({{< ref "34-mev.md" >}}) |
+| **三明治** | **利润与滑点容忍度几乎成正比** | [34]({{< ref "34-mev.md" >}}) |
+| **PBS** | 动机是**防中心化**，不是公平 | [34]({{< ref "34-mev.md" >}}) |
+| **重组激励** | 单块 MEV ≫ 区块奖励 ⟹ **"延长链最优"被打破** | [34]({{< ref "34-mev.md" >}}) |
+| **CEI** | 检查 → 生效 → 交互。防重入的正确顺序 | [35]({{< ref "35-contract-vulnerabilities.md" >}}) |
+| **只读重入** | `view` 保证不改状态，**不保证读到的状态一致** | [35]({{< ref "35-contract-vulnerabilities.md" >}}) |
+| **舍入原则** | **永远向对协议有利的方向舍入** | [35]({{< ref "35-contract-vulnerabilities.md" >}}) |
+| **闪电贷** | 不是漏洞——它**移除了"攻击者需要有很多钱"这个隐含防御** | [35]({{< ref "35-contract-vulnerabilities.md" >}}) |
+| **形式化验证的边界** | 保证"实现符合规范"，**不保证"规范正确"** | [35]({{< ref "35-contract-vulnerabilities.md" >}}) |
 
 ## 八、关键数字速查
 
@@ -206,6 +221,17 @@ tocOpen: true
    secp256k1 → 128 位安全
    MPT 深度 ≈ 7–8；Verkle 深度 ≈ 4
    DA 采样 30 次 → 失败率 ≈ 10⁻⁹
+
+网络层
+   一万节点 / 8 邻居 ⟹ gossip 约 4.4 跳
+   传播时间：1 MB 完整区块 ≈ 620 ms，15 KB 紧凑区块 ≈ 271 ms
+   物理延迟下限 ≈ 100 ms（地球对跖点单向）
+   出块间隔裕度：BTC ≈ 600×，ETH ≈ 10×
+
+预言机
+   恒定乘积池推到 2 倍 ⟹ 需 0.414 × Y 储备（可闪电贷）
+   30 分钟 TWAP 推到 2 倍、只维持一个区块
+      ⟹ 现货需 151 倍、需 11.3 × 储备（不可闪电贷，约现货的 27 倍）
 ```
 
 ---
