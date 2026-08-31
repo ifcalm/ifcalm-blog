@@ -1,7 +1,8 @@
 ---
-title: "第 18 讲：BFT 共识家族——PBFT、Tendermint 与 HotStuff"
+title: "第 19 讲：BFT 共识家族——PBFT、Tendermint 与 HotStuff"
 date: 2026-08-30
-weight: 18
+weight: 19
+aliases: ["/posts/blockchain/18-bft-consensus/"]
 tags: ["区块链"]
 draft: false
 summary: "PBFT 为什么需要三个阶段（含法定人数交集的完整论证）、视图切换的 O(n³) 代价；Tendermint 的锁定机制如何用两阶段实现即时最终性，以及它在网络分区时为什么会停机；HotStuff 如何用「多加一个阶段」换来线性复杂度和流水线化；以及为什么公链不能直接照搬 BFT。"
@@ -170,7 +171,7 @@ Tendermint 的安全性来自一条锁定规则：
    ⟹ 整条链停止出块，直到分区恢复
 ```
 
-⭐ **这是第 2 讲那个选择的直接体现：Tendermint 牺牲活性保安全性。** 对比以太坊的非活跃泄漏（第 17 讲）——**它会主动稀释少数派，强行恢复活性，代价是可能永久分裂。两条路各有取舍，没有对错。**
+⭐ **这是第 2 讲那个选择的直接体现：Tendermint 牺牲活性保安全性。** 对比以太坊的非活跃泄漏（第 18 讲）——**它会主动稀释少数派，强行恢复活性，代价是可能永久分裂。两条路各有取舍，没有对错。**
 
 ## 四、HotStuff：用一个额外阶段换线性复杂度
 

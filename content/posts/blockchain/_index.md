@@ -1,7 +1,7 @@
 ---
 title: "CS 251：区块链系统原理"
-description: "一门完整的美式大学区块链课程：33 讲课堂笔记，从双花问题讲到零知识证明与 MEV，配 4 个 Go 实验、4 套习题与完整解答、术语表与参考资料。"
-summary: "按美国研究型大学计算机系的标准开设：33 讲 Lecture Notes（信任模型、密码学原语、账本与状态、共识、执行环境、扩容、隐私与安全）、4 个可运行的 Go 实验、4 套 Problem Set（含参考答案）、术语表与参考资料。只讲机制、数学和边界，不讲币价与赛道。"
+description: "一门完整的美式大学区块链课程：35 讲课堂笔记，从双花问题讲到零知识证明与 MEV，配 6 个 Go 实验、4 套习题与完整解答、复习指南、术语表与参考资料。"
+summary: "按美国研究型大学计算机系的标准开设：35 讲 Lecture Notes（信任模型、密码学原语、账本与状态、网络与共识、执行环境、扩容、隐私与安全）、6 个可运行的 Go 实验、4 套 Problem Set（含参考答案）、期中期末复习指南、术语表与参考资料。只讲机制、数学和边界，不讲币价与赛道。"
 layout: "list"
 ---
 
@@ -32,7 +32,7 @@ layout: "list"
 
 ## 课程结构
 
-课程分为七个单元，共 33 讲。
+课程分为七个单元，共 35 讲。
 
 ### Unit 1 · 问题与信任模型（第 1–3 讲）
 在讲任何技术之前，先把问题定义清楚：我们到底要解决什么，以及理论上什么是做不到的。
@@ -59,59 +59,64 @@ layout: "list"
 - [第 12 讲：Merkle Patricia Trie 与状态根]({{< ref "12-merkle-patricia-trie.md" >}})
 - [第 13 讲：轻客户端、无状态验证与 Verkle 树]({{< ref "13-light-clients.md" >}})
 
-### Unit 4 · 共识（第 14–19 讲）
-全课最核心的单元。共识不是"大家投票"，而是"在没有身份的世界里如何给事件排序"。
+### Unit 4 · 网络与共识（第 14–20 讲）
+全课最核心的单元。共识不是"大家投票"，而是"在没有身份的世界里如何给事件排序"。**开头先讲网络层**——因为所有共识协议的安全性证明，都建立在"诚实节点之间能互相通信"这条网络假设之上。
 
-- [第 14 讲：工作量证明的机制与难度调整]({{< ref "14-proof-of-work.md" >}})
-- [第 15 讲：最长链、分叉与自私挖矿]({{< ref "15-longest-chain-forks.md" >}})
-- [第 16 讲：PoW 的经济学——安全预算从哪来]({{< ref "16-pow-economics.md" >}})
-- [第 17 讲：权益证明——罚没、无利害关系与弱主观性]({{< ref "17-proof-of-stake.md" >}})
-- [第 18 讲：BFT 共识家族——PBFT、Tendermint 与 HotStuff]({{< ref "18-bft-consensus.md" >}})
-- [第 19 讲：以太坊的实际共识——LMD-GHOST 加 Casper FFG]({{< ref "19-ethereum-consensus.md" >}})
+- [第 14 讲：P2P 网络层——区块是怎么传开的]({{< ref "14-p2p-network.md" >}})
+- [第 15 讲：工作量证明的机制与难度调整]({{< ref "15-proof-of-work.md" >}})
+- [第 16 讲：最长链、分叉与自私挖矿]({{< ref "16-longest-chain-forks.md" >}})
+- [第 17 讲：PoW 的经济学——安全预算从哪来]({{< ref "17-pow-economics.md" >}})
+- [第 18 讲：权益证明——罚没、无利害关系与弱主观性]({{< ref "18-proof-of-stake.md" >}})
+- [第 19 讲：BFT 共识家族——PBFT、Tendermint 与 HotStuff]({{< ref "19-bft-consensus.md" >}})
+- [第 20 讲：以太坊的实际共识——LMD-GHOST 加 Casper FFG]({{< ref "20-ethereum-consensus.md" >}})
 
-### Unit 5 · 执行环境（第 20–24 讲）
+### Unit 5 · 执行环境（第 21–25 讲）
 从"记账"到"运行程序"：链上虚拟机与它的全部约束。
 
-- [第 20 讲：EVM 的结构——一台 256 位栈机]({{< ref "20-evm-architecture.md" >}})
-- [第 21 讲：Gas——为什么它必须存在]({{< ref "21-gas.md" >}})
-- [第 22 讲：合约存储布局——slot、mapping 与打包]({{< ref "22-storage-layout.md" >}})
-- [第 23 讲：调用语义——delegatecall、代理与可升级性的代价]({{< ref "23-call-semantics.md" >}})
-- [第 24 讲：交易生命周期、账户抽象与并行执行]({{< ref "24-tx-lifecycle-aa.md" >}})
+- [第 21 讲：EVM 的结构——一台 256 位栈机]({{< ref "21-evm-architecture.md" >}})
+- [第 22 讲：Gas——为什么它必须存在]({{< ref "22-gas.md" >}})
+- [第 23 讲：合约存储布局——slot、mapping 与打包]({{< ref "23-storage-layout.md" >}})
+- [第 24 讲：调用语义——delegatecall、代理与可升级性的代价]({{< ref "24-call-semantics.md" >}})
+- [第 25 讲：交易生命周期、账户抽象与并行执行]({{< ref "25-tx-lifecycle-aa.md" >}})
 
-### Unit 6 · 扩容（第 25–29 讲）
-"把区块调大点"为什么不行，以及 Rollup 的安全到底建立在什么之上。
+### Unit 6 · 扩容与跨域信任（第 26–31 讲）
+"把区块调大点"为什么不行，以及 Rollup 的安全到底建立在什么之上。最后两讲用同一把"信任假设"的尺子，量跨链桥和预言机——**两者都是在往一个自洽的密码学系统里，注入它无法自行验证的断言。**
 
-- [第 25 讲：扩容的真实约束]({{< ref "25-scaling-constraints.md" >}})
-- [第 26 讲：Optimistic Rollup 与欺诈证明]({{< ref "26-optimistic-rollup.md" >}})
-- [第 27 讲：ZK Rollup 与有效性证明]({{< ref "27-zk-rollup.md" >}})
-- [第 28 讲：数据可用性——Rollup 真正的瓶颈]({{< ref "28-data-availability.md" >}})
-- [第 29 讲：跨链桥——按信任假设分类]({{< ref "29-bridges.md" >}})
+- [第 26 讲：扩容的真实约束]({{< ref "26-scaling-constraints.md" >}})
+- [第 27 讲：Optimistic Rollup 与欺诈证明]({{< ref "27-optimistic-rollup.md" >}})
+- [第 28 讲：ZK Rollup 与有效性证明]({{< ref "28-zk-rollup.md" >}})
+- [第 29 讲：数据可用性——Rollup 真正的瓶颈]({{< ref "29-data-availability.md" >}})
+- [第 30 讲：跨链桥——按信任假设分类]({{< ref "30-bridges.md" >}})
+- [第 31 讲：预言机——链下数据的信任边界]({{< ref "31-oracles.md" >}})
 
-### Unit 7 · 隐私与安全（第 30–33 讲）
-- [第 30 讲：零知识证明——它到底在证明什么]({{< ref "30-zero-knowledge.md" >}})
-- [第 31 讲：链上隐私——伪匿名为什么会失效]({{< ref "31-privacy.md" >}})
-- [第 32 讲：MEV——排序权的价值]({{< ref "32-mev.md" >}})
-- [第 33 讲：智能合约漏洞的结构分类]({{< ref "33-contract-vulnerabilities.md" >}})
+### Unit 7 · 隐私与安全（第 32–35 讲）
+- [第 32 讲：零知识证明——它到底在证明什么]({{< ref "32-zero-knowledge.md" >}})
+- [第 33 讲：链上隐私——伪匿名为什么会失效]({{< ref "33-privacy.md" >}})
+- [第 34 讲：MEV——排序权的价值]({{< ref "34-mev.md" >}})
+- [第 35 讲：智能合约漏洞的结构分类]({{< ref "35-contract-vulnerabilities.md" >}})
 
 ## 实验
 
-四个实验，全部用 Go，从零实现，不依赖任何区块链库。
+六个实验，全部用 Go，从零实现，不依赖任何区块链库。
 
 - [实验 1：Merkle 树与包含证明]({{< ref "70-lab1-merkle.md" >}})——含 CVE-2012-2459 攻击复现
 - [实验 2：UTXO 链]({{< ref "71-lab2-utxo-chain.md" >}})——交易验证、双花检测、区块组装
 - [实验 3：共识]({{< ref "72-lab3-consensus.md" >}})——PoW 难度调整 + 简化 PBFT
 - [实验 4：mini-EVM]({{< ref "73-lab4-mini-evm.md" >}})——栈机解释器与 Gas 计量
+- [实验 5：欺诈证明、数据可用性与预言机]({{< ref "74-lab5-fraud-proofs.md" >}})——把三个安全性论证跑出来
+- [实验 6：零知识、隐私与 MEV]({{< ref "75-lab6-zk-privacy.md" >}})——把抽取器和模拟器写成代码
 
 ## 习题
 
 每套习题都附**完整解答**，不是"答案略"。
 
 - [习题集 1：信任模型与密码学原语（第 1–8 讲）]({{< ref "80-problem-set-1.md" >}})
-- [习题集 2：账本、状态与共识（第 9–19 讲）]({{< ref "81-problem-set-2.md" >}})
-- [习题集 3：执行环境（第 20–24 讲）]({{< ref "82-problem-set-3.md" >}})
-- [习题集 4：扩容、隐私与安全（第 25–33 讲）]({{< ref "83-problem-set-4.md" >}})
+- [习题集 2：账本、状态与共识（第 9–20 讲）]({{< ref "81-problem-set-2.md" >}})
+- [习题集 3：执行环境（第 21–25 讲）]({{< ref "82-problem-set-3.md" >}})
+- [习题集 4：扩容、隐私与安全（第 26–35 讲）]({{< ref "83-problem-set-4.md" >}})
 
 ## 参考
 
+- [期中与期末复习指南]({{< ref "90-exam-guide.md" >}})——公式卡、高频考点、两套模拟题与解答
 - [术语与符号表]({{< ref "95-glossary.md" >}})
 - [参考资料与延伸阅读]({{< ref "96-resources.md" >}})

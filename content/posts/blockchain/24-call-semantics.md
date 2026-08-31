@@ -1,7 +1,8 @@
 ---
-title: "第 23 讲：调用语义——delegatecall、代理与可升级性的代价"
+title: "第 24 讲：调用语义——delegatecall、代理与可升级性的代价"
 date: 2026-08-30
-weight: 23
+weight: 24
+aliases: ["/posts/blockchain/23-call-semantics/"]
 tags: ["区块链"]
 draft: false
 summary: "CALL、DELEGATECALL、STATICCALL 三者上下文的精确差别；代理模式如何实现「可升级」以及存储冲突为什么会毁掉一切；EIP-1967 伪随机槽的巧妙之处；Parity 多签冻结 51 万 ETH 的完整成因；以及可升级性在信任模型上究竟改变了什么。"

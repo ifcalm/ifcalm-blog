@@ -4,7 +4,7 @@ date: 2026-08-30
 weight: 96
 tags: ["区块链"]
 draft: false
-summary: "按单元组织的原始论文、规范文档、可读源码与课程资源，并标注每一份的定位与难度，以及本课刻意没有覆盖的四个方向。"
+summary: "按单元组织的原始论文、规范文档、可读源码与课程资源，并标注每一份的定位与难度，以及本课刻意没有覆盖的四个方向。含网络层、共识、密码学、扩容与预言机五组原始论文。"
 showToc: true
 tocOpen: true
 ---
@@ -13,7 +13,7 @@ tocOpen: true
 
 ## 一、原始论文
 
-### 分布式共识（第 1–2、18 讲）
+### 分布式共识（第 1–2、19 讲）
 
 | 文献 | 说明 |
 |---|---|
@@ -23,7 +23,18 @@ tocOpen: true
 | Yin et al., *HotStuff: BFT Consensus in the Lens of Blockchain* (2018) | 线性视图切换 + 流水线 |
 | Buchman, Kwon, Milosevic, *The latest gossip on BFT consensus* (2018) | Tendermint 的正式描述 |
 
-### 区块链设计（第 9–19 讲）
+### P2P 网络层（第 14 讲）
+
+| 文献 | 说明 |
+|---|---|
+| Decker & Wattenhofer, *Information Propagation in the Bitcoin Network* (2013) | **传播时间的实测来源**。孤块率与传播延迟关系的原始数据 |
+| Heilman et al., *Eclipse Attacks on Bitcoin's Peer-to-Peer Network* (2015) | Eclipse 攻击的系统化分析，以及 addrman 分桶防御的由来 |
+| Apostolaki, Zohar, Vanbever, *Hijacking Bitcoin: Routing Attacks on Cryptocurrencies* (2017) | BGP 层面的分区与延迟攻击 |
+| Corallo, *BIP-152: Compact Block Relay* (2016) | 紧凑区块的规范。⭐ 短小，值得完整读一遍 |
+| Naumenko et al., *Erlay: Efficient Transaction Relay for Bitcoin* (2019) | 集合协调代替泛洪，带宽从 `O(邻居数)` 降到近似 `O(1)` |
+| Fanti et al., *Dandelion++* (2018) | 打断"首个广播者 = 发起者"这条关联 |
+
+### 区块链设计（第 9–20 讲）
 
 | 文献 | 说明 |
 |---|---|
@@ -33,7 +44,7 @@ tocOpen: true
 | Buterin & Griffith, *Casper the Friendly Finality Gadget* (2017) | 可问责安全性的正式定义 |
 | Buterin et al., *Combining GHOST and Casper* (2020) | Gasper 的完整描述 |
 
-### 密码学（第 4–8、30 讲）
+### 密码学（第 4–8、32 讲）
 
 | 文献 | 说明 |
 |---|---|
@@ -42,13 +53,16 @@ tocOpen: true
 | Goldwasser, Micali, Rackoff, *The Knowledge Complexity of Interactive Proof Systems* (1985) | 零知识的定义（模拟器范式的起点） |
 | Thaler, *Proofs, Arguments, and Zero-Knowledge* | **免费在线**。目前最好的通用 ZK 系统教材，比论文友好得多 |
 
-### 扩容与 L2（第 25–29 讲）
+### 扩容、L2 与预言机（第 26–31 讲）
 
 | 文献 | 说明 |
 |---|---|
 | Al-Bassam, Sonnino, Buterin, *Fraud and Data Availability Proofs* (2018) | 数据可用性采样的奠基论文 |
 | Buterin, *Endgame* (2021)、*A rollup-centric ethereum roadmap* (2020) | 路线转向的完整论证 |
 | Zamyatin et al., *SoK: Communication Across Distributed Ledgers* (2019) | 跨链桥的系统化分类 |
+| Adams et al., *Uniswap v2 Core* (2020) | ⭐ 累积价格预言机（TWAP）的原始设计，第 2.2 节 |
+| Mackinga, Nadahalli, Wattenhofer, *TWAP Oracle Attacks: Easier Done than Said?* (2022) | TWAP 操纵成本的量化分析，与第 31 讲第四节对应 |
+| Eskandari et al., *SoK: Oracles from the Ground Truth to Market Manipulation* (2021) | 预言机按信任假设的系统化分类 |
 
 ## 二、规范与文档
 
@@ -63,7 +77,7 @@ Ethereum Execution Specs（executable specs）
       而且能直接跑。想搞清某个操作码的确切语义，看这个
 
 Consensus Specs（ethereum/consensus-specs）
-   信标链的 Python 规范。第 17、19 讲的罚没条件、
+   信标链的 Python 规范。第 18、20 讲的罚没条件、
       非活跃泄漏、分叉选择，全部能在这里找到精确定义
 
 EIP 索引（eips.ethereum.org）
@@ -95,7 +109,7 @@ CometBFT（Go）
 
 Optimism / Arbitrum（Go + Solidity）
    欺诈证明的单步解释器（MIPS / WASM）——
-   代码不长，且能看到第 26 讲那套二分协议的真实实现
+   代码不长，且能看到第 27 讲那套二分协议的真实实现
 ```
 
 ⚠️ **一个建议：不要从主循环开始读。** 从"你已经理解的那个概念"对应的函数入手（比如先找 `applyTransaction`），再向外扩展。
@@ -110,7 +124,7 @@ MIT 6.5610 — Applied Cryptography（原 6.857）
    密码学基础更扎实，适合补第二单元
 
 Berkeley CS 294-144 — Blockchain, CryptoEconomics
-   经济学与机制设计部分更强，适合补第 16、32 讲
+   经济学与机制设计部分更强，适合补第 17、34 讲
 ```
 
 ## 五、本课刻意没有覆盖的
@@ -154,11 +168,11 @@ Berkeley CS 294-144 — Blockchain, CryptoEconomics
 
 ③ 深入安全
    ⟹ 读历史事故的完整分析报告（Rekt News、各家审计报告）
-   ⟹ 用第 33 讲的四个问题去检查真实合约
+   ⟹ 用第 35 讲的四个问题去检查真实合约
    ⟹ 目标：能在代码里看出【没有被写下来的假设】
 ```
 
-⭐ **而无论走哪个方向，第 33 讲最后那句话都适用：**
+⭐ **而无论走哪个方向，第 35 讲最后那句话都适用：**
 
 > **每一层"数学保证"，都在某个地方交接给了人的判断。
 > ⭐ 工程能力的差别，在于知道保证在哪里停止。**

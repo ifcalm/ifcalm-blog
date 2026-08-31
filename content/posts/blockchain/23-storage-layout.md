@@ -1,7 +1,8 @@
 ---
-title: "第 22 讲：合约存储布局——slot、mapping 与打包"
+title: "第 23 讲：合约存储布局——slot、mapping 与打包"
 date: 2026-08-30
-weight: 22
+weight: 23
+aliases: ["/posts/blockchain/22-storage-layout/"]
 tags: ["区块链"]
 draft: false
 summary: "2²⁵⁶ 个存储槽如何被分配：顺序分配、变量打包、动态数组与 mapping 的哈希寻址公式；为什么 mapping 无法遍历；SSTORE 的四档定价与打包优化的真实收益边界；以及 private 变量为什么根本不是私密的。"
@@ -163,7 +164,7 @@ mapping(address => bool) seen; // 防止重复加入
 ```
 新增一个槽 ⟹ 所有节点要永久多存 32 字节 ⟹ 收 20000
 修改已有槽 ⟹ 状态大小不变 ⟹ 只收 2900
-清空一个槽 ⟹ 减少状态 ⟹ 退钱（⚠️ 但有上限，第 21 讲）
+清空一个槽 ⟹ 减少状态 ⟹ 退钱（⚠️ 但有上限，第 22 讲）
 ```
 
 ### 读取
@@ -233,7 +234,7 @@ address immutable OWNER;         // 构造时确定，也嵌入字节码
 ⟹ 读取成本 = 3 Gas（PUSH），而不是 2100 Gas（SLOAD）
 ```
 
-⚠️ **`immutable` 不占用任何 storage slot**——这也意味着它无法被代理合约的 delegatecall 正确共享（第 23 讲）。
+⚠️ **`immutable` 不占用任何 storage slot**——这也意味着它无法被代理合约的 delegatecall 正确共享（第 24 讲）。
 
 ## 五、private 变量不是私密的
 
@@ -256,11 +257,11 @@ eth_getStorageAt(合约地址, 0, "latest")   ⟹ 0x…2a
 ```
 ⚠️ 链上所有数据都是公开的：
    ① 存储可以被 eth_getStorageAt 直接读
-   ② 未上链的交易在 mempool 里也是公开的（第 32 讲的 MEV 基础）
+   ② 未上链的交易在 mempool 里也是公开的（第 34 讲的 MEV 基础）
    ③ 即使是"内部计算的中间值"，也能通过模拟执行看到
 ```
 
-**推论：任何需要保密的东西，都不能以明文形式进入链上。** 正确做法是第 8 讲的承诺方案（先提交哈希、后揭示），或第 30 讲的零知识证明。
+**推论：任何需要保密的东西，都不能以明文形式进入链上。** 正确做法是第 8 讲的承诺方案（先提交哈希、后揭示），或第 32 讲的零知识证明。
 
 ## 六、Go：计算存储槽
 
@@ -373,7 +374,7 @@ func SstoreCost(current, new_ *big.Int, alreadyWritten bool) (cost, refund uint6
 - **打包不总是划算**：收益是共用一次 SLOAD/SSTORE，成本是位移和掩码。**只有字段经常被同时读写时才划算。**
 - **`constant` / `immutable` 直接嵌入字节码**，读取 3 Gas 而非 2100。`immutable` 不占槽，因此无法被 delegatecall 共享。
 - ⭐⭐ **`private` 变量根本不是私密的**：`eth_getStorageAt` 可以直接读出来。`private`/`internal` 只约束"别的合约能不能调用"。
-- **推论：任何需要保密的东西都不能明文上链。** 正确做法是承诺方案（第 8 讲）或零知识证明（第 30 讲）。
+- **推论：任何需要保密的东西都不能明文上链。** 正确做法是承诺方案（第 8 讲）或零知识证明（第 32 讲）。
 
 ## 思考题
 
