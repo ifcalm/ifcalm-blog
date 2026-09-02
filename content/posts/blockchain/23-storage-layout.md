@@ -10,6 +10,18 @@ showToc: true
 tocOpen: false
 ---
 
+合约的存储有 2²⁵⁶ 个槽——比宇宙里的原子还多。
+
+**它们全都"已经存在"，而且初始值都是 0。**
+
+### 打个比方
+
+这不像一块要申请才能拿到的硬盘，更像**一本无限厚的空白账本**：每一页早就在那儿了，只是还没人写过字。你不需要"新建"一页，翻到那一页写就行。
+
+⚠️ 而这个便利带来一个咬人的后果：**"从来没人写过"和"有人写了个 0"，翻开看长得一模一样。**
+
+这一条第一次读会觉得是吹毛求疵——**它不是**。你没法区分"这个人的余额是 0"和"这个人根本不存在"，也没法区分"这个开关没设过"和"这个开关被显式关掉了"。下面第 ② 条讲的就是它，而它是一整类合约 bug 的来源。
+
 ## 一、存储是什么样的
 
 ```
@@ -86,7 +98,7 @@ uint256[3] arr;   // 从 slot p 开始，连续占 p, p+1, p+2
 
 ### 动态数组
 
-```solidity
+```
 uint256[] arr;    // 假设在 slot p
 
 slot p          存【长度】
@@ -95,7 +107,7 @@ slot p          存【长度】
 
 ### Mapping
 
-```solidity
+```
 mapping(uint256 => uint256) m;   // 假设在 slot p
 
 ⚠️ slot p 本身【不存任何东西】（留空）
@@ -107,7 +119,7 @@ m[k] 存在：  keccak256( k ‖ p )
 
 **嵌套 mapping：**
 
-```solidity
+```
 mapping(address => mapping(address => uint256)) allowance;  // slot p
 
 allowance[a][b] 存在：
@@ -227,7 +239,7 @@ struct Bad {
 
 ### ③ constant 与 immutable
 
-```solidity
+```
 uint256 constant  MAX = 100;     // ⭐ 编译期常量，直接嵌入字节码
 address immutable OWNER;         // 构造时确定，也嵌入字节码
 
@@ -237,6 +249,8 @@ address immutable OWNER;         // 构造时确定，也嵌入字节码
 ⚠️ **`immutable` 不占用任何 storage slot**——这也意味着它无法被代理合约的 delegatecall 正确共享（第 24 讲）。
 
 ## 五、private 变量不是私密的
+
+⭐ 那本账本是**摊开放在广场上的**。`private` 只是约定了"合约代码里别的合约不能读这一页"，它从来没说过**外面的人不能翻**。
 
 ⭐ **这是最重要的一条实践认知：**
 
