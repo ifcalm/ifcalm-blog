@@ -148,6 +148,13 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
     weight = 12
 
   [[menu.main]]
+    identifier = "trade-analysis"
+    name = "交易技术分析"
+    url = "/posts/trade-analysis/"
+    parent = "posts"
+    weight = 13
+
+  [[menu.main]]
     identifier = "blockchain"
     name = "区块链原理"
     url = "/posts/blockchain/"
