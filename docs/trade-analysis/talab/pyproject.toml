@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "talab"
+version = "0.1.0"
+description = "交易技术分析课程的实验工具库"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "exchange_calendars>=4.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "TA-Lib>=0.6"]      # TA-Lib 只用于和第三方库对账的测试，没装时这些测试自动跳过
+
+[tool.setuptools]
+packages = ["talab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:Glyph .* missing from font"]    # 测试环境里没有配置中文字体，不影响结果

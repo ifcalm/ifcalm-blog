@@ -1,0 +1,7 @@
+# 正文里所有代码的实际运行环境（Python 3.14.7）
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+exchange_calendars==4.13.2
+pytest==9.1.1
+TA-Lib==0.8.0
