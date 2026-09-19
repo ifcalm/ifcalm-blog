@@ -1,8 +1,10 @@
-"""talab.indicators：技术指标。第 10 篇：成交量、VWAP、Volume Profile；第 12 篇：移动平均线；第 13 篇：MACD 和背离。"""
+"""talab.indicators：技术指标。第 10 篇：成交量、VWAP、Volume Profile；第 12 篇：移动平均线；第 13 篇：MACD 和背离；第 14 篇：RSI 和 Stochastic；第 15 篇：ATR 和布林带。"""
 from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+
+from talab.structure import true_range, wilder_smooth
 
 
 # ---------------------------------------------------------------------------
@@ -245,3 +247,83 @@ def divergences(swings: pd.DataFrame, indicator: pd.Series, kind: str = "bearish
         previous = (s, extreme)
     return pd.DataFrame(rows, columns=["first", "second", "first_price", "second_price",
                                        "first_value", "second_value", "confirmed_at", "divergence"])
+
+
+# ---------------------------------------------------------------------------
+# 六、振荡器：RSI 和 Stochastic（第 14 篇）
+# ---------------------------------------------------------------------------
+
+def rsi(close: pd.Series, n: int = 14) -> pd.Series:
+    """相对强弱指数（Wilder）：平均上涨幅度占「平均上涨幅度 + 平均下跌幅度」的百分比，0 到 100。
+
+    每根 K 线的变化 = 收盘价 - 前一根收盘价，上涨部分记为 gain，下跌部分（取正数）记为 loss。
+    平均用 Wilder 平滑（alpha = 1 / n）：第一个值是前 n 个变化的简单平均，所以第一个 RSI 出现在第 n + 1 根。
+    RSI = 100 × 平均 gain ÷ (平均 gain + 平均 loss)，和常见写法 100 - 100 ÷ (1 + RS) 完全相等。
+    ⚠️ 价格连续 n 根一动不动时，分母是 0，RSI 没有定义；这里和 TA-Lib 一样记为 0。
+    """
+    _check_period(n)
+    change = close.diff()
+    average_gain = ema(change.clip(lower=0), n, alpha=1 / n)
+    average_loss = ema((-change).clip(lower=0), n, alpha=1 / n)
+    total = average_gain + average_loss
+    return (100 * average_gain / total).where(total != 0, 0.0).where(total.notna())
+
+
+def stochastic(high: pd.Series, low: pd.Series, close: pd.Series,
+               k: int = 14, smooth_k: int = 3, d: int = 3) -> pd.DataFrame:
+    """随机指标（Lane）：收盘价在最近 k 根 K 线最高价和最低价之间的位置，0 到 100。
+
+    原始 %K = 100 × (收盘价 - 最近 k 根的最低价) ÷ (最近 k 根的最高价 - 最近 k 根的最低价)
+    k 列：原始 %K 的 smooth_k 根简单平均（smooth_k = 1 就是不平滑的「快速随机指标」）
+    d 列：k 列的 d 根简单平均
+    和 TA-Lib 的 STOCH（两个 matype 都取 0，即 SMA）一致：两列同时出现，都从第 k + smooth_k + d - 2 根开始。
+    ⚠️ TA-Lib 的 STOCH 默认 k = 5，这里默认用更常见的 14、3、3。最近 k 根最高价等于最低价时记为 0，和 TA-Lib 一样。
+    """
+    for n in (k, smooth_k, d):
+        _check_period(n)
+    highest, lowest = high.rolling(k).max(), low.rolling(k).min()
+    width = highest - lowest
+    raw = (100 * (close - lowest) / width).where(width != 0, 0.0).where(width.notna())
+    k_line = sma(raw, smooth_k)
+    d_line = sma(k_line, d)
+    return pd.DataFrame({"k": k_line.where(d_line.notna()), "d": d_line})
+
+
+# ---------------------------------------------------------------------------
+# 七、波动率：ATR 和布林带（第 15 篇）
+# ---------------------------------------------------------------------------
+
+def atr(high: pd.Series, low: pd.Series, close: pd.Series, n: int = 14) -> pd.Series:
+    """平均真实波幅（Wilder）：第 8 篇的真实波幅 true_range，用 Wilder 平滑取 n 根的平均。
+
+    真实波幅从第 2 根开始才有（要用前一根收盘价），所以第一个 ATR 出现在第 n + 1 根，是前 n 个真实波幅的平均。
+    单位和价格相同。和 TA-Lib 的 ATR 一致。
+    """
+    _check_period(n)
+    return wilder_smooth(true_range(high, low, close), n)
+
+
+def natr(high: pd.Series, low: pd.Series, close: pd.Series, n: int = 14) -> pd.Series:
+    """归一化的 ATR：ATR 占收盘价的百分比，100 × ATR ÷ 收盘价。不同价位、不同标的之间可以比较。和 TA-Lib 的 NATR 一致。"""
+    return 100 * atr(high, low, close, n) / close
+
+
+def bollinger(close: pd.Series, n: int = 20, k: float = 2.0) -> pd.DataFrame:
+    """布林带：中轨是 n 根简单平均，上下轨是中轨加减 k 倍标准差。
+
+    ⚠️ 标准差是这 n 个收盘价的总体标准差（除以 n），和 Bollinger 本人、TA-Lib 的 BBANDS 一致；
+    pandas 的 rolling().std() 默认除以 n - 1，算出来的带会宽一些。
+    返回五列：
+    middle、upper、lower
+    percent_b：收盘价在带里的位置，(收盘价 - 下轨) ÷ (上轨 - 下轨)，下轨是 0、上轨是 1，可以小于 0 或大于 1
+    bandwidth：带宽，(上轨 - 下轨) ÷ 中轨，等于 2k 倍标准差占中轨的比例
+    前 n - 1 根为 NaN；n 个价格完全相同时，上下轨重合，percent_b 为 NaN。
+    """
+    _check_period(n)
+    middle = sma(close, n)
+    width = k * close.rolling(n).std(ddof=0)
+    upper, lower = middle + width, middle - width
+    spread = upper - lower
+    return pd.DataFrame({"middle": middle, "upper": upper, "lower": lower,
+                         "percent_b": ((close - lower) / spread).where(spread != 0),
+                         "bandwidth": spread / middle})

@@ -281,3 +281,20 @@ def test_agreement_and_segments_by_hand():
     assert result["share"] == pytest.approx(0.6)
     assert result["kappa"] == pytest.approx((0.6 - 0.52) / (1 - 0.52))
     assert result["table"].loc["up", "range"] == 1 and result["table"].loc["range", "up"] == 1
+
+
+def test_adx_converges_to_talib():
+    """talab 的 Wilder 平滑用前 n 个值的平均做初始值；TA-Lib 的 +DM、-DM、TR 只用前 n - 1 个（第 15 篇实验二）。
+    两者的差每根乘以 (n - 1) / n，开头最多差零点几，几百根之后一致。"""
+    talib = pytest.importorskip("talib")
+    rng = np.random.default_rng(8)
+    close = pd.Series(100 * np.exp(np.cumsum(rng.normal(0, 0.02, 1000))))
+    high, low = close * (1 + rng.uniform(0, 0.02, 1000)), close * (1 - rng.uniform(0, 0.02, 1000))
+    ours = X.adx(high, low, close)
+    H, L, C = high.to_numpy(), low.to_numpy(), close.to_numpy()
+    for column, theirs in [("plus_di", talib.PLUS_DI(H, L, C, 14)), ("minus_di", talib.MINUS_DI(H, L, C, 14)),
+                           ("adx", talib.ADX(H, L, C, 14))]:
+        assert (ours[column].isna().to_numpy() == np.isnan(theirs)).all()
+        assert np.nanmax(np.abs(ours[column].to_numpy() - theirs)) > 1e-3             # 开头确实不一样
+        np.testing.assert_allclose(ours[column].to_numpy()[500:], theirs[500:], rtol=1e-8)
+
