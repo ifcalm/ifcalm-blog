@@ -110,3 +110,24 @@ def test_missing_runs_groups_consecutive_gaps():
 def test_fingerprint():
     fp = D.fingerprint(make_bars(3))
     assert fp["行数"] == 3 and fp["收盘价之和"] == 301.5
+
+
+FRED_CSV = """observation_date,DTB3
+2020-03-25,0.02
+2020-03-26,-0.05
+2020-03-27,.
+2020-03-30,0.14
+"""
+
+
+def test_load_fred_series_turns_percent_into_decimal_and_fills_holidays(tmp_path):
+    """FRED 的利率列写的是百分数，假日写成一个点；负利率是真的出现过的。"""
+    path = tmp_path / "DTB3.csv"
+    path.write_text(FRED_CSV)
+    s = D.load_fred_series(path)
+    assert s.name == "DTB3"
+    assert s.loc["2020-03-25"] == pytest.approx(0.0002)
+    assert s.loc["2020-03-26"] == pytest.approx(-0.0005)          # 2020 年 3 月真的收过负利率
+    assert s.loc["2020-03-27"] == pytest.approx(-0.0005)          # "." 前向填充
+    assert s.loc["2020-03-30"] == pytest.approx(0.0014)
+    assert s.index.tz is None and s.index.name == "date"

@@ -2,11 +2,17 @@
 from __future__ import annotations
 
 import hashlib
+import io
 import json
+import re
 import time
+import urllib.error
 import urllib.request
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
+from html import unescape
 from pathlib import Path
+from urllib.parse import quote
 
 import numpy as np
 import pandas as pd
@@ -16,6 +22,7 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 
 BINANCE_BASE = "https://data.binance.vision/data"
+BINANCE_LIST = "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision"        # 列目录用的 S3 接口
 BINANCE_COLUMNS = [
     "open_time", "open", "high", "low", "close", "volume", "close_time",
     "quote_volume", "trades", "taker_buy_base", "taker_buy_quote", "ignore",
@@ -23,12 +30,21 @@ BINANCE_COLUMNS = [
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 
 
-def _fetch(url: str, retries: int = 3) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+REGULATOR_AGENT = "talab-course research@example.com"   # SEC / FINRA 要求 UA 写成「名字 邮箱」的样子
+
+
+def _fetch(url: str, retries: int = 3, agent: str | None = None) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": agent or USER_AGENT})
     for i in range(retries):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404:                       # 文件不存在，重试也没用
+                raise
+            if i == retries - 1:
+                raise
+            time.sleep(2 ** i)
         except Exception:
             if i == retries - 1:
                 raise
@@ -36,20 +52,87 @@ def _fetch(url: str, retries: int = 3) -> bytes:
 
 
 def download_binance_klines(symbol: str, interval: str, start: str, end: str,
-                            market: str = "spot", dest: str = "data/binance") -> list[Path]:
+                            market: str = "spot", dest: str = "data/binance",
+                            skip_missing: bool = False, kind: str = "klines") -> list[Path]:
     """按月下载 Binance 公开 K 线压缩包，并用官方 .CHECKSUM 文件校验。
 
     market: "spot"（现货）或 "um"（U 本位永续合约）
+    kind: "klines"（最新成交价）、"markPriceKlines"（标记价格）、"indexPriceKlines"（指数价格）等，
+          只有合约有后面几种（第 22 篇）
     start / end: "YYYY-MM"，包含两端
+    skip_missing: 这个月没有文件（上市之前、下架之后）时跳过，而不是报错
     """
     prefix = "spot" if market == "spot" else "futures/um"
-    folder = Path(dest) / market / symbol / interval
+    folder = Path(dest) / market / symbol / (interval if kind == "klines" else f"{kind}-{interval}")
     folder.mkdir(parents=True, exist_ok=True)
     paths = []
     for month in pd.period_range(start, end, freq="M"):
         name = f"{symbol}-{interval}-{month}.zip"
         path = folder / name
-        url = f"{BINANCE_BASE}/{prefix}/monthly/klines/{symbol}/{interval}/{name}"
+        url = f"{BINANCE_BASE}/{prefix}/monthly/{kind}/{quote(symbol)}/{interval}/{quote(name)}"
+        try:
+            expected = _fetch(url + ".CHECKSUM").decode().split()[0]
+        except urllib.error.HTTPError as e:
+            if skip_missing and e.code == 404:
+                continue
+            raise
+        if not (path.exists() and hashlib.sha256(path.read_bytes()).hexdigest() == expected):
+            content = _fetch(url)
+            actual = hashlib.sha256(content).hexdigest()
+            if actual != expected:
+                raise ValueError(f"{name} 校验失败：期望 {expected}，实际 {actual}")
+            path.write_bytes(content)
+        paths.append(path)
+    return paths
+
+
+def parse_s3_listing(xml: str, prefix: str) -> tuple[list[str], str | None]:
+    """从 S3 列目录返回的 XML 里取出 prefix 下一层的名字，以及下一页的起点（没有下一页时是 None）。"""
+    names = re.findall(r"<(?:Prefix|Key)>" + re.escape(prefix) + r"([^<]+?)/?</(?:Prefix|Key)>", xml)
+    names = [n for n in names if n]
+    if "<IsTruncated>true</IsTruncated>" not in xml:
+        return names, None
+    marker = re.search(r"<NextMarker>([^<]+)</NextMarker>", xml)
+    return names, marker.group(1) if marker else prefix + names[-1]
+
+
+def list_binance(prefix: str, folders: bool = True) -> list[str]:
+    """列出 data.binance.vision 上某个目录下一层的名字（folders=True 列子目录，False 列文件）。"""
+    names, marker = [], ""
+    while True:
+        url = f"{BINANCE_LIST}?prefix={quote(prefix)}&max-keys=1000" + ("&delimiter=/" if folders else "")
+        page, marker = parse_s3_listing(_fetch(url + (f"&marker={quote(marker)}" if marker else "")).decode(), prefix)
+        names += page
+        if marker is None:
+            return names
+
+
+def binance_symbols(market: str = "spot") -> list[str]:
+    """所有上过市的交易对，包含已经下架的。⚠️ 只看今天还在交易的那些，统计会有幸存者偏差。"""
+    prefix = "spot" if market == "spot" else "futures/um"
+    return list_binance(f"data/{prefix}/monthly/klines/")
+
+
+def binance_months(symbol: str, interval: str, market: str = "spot", kind: str = "klines") -> list[str]:
+    """某个交易对有哪些月份的 K 线文件（"YYYY-MM"），从上市月到下架月。"""
+    prefix = "spot" if market == "spot" else "futures/um"
+    names = list_binance(f"data/{prefix}/monthly/{kind}/{symbol}/{interval}/", folders=False)
+    return sorted(n[-11:-4] for n in names if n.endswith(".zip"))
+
+
+def download_binance_funding(symbol: str, start: str, end: str, market: str = "um",
+                             dest: str = "data/binance") -> list[Path]:
+    """按月下载资金费率的历史结算记录（第 24 篇），并用官方 .CHECKSUM 校验。
+
+    文件里一行是一次结算：结算时刻、结算间隔（小时）、这一次的费率。
+    """
+    folder = Path(dest) / market / symbol / "fundingRate"
+    folder.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for month in pd.period_range(start, end, freq="M"):
+        name = f"{symbol}-fundingRate-{month}.zip"
+        path = folder / name
+        url = f"{BINANCE_BASE}/futures/{market}/monthly/fundingRate/{quote(symbol)}/{quote(name)}"
         expected = _fetch(url + ".CHECKSUM").decode().split()[0]
         if not (path.exists() and hashlib.sha256(path.read_bytes()).hexdigest() == expected):
             content = _fetch(url)
@@ -61,7 +144,189 @@ def download_binance_klines(symbol: str, interval: str, start: str, end: str,
     return paths
 
 
+def download_binance_metrics(symbol: str, start: str, end: str, market: str = "um",
+                             dest: str = "data/binance", workers: int = 32) -> list[Path]:
+    """按天下载合约的持仓量和多空比（第 25 篇），5 分钟一条，从 2020-09 起才有。
+
+    每天一个文件，两千多天，所以并发下载并用官方 .CHECKSUM 校验。上市之前的日子没有文件，跳过。
+    """
+    folder = Path(dest) / market / symbol / "metrics"
+    folder.mkdir(parents=True, exist_ok=True)
+
+    def one(day) -> Path | None:
+        name = f"{symbol}-metrics-{day:%Y-%m-%d}.zip"
+        path = folder / name
+        url = f"{BINANCE_BASE}/futures/{market}/daily/metrics/{quote(symbol)}/{quote(name)}"
+        try:
+            expected = _fetch(url + ".CHECKSUM").decode().split()[0]
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            raise
+        if not (path.exists() and hashlib.sha256(path.read_bytes()).hexdigest() == expected):
+            content = _fetch(url)
+            actual = hashlib.sha256(content).hexdigest()
+            if actual != expected:
+                raise ValueError(f"{name} 校验失败：期望 {expected}，实际 {actual}")
+            path.write_bytes(content)
+        return path
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        got = list(pool.map(one, pd.date_range(start, end, freq="D")))
+    return [p for p in got if p is not None]
+
+
+def download_binance_book_ticker(symbol: str, days, market: str = "um",
+                                dest: str = "data/binance") -> list[Path]:
+    """下载最优买卖报价（第 28 篇），**下载完立刻聚合成 1 分钟，再把原始文件删掉**。
+
+    原始文件一天 70–300 MB、几百万到几千万行（盘口每变一次就写一行）。留着它没有意义：
+    这一篇要回答的是「价差有多宽、买一卖一有多厚」，1 分钟的汇总（一天 1,440 行）就够了。
+    想重算别的统计量，重新下载就是了——这里保存的是**结论的原料**，不是原始数据的副本。
+
+    ⚠️ 这套数据只有 **2023-05-16 到 2024-03-30**（320 天）。之前和之后 Binance 都没有公开，
+    所以这一篇量到的价差是这 11 个月的事实，不能直接外推到 2017 年或 2026 年。
+    """
+    folder = Path(dest) / market / symbol / "bookTicker-1m"
+    folder.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for day in days:
+        target = folder / f"{symbol}-bookTicker-1m-{day}.csv.gz"
+        if not target.exists():
+            name = f"{symbol}-bookTicker-{day}.zip"
+            url = f"{BINANCE_BASE}/futures/{market}/daily/bookTicker/{quote(symbol)}/{quote(name)}"
+            try:
+                raw = _fetch(url)
+            except urllib.error.HTTPError as e:
+                if e.code == 404:                   # 这一天没有公开数据
+                    continue
+                raise
+            with zipfile.ZipFile(io.BytesIO(raw)) as z:
+                frame = pd.read_csv(z.open(z.namelist()[0]),
+                                    usecols=["best_bid_price", "best_bid_qty", "best_ask_price",
+                                             "best_ask_qty", "transaction_time"])
+            mid = (frame["best_bid_price"] + frame["best_ask_price"]) / 2
+            frame["价差"] = (frame["best_ask_price"] - frame["best_bid_price"]) / mid * 10_000
+            frame["中间价"] = mid
+            frame["time"] = pd.to_datetime(frame["transaction_time"], unit="ms", utc=True).dt.floor("min")
+            minute = frame.groupby("time").agg(
+                更新次数=("价差", "size"), 价差=("价差", "mean"), 最宽价差=("价差", "max"),
+                买一量=("best_bid_qty", "mean"), 卖一量=("best_ask_qty", "mean"),
+                中间价=("中间价", "mean"))
+            minute.to_csv(target)
+        paths.append(target)
+    return paths
+
+
+def load_binance_book_ticker(paths) -> pd.DataFrame:
+    """读回 `download_binance_book_ticker` 聚合好的 1 分钟盘口。价差的单位是**基点**（万分之一）。"""
+    frames = [pd.read_csv(path, parse_dates=["time"]) for path in sorted(map(str, paths))]
+    out = pd.concat(frames, ignore_index=True).set_index("time").sort_index()
+    out.index = out.index.tz_convert("UTC") if out.index.tz is not None else out.index.tz_localize("UTC")
+    return out
+
+
+SEC_FEE_ADVISORIES = "https://www.sec.gov/rules-regulations/fee-rate-advisories"
+FINRA_FEE_RULES = ("https://www.finra.org/rules-guidance/rulebooks/"
+                   "corporate-organization/section-1-member-regulatory-fees")
+
+
+def _plain(page: str) -> str:
+    """把一页 HTML 压成一行纯文本，方便用正则找数字。"""
+    body = re.sub(r"<script.*?</script>", " ", page, flags=re.S)
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", body)))
+
+
+def parse_sec_fee_advisory(page: str) -> pd.Series:
+    """从 SEC 的「Section 31 Transaction Fee Rate Advisory」里取出费率和生效日（第 28 篇）。
+
+    这笔钱**只在卖出时收**，按成交金额算，买入不收。费率每年随国会拨款调整，
+    所以要现抓而不是写死——写死的费率过两年就是错的。
+    """
+    text = _plain(page)
+    rate = re.search(r"will be set at \$([\d.]+) per million", text)
+    when = re.search(r"starting on ([A-Z][a-z]+ \d{1,2}, \d{4})", text)
+    year = re.search(r"Fiscal Year (\d{4})", text)
+    if not (rate and when):
+        raise ValueError("没在这一页里找到 Section 31 的费率")
+    value = float(rate.group(1)) / 1e6
+    return pd.Series({"财年": int(year.group(1)) if year else None,
+                      "每百万美元": float(rate.group(1)),
+                      "占卖出金额": value,
+                      "生效日": pd.Timestamp(when.group(1))})
+
+
+def parse_finra_taf(page: str) -> pd.Series:
+    """从 FINRA 的费用规则页里取出交易活动费（TAF）：**按股数**收，也只在卖出时收。"""
+    text = _plain(page)
+    per_share = re.search(r"\$?([\d.]+) per share for each sale of a covered equity security", text)
+    cap = re.search(r"maximum charge of \$([\d.]+)", text)
+    if not (per_share and cap):
+        raise ValueError("没在这一页里找到 TAF 的费率")
+    return pd.Series({"每股": float("0." + per_share.group(1).split(".")[-1]),
+                      "每笔上限": float(cap.group(1))})
+
+
+def us_fee_schedule() -> pd.Series:
+    """现抓美股的两项监管费（第 28 篇）：SEC 的 Section 31 费和 FINRA 的 TAF。
+
+    ⚠️ 两项都**只在卖出时收**。它们加起来通常只有成交金额的万分之几，
+    真正贵的是买卖价差——而价差没有公开的历史数据。
+    """
+    links = re.findall(r'href="([^"]*fee-rate-advisories/\d{4}-\d)"',
+                       _fetch(SEC_FEE_ADVISORIES, agent=REGULATOR_AGENT).decode())
+    for link in links:                                  # 找最近一条 Section 31 的公告
+        url = link if link.startswith("http") else "https://www.sec.gov" + link
+        page = _fetch(url, agent=REGULATOR_AGENT).decode()
+        if "Section 31 Transaction Fee Rate Advisory" in page:
+            sec = parse_sec_fee_advisory(page)
+            break
+    else:
+        raise ValueError("没找到 Section 31 的公告")
+    finra = parse_finra_taf(_fetch(FINRA_FEE_RULES, agent=REGULATOR_AGENT).decode())
+    return pd.concat([sec.rename(lambda k: f"SEC {k}"), finra.rename(lambda k: f"TAF {k}")])
+
+
+def download_binance_brackets(dest: str = "data/binance") -> Path:
+    """下载 U 本位合约的分层维持保证金表（第 24 篇），原样保存 JSON。
+
+    这是**今天**的表：档位的名义价值上限、维持保证金率和最大杠杆都会被交易所调整，
+    拿它去算几年前的某一笔仓位，算的是「按今天的规则会怎样」。
+    """
+    path = Path(dest) / "brackets.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(_fetch("https://www.binance.com/bapi/futures/v1/friendly/future/common/brackets"))
+    return path
+
+
+def download_finra_short_volume(days: list[str], dest: str = "data/finra") -> list[Path]:
+    """下载 FINRA 每日卖空成交量文件（第 24 篇），days 是 "YYYY-MM-DD" 的列表。
+
+    ⚠️ 这是 FINRA 三个交易报告设施（TRF）上的成交，不含交易所撮合的部分，
+    所以「卖空占比」是这部分成交里的占比，不是全市场的占比。周末和假日没有文件。
+    ⚠️ 市场休市那天没有文件，FINRA 对不存在的文件返回 **403 而不是 404**
+    （2026-06-19 Juneteenth 就是这样），所以两个状态码都当成「这天没有」。
+    """
+    folder = Path(dest)
+    folder.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for day in days:
+        stamp = day.replace("-", "")
+        path = folder / f"CNMSshvol{stamp}.txt"
+        if not path.exists():
+            try:
+                path.write_bytes(_fetch(f"https://cdn.finra.org/equity/regsho/daily/CNMSshvol{stamp}.txt"))
+            except urllib.error.HTTPError as e:
+                if e.code in (403, 404):            # 周末、假日：没有这个文件
+                    continue
+                raise
+            time.sleep(0.5)                         # 对公开服务器客气一点
+        paths.append(path)
+    return paths
+
+
 def download_nasdaq(symbol: str, kind: str, dest: str = "data/nasdaq",
+
                     assetclass: str = "stocks", start: str = "2016-01-01", end: str | None = None) -> Path:
     """从 Nasdaq 公开接口下载日线（kind="historical"）或分红记录（kind="dividends"），原样保存 JSON。"""
     end = end or pd.Timestamp.today().strftime("%Y-%m-%d")
@@ -71,6 +336,47 @@ def download_nasdaq(symbol: str, kind: str, dest: str = "data/nasdaq",
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(_fetch(url))
     return path
+
+
+def download_nasdaq_screener(dest: str = "data/nasdaq") -> Path:
+    """今天在 NASDAQ、NYSE、AMEX 上市的全部股票（代码、名称、市值、当天成交量、行业），原样保存 JSON。
+
+    ⚠️ 这是**今天**的名单：退市、被收购的公司不在里面。拿它回测历史会有幸存者偏差（第 19 篇）。
+    """
+    path = Path(dest) / "screener.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(_fetch("https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"))
+    return path
+
+
+FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}&cosd={start}"
+FRED_AGENT = "talab-course/1.0"     # ⚠️ FRED 会把浏览器的 UA 晾着不回应，报个老实的名字反而秒回
+
+# 无风险利率常用的两个序列（都是年化百分数，不是小数）
+FRED_SERIES = {"3 个月国库券": "DTB3", "联邦基金有效利率": "DFF"}
+
+
+def download_fred_series(series: str = "DTB3", start: str = "2016-01-01",
+                         dest: str = "data/fred") -> Path:
+    """下载圣路易斯联储 FRED 上的一条日频序列，原样保存 CSV（公开接口，不需要注册）。
+
+    默认的 `DTB3` 是 3 个月国库券的二级市场收益率，算夏普比率时最常用的无风险利率。
+    """
+    path = Path(dest) / f"{series}.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(_fetch(FRED_CSV.format(series=series, start=start), agent=FRED_AGENT))
+    return path
+
+
+def load_fred_series(path) -> pd.Series:
+    """读取 FRED 的 CSV，返回**小数形式**的年化利率（4.25% 读成 0.0425）。
+
+    ⚠️ FRED 的利率列写的是百分数，这里除以 100；假日那天是 "."，转成 NaN 之后前向填充。
+    """
+    df = pd.read_csv(path, parse_dates=[0], index_col=0)
+    s = pd.to_numeric(df.iloc[:, 0], errors="coerce") / 100
+    s.index.name = "date"
+    return s.ffill().rename(df.columns[0])
 
 
 # ---------------------------------------------------------------------------
@@ -102,6 +408,87 @@ def load_binance_klines(paths) -> pd.DataFrame:
     return df.drop(columns=["open_time", "close_time", "ignore"])
 
 
+def load_binance_funding(paths) -> pd.Series:
+    """把一组资金费率压缩包读成一条 Series，索引是结算时刻（UTC），值是这一次结算的费率。
+
+    正数＝多头付给空头，负数＝空头付给多头（第 24 篇）。
+    """
+    paths = sorted(Path(p) for p in paths)
+    if not paths:
+        raise ValueError("没有找到任何资金费率文件，检查一下路径")
+    frames = []
+    for path in paths:
+        with zipfile.ZipFile(path) as z:
+            frames.append(pd.read_csv(z.open(z.namelist()[0])))
+    df = pd.concat(frames, ignore_index=True)
+    df.index = pd.to_datetime(df["calc_time"].astype("int64"), unit="ms", utc=True).dt.round("h")
+    df.index.name = "time"
+    rate = df["last_funding_rate"].astype(float).sort_index()
+    rate.name = "funding"
+    return rate[~rate.index.duplicated()]
+
+
+def load_binance_metrics(paths) -> pd.DataFrame:
+    """把一组持仓量文件读成一张表，索引是 UTC 时间（5 分钟一条）。
+
+    列：持仓量（币）、持仓价值（USDT）、大户账户数多空比、大户持仓量多空比、
+    全部账户数多空比、主动买卖量比。
+    """
+    paths = sorted(Path(p) for p in paths)
+    if not paths:
+        raise ValueError("没有找到任何持仓量文件，检查一下路径")
+    frames = []
+    for path in paths:
+        with zipfile.ZipFile(path) as z:
+            frames.append(pd.read_csv(z.open(z.namelist()[0])))
+    df = pd.concat(frames, ignore_index=True)
+    df.index = pd.to_datetime(df.pop("create_time"), format="%Y-%m-%d %H:%M:%S", utc=True)
+    df.index.name = "time"
+    df = df.drop(columns=["symbol"]).astype(float).sort_index()
+    df.columns = ["持仓量", "持仓价值", "大户账户数多空比", "大户持仓多空比", "账户数多空比", "主动买卖比"]
+    return df[~df.index.duplicated()]                 # ⚠️ 官方文件里每一行都重复了一遍
+
+
+def load_binance_brackets(path, symbol: str = "BTCUSDT") -> pd.DataFrame:
+    """读取一个合约的分层维持保证金表：每一档的名义价值区间、维持保证金率、速算额、最大杠杆。"""
+    data = json.loads(Path(path).read_text())["data"]["brackets"]
+    rows = [b for b in data if b["symbol"] == symbol]
+    if not rows:
+        raise KeyError(f"表里没有 {symbol}")
+    df = pd.DataFrame(rows[0]["riskBrackets"])
+    df = df.rename(columns={"bracketNotionalFloor": "下限", "bracketNotionalCap": "上限",
+                            "bracketMaintenanceMarginRate": "维持保证金率",
+                            "cumFastMaintenanceAmount": "速算额", "maxOpenPosLeverage": "最大杠杆"})
+    df.attrs["updated"] = pd.Timestamp(rows[0]["updateTime"], unit="ms", tz="UTC")
+    return df[["下限", "上限", "维持保证金率", "速算额", "最大杠杆"]].sort_values("下限").reset_index(drop=True)
+
+
+def load_finra_short_volume(paths, symbols=None) -> pd.DataFrame:
+    """读取 FINRA 每日卖空成交量：索引是日期，列是股票代码，值是卖空量占这部分成交量的比例。"""
+    frames = []
+    for path in sorted(Path(p) for p in paths):
+        df = pd.read_csv(path, sep="|").dropna(subset=["Symbol"])
+        if symbols is not None:
+            df = df[df["Symbol"].isin(symbols)]
+        frames.append(df)
+    df = pd.concat(frames, ignore_index=True)
+    df["date"] = pd.to_datetime(df["Date"].astype("int64").astype(str), format="%Y%m%d")
+    df["share"] = df["ShortVolume"] / df["TotalVolume"]
+    return df.pivot_table(index="date", columns="Symbol", values="share")
+
+
+def load_nasdaq_short_interest(path) -> pd.DataFrame:
+    """读取 Nasdaq 的空头仓位记录：每半个月一行，空头股数、日均成交量、回补天数。"""
+    rows = json.loads(Path(path).read_text())["data"]["shortInterestTable"]["rows"]
+    df = pd.DataFrame(rows)
+    df.index = pd.to_datetime(df.pop("settlementDate"), format="%m/%d/%Y")
+    df.index.name = "date"
+    df["空头股数"] = pd.to_numeric(df.pop("interest").str.replace(",", ""))
+    df["日均成交量"] = pd.to_numeric(df.pop("avgDailyShareVolume").str.replace(",", ""))
+    df["回补天数"] = pd.to_numeric(df.pop("daysToCover"))
+    return df.sort_index()
+
+
 def load_nasdaq_daily(path) -> pd.DataFrame:
     """读取 Nasdaq 日线。⚠️ 这个接口给出的价格和成交量已经按拆股调整过，但没有按分红调整。"""
     rows = json.loads(Path(path).read_text())["data"]["tradesTable"]["rows"]
@@ -111,6 +498,16 @@ def load_nasdaq_daily(path) -> pd.DataFrame:
     for c in ["open", "high", "low", "close", "volume"]:
         df[c] = pd.to_numeric(df[c].str.replace(r"[$,]", "", regex=True), errors="coerce")  # "N/A" → NaN
     return df[["open", "high", "low", "close", "volume"]].sort_index()
+
+
+def load_nasdaq_screener(path) -> pd.DataFrame:
+    """读取股票名单：索引是股票代码，列有名称、市值（美元）、当天成交量、当天价格、行业。"""
+    rows = json.loads(Path(path).read_text())["data"]["rows"]
+    df = pd.DataFrame(rows).set_index("symbol")
+    for name, source in [("market_cap", "marketCap"), ("volume", "volume")]:
+        df[name] = pd.to_numeric(df[source].str.replace(",", ""), errors="coerce")
+    df["close"] = pd.to_numeric(df["lastsale"].str.lstrip("$"), errors="coerce")
+    return df[["name", "close", "volume", "market_cap", "sector", "country", "ipoyear"]]
 
 
 def load_nasdaq_dividends(path) -> pd.Series:

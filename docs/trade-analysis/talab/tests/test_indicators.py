@@ -238,3 +238,144 @@ def test_divergences_bullish_mirror():
     hist.iloc[9], hist.iloc[20] = -5.0, -2.0
     d = I.divergences(swings, hist, "bullish")
     assert d["divergence"].tolist() == [True] and d["second_price"].iloc[0] == 95
+
+
+def test_rsi_by_hand():
+    x = hourly([10, 11, 10, 12, 13, 12, 14])
+    r = I.rsi(x, 3)
+    # 变化：+1、-1、+2、+1、-1、+2
+    # 第 4 根：平均 gain (1+0+2)/3 = 1，平均 loss (0+1+0)/3 = 1/3，RSI = 100 × 1 / (4/3) = 75
+    # 第 5 根：gain (2×1+1)/3 = 1，loss (2×1/3+0)/3 = 2/9，RSI = 100 × 1 / (11/9) = 81.818
+    # 第 6 根：gain (2×1+0)/3 = 2/3，loss (2×2/9+1)/3 = 13/27，RSI = 100 × 18 / 31 = 58.065
+    # 第 7 根：gain (2×2/3+2)/3 = 10/9，loss (2×13/27+0)/3 = 26/81，RSI = 100 × 90 / 116 = 77.586
+    assert r.iloc[:3].isna().all()
+    assert r.iloc[3:].tolist() == pytest.approx([75, 900 / 11, 1800 / 31, 9000 / 116])
+
+
+def test_rsi_equals_signed_efficiency():
+    rng = np.random.default_rng(14)
+    x = hourly(100 * np.exp(np.cumsum(rng.normal(0.001, 0.02, 500))))
+    change = x.diff()
+    smooth = lambda s: I.ema(s, 14, alpha=1 / 14)
+    # 上涨部分 = (|变化| + 变化) / 2，所以 RSI = 50 + 50 × 平滑的变化 ÷ 平滑的 |变化|
+    np.testing.assert_allclose(I.rsi(x), 50 + 50 * smooth(change) / smooth(change.abs()), rtol=1e-12)
+
+
+def test_oscillators_on_a_ramp_and_a_flat_line():
+    ramp, flat = hourly(np.arange(50.0)), hourly(np.full(50, 7.0))
+    assert I.rsi(ramp).dropna().to_numpy() == pytest.approx(100)
+    assert (I.rsi(flat).dropna() == 0).all() and I.rsi(flat).notna().sum() == 36
+    s = I.stochastic(ramp + 0.5, ramp - 0.5, ramp)
+    # 最近 14 根：最高价 t + 0.5，最低价 t - 13.5，宽度 14；收盘价 t 比最低价高 13.5
+    assert s["k"].dropna().to_numpy() == pytest.approx(100 * 13.5 / 14)
+
+
+def test_stochastic_by_hand():
+    close = hourly([5, 6, 7, 6, 8, 9, 7, 6])
+    s = I.stochastic(close + 1, close - 1, close, k=3, smooth_k=2, d=2)
+    # 原始 %K 从第 3 根开始：75、33.33、75、80、25、20
+    # k 列（两根平均）从第 4 根开始：54.17、54.17、77.5、52.5、22.5；d 列（再两根平均）从第 5 根开始
+    assert s.iloc[:4].isna().all().all()
+    assert s["k"].iloc[4:].tolist() == pytest.approx([325 / 6, 77.5, 52.5, 22.5])
+    assert s["d"].iloc[4:].tolist() == pytest.approx([325 / 6, 395 / 6, 65, 37.5])
+
+
+def test_oscillators_stay_between_0_and_100_and_never_use_the_future():
+    rng = np.random.default_rng(140)
+    close = hourly(100 * np.exp(np.cumsum(rng.normal(0, 0.02, 400))))
+    high, low = close * (1 + rng.uniform(0, 0.01, 400)), close * (1 - rng.uniform(0, 0.01, 400))
+    r, s = I.rsi(close), I.stochastic(high, low, close)
+    assert r.dropna().between(0, 100).all() and s.dropna().stack().between(0, 100).all()
+    for k in [30, 200, 399]:
+        pd.testing.assert_series_equal(I.rsi(close.iloc[:k]), r.iloc[:k])
+        pd.testing.assert_frame_equal(I.stochastic(high.iloc[:k], low.iloc[:k], close.iloc[:k]), s.iloc[:k])
+
+
+@pytest.mark.parametrize("n", [2, 14, 30])
+def test_rsi_matches_talib(n):
+    talib = pytest.importorskip("talib")
+    rng = np.random.default_rng(n)
+    x = hourly(50_000 * np.exp(np.cumsum(rng.normal(0, 0.03, 2000))))
+    x.iloc[:3] = np.nan                                                    # 开头的缺失值也要一致
+    theirs = talib.RSI(x.to_numpy(), n)
+    assert (I.rsi(x, n).isna().to_numpy() == np.isnan(theirs)).all()
+    np.testing.assert_allclose(I.rsi(x, n).to_numpy(), theirs, rtol=1e-12, atol=1e-8)
+
+
+@pytest.mark.parametrize("k,smooth_k,d", [(14, 3, 3), (5, 3, 3), (14, 1, 3), (9, 5, 2)])
+def test_stochastic_matches_talib(k, smooth_k, d):
+    talib = pytest.importorskip("talib")
+    rng = np.random.default_rng(k * 10 + d)
+    close = hourly(50_000 * np.exp(np.cumsum(rng.normal(0, 0.03, 2000))))
+    high, low = close * (1 + rng.uniform(0, 0.02, 2000)), close * (1 - rng.uniform(0, 0.02, 2000))
+    ours = I.stochastic(high, low, close, k, smooth_k, d)
+    for column, theirs in zip(["k", "d"], talib.STOCH(high.to_numpy(), low.to_numpy(), close.to_numpy(), k, smooth_k, 0, d, 0)):
+        assert (ours[column].isna().to_numpy() == np.isnan(theirs)).all()
+        np.testing.assert_allclose(ours[column].to_numpy(), theirs, rtol=1e-12, atol=1e-8)
+
+
+def test_atr_by_hand():
+    close = hourly([101, 105, 95, 100])
+    high, low = close + [1, 1, 3, 1], close - [2, 2, 1, 2]
+    # 真实波幅：第 2 根 max(3, |106 - 101|, |103 - 101|) = 5；第 3 根 max(4, 7, 11) = 11；第 4 根 max(3, 6, 3) = 6
+    # ATR(2)：第 3 根 (5 + 11) / 2 = 8；第 4 根 8 + (6 - 8) / 2 = 7
+    assert I.atr(high, low, close, 2).tolist()[2:] == [8, 7] and I.atr(high, low, close, 2).iloc[:2].isna().all()
+    assert I.natr(high, low, close, 2).iloc[3] == pytest.approx(100 * 7 / 100)
+
+
+def test_bollinger_by_hand():
+    b = I.bollinger(hourly([10, 11, 12, 11, 13, 14]), n=4, k=2)
+    # 第 4 根：10、11、12、11，平均 11，总体方差 (1 + 0 + 1 + 0) / 4 = 0.5，上下轨 11 ± 2√0.5
+    assert b.iloc[:3].isna().all().all()
+    assert b["upper"].iloc[3:].tolist() == pytest.approx([12.41421356, 13.40831239, 14.73606798])
+    assert b["lower"].iloc[3:].tolist() == pytest.approx([9.58578644, 10.09168761, 10.26393202])
+    assert b["percent_b"].iloc[3:].tolist() == pytest.approx([0.5, 0.87688918, 0.83541020])
+    assert b["bandwidth"].iloc[3:].tolist() == pytest.approx([0.25712974, 0.28226594, 0.35777088])
+
+
+def test_bias_equals_percent_b_times_bandwidth():
+    rng = np.random.default_rng(15)
+    close = hourly(100 * np.exp(np.cumsum(rng.normal(0, 0.02, 300))))
+    b = I.bollinger(close)
+    # %b - 0.5 = (收盘价 - 中轨) ÷ (4 倍标准差)，带宽 = 4 倍标准差 ÷ 中轨，两者相乘就是乖离率
+    np.testing.assert_allclose((b["percent_b"] - 0.5) * b["bandwidth"], I.bias(close, b["middle"]), rtol=1e-10, atol=1e-14)
+
+
+def test_bollinger_on_a_flat_line():
+    b = I.bollinger(hourly(np.full(30, 5.0)))
+    assert (b["upper"].dropna() == 5).all() and (b["bandwidth"].dropna() == 0).all() and b["percent_b"].isna().all()
+
+
+def test_volatility_indicators_never_use_the_future():
+    rng = np.random.default_rng(150)
+    close = hourly(100 * np.exp(np.cumsum(rng.normal(0, 0.02, 400))))
+    high, low = close * (1 + rng.uniform(0, 0.01, 400)), close * (1 - rng.uniform(0, 0.01, 400))
+    full_atr, full_band = I.atr(high, low, close), I.bollinger(close)
+    for k in [30, 200, 399]:
+        pd.testing.assert_series_equal(I.atr(high.iloc[:k], low.iloc[:k], close.iloc[:k]), full_atr.iloc[:k])
+        pd.testing.assert_frame_equal(I.bollinger(close.iloc[:k]), full_band.iloc[:k])
+
+
+@pytest.mark.parametrize("n", [2, 14, 50])
+def test_atr_and_natr_match_talib(n):
+    talib = pytest.importorskip("talib")
+    rng = np.random.default_rng(n + 15)
+    close = hourly(50_000 * np.exp(np.cumsum(rng.normal(0, 0.03, 2000))))
+    high, low = close * (1 + rng.uniform(0, 0.02, 2000)), close * (1 - rng.uniform(0, 0.02, 2000))
+    for ours, theirs in [(I.atr(high, low, close, n), talib.ATR(high.to_numpy(), low.to_numpy(), close.to_numpy(), n)),
+                         (I.natr(high, low, close, n), talib.NATR(high.to_numpy(), low.to_numpy(), close.to_numpy(), n))]:
+        assert (ours.isna().to_numpy() == np.isnan(theirs)).all()
+        np.testing.assert_allclose(ours.to_numpy(), theirs, rtol=1e-10, atol=1e-8)
+
+
+@pytest.mark.parametrize("n,k", [(20, 2.0), (10, 1.5), (50, 2.5)])
+def test_bollinger_matches_talib(n, k):
+    talib = pytest.importorskip("talib")
+    rng = np.random.default_rng(n)
+    close = hourly(50_000 * np.exp(np.cumsum(rng.normal(0, 0.03, 2000))))
+    ours = I.bollinger(close, n, k)
+    for column, theirs in zip(["upper", "middle", "lower"], talib.BBANDS(close.to_numpy(), n, k, k, 0)):
+        assert (ours[column].isna().to_numpy() == np.isnan(theirs)).all()
+        # TA-Lib 用累加的平方和算方差，价格从 5 万跌到几百时舍入误差会放大到 1e-10 左右，所以这里放宽到 1e-8
+        np.testing.assert_allclose(ours[column].to_numpy(), theirs, rtol=1e-8)
+
