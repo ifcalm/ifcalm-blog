@@ -299,6 +299,32 @@ def download_binance_brackets(dest: str = "data/binance") -> Path:
     return path
 
 
+BINANCE_API = "https://api.binance.com/api/v3/"
+BINANCE_API_AGENT = "talab-course/1.0"
+
+
+def download_binance_public(endpoint: str, name: str, dest: str = "data/binance") -> Path:
+    """下载 Binance 的一个**公开**接口（不需要账号、不需要密钥），原样保存 JSON。第 34 篇。
+
+    这一篇只用两个：
+
+    - `exchangeInfo`：每个交易对的下单规矩（tickSize、stepSize、minNotional……）
+    - `ticker/price`：现在的价格，用来把 stepSize 换算成钱
+
+    ⚠️ 和 `download_binance_brackets` 一样，拿到的是**今天**的规矩。交易所随时会改，
+    所以这个文件要和回测结果一起存档——不然过两个月你复现不出自己的数。
+    """
+    path = Path(dest) / f"{name}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(_fetch(BINANCE_API + endpoint, agent=BINANCE_API_AGENT))
+    return path
+
+
+def load_json(path) -> dict | list:
+    """把 `download_binance_public` 存下来的文件读回来。"""
+    return json.loads(Path(path).read_text())
+
+
 def download_finra_short_volume(days: list[str], dest: str = "data/finra") -> list[Path]:
     """下载 FINRA 每日卖空成交量文件（第 24 篇），days 是 "YYYY-MM-DD" 的列表。
 
