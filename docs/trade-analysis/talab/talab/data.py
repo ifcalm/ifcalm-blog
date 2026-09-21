@@ -218,6 +218,61 @@ def download_binance_book_ticker(symbol: str, days, market: str = "um",
     return paths
 
 
+BOOK_DEPTH_LEVELS = (-5.0, -4.0, -3.0, -2.0, -1.0, -0.2, 0.2, 1.0, 2.0, 3.0, 4.0, 5.0)
+
+
+def download_binance_book_depth(symbol: str, days, market: str = "um",
+                                dest: str = "data/binance") -> list[Path]:
+    """下载盘口深度快照（番外篇），**下载完立刻转成宽表、金额取整到美元，再把原始文件删掉**。
+
+    ⚠️ 先说清楚这份数据**不是**什么：它不是逐笔订单流，也不是完整的 L2 盘口。
+    Binance 公开的是**每 30 秒一张快照**，每张快照只有 12 个数——买卖两侧在
+    ±0.2%、1%、2%、3%、4%、5% 这六个距离上的**累计**挂单金额。
+
+    所以「大单墙在哪一档」「有没有撤单」「是不是冰山单」这类问题，**用这份数据一个都答不了**，
+    要答只能自己开 WebSocket 录，而且录的是未来。这一篇只回答它能回答的那个问题：
+    **崩盘的时候，盘口上的钱还在不在。**
+
+    ⚠️ 覆盖范围是 **2023-01-01 起**，之前没有公开数据。
+    """
+    folder = Path(dest) / market / symbol / "bookDepth-30s"
+    folder.mkdir(parents=True, exist_ok=True)
+    paths = []
+    for day in days:
+        target = folder / f"{symbol}-bookDepth-30s-{day}.csv.gz"
+        if not target.exists():
+            name = f"{symbol}-bookDepth-{day}.zip"
+            url = f"{BINANCE_BASE}/futures/{market}/daily/bookDepth/{quote(symbol)}/{quote(name)}"
+            try:
+                raw = _fetch(url)
+            except urllib.error.HTTPError as e:
+                if e.code == 404:                   # 这一天没有公开数据
+                    continue
+                raise
+            with zipfile.ZipFile(io.BytesIO(raw)) as z:
+                frame = pd.read_csv(z.open(z.namelist()[0]))
+            wide = frame.pivot_table(index="timestamp", columns="percentage",
+                                     values="notional", aggfunc="last")
+            wide = wide.reindex(columns=list(BOOK_DEPTH_LEVELS)).round(0)
+            wide.columns = [f"{level:+g}%" for level in wide.columns]
+            wide.index.name = "time"
+            wide.to_csv(target)
+        paths.append(target)
+    return paths
+
+
+def load_binance_book_depth(paths) -> pd.DataFrame:
+    """读回 `download_binance_book_depth` 转好的宽表。
+
+    每行一张快照（30 秒一张），列是 `-5%`…`+5%` 十二档的**累计挂单金额（美元）**。
+    ⚠️ 负号那一侧是**买盘**（价格比中间价低），正号是卖盘。
+    """
+    frames = [pd.read_csv(path, parse_dates=["time"]) for path in sorted(map(str, paths))]
+    out = pd.concat(frames, ignore_index=True).set_index("time").sort_index()
+    out.index = out.index.tz_localize("UTC") if out.index.tz is None else out.index.tz_convert("UTC")
+    return out
+
+
 def load_binance_book_ticker(paths) -> pd.DataFrame:
     """读回 `download_binance_book_ticker` 聚合好的 1 分钟盘口。价差的单位是**基点**（万分之一）。"""
     frames = [pd.read_csv(path, parse_dates=["time"]) for path in sorted(map(str, paths))]
