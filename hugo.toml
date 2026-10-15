@@ -169,6 +169,13 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
     weight = 14
 
   [[menu.main]]
+    identifier = "economics"
+    name = "经济学原理"
+    url = "/posts/economics/"
+    parent = "posts"
+    weight = 15
+
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
