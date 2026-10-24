@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="400" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">"分还是偷"：偷，在任何情形下都不比分差</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">奖池 13,600 英镑（节目里一个真实出现过的数字）。格子里是（你得到，对方得到），单位：英镑。橙色框：纯策略均衡</text>
+  <text x="325" y="106" font-size="13" fill="#52606d" text-anchor="middle" font-weight="600">对方：分</text><text x="485" y="106" font-size="13" fill="#52606d" text-anchor="middle" font-weight="600">对方：偷</text>
+  <text x="178" y="167" font-size="13" fill="#52606d" text-anchor="end" font-weight="600">你：分</text><text x="178" y="247" font-size="13" fill="#52606d" text-anchor="end" font-weight="600">你：偷</text>
+  <rect x="190" y="120" width="150" height="70" fill="#fafbfc" stroke="#cbd2d9" stroke-width="1"/><text x="265" y="161" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="600">6800，6800</text>
+  <rect x="350" y="120" width="150" height="70" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/><text x="425" y="161" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="600">0，13600</text>
+  <rect x="190" y="200" width="150" height="70" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/><text x="265" y="241" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="600">13600，0</text>
+  <rect x="350" y="200" width="150" height="70" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/><text x="425" y="241" font-size="16" fill="#1f2933" text-anchor="middle" font-weight="600">0，0</text>
+  <text x="24" y="318" font-size="13" fill="#1f2933">对方分时，你偷得 13600，比分的 6800 多；对方偷时，你分或偷都是 0。所以"偷"从不吃亏，叫弱占优。</text>
+  <text x="24" y="340" font-size="13" fill="#1f2933">一共三个纯策略均衡：（偷，偷）、（分，偷）、（偷，分）。（分，分）不是均衡：任何一个人单独改成偷，就能多拿 6800。</text>
+  <text x="24" y="366" font-size="12" fill="#7b8794">这和囚徒困境不同：囚徒困境里背叛是严格占优；这里对方偷时，你偷和分一样。</text>
+</svg>

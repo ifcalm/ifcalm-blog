@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">广告位拍卖：说真话不一定最划算</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">第一位每小时 0.2 次点击，第二位 0.15 次；每次点击值：你 10、小周 6、小林 2。纵轴：你每小时的净所得</text>
+  <text x="200.0" y="80" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">小周出价 6（你照实报 10）</text>
+  <text x="200.0" y="98" font-size="11" fill="#7b8794" text-anchor="middle">你出价高于 6 → 第一位；出价在 2 到 6 之间 → 第二位</text>
+  <line x1="50" y1="290" x2="350" y2="290" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="50" y1="245.0" x2="350" y2="245.0" stroke="#e4e7eb"/><text x="45" y="249.0" font-size="11" fill="#7b8794" text-anchor="end">0.4</text>
+  <line x1="50" y1="200.0" x2="350" y2="200.0" stroke="#e4e7eb"/><text x="45" y="204.0" font-size="11" fill="#7b8794" text-anchor="end">0.8</text>
+  <line x1="50" y1="155.0" x2="350" y2="155.0" stroke="#e4e7eb"/><text x="45" y="159.0" font-size="11" fill="#7b8794" text-anchor="end">1.2</text>
+  <line x1="50" y1="110.0" x2="350" y2="110.0" stroke="#e4e7eb"/><text x="45" y="114.0" font-size="11" fill="#7b8794" text-anchor="end">1.6</text>
+  <rect x="80" y="200.0" width="80" height="90.0" rx="3" fill="#4c78c9"/><text x="120" y="193.0" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">0.8</text>
+  <text x="120" y="308" font-size="12" fill="#52606d" text-anchor="middle">第一位</text>
+  <text x="120" y="323" font-size="12" fill="#52606d" text-anchor="middle">（每次点击付 6）</text>
+  <rect x="210" y="155.0" width="80" height="135.0" rx="3" fill="#d9480f"/><text x="250" y="148.0" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">1.2</text>
+  <text x="250" y="308" font-size="12" fill="#52606d" text-anchor="middle">第二位</text>
+  <text x="250" y="323" font-size="12" fill="#52606d" text-anchor="middle">（每次点击付 2）</text>
+  <text x="570.0" y="80" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">小周出价 3</text>
+  <text x="570.0" y="98" font-size="11" fill="#7b8794" text-anchor="middle">你出价高于 3 → 第一位；出价在 2 到 3 之间 → 第二位</text>
+  <line x1="420" y1="290" x2="720" y2="290" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="420" y1="245.0" x2="720" y2="245.0" stroke="#e4e7eb"/><text x="415" y="249.0" font-size="11" fill="#7b8794" text-anchor="end">0.4</text>
+  <line x1="420" y1="200.0" x2="720" y2="200.0" stroke="#e4e7eb"/><text x="415" y="204.0" font-size="11" fill="#7b8794" text-anchor="end">0.8</text>
+  <line x1="420" y1="155.0" x2="720" y2="155.0" stroke="#e4e7eb"/><text x="415" y="159.0" font-size="11" fill="#7b8794" text-anchor="end">1.2</text>
+  <line x1="420" y1="110.0" x2="720" y2="110.0" stroke="#e4e7eb"/><text x="415" y="114.0" font-size="11" fill="#7b8794" text-anchor="end">1.6</text>
+  <rect x="450" y="132.5" width="80" height="157.5" rx="3" fill="#4c78c9"/><text x="490" y="125.5" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">1.4</text>
+  <text x="490" y="308" font-size="12" fill="#52606d" text-anchor="middle">第一位</text>
+  <text x="490" y="323" font-size="12" fill="#52606d" text-anchor="middle">（每次点击付 3）</text>
+  <rect x="580" y="155.0" width="80" height="135.0" rx="3" fill="#d9480f"/><text x="620" y="148.0" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">1.2</text>
+  <text x="620" y="308" font-size="12" fill="#52606d" text-anchor="middle">第二位</text>
+  <text x="620" y="323" font-size="12" fill="#52606d" text-anchor="middle">（每次点击付 2）</text>
+  <text x="24" y="410" font-size="12" fill="#7b8794">左：你宁可压低出价去第二位（1.2 比 0.8），所以"照实报价"不是均衡。右：小周出价 3 时，你留在第一位更好（1.4 比 1.2）。</text>
+  <text x="24" y="430" font-size="12" fill="#7b8794">出价 (6, 3, 2) 是一个均衡：三个人都不想单独换；付款恰好和 VCG 一样：你 0.6，小周 0.3。</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="330" rx="10" fill="#ffffff"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#52606d"/></marker></defs>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">触发策略：一旦信任破裂，就再也回不去</text>
+  <rect x="80" y="110" width="220" height="100" rx="12" fill="#e8f5ec" stroke="#2f9e44" stroke-width="2"/>
+  <text x="190" y="150" font-size="16" font-weight="600" fill="#1f2933" text-anchor="middle">合作状态</text>
+  <text x="190" y="176" font-size="13" fill="#52606d" text-anchor="middle">我合作，每轮得 3</text>
+  <rect x="460" y="110" width="220" height="100" rx="12" fill="#fdebe5" stroke="#d9480f" stroke-width="2"/>
+  <text x="570" y="150" font-size="16" font-weight="600" fill="#1f2933" text-anchor="middle">惩罚状态</text>
+  <text x="570" y="176" font-size="13" fill="#52606d" text-anchor="middle">我背叛，每轮得 1</text>
+  <path d="M 130 108 C 130 50, 250 50, 250 108" fill="none" stroke="#52606d" stroke-width="2" marker-end="url(#a)"/>
+  <text x="190" y="62" font-size="12" fill="#52606d" text-anchor="middle">双方都合作 → 留在这里</text>
+  <line x1="302" y1="160" x2="458" y2="160" stroke="#52606d" stroke-width="2" marker-end="url(#a)"/>
+  <text x="380" y="148" font-size="12" fill="#52606d" text-anchor="middle">有人背叛过</text>
+  <path d="M 520 212 C 520 270, 620 270, 620 212" fill="none" stroke="#52606d" stroke-width="2" marker-end="url(#a)"/>
+  <text x="570" y="262" font-size="12" fill="#52606d" text-anchor="middle">永远留在这里</text>
+  <text x="24" y="308" font-size="13" fill="#1f2933">惩罚可信：对方永远背叛时，我也背叛是最好的回应（单次博弈的均衡），没有人愿意"心软"。</text>
+</svg>

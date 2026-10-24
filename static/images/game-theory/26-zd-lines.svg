@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="500" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">零行列式策略：不管对方怎么做，两人的平均收益都落在一条直线上</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">横轴：用零行列式策略的你；纵轴：对方。灰色是所有可行的平均收益</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="110.0" y1="432.0" x2="110.0" y2="69.0"/>
+    <line x1="110.0" y1="432.0" x2="473.0" y2="432.0"/>
+    <line x1="176.0" y1="432.0" x2="176.0" y2="69.0"/>
+    <line x1="110.0" y1="366.0" x2="473.0" y2="366.0"/>
+    <line x1="242.0" y1="432.0" x2="242.0" y2="69.0"/>
+    <line x1="110.0" y1="300.0" x2="473.0" y2="300.0"/>
+    <line x1="308.0" y1="432.0" x2="308.0" y2="69.0"/>
+    <line x1="110.0" y1="234.0" x2="473.0" y2="234.0"/>
+    <line x1="374.0" y1="432.0" x2="374.0" y2="69.0"/>
+    <line x1="110.0" y1="168.0" x2="473.0" y2="168.0"/>
+    <line x1="440.0" y1="432.0" x2="440.0" y2="69.0"/>
+    <line x1="110.0" y1="102.0" x2="473.0" y2="102.0"/>
+  </g>
+  <line x1="110" y1="432" x2="473.0" y2="432" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="110" y1="432" x2="110" y2="69.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="110.0" y="450.0">0</text>
+    <text x="176.0" y="450.0">1</text>
+    <text x="242.0" y="450.0">2</text>
+    <text x="308.0" y="450.0">3</text>
+    <text x="374.0" y="450.0">4</text>
+    <text x="440.0" y="450.0">5</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="102.0" y="436.0">0</text>
+    <text x="102.0" y="370.0">1</text>
+    <text x="102.0" y="304.0">2</text>
+    <text x="102.0" y="238.0">3</text>
+    <text x="102.0" y="172.0">4</text>
+    <text x="102.0" y="106.0">5</text>
+  </g>
+  <polygon points="176.0,366.0 110.0,102.0 308.0,234.0 440.0,432.0" fill="#eef1f5" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="176.0" y1="366.0" x2="356.0" y2="306.0" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="176.0" cy="366.0" r="5" fill="#1f2933"/>
+  <circle cx="356.0" cy="306.0" r="6" fill="#d9480f"/>
+  <text x="366.0" y="298.0" font-size="13" fill="#d9480f" font-weight="600">勒索型：对方永远合作时 (3.73, 1.91)</text>
+  <text x="195.8" y="395.7" font-size="12" fill="#d9480f">勒索型：你多赚的 = 对方多赚的 3 倍（高出 1 的部分）</text>
+  <line x1="308.0" y1="234.0" x2="161.3" y2="307.3" stroke="#2f9e44" stroke-width="3"/>
+  <circle cx="308.0" cy="234.0" r="6" fill="#2f9e44"/>
+  <circle cx="161.3" cy="307.3" r="6" fill="#2f9e44"/>
+  <text x="318.0" y="226.0" font-size="13" fill="#2f9e44" font-weight="600">(3, 3)：对方合作时</text>
+  <text x="116.6" y="257.1" font-size="12" fill="#2f9e44">宽厚型：你比 3 少的 = 对方比 3 少的 2 倍</text>
+  <text x="157.3" y="329.3" font-size="12" fill="#2f9e44" text-anchor="start">对方永远背叛时 (0.78, 1.89)</text>
+  <text x="24" y="486" font-size="12" fill="#7b8794">两条线都用"对方永远合作""永远背叛""以牙还牙"和随机策略逐一核对过。</text>
+</svg>

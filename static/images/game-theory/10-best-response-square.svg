@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">两条最佳反应曲线，在单位正方形里总会相交</text>
+  <rect x="40" y="110" width="200" height="200" fill="#fafbfc" stroke="#cbd2d9" stroke-width="1.5"/>
+  <text x="140.0" y="80" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">协调博弈</text>
+  <text x="140.0" y="98" font-size="12" fill="#52606d" text-anchor="middle">3 个交点：2 个纯 + 1 个混合</text>
+  <polyline points="40.0,310.0 40.0,210.0 240.0,210.0 240.0,110.0" fill="none" stroke="#4c78c9" stroke-width="4"/>
+  <polyline points="40.0,310.0 140.0,310.0 140.0,110.0 240.0,110.0" fill="none" stroke="#d9480f" stroke-width="4" stroke-dasharray="1 0"/>
+  <circle cx="40.0" cy="310.0" r="8" fill="#2b8a3e" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="140.0" cy="210.0" r="8" fill="#2b8a3e" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="240.0" cy="110.0" r="8" fill="#2b8a3e" stroke="#ffffff" stroke-width="2"/>
+  <text x="140.0" y="332" font-size="12" fill="#52606d" text-anchor="middle">横轴：你选东口的概率 p</text>
+  <text x="140.0" y="350" font-size="12" fill="#52606d" text-anchor="middle">纵轴：小周选东口的概率 q</text>
+  <rect x="290" y="110" width="200" height="200" fill="#fafbfc" stroke="#cbd2d9" stroke-width="1.5"/>
+  <text x="390.0" y="80" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">猜硬币</text>
+  <text x="390.0" y="98" font-size="12" fill="#52606d" text-anchor="middle">1 个交点：混合</text>
+  <polyline points="290.0,310.0 290.0,210.0 490.0,210.0 490.0,110.0" fill="none" stroke="#4c78c9" stroke-width="4"/>
+  <polyline points="290.0,110.0 390.0,110.0 390.0,310.0 490.0,310.0" fill="none" stroke="#d9480f" stroke-width="4" stroke-dasharray="1 0"/>
+  <circle cx="390.0" cy="210.0" r="8" fill="#2b8a3e" stroke="#ffffff" stroke-width="2"/>
+  <text x="390.0" y="332" font-size="12" fill="#52606d" text-anchor="middle">横轴：你出正的概率 p</text>
+  <text x="390.0" y="350" font-size="12" fill="#52606d" text-anchor="middle">纵轴：小周出正的概率 q</text>
+  <rect x="540" y="110" width="200" height="200" fill="#fafbfc" stroke="#cbd2d9" stroke-width="1.5"/>
+  <text x="640.0" y="80" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">囚徒困境</text>
+  <text x="640.0" y="98" font-size="12" fill="#52606d" text-anchor="middle">1 个交点：纯（都背叛）</text>
+  <polyline points="540.0,310.0 540.0,110.0" fill="none" stroke="#4c78c9" stroke-width="4"/>
+  <polyline points="540.0,310.0 740.0,310.0" fill="none" stroke="#d9480f" stroke-width="4" stroke-dasharray="1 0"/>
+  <circle cx="540.0" cy="310.0" r="8" fill="#2b8a3e" stroke="#ffffff" stroke-width="2"/>
+  <text x="640.0" y="332" font-size="12" fill="#52606d" text-anchor="middle">横轴：你合作的概率 p</text>
+  <text x="640.0" y="350" font-size="12" fill="#52606d" text-anchor="middle">纵轴：小周合作的概率 q</text>
+  <g font-size="13">
+    <line x1="60" y1="392" x2="90" y2="392" stroke="#4c78c9" stroke-width="4"/><text x="98" y="396" fill="#4c78c9" font-weight="600">你的最佳反应</text>
+    <line x1="250" y1="392" x2="280" y2="392" stroke="#d9480f" stroke-width="4"/><text x="288" y="396" fill="#d9480f" font-weight="600">小周的最佳反应</text>
+    <circle cx="470" cy="392" r="7" fill="#2b8a3e"/><text x="484" y="396" fill="#2b8a3e" font-weight="600">交点 = 纳什均衡</text>
+  </g>
+</svg>

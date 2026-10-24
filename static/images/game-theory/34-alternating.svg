@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="430" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">轮流出价：谈的轮数不同，先出价的人分到的差得很远</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">每多谈一轮，蛋糕缩小到原来的 0.9。纵轴：先出价的人（你）分到多少（总共 100）</text>
+  <line x1="100" y1="340" x2="680" y2="340" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g stroke="#e4e7eb">
+    <line x1="100" y1="282.5" x2="680" y2="282.5"/>
+    <line x1="100" y1="225.0" x2="680" y2="225.0"/>
+    <line x1="100" y1="167.5" x2="680" y2="167.5"/>
+    <line x1="100" y1="110.0" x2="680" y2="110.0"/>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="92" y="344.0">0</text>
+    <text x="92" y="286.5">25</text>
+    <text x="92" y="229.0">50</text>
+    <text x="92" y="171.5">75</text>
+    <text x="92" y="114.0">100</text>
+  </g>
+  <line x1="100" y1="218.9" x2="680" y2="218.9" stroke="#2f9e44" stroke-width="2" stroke-dasharray="6 5"/>
+  <text paint-order="stroke" stroke="#ffffff" stroke-width="5" x="680" y="210.9" font-size="12" fill="#2f9e44" text-anchor="end">谈无限多轮：52.6</text>
+  <rect x="124" y="110.0" width="32" height="230.0" rx="3" fill="#d9480f"/>
+  <text x="140" y="104.0" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">100</text>
+  <text x="140" y="356" font-size="11" fill="#52606d" text-anchor="middle">1</text>
+  <rect x="171" y="317.0" width="32" height="23.0" rx="3" fill="#4c78c9"/>
+  <text x="187" y="311.0" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">10</text>
+  <text x="187" y="356" font-size="11" fill="#52606d" text-anchor="middle">2</text>
+  <rect x="218" y="130.7" width="32" height="209.3" rx="3" fill="#d9480f"/>
+  <text x="234" y="124.7" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">91</text>
+  <text x="234" y="356" font-size="11" fill="#52606d" text-anchor="middle">3</text>
+  <rect x="265" y="298.4" width="32" height="41.6" rx="3" fill="#4c78c9"/>
+  <text x="281" y="292.4" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">18</text>
+  <text x="281" y="356" font-size="11" fill="#52606d" text-anchor="middle">4</text>
+  <rect x="312" y="147.5" width="32" height="192.5" rx="3" fill="#d9480f"/>
+  <text x="328" y="141.5" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">84</text>
+  <text x="328" y="356" font-size="11" fill="#52606d" text-anchor="middle">5</text>
+  <rect x="359" y="283.3" width="32" height="56.7" rx="3" fill="#4c78c9"/>
+  <text x="375" y="277.3" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">25</text>
+  <text x="375" y="356" font-size="11" fill="#52606d" text-anchor="middle">6</text>
+  <rect x="406" y="161.0" width="32" height="179.0" rx="3" fill="#d9480f"/>
+  <text x="422" y="155.0" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">78</text>
+  <text x="422" y="356" font-size="11" fill="#52606d" text-anchor="middle">7</text>
+  <rect x="453" y="271.1" width="32" height="68.9" rx="3" fill="#4c78c9"/>
+  <text x="469" y="265.1" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">30</text>
+  <text x="469" y="356" font-size="11" fill="#52606d" text-anchor="middle">8</text>
+  <rect x="500" y="172.0" width="32" height="168.0" rx="3" fill="#d9480f"/>
+  <text x="516" y="166.0" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">73</text>
+  <text x="516" y="356" font-size="11" fill="#52606d" text-anchor="middle">9</text>
+  <rect x="547" y="261.2" width="32" height="78.8" rx="3" fill="#4c78c9"/>
+  <text x="563" y="255.2" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">34</text>
+  <text x="563" y="356" font-size="11" fill="#52606d" text-anchor="middle">10</text>
+  <rect x="594" y="181.0" width="32" height="159.0" rx="3" fill="#d9480f"/>
+  <text x="610" y="175.0" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">69</text>
+  <text x="610" y="356" font-size="11" fill="#52606d" text-anchor="middle">11</text>
+  <rect x="641" y="253.1" width="32" height="86.9" rx="3" fill="#4c78c9"/>
+  <text x="657" y="247.1" font-size="11" font-weight="600" fill="#1f2933" text-anchor="middle">38</text>
+  <text x="657" y="356" font-size="11" fill="#52606d" text-anchor="middle">12</text>
+  <text x="390.0" y="376" font-size="12" fill="#52606d" text-anchor="middle">最多谈几轮</text>
+  <text x="24" y="406" font-size="12" fill="#7b8794">奇数轮：最后一个出价的人是你，占便宜；偶数轮：最后出价的是小周，你吃亏。轮数越多，越接近 52.6。</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="500" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">古诺：两条"最佳反应线"的交点，就是均衡</text>
+  <g transform="translate(0,30)">
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="240.0" y1="400.0" x2="240.0" y2="48.0"/>
+    <line x1="110.0" y1="312.0" x2="630.0" y2="312.0"/>
+    <line x1="370.0" y1="400.0" x2="370.0" y2="48.0"/>
+    <line x1="110.0" y1="224.0" x2="630.0" y2="224.0"/>
+    <line x1="500.0" y1="400.0" x2="500.0" y2="48.0"/>
+    <line x1="110.0" y1="136.0" x2="630.0" y2="136.0"/>
+    <line x1="630.0" y1="400.0" x2="630.0" y2="48.0"/>
+    <line x1="110.0" y1="48.0" x2="630.0" y2="48.0"/>
+  </g>
+  <line x1="110.0" y1="400.0" x2="630.0" y2="400.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="110.0" y1="400.0" x2="110.0" y2="48.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="110.0" y="418.0">0</text>
+    <text x="240.0" y="418.0">20</text>
+    <text x="370.0" y="418.0">40</text>
+    <text x="500.0" y="418.0">60</text>
+    <text x="630.0" y="418.0">80</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="102.0" y="404.0">0</text>
+    <text x="102.0" y="316.0">20</text>
+    <text x="102.0" y="228.0">40</text>
+    <text x="102.0" y="140.0">60</text>
+    <text x="102.0" y="52.0">80</text>
+  </g>
+  <text x="370.0" y="444.0" font-size="13" fill="#1f2933" text-anchor="middle">你的产量 q1</text>
+  <text x="24" y="40.0" font-size="12" fill="#7b8794">小周的产量 q2</text>
+  <!-- your best response: q1 = 40 - q2/2 -> points (q1,q2): (40,0) to (0,80) -->
+  <line x1="370.0" y1="400.0" x2="110.0" y2="48.0" stroke="#4c78c9" stroke-width="3"/>
+  <!-- zhou best response: q2 = 40 - q1/2 -> (0,40) to (80,0) -->
+  <line x1="110.0" y1="224.0" x2="630.0" y2="400.0" stroke="#d9480f" stroke-width="3"/>
+  <!-- staircase -->
+  <polyline fill="none" stroke="#7b8794" stroke-width="2" stroke-dasharray="5 4" points="110.0,400.0 370.0,400.0 370.0,312.0 305.0,312.0 305.0,290.0 288.75,290.0 288.75,284.5 284.6875,284.5"/>
+  <circle cx="283.33333333333337" cy="282.66666666666663" r="8" fill="#2b8a3e"/>
+  <text x="297.33333333333337" y="270.66666666666663" font-size="13" fill="#2b8a3e" font-weight="600">均衡 (26.7, 26.7)，各赚 711</text>
+  <circle cx="240.0" cy="312.0" r="7" fill="#f08c00"/>
+  <text x="228.0" y="338.0" font-size="13" fill="#c2780a" text-anchor="end" font-weight="600">合谋 (20, 20)，各赚 800</text>
+  <text x="136.0" y="92.0" font-size="13" fill="#4c78c9" font-weight="600">你的最佳反应：q1 = 40 − q2/2</text>
+  <text x="422.0" y="347.2" font-size="13" fill="#d9480f" font-weight="600">小周的最佳反应：q2 = 40 − q1/2</text>
+  <text x="376.5" y="386.8" font-size="12" fill="#7b8794">灰色虚线：轮流调整的路径</text>
+  </g>
+</svg>

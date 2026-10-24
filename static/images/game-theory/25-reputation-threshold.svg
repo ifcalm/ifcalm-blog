@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">剩下的市场越多，"强硬"的一点点可能性就越管用</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">纵轴：进入者认为"在位者强硬"的概率，高于这条线，进入者就不敢进入</text>
+  <line x1="100" y1="360" x2="700" y2="360" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="100" y1="291.4" x2="700" y2="291.4"/>
+    <line x1="100" y1="222.9" x2="700" y2="222.9"/>
+    <line x1="100" y1="154.3" x2="700" y2="154.3"/>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="92" y="364.0">0</text>
+    <text x="92" y="295.4">0.2</text>
+    <text x="92" y="226.9">0.4</text>
+    <text x="92" y="158.3">0.6</text>
+  </g>
+  <rect x="112" y="131.4" width="40" height="228.6" rx="3" fill="#4c78c9"/>
+  <text x="132" y="124.4" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.667</text>
+  <text x="132" y="378" font-size="12" fill="#52606d" text-anchor="middle">1</text>
+  <rect x="170" y="207.6" width="40" height="152.4" rx="3" fill="#4c78c9"/>
+  <text x="190" y="200.6" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.444</text>
+  <text x="190" y="378" font-size="12" fill="#52606d" text-anchor="middle">2</text>
+  <rect x="228" y="258.4" width="40" height="101.6" rx="3" fill="#a9c1ea"/>
+  <text x="248" y="251.4" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.296</text>
+  <text x="248" y="378" font-size="12" fill="#52606d" text-anchor="middle">3</text>
+  <rect x="286" y="292.3" width="40" height="67.7" rx="3" fill="#a9c1ea"/>
+  <text x="306" y="285.3" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.198</text>
+  <text x="306" y="378" font-size="12" fill="#52606d" text-anchor="middle">4</text>
+  <rect x="344" y="314.9" width="40" height="45.1" rx="3" fill="#a9c1ea"/>
+  <text x="364" y="307.9" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.132</text>
+  <text x="364" y="378" font-size="12" fill="#52606d" text-anchor="middle">5</text>
+  <rect x="402" y="329.9" width="40" height="30.1" rx="3" fill="#a9c1ea"/>
+  <text x="422" y="322.9" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.088</text>
+  <text x="422" y="378" font-size="12" fill="#52606d" text-anchor="middle">6</text>
+  <rect x="460" y="339.9" width="40" height="20.1" rx="3" fill="#a9c1ea"/>
+  <text x="480" y="332.9" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.059</text>
+  <text x="480" y="378" font-size="12" fill="#52606d" text-anchor="middle">7</text>
+  <rect x="518" y="346.6" width="40" height="13.4" rx="3" fill="#a9c1ea"/>
+  <text x="538" y="339.6" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.039</text>
+  <text x="538" y="378" font-size="12" fill="#52606d" text-anchor="middle">8</text>
+  <rect x="576" y="351.1" width="40" height="8.9" rx="3" fill="#a9c1ea"/>
+  <text x="596" y="344.1" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.026</text>
+  <text x="596" y="378" font-size="12" fill="#52606d" text-anchor="middle">9</text>
+  <rect x="634" y="354.1" width="40" height="5.9" rx="3" fill="#a9c1ea"/>
+  <text x="654" y="347.1" font-size="12" font-weight="600" fill="#1f2933" text-anchor="middle">0.017</text>
+  <text x="654" y="378" font-size="12" fill="#52606d" text-anchor="middle">10</text>
+  <text x="400.0" y="398" font-size="12" fill="#52606d" text-anchor="middle">还剩几个市场（含当前这个）</text>
+  <text x="24" y="418" font-size="12" fill="#7b8794">深色两根（1 个和 2 个市场）是本讲逐步算出来的；浅色是按同样的推理类推，示意用。</text>
+  <text x="24" y="436" font-size="12" fill="#7b8794">门槛 = (2/3)^剩余市场数：进入者进入后，在位者开战的概率只要超过 2/3，进入就亏。</text>
+</svg>

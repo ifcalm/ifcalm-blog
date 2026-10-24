@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">谁能挡住闯入者？只有"先到先得"</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">每组左柱：种群里多数的收益；右柱：一个少数闯入者的收益（高过左柱，说明站不住）</text>
+  <line x1="100" y1="282.5" x2="700" y2="282.5" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="120" y="219.2" width="56" height="63.3" rx="3" fill="#4c78c9"/>
+  <text x="148" y="211.2" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">2</text>
+  <text x="148" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">多数</text>
+  <rect x="190" y="155.8" width="56" height="126.7" rx="3" fill="#d9480f"/>
+  <text x="218" y="147.8" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">4</text>
+  <text x="218" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">闯入者</text>
+  <text x="183" y="364.0" font-size="12" fill="#52606d" text-anchor="middle">全是鸽的种群</text>
+  <text x="183" y="146.0" font-size="13" font-weight="600" fill="#d9480f" text-anchor="middle">站不住</text>
+  <rect x="320" y="282.5" width="56" height="31.7" rx="3" fill="#4c78c9"/>
+  <text x="348" y="330.2" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">-1</text>
+  <text x="348" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">多数</text>
+  <rect x="390" y="282.5" width="56" height="0.0" rx="3" fill="#d9480f"/>
+  <text x="418" y="274.5" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">0</text>
+  <text x="418" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">闯入者</text>
+  <text x="383" y="364.0" font-size="12" fill="#52606d" text-anchor="middle">全是鹰的种群</text>
+  <text x="383" y="146.0" font-size="13" font-weight="600" fill="#d9480f" text-anchor="middle">站不住</text>
+  <rect x="520" y="219.2" width="56" height="63.3" rx="3" fill="#4c78c9"/>
+  <text x="548" y="211.2" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">2</text>
+  <text x="548" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">多数</text>
+  <rect x="590" y="235.0" width="56" height="47.5" rx="3" fill="#2f9e44"/>
+  <text x="618" y="227.0" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">1.5</text>
+  <text x="618" y="344.0" font-size="11" fill="#7b8794" text-anchor="middle">闯入者</text>
+  <text x="583" y="364.0" font-size="12" fill="#52606d" text-anchor="middle">全是"先到先得"的种群</text>
+  <text x="583" y="146.0" font-size="13" font-weight="600" fill="#2f9e44" text-anchor="middle">站得住</text>
+  <text x="24" y="410" font-size="12" fill="#7b8794">这里 V = 4、C = 6。闯入者的收益，是它在几乎全是多数的种群里遇到的平均收益。</text>
+  <text x="24" y="430" font-size="12" fill="#7b8794">"先到先得"：先到的当鹰，后到的当鸽。种群里每个人有一半机会先到。</text>
+</svg>

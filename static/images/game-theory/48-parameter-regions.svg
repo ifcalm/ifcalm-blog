@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="300" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">结论对数字很敏感：改一个参数，博弈就换了类型</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">修路总成本 10。横轴：路修好后每人得到的好处 b</text>
+  <text x="24" y="92" font-size="13" fill="#1f2933" font-weight="600">分摊修路（两人都修就各付一半）</text>
+  <rect x="70.0" y="102" width="193.75" height="36" fill="#9aa5b1"/><text x="166.875" y="125" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">没有困境</text>
+  <rect x="263.75" y="102" width="193.75" height="36" fill="#d9480f"/><text x="360.625" y="125" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">囚徒困境</text>
+  <rect x="457.5" y="102" width="232.5" height="36" fill="#4c6ef5"/><text x="573.75" y="125" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">扫雪</text>
+  <text x="24" y="182" font-size="13" fill="#1f2933" font-weight="600">必须两人合力（一个人修不成）</text>
+  <rect x="70.0" y="192" width="387.5" height="36" fill="#9aa5b1"/><text x="263.75" y="215" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">谁也不修（修了反而亏）</text>
+  <rect x="457.5" y="192" width="232.5" height="36" fill="#2b8a3e"/><text x="573.75" y="215" font-size="12" fill="#fff" text-anchor="middle" font-weight="600">猎鹿</text>
+  <text x="70.0" y="252" font-size="12" fill="#52606d" text-anchor="middle">0</text><line x1="70.0" y1="140" x2="70.0" y2="232" stroke="#ffffff" stroke-opacity="0" />
+  <text x="263.75" y="252" font-size="12" fill="#52606d" text-anchor="middle">5</text><line x1="263.75" y1="140" x2="263.75" y2="232" stroke="#ffffff" stroke-opacity="0" />
+  <text x="457.5" y="252" font-size="12" fill="#52606d" text-anchor="middle">10</text><line x1="457.5" y1="140" x2="457.5" y2="232" stroke="#ffffff" stroke-opacity="0" />
+  <text x="651.25" y="252" font-size="12" fill="#52606d" text-anchor="middle">15</text><line x1="651.25" y1="140" x2="651.25" y2="232" stroke="#ffffff" stroke-opacity="0" />
+  <text x="380.0" y="274" font-size="12" fill="#52606d" text-anchor="middle">b：路修好后每人的好处</text>
+</svg>

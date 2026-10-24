@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="470" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">"你切我选"：同一块蛋糕，切法不同，结果差得很远</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">蛋糕左边是巧克力、右边是香草。你觉得巧克力值 8、香草值 2；小周觉得巧克力值 3、香草值 7。竖线是切口</text>
+  <text x="60" y="100" font-size="13" font-weight="600" fill="#1f2933">切法一：你只在巧克力里切一刀（切口在巧克力的 5/8 处）</text>
+  <rect x="60" y="110" width="320.0" height="40" fill="#8d6e63"/><rect x="380.0" y="110" width="320.0" height="40" fill="#f3e3b3"/>
+  <text x="220.0" y="136" font-size="12" fill="#ffffff" text-anchor="middle">巧克力</text><text x="540.0" y="136" font-size="12" fill="#7b6a3a" text-anchor="middle">香草</text>
+  <line x1="260.0" y1="104" x2="260.0" y2="156" stroke="#d9480f" stroke-width="3"/>
+  <text x="60" y="176" font-size="12" fill="#52606d">两块你都觉得值 5。小周觉得左块 1.9、右块 8.1，选右块。结果：你 5，小周 8.1</text>
+  <text x="60" y="200" font-size="13" font-weight="600" fill="#1f2933">切法二：你把每种口味都对半切（切成'一半巧克力+一半香草'两块）</text>
+  <rect x="60" y="210" width="320.0" height="40" fill="#8d6e63"/><rect x="380.0" y="210" width="320.0" height="40" fill="#f3e3b3"/>
+  <text x="220.0" y="236" font-size="12" fill="#ffffff" text-anchor="middle">巧克力</text><text x="540.0" y="236" font-size="12" fill="#7b6a3a" text-anchor="middle">香草</text>
+  <text x="60" y="276" font-size="12" fill="#52606d">两块你都值 5，小周也都值 5。小周随便选一块。结果：你 5，小周 5。这很公平，可是太浪费了</text>
+  <text x="60" y="300" font-size="13" font-weight="600" fill="#1f2933">切法三：你知道小周的口味，切出让小周正好无所谓的两块</text>
+  <rect x="60" y="310" width="320.0" height="40" fill="#8d6e63"/><rect x="380.0" y="310" width="320.0" height="40" fill="#f3e3b3"/>
+  <text x="220.0" y="336" font-size="12" fill="#ffffff" text-anchor="middle">巧克力</text><text x="540.0" y="336" font-size="12" fill="#7b6a3a" text-anchor="middle">香草</text>
+  <line x1="471.4" y1="304" x2="471.4" y2="356" stroke="#d9480f" stroke-width="3"/>
+  <text x="60" y="376" font-size="12" fill="#52606d">左块 = 全部巧克力 + 香草的 2/7（你值 8.6，小周值 5）；右块 = 其余香草（你值 1.4，小周值 5）。结果：你约 8.6，小周 5</text>
+  <text x="24" y="440" font-size="12" fill="#7b8794">三种切法都是"比例公平"的（每人至少得到自己心中的一半，即 5）和"无嫉妒"的；但切法二浪费，切法三把好处几乎全拿走。</text>
+</svg>

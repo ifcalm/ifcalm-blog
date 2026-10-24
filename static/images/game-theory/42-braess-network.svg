@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="470" rx="10" fill="#ffffff"/>
+  <defs><marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#52606d"/></marker>
+  <marker id="ao" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#d9480f"/></marker></defs>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">多修一条免费的捷径，所有人反而更慢</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">4000 位上班族从 S 去 T。窄路的耗时 = 这条路上的车数 ÷ 100（分钟）；宽路固定 45 分钟</text>
+  <circle cx="110" cy="240" r="24" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="110" y="247" font-size="18" font-weight="600" text-anchor="middle" fill="#1f2933">S</text>
+  <circle cx="380" cy="120" r="24" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="380" y="127" font-size="18" font-weight="600" text-anchor="middle" fill="#1f2933">A</text>
+  <circle cx="380" cy="360" r="24" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="380" y="367" font-size="18" font-weight="600" text-anchor="middle" fill="#1f2933">B</text>
+  <circle cx="650" cy="240" r="24" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="650" y="247" font-size="18" font-weight="600" text-anchor="middle" fill="#1f2933">T</text>
+  <line x1="130" y1="226" x2="358" y2="132" stroke="#52606d" stroke-width="2.5" marker-end="url(#ar)"/><text x="215" y="160" font-size="13" fill="#52606d" text-anchor="middle">S→A：车数 ÷ 100</text>
+  <line x1="402" y1="132" x2="630" y2="226" stroke="#52606d" stroke-width="2.5" marker-end="url(#ar)"/><text x="548" y="160" font-size="13" fill="#52606d" text-anchor="middle">A→T：45 分钟</text>
+  <line x1="130" y1="254" x2="358" y2="348" stroke="#52606d" stroke-width="2.5" marker-end="url(#ar)"/><text x="205" y="338" font-size="13" fill="#52606d" text-anchor="middle">S→B：45 分钟</text>
+  <line x1="402" y1="348" x2="630" y2="254" stroke="#52606d" stroke-width="2.5" marker-end="url(#ar)"/><text x="553" y="338" font-size="13" fill="#52606d" text-anchor="middle">B→T：车数 ÷ 100</text>
+  <line x1="380" y1="146" x2="380" y2="334" stroke="#d9480f" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#ao)"/><text x="394" y="240" font-size="13" fill="#d9480f" font-weight="600">新修的捷径 A→B：0 分钟</text>
+  <text x="24" y="416" font-size="13" fill="#1f2933">没有捷径：两条路各走 2000 人，每人 20 + 45 = 65 分钟。有了捷径：人人都走 S→A→B→T，每人 40 + 0 + 40 = 80 分钟。</text>
+  <text x="24" y="438" font-size="12" fill="#7b8794">此时没人想改走别的路：S→A→T 要 40 + 45 = 85 分钟，S→B→T 也要 85 分钟。</text>
+</svg>

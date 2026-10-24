@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <defs><marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#d9480f"/></marker></defs>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">三个人投票：每一对都有多数，却转成一个圈</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">你：A > B > C；小周：B > C > A；小林：C > A > B。箭头从"赢的"指向"输的"，旁边是票数</text>
+  <circle cx="380" cy="110" r="30" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="380" y="118" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">A</text>
+  <circle cx="210" cy="330" r="30" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="210" y="338" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">B</text>
+  <circle cx="550" cy="330" r="30" fill="#fafbfc" stroke="#9aa5b1" stroke-width="2"/><text x="550" y="338" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">C</text>
+  <line x1="359.2" y1="136.9" x2="233.2" y2="299.9" stroke="#d9480f" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="206.2" y="212.4" font-size="13" fill="#d9480f" text-anchor="middle" font-weight="600">A 胜 B：2 比 1（你、小林）</text>
+  <line x1="244.0" y1="330.0" x2="512.0" y2="330.0" stroke="#d9480f" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="378.0" y="358.0" font-size="13" fill="#d9480f" text-anchor="middle" font-weight="600">B 胜 C：2 比 1（你、小周）</text>
+  <line x1="529.2" y1="303.1" x2="403.2" y2="140.1" stroke="#d9480f" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="566.2" y="215.6" font-size="13" fill="#d9480f" text-anchor="middle" font-weight="600">C 胜 A：2 比 1（小周、小林）</text>
+  <text x="24" y="412" font-size="13" fill="#1f2933">A 胜 B，B 胜 C，C 胜 A：没有"最受欢迎"的那一个。这就是孔多塞悖论。</text>
+</svg>

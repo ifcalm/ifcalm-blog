@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" width="760" height="490" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="490" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">柠檬市场的"一路下滑"：价格每一轮都被打 75 折</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">横轴：价格 p；纵轴：在这个价格上，买家愿意付的价格 = 1.5 × 市场上车子的平均质量 = 0.75p</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="240.0" y1="400" x2="240.0" y2="60"/>
+    <line x1="110" y1="315.0" x2="630" y2="315.0"/>
+    <line x1="370.0" y1="400" x2="370.0" y2="60"/>
+    <line x1="110" y1="230.0" x2="630" y2="230.0"/>
+    <line x1="500.0" y1="400" x2="500.0" y2="60"/>
+    <line x1="110" y1="145.0" x2="630" y2="145.0"/>
+    <line x1="630" y1="400" x2="630" y2="60"/>
+    <line x1="110" y1="60" x2="630" y2="60"/>
+  </g>
+  <line x1="110" y1="400" x2="630" y2="400" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="110" y1="400" x2="110" y2="60" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="110" y="418">0</text>
+    <text x="240.0" y="418">0.25</text>
+    <text x="370.0" y="418">0.5</text>
+    <text x="500.0" y="418">0.75</text>
+    <text x="630" y="418">1</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="102" y="404">0</text>
+    <text x="102" y="319.0">0.25</text>
+    <text x="102" y="234.0">0.5</text>
+    <text x="102" y="149.0">0.75</text>
+    <text x="102" y="64">1</text>
+  </g>
+  <line x1="110" y1="400" x2="630" y2="60" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="110" y1="400" x2="630" y2="145.0" stroke="#d9480f" stroke-width="4"/>
+  <polyline points="630,60 630,145.0 500.0,145.0 500.0,208.75 402.5,208.75 402.5,256.5625 329.375,256.5625 329.375,292.421875 274.53125,292.421875 274.53125,319.31640625 233.3984375,319.31640625 233.3984375,339.4873046875 202.548828125,339.4873046875" fill="none" stroke="#4c78c9" stroke-width="2.5"/>
+  <circle cx="630" cy="60" r="6" fill="#4c78c9"/><text x="620" y="50" font-size="12" fill="#4c78c9" text-anchor="end">从价格 1 出发</text>
+  <text x="630" y="440" font-size="13" fill="#d9480f" font-weight="600" text-anchor="end">橙线：买家愿付 = 0.75p（总低于价格）</text>
+  <text x="236" y="296" font-size="12" fill="#7b8794" transform="rotate(-33 236 296)">灰虚线：愿付 = 价格</text>
+  <text x="24" y="474" font-size="13" fill="#1f2933">蓝色折线：价格 1 → 0.75 → 0.56 → 0.42 → 0.32 → 0.24 → ……，一路下滑，最后没有好车可买。</text>
+</svg>

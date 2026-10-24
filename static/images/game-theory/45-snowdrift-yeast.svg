@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">酵母的"扫雪游戏"：合作者和作弊者各占一半</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">做成一件事的好处是 3，人人都得；代价是 2，一个人做就一个人付，两个人都做就各付 1。数字为说明而编</text>
+  <line x1="90" y1="300" x2="670" y2="300" stroke="#9aa5b1" stroke-width="2"/>
+  <line x1="90" y1="90" x2="90" y2="300" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90.0" y1="234.4" x2="670.0" y2="168.8" stroke="#4c6ef5" stroke-width="3"/>
+  <line x1="90.0" y1="300.0" x2="670.0" y2="103.1" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="380.0" cy="201.6" r="6" fill="#1f2933"/>
+  <text x="392.0" y="219.6" font-size="12" fill="#1f2933" font-weight="600">均衡：各占一半，各赚 1.5</text>
+  <text x="113.2" y="201.6" font-size="12" fill="#4c6ef5" font-weight="600">合作者：1 + 比例</text>
+  <text x="554.0" y="119.5" font-size="12" fill="#d9480f" font-weight="600" text-anchor="end">作弊者：3 × 比例</text>
+  <text x="90.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0</text>
+  <text x="235.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.25</text>
+  <text x="380.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.5</text>
+  <text x="525.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.75</text>
+  <text x="670.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">1</text>
+  <text x="82" y="304.0" font-size="12" fill="#52606d" text-anchor="end">0</text>
+  <text x="82" y="238.4" font-size="12" fill="#52606d" text-anchor="end">1</text>
+  <text x="82" y="172.8" font-size="12" fill="#52606d" text-anchor="end">2</text>
+  <text x="82" y="107.1" font-size="12" fill="#52606d" text-anchor="end">3</text>
+  <text x="380.0" y="340" font-size="12" fill="#52606d" text-anchor="middle">合作者所占的比例</text>
+  <text x="24" y="392" font-size="13" fill="#1f2933">合作者少的时候，合作者赚得多（线在上面），所以合作者会增加；合作者多的时候，作弊者赚得多。</text>
+  <text x="24" y="414" font-size="12" fill="#7b8794">两种细胞会稳定地共存，这不是"合作赢了"，也不是"作弊赢了"。</text>
+</svg>

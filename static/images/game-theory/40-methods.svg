@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">同一批选票，不同的计票办法选出不同的人</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">100 位选民：41 人 A > B > C；34 人 B > C > A；25 人 C > B > A</text>
+  <text x="135.0" y="92" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">只数第一名的票（相对多数制）</text>
+  <line x1="30" y1="280" x2="240" y2="280" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="42" y="125.1" width="50" height="154.9" rx="3" fill="#4c78c9"/><text x="67" y="119.1" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">41</text><text x="67" y="298" font-size="13" fill="#52606d" text-anchor="middle">A</text>
+  <rect x="108" y="151.6" width="50" height="128.4" rx="3" fill="#d9480f"/><text x="133" y="145.6" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">34</text><text x="133" y="298" font-size="13" fill="#52606d" text-anchor="middle">B</text>
+  <rect x="174" y="185.6" width="50" height="94.4" rx="3" fill="#9aa5b1"/><text x="199" y="179.6" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">25</text><text x="199" y="298" font-size="13" fill="#52606d" text-anchor="middle">C</text>
+  <text x="375.0" y="92" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">两两对比赢了几场</text>
+  <line x1="270" y1="280" x2="480" y2="280" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="282" y="280.0" width="50" height="1.0" rx="3" fill="#4c78c9"/><text x="307" y="274.0" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">0</text><text x="307" y="298" font-size="13" fill="#52606d" text-anchor="middle">A</text>
+  <rect x="348" y="132.2" width="50" height="147.8" rx="3" fill="#d9480f"/><text x="373" y="126.2" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">2</text><text x="373" y="298" font-size="13" fill="#52606d" text-anchor="middle">B</text>
+  <rect x="414" y="206.1" width="50" height="73.9" rx="3" fill="#9aa5b1"/><text x="439" y="200.1" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">1</text><text x="439" y="298" font-size="13" fill="#52606d" text-anchor="middle">C</text>
+  <text x="615.0" y="92" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">波达分（第一名 2、第二 1、第三 0）</text>
+  <line x1="510" y1="280" x2="720" y2="280" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="522" y="183.9" width="50" height="96.1" rx="3" fill="#4c78c9"/><text x="547" y="177.9" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">82</text><text x="547" y="298" font-size="13" fill="#52606d" text-anchor="middle">A</text>
+  <rect x="588" y="122.9" width="50" height="157.1" rx="3" fill="#d9480f"/><text x="613" y="116.9" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">134</text><text x="613" y="298" font-size="13" fill="#52606d" text-anchor="middle">B</text>
+  <rect x="654" y="181.5" width="50" height="98.5" rx="3" fill="#9aa5b1"/><text x="679" y="175.5" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">84</text><text x="679" y="298" font-size="13" fill="#52606d" text-anchor="middle">C</text>
+  <text x="24" y="360" font-size="13" fill="#1f2933">只数第一名：A 赢。可是 59 人觉得 B 比 A 好，75 人觉得 B 比 C 好：B 在每一次两两对比里都赢（A 两场都输）。</text>
+  <text x="24" y="382" font-size="12" fill="#7b8794">两两对比、波达分和"前两名再决选"都选 B；只有"只数第一名"选了 A。</text>
+</svg>

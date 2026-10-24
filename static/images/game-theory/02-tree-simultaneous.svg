@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d9480f"/></marker></defs>
+  <rect width="760" height="360" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">同时行动：小周看不到你选了什么</text>
+  <g stroke="#52606d" stroke-width="2" fill="none">
+    <line x1="380" y1="76" x2="190" y2="140"/>
+    <line x1="380" y1="76" x2="570" y2="140"/>
+    <line x1="190" y1="166" x2="110" y2="240"/>
+    <line x1="190" y1="166" x2="270" y2="240"/>
+    <line x1="570" y1="166" x2="490" y2="240"/>
+    <line x1="570" y1="166" x2="650" y2="240"/>
+  </g>
+  <circle cx="380" cy="62" r="14" fill="#e7f0fd" stroke="#4c78c9" stroke-width="2"/>
+  <text x="380" y="66" font-size="12" fill="#1f2933" text-anchor="middle">你</text>
+  <circle cx="190" cy="153" r="14" fill="#fff0e0" stroke="#f08c00" stroke-width="2"/>
+  <circle cx="570" cy="153" r="14" fill="#fff0e0" stroke="#f08c00" stroke-width="2"/>
+  <g font-size="12" fill="#1f2933" text-anchor="middle">
+    <text x="190" y="157">小周</text>
+    <text x="570" y="157">小周</text>
+  </g>
+  <g font-size="13" fill="#1f2933">
+    <text x="300" y="100" text-anchor="end">你扫</text>
+    <text x="460" y="100" text-anchor="start">你不扫</text>
+    <text x="146" y="198" text-anchor="end">小周扫</text>
+    <text x="232" y="198" text-anchor="start">小周不扫</text>
+    <text x="526" y="198" text-anchor="end">小周扫</text>
+    <text x="612" y="198" text-anchor="start">小周不扫</text>
+  </g>
+  <g font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">
+    <text x="110" y="268">（4，4）</text>
+    <text x="270" y="268">（2，6）</text>
+    <text x="490" y="268">（6，2）</text>
+    <text x="650" y="268">（0，0）</text>
+  </g>
+  <text x="380" y="306" font-size="12" fill="#7b8794" text-anchor="middle">括号里：（你的收益，小周的收益）</text>
+  <line x1="204" y1="153" x2="556" y2="153" stroke="#d9480f" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <text x="380" y="144" font-size="13" fill="#d9480f" text-anchor="middle" font-weight="600">同一个信息集</text>
+  <text x="380" y="176" font-size="12" fill="#d9480f" text-anchor="middle">小周分不清自己在哪个节点</text>
+</svg>

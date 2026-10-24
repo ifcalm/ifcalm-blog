@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="470" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">跑道问题：六种到达顺序下，每个人"新增"的费用</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">你的飞机要 1 公里跑道（单独建 10），小周 2 公里（20），小林 3 公里（30）。后到的人，只付"在现有跑道上再加长"的那一部分</text>
+  <rect x="60" y="100" width="600" height="34" fill="#eef1f5"/>
+  <text x="165.0" y="122" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">到达顺序</text>
+  <text x="335.0" y="122" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">你付</text>
+  <text x="465.0" y="122" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">小周付</text>
+  <text x="595.0" y="122" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">小林付</text>
+  <line x1="60" y1="168" x2="660" y2="168" stroke="#e4e7eb"/>
+  <text x="165.0" y="156" font-size="13" fill="#52606d" text-anchor="middle">你 → 小周 → 小林</text>
+  <text x="335.0" y="156" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <text x="465.0" y="156" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <text x="595.0" y="156" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <line x1="60" y1="202" x2="660" y2="202" stroke="#e4e7eb"/>
+  <text x="165.0" y="190" font-size="13" fill="#52606d" text-anchor="middle">你 → 小林 → 小周</text>
+  <text x="335.0" y="190" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <text x="465.0" y="190" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="595.0" y="190" font-size="14" fill="#d9480f" text-anchor="middle" font-weight="600">20</text>
+  <line x1="60" y1="236" x2="660" y2="236" stroke="#e4e7eb"/>
+  <text x="165.0" y="224" font-size="13" fill="#52606d" text-anchor="middle">小周 → 你 → 小林</text>
+  <text x="335.0" y="224" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="465.0" y="224" font-size="14" fill="#d9480f" text-anchor="middle" font-weight="600">20</text>
+  <text x="595.0" y="224" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <line x1="60" y1="270" x2="660" y2="270" stroke="#e4e7eb"/>
+  <text x="165.0" y="258" font-size="13" fill="#52606d" text-anchor="middle">小周 → 小林 → 你</text>
+  <text x="335.0" y="258" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="465.0" y="258" font-size="14" fill="#d9480f" text-anchor="middle" font-weight="600">20</text>
+  <text x="595.0" y="258" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="600">10</text>
+  <line x1="60" y1="304" x2="660" y2="304" stroke="#e4e7eb"/>
+  <text x="165.0" y="292" font-size="13" fill="#52606d" text-anchor="middle">小林 → 你 → 小周</text>
+  <text x="335.0" y="292" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="465.0" y="292" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="595.0" y="292" font-size="14" fill="#d9480f" text-anchor="middle" font-weight="600">30</text>
+  <line x1="60" y1="338" x2="660" y2="338" stroke="#e4e7eb"/>
+  <text x="165.0" y="326" font-size="13" fill="#52606d" text-anchor="middle">小林 → 小周 → 你</text>
+  <text x="335.0" y="326" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="465.0" y="326" font-size="14" fill="#9aa5b1" text-anchor="middle" font-weight="400">0</text>
+  <text x="595.0" y="326" font-size="14" fill="#d9480f" text-anchor="middle" font-weight="600">30</text>
+  <rect x="60" y="338" width="600" height="40" fill="#e8f5ec"/>
+  <text x="165.0" y="364" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">六种顺序的平均</text>
+  <text x="335.0" y="364" font-size="15" font-weight="600" fill="#2f9e44" text-anchor="middle">3.33</text>
+  <text x="465.0" y="364" font-size="15" font-weight="600" fill="#2f9e44" text-anchor="middle">8.33</text>
+  <text x="595.0" y="364" font-size="15" font-weight="600" fill="#2f9e44" text-anchor="middle">18.33</text>
+  <text x="24" y="448" font-size="12" fill="#7b8794">平均下来，三个人付的钱加起来是 30，正好是最长那条跑道的造价。</text>
+</svg>

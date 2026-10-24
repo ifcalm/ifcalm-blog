@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">一百位候选人：怎样的评分规则，能让更多人被录用</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">好的 30 人、差的 70 人；公司只在"被推荐的人里至少一半是好的"时才录用</text>
+  <text x="24" y="92" font-size="13" fill="#52606d">A. 如实公布每个人的情况</text>
+  <rect x="100.0" y="100" width="180.0" height="46" fill="#2f9e44"/>
+  <text x="190.0" y="128" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">好 30：推荐</text>
+  <rect x="280.0" y="100" width="420.0" height="46" fill="#9aa5b1"/>
+  <text x="490.0" y="128" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">差 70：不推荐</text>
+  <text x="490.0" y="164" font-size="12" fill="#7b8794" text-anchor="middle">录用 30 人，全是好的</text>
+  <text x="24" y="206" font-size="13" fill="#52606d">B. 精心设计的评分规则</text>
+  <rect x="100.0" y="214" width="180.0" height="46" fill="#2f9e44"/>
+  <text x="190.0" y="242" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">好 30：推荐</text>
+  <rect x="280.0" y="214" width="180.0" height="46" fill="#d9480f"/>
+  <text x="370.0" y="242" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">差 30：也推荐</text>
+  <rect x="460.0" y="214" width="240.0" height="46" fill="#9aa5b1"/>
+  <text x="580.0" y="242" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">差 40：不推荐</text>
+  <line x1="100.0" y1="276" x2="460.0" y2="276" stroke="#d9480f" stroke-width="2"/>
+  <text x="280.0" y="298" font-size="12" fill="#d9480f" text-anchor="middle" font-weight="600">推荐 60 人，其中恰好一半是好的 → 刚好过线，公司录用 60 人</text>
+  <text x="24" y="352" font-size="13" fill="#1f2933">公司没有被骗：规则公开，听到"推荐"时好的概率确实是 1/2。</text>
+  <text x="24" y="374" font-size="12" fill="#7b8794">再多推荐一个差的，就会掉到一半以下，公司不再录用；所以 60 人是上限。</text>
+</svg>
