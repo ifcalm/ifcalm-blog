@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">"曝险问题"：想要整体，却可能只拿到一半</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">全国运营商 N 只在 A、B 都到手时才值 130，单独一张值 0；本地运营商 A 值 60，本地运营商 B 值 60 或 80（各一半可能）。数字是编的</text>
+  <line x1="60" y1="190" x2="700" y2="190" stroke="#9aa5b1" stroke-width="1.5"/>
+  <text x="200" y="86" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">分别竞价（A、B 各拍各的）</text>
+  <rect x="110" y="175.0" width="46" height="15.0" fill="#2b8a3e" opacity="0.9"/>
+  <text x="133" y="169.0" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">+10</text>
+  <text x="133" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">B 值 60</text>
+  <rect x="172" y="190.0" width="46" height="90.0" fill="#d9480f" opacity="0.9"/>
+  <text x="195" y="296.0" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">-60</text>
+  <text x="195" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">B 值 80</text>
+  <rect x="234" y="190.0" width="46" height="37.5" fill="#1f2933" opacity="0.9"/>
+  <text x="257" y="243.5" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">-25</text>
+  <text x="257" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">期望</text>
+  <text x="500" y="86" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">可以对 A+B 整体出价</text>
+  <rect x="410" y="175.0" width="46" height="15.0" fill="#2b8a3e" opacity="0.9"/>
+  <text x="433" y="169.0" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">+10</text>
+  <text x="433" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">B 值 60</text>
+  <rect x="472" y="190.0" width="46" height="1.5" fill="#9aa5b1" opacity="0.9"/>
+  <text x="495" y="184.0" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">+0</text>
+  <text x="495" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">B 值 80</text>
+  <rect x="534" y="182.5" width="46" height="7.5" fill="#1f2933" opacity="0.9"/>
+  <text x="557" y="176.5" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">+5</text>
+  <text x="557" y="316.0" font-size="12" fill="#52606d" text-anchor="middle">期望</text>
+  <text x="24" y="338" font-size="13" fill="#1f2933">分别竞价时，N 赢下 A 之后如果输掉 B，手里只有一张单独值 0 的牌照，白付 60；期望 −25，N 宁可不参加。</text>
+  <text x="24" y="362" font-size="13" fill="#1f2933">可以对整体出价时，N 只在整体买得起时才成交，最坏是 0。于是 N 敢来，B 值 60 的时候还能赢下两张。</text>
+  <text x="24" y="390" font-size="12" fill="#7b8794">这是玩具模型：真实规则里还有撤回出价、替代品等细节，会改变数字。</text>
+</svg>

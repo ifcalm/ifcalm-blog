@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">划线法：每列标出你的最好数字，每行标出小周的最好数字</text>
+  <text x="225.0" y="96" font-size="14" fill="#1f2933" text-anchor="middle">小周：左</text>
+  <text x="375.0" y="96" font-size="14" fill="#1f2933" text-anchor="middle">小周：中</text>
+  <text x="525.0" y="96" font-size="14" fill="#1f2933" text-anchor="middle">小周：右</text>
+  <text x="138" y="143.0" font-size="14" fill="#1f2933" text-anchor="end">你：上</text>
+  <rect x="150" y="110" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="195.0" y="144.0" font-size="18" fill="#1c64d4" font-weight="700" text-anchor="middle">5</text>
+  <text x="225.0" y="144.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="255.0" y="144.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">3</text>
+  <line x1="185.0" y1="149.0" x2="205.0" y2="149.0" stroke="#1c64d4" stroke-width="2.5"/>
+  <rect x="300" y="110" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="345.0" y="144.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">3</text>
+  <text x="375.0" y="144.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="405.0" y="144.0" font-size="18" fill="#d9480f" font-weight="700" text-anchor="middle">7</text>
+  <line x1="395.0" y1="149.0" x2="415.0" y2="149.0" stroke="#d9480f" stroke-width="2.5"/>
+  <rect x="450" y="110" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="495.0" y="144.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">4</text>
+  <text x="525.0" y="144.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="555.0" y="144.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">2</text>
+  <text x="138" y="199.0" font-size="14" fill="#1f2933" text-anchor="end">你：中</text>
+  <rect x="150" y="166" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="195.0" y="200.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">3</text>
+  <text x="225.0" y="200.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="255.0" y="200.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">4</text>
+  <rect x="300" y="166" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="345.0" y="200.0" font-size="18" fill="#1c64d4" font-weight="700" text-anchor="middle">4</text>
+  <text x="375.0" y="200.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="405.0" y="200.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">2</text>
+  <line x1="335.0" y1="205.0" x2="355.0" y2="205.0" stroke="#1c64d4" stroke-width="2.5"/>
+  <rect x="450" y="166" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="495.0" y="200.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">1</text>
+  <text x="525.0" y="200.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="555.0" y="200.0" font-size="18" fill="#d9480f" font-weight="700" text-anchor="middle">7</text>
+  <line x1="545.0" y1="205.0" x2="565.0" y2="205.0" stroke="#d9480f" stroke-width="2.5"/>
+  <text x="138" y="255.0" font-size="14" fill="#1f2933" text-anchor="end">你：下</text>
+  <rect x="150" y="222" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="195.0" y="256.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">4</text>
+  <text x="225.0" y="256.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="255.0" y="256.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">3</text>
+  <rect x="300" y="222" width="150" height="56" fill="#ffffff" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="345.0" y="256.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">0</text>
+  <text x="375.0" y="256.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="405.0" y="256.0" font-size="18" fill="#7b8794" font-weight="400" text-anchor="middle">0</text>
+  <rect x="450" y="222" width="150" height="56" fill="#e6f4ea" stroke="#2b8a3e" stroke-width="3"/>
+  <text x="495.0" y="256.0" font-size="18" fill="#1c64d4" font-weight="700" text-anchor="middle">8</text>
+  <text x="525.0" y="256.0" font-size="16" fill="#9aa5b1" text-anchor="middle">，</text>
+  <text x="555.0" y="256.0" font-size="18" fill="#d9480f" font-weight="700" text-anchor="middle">5</text>
+  <line x1="485.0" y1="261.0" x2="505.0" y2="261.0" stroke="#1c64d4" stroke-width="2.5"/>
+  <line x1="545.0" y1="261.0" x2="565.0" y2="261.0" stroke="#d9480f" stroke-width="2.5"/>
+  <g font-size="13">
+    <text x="150" y="312" fill="#1c64d4" font-weight="600">蓝色加线：你的数字，是这一列里你的最好选择</text>
+    <text x="150" y="336" fill="#d9480f" font-weight="600">橙色加线：小周的数字，是这一行里小周的最好选择</text>
+    <text x="150" y="360" fill="#2b8a3e" font-weight="600">绿色格子：两个数字都加了线，没人想单独改变，是纳什均衡</text>
+  </g>
+</svg>

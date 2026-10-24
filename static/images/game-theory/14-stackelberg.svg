@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="520" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">先动者把自己"钉"在跟随者反应线上的最好那一点</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">纵轴：跟随者的产量 q2；横轴：先动者的产量 q1</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="240.0" y1="410.0" x2="240.0" y2="58.0"/>
+    <line x1="110.0" y1="322.0" x2="630.0" y2="322.0"/>
+    <line x1="370.0" y1="410.0" x2="370.0" y2="58.0"/>
+    <line x1="110.0" y1="234.0" x2="630.0" y2="234.0"/>
+    <line x1="500.0" y1="410.0" x2="500.0" y2="58.0"/>
+    <line x1="110.0" y1="146.0" x2="630.0" y2="146.0"/>
+    <line x1="630.0" y1="410.0" x2="630.0" y2="58.0"/>
+    <line x1="110.0" y1="58.0" x2="630.0" y2="58.0"/>
+  </g>
+  <line x1="110.0" y1="410.0" x2="630.0" y2="410.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="110.0" y1="410.0" x2="110.0" y2="58.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="110.0" y="428.0">0</text>
+    <text x="240.0" y="428.0">20</text>
+    <text x="370.0" y="428.0">40</text>
+    <text x="500.0" y="428.0">60</text>
+    <text x="630.0" y="428.0">80</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="102.0" y="414.0">0</text>
+    <text x="102.0" y="326.0">20</text>
+    <text x="102.0" y="238.0">40</text>
+    <text x="102.0" y="150.0">60</text>
+    <text x="102.0" y="62.0">80</text>
+  </g>
+  <line x1="370.0" y1="410.0" x2="110.0" y2="58.0" stroke="#4c78c9" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="110.0" y1="234.0" x2="630.0" y2="410.0" stroke="#d9480f" stroke-width="4"/>
+  <circle cx="283.33333333333337" cy="292.66666666666663" r="8" fill="#2b8a3e"/>
+  <text x="311.5" y="247.2" font-size="13" fill="#2b8a3e" font-weight="600">同时选（古诺）：各 26.7，各赚 711</text>
+  <circle cx="370.0" cy="322.0" r="9" fill="#d9480f"/>
+  <text x="384.0" y="310.0" font-size="13" fill="#d9480f" font-weight="600">先动：(40, 20)，先动者 800、跟随者 400</text>
+  <line x1="110.0" y1="456.0" x2="140.0" y2="456.0" stroke="#d9480f" stroke-width="4"/>
+  <text x="148.0" y="460.0" font-size="13" fill="#d9480f" font-weight="600">橙线：跟随者看到 q1 之后的最佳反应</text>
+  <line x1="110.0" y1="480.0" x2="140.0" y2="480.0" stroke="#4c78c9" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="148.0" y="484.0" font-size="13" fill="#4c78c9" font-weight="600">蓝虚线：同时选时，先动者对跟随者的最佳反应</text>
+</svg>

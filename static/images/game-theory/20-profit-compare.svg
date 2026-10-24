@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="400" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">店主的平均利润：看得见与看不见努力，差多少</text>
+  <line x1="90" y1="310" x2="710" y2="310" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="130" y="103.0" width="110" height="207.0" rx="3" fill="#4c78c9"/>
+  <text x="185" y="93.0" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">54</text>
+  <text x="185" y="332" font-size="13" fill="#52606d" text-anchor="middle">看得见努力</text>
+  <text x="185" y="350" font-size="12" fill="#7b8794" text-anchor="middle">(固定工资 16)</text>
+  <rect x="330" y="123.1" width="110" height="186.9" rx="3" fill="#d9480f"/>
+  <text x="385" y="113.1" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">48.75</text>
+  <text x="385" y="332" font-size="13" fill="#52606d" text-anchor="middle">看不见 + 激励合同</text>
+  <text x="385" y="350" font-size="12" fill="#7b8794" text-anchor="middle">(30.25 / 0.25)</text>
+  <rect x="530" y="152.8" width="110" height="157.2" rx="3" fill="#9aa5b1"/>
+  <text x="585" y="142.8" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">41</text>
+  <text x="585" y="332" font-size="13" fill="#52606d" text-anchor="middle">看不见 + 固定工资</text>
+  <text x="585" y="350" font-size="12" fill="#7b8794" text-anchor="middle">(TA 摸鱼，工资 9)</text>
+  <text x="24" y="384" font-size="12" fill="#7b8794">蓝柱与橙柱的差 5.25，就是"看不见努力"让店主多付的代价；橙柱仍高于灰柱，所以仍值得设计激励。</text>
+</svg>

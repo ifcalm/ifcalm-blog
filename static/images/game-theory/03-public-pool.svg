@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">四人公共池：不管别人怎么做，"不投"永远比"投"多 6</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="100" y1="360.0" x2="669" y2="360.0"/>
+    <line x1="100" y1="285.0" x2="669" y2="285.0"/>
+    <line x1="100" y1="210.0" x2="669" y2="210.0"/>
+    <line x1="100" y1="135.0" x2="669" y2="135.0"/>
+    <line x1="100" y1="60.0" x2="669" y2="60.0"/>
+  </g>
+  <line x1="100" y1="360.0" x2="669" y2="360.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="92" y="364.0">0</text>
+    <text x="92" y="289.0">6</text>
+    <text x="92" y="214.0">12</text>
+    <text x="92" y="139.0">18</text>
+    <text x="92" y="64.0">24</text>
+  </g>
+  <g font-size="13" fill="#52606d" text-anchor="middle">
+    <text x="120" y="382.0">0 人投</text>
+    <text x="293" y="382.0">1 人投</text>
+    <text x="466" y="382.0">2 人投</text>
+    <text x="639" y="382.0">3 人投</text>
+  </g>
+  <text x="379.5" y="408.0" font-size="13" fill="#1f2933" text-anchor="middle">另外三个人里，投了 10 元的有几个</text>
+  <text x="24" y="50.0" font-size="12" fill="#7b8794">你最后手里的钱（元）</text>
+  <polyline points="120,235.0 293,185.0 466,135.0 639,85.0" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <polyline points="120,310.0 293,260.0 466,210.0 639,160.0" fill="none" stroke="#4c78c9" stroke-width="3"/>
+  <circle cx="120" cy="235.0" r="5" fill="#d9480f"/>
+  <circle cx="120" cy="310.0" r="5" fill="#4c78c9"/>
+  <text x="130" y="227.0" font-size="12" fill="#d9480f">10</text>
+  <text x="130" y="326.0" font-size="12" fill="#4c78c9">4</text>
+  <circle cx="293" cy="185.0" r="5" fill="#d9480f"/>
+  <circle cx="293" cy="260.0" r="5" fill="#4c78c9"/>
+  <text x="303" y="177.0" font-size="12" fill="#d9480f">14</text>
+  <text x="303" y="276.0" font-size="12" fill="#4c78c9">8</text>
+  <circle cx="466" cy="135.0" r="5" fill="#d9480f"/>
+  <circle cx="466" cy="210.0" r="5" fill="#4c78c9"/>
+  <text x="476" y="127.0" font-size="12" fill="#d9480f">18</text>
+  <text x="476" y="226.0" font-size="12" fill="#4c78c9">12</text>
+  <circle cx="639" cy="85.0" r="5" fill="#d9480f"/>
+  <circle cx="639" cy="160.0" r="5" fill="#4c78c9"/>
+  <text x="649" y="77.0" font-size="12" fill="#d9480f">22</text>
+  <text x="649" y="176.0" font-size="12" fill="#4c78c9">16</text>
+  <text x="371.5" y="145.0" font-size="13" fill="#d9480f" font-weight="600" text-anchor="end">你不投：自己留着 10 元</text>
+  <text x="389.5" y="298.0" font-size="13" fill="#4c78c9" font-weight="600">你投 10 元</text>
+  <text x="625" y="66" font-size="12" fill="#1f2933" text-anchor="end">别人都投、你不投：22</text>
+  <text x="647" y="194" font-size="12" fill="#1f2933">大家都投：16</text>
+  <text x="128" y="204.0" font-size="12" fill="#1f2933">大家都不投：10</text>
+</svg>

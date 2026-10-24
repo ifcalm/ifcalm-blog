@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="360" rx="10" fill="#ffffff"/>
+  <text x="24" y="32" font-size="16" font-weight="600" fill="#1f2933">思考的阶梯：每多想一层，数字就乘 2/3</text>
+  <line x1="40" y1="290" x2="730" y2="290" stroke="#9aa5b1" stroke-width="1.5"/>
+
+  <g fill="#4c78c9">
+    <rect x="60" y="70" width="56" height="220" rx="3"/>
+    <rect x="155" y="143.3" width="56" height="146.7" rx="3"/>
+    <rect x="250" y="192.2" width="56" height="97.8" rx="3"/>
+    <rect x="345" y="224.8" width="56" height="65.2" rx="3"/>
+    <rect x="440" y="246.5" width="56" height="43.5" rx="3"/>
+    <rect x="535" y="261" width="56" height="29" rx="3"/>
+    <rect x="630" y="270.7" width="56" height="19.3" rx="3"/>
+  </g>
+
+  <g font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">
+    <text x="88" y="62">50</text>
+    <text x="183" y="135">33.3</text>
+    <text x="278" y="184">22.2</text>
+    <text x="373" y="217">14.8</text>
+    <text x="468" y="239">9.9</text>
+    <text x="563" y="253">6.6</text>
+    <text x="658" y="263">4.4</text>
+  </g>
+
+  <g font-size="13" fill="#52606d" text-anchor="middle">
+    <text x="88" y="312">第 0 层</text>
+    <text x="183" y="312">第 1 层</text>
+    <text x="278" y="312">第 2 层</text>
+    <text x="373" y="312">第 3 层</text>
+    <text x="468" y="312">第 4 层</text>
+    <text x="563" y="312">第 5 层</text>
+    <text x="658" y="312">第 6 层</text>
+  </g>
+  <g font-size="12" fill="#7b8794" text-anchor="middle">
+    <text x="88" y="330">随便报</text>
+    <text x="183" y="330">别人随便报</text>
+    <text x="278" y="330">别人是第 1 层</text>
+    <text x="373" y="330">别人是第 2 层</text>
+  </g>
+
+  <g font-size="13" fill="#d9480f" font-weight="600" text-anchor="middle">
+    <text x="135" y="118">×2/3 →</text>
+    <text x="230" y="170">×2/3 →</text>
+    <text x="325" y="207">×2/3 →</text>
+  </g>
+  <text x="700" y="52" font-size="13" fill="#d9480f" text-anchor="end" font-weight="600">…… 一路想到底，走到 0</text>
+</svg>

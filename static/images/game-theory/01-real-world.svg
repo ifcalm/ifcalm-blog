@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="32" font-size="16" font-weight="600" fill="#1f2933">真实的人报了多少：落在第 1、2、3 层附近，不在 0</text>
+
+  <!-- number line: x = 40 + v * 13.6 -->
+  <line x1="40" y1="170" x2="720" y2="170" stroke="#9aa5b1" stroke-width="1.5"/>
+
+  <!-- theory ticks -->
+  <g stroke="#9aa5b1" stroke-width="1.5">
+    <line x1="129.5" y1="162" x2="129.5" y2="178"/>
+    <line x1="174.4" y1="162" x2="174.4" y2="178"/>
+    <line x1="241.4" y1="162" x2="241.4" y2="178"/>
+    <line x1="342.2" y1="162" x2="342.2" y2="178"/>
+    <line x1="493.3" y1="162" x2="493.3" y2="178"/>
+    <line x1="720" y1="162" x2="720" y2="178"/>
+  </g>
+  <line x1="40" y1="160" x2="40" y2="180" stroke="#d9480f" stroke-width="3"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="129.5" y="150">第 5 层 · 6.6</text>
+    <text x="174.4" y="132">第 4 层 · 9.9</text>
+    <text x="241.4" y="150">第 3 层 · 14.8</text>
+    <text x="342.2" y="132">第 2 层 · 22.2</text>
+    <text x="493.3" y="150">第 1 层 · 33.3</text>
+    <text x="715" y="150">第 0 层 · 50</text>
+  </g>
+  <text x="40" y="150" font-size="13" font-weight="600" fill="#d9480f" text-anchor="middle">均衡 0</text>
+
+  <!-- winners (orange) -->
+  <g fill="#f08c00">
+    <circle cx="216.8" cy="170" r="6"/>
+    <circle cx="239.9" cy="170" r="6"/>
+    <circle cx="271.0" cy="170" r="6"/>
+  </g>
+  <!-- averages (blue) -->
+  <g fill="#4c78c9">
+    <circle cx="297.2" cy="170" r="6"/>
+    <circle cx="340.3" cy="170" r="6"/>
+    <circle cx="386.4" cy="170" r="6"/>
+    <circle cx="539.5" cy="170" r="6"/>
+  </g>
+
+  <!-- leaders: longest at left -->
+  <g stroke="#cbd2d9" stroke-width="1">
+    <line x1="216.8" y1="176" x2="216.8" y2="388"/>
+    <line x1="239.9" y1="176" x2="239.9" y2="363"/>
+    <line x1="271.0" y1="176" x2="271.0" y2="338"/>
+    <line x1="297.2" y1="176" x2="297.2" y2="313"/>
+    <line x1="340.3" y1="176" x2="340.3" y2="288"/>
+    <line x1="386.4" y1="176" x2="386.4" y2="263"/>
+    <line x1="539.5" y1="176" x2="539.5" y2="238"/>
+  </g>
+  <g font-size="13" fill="#1f2933">
+    <text x="224" y="392">英国《金融时报》赢家 13</text>
+    <text x="247" y="367">德国 Spektrum 杂志赢家 14.7</text>
+    <text x="278" y="342">西班牙 Expansión 报赢家 17.0</text>
+    <text x="304" y="317">《金融时报》平均 18.9</text>
+    <text x="347" y="292">Spektrum 平均 22.1</text>
+    <text x="393" y="267">Expansión 平均 25.5</text>
+    <text x="546" y="242">Nagel 1995 实验平均 36.7</text>
+  </g>
+
+  <g font-size="12" fill="#52606d">
+    <circle cx="520" cy="62" r="6" fill="#f08c00"/><text x="532" y="66">获胜数字</text>
+    <circle cx="620" cy="62" r="6" fill="#4c78c9"/><text x="632" y="66">所有人的平均</text>
+  </g>
+  <text x="24" y="58" font-size="12" fill="#7b8794">灰色刻度：第 k 层思考者会报的数字（越往左想得越深）</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d9480f"/></marker></defs>
+  <rect width="760" height="400" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">谁想动？箭头指向那个人单独改选后更好的格子</text>
+  <text x="315.0" y="96" font-size="14" fill="#1f2933" text-anchor="middle">对面：靠左</text>
+  <text x="485.0" y="96" font-size="14" fill="#1f2933" text-anchor="middle">对面：靠右</text>
+  <text x="218" y="160.0" font-size="14" fill="#1f2933" text-anchor="end">你：靠左</text>
+  <rect x="230" y="110" width="170" height="90" fill="#e6f4ea" stroke="#2b8a3e" stroke-width="3"/>
+  <text x="315.0" y="161.0" font-size="18" fill="#1f2933" text-anchor="middle">（2，2）</text>
+  <rect x="400" y="110" width="170" height="90" fill="#fdecec" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="485.0" y="161.0" font-size="18" fill="#1f2933" text-anchor="middle">（-4，-4）</text>
+  <text x="218" y="250.0" font-size="14" fill="#1f2933" text-anchor="end">你：靠右</text>
+  <rect x="230" y="200" width="170" height="90" fill="#fdecec" stroke="#cbd2d9" stroke-width="1.2"/>
+  <text x="315.0" y="251.0" font-size="18" fill="#1f2933" text-anchor="middle">（-4，-4）</text>
+  <rect x="400" y="200" width="170" height="90" fill="#e6f4ea" stroke="#2b8a3e" stroke-width="3"/>
+  <text x="485.0" y="251.0" font-size="18" fill="#1f2933" text-anchor="middle">（2，2）</text>
+  <line x1="515.0" y1="185.0" x2="515.0" y2="215.0" stroke="#d9480f" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="433.0" y1="129.0" x2="367.0" y2="129.0" stroke="#d9480f" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="285.0" y1="215.0" x2="285.0" y2="185.0" stroke="#d9480f" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="367.0" y1="271.0" x2="433.0" y2="271.0" stroke="#d9480f" stroke-width="3" marker-end="url(#a)"/>
+  <g font-size="13" fill="#1f2933">
+    <text x="230" y="324" fill="#2b8a3e" font-weight="600">绿色：靠同一边，没有箭头离开，是纳什均衡（有两个）</text>
+    <text x="230" y="348" fill="#c92a2a" font-weight="600">粉色：靠不同边，两个人都想改，箭头都指向绿色</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">"都不读"均衡里，偶尔有人读研，企业该怎么想？</text>
+
+  <!-- plot area: x: q 0..1 -> 90..690 (600 px); y: payoff -2..16 -> 360..60 (300px / 18 = 16.67 per unit) -->
+  <!-- y(v) = 360 - (v+2)*16.667 -->
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="90" y1="326.7" x2="690" y2="326.7"/>
+    <line x1="90" y1="260" x2="690" y2="260"/>
+    <line x1="90" y1="193.3" x2="690" y2="193.3"/>
+    <line x1="90" y1="126.7" x2="690" y2="126.7"/>
+    <line x1="90" y1="60" x2="690" y2="60"/>
+  </g>
+  <line x1="90" y1="360" x2="690" y2="360" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="60" x2="90" y2="360" stroke="#9aa5b1" stroke-width="1.5"/>
+
+  <!-- shaded region q > 0.9 -->
+  <rect x="630" y="60" width="60" height="300" fill="#fff4e6" opacity="0.9"/>
+
+  <!-- axis labels -->
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="82" y="364">-2</text>
+    <text x="82" y="330">0</text>
+    <text x="82" y="264">4</text>
+    <text x="82" y="197">8</text>
+    <text x="82" y="130">12</text>
+    <text x="82" y="64">16</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="90" y="380">0</text>
+    <text x="240" y="380">0.25</text>
+    <text x="390" y="380">0.5</text>
+    <text x="540" y="380">0.75</text>
+    <text x="690" y="380">1</text>
+    <text x="630" y="380">0.9</text>
+  </g>
+  <text x="390" y="403" font-size="13" fill="#1f2933" text-anchor="middle">企业看到有人读研时，认为"他是 H"的概率 q</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">应聘者得到的收益</text>
+
+  <!-- pooling payoff 13: y = 360 - 15*16.667 = 110 -->
+  <line x1="90" y1="110" x2="690" y2="110" stroke="#52606d" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="96" y="102" font-size="13" fill="#52606d">不读研（混同均衡里每个人的收益）= 13</text>
+
+  <!-- H read: 4 + 10q : q=0 -> y(4)=360-6*16.667=260 ; q=1 -> y(14)=360-16*16.667=93.3 -->
+  <line x1="90" y1="260" x2="690" y2="93.3" stroke="#4c78c9" stroke-width="3"/>
+  <!-- L read: -2 + 10q : q=0 -> y(-2)=360 ; q=1 -> y(8)=360-10*16.667=193.3 -->
+  <line x1="90" y1="360" x2="690" y2="193.3" stroke="#d9480f" stroke-width="3"/>
+
+  <circle cx="630" cy="110" r="5" fill="#4c78c9"/>
+  <text x="520" y="178" font-size="13" fill="#4c78c9" font-weight="600" text-anchor="end">H 读研：4 + 10q</text>
+  <text x="560" y="300" font-size="13" fill="#d9480f" font-weight="600" text-anchor="end">L 读研：-2 + 10q，最高只有 8</text>
+  <text x="660" y="86" font-size="12" fill="#1f2933" text-anchor="middle">q &gt; 0.9：</text>
+  <text x="660" y="102" font-size="12" fill="#1f2933" text-anchor="middle">H 想偏离</text>
+</svg>

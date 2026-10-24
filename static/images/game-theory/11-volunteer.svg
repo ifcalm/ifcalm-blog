@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">人越多，"没人出手"的可能反而越大</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="90.0" y1="300.0" x2="690.0" y2="300.0"/>
+    <line x1="90.0" y1="240.0" x2="690.0" y2="240.0"/>
+    <line x1="90.0" y1="180.0" x2="690.0" y2="180.0"/>
+    <line x1="90.0" y1="120.0" x2="690.0" y2="120.0"/>
+    <line x1="90.0" y1="60.0" x2="690.0" y2="60.0"/>
+  </g>
+  <line x1="90.0" y1="360" x2="690.0" y2="360" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90.0" y1="360" x2="90.0" y2="60.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="90.0" y="378">2</text>
+    <text x="190.0" y="378">5</text>
+    <text x="356.6666666666667" y="378">10</text>
+    <text x="523.3333333333334" y="378">15</text>
+    <text x="690.0" y="378">20</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="82.0" y="364">0%</text>
+    <text x="82.0" y="304.0">10%</text>
+    <text x="82.0" y="244.0">20%</text>
+    <text x="82.0" y="184.0">30%</text>
+    <text x="82.0" y="124.0">40%</text>
+    <text x="82.0" y="64.0">50%</text>
+  </g>
+  <text x="390.0" y="404" font-size="13" fill="#1f2933" text-anchor="middle">在场的人数 n</text>
+  <text x="24" y="52.0" font-size="12" fill="#7b8794">没有任何人出手的概率</text>
+  <line x1="90.0" y1="120.0" x2="690.0" y2="120.0" stroke="#d9480f" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="690.0" y="112.0" font-size="12" fill="#d9480f" text-anchor="end">上限：成本 ÷ 好处 = 40%</text>
+  <polyline points="90.0,264.0 123.3,208.2 156.7,183.2 190.0,169.1 223.3,160.2 256.7,154.0 290.0,149.4 323.3,146.0 356.7,143.2 390.0,141.0 423.3,139.2 456.7,137.6 490.0,136.3 523.3,135.2 556.7,134.2 590.0,133.4 623.3,132.6 656.7,131.9 690.0,131.3" fill="none" stroke="#4c78c9" stroke-width="3"/>
+  <circle cx="90.0" cy="264.0" r="5" fill="#4c78c9"/>
+  <text x="98.0" y="284.0" font-size="12" fill="#1f2933">16%</text>
+  <circle cx="190.0" cy="169.1" r="5" fill="#4c78c9"/>
+  <text x="198.0" y="189.1" font-size="12" fill="#1f2933">32%</text>
+  <circle cx="356.7" cy="143.2" r="5" fill="#4c78c9"/>
+  <text x="364.7" y="163.2" font-size="12" fill="#1f2933">36%</text>
+  <circle cx="690.0" cy="131.3" r="5" fill="#4c78c9"/>
+  <text x="698.0" y="151.3" font-size="12" fill="#1f2933">38%</text>
+</svg>

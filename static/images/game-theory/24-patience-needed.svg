@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="460" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">想让小周分得越少，你们就得越有耐心</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">横轴：小周每周的平均收益（越往右越接近保底线 1）；纵轴：维持这个结果至少需要的 δ</text>
+  <line x1="120" y1="360.0" x2="680" y2="360.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="120" y1="360.0" x2="120" y2="100.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="120" y1="318.33333333333337" x2="680" y2="318.33333333333337"/>
+    <line x1="120" y1="276.6666666666667" x2="680" y2="276.6666666666667"/>
+    <line x1="120" y1="235.00000000000003" x2="680" y2="235.00000000000003"/>
+    <line x1="120" y1="193.33333333333331" x2="680" y2="193.33333333333331"/>
+    <line x1="120" y1="151.66666666666666" x2="680" y2="151.66666666666666"/>
+    <line x1="120" y1="110.0" x2="680" y2="110.0"/>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="112" y="364.0">0.4</text>
+    <text x="112" y="322.33333333333337">0.5</text>
+    <text x="112" y="280.6666666666667">0.6</text>
+    <text x="112" y="239.00000000000003">0.7</text>
+    <text x="112" y="197.33333333333331">0.8</text>
+    <text x="112" y="155.66666666666666">0.9</text>
+    <text x="112" y="114.0">1</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="145.71428571428572" y="378.0">3</text>
+    <text x="274.28571428571433" y="378.0">2.5</text>
+    <text x="402.8571428571429" y="378.0">2</text>
+    <text x="531.4285714285713" y="378.0">1.5</text>
+    <text x="660.0" y="378.0">1</text>
+  </g>
+  <polyline points="145.7,318.3 300.0,239.2 402.9,217.1 531.4,175.4 660.0,112.1" fill="none" stroke="#d9480f" stroke-width="3" stroke-dasharray="0"/>
+  <circle cx="145.7" cy="318.3" r="6" fill="#d9480f"/>
+  <text x="145.7" y="304.3" font-size="12" fill="#1f2933" text-anchor="middle">(3, 3)</text>
+  <text x="145.7" y="340.3" font-size="12" fill="#d9480f" text-anchor="middle">δ ≥ 0.50</text>
+  <circle cx="300.0" cy="239.2" r="6" fill="#d9480f"/>
+  <text x="300.0" y="225.2" font-size="12" fill="#1f2933" text-anchor="middle">(3.4, 2.4)</text>
+  <text x="300.0" y="261.2" font-size="12" fill="#d9480f" text-anchor="middle">δ ≥ 0.69</text>
+  <circle cx="402.9" cy="217.1" r="6" fill="#d9480f"/>
+  <text x="402.9" y="203.1" font-size="12" fill="#1f2933" text-anchor="middle">(3.67, 2)</text>
+  <text x="402.9" y="239.1" font-size="12" fill="#d9480f" text-anchor="middle">δ ≥ 0.74</text>
+  <circle cx="531.4" cy="175.4" r="6" fill="#d9480f"/>
+  <text x="531.4" y="161.4" font-size="12" fill="#1f2933" text-anchor="middle">(4, 1.5)</text>
+  <text x="531.4" y="197.4" font-size="12" fill="#d9480f" text-anchor="middle">δ ≥ 0.84</text>
+  <circle cx="660.0" cy="112.1" r="6" fill="#ffffff" stroke="#d9480f" stroke-width="2"/>
+  <text x="652.0" y="98.1" font-size="12" fill="#1f2933" text-anchor="end">(13/3, 1)：δ 要无限接近 1</text>
+  <text x="24" y="430" font-size="12" fill="#7b8794">括号里是（你，小周）的平均收益。每个点都用触发策略验算过：任何一周的偏离，收益都不高于永远回到 (1, 1) 的惩罚。</text>
+</svg>

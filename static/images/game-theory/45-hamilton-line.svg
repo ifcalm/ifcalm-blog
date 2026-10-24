@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">帮忙划不划算，看"好处有多大比例落在自己人身上"</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">帮一次，自己付出 1，对方得到 5。纵轴：帮忙的人比不帮忙的人，平均多赚多少（= 5r − 1）；横轴 r：好处落到同类身上的程度</text>
+  <line x1="90" y1="229.4" x2="670" y2="229.4" stroke="#9aa5b1" stroke-width="2"/>
+  <line x1="90" y1="100" x2="90" y2="300" stroke="#9aa5b1" stroke-width="1.5"/>
+  <polyline points="90.0,288.2 670.0,111.8" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="283.3" cy="229.4" r="5" fill="#d9480f"/><text x="293.3" y="251.4" font-size="12" fill="#1f2933" font-weight="600" text-anchor="start">r = 0.2：刚好打平</text>
+  <circle cx="210.8" cy="251.5" r="5" fill="#d9480f"/><text x="200.8" y="255.5" font-size="12" fill="#52606d" font-weight="600" text-anchor="end">表亲 1/8</text>
+  <circle cx="331.7" cy="214.7" r="5" fill="#d9480f"/><text x="321.7" y="200.7" font-size="12" fill="#52606d" font-weight="600" text-anchor="end">同父异母的兄弟姐妹 1/4</text>
+  <circle cx="573.3" cy="141.2" r="5" fill="#d9480f"/><text x="543.3" y="127.2" font-size="12" fill="#52606d" font-weight="600" >亲兄弟姐妹 1/2</text>
+  <text x="90.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0</text>
+  <text x="186.7" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.1</text>
+  <text x="283.3" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.2</text>
+  <text x="380.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.3</text>
+  <text x="476.7" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.4</text>
+  <text x="573.3" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.5</text>
+  <text x="670.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.6</text>
+  <text x="82" y="292.2" font-size="12" fill="#52606d" text-anchor="end">-1</text>
+  <text x="82" y="233.4" font-size="12" fill="#52606d" text-anchor="end">0</text>
+  <text x="82" y="174.6" font-size="12" fill="#52606d" text-anchor="end">1</text>
+  <text x="82" y="115.8" font-size="12" fill="#52606d" text-anchor="end">2</text>
+  <text x="380.0" y="340" font-size="12" fill="#52606d" text-anchor="middle">r（血缘关系；换成"回礼的概率""被人知道口碑的概率"，同一条线照样成立）</text>
+  <text x="24" y="392" font-size="13" fill="#1f2933">线在 0 以上的地方，帮忙的基因会越来越多；线在 0 以下，只会越来越少。</text>
+  <text x="24" y="414" font-size="12" fill="#7b8794">表亲 5/8 − 1 = −0.375；同父异母 5/4 − 1 = 0.25；亲兄弟姐妹 5/2 − 1 = 1.5。</text>
+</svg>

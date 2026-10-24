@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">只改一个人的门槛，整场连锁反应就停了</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">10 个人，各有一个"门槛"：看到至少这么多人已经行动，我才行动。纵轴：已经行动的人数</text>
+  <text x="185.0" y="92" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">门槛是 0、1、2、……、9</text>
+  <rect x="60" y="120" width="250" height="180" fill="#fafbfc" stroke="#e4e7eb"/>
+  <line x1="60" y1="300.0" x2="310" y2="300.0" stroke="#e4e7eb"/><text x="54" y="304.0" font-size="11" fill="#7b8794" text-anchor="end">0</text>
+  <line x1="60" y1="210.0" x2="310" y2="210.0" stroke="#e4e7eb"/><text x="54" y="214.0" font-size="11" fill="#7b8794" text-anchor="end">5</text>
+  <line x1="60" y1="120.0" x2="310" y2="120.0" stroke="#e4e7eb"/><text x="54" y="124.0" font-size="11" fill="#7b8794" text-anchor="end">10</text>
+  <polyline points="60.0,300.0 82.7,282.0 105.5,264.0 128.2,246.0 150.9,228.0 173.6,210.0 196.4,192.0 219.1,174.0 241.8,156.0 264.5,138.0 287.3,120.0" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="60.0" cy="300.0" r="4" fill="#d9480f"/>
+  <circle cx="82.7" cy="282.0" r="4" fill="#d9480f"/>
+  <circle cx="105.5" cy="264.0" r="4" fill="#d9480f"/>
+  <circle cx="128.2" cy="246.0" r="4" fill="#d9480f"/>
+  <circle cx="150.9" cy="228.0" r="4" fill="#d9480f"/>
+  <circle cx="173.6" cy="210.0" r="4" fill="#d9480f"/>
+  <circle cx="196.4" cy="192.0" r="4" fill="#d9480f"/>
+  <circle cx="219.1" cy="174.0" r="4" fill="#d9480f"/>
+  <circle cx="241.8" cy="156.0" r="4" fill="#d9480f"/>
+  <circle cx="264.5" cy="138.0" r="4" fill="#d9480f"/>
+  <circle cx="287.3" cy="120.0" r="4" fill="#d9480f"/>
+  <text x="185.0" y="322" font-size="12" fill="#52606d" text-anchor="middle">第几轮</text>
+  <text x="565.0" y="92" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">把门槛 1 的人换成门槛 2</text>
+  <rect x="440" y="120" width="250" height="180" fill="#fafbfc" stroke="#e4e7eb"/>
+  <line x1="440" y1="300.0" x2="690" y2="300.0" stroke="#e4e7eb"/><text x="434" y="304.0" font-size="11" fill="#7b8794" text-anchor="end">0</text>
+  <line x1="440" y1="210.0" x2="690" y2="210.0" stroke="#e4e7eb"/><text x="434" y="214.0" font-size="11" fill="#7b8794" text-anchor="end">5</text>
+  <line x1="440" y1="120.0" x2="690" y2="120.0" stroke="#e4e7eb"/><text x="434" y="124.0" font-size="11" fill="#7b8794" text-anchor="end">10</text>
+  <polyline points="440.0,300.0 462.7,282.0 485.5,282.0" fill="none" stroke="#4c78c9" stroke-width="3"/>
+  <circle cx="440.0" cy="300.0" r="4" fill="#4c78c9"/>
+  <circle cx="462.7" cy="282.0" r="4" fill="#4c78c9"/>
+  <circle cx="485.5" cy="282.0" r="4" fill="#4c78c9"/>
+  <text x="565.0" y="322" font-size="12" fill="#52606d" text-anchor="middle">第几轮</text>
+  <text x="24" y="360" font-size="13" fill="#1f2933">左：每一轮多一个人，十个人全部行动。右：只有门槛 0 的人行动，门槛 1 的位置空了，后面谁也等不到。</text>
+  <text x="24" y="382" font-size="12" fill="#7b8794">两个群体的"平均门槛"几乎一样，结果却是 10 对 1。</text>
+</svg>

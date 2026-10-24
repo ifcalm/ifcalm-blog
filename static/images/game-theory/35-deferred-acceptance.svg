@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <defs><marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#52606d"/></marker>
+  <marker id="ag" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#2f9e44"/></marker>
+  <marker id="ao" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#d9480f"/></marker></defs>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">延迟接受：学生一轮一轮地求，公司先"暂时留着"最好的</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">每家公司一个名额。绿箭头：暂时被留下；橙箭头：被拒绝</text>
+  <text x="200" y="92" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">第 1 轮：三个人都求 A</text>
+  <rect x="40" y="130" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="75" y="156" font-size="14" fill="#1f2933" text-anchor="middle">你</text>
+  <rect x="40" y="200" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="75" y="226" font-size="14" fill="#1f2933" text-anchor="middle">小周</text>
+  <rect x="40" y="270" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="75" y="296" font-size="14" fill="#1f2933" text-anchor="middle">小林</text>
+  <rect x="290" y="130" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="325" y="156" font-size="14" fill="#1f2933" text-anchor="middle">公司 A</text>
+  <rect x="290" y="200" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="325" y="226" font-size="14" fill="#1f2933" text-anchor="middle">公司 B</text>
+  <rect x="290" y="270" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="325" y="296" font-size="14" fill="#1f2933" text-anchor="middle">公司 C</text>
+  <text x="560" y="92" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">第 2 轮：被拒的两人求下一志愿</text>
+  <rect x="400" y="130" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="435" y="156" font-size="14" fill="#1f2933" text-anchor="middle">你</text>
+  <rect x="400" y="200" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="435" y="226" font-size="14" fill="#1f2933" text-anchor="middle">小周</text>
+  <rect x="400" y="270" width="70" height="40" rx="8" fill="#eef1f5" stroke="#9aa5b1"/><text x="435" y="296" font-size="14" fill="#1f2933" text-anchor="middle">小林</text>
+  <rect x="650" y="130" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="685" y="156" font-size="14" fill="#1f2933" text-anchor="middle">公司 A</text>
+  <rect x="650" y="200" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="685" y="226" font-size="14" fill="#1f2933" text-anchor="middle">公司 B</text>
+  <rect x="650" y="270" width="70" height="40" rx="8" fill="#fafbfc" stroke="#9aa5b1"/><text x="685" y="296" font-size="14" fill="#1f2933" text-anchor="middle">公司 C</text>
+  <line x1="112" y1="150" x2="288" y2="150" stroke="#d9480f" stroke-width="2.5" marker-end="url(#ao)"/>
+  <line x1="112" y1="220" x2="288" y2="150" stroke="#d9480f" stroke-width="2.5" marker-end="url(#ao)"/>
+  <line x1="112" y1="290" x2="288" y2="150" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ag)"/>
+  <text x="200" y="360" font-size="12" fill="#52606d" text-anchor="middle">A 更喜欢小林：留下小林，拒绝你和小周</text>
+  <line x1="472" y1="150" x2="648" y2="220" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ag)"/>
+  <line x1="472" y1="220" x2="648" y2="290" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ag)"/>
+  <text x="560" y="360" font-size="12" fill="#52606d" text-anchor="middle">B、C 各只有一个人求，都留下</text>
+  <text x="24" y="400" font-size="13" fill="#1f2933">结果：小林—A，你—B，小周—C。没有人再被拒绝，算法结束。</text>
+  <text x="24" y="422" font-size="12" fill="#7b8794">这就是"学生求婚"的结果：每个学生在所有稳定的分法里，得到的是最好的那个。</text>
+</svg>

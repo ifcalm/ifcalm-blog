@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="330" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">同一个理论预测，现实却随"奖惩多大"而变</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">旅行者困境的实验：可报 80 到 200（美分），理论预测的结果是 80</text>
+  <line x1="90" y1="170" x2="690" y2="170" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <line x1="90" y1="164" x2="90" y2="176" stroke="#9aa5b1" stroke-width="1.5"/>
+    <text x="90" y="194">80</text>
+    <line x1="290" y1="164" x2="290" y2="176" stroke="#9aa5b1" stroke-width="1.5"/>
+    <text x="290" y="194">120</text>
+    <line x1="490" y1="164" x2="490" y2="176" stroke="#9aa5b1" stroke-width="1.5"/>
+    <text x="490" y="194">160</text>
+    <line x1="590" y1="164" x2="590" y2="176" stroke="#9aa5b1" stroke-width="1.5"/>
+    <text x="590" y="194">180</text>
+    <line x1="690" y1="164" x2="690" y2="176" stroke="#9aa5b1" stroke-width="1.5"/>
+    <text x="690" y="194">200</text>
+  </g>
+  <circle cx="90" cy="170" r="9" fill="#2b8a3e"/>
+  <text x="90" y="142" font-size="13" fill="#2b8a3e" font-weight="600" text-anchor="middle">理论预测 80</text>
+  <circle cx="290" cy="170" r="9" fill="#4c78c9"/>
+  <text x="290" y="142" font-size="13" fill="#4c78c9" font-weight="600" text-anchor="middle">平均 120</text>
+  <text x="290" y="226" font-size="13" fill="#1f2933" text-anchor="middle">奖惩 80 美分</text>
+  <circle cx="590" cy="170" r="9" fill="#d9480f"/>
+  <text x="590" y="142" font-size="13" fill="#d9480f" font-weight="600" text-anchor="middle">平均 180</text>
+  <text x="590" y="226" font-size="13" fill="#1f2933" text-anchor="middle">奖惩 5 美分</text>
+  <text x="690" y="250" font-size="12" fill="#7b8794" text-anchor="middle">上限 200</text>
+  <text x="380" y="292" font-size="12" fill="#7b8794" text-anchor="middle">数据来源：Capra、Goeree、Gomez、Holt 的实验，经 Basu 在《科学美国人》上转述</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">你踢左的比例，要怎么定？让对手无论怎么扑，你的进球率都一样</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="90" y1="317.1428571428571" x2="690" y2="317.1428571428571"/>
+    <line x1="90" y1="274.2857142857143" x2="690" y2="274.2857142857143"/>
+    <line x1="90" y1="231.42857142857142" x2="690" y2="231.42857142857142"/>
+    <line x1="90" y1="188.57142857142858" x2="690" y2="188.57142857142858"/>
+    <line x1="90" y1="145.71428571428572" x2="690" y2="145.71428571428572"/>
+    <line x1="90" y1="102.85714285714283" x2="690" y2="102.85714285714283"/>
+  </g>
+  <line x1="90" y1="360.0" x2="690" y2="360.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="360.0" x2="90" y2="60.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="90" y="378.0">0</text>
+    <text x="240.0" y="378.0">0.25</text>
+    <text x="315.0" y="378.0">0.375</text>
+    <text x="390.0" y="378.0">0.5</text>
+    <text x="540.0" y="378.0">0.75</text>
+    <text x="690" y="378.0">1</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="82" y="321.1428571428571">0.4</text>
+    <text x="82" y="278.2857142857143">0.5</text>
+    <text x="82" y="235.42857142857142">0.6</text>
+    <text x="82" y="192.57142857142858">0.7</text>
+    <text x="82" y="149.71428571428572">0.8</text>
+    <text x="82" y="106.85714285714283">0.9</text>
+  </g>
+  <text x="390.0" y="404.0" font-size="13" fill="#1f2933" text-anchor="middle">你踢左的概率 q</text>
+  <text x="24" y="54.0" font-size="12" fill="#7b8794">你的进球概率</text>
+  <line x1="90" y1="145.71428571428572" x2="690" y2="317.1428571428571" stroke="#4c78c9" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="90" y1="274.2857142857143" x2="690" y2="102.85714285714283" stroke="#2b8a3e" stroke-width="2" stroke-dasharray="6 5"/>
+  <polyline points="90,274.2857142857143 315.0,209.99999999999997 690,317.1428571428571" fill="none" stroke="#d9480f" stroke-width="4"/>
+  <circle cx="315.0" cy="209.99999999999997" r="8" fill="#d9480f"/>
+  <text x="315.0" y="238" font-size="13" fill="#d9480f" font-weight="600" text-anchor="middle">q = 3/8：进球率 0.65</text>
+  <text x="114.0" y="135.71428571428572" font-size="13" fill="#4c78c9">守门员扑左时，你的进球率：0.8 − 0.4q</text>
+  <text x="666.0" y="92.85714285714283" font-size="13" fill="#2b8a3e" text-anchor="end">守门员扑右时：0.5 + 0.4q</text>
+  <text x="100" y="336" font-size="13" fill="#d9480f" font-weight="600">红线：守门员选对自己最有利的一边后，你的进球率</text>
+</svg>

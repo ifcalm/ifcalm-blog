@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 525" width="760" height="525" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="525" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">相关均衡能到达纳什均衡够不着的地方</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">横轴：你的平均收益；纵轴：小周的平均收益（让 / 抢 的博弈）</text>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="110.0" y1="440.0" x2="110.0" y2="72.0"/>
+    <line x1="110.0" y1="440.0" x2="478.0" y2="440.0"/>
+    <line x1="156.0" y1="440.0" x2="156.0" y2="72.0"/>
+    <line x1="110.0" y1="394.0" x2="478.0" y2="394.0"/>
+    <line x1="202.0" y1="440.0" x2="202.0" y2="72.0"/>
+    <line x1="110.0" y1="348.0" x2="478.0" y2="348.0"/>
+    <line x1="248.0" y1="440.0" x2="248.0" y2="72.0"/>
+    <line x1="110.0" y1="302.0" x2="478.0" y2="302.0"/>
+    <line x1="294.0" y1="440.0" x2="294.0" y2="72.0"/>
+    <line x1="110.0" y1="256.0" x2="478.0" y2="256.0"/>
+    <line x1="340.0" y1="440.0" x2="340.0" y2="72.0"/>
+    <line x1="110.0" y1="210.0" x2="478.0" y2="210.0"/>
+    <line x1="386.0" y1="440.0" x2="386.0" y2="72.0"/>
+    <line x1="110.0" y1="164.0" x2="478.0" y2="164.0"/>
+    <line x1="432.0" y1="440.0" x2="432.0" y2="72.0"/>
+    <line x1="110.0" y1="118.0" x2="478.0" y2="118.0"/>
+    <line x1="478.0" y1="440.0" x2="478.0" y2="72.0"/>
+    <line x1="110.0" y1="72.0" x2="478.0" y2="72.0"/>
+  </g>
+  <line x1="110.0" y1="440.0" x2="478.0" y2="440.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="110.0" y1="440.0" x2="110.0" y2="72.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="110.0" y="454.8">0</text>
+    <text x="156.0" y="454.8">1</text>
+    <text x="202.0" y="454.8">2</text>
+    <text x="248.0" y="454.8">3</text>
+    <text x="294.0" y="454.8">4</text>
+    <text x="340.0" y="454.8">5</text>
+    <text x="386.0" y="454.8">6</text>
+    <text x="432.0" y="454.8">7</text>
+    <text x="478.0" y="454.8">8</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="103.4" y="443.3">0</text>
+    <text x="103.4" y="397.3">1</text>
+    <text x="103.4" y="351.3">2</text>
+    <text x="103.4" y="305.3">3</text>
+    <text x="103.4" y="259.3">4</text>
+    <text x="103.4" y="213.3">5</text>
+    <text x="103.4" y="167.3">6</text>
+    <text x="103.4" y="121.3">7</text>
+    <text x="102.0" y="-24.0">8</text>
+  </g>
+  <polygon points="110.0,440.0 202.0,118.0 386.0,164.0 432.0,348.0" fill="#eef1f5" stroke="#9aa5b1" stroke-width="1.5"/>
+  <polygon points="202.0,118.0 208.2,131.1 226.6,170.2 263.4,248.4 275.6,274.4 301.6,286.6 379.8,323.4 418.9,341.8 432.0,348.0 421.2,328.0 372.9,238.3 356.8,208.4 351.5,198.5 341.6,193.2 311.7,177.1 222.0,128.8" fill="#bfe5c8" stroke="#2f9e44" stroke-width="2"/>
+  <polygon points="202.0,118.0 432.0,348.0 324.6,225.4" fill="#fdebe5" stroke="#d9480f" stroke-width="2"/>
+  <circle cx="202.0" cy="118.0" r="5" fill="#d9480f"/><text x="195.4" y="111.4" font-size="12" fill="#d9480f" text-anchor="end">(2, 7) 纳什</text>
+  <circle cx="432.0" cy="348.0" r="5" fill="#d9480f"/><text x="438.6" y="359.5" font-size="12" fill="#d9480f">(7, 2) 纳什</text>
+  <circle cx="324.6" cy="225.4" r="5" fill="#d9480f"/><text x="318.1" y="238.5" font-size="12" fill="#d9480f" text-anchor="end">(4.67, 4.67) 纳什</text>
+  <circle cx="386.0" cy="164.0" r="5" fill="#1f2933"/><text x="392.6" y="157.4" font-size="12" fill="#1f2933">(6, 6) 不是均衡</text>
+  <circle cx="340.0" cy="210.0" r="6" fill="#2f9e44"/><text x="348.2" y="205.1" font-size="13" fill="#2f9e44" font-weight="600">(5, 5) 红绿灯</text>
+  <circle cx="110.0" cy="440.0" r="5" fill="#9aa5b1"/><text x="116.6" y="433.4" font-size="12" fill="#7b8794">(0, 0) 撞车</text>
+  <text x="24" y="492" font-size="12" fill="#7b8794">橙色三角：纳什均衡（含随机）的收益；绿色：相关均衡的收益；灰色：所有可能的收益。</text>
+  <text x="24" y="511" font-size="12" fill="#7b8794">绿色区域延伸到橙色三角之外，说明有信号的协调，能做到纳什均衡做不到的好结果。</text>
+</svg>

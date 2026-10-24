@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="360" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">有几个人额头上有红点，就要等到第几轮才有人举手</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">主持人公开说"至少一个人有红点"，之后每轮问："知道自己有红点的请举手"</text>
+  <g font-size="13" fill="#52606d" text-anchor="middle">
+    <text x="330" y="96">第 1 轮</text><text x="470" y="96">第 2 轮</text><text x="610" y="96">第 3 轮</text>
+  </g>
+  <text x="40" y="146" font-size="14" fill="#1f2933">只有 1 人有红点</text>
+  <rect x="265" y="112" width="130" height="56" rx="6" fill="#d9480f"/>
+  <text x="330" y="136" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">有红点的人</text>
+  <text x="330" y="155" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">一起举手</text>
+  <rect x="405" y="112" width="130" height="56" rx="6" fill="#f5f7fa" stroke="#e4e7eb"/>
+  <text x="470" y="145" font-size="12" fill="#9aa5b1" text-anchor="middle">（已结束）</text>
+  <rect x="545" y="112" width="130" height="56" rx="6" fill="#f5f7fa" stroke="#e4e7eb"/>
+  <text x="610" y="145" font-size="12" fill="#9aa5b1" text-anchor="middle">（已结束）</text>
+  <text x="40" y="216" font-size="14" fill="#1f2933">2 人有红点</text>
+  <rect x="265" y="182" width="130" height="56" rx="6" fill="#eef1f5"/>
+  <text x="330" y="215" font-size="14" fill="#52606d" text-anchor="middle">沉默</text>
+  <rect x="405" y="182" width="130" height="56" rx="6" fill="#d9480f"/>
+  <text x="470" y="206" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">有红点的人</text>
+  <text x="470" y="225" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">一起举手</text>
+  <rect x="545" y="182" width="130" height="56" rx="6" fill="#f5f7fa" stroke="#e4e7eb"/>
+  <text x="610" y="215" font-size="12" fill="#9aa5b1" text-anchor="middle">（已结束）</text>
+  <text x="40" y="286" font-size="14" fill="#1f2933">3 人有红点</text>
+  <rect x="265" y="252" width="130" height="56" rx="6" fill="#eef1f5"/>
+  <text x="330" y="285" font-size="14" fill="#52606d" text-anchor="middle">沉默</text>
+  <rect x="405" y="252" width="130" height="56" rx="6" fill="#eef1f5"/>
+  <text x="470" y="285" font-size="14" fill="#52606d" text-anchor="middle">沉默</text>
+  <rect x="545" y="252" width="130" height="56" rx="6" fill="#d9480f"/>
+  <text x="610" y="276" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">有红点的人</text>
+  <text x="610" y="295" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">一起举手</text>
+  <text x="24" y="336" font-size="13" fill="#1f2933">每多一个红点，就多沉默一轮：每一轮的沉默，都是一条所有人听得见的新信息。</text>
+</svg>

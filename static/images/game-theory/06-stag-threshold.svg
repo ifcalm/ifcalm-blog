@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">你要多确信搭档会去猎鹿，才敢去猎鹿？</text>
+  <rect x="90" y="59.985000000000014" width="450.0" height="300.015" fill="#fff4e6"/>
+  <rect x="540.0" y="59.985000000000014" width="150.0" height="300.015" fill="#e6f4ea"/>
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="90" y1="293.33" x2="690" y2="293.33"/>
+    <line x1="90" y1="226.66" x2="690" y2="226.66"/>
+    <line x1="90" y1="159.99" x2="690" y2="159.99"/>
+    <line x1="90" y1="93.32" x2="690" y2="93.32"/>
+  </g>
+  <line x1="90" y1="360.0" x2="690" y2="360.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="360.0" x2="90" y2="59.985000000000014" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="90" y="378.0">0%</text>
+    <text x="240.0" y="378.0">25%</text>
+    <text x="390.0" y="378.0">50%</text>
+    <text x="540.0" y="378.0">75%</text>
+    <text x="690" y="378.0">100%</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="82" y="364.0">0</text>
+    <text x="82" y="297.33">1</text>
+    <text x="82" y="230.66">2</text>
+    <text x="82" y="163.99">3</text>
+    <text x="82" y="97.32">4</text>
+  </g>
+  <text x="390.0" y="404.0" font-size="13" fill="#1f2933" text-anchor="middle">你认为搭档去猎鹿的把握 p</text>
+  <text x="24" y="53.985000000000014" font-size="12" fill="#7b8794">你的期望收益</text>
+  <line x1="90" y1="360.0" x2="690" y2="93.32" stroke="#2b8a3e" stroke-width="3"/>
+  <line x1="90" y1="159.99" x2="690" y2="159.99" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="540.0" cy="159.99" r="7" fill="#1f2933"/>
+  <text x="540.0" y="145.99" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">p = 75%：两者一样好</text>
+  <text x="240.0" y="183.99" font-size="13" fill="#d9480f" text-anchor="middle" font-weight="600">抓兔：稳拿 3</text>
+  <text x="330.0" y="245.32799999999997" font-size="13" fill="#2b8a3e" font-weight="600" text-anchor="middle">猎鹿：4 × p</text>
+  <text x="315.0" y="79.98599999999999" font-size="13" fill="#d9480f" text-anchor="middle">这一块：抓兔更好</text>
+  <text x="615.0" y="79.98599999999999" font-size="13" fill="#2b8a3e" text-anchor="middle">猎鹿更好</text>
+</svg>

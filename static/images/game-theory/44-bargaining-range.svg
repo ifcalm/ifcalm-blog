@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="400" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">打仗是亏本买卖，总有双方都更愿意的和平分法</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">争一块价值 100 的地。甲国打赢的概率 0.6；每打一场，双方各付 10 的代价。横轴：和平时甲国分到多少</text>
+  <line x1="80" y1="190" x2="680" y2="190" stroke="#9aa5b1" stroke-width="2"/>
+  <line x1="80.0" y1="186" x2="80.0" y2="194" stroke="#9aa5b1"/><text x="80.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">0</text>
+  <line x1="140.0" y1="186" x2="140.0" y2="194" stroke="#9aa5b1"/><text x="140.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">10</text>
+  <line x1="200.0" y1="186" x2="200.0" y2="194" stroke="#9aa5b1"/><text x="200.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">20</text>
+  <line x1="260.0" y1="186" x2="260.0" y2="194" stroke="#9aa5b1"/><text x="260.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">30</text>
+  <line x1="320.0" y1="186" x2="320.0" y2="194" stroke="#9aa5b1"/><text x="320.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">40</text>
+  <line x1="380.0" y1="186" x2="380.0" y2="194" stroke="#9aa5b1"/><text x="380.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">50</text>
+  <line x1="440.0" y1="186" x2="440.0" y2="194" stroke="#9aa5b1"/><text x="440.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">60</text>
+  <line x1="500.0" y1="186" x2="500.0" y2="194" stroke="#9aa5b1"/><text x="500.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">70</text>
+  <line x1="560.0" y1="186" x2="560.0" y2="194" stroke="#9aa5b1"/><text x="560.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">80</text>
+  <line x1="620.0" y1="186" x2="620.0" y2="194" stroke="#9aa5b1"/><text x="620.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">90</text>
+  <line x1="680.0" y1="186" x2="680.0" y2="194" stroke="#9aa5b1"/><text x="680.0" y="212" font-size="12" fill="#52606d" text-anchor="middle">100</text>
+  <rect x="380.0" y="150" width="120.0" height="40" fill="#4c6ef5" opacity="0.8"/>
+  <text x="440.0" y="176" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">双方都愿意</text>
+  <line x1="380.0" y1="110" x2="380.0" y2="190" stroke="#d9480f" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="500.0" y1="110" x2="500.0" y2="190" stroke="#d9480f" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="386.0" y="100" font-size="12" fill="#d9480f" text-anchor="end" font-weight="600">甲国：低于 50 不如打</text>
+  <text x="494.0" y="100" font-size="12" fill="#d9480f" text-anchor="start" font-weight="600">乙国：甲国要超过 70 不如打</text>
+  <text x="380.0" y="236" font-size="12" fill="#52606d" text-anchor="middle">甲国分到的份额</text>
+  <text x="24" y="290" font-size="13" fill="#1f2933">打仗：甲国期望 0.6 × 100 − 10 = 50，乙国期望 0.4 × 100 − 10 = 30，合起来只有 80。</text>
+  <text x="24" y="314" font-size="13" fill="#1f2933">和平：任何一种分法，合起来都有 100。只要甲国分到 50 到 70 之间，两国都比打仗强。</text>
+  <text x="24" y="338" font-size="12" fill="#7b8794">区间的宽度 = 20 = 双方代价之和。代价越高，能谈拢的空间越大。</text>
+</svg>

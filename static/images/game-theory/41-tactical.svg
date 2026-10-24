@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="420" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">"投给真心想要的"，还是"投给能赢的"？</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">100 位选民：41 人 A > B > C；34 人 B > C > A；25 人 C > B > A。只数第一名的票，得票最多的赢</text>
+  <text x="190.0" y="76" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">大家都投真心想要的</text>
+  <text x="190.0" y="94" font-size="11" fill="#7b8794" text-anchor="middle">A 赢（C 的支持者最不想要 A）</text>
+  <line x1="50" y1="280" x2="330" y2="280" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="75" y="180.4" width="60" height="99.6" rx="3" fill="#4c78c9"/><text x="105" y="174.4" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">41</text><text x="105" y="298" font-size="13" fill="#52606d" text-anchor="middle">A</text>
+  <rect x="160" y="197.4" width="60" height="82.6" rx="3" fill="#d9480f"/><text x="190" y="191.4" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">34</text><text x="190" y="298" font-size="13" fill="#52606d" text-anchor="middle">B</text>
+  <rect x="245" y="219.3" width="60" height="60.7" rx="3" fill="#9aa5b1"/><text x="275" y="213.3" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">25</text><text x="275" y="298" font-size="13" fill="#52606d" text-anchor="middle">C</text>
+  <text x="570.0" y="76" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">C 的支持者改投 B</text>
+  <text x="570.0" y="94" font-size="11" fill="#7b8794" text-anchor="middle">B 赢（C 的支持者得到第二选择）</text>
+  <line x1="430" y1="280" x2="710" y2="280" stroke="#9aa5b1" stroke-width="1.5"/>
+  <rect x="455" y="180.4" width="60" height="99.6" rx="3" fill="#4c78c9"/><text x="485" y="174.4" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">41</text><text x="485" y="298" font-size="13" fill="#52606d" text-anchor="middle">A</text>
+  <rect x="540" y="136.7" width="60" height="143.3" rx="3" fill="#d9480f"/><text x="570" y="130.7" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">59</text><text x="570" y="298" font-size="13" fill="#52606d" text-anchor="middle">B</text>
+  <rect x="625" y="280.0" width="60" height="1.0" rx="3" fill="#9aa5b1"/><text x="655" y="274.0" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">0</text><text x="655" y="298" font-size="13" fill="#52606d" text-anchor="middle">C</text>
+  <text x="24" y="358" font-size="13" fill="#1f2933">C 的 25 位支持者，真心想要的是 C，可是 C 赢不了；与其让最不想要的 A 赢，不如把票投给 B。这就是"策略性投票"。</text>
+  <text x="24" y="380" font-size="12" fill="#7b8794">说真话（投 C）对他们并不是最好的做法：他们的票被"浪费"了。</text>
+</svg>

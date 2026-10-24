@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="360" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">同一批学生，两种规则，三种填法</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">三所学校 X、Y、Z 各 1 个名额。X 的优先顺序：小周 > 你 > 小林；Y：你 > 小林 > 小周；Z：你 > 小周 > 小林</text>
+  <text x="85.0" y="88" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">学生</text>
+  <text x="205.0" y="88" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">真实志愿</text>
+  <text x="355.0" y="88" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">波士顿规则：</text>
+  <text x="355.0" y="104" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">都如实填</text>
+  <text x="525.0" y="88" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">波士顿规则：</text>
+  <text x="525.0" y="104" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">你把 Y 填在第一位</text>
+  <text x="680.0" y="88" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">延迟接受：</text>
+  <text x="680.0" y="104" font-size="12" fill="#52606d" text-anchor="middle" font-weight="600">都如实填</text>
+  <rect x="30" y="125" width="106" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="83.0" y="150" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">你（a）</text>
+  <rect x="140" y="125" width="126" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="203.0" y="150" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">X > Y > Z</text>
+  <rect x="270" y="125" width="166" height="40" fill="#fff4e6" stroke="#cbd2d9"/><text x="353.0" y="150" font-size="12" fill="#d9480f" text-anchor="middle" font-weight="600">Z（第 3 志愿）</text>
+  <rect x="440" y="125" width="166" height="40" fill="#fff4e6" stroke="#cbd2d9"/><text x="523.0" y="150" font-size="12" fill="#2b8a3e" text-anchor="middle" font-weight="600">Y（第 2 志愿）</text>
+  <rect x="610" y="125" width="136" height="40" fill="#fff4e6" stroke="#cbd2d9"/><text x="678.0" y="150" font-size="12" fill="#2b8a3e" text-anchor="middle" font-weight="600">Y（第 2 志愿）</text>
+  <rect x="30" y="173" width="106" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="83.0" y="198" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">小周（b）</text>
+  <rect x="140" y="173" width="126" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="203.0" y="198" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">X > Z > Y</text>
+  <rect x="270" y="173" width="166" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="353.0" y="198" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">X（第 1 志愿）</text>
+  <rect x="440" y="173" width="166" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="523.0" y="198" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">X（第 1 志愿）</text>
+  <rect x="610" y="173" width="136" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="678.0" y="198" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">X（第 1 志愿）</text>
+  <rect x="30" y="221" width="106" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="83.0" y="246" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">小林（c）</text>
+  <rect x="140" y="221" width="126" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="203.0" y="246" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">Y > X > Z</text>
+  <rect x="270" y="221" width="166" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="353.0" y="246" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">Y（第 1 志愿）</text>
+  <rect x="440" y="221" width="166" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="523.0" y="246" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">Z（第 3 志愿）</text>
+  <rect x="610" y="221" width="136" height="40" fill="#fafbfc" stroke="#cbd2d9"/><text x="678.0" y="246" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="400">Z（第 3 志愿）</text>
+  <text x="24" y="296" font-size="13" fill="#1f2933">波士顿规则里，如实填志愿的你最后去了 Z；把 Y 提到第一位，反而拿到 Y（代价是小林从 Y 掉到 Z）。</text>
+  <text x="24" y="318" font-size="13" fill="#1f2933">延迟接受里，如实填志愿就能拿到 Y，不需要耍心眼。</text>
+</svg>

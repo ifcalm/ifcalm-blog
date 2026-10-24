@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">分房租：找到一组价格，谁也不羡慕别人的房间</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">合租三人，三个房间，总房租 1200。格子里：住这个房间、付这个价，"我愿意付的钱 − 要付的钱"（越大越好）</text>
+  <rect x="60" y="86" width="540" height="40" fill="#eef1f5"/>
+  <text x="225.0" y="108" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">大房</text><text x="225.0" y="122" font-size="11" fill="#d9480f" text-anchor="middle">定价 500</text>
+  <text x="375.0" y="108" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">中房</text><text x="375.0" y="122" font-size="11" fill="#d9480f" text-anchor="middle">定价 380</text>
+  <text x="525.0" y="108" font-size="13" font-weight="600" fill="#1f2933" text-anchor="middle">小房</text><text x="525.0" y="122" font-size="11" fill="#d9480f" text-anchor="middle">定价 320</text>
+  <text x="105" y="170" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">你</text>
+  <rect x="154" y="130" width="142" height="60" rx="6" fill="#bfe5c8" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="225.0" y="156" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 600</text><text x="225.0" y="178" font-size="17" font-weight="600" fill="#2f9e44" text-anchor="middle">+100</text>
+  <rect x="304" y="130" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="375.0" y="156" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 400</text><text x="375.0" y="178" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">+20</text>
+  <rect x="454" y="130" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="525.0" y="156" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 300</text><text x="525.0" y="178" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">-20</text>
+  <text x="105" y="240" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">小周</text>
+  <rect x="154" y="200" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="225.0" y="226" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 500</text><text x="225.0" y="248" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">+0</text>
+  <rect x="304" y="200" width="142" height="60" rx="6" fill="#bfe5c8" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="375.0" y="226" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 450</text><text x="375.0" y="248" font-size="17" font-weight="600" fill="#2f9e44" text-anchor="middle">+70</text>
+  <rect x="454" y="200" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="525.0" y="226" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 350</text><text x="525.0" y="248" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">+30</text>
+  <text x="105" y="310" font-size="14" font-weight="600" fill="#1f2933" text-anchor="middle">小林</text>
+  <rect x="154" y="270" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="225.0" y="296" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 450</text><text x="225.0" y="318" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">-50</text>
+  <rect x="304" y="270" width="142" height="60" rx="6" fill="#fafbfc" stroke="#e4e7eb" stroke-width="1"/>
+  <text x="375.0" y="296" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 400</text><text x="375.0" y="318" font-size="17" font-weight="600" fill="#52606d" text-anchor="middle">+20</text>
+  <rect x="454" y="270" width="142" height="60" rx="6" fill="#bfe5c8" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="525.0" y="296" font-size="11" fill="#7b8794" text-anchor="middle">愿意付 400</text><text x="525.0" y="318" font-size="17" font-weight="600" fill="#2f9e44" text-anchor="middle">+80</text>
+  <text x="24" y="360" font-size="13" fill="#1f2933">绿框：各人实际住的房间。每个人的绿框里，都是自己这一行里最大（或并列最大）的数，所以没人想换。</text>
+  <text x="24" y="382" font-size="12" fill="#7b8794">如果三个人平摊（每人 400），小周会羡慕住大房的你：TA 住中房只剩 +50，住大房本来是 +100。</text>
+  <text x="24" y="402" font-size="12" fill="#7b8794">"愿意付多少"是各人私下的真实估价，这里是我设的数字。</text>
+</svg>

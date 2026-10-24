@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">点球：踢球人往左踢的比例是多少，守门员才"怎么扑都一样"</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">数字是编的：踢左守门员也扑左 0.60，踢左扑右 0.95，踢右扑左 0.90，踢右扑右 0.70。纵轴：球进的概率</text>
+  <line x1="90" y1="330" x2="670" y2="330" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="110" x2="90" y2="330" stroke="#9aa5b1" stroke-width="1.5"/>
+  <polyline points="90,158.88888888888889 670,305.5555555555556" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <polyline points="90,256.66666666666674 670,134.44444444444449" fill="none" stroke="#4c6ef5" stroke-width="3"/>
+  <circle cx="300.9" cy="212.2" r="6" fill="#1f2933"/>
+  <line x1="300.9" y1="212.2" x2="300.9" y2="330" stroke="#1f2933" stroke-dasharray="5 4"/>
+  <text x="312.9" y="202.2" font-size="12" fill="#1f2933" font-weight="600">交点：往左踢 4/11 ≈ 36%，球进 0.79</text>
+  <text x="82" y="309.6" font-size="12" fill="#52606d" text-anchor="end">0.6</text>
+  <text x="82" y="260.7" font-size="12" fill="#52606d" text-anchor="end">0.7</text>
+  <text x="82" y="211.8" font-size="12" fill="#52606d" text-anchor="end">0.8</text>
+  <text x="82" y="162.9" font-size="12" fill="#52606d" text-anchor="end">0.9</text>
+  <text x="90.0" y="348" font-size="12" fill="#52606d" text-anchor="middle">0</text>
+  <text x="235.0" y="348" font-size="12" fill="#52606d" text-anchor="middle">0.25</text>
+  <text x="380.0" y="348" font-size="12" fill="#52606d" text-anchor="middle">0.5</text>
+  <text x="525.0" y="348" font-size="12" fill="#52606d" text-anchor="middle">0.75</text>
+  <text x="670.0" y="348" font-size="12" fill="#52606d" text-anchor="middle">1</text>
+  <text x="380.0" y="368" font-size="12" fill="#52606d" text-anchor="middle">踢球人往左踢的概率 p</text>
+  <line x1="110" y1="280" x2="140" y2="280" stroke="#d9480f" stroke-width="3"/><text x="148" y="284" font-size="12" fill="#1f2933">守门员扑左时，球进的概率</text>
+  <line x1="110" y1="302" x2="140" y2="302" stroke="#4c6ef5" stroke-width="3"/><text x="148" y="306" font-size="12" fill="#1f2933">守门员扑右时，球进的概率</text>
+  <text x="24" y="398" font-size="13" fill="#1f2933">守门员的两个选择，在交点处给踢球人的球进概率一样（0.79）；只要偏离交点，守门员就有一边更好，可以针对。</text>
+  <text x="24" y="420" font-size="12" fill="#7b8794">守门员往左扑的均衡概率是 5/11 ≈ 45%。若踢球人总往左踢，守门员只要总扑左，球进概率降到 0.60。</text>
+</svg>

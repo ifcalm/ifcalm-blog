@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">捷径越快（越"免费"），均衡里的通勤时间不一定越短</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">4000 人。横轴：捷径 A→B 要多少分钟；纵轴：均衡时每人的通勤时间（分钟）。灰色虚线：没有捷径时的 65 分钟</text>
+  <line x1="100" y1="340" x2="680" y2="340" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g stroke="#e4e7eb">
+    <line x1="100" y1="340.0" x2="680" y2="340.0"/>
+    <line x1="100" y1="263.3" x2="680" y2="263.3"/>
+    <line x1="100" y1="186.7" x2="680" y2="186.7"/>
+    <line x1="100" y1="110.0" x2="680" y2="110.0"/>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="92" y="344.0">60</text>
+    <text x="92" y="267.3">70</text>
+    <text x="92" y="190.7">80</text>
+    <text x="92" y="114.0">90</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="100.0" y="358">0</text>
+    <text x="196.7" y="358">5</text>
+    <text x="293.3" y="358">10</text>
+    <text x="390.0" y="358">15</text>
+    <text x="486.7" y="358">20</text>
+    <text x="583.3" y="358">25</text>
+    <text x="680.0" y="358">30</text>
+  </g>
+  <line x1="100" y1="301.7" x2="680" y2="301.7" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 5"/>
+  <polyline points="100.0,186.7 196.7,148.3 293.3,186.7 390.0,225.0 486.7,263.3 583.3,301.7 680.0,301.7" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <circle cx="100.0" cy="186.7" r="5" fill="#d9480f"/><text x="100.0" y="176.7" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">80</text>
+  <circle cx="196.7" cy="148.3" r="5" fill="#d9480f"/><text x="196.7" y="138.3" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">85</text>
+  <circle cx="293.3" cy="186.7" r="5" fill="#d9480f"/><text x="293.3" y="176.7" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">80</text>
+  <circle cx="390.0" cy="225.0" r="5" fill="#d9480f"/><text x="390.0" y="215.0" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">75</text>
+  <circle cx="486.7" cy="263.3" r="5" fill="#d9480f"/><text x="486.7" y="253.3" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">70</text>
+  <circle cx="583.3" cy="301.7" r="5" fill="#d9480f"/><text x="583.3" y="291.7" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">65</text>
+  <circle cx="680.0" cy="301.7" r="5" fill="#d9480f"/><text x="680.0" y="291.7" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="600">65</text>
+  <text x="390.0" y="380" font-size="12" fill="#52606d" text-anchor="middle">捷径要多少分钟</text>
+  <text x="24" y="416" font-size="12" fill="#7b8794">捷径耗时 25 分钟以上，没人走它，回到 65；耗时在 0 到 25 之间，每个人都比没有捷径时更慢（最慢在 5 分钟，85）。</text>
+</svg>

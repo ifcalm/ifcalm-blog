@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="440" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">逐个猜"哪些策略在用"：每多一个策略，工作量翻着往上涨</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">双方各有 n 个策略时，需要检查的"策略组合猜测"的个数（纵轴取对数，每格是 10 倍）。灰线：一秒钟能检查一百万个</text>
+  <line x1="90" y1="320" x2="670" y2="320" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="100" x2="90" y2="320" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="320.0" x2="670" y2="320.0" stroke="#e4e7eb"/><text x="82" y="324.0" font-size="12" fill="#52606d" text-anchor="end">10<tspan font-size="9" dy="-5">0</tspan></text>
+  <line x1="90" y1="265.0" x2="670" y2="265.0" stroke="#e4e7eb"/><text x="82" y="269.0" font-size="12" fill="#52606d" text-anchor="end">10<tspan font-size="9" dy="-5">6</tspan></text>
+  <line x1="90" y1="210.0" x2="670" y2="210.0" stroke="#e4e7eb"/><text x="82" y="214.0" font-size="12" fill="#52606d" text-anchor="end">10<tspan font-size="9" dy="-5">12</tspan></text>
+  <line x1="90" y1="155.0" x2="670" y2="155.0" stroke="#e4e7eb"/><text x="82" y="159.0" font-size="12" fill="#52606d" text-anchor="end">10<tspan font-size="9" dy="-5">18</tspan></text>
+  <line x1="90" y1="100.0" x2="670" y2="100.0" stroke="#e4e7eb"/><text x="82" y="104.0" font-size="12" fill="#52606d" text-anchor="end">10<tspan font-size="9" dy="-5">24</tspan></text>
+  <polyline points="90.0,312.9 105.3,308.1 120.5,303.1 135.8,298.0 151.1,292.8 166.3,287.6 181.6,282.3 196.8,277.0 212.1,271.7 227.4,266.4 242.6,261.0 257.9,255.7 273.2,250.3 288.4,244.9 303.7,239.5 318.9,234.1 334.2,228.7 349.5,223.3 364.7,217.9 380.0,212.5 395.3,207.0 410.5,201.6 425.8,196.2 441.1,190.7 456.3,185.3 471.6,179.8 486.8,174.4 502.1,169.0 517.4,163.5 532.6,158.0 547.9,152.6 563.2,147.1 578.4,141.7 593.7,136.2 608.9,130.7 624.2,125.3 639.5,119.8 654.7,114.3 670.0,108.9" fill="none" stroke="#d9480f" stroke-width="3"/>
+  <line x1="90" y1="265.0" x2="670" y2="265.0" stroke="#9aa5b1" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <circle cx="212.1" cy="271.7" r="5" fill="#d9480f"/><text x="202.1" y="261.7" font-size="12" fill="#1f2933" font-weight="600" text-anchor="end">n = 10：18 万多个</text>
+  <circle cx="364.7" cy="217.9" r="5" fill="#d9480f"/><text x="354.7" y="207.9" font-size="12" fill="#1f2933" font-weight="600" text-anchor="end">n = 20：约 1.4 × 10¹¹</text>
+  <circle cx="517.4" cy="163.5" r="5" fill="#d9480f"/><text x="507.4" y="153.5" font-size="12" fill="#1f2933" font-weight="600" text-anchor="end">n = 30：约 1.2 × 10¹⁷</text>
+  <text x="90.0" y="338" font-size="12" fill="#52606d" text-anchor="middle">2</text>
+  <text x="212.1" y="338" font-size="12" fill="#52606d" text-anchor="middle">10</text>
+  <text x="364.7" y="338" font-size="12" fill="#52606d" text-anchor="middle">20</text>
+  <text x="517.4" y="338" font-size="12" fill="#52606d" text-anchor="middle">30</text>
+  <text x="670.0" y="338" font-size="12" fill="#52606d" text-anchor="middle">40</text>
+  <text x="380.0" y="360" font-size="12" fill="#52606d" text-anchor="middle">每一方的策略个数 n</text>
+  <text x="24" y="394" font-size="13" fill="#1f2933">n = 30 时，要检查约 1.2 × 10¹⁷ 个猜测；一秒钟查一百万个，也要约 3700 年。</text>
+  <text x="24" y="416" font-size="12" fill="#7b8794">这是"最笨的办法"的工作量。真正的问题是：有没有从根本上快得多的办法。</text>
+</svg>

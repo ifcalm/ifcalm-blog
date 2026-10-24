@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="450" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">当你在乎公平：什么时候该分，取决于你有多相信对方也会分</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">横轴 p：你相信对方选"分"的概率。纵轴：你的满意度（以奖池为 1）。吃亏的难受程度 α = 0.3，占便宜的愧疚程度 β = 0.6（数字是编的）</text>
+  <line x1="90" y1="251.53846153846155" x2="670" y2="251.53846153846155" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="70" x2="90" y2="300" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="251.53846153846155" x2="670" y2="90.0" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="90" y1="251.53846153846155" x2="670" y2="186.92307692307693" stroke="#d9480f" stroke-width="3"/>
+  <line x1="90" y1="300.0" x2="670" y2="170.76923076923077" stroke="#4c6ef5" stroke-width="3"/>
+  <circle cx="525.0" cy="203.0769230769231" r="6" fill="#1f2933"/>
+  <line x1="525.0" y1="203.0769230769231" x2="525.0" y2="300.0" stroke="#1f2933" stroke-dasharray="5 4"/>
+  <text x="513.0" y="243.1" font-size="12" fill="#1f2933" font-weight="600" text-anchor="end">p = 3/4：分和偷一样好</text>
+  <line x1="110" y1="92" x2="140" y2="92" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 5"/><text x="148" y="96" font-size="12" fill="#1f2933">只看钱的人，偷：p</text>
+  <line x1="110" y1="112" x2="140" y2="112" stroke="#d9480f" stroke-width="3"/><text x="148" y="116" font-size="12" fill="#1f2933">有愧疚的人，偷：0.4p</text>
+  <line x1="110" y1="132" x2="140" y2="132" stroke="#4c6ef5" stroke-width="3"/><text x="148" y="136" font-size="12" fill="#1f2933">同一个人，分：0.8p − 0.3</text>
+  <text x="90" y="318" font-size="12" fill="#52606d" text-anchor="middle">0</text>
+  <text x="235.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.25</text>
+  <text x="380.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.5</text>
+  <text x="525.0" y="318" font-size="12" fill="#52606d" text-anchor="middle">0.75</text>
+  <text x="670" y="318" font-size="12" fill="#52606d" text-anchor="middle">1</text>
+  <text x="82" y="255.53846153846155" font-size="12" fill="#52606d" text-anchor="end">0</text>
+  <text x="82" y="174.76923076923077" font-size="12" fill="#52606d" text-anchor="end">0.5</text>
+  <text x="82" y="94.0" font-size="12" fill="#52606d" text-anchor="end">1</text>
+  <text x="380.0" y="338" font-size="12" fill="#52606d" text-anchor="middle">你相信对方选"分"的概率 p</text>
+  <text x="24" y="372" font-size="13" fill="#1f2933">这个人在 p 小于 3/4 时偷，大于 3/4 时分。如果愧疚 β 小于 0.5，不管 p 多大，都会偷；</text>
+  <text x="24" y="392" font-size="13" fill="#1f2933">如果 β 不小于 0.5 又不在乎吃亏（α = 0），不管 p 多大，都会分。</text>
+  <text x="24" y="416" font-size="12" fill="#7b8794">所以"分"不是不理性：只要你的满意度里有公平，它就可以是最好的回答。</text>
+</svg>

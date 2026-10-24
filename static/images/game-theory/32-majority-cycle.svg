@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="470" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">三人多数决：任何分法都会被推翻</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">任意两人联手能拿走全部 100，单干和三人一起都不多于 100。箭头：被某一对人推翻，换成新的分法</text>
+  <polygon points="380.0,90.0 130.0,400.0 630.0,400.0" fill="#fafbfc" stroke="#9aa5b1" stroke-width="1.5"/>
+  <text x="380" y="80" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">你拿走全部 100</text>
+  <text x="130" y="422" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">小周拿走全部</text>
+  <text x="630" y="422" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">小林拿走全部</text>
+  <defs><marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#d9480f"/></marker></defs>
+  <line x1="264.9" y1="243.6" x2="468.1" y2="215.6" stroke="#d9480f" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="475.3" y1="222.8" x2="385.7" y2="389.4" stroke="#d9480f" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="372.3" y1="393.6" x2="239.2" y2="283.6" stroke="#d9480f" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="239.7" y1="273.6" x2="468.4" y2="216.9" stroke="#d9480f" stroke-width="2" marker-end="url(#ar)"/>
+  <circle cx="255.0" cy="245.0" r="6" fill="#1f2933"/>
+  <circle cx="480.0" cy="214.0" r="6" fill="#1f2933"/>
+  <circle cx="380.0" cy="400.0" r="6" fill="#1f2933"/>
+  <circle cx="230.0" cy="276.0" r="6" fill="#1f2933"/>
+  <text x="241.0" y="235.0" font-size="12" fill="#1f2933" text-anchor="end">(50, 50, 0)</text>
+  <text x="492.0" y="218.0" font-size="12" fill="#1f2933" text-anchor="start">(60, 0, 40)</text>
+  <text x="380.0" y="422.0" font-size="12" fill="#1f2933" text-anchor="middle">(0, 50, 50)</text>
+  <text x="216.0" y="290.0" font-size="12" fill="#1f2933" text-anchor="end">(40, 60, 0)</text>
+  <text x="357.5" y="229.5" font-size="11" fill="#d9480f" text-anchor="end">你和小林联手</text>
+  <text x="438.0" y="301.0" font-size="11" fill="#d9480f" text-anchor="start">小周和小林联手</text>
+  <text x="297.0" y="352.0" font-size="11" fill="#d9480f" text-anchor="end">你和小周联手</text>
+  <text x="363.0" y="259.0" font-size="11" fill="#d9480f" text-anchor="start">你和小林联手</text>
+  <text x="24" y="440" font-size="12" fill="#7b8794">每一步，联手的两个人分得都比原来多；可是被甩开的那个人马上去找另一个人联手。如此循环，没有一个分法能站住。</text>
+</svg>

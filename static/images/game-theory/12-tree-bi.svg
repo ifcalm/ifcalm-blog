@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="460" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">从叶子往根倒着想：每个节点，都选对自己最好的</text>
+  <line x1="380" y1="76" x2="200" y2="138" stroke="#52606d" stroke-width="2"/>
+  <line x1="380" y1="76" x2="560" y2="138" stroke="#d9480f" stroke-width="4"/>
+  <line x1="200" y1="162" x2="130" y2="240" stroke="#52606d" stroke-width="2"/>
+  <line x1="200" y1="162" x2="270" y2="240" stroke="#d9480f" stroke-width="4"/>
+  <line x1="560" y1="162" x2="490" y2="240" stroke="#52606d" stroke-width="2"/>
+  <line x1="560" y1="162" x2="650" y2="240" stroke="#d9480f" stroke-width="4"/>
+  <line x1="490" y1="264" x2="440" y2="350" stroke="#d9480f" stroke-width="4"/>
+  <line x1="490" y1="264" x2="545" y2="350" stroke="#52606d" stroke-width="2"/>
+  <circle cx="380" cy="62" r="15" fill="#e7f0fd" stroke="#4c78c9" stroke-width="2"/>
+  <text x="380" y="66" font-size="11" fill="#1f2933" text-anchor="middle">你</text>
+  <circle cx="200" cy="150" r="15" fill="#fff0e0" stroke="#f08c00" stroke-width="2"/>
+  <text x="200" y="154" font-size="11" fill="#1f2933" text-anchor="middle">小周</text>
+  <circle cx="560" cy="150" r="15" fill="#fff0e0" stroke="#f08c00" stroke-width="2"/>
+  <text x="560" y="154" font-size="11" fill="#1f2933" text-anchor="middle">小周</text>
+  <circle cx="490" cy="252" r="15" fill="#e7f0fd" stroke="#4c78c9" stroke-width="2"/>
+  <text x="490" y="256" font-size="11" fill="#1f2933" text-anchor="middle">你</text>
+  <text x="268" y="92" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">L</text>
+  <text x="488" y="92" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">R</text>
+  <text x="142" y="206" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">u</text>
+  <text x="250" y="206" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">d</text>
+  <text x="508" y="206" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">u</text>
+  <text x="628" y="206" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">d</text>
+  <text x="450" y="312" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">x</text>
+  <text x="536" y="312" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="600">y</text>
+  <text x="130" y="262" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">（3，2）</text>
+  <text x="270" y="262" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">（1，4）</text>
+  <text x="650" y="262" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">（2，3）</text>
+  <text x="440" y="374" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">（4，1）</text>
+  <text x="545" y="374" font-size="15" font-weight="600" fill="#1f2933" text-anchor="middle">（0，0）</text>
+  <g font-size="13" fill="#d9480f" font-weight="600">
+    <text x="24" y="330">① 最底下：你在这里选 x（4 &gt; 0），</text>
+    <text x="24" y="350">    整个节点替换成（4，1）</text>
+    <text x="24" y="378">② 小周在右边：u 得 1，d 得 3，选 d，（2，3）</text>
+    <text x="24" y="406">③ 小周在左边：u 得 2，d 得 4，选 d，（1，4）</text>
+    <text x="24" y="434">④ 你在最上面：L 得 1，R 得 2，选 R</text>
+  </g>
+  <text x="520" y="430" font-size="13" fill="#1f2933" font-weight="600">结果：你选 R，小周选 d，（2，3）</text>
+  <text x="520" y="406" font-size="12" fill="#7b8794">括号里：（你的收益，小周的收益）</text>
+</svg>

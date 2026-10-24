@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="470" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">诈唬多少最合适？不能多，也不能少</text>
+  <g transform="translate(0,24)">
+  <g stroke="#e4e7eb" stroke-width="1">
+    <line x1="90" y1="300.0" x2="690" y2="300.0"/>
+    <line x1="90" y1="240.0" x2="690" y2="240.0"/>
+    <line x1="90" y1="180.0" x2="690" y2="180.0"/>
+    <line x1="90" y1="120.0" x2="690" y2="120.0"/>
+    <line x1="90" y1="60.0" x2="690" y2="60.0"/>
+  </g>
+  <line x1="90" y1="360.0" x2="690" y2="360.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <line x1="90" y1="360.0" x2="90" y2="48.0" stroke="#9aa5b1" stroke-width="1.5"/>
+  <g font-size="12" fill="#52606d" text-anchor="middle">
+    <text x="90" y="378.0">0</text>
+    <text x="240.0" y="378.0">0.25</text>
+    <text x="390.0" y="378.0">0.5</text>
+    <text x="540.0" y="378.0">0.75</text>
+    <text x="690" y="378.0">1</text>
+  </g>
+  <g font-size="12" fill="#52606d" text-anchor="end">
+    <text x="82" y="364.0">0</text>
+    <text x="82" y="304.0">10</text>
+    <text x="82" y="244.0">20</text>
+    <text x="82" y="184.0">30</text>
+    <text x="82" y="124.0">40</text>
+    <text x="82" y="64.0">50</text>
+  </g>
+  <text x="390.0" y="404.0" font-size="13" fill="#1f2933" text-anchor="middle">弱牌时你诈唬（下注）的概率 b</text>
+  <text x="24" y="52" font-size="12" fill="#7b8794">你的期望收益</text>
+  <line x1="90" y1="360.0" x2="690" y2="60.0" stroke="#4c78c9" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="90" y1="60.0" x2="690" y2="360.0" stroke="#2b8a3e" stroke-width="2" stroke-dasharray="6 5"/>
+  <polyline points="90,360.0 390.0,210.0 690,360.0" fill="none" stroke="#d9480f" stroke-width="4"/>
+  <circle cx="390.0" cy="210.0" r="8" fill="#d9480f"/>
+  <text x="390.0" y="288.0" font-size="13" fill="#d9480f" font-weight="600" text-anchor="middle">b = 1/2：期望收益 25</text>
+  <text x="114.0" y="312.0" font-size="13" fill="#4c78c9">小周总是弃牌时：50b</text>
+  <text x="666.0" y="312.0" font-size="13" fill="#2b8a3e" text-anchor="end">小周总是跟注时：50 − 50b</text>
+  </g>
+  <text x="90" y="454" font-size="13" fill="#d9480f" font-weight="600">红线：小周选对自己最有利的应对之后，你的期望收益</text>
+</svg>

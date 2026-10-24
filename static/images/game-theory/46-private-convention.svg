@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="-apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="330" rx="10" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="600" fill="#1f2933">自博弈学出的"私有约定"：换个搭档就不灵</text>
+  <text x="24" y="50" font-size="12" fill="#7b8794">两辆车相遇，都靠左或都靠右才能顺利通过。每一对程序各自反复练习，各自随机定下一种靠法</text>
+  <rect x="60" y="80" width="150" height="90" rx="8" fill="#fafbfc" stroke="#2b8a3e" stroke-width="2"/>
+  <text x="100" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">左</text>
+  <text x="135" y="126" font-size="16" fill="#9aa5b1" text-anchor="middle">×</text>
+  <text x="170" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">左</text>
+  <text x="135" y="158" font-size="13" fill="#2b8a3e" text-anchor="middle" font-weight="600">第 1 对：练出来的搭档</text>
+  <rect x="300" y="80" width="150" height="90" rx="8" fill="#fafbfc" stroke="#2b8a3e" stroke-width="2"/>
+  <text x="340" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">右</text>
+  <text x="375" y="126" font-size="16" fill="#9aa5b1" text-anchor="middle">×</text>
+  <text x="410" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">右</text>
+  <text x="375" y="158" font-size="13" fill="#2b8a3e" text-anchor="middle" font-weight="600">第 2 对：练出来的搭档</text>
+  <rect x="540" y="80" width="150" height="90" rx="8" fill="#fafbfc" stroke="#c92a2a" stroke-width="2"/>
+  <text x="580" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">左</text>
+  <text x="615" y="126" font-size="16" fill="#9aa5b1" text-anchor="middle">×</text>
+  <text x="650" y="126" font-size="22" font-weight="600" fill="#1f2933" text-anchor="middle">右</text>
+  <text x="615" y="158" font-size="13" fill="#c92a2a" text-anchor="middle" font-weight="600">跨对搭档：撞车</text>
+  <text x="24" y="210" font-size="13" fill="#1f2933">每一对内部配合完美，自博弈的成绩无可挑剔。可是两对各自随机选了一种约定，</text>
+  <text x="24" y="232" font-size="13" fill="#1f2933">换成互不认识的搭档，约定撞车的概率是 1/2；如果有三种等价的约定，就是 2/3。</text>
+  <text x="24" y="262" font-size="12" fill="#7b8794">"其他玩法"（other-play）的想法：训练时把等价的约定随机互换，逼程序只学不依赖任意约定的做法。</text>
+</svg>
