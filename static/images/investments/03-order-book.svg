@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect x="0" y="0" width="660" height="380" rx="12" fill="#ffffff"/>
+  <text x="330" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">订单簿：一张 600 股的市价买单会"吃掉"哪些挂单</text>
+
+  <g font-size="12" fill="#555" text-anchor="middle">
+    <text x="170" y="56">买方挂单（出价 bid）</text>
+    <text x="330" y="56">价格</text>
+    <text x="490" y="56">卖方挂单（要价 ask）</text>
+  </g>
+
+  <!-- price column -->
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <text x="330" y="88">50.20</text>
+    <text x="330" y="124">50.10</text>
+    <text x="330" y="160">50.05</text>
+    <text x="330" y="216">50.00</text>
+    <text x="330" y="252">49.95</text>
+    <text x="330" y="288">49.90</text>
+  </g>
+
+  <!-- spread band -->
+  <rect x="290" y="172" width="80" height="26" rx="4" fill="#f3f3f3"/>
+  <text x="330" y="190" text-anchor="middle" font-size="11" fill="#777">价差 0.05</text>
+
+  <!-- asks: scale 0.3 px per share -->
+  <g>
+    <!-- 50.20: 500 shares, 100 eaten -->
+    <rect x="380" y="74" width="30" height="20" fill="#e08a3c"/>
+    <rect x="410" y="74" width="120" height="20" fill="#f3c9a3"/>
+    <text x="540" y="89" font-size="11" fill="#555">500 股（吃掉 100）</text>
+    <!-- 50.10: 200 -->
+    <rect x="380" y="110" width="60" height="20" fill="#e08a3c"/>
+    <text x="450" y="125" font-size="11" fill="#555">200 股（全部吃掉）</text>
+    <!-- 50.05: 300 -->
+    <rect x="380" y="146" width="90" height="20" fill="#e08a3c"/>
+    <text x="480" y="161" font-size="11" fill="#555">300 股（全部吃掉）</text>
+  </g>
+
+  <!-- bids -->
+  <g fill="#4a7fb5">
+    <rect x="160" y="202" width="120" height="20"/>
+    <rect x="190" y="238" width="90" height="20"/>
+    <rect x="100" y="274" width="180" height="20"/>
+  </g>
+  <g font-size="11" fill="#555" text-anchor="end">
+    <text x="152" y="217">400 股</text>
+    <text x="182" y="253">300 股</text>
+    <text x="92" y="289">600 股</text>
+  </g>
+
+  <!-- legend / result -->
+  <rect x="60" y="318" width="14" height="12" fill="#e08a3c"/>
+  <text x="80" y="329" font-size="12" fill="#333">被市价单成交的部分</text>
+  <rect x="220" y="318" width="14" height="12" fill="#f3c9a3"/>
+  <text x="240" y="329" font-size="12" fill="#333">成交后仍留在簿上</text>
+  <text x="60" y="356" font-size="12" fill="#333">成交：300 × 50.05 + 200 × 50.10 + 100 × 50.20 = 30,055 美元，平均每股约 50.09</text>
+</svg>

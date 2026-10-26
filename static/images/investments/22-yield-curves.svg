@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="430" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">美国国债收益率曲线的四个时刻</text>
+<line x1="90" y1="310" x2="590" y2="310" stroke="#888"/><text x="82" y="314" font-size="11" fill="#666" text-anchor="end">0%</text>
+<line x1="90" y1="268" x2="590" y2="268" stroke="#f0f0f0"/><text x="82" y="272" font-size="11" fill="#666" text-anchor="end">1%</text>
+<line x1="90" y1="226" x2="590" y2="226" stroke="#f0f0f0"/><text x="82" y="230" font-size="11" fill="#666" text-anchor="end">2%</text>
+<line x1="90" y1="184" x2="590" y2="184" stroke="#f0f0f0"/><text x="82" y="188" font-size="11" fill="#666" text-anchor="end">3%</text>
+<line x1="90" y1="142" x2="590" y2="142" stroke="#f0f0f0"/><text x="82" y="146" font-size="11" fill="#666" text-anchor="end">4%</text>
+<line x1="90" y1="100" x2="590" y2="100" stroke="#f0f0f0"/><text x="82" y="104" font-size="11" fill="#666" text-anchor="end">5%</text>
+<line x1="90" y1="58" x2="590" y2="58" stroke="#f0f0f0"/><text x="82" y="62" font-size="11" fill="#666" text-anchor="end">6%</text>
+<text x="100.0" y="328" font-size="12" fill="#666" text-anchor="middle">3 个月</text>
+<text x="186.3" y="328" font-size="12" fill="#666" text-anchor="middle">2 年</text>
+<text x="351.4" y="328" font-size="12" fill="#666" text-anchor="middle">10 年</text>
+<text x="570.0" y="328" font-size="12" fill="#666" text-anchor="middle">30 年</text>
+<text x="590" y="346" font-size="12" fill="#666" text-anchor="end">期限</text>
+<polyline fill="none" stroke="#b04a4a" stroke-width="2.5" points="100.0,99.2 186.3,107.6 351.4,112.2 570.0,108.0"/>
+<circle cx="100.0" cy="99.2" r="3.5" fill="#b04a4a"/>
+<circle cx="186.3" cy="107.6" r="3.5" fill="#b04a4a"/>
+<circle cx="351.4" cy="112.2" r="3.5" fill="#b04a4a"/>
+<circle cx="570.0" cy="108.0" r="3.5" fill="#b04a4a"/>
+<text x="578.0" y="112.0" font-size="11" fill="#b04a4a">4.81%</text>
+<line x1="110" y1="372" x2="132" y2="372" stroke="#b04a4a" stroke-width="3"/><text x="138" y="376" font-size="12" fill="#333">2006 年 12 月底：倒挂</text>
+<polyline fill="none" stroke="#6aa36a" stroke-width="2.5" points="100.0,306.2 186.3,305.4 351.4,288.2 570.0,260.0"/>
+<circle cx="100.0" cy="306.2" r="3.5" fill="#6aa36a"/>
+<circle cx="186.3" cy="305.4" r="3.5" fill="#6aa36a"/>
+<circle cx="351.4" cy="288.2" r="3.5" fill="#6aa36a"/>
+<circle cx="570.0" cy="260.0" r="3.5" fill="#6aa36a"/>
+<text x="578.0" y="264.0" font-size="11" fill="#6aa36a">1.19%</text>
+<line x1="360" y1="372" x2="382" y2="372" stroke="#6aa36a" stroke-width="3"/><text x="388" y="376" font-size="12" fill="#333">2020 年 8 月初：很低、很陡</text>
+<polyline fill="none" stroke="#e08a3c" stroke-width="2.5" points="100.0,76.9 186.3,105.0 351.4,143.3 570.0,141.2"/>
+<circle cx="100.0" cy="76.9" r="3.5" fill="#e08a3c"/>
+<circle cx="186.3" cy="105.0" r="3.5" fill="#e08a3c"/>
+<circle cx="351.4" cy="143.3" r="3.5" fill="#e08a3c"/>
+<circle cx="570.0" cy="141.2" r="3.5" fill="#e08a3c"/>
+<text x="578.0" y="145.2" font-size="11" fill="#e08a3c">4.02%</text>
+<line x1="110" y1="392" x2="132" y2="392" stroke="#e08a3c" stroke-width="3"/><text x="138" y="396" font-size="12" fill="#333">2023 年 7 月底：深度倒挂</text>
+<polyline fill="none" stroke="#4a7fb5" stroke-width="2.5" points="100.0,132.8 186.3,114.7 351.4,101.7 570.0,87.8"/>
+<circle cx="100.0" cy="132.8" r="3.5" fill="#4a7fb5"/>
+<circle cx="186.3" cy="114.7" r="3.5" fill="#4a7fb5"/>
+<circle cx="351.4" cy="101.7" r="3.5" fill="#4a7fb5"/>
+<circle cx="570.0" cy="87.8" r="3.5" fill="#4a7fb5"/>
+<text x="578.0" y="91.8" font-size="11" fill="#4a7fb5">5.29%</text>
+<line x1="360" y1="392" x2="382" y2="392" stroke="#4a7fb5" stroke-width="3"/><text x="388" y="396" font-size="12" fill="#333">2026 年 10 月 22 日：正常向上</text>
+<text x="340" y="422" text-anchor="middle" font-size="10" fill="#999">数据：美联储 H.15 国债固定期限收益率（经 FRED 获取）；横轴按期限的平方根缩放</text>
+</svg>

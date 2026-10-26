@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect x="0" y="0" width="680" height="420" rx="12" fill="#ffffff"/>
+  <text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">资产地图：多久拿回钱 × 排在第几个分蛋糕</text>
+
+  <!-- column headers -->
+  <rect x="120" y="44" width="160" height="26" rx="4" fill="#eef3f9"/>
+  <text x="200" y="62" text-anchor="middle" font-size="13" font-weight="600" fill="#2f5d8a">货币市场（一年以内）</text>
+  <rect x="290" y="44" width="370" height="26" rx="4" fill="#f9f0e7"/>
+  <text x="475" y="62" text-anchor="middle" font-size="13" font-weight="600" fill="#a05a1c">资本市场（一年以上或没有到期日）</text>
+  <g font-size="11" fill="#777" text-anchor="middle">
+    <text x="200" y="86">几天到 52 周</text>
+    <text x="385" y="86">2 年到 30 年</text>
+    <text x="570" y="86">没有到期日</text>
+  </g>
+
+  <!-- row labels -->
+  <g font-size="12" fill="#444" text-anchor="end">
+    <text x="108" y="128">联邦政府的债</text>
+    <text x="108" y="200">银行、企业、</text>
+    <text x="108" y="216">地方政府的债</text>
+    <text x="108" y="296">优先股</text>
+    <text x="108" y="356">普通股</text>
+  </g>
+  <!-- row separators -->
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="20" y1="156" x2="660" y2="156"/>
+    <line x1="20" y1="266" x2="660" y2="266"/>
+    <line x1="20" y1="324" x2="660" y2="324"/>
+  </g>
+
+  <!-- arrow: priority -->
+  <line x1="24" y1="380" x2="24" y2="110" stroke="#999" stroke-width="1.5"/>
+  <polygon points="24,102 19,114 29,114" fill="#999"/>
+  <text x="34" y="400" font-size="11" fill="#777">越往上：排得越靠前、违约风险越小；越往下：起伏越大、上限越高</text>
+
+  <!-- boxes -->
+  <g font-size="12" text-anchor="middle">
+    <rect x="130" y="104" width="140" height="36" rx="6" fill="#4a7fb5"/>
+    <text x="200" y="127" fill="#fff">国库券 T-bill</text>
+
+    <rect x="300" y="104" width="170" height="36" rx="6" fill="#4a7fb5"/>
+    <text x="385" y="121" fill="#fff">国债 Treasury</text>
+    <text x="385" y="135" fill="#fff" font-size="10">中期 note / 长期 bond / TIPS</text>
+
+    <rect x="130" y="168" width="140" height="80" rx="6" fill="#7aa3cc"/>
+    <text x="200" y="192" fill="#fff">大额存单 CD</text>
+    <text x="200" y="210" fill="#fff">商业票据</text>
+    <text x="200" y="228" fill="#fff">回购</text>
+
+    <rect x="300" y="168" width="170" height="80" rx="6" fill="#7aa3cc"/>
+    <text x="385" y="192" fill="#fff">市政债</text>
+    <text x="385" y="210" fill="#fff">公司债：投资级</text>
+    <text x="385" y="228" fill="#fff">公司债：高收益</text>
+
+    <rect x="490" y="276" width="160" height="38" rx="6" fill="#e9a96b"/>
+    <text x="570" y="300" fill="#fff">优先股</text>
+
+    <rect x="490" y="334" width="160" height="38" rx="6" fill="#e08a3c"/>
+    <text x="570" y="358" fill="#fff">普通股</text>
+  </g>
+  <text x="200" y="262" text-anchor="middle" font-size="10" fill="#777">货币市场基金：把这一列打包</text>
+</svg>

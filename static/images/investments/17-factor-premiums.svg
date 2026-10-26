@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="380" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">美国股市各因子的年均溢价：前一段 vs 后一段</text>
+<line x1="70" y1="278" x2="660" y2="278" stroke="#f0f0f0"/><text x="62" y="282" font-size="11" fill="#666" text-anchor="end">-4%</text>
+<line x1="70" y1="230" x2="660" y2="230" stroke="#999"/><text x="62" y="234" font-size="11" fill="#666" text-anchor="end">0%</text>
+<line x1="70" y1="182" x2="660" y2="182" stroke="#f0f0f0"/><text x="62" y="186" font-size="11" fill="#666" text-anchor="end">4%</text>
+<line x1="70" y1="134" x2="660" y2="134" stroke="#f0f0f0"/><text x="62" y="138" font-size="11" fill="#666" text-anchor="end">8%</text>
+<line x1="70" y1="86" x2="660" y2="86" stroke="#f0f0f0"/><text x="62" y="90" font-size="11" fill="#666" text-anchor="end">12%</text>
+<rect x="88" y="132.6" width="34" height="97.4" fill="#9bb7d4"/>
+<text x="105" y="127.6" font-size="10.5" fill="#333" text-anchor="middle">+8.1</text>
+<text x="105" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1927–1981</text>
+<rect x="128" y="112.5" width="34" height="117.5" fill="#e08a3c"/>
+<text x="145" y="107.5" font-size="10.5" fill="#333" text-anchor="middle">+9.8</text>
+<text x="145" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1982–2025</text>
+<text x="128" y="334.0" font-size="11" fill="#222" text-anchor="middle">市场</text>
+<text x="128" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（股票减国库券）</text>
+<rect x="186" y="173.8" width="34" height="56.2" fill="#9bb7d4"/>
+<text x="203" y="168.8" font-size="10.5" fill="#333" text-anchor="middle">+4.7</text>
+<text x="203" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1927–1981</text>
+<rect x="226" y="230.0" width="34" height="2.8" fill="#e08a3c"/>
+<text x="243" y="245.8" font-size="10.5" fill="#333" text-anchor="middle">-0.2</text>
+<text x="243" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1982–2025</text>
+<text x="226" y="334.0" font-size="11" fill="#222" text-anchor="middle">规模</text>
+<text x="226" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（小盘减大盘）</text>
+<rect x="284" y="158.8" width="34" height="71.2" fill="#9bb7d4"/>
+<text x="301" y="153.8" font-size="10.5" fill="#333" text-anchor="middle">+5.9</text>
+<text x="301" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1927–2006</text>
+<rect x="324" y="230.0" width="34" height="35.5" fill="#e08a3c"/>
+<text x="341" y="278.5" font-size="10.5" fill="#333" text-anchor="middle">-3.0</text>
+<text x="341" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">2007–2025</text>
+<text x="324" y="334.0" font-size="11" fill="#222" text-anchor="middle">价值</text>
+<text x="324" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（价值减成长）</text>
+<rect x="382" y="95.0" width="34" height="135.0" fill="#9bb7d4"/>
+<text x="399" y="90.0" font-size="10.5" fill="#333" text-anchor="middle">+11.2</text>
+<text x="399" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1927–1999</text>
+<rect x="422" y="216.9" width="34" height="13.1" fill="#e08a3c"/>
+<text x="439" y="211.9" font-size="10.5" fill="#333" text-anchor="middle">+1.1</text>
+<text x="439" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">2000–2025</text>
+<text x="422" y="334.0" font-size="11" fill="#222" text-anchor="middle">动量</text>
+<text x="422" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（赢家减输家）</text>
+<rect x="480" y="201.3" width="34" height="28.7" fill="#9bb7d4"/>
+<text x="497" y="196.3" font-size="10.5" fill="#333" text-anchor="middle">+2.4</text>
+<text x="497" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1964–1999</text>
+<rect x="520" y="173.0" width="34" height="57.0" fill="#e08a3c"/>
+<text x="537" y="168.0" font-size="10.5" fill="#333" text-anchor="middle">+4.8</text>
+<text x="537" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">2000–2025</text>
+<text x="520" y="334.0" font-size="11" fill="#222" text-anchor="middle">盈利</text>
+<text x="520" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（高盈利减低盈利）</text>
+<rect x="578" y="187.8" width="34" height="42.2" fill="#9bb7d4"/>
+<text x="595" y="182.8" font-size="10.5" fill="#333" text-anchor="middle">+3.5</text>
+<text x="595" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">1964–1999</text>
+<rect x="618" y="204.9" width="34" height="25.1" fill="#e08a3c"/>
+<text x="635" y="199.9" font-size="10.5" fill="#333" text-anchor="middle">+2.1</text>
+<text x="635" y="316.0" font-size="9.5" fill="#777" text-anchor="middle">2000–2025</text>
+<text x="618" y="334.0" font-size="11" fill="#222" text-anchor="middle">投资</text>
+<text x="618" y="348.0" font-size="9.5" fill="#777" text-anchor="middle">（保守减激进）</text>
+<text x="340" y="372" text-anchor="middle" font-size="10" fill="#999">数据：Kenneth French 数据库，年度因子收益的算术平均；盈利和投资因子从 1964 年开始</text>
+</svg>

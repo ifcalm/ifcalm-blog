@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="320" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">1972–2025 年：扣除通胀后的年化收益，和每年的波动</text>
+<text x="250" y="52" font-size="12" fill="#555" text-anchor="middle">实际年化收益</text><text x="520" y="52" font-size="12" fill="#555" text-anchor="middle">年收益的标准差</text>
+<text x="150" y="90" font-size="12" fill="#333" text-anchor="end">美国股票（标普 500）</text>
+<rect x="160" y="70" width="172.2" height="28" rx="3" fill="#4a7fb5"/>
+<text x="338.2" y="89" font-size="12" fill="#333">6.89%</text>
+<rect x="420" y="70" width="119.0" height="28" rx="3" fill="#4a7fb5" opacity="0.5"/>
+<text x="545.0" y="89" font-size="12" fill="#333">17.0%</text>
+<text x="150" y="145" font-size="12" fill="#333" text-anchor="end">黄金</text>
+<rect x="160" y="125" width="120.2" height="28" rx="3" fill="#e9a96b"/>
+<text x="286.2" y="144" font-size="12" fill="#333">4.81%</text>
+<rect x="420" y="125" width="191.1" height="28" rx="3" fill="#e9a96b" opacity="0.5"/>
+<text x="617.1" y="144" font-size="12" fill="#333">27.3%</text>
+<text x="150" y="200" font-size="12" fill="#333" text-anchor="end">10 年期国债</text>
+<rect x="160" y="180" width="48.0" height="28" rx="3" fill="#6aa36a"/>
+<text x="214.0" y="199" font-size="12" fill="#333">1.92%</text>
+<rect x="420" y="180" width="68.6" height="28" rx="3" fill="#6aa36a" opacity="0.5"/>
+<text x="494.6" y="199" font-size="12" fill="#333">9.8%</text>
+<text x="150" y="255" font-size="12" fill="#333" text-anchor="end">美国房价（不含租金）</text>
+<rect x="160" y="235" width="31.5" height="28" rx="3" fill="#9b8bc4"/>
+<text x="197.5" y="254" font-size="12" fill="#333">1.26%</text>
+<rect x="420" y="235" width="39.2" height="28" rx="3" fill="#9b8bc4" opacity="0.5"/>
+<text x="465.2" y="254" font-size="12" fill="#333">5.6%</text>
+<line x1="160" y1="62" x2="160" y2="290" stroke="#888"/><line x1="420" y1="62" x2="420" y2="290" stroke="#888"/>
+<text x="340" y="310" text-anchor="middle" font-size="10" fill="#999">数据：Damodaran 历史收益（标普 500 含股息；房价为全美房价指数，不含租金收入；黄金为金价变化）</text>
+</svg>

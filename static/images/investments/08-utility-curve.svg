@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="370" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">幸福分曲线越往右越平：输掉的比赢到的更疼</text>
+<line x1="80" y1="252" x2="600" y2="252" stroke="#eeeeee"/>
+<text x="72" y="256" font-size="12" fill="#666" text-anchor="end">2</text>
+<line x1="80" y1="204" x2="600" y2="204" stroke="#eeeeee"/>
+<text x="72" y="208" font-size="12" fill="#666" text-anchor="end">4</text>
+<line x1="80" y1="156" x2="600" y2="156" stroke="#eeeeee"/>
+<text x="72" y="160" font-size="12" fill="#666" text-anchor="end">6</text>
+<line x1="80" y1="108" x2="600" y2="108" stroke="#eeeeee"/>
+<text x="72" y="112" font-size="12" fill="#666" text-anchor="end">8</text>
+<line x1="80" y1="60" x2="600" y2="60" stroke="#eeeeee"/>
+<text x="72" y="64" font-size="12" fill="#666" text-anchor="end">10</text>
+<line x1="80" y1="300" x2="600" y2="300" stroke="#888"/><line x1="80" y1="60" x2="80" y2="300" stroke="#888"/>
+<text x="80.0" y="318" font-size="12" fill="#666" text-anchor="middle">0</text>
+<text x="184.0" y="318" font-size="12" fill="#666" text-anchor="middle">20</text>
+<text x="288.0" y="318" font-size="12" fill="#666" text-anchor="middle">40</text>
+<text x="392.0" y="318" font-size="12" fill="#666" text-anchor="middle">60</text>
+<text x="496.0" y="318" font-size="12" fill="#666" text-anchor="middle">80</text>
+<text x="600.0" y="318" font-size="12" fill="#666" text-anchor="middle">100</text>
+<text x="600" y="336" font-size="12" fill="#666" text-anchor="end">财富（千美元）</text>
+<text x="30" y="180" font-size="12" fill="#666" transform="rotate(-90 30 180)" text-anchor="middle">幸福分</text>
+<polyline fill="none" stroke="#4a7fb5" stroke-width="2.5" points="80.0,300.0 85.2,276.0 90.4,266.1 95.6,258.4 100.8,252.0 106.0,246.3 111.2,241.2 116.4,236.5 121.6,232.1 126.8,228.0 132.0,224.1 137.2,220.4 142.4,216.9 147.6,213.5 152.8,210.2 158.0,207.0 163.2,204.0 168.4,201.0 173.6,198.2 178.8,195.4 184.0,192.7 189.2,190.0 194.4,187.4 199.6,184.9 204.8,182.4 210.0,180.0 215.2,177.6 220.4,175.3 225.6,173.0 230.8,170.8 236.0,168.5 241.2,166.4 246.4,164.2 251.6,162.1 256.8,160.1 262.0,158.0 267.2,156.0 272.4,154.0 277.6,152.1 282.8,150.1 288.0,148.2 293.2,146.3 298.4,144.5 303.6,142.6 308.8,140.8 314.0,139.0 319.2,137.2 324.4,135.5 329.6,133.7 334.8,132.0 340.0,130.3 345.2,128.6 350.4,126.9 355.6,125.3 360.8,123.6 366.0,122.0 371.2,120.4 376.4,118.8 381.6,117.2 386.8,115.7 392.0,114.1 397.2,112.6 402.4,111.0 407.6,109.5 412.8,108.0 418.0,106.5 423.2,105.0 428.4,103.6 433.6,102.1 438.8,100.6 444.0,99.2 449.2,97.8 454.4,96.4 459.6,94.9 464.8,93.5 470.0,92.2 475.2,90.8 480.4,89.4 485.6,88.0 490.8,86.7 496.0,85.3 501.2,84.0 506.4,82.7 511.6,81.3 516.8,80.0 522.0,78.7 527.2,77.4 532.4,76.1 537.6,74.9 542.8,73.6 548.0,72.3 553.2,71.1 558.4,69.8 563.6,68.6 568.8,67.3 574.0,66.1 579.2,64.8 584.4,63.6 589.6,62.4 594.8,61.2 600.0,60.0"/>
+<line x1="132.0" y1="224.1" x2="548.0" y2="72.3" stroke="#e08a3c" stroke-width="1.8" stroke-dasharray="6 4"/>
+<circle cx="132.0" cy="224.1" r="4.5" fill="#e08a3c"/>
+<circle cx="548.0" cy="72.3" r="4.5" fill="#e08a3c"/>
+<circle cx="340.0" cy="148.2" r="4.5" fill="#e08a3c"/>
+<circle cx="340.0" cy="130.3" r="4.5" fill="#4a7fb5"/>
+<circle cx="288.0" cy="148.2" r="4.5" fill="#b04a4a"/>
+<line x1="288.0" y1="148.2" x2="340.0" y2="148.2" stroke="#b04a4a" stroke-width="1.8"/>
+<line x1="340.0" y1="130.3" x2="340.0" y2="300" stroke="#bbbbbb" stroke-dasharray="3 3"/>
+<line x1="288.0" y1="148.2" x2="288.0" y2="300" stroke="#bbbbbb" stroke-dasharray="3 3"/>
+<text x="140.0" y="240.1" font-size="12" fill="#333" text-anchor="start">输了：1 万 → 3.16 分</text>
+<text x="538.0" y="60.3" font-size="12" fill="#333" text-anchor="end">赢了：9 万 → 9.49 分</text>
+<text x="330.0" y="116.3" font-size="12" fill="#4a7fb5" text-anchor="end">不赌：5 万 → 7.07 分</text>
+<text x="350.0" y="170.2" font-size="12" fill="#e08a3c" text-anchor="start">赌的平均：6.32 分</text>
+<text x="280.0" y="136.2" font-size="12" fill="#b04a4a" text-anchor="end">确定性等价 4 万</text>
+</svg>

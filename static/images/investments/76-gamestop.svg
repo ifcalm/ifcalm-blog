@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 325" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="325" rx="12" fill="#ffffff"/>
+<text x="340" y="24" text-anchor="middle" font-size="15" font-weight="600" fill="#222">GameStop 每日收盘价，2020 年 12 月至 2021 年 3 月（美元）</text>
+<text x="340" y="42" text-anchor="middle" font-size="11" fill="#888">按 2022 年 7 月 1 拆 4 之前的口径；灰色竖线为当日最高价与最低价。数据：Yahoo Finance</text>
+<line x1="70" y1="290.0" x2="640" y2="290.0" stroke="#f0f0f0"/><text x="62" y="294.0" font-size="11" fill="#666" text-anchor="end">0</text>
+<line x1="70" y1="242.0" x2="640" y2="242.0" stroke="#f0f0f0"/><text x="62" y="246.0" font-size="11" fill="#666" text-anchor="end">100</text>
+<line x1="70" y1="194.0" x2="640" y2="194.0" stroke="#f0f0f0"/><text x="62" y="198.0" font-size="11" fill="#666" text-anchor="end">200</text>
+<line x1="70" y1="146.0" x2="640" y2="146.0" stroke="#f0f0f0"/><text x="62" y="150.0" font-size="11" fill="#666" text-anchor="end">300</text>
+<line x1="70" y1="98.0" x2="640" y2="98.0" stroke="#f0f0f0"/><text x="62" y="102.0" font-size="11" fill="#666" text-anchor="end">400</text>
+<line x1="70" y1="50.0" x2="640" y2="50.0" stroke="#f0f0f0"/><text x="62" y="54.0" font-size="11" fill="#666" text-anchor="end">500</text>
+<line x1="70.0" y1="290" x2="70.0" y2="295" stroke="#999"/><text x="74.0" y="308" font-size="11" fill="#666">2020 年 12 月</text>
+<line x1="216.0" y1="290" x2="216.0" y2="295" stroke="#999"/><text x="220.0" y="308" font-size="11" fill="#666">2021 年 1 月</text>
+<line x1="362.1" y1="290" x2="362.1" y2="295" stroke="#999"/><text x="366.1" y="308" font-size="11" fill="#666">2 月</text>
+<line x1="494.0" y1="290" x2="494.0" y2="295" stroke="#999"/><text x="498.0" y="308" font-size="11" fill="#666">3 月</text>
+<line x1="70.0" y1="281.6" x2="70.0" y2="282.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="74.7" y1="282.0" x2="74.7" y2="282.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="79.4" y1="282.0" x2="79.4" y2="282.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="84.1" y1="281.7" x2="84.1" y2="282.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="98.3" y1="281.6" x2="98.3" y2="282.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="103.0" y1="281.7" x2="103.0" y2="282.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="107.7" y1="282.9" x2="107.7" y2="283.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="112.4" y1="283.1" x2="112.4" y2="283.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="117.1" y1="283.3" x2="117.1" y2="283.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="131.2" y1="283.6" x2="131.2" y2="284.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="136.0" y1="283.3" x2="136.0" y2="284.0" stroke="#cccccc" stroke-width="2"/>
+<line x1="140.7" y1="283.1" x2="140.7" y2="283.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="145.4" y1="282.8" x2="145.4" y2="283.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="150.1" y1="282.2" x2="150.1" y2="282.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="164.2" y1="282.2" x2="164.2" y2="282.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="168.9" y1="280.4" x2="168.9" y2="282.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="173.6" y1="279.3" x2="173.6" y2="280.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="178.3" y1="279.7" x2="178.3" y2="280.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="197.2" y1="279.5" x2="197.2" y2="280.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="201.9" y1="279.9" x2="201.9" y2="281.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="206.6" y1="280.4" x2="206.6" y2="281.0" stroke="#cccccc" stroke-width="2"/>
+<line x1="211.3" y1="280.5" x2="211.3" y2="281.0" stroke="#cccccc" stroke-width="2"/>
+<line x1="230.2" y1="280.8" x2="230.2" y2="281.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="234.9" y1="281.3" x2="234.9" y2="281.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="239.6" y1="280.9" x2="239.6" y2="281.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="244.3" y1="280.7" x2="244.3" y2="281.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="249.0" y1="281.2" x2="249.0" y2="281.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="263.1" y1="280.1" x2="263.1" y2="280.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="267.9" y1="280.2" x2="267.9" y2="280.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="272.6" y1="271.4" x2="272.6" y2="280.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="277.3" y1="269.3" x2="277.3" y2="274.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="282.0" y1="270.4" x2="282.0" y2="273.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="300.8" y1="268.2" x2="300.8" y2="272.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="305.5" y1="270.2" x2="305.5" y2="272.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="310.2" y1="268.5" x2="310.2" y2="272.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="315.0" y1="253.2" x2="315.0" y2="269.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="329.1" y1="213.6" x2="329.1" y2="260.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="333.8" y1="218.0" x2="333.8" y2="251.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="338.5" y1="107.6" x2="338.5" y2="170.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="343.2" y1="58.2" x2="343.2" y2="236.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="347.9" y1="91.3" x2="347.9" y2="170.0" stroke="#cccccc" stroke-width="2"/>
+<line x1="362.1" y1="135.4" x2="362.1" y2="188.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="366.8" y1="214.2" x2="366.8" y2="254.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="371.5" y1="235.6" x2="371.5" y2="249.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="376.2" y1="246.1" x2="376.2" y2="264.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="380.9" y1="244.4" x2="380.9" y2="265.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="395.0" y1="255.1" x2="395.0" y2="262.2" stroke="#cccccc" stroke-width="2"/>
+<line x1="399.8" y1="262.6" x2="399.8" y2="267.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="404.5" y1="259.8" x2="404.5" y2="267.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="409.2" y1="263.4" x2="409.2" y2="266.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="413.9" y1="263.5" x2="413.9" y2="266.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="432.7" y1="264.3" x2="432.7" y2="266.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="437.4" y1="265.4" x2="437.4" y2="268.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="442.1" y1="266.5" x2="442.1" y2="270.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="446.9" y1="268.9" x2="446.9" y2="271.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="461.0" y1="266.7" x2="461.0" y2="269.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="465.7" y1="267.8" x2="465.7" y2="270.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="470.4" y1="246.0" x2="470.4" y2="268.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="475.1" y1="201.4" x2="475.1" y2="241.5" stroke="#cccccc" stroke-width="2"/>
+<line x1="479.8" y1="221.4" x2="479.8" y2="248.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="494.0" y1="225.7" x2="494.0" y2="242.0" stroke="#cccccc" stroke-width="2"/>
+<line x1="498.7" y1="226.1" x2="498.7" y2="236.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="503.4" y1="228.7" x2="503.4" y2="235.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="508.1" y1="219.0" x2="508.1" y2="234.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="512.8" y1="217.3" x2="512.8" y2="228.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="526.9" y1="188.8" x2="526.9" y2="219.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="531.7" y1="170.1" x2="531.7" y2="189.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="536.4" y1="122.7" x2="536.4" y2="207.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="541.1" y1="154.9" x2="541.1" y2="178.4" stroke="#cccccc" stroke-width="2"/>
+<line x1="545.8" y1="148.2" x2="545.8" y2="164.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="559.9" y1="154.2" x2="559.9" y2="191.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="564.6" y1="184.1" x2="564.6" y2="207.3" stroke="#cccccc" stroke-width="2"/>
+<line x1="569.3" y1="178.9" x2="569.3" y2="192.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="574.0" y1="184.9" x2="574.0" y2="196.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="578.8" y1="181.0" x2="578.8" y2="202.3" stroke="#cccccc" stroke-width="2"/>
+<line x1="592.9" y1="189.0" x2="592.9" y2="200.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="597.6" y1="193.2" x2="597.6" y2="204.8" stroke="#cccccc" stroke-width="2"/>
+<line x1="602.3" y1="209.9" x2="602.3" y2="233.1" stroke="#cccccc" stroke-width="2"/>
+<line x1="607.0" y1="200.0" x2="607.0" y2="233.9" stroke="#cccccc" stroke-width="2"/>
+<line x1="611.7" y1="184.9" x2="611.7" y2="211.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="625.9" y1="196.9" x2="625.9" y2="206.7" stroke="#cccccc" stroke-width="2"/>
+<line x1="630.6" y1="191.9" x2="630.6" y2="202.6" stroke="#cccccc" stroke-width="2"/>
+<line x1="635.3" y1="194.3" x2="635.3" y2="200.2" stroke="#cccccc" stroke-width="2"/>
+<polyline fill="none" stroke="#b04a4a" stroke-width="2" points="70.0,282.4 74.7,282.0 79.4,282.3 84.1,281.9 98.3,282.2 103.0,281.9 107.7,283.4 112.4,283.2 117.1,283.6 131.2,283.9 136.0,283.4 140.7,283.4 145.4,282.9 150.1,282.5 164.2,282.5 168.9,280.7 173.6,280.1 178.3,280.3 197.2,279.9 201.9,280.7 206.6,280.8 211.3,281.0 230.2,281.7 234.9,281.7 239.6,281.2 244.3,281.3 249.0,281.5 263.1,280.4 267.9,280.4 272.6,274.9 277.3,270.8 282.0,273.0 300.8,271.1 305.5,271.2 310.2,269.3 315.0,258.8 329.1,253.1 333.8,219.0 338.5,123.2 343.2,197.1 347.9,134.0 362.1,182.0 366.8,246.8 371.5,245.6 376.2,264.3 380.9,259.4 395.0,261.2 399.8,265.9 404.5,265.4 409.2,265.5 413.9,264.8 432.7,266.2 437.4,267.9 442.1,270.5 446.9,270.5 461.0,267.9 465.7,268.4 470.4,246.0 475.1,237.8 479.8,241.2 494.0,232.2 498.7,233.3 503.4,230.4 508.1,226.5 512.8,223.9 526.9,196.6 531.7,171.5 536.4,162.8 541.1,165.2 545.8,163.0 559.9,184.3 564.6,190.1 569.3,189.3 574.0,193.2 578.8,193.9 592.9,196.6 597.6,202.8 602.3,232.2 607.0,201.8 611.7,203.1 625.9,203.0 630.6,196.7 635.3,198.9"/>
+<circle cx="211.3" cy="281.0" r="3.5" fill="#b04a4a"/><text x="207.3" y="265.0" font-size="11" fill="#333" text-anchor="middle">12 月 31 日：18.84</text>
+<circle cx="338.5" cy="123.2" r="3.5" fill="#b04a4a"/><text x="328.5" y="117.2" font-size="11" fill="#333" text-anchor="end">1 月 27 日收盘：347.51</text>
+<circle cx="343.2" cy="58.2" r="3.5" fill="#b04a4a"/><text x="351.2" y="62.2" font-size="11" fill="#333" text-anchor="start">1 月 28 日盘中：483，券商限制买入</text>
+<circle cx="446.9" cy="270.5" r="3.5" fill="#b04a4a"/><text x="450.9" y="290.5" font-size="11" fill="#333" text-anchor="start">2 月 19 日：40.59</text>
+</svg>

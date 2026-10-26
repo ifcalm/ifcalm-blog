@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="370" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">把工作收入算进来：投资账户里该放多少股票</text>
+<line x1="80" y1="300" x2="600" y2="300" stroke="#888"/><text x="72" y="304" font-size="11" fill="#666" text-anchor="end">0%</text>
+<line x1="80" y1="242.5" x2="600" y2="242.5" stroke="#f0f0f0"/><text x="72" y="246.5" font-size="11" fill="#666" text-anchor="end">25%</text>
+<line x1="80" y1="185.0" x2="600" y2="185.0" stroke="#f0f0f0"/><text x="72" y="189.0" font-size="11" fill="#666" text-anchor="end">50%</text>
+<line x1="80" y1="127.5" x2="600" y2="127.5" stroke="#f0f0f0"/><text x="72" y="131.5" font-size="11" fill="#666" text-anchor="end">75%</text>
+<line x1="80" y1="70" x2="600" y2="70" stroke="#f0f0f0"/><text x="72" y="74" font-size="11" fill="#666" text-anchor="end">100%</text>
+<text x="80" y="318" font-size="11" fill="#666" text-anchor="middle">25 岁</text>
+<text x="145" y="318" font-size="11" fill="#666" text-anchor="middle">30 岁</text>
+<text x="210" y="318" font-size="11" fill="#666" text-anchor="middle">35 岁</text>
+<text x="275" y="318" font-size="11" fill="#666" text-anchor="middle">40 岁</text>
+<text x="340" y="318" font-size="11" fill="#666" text-anchor="middle">45 岁</text>
+<text x="405" y="318" font-size="11" fill="#666" text-anchor="middle">50 岁</text>
+<text x="470" y="318" font-size="11" fill="#666" text-anchor="middle">55 岁</text>
+<text x="535" y="318" font-size="11" fill="#666" text-anchor="middle">60 岁</text>
+<text x="600" y="318" font-size="11" fill="#666" text-anchor="middle">65 岁</text>
+<polyline fill="none" stroke="#4a7fb5" stroke-width="2.6" points="80,70.0 93,70.0 106,70.0 119,70.0 132,70.0 145,70.0 158,70.0 171,70.0 184,70.0 197,70.0 210,70.0 223,70.0 236,70.0 249,70.0 262,70.0 275,70.0 288,70.0 301,70.0 314,70.0 327,70.0 340,70.0 353,70.0 366,70.0 379,70.0 392,70.0 405,70.0 418,70.0 431,70.0 444,70.0 457,70.0 470,70.0 483,70.0 496,79.5 509,92.9 522,105.2 535,116.6 548,127.1 561,136.9 574,145.9 587,154.3 600,162.0"/>
+<polyline fill="none" stroke="#e08a3c" stroke-width="2.6" points="80,70.0 93,70.0 106,70.0 119,70.0 132,70.0 145,70.0 158,70.0 171,70.0 184,70.0 197,70.0 210,70.0 223,70.0 236,70.0 249,70.0 262,70.0 275,70.0 288,70.0 301,76.2 314,84.9 327,92.8 340,99.9 353,106.2 366,112.0 379,117.2 392,122.0 405,126.4 418,130.3 431,134.0 444,137.3 457,140.4 470,143.2 483,145.9 496,148.3 509,150.5 522,152.5 535,154.4 548,156.2 561,157.8 574,159.3 587,160.7 600,162.0"/>
+<line x1="110" y1="344" x2="132" y2="344" stroke="#4a7fb5" stroke-width="3"/><text x="138" y="348" font-size="12" fill="#333">收入像债券（比如公立学校老师）</text>
+<line x1="360" y1="344" x2="382" y2="344" stroke="#e08a3c" stroke-width="3"/><text x="388" y="348" font-size="12" fill="#333">收入一半像股票（比如创业公司员工）</text>
+<text x="340" y="364" text-anchor="middle" font-size="10" fill="#999">假设：目标是全部财富（投资账户 + 未来收入的现值）的 60% 承担股票风险，投资账户里股票比例最高 100%</text>
+</svg>

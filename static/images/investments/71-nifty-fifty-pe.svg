@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="290" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">1972 年底的市盈率：最受追捧的公司 vs 整个市场</text>
+<text x="170" y="69" font-size="12" fill="#333" text-anchor="end">宝丽来</text>
+<rect x="180" y="50" width="417.2" height="28" rx="3" fill="#b04a4a"/>
+<text x="603.2" y="69" font-size="12" fill="#333">约 90.7 倍</text>
+<text x="170" y="111" font-size="12" fill="#333" text-anchor="end">麦当劳</text>
+<rect x="180" y="92" width="394.2" height="28" rx="3" fill="#b04a4a"/>
+<text x="580.2" y="111" font-size="12" fill="#333">约 85.7 倍</text>
+<text x="170" y="153" font-size="12" fill="#333" text-anchor="end">可口可乐</text>
+<rect x="180" y="134" width="219.0" height="28" rx="3" fill="#e08a3c"/>
+<text x="405.0" y="153" font-size="12" fill="#333">约 47.6 倍</text>
+<text x="170" y="195" font-size="12" fill="#333" text-anchor="end">"漂亮 50"平均</text>
+<rect x="180" y="176" width="192.7" height="28" rx="3" fill="#e08a3c"/>
+<text x="378.7" y="195" font-size="12" fill="#333">约 41.9 倍</text>
+<text x="170" y="237" font-size="12" fill="#333" text-anchor="end">标普 500</text>
+<rect x="180" y="218" width="86.9" height="28" rx="3" fill="#4a7fb5"/>
+<text x="272.9" y="237" font-size="12" fill="#333">约 18.9 倍</text>
+<text x="340" y="280" text-anchor="middle" font-size="10" fill="#999">数据：Jeremy Siegel 对"漂亮 50"的研究及其整理的 1972 年市盈率（个股为历史市盈率）</text>
+</svg>
