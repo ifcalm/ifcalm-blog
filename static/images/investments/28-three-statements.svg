@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect x="0" y="0" width="680" height="360" rx="12" fill="#ffffff"/>
+  <text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">三张报表怎样连在一起（阿杰咖啡，单位：千美元）</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+
+  <rect x="30" y="50" width="190" height="230" rx="8" fill="#eef3f9" stroke="#9bb7d4"/>
+  <text x="125" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#2f5d8a">利润表（这一年）</text>
+  <g font-size="12" fill="#333">
+    <text x="44" y="98">收入</text><text x="206" y="98" text-anchor="end">10,000</text>
+    <text x="44" y="118">− 销售成本</text><text x="206" y="118" text-anchor="end">3,500</text>
+    <text x="44" y="138">− 经营费用（含折旧）</text><text x="206" y="138" text-anchor="end">4,800</text>
+    <text x="44" y="158">= 经营利润</text><text x="206" y="158" text-anchor="end">1,700</text>
+    <text x="44" y="178">− 利息</text><text x="206" y="178" text-anchor="end">200</text>
+    <text x="44" y="198">− 所得税</text><text x="206" y="198" text-anchor="end">315</text>
+    <text x="44" y="226" font-weight="600">= 净利润</text><text x="206" y="226" text-anchor="end" font-weight="600">1,185</text>
+  </g>
+
+  <rect x="245" y="50" width="190" height="230" rx="8" fill="#f9f0e7" stroke="#e9a96b"/>
+  <text x="340" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#a05a1c">现金流量表（这一年）</text>
+  <g font-size="12" fill="#333">
+    <text x="258" y="98">净利润</text><text x="422" y="98" text-anchor="end">1,185</text>
+    <text x="258" y="118">+ 折旧</text><text x="422" y="118" text-anchor="end">600</text>
+    <text x="258" y="138">− 应收、存货增加</text><text x="422" y="138" text-anchor="end">150</text>
+    <text x="258" y="158">+ 应付增加</text><text x="422" y="158" text-anchor="end">65</text>
+    <text x="258" y="178" font-weight="600">= 经营现金流</text><text x="422" y="178" text-anchor="end" font-weight="600">1,700</text>
+    <text x="258" y="198">− 开新店（资本支出）</text><text x="422" y="198" text-anchor="end">1,200</text>
+    <text x="258" y="218">融资（分红、借款）</text><text x="422" y="218" text-anchor="end">−400</text>
+    <text x="258" y="246" font-weight="600">= 现金增加</text><text x="422" y="246" text-anchor="end" font-weight="600">100</text>
+  </g>
+
+  <rect x="460" y="50" width="190" height="230" rx="8" fill="#eef6ee" stroke="#9ccc9c"/>
+  <text x="555" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#3f7f3f">资产负债表（年底这一天）</text>
+  <g font-size="12" fill="#333">
+    <text x="474" y="98">现金</text><text x="636" y="98" text-anchor="end">800</text>
+    <text x="474" y="118">应收账款 + 存货</text><text x="636" y="118" text-anchor="end">600</text>
+    <text x="474" y="138">店面设备（净值）</text><text x="636" y="138" text-anchor="end">6,600</text>
+    <text x="474" y="158" font-weight="600">资产合计</text><text x="636" y="158" text-anchor="end" font-weight="600">8,000</text>
+    <text x="474" y="186">应付 + 应计费用</text><text x="636" y="186" text-anchor="end">800</text>
+    <text x="474" y="206">长期借款</text><text x="636" y="206" text-anchor="end">3,200</text>
+    <text x="474" y="226">股东权益</text><text x="636" y="226" text-anchor="end">4,000</text>
+    <text x="474" y="252" font-weight="600">负债 + 权益</text><text x="636" y="252" text-anchor="end" font-weight="600">8,000</text>
+  </g>
+
+  <path d="M206,232 C230,300 240,110 258,100" fill="none" stroke="#888" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M422,252 C445,300 450,110 474,100" fill="none" stroke="#888" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M206,232 C300,330 440,320 474,230" fill="none" stroke="#888" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#a)"/>
+  <text x="340" y="316" text-anchor="middle" font-size="11" fill="#555">净利润进入现金流量表的第一行；也让股东权益增加（扣掉分红后）</text>
+  <text x="340" y="340" text-anchor="middle" font-size="11" fill="#555">现金流量表最后一行的"现金增加"，等于资产负债表上现金的变化</text>
+</svg>

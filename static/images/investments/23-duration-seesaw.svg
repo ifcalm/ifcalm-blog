@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="330" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">久期是跷跷板的支点：把每笔现金流的现值放在它到来的时间上</text>
+<rect x="90" y="230" width="490" height="8" rx="3" fill="#8a8a8a"/>
+<line x1="90" y1="238" x2="90" y2="246" stroke="#666"/><text x="90" y="262" font-size="12" fill="#666" text-anchor="middle">今天</text>
+<line x1="250" y1="238" x2="250" y2="246" stroke="#666"/><text x="250" y="262" font-size="12" fill="#666" text-anchor="middle">1 年后</text>
+<line x1="410" y1="238" x2="410" y2="246" stroke="#666"/><text x="410" y="262" font-size="12" fill="#666" text-anchor="middle">2 年后</text>
+<line x1="570" y1="238" x2="570" y2="246" stroke="#666"/><text x="570" y="262" font-size="12" fill="#666" text-anchor="middle">3 年后</text>
+<rect x="233.0" y="221.9" width="34" height="8.1" fill="#4a7fb5"/>
+<text x="250" y="215.9" font-size="12" fill="#333" text-anchor="middle">47.62</text>
+<rect x="393.0" y="222.3" width="34" height="7.7" fill="#4a7fb5"/>
+<text x="410" y="216.3" font-size="12" fill="#333" text-anchor="middle">45.35</text>
+<rect x="553.0" y="75.8" width="34" height="154.2" fill="#4a7fb5"/>
+<text x="570" y="69.8" font-size="12" fill="#333" text-anchor="middle">907.03</text>
+<polygon points="547.44,238 531.44,270 563.44,270" fill="#e08a3c"/>
+<text x="547.44" y="290" font-size="13" fill="#e08a3c" text-anchor="middle" font-weight="600">支点：约 2.86 年</text>
+<text x="330.0" y="110" font-size="12" fill="#555" text-anchor="middle">3 年期、票面利率 5%、市场利率 5% 的债券</text>
+<text x="330.0" y="128" font-size="12" fill="#555" text-anchor="middle">方块高度 = 每笔现金流折算到今天的价值（美元）</text>
+<text x="340" y="318" text-anchor="middle" font-size="11" fill="#888">零息债券只有最后一个方块，支点就在到期日；票面利率越高，前面的方块越重，支点越往左</text>
+</svg>

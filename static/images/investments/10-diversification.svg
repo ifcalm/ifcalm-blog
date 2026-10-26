@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="370" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">股票越多，组合波动越小，但降到一个底就降不动了</text>
+<line x1="80" y1="240" x2="600" y2="240" stroke="#eeeeee"/><text x="72" y="244" font-size="12" fill="#666" text-anchor="end">10%</text>
+<line x1="80" y1="180" x2="600" y2="180" stroke="#eeeeee"/><text x="72" y="184" font-size="12" fill="#666" text-anchor="end">20%</text>
+<line x1="80" y1="120" x2="600" y2="120" stroke="#eeeeee"/><text x="72" y="124" font-size="12" fill="#666" text-anchor="end">30%</text>
+<line x1="80" y1="60" x2="600" y2="60" stroke="#eeeeee"/><text x="72" y="64" font-size="12" fill="#666" text-anchor="end">40%</text>
+<text x="72" y="304" font-size="12" fill="#666" text-anchor="end">0</text>
+<text x="80.0" y="318" font-size="12" fill="#666" text-anchor="middle">1</text>
+<text x="175.5" y="318" font-size="12" fill="#666" text-anchor="middle">10</text>
+<text x="281.6" y="318" font-size="12" fill="#666" text-anchor="middle">20</text>
+<text x="387.8" y="318" font-size="12" fill="#666" text-anchor="middle">30</text>
+<text x="493.9" y="318" font-size="12" fill="#666" text-anchor="middle">40</text>
+<text x="600.0" y="318" font-size="12" fill="#666" text-anchor="middle">50</text>
+<line x1="80" y1="300" x2="600" y2="300" stroke="#888"/><line x1="80" y1="50" x2="80" y2="300" stroke="#888"/>
+<text x="600" y="336" font-size="12" fill="#666" text-anchor="end">组合里的股票数量（等权重）</text>
+<text x="30" y="175" font-size="12" fill="#666" transform="rotate(-90 30 175)" text-anchor="middle">组合波动率</text>
+<rect x="80" y="180" width="520" height="120" fill="#f6dcdc" opacity="0.55"/>
+<line x1="80" y1="180" x2="600" y2="180" stroke="#b04a4a" stroke-dasharray="5 4"/>
+<polyline fill="none" stroke="#6aa36a" stroke-width="2.2" stroke-dasharray="6 4" points="80.0,60.0 90.6,130.3 101.2,161.4 111.8,180.0 122.4,192.7 133.1,202.0 143.7,209.3 154.3,215.1 164.9,220.0 175.5,224.1 186.1,227.6 196.7,230.7 207.3,233.4 218.0,235.9 228.6,238.0 239.2,240.0 249.8,241.8 260.4,243.4 271.0,244.9 281.6,246.3 292.2,247.6 302.9,248.8 313.5,250.0 324.1,251.0 334.7,252.0 345.3,252.9 355.9,253.8 366.5,254.6 377.1,255.4 387.8,256.2 398.4,256.9 409.0,257.6 419.6,258.2 430.2,258.8 440.8,259.4 451.4,260.0 462.0,260.5 472.7,261.1 483.3,261.6 493.9,262.1 504.5,262.5 515.1,263.0 525.7,263.4 536.3,263.8 546.9,264.2 557.6,264.6 568.2,265.0 578.8,265.4 589.4,265.7 600.0,266.1"/>
+<polyline fill="none" stroke="#4a7fb5" stroke-width="2.5" points="80.0,60.0 90.6,110.3 101.2,130.3 111.8,141.3 122.4,148.2 133.1,153.0 143.7,156.6 154.3,159.3 164.9,161.4 175.5,163.2 186.1,164.6 196.7,165.8 207.3,166.9 218.0,167.8 228.6,168.5 239.2,169.2 249.8,169.8 260.4,170.4 271.0,170.9 281.6,171.3 292.2,171.7 302.9,172.1 313.5,172.4 324.1,172.7 334.7,173.0 345.3,173.3 355.9,173.5 366.5,173.7 377.1,173.9 387.8,174.1 398.4,174.3 409.0,174.5 419.6,174.7 430.2,174.8 440.8,175.0 451.4,175.1 462.0,175.2 472.7,175.4 483.3,175.5 493.9,175.6 504.5,175.7 515.1,175.8 525.7,175.9 536.3,176.0 546.9,176.1 557.6,176.1 568.2,176.2 578.8,176.3 589.4,176.4 600.0,176.5"/>
+<text x="590" y="202" font-size="12" fill="#b04a4a" text-anchor="end">系统性风险：分散不掉的那 20%</text>
+<text x="590" y="154" font-size="12" fill="#4a7fb5" text-anchor="end">股票之间相关系数 0.25（现实情况）</text>
+<text x="590" y="246.04000000000002" font-size="12" fill="#6aa36a" text-anchor="end">股票之间完全不相关（理想情况）</text>
+<text x="107.2" y="84" font-size="12" fill="#333">单只股票：40%</text>
+<circle cx="80.0" cy="60" r="4" fill="#333"/>
+</svg>

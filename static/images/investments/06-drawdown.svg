@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect x="0" y="0" width="680" height="360" rx="12" fill="#ffffff"/>
+  <text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">最大回撤：从最高点跌到最低点，再爬回最高点</text>
+
+  <g stroke="#e6e6e6" stroke-width="1">
+    <line x1="80" y1="50" x2="600" y2="50"/>
+    <line x1="80" y1="110" x2="600" y2="110"/>
+    <line x1="80" y1="170" x2="600" y2="170"/>
+    <line x1="80" y1="230" x2="600" y2="230"/>
+  </g>
+  <line x1="80" y1="290" x2="600" y2="290" stroke="#888" stroke-width="1.2"/>
+  <line x1="80" y1="50" x2="80" y2="290" stroke="#888" stroke-width="1.2"/>
+  <g font-size="12" fill="#666" text-anchor="end">
+    <text x="72" y="54">140</text>
+    <text x="72" y="114">120</text>
+    <text x="72" y="174">100</text>
+    <text x="72" y="234">80</text>
+    <text x="72" y="294">60</text>
+  </g>
+  <g font-size="12" fill="#666" text-anchor="middle">
+    <text x="80" y="310">0</text>
+    <text x="174.5" y="310">2</text>
+    <text x="269.1" y="310">4</text>
+    <text x="363.6" y="310">6</text>
+    <text x="458.2" y="310">8</text>
+    <text x="552.7" y="310">10</text>
+    <text x="600" y="326">期</text>
+  </g>
+
+  <!-- underwater shading -->
+  <polygon fill="#f6dcdc" opacity="0.7" points="269.1,65 316.4,125 363.6,185 410.9,227 458.2,200 505.5,155 552.7,110 597,65"/>
+
+  <!-- peak line -->
+  <line x1="269.1" y1="65" x2="600" y2="65" stroke="#b04a4a" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <polyline fill="none" stroke="#4a7fb5" stroke-width="2.5" points="80,170 127.3,140 174.5,95 221.8,110 269.1,65 316.4,125 363.6,185 410.9,227 458.2,200 505.5,155 552.7,110 600,62"/>
+
+  <g fill="#4a7fb5">
+    <circle cx="269.1" cy="65" r="4"/>
+    <circle cx="410.9" cy="227" r="4"/>
+    <circle cx="600" cy="62" r="4"/>
+  </g>
+
+  <!-- drawdown arrow -->
+  <line x1="410.9" y1="69" x2="410.9" y2="219" stroke="#b04a4a" stroke-width="1.5"/>
+  <polygon points="410.9,225 406,214 415.8,214" fill="#b04a4a"/>
+
+  <g font-size="12" fill="#333">
+    <text x="232" y="56">高点 135</text>
+    <text x="420" y="246">低点 81</text>
+    <text x="560" y="50">回到 136</text>
+    <text x="420" y="140" fill="#b04a4a" font-weight="600">最大回撤 −40%</text>
+    <text x="420" y="158" fill="#b04a4a">回本需要 +66.7%</text>
+  </g>
+  <text x="340" y="346" text-anchor="middle" font-size="12" fill="#777">红色区域是"水下"：资产低于此前最高点的时期，从高点到重新站上高点用了 7 期</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="360" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">1928–2025 年，每年再平衡的股债组合：收益和波动</text>
+<line x1="90" y1="300" x2="590" y2="300" stroke="#f0f0f0"/><text x="82" y="304" font-size="11" fill="#666" text-anchor="end">4%</text>
+<line x1="90" y1="260" x2="590" y2="260" stroke="#f0f0f0"/><text x="82" y="264" font-size="11" fill="#666" text-anchor="end">5%</text>
+<line x1="90" y1="220" x2="590" y2="220" stroke="#f0f0f0"/><text x="82" y="224" font-size="11" fill="#666" text-anchor="end">6%</text>
+<line x1="90" y1="180" x2="590" y2="180" stroke="#f0f0f0"/><text x="82" y="184" font-size="11" fill="#666" text-anchor="end">7%</text>
+<line x1="90" y1="140" x2="590" y2="140" stroke="#f0f0f0"/><text x="82" y="144" font-size="11" fill="#666" text-anchor="end">8%</text>
+<line x1="90" y1="100" x2="590" y2="100" stroke="#f0f0f0"/><text x="82" y="104" font-size="11" fill="#666" text-anchor="end">9%</text>
+<line x1="90" y1="60" x2="590" y2="60" stroke="#f0f0f0"/><text x="82" y="64" font-size="11" fill="#666" text-anchor="end">10%</text>
+<text x="90.0" y="320" font-size="11" fill="#666" text-anchor="middle">5%</text>
+<text x="215.0" y="320" font-size="11" fill="#666" text-anchor="middle">9%</text>
+<text x="340.0" y="320" font-size="11" fill="#666" text-anchor="middle">13%</text>
+<text x="465.0" y="320" font-size="11" fill="#666" text-anchor="middle">17%</text>
+<text x="590.0" y="320" font-size="11" fill="#666" text-anchor="middle">21%</text>
+<line x1="90" y1="304" x2="590" y2="304" stroke="#888"/>
+<text x="590" y="340" font-size="12" fill="#666" text-anchor="end">年收益的标准差</text>
+<text x="30" y="180" font-size="12" fill="#666" transform="rotate(-90 30 180)" text-anchor="middle">几何平均年收益</text>
+<polyline fill="none" stroke="#9bb7d4" stroke-width="2" points="540.0,59.2 421.2,89.2 311.9,126.4 221.2,170.4 168.1,221.2 180.6,278.8"/>
+<circle cx="540.0" cy="59.2" r="5" fill="#4a7fb5"/>
+<text x="530.0" y="63.2" font-size="11" fill="#333" text-anchor="end">股票 100%：10.0%，最大回撤 -65%</text>
+<circle cx="421.2" cy="89.2" r="5" fill="#4a7fb5"/>
+<text x="411.2" y="93.2" font-size="11" fill="#333" text-anchor="end">股票 80%：9.3%，最大回撤 -54%</text>
+<circle cx="311.9" cy="126.4" r="5" fill="#4a7fb5"/>
+<text x="321.9" y="130.4" font-size="11" fill="#333" text-anchor="start">股票 60%：8.3%，最大回撤 -40%</text>
+<circle cx="221.2" cy="170.4" r="5" fill="#4a7fb5"/>
+<text x="231.2" y="174.4" font-size="11" fill="#333" text-anchor="start">股票 40%：7.2%，最大回撤 -26%</text>
+<circle cx="168.1" cy="221.2" r="5" fill="#4a7fb5"/>
+<text x="178.1" y="225.2" font-size="11" fill="#333" text-anchor="start">股票 20%：6.0%，最大回撤 -18%</text>
+<circle cx="180.6" cy="278.8" r="5" fill="#4a7fb5"/>
+<text x="190.6" y="282.8" font-size="11" fill="#333" text-anchor="start">股票 0%：4.5%，最大回撤 -22%</text>
+<text x="340" y="354" text-anchor="middle" font-size="10" fill="#999">数据：Damodaran 历史收益（标普 500 含股息、10 年期国债），年度数据计算的回撤会低估年内的最大跌幅</text>
+</svg>

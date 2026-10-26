@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 385" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="385" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">收敛交易：利差从 0.12% 变到多少，股东的钱就变成多少</text>
+<line x1="90" y1="300.0" x2="590" y2="300.0" stroke="#f0f0f0"/><text x="82" y="304.0" font-size="11" fill="#666" text-anchor="end">-100%</text>
+<line x1="90" y1="235.0" x2="590" y2="235.0" stroke="#f0f0f0"/><text x="82" y="239.0" font-size="11" fill="#666" text-anchor="end">-50%</text>
+<line x1="90" y1="170.0" x2="590" y2="170.0" stroke="#888"/><text x="82" y="174.0" font-size="11" fill="#666" text-anchor="end">+0%</text>
+<line x1="90" y1="105.0" x2="590" y2="105.0" stroke="#f0f0f0"/><text x="82" y="109.0" font-size="11" fill="#666" text-anchor="end">+50%</text>
+<text x="90.0" y="329.0" font-size="11" fill="#666" text-anchor="middle">0.00%</text>
+<text x="215.0" y="329.0" font-size="11" fill="#666" text-anchor="middle">0.10%</text>
+<text x="340.0" y="329.0" font-size="11" fill="#666" text-anchor="middle">0.20%</text>
+<text x="465.0" y="329.0" font-size="11" fill="#666" text-anchor="middle">0.30%</text>
+<text x="590.0" y="329.0" font-size="11" fill="#666" text-anchor="middle">0.40%</text>
+<text x="590" y="347.0" font-size="12" fill="#666" text-anchor="end">平仓时两张国债的收益率之差</text>
+<polyline fill="none" stroke="#9bb7d4" stroke-width="2.6" points="90.0,167.7 102.5,167.9 115.0,168.1 127.5,168.2 140.0,168.4 152.5,168.6 165.0,168.8 177.5,169.0 190.0,169.2 202.5,169.4 215.0,169.6 227.5,169.8 240.0,170.0 252.5,170.2 265.0,170.4 277.5,170.6 290.0,170.8 302.5,171.0 315.0,171.2 327.5,171.4 340.0,171.6 352.5,171.8 365.0,171.9 377.5,172.1 390.0,172.3 402.5,172.5 415.0,172.7 427.5,172.9 440.0,173.1 452.5,173.3 465.0,173.5 477.5,173.7 490.0,173.9 502.5,174.1 515.0,174.3 527.5,174.5 540.0,174.7 552.5,174.9 565.0,175.1 577.5,175.3 590.0,175.5"/>
+<polyline fill="none" stroke="#b04a4a" stroke-width="2.6" points="90.0,111.5 102.5,116.4 115.0,121.2 127.5,126.1 140.0,131.0 152.5,135.9 165.0,140.8 177.5,145.6 190.0,150.5 202.5,155.4 215.0,160.2 227.5,165.1 240.0,170.0 252.5,174.9 265.0,179.8 277.5,184.6 290.0,189.5 302.5,194.4 315.0,199.2 327.5,204.1 340.0,209.0 352.5,213.9 365.0,218.8 377.5,223.6 390.0,228.5 402.5,233.4 415.0,238.2 427.5,243.1 440.0,248.0 452.5,252.9 465.0,257.8 477.5,262.6 490.0,267.5 502.5,272.4 515.0,277.2 527.5,282.1 540.0,287.0 552.5,291.9 565.0,296.8 577.5,301.6 590.0,306.5"/>
+<line x1="240.0" y1="98.5" x2="240.0" y2="313.0" stroke="#bbb" stroke-dasharray="3 3"/><text x="244.0" y="110.5" font-size="11" fill="#555">开仓时 0.12%</text>
+<text x="94.0" y="105.5" font-size="11" fill="#b04a4a">收敛到 0：+45%</text>
+<text x="469.0" y="249.8" font-size="11" fill="#b04a4a">扩大到 0.30%：−67.5%</text>
+<line x1="200" y1="370" x2="222" y2="370" stroke="#9bb7d4" stroke-width="3"/><text x="228" y="374" font-size="12" fill="#333">不加杠杆</text><line x1="320" y1="370" x2="342" y2="370" stroke="#b04a4a" stroke-width="3"/><text x="348" y="374" font-size="12" fill="#333">25 倍杠杆（久期按 15 年计算）</text>
+</svg>

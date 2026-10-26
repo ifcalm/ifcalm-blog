@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="680" height="370" rx="12" fill="#ffffff"/>
+<text x="340" y="26" text-anchor="middle" font-size="15" font-weight="600" fill="#222">起点越贵，之后十年越难赚：按 CAPE 分五档的未来十年实际年化回报</text>
+<line x1="80" y1="262.5" x2="620" y2="262.5" stroke="#f0f0f0"/><text x="72" y="266.5" font-size="11" fill="#666" text-anchor="end">-5%</text>
+<line x1="80" y1="220.0" x2="620" y2="220.0" stroke="#888"/><text x="72" y="224.0" font-size="11" fill="#666" text-anchor="end">0%</text>
+<line x1="80" y1="177.5" x2="620" y2="177.5" stroke="#f0f0f0"/><text x="72" y="181.5" font-size="11" fill="#666" text-anchor="end">5%</text>
+<line x1="80" y1="135.0" x2="620" y2="135.0" stroke="#f0f0f0"/><text x="72" y="139.0" font-size="11" fill="#666" text-anchor="end">10%</text>
+<line x1="80" y1="92.5" x2="620" y2="92.5" stroke="#f0f0f0"/><text x="72" y="96.5" font-size="11" fill="#666" text-anchor="end">15%</text>
+<line x1="80" y1="50.0" x2="620" y2="50.0" stroke="#f0f0f0"/><text x="72" y="54.0" font-size="11" fill="#666" text-anchor="end">20%</text>
+<line x1="150" y1="50.3" x2="150" y2="204.6" stroke="#999" stroke-width="1.5"/>
+<line x1="142" y1="50.3" x2="158" y2="50.3" stroke="#999"/><line x1="142" y1="204.6" x2="158" y2="204.6" stroke="#999"/>
+<rect x="130" y="127.3" width="40" height="92.7" fill="#4a7fb5" opacity="0.85"/>
+<text x="176" y="131.3" font-size="12" fill="#333">10.9%</text>
+<text x="150" y="299.5" font-size="11" fill="#555" text-anchor="middle">CAPE 4.8–11.1</text>
+<text x="150" y="315.5" font-size="10" fill="#888" text-anchor="middle">最便宜</text>
+<line x1="255" y1="85.7" x2="255" y2="255.3" stroke="#999" stroke-width="1.5"/>
+<line x1="247" y1="85.7" x2="263" y2="85.7" stroke="#999"/><line x1="247" y1="255.3" x2="263" y2="255.3" stroke="#999"/>
+<rect x="235" y="158.8" width="40" height="61.2" fill="#4a7fb5" opacity="0.85"/>
+<text x="281" y="162.8" font-size="12" fill="#333">7.2%</text>
+<text x="255" y="299.5" font-size="11" fill="#555" text-anchor="middle">CAPE 11.1–14.4</text>
+<text x="255" y="315.5" font-size="10" fill="#888" text-anchor="middle"></text>
+<line x1="360" y1="82.9" x2="360" y2="259.4" stroke="#999" stroke-width="1.5"/>
+<line x1="352" y1="82.9" x2="368" y2="82.9" stroke="#999"/><line x1="352" y1="259.4" x2="368" y2="259.4" stroke="#999"/>
+<rect x="340" y="164.2" width="40" height="55.8" fill="#4a7fb5" opacity="0.85"/>
+<text x="386" y="168.2" font-size="12" fill="#333">6.6%</text>
+<text x="360" y="299.5" font-size="11" fill="#555" text-anchor="middle">CAPE 14.4–17.3</text>
+<text x="360" y="315.5" font-size="10" fill="#888" text-anchor="middle"></text>
+<line x1="465" y1="95.6" x2="465" y2="253.7" stroke="#999" stroke-width="1.5"/>
+<line x1="457" y1="95.6" x2="473" y2="95.6" stroke="#999"/><line x1="457" y1="253.7" x2="473" y2="253.7" stroke="#999"/>
+<rect x="445" y="172.5" width="40" height="47.5" fill="#4a7fb5" opacity="0.85"/>
+<text x="491" y="176.5" font-size="12" fill="#333">5.6%</text>
+<text x="465" y="299.5" font-size="11" fill="#555" text-anchor="middle">CAPE 17.3–21.0</text>
+<text x="465" y="315.5" font-size="10" fill="#888" text-anchor="middle"></text>
+<line x1="570" y1="108.4" x2="570" y2="270.3" stroke="#999" stroke-width="1.5"/>
+<line x1="562" y1="108.4" x2="578" y2="108.4" stroke="#999"/><line x1="562" y1="270.3" x2="578" y2="270.3" stroke="#999"/>
+<rect x="550" y="194.2" width="40" height="25.8" fill="#4a7fb5" opacity="0.85"/>
+<text x="596" y="198.2" font-size="12" fill="#333">3.0%</text>
+<text x="570" y="299.5" font-size="11" fill="#555" text-anchor="middle">CAPE 21.0–44.2</text>
+<text x="570" y="315.5" font-size="10" fill="#888" text-anchor="middle">最贵</text>
+<text x="340" y="362" text-anchor="middle" font-size="10" fill="#999">数据：Robert Shiller 公开数据（1881 年 1 月至 2023 年 9 月），起点 1881–2013 年；柱为平均值，竖线为最低到最高</text>
+</svg>
