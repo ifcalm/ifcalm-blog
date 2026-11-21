@@ -6,6 +6,9 @@ title = '我在栀南镇的日子'                    # 网站标题
 theme = 'paperMod'                         # 主题名称（需放在 themes/ 目录下）
 enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎识别
 
+[markup.goldmark.renderer]
+  unsafe = true                            # 允许正文使用 <details> 等原生 HTML（内容均由本站作者撰写）
+
 [params]
   env = "production"
   description = "个人博客"      # 网站描述（用于 SEO）
@@ -61,6 +64,7 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
 
   # 自定义按钮（跳转文章、归档等）
   buttons = [
+    { name = "课程", url = "/courses/" },
     { name = "博文", url = "/posts/" },
     { name = "归档", url = "/archives/" },
     { name = "关于我", url = "/about/" }
@@ -85,109 +89,10 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
     weight = 2
 
   [[menu.main]]
-    identifier = "essay"
-    name = "随笔&感悟"
-    url = "/posts/essay/"
-    parent = "posts"       # 指定为 "博文" 的子菜单
+    identifier = "courses"
+    name = "课程"
+    url = "/courses/"
     weight = 3
-
-  [[menu.main]]
-    identifier = "books"
-    name = "读书&技术"
-    url = "/posts/books/"
-    parent = "posts"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "notes"
-    name = "日记&笔记"
-    url = "/posts/notes/"
-    parent = "posts"
-    weight = 5
-
-  [[menu.main]]
-    identifier = "web3"
-    name = "web3"
-    url = "/posts/web3/"
-    parent = "posts"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "trade"
-    name = "交易&手册"
-    url = "/posts/trade/"
-    parent = "posts"
-    weight = 7
-
-  [[menu.main]]
-    identifier = "networks"
-    name = "计算机网络"
-    url = "/posts/networks/"
-    parent = "posts"
-    weight = 8
-
-  [[menu.main]]
-    identifier = "datastruct"
-    name = "数据结构与算法"
-    url = "/posts/datastruct/"
-    parent = "posts"
-    weight = 9
-
-  [[menu.main]]
-    identifier = "os"
-    name = "操作系统"
-    url = "/posts/os/"
-    parent = "posts"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "security"
-    name = "安全"
-    url = "/posts/security/"
-    parent = "posts"
-    weight = 12
-
-  [[menu.main]]
-    identifier = "trade-analysis"
-    name = "交易技术分析"
-    url = "/posts/trade-analysis/"
-    parent = "posts"
-    weight = 13
-
-  [[menu.main]]
-    identifier = "blockchain"
-    name = "区块链原理"
-    url = "/posts/blockchain/"
-    parent = "posts"
-    weight = 11
-
-  [[menu.main]]
-    identifier = "llm"
-    name = "LLM 原理"
-    url = "/posts/llm/"
-    parent = "posts"
-    weight = 14
-
-  [[menu.main]]
-    identifier = "economics"
-    name = "经济学原理"
-    url = "/posts/economics/"
-    parent = "posts"
-    weight = 15
-
-  [[menu.main]]
-    identifier = "game-theory"
-    name = "博弈论"
-    url = "/posts/game-theory/"
-    parent = "posts"
-    weight = 16
-
-  [[menu.main]]
-    identifier = "investments"
-    name = "投资学"
-    url = "/posts/investments/"
-    parent = "posts"
-    weight = 17
 
   [[menu.main]]
     identifier = "archives"
