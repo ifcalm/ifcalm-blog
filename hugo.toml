@@ -64,7 +64,6 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
 
   # 自定义按钮（跳转文章、归档等）
   buttons = [
-    { name = "课程", url = "/courses/" },
     { name = "博文", url = "/posts/" },
     { name = "归档", url = "/archives/" },
     { name = "关于我", url = "/about/" }
@@ -87,12 +86,6 @@ enableRobotsTXT = true                     # 生成 robots.txt 供搜索引擎�
     name = "博文"
     url = "/posts/"
     weight = 2
-
-  [[menu.main]]
-    identifier = "courses"
-    name = "课程"
-    url = "/courses/"
-    weight = 3
 
   [[menu.main]]
     identifier = "archives"
